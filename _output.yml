@@ -4,8 +4,6 @@ bookdown::gitbook:
     toc:
       before: |
         <li><a href="./">Knowledge Pool</a></li>
-      after: |
-        <li><a href="https://github.com/knowledge-pool/book" target="blank">Published with bookdown</a></li>
     edit: https://github.com/knowledge-pool/book-demo/edit/master/%s
     # download: ["pdf", "epub"
 bookdown::pdf_book:
