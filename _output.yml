@@ -3,10 +3,10 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">The afrimapr book</a></li>
+        <li><a href="./">Knowledge Pool</a></li>
       after: |
-        <li><a href="https://github.com/afrimapr/book" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/afrimapr/book-demo/edit/master/%s
+        <li><a href="https://github.com/knowledge-pool</a></li>
+    edit: https://github.com/knowledge-pool
     # download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
