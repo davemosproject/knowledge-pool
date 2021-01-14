@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">Knowledge Pool</a></li>
       after: |
         <li><a href="https://github.com/knowledge-pool</a></li>
-    edit: https://github.com/knowledge-pool
+    edit: x
     # download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
