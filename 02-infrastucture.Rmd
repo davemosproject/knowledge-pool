@@ -28,5 +28,14 @@ Currently state of Michigan together with several private partners including For
 
 ### Impacts with respect to Sustainable Development Goals (SDGs)
 
-
-
+```{r table1, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Fuel consumption reduced|+|Environmental sustainability (*7,12-13,15*)|Ivanchev et al., 2017|
+|Individual|Travel time reduced|          +|Sustainable economic development (*8,11*)|Zhong, 2018;Yang et al., 2019|
+|          Systemic|         Collision rate reduced|          +|Health & Wellbeing (*3*)|Zhang et al., 2020|
+|          Systemic|         Emissions rate reduced|          +|Environmental sustainability (*7,12-13,15*)|Al Alam at al., 2010|
+|          Systemic|         Congestion|          ~|Sustainable economic development (*8,11*)|Ivanchev et al., 2017;Kumar et al., 2020|
+|          Systemic|         Novel designs tested|          +|Innovation & Infrastructure (*9*)|Guin et al., 2008;Zhong, 2018;Krisher & Eggert, 2020|
+|          Systemic|       SHOW EU initiative  |          +|Partnership & collaborations (*17*)|CORDIS, 2020|')
+```
