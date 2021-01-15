@@ -39,3 +39,9 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |          Systemic|         Novel designs tested|          +|Innovation & Infrastructure (*9*)|Guin et al., 2008;Zhong, 2018;Krisher & Eggert, 2020|
 |          Systemic|       SHOW EU initiative  |          +|Partnership & collaborations (*17*)|CORDIS, 2020|')
 ```
+
+### Technology readiness level
+5-6
+
+### Societal readiness level
+TBD
