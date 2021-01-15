@@ -6,6 +6,10 @@ dedicated-lanes-for-connected-and-automated-vehicles-cav
 synonyms
 definition
 key-stakeholders
+current-state-of-art-in-research
+current-state-of-art-in-practice
+relevant-initiatives-in-austria
+impacts-with-respect-to-sustainable-development-goals-sdgs
 highway-infrastructure-management
 traffic-management
 road-pricing
