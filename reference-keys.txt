@@ -2,6 +2,10 @@ fig:unnamed-chunk-1
 fig:unnamed-chunk-2
 introduction
 physical-road-infrastructure
+dedicated-lanes-for-connected-and-automated-vehicles-cav
+synonyms
+definition
+key-stakeholders
 highway-infrastructure-management
 traffic-management
 road-pricing
