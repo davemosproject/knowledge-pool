@@ -11,7 +11,7 @@ github-repo: rstudio/bookdown-demo
 description: "This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation."
 ---
 
-# Preface {-}
+# Table of content {-}
 
 1. Introduction to the knowledge pool \@ref(intro)
 2. Physical road infrastructure \@ref(infrastructure)
