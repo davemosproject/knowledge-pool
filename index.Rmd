@@ -15,4 +15,3 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 list of chapters
 
-![Continuous integration (built on GitHub)](https://github.com/afrimapr/book/workflows/tic/badge.svg)
