@@ -10,6 +10,11 @@ current-state-of-art-in-research
 current-state-of-art-in-practice
 relevant-initiatives-in-austria
 impacts-with-respect-to-sustainable-development-goals-sdgs
+technology-readiness-level
+societal-readiness-level
+open-questions
+further-links
+references
 highway-infrastructure-management
 traffic-management
 road-pricing
@@ -23,4 +28,4 @@ collective-mobility-vehicles
 big-data
 shared-mobility
 alternative-power-sources
-references
+references-1
