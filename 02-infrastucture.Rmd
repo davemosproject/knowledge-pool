@@ -1,1 +1,17 @@
 # Physical road infrastructure
+
+## Dedicated lanes for connected and automated vehicles (CAV)
+
+## Cooperative lane control for connected and automated vehicles
+
+## Operational Design Domains (ODD)
+
+## Rail crossing information system
+
+## Electric Road System (ERS)
+
+## High Occypancy Toll Lanes (HOT Lanes)
+
+## Public transport priority systems
+
+## Transformation of Public Space and Digital Solutions
