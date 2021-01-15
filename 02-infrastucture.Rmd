@@ -2,16 +2,18 @@
 
 ## Dedicated lanes for connected and automated vehicles (CAV)
 
-## Cooperative lane control for connected and automated vehicles
+### Synonyms
+*AV-dedicated lanes*, *dedicated corridors*
 
-## Operational Design Domains (ODD)
+### Definition
+Dedicated lane for connected and autonomous vehicles features additional infrastructure or sensors to increase the reliability of Advanced Driver Assistant Systems (ADAS). Only automated driving vehicles are allowed to drive on these lanes. The typical applications include cooperative and adaptive cruise control based on sensors with the infrastructure, lane keeping, fuel use optimization and road pricing possibilities (Broek et al., 2011). The introduction of dedicated lanes for CAV is expected to have direct consequences on the traffic flow on the highways and a nearby road network. In particular, a study conducted in Singapore showed that dedicated lanes on the highways can reduce travel time of CAVs by approximately 25% (if the saturation on the lane is not reached) at the cost of a delay for conventional cars of approximately 7%, due to the reduced capacity (Ivanchev et al., 2017). They were also demonstrated to have a positive effect on fuel consumption. <br/><br/>
+Moreover, the throughput, defined as a number of vehicles passing through the road in a given time interval, increased as a result of introduction of dedicated lanes for AVs (Kumar et al., 2020). This effect, however, was associated with a decrease in throughput of smaller roads due to the preference of AVs for highways because of time savings, which in turn can result in time loss for conventional cars. What is more, the benefits from increased capacity of AV-only lanes can be further amplified through setting a higher speed limits for these lanes (Ye & Yamamoto, 2018). With respect to the demand for different road types the study found that the introduction of dedicated CAV lanes will increase the demand of conventional cars for major road (but smaller than highways) and minor roads as a substitution for more congested highways due to the dedicated AV lanes. <br/><br/>
+In contrast, study by Chen et al. (2016) showed that the implementation of CAV dedicated lanes has a potential of maximizing traffic capacity on these lanes in a mix-traffic context while having effectively no impact on conventional traffic capacity. Further, in order to use efficiently CAV dedicated lanes, which may be underutilized at the early stage, it is proposed to allow conventional cars to enter the AVs-only lanes after toll payment. This solution stems from currently operational across the world High Occupancy Vehicle (HOV) lanes. This joint approach is claimed to improve the throughput of individual road as well as enhance system-wide flow distribution within the network (Liu & Song, 2019).
 
-## Rail crossing information system
+### Key stakeholders
 
-## Electric Road System (ERS)
+- **Affected**: Conventional Cars’ Drivers, Car Manufacturers, Insurers
+- **Responsible**: Road Infrastructure Agencies, Local and National Governments
 
-## High Occypancy Toll Lanes (HOT Lanes)
 
-## Public transport priority systems
 
-## Transformation of Public Space and Digital Solutions
