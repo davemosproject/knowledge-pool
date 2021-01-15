@@ -1,4 +1,4 @@
-# Physical road infrastructure
+# Physical road infrastructure {#infrastructure}
 
 ## Dedicated lanes for connected and automated vehicles (CAV)
 
@@ -23,8 +23,8 @@ Currently state of Michigan together with several private partners including For
 
 ### Relevant initiatives in Austria
 
-- https://www.tugraz.at/fileadmin/user_upload/Institute/IHF/Projekte/ENABLE-S3_SummaryofResults_May2019.pdf 
-- https://www.ait.ac.at/themen/verkehrssicherheit-und-unfallforschung/projects/via-autonom/ 
+- [tugraz.at](https://www.tugraz.at/fileadmin/user_upload/Institute/IHF/Projekte/ENABLE-S3_SummaryofResults_May2019.pdf "tugraz.at") 
+- [ait.ac.at](https://www.ait.ac.at/themen/verkehrssicherheit-und-unfallforschung/projects/via-autonom/ "ait.ac.at") 
 
 ### Impacts with respect to Sustainable Development Goals (SDGs)
 
@@ -62,8 +62,8 @@ vehicles, public transport, pedestrians and cyclists). (ERTRAC, 2019)
 
 ### Further links
 
--	https://knowledge-base.connectedautomateddriving.eu/wp-content/uploads/2019/12/SMART_2010-0064-study-report-final_V1-2.pdf 
--	https://show-project.eu/ 
+-	[knowledge base](https://knowledge-base.connectedautomateddriving.eu/wp-content/uploads/2019/12/SMART_2010-0064-study-report-final_V1-2.pdf) 
+-	[show project](https://show-project.eu/) 
 
 ### References
 

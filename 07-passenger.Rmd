@@ -1,1 +1,1 @@
-# Passenger information system
+# Passenger information system {#passenger}
