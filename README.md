@@ -1,9 +1,5 @@
 # knowledge-pool
 
-We are currently updating the knowledge pool, please visit us soon for the newest version. In the meantime, pleasecontact the corresponding author *Martyna Bogacz* on the following email address: xxx , for any feedback. <br/>
+Sorry, we are currently updating the knowledge pool, we will be back online with the newest version soon. <br/>
+In the meantime, please contact the corresponding author *Martyna Bogacz* on the following email address: xxx , for any feedback. 
 
-The knowledge pool was last compiled on:
-
-```{r, echo=FALSE}
-format(Sys.time(),'%d %B %Y' )
-```
