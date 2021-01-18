@@ -1,1 +1,9 @@
 # Shared mobility {#shared}
+
+## Car sharing
+
+## Bicycle and e-bicycle hire
+
+## E-scooter hire
+
+## Ride-hailing

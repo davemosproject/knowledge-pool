@@ -1,1 +1,12 @@
 # Big data {#big}
+
+## Automatic identification system fir maritime transport
+
+## Big data lifecycle 
+
+## Location-based data
+
+## Aircraft tracking system
+
+## Big data tools for maping and forecasting travel behaviour
+

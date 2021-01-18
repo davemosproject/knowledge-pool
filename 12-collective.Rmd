@@ -1,1 +1,13 @@
 # Collective mobility vehicles {#collective}
+
+## Demand responsive transit
+
+## Personal rapid transit
+
+## Bus rapid transit
+
+## Light rail transit
+
+## Passenger drones
+
+## Automatic train operations
