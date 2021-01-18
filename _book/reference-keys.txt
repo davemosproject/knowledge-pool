@@ -1,10 +1,11 @@
 fig:unnamed-chunk-2
 fig:unnamed-chunk-3
+fig:unnamed-chunk-4
 intro
 infrastructure
 dedicated-lanes-for-connected-and-automated-vehicles-cav
 cooperative-lane-control-for-connected-and-automated-vehicles
-operational-design-domains-odd
+operational-design-domains
 rail-crossing-information-system
 electric-road-system
 high-occupancy-toll-lanes

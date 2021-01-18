@@ -10,6 +10,80 @@
 
 ## Variable speed limits and dynamic signage system
 
+### Synonyms {-}
+*Variable speed limits (VSL), dynamic speed limits (DSL), Verkehrsbeeinflussungsanlagen (VBA), Changeable Message Signs (CMS), Dynamic Signage System*
+
+### Definition {-}
+Speed limits are based on safety, mobility and environmental considerations. While fixed speed limits represent the appropriate speed for average conditions, variable or dynamic speed limits (DSL) take account of the real time traffic, or the road and weather conditions. Therefore, the latter reflect the safe speed better (Mobility and Transport, 2020). The road users are typically informed of the current speed limit by electronic signs above or beside the lanes (De Pauw et al., 2018), as shown in figure 1. These can be supplemented with warning signs (dynamic signage system). For example, if the usual speed limit is 100 km/h, the DSL could change to 80 km/h and further to 60 km/h, to limit rear-end collisions, if there is e.g., a traffic jam ahead or weather conditions are difficult. 
+
+```{r, echo=FALSE, , out.width="200%", fig.cap="Dynamic signage system in Austria (ASFiNAG, 2019b)"}
+knitr::include_graphics("image/dynamic_signage.png")
+```
+With respect to the impact on the societal level, a Belgian study, by E. De Pauw et al. showed a significant decrease (-18 %) in the number of injury crashes after the introduction of a DSL system (De Pauw et al., 2018). F.G. Habtemichael and L. de Picado Santos (2013) found that a DSL system has the highest safety benefit during highly congested traffic conditions. The operational benefit in turn was the highest during lightly congested traffic conditions. However, the success of DSL is highly dependent on the level of driver compliance (Habtemichael & de Picado Santos, 2013). Besides the safety aspects, the goal of DSL is to harmonize the traffic flow. Heavy traffic can cause shock waves, which result in longer travel times and large variations in the speeds of the vehicles. The latter again may lead to unsafe situations. By using DSL this phenomenon could be reduced (Hegyi et al., 2005). Traffic flow efficiency can be improved more, when DSL is combined with coordinated ramp metering (Carlson, 2010). Speed limits can also be temporary lowered, due to high emission values. If the emission values combined with the amount of traffic, reach a specific level, the DSL-System responds automatically and lowers the speed limit for a certain time. How high that level is, depends on the local policies (ASFiNAG, 2019c). 
+
+### Key stakeholders {-}
+
+- **Affected**: Motorways users
+- **Responsible**: Motorway Infrastructure Agencies, Technology Providers, Policymakers, State authorities
+
+### Current state of art in research {-}
+Studies show, that in retrospect most DSL implementations in Europe were efficient traffic safety and flow improvement. In the United States the increase in safety was significant as well, but the flow improvement was controversial (Lu & Shladover, 2014). Hassan et al. (2012) discovered that during bad weather conditions the combination of Changeable Message Signs (CMS) and DSL was the best way to improve safety. Current research shows that the benefits of DSL systems could be improved by integrating it in a fully connected vehicles (CV) environment (Wu et al., 2020). Currently, research focuses on the integration of C-ITS, to connect the infrastructure to the vehicles. European standards should be developed during the next years (Erhart, 2019). 
+
+### Current state of art in practice {-}
+DSL systems are implemented and used around the world. The used algorithms differ, however. DSL integrated with C-ITS has been implemented in a test environment (Erhart, 2019). 
+Austrian motorways are managed by the ASFiNAG - currently they have 17 DSL systems in use. That means that about 19 % of the Austrian Motorway-System are currently equipped by an DSL system (ASFiNAG, 2019a). So, there is potential for expansion. One global player in traffic management is the Austrian company Kapsch TrafficCom. Worldwide they have implemented their systems on more than 3.500 km of motorway (Kapsch TrefficCom). Kapsch TrafficCom's approximately 5,000 employees generated revenues of EUR 738 million in the fiscal year 2018/19.
+
+### Relevant initiatives in Austria {-}
+
+- [Asfinag](https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/) 
+- [Asifinag blog](https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/)
+- [kapsch.net](https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management)
+- [strabag-iss.com](https://www.strabag-iss.com/databases/internet/_public/content30.nsf/web30?Openagent&id=DE-STRABAGISS-DE_verkehrstechnik.html&men1=3&men2=5&sid=351)
+- [pke.at](https://www.pke.at/index.php?id=17#c117)
+- [aigner-stahlbau.at](http://www.aigner-stahlbau.at/leistungen/verkehrstechnik/ )
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table3, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
+|Individual|Travel time reduced|**+**|Environmental sustainability (*7,12-13,15*)|Habtemichael & de Picado Santos, 2013|
+|Systemic|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
+|Systemic| Annual greenhouse gas emissions decrease|**+**|Environmental sustainability (*7,12-13,15*)|Schimany, 2011|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table4, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|8-9|')
+```
+
+### Open questions {-}
+1.	Which algorithms for DSL are the most efficient ones?
+2.	How can DSL be further developed? 
+3.	How can fail-safe operation be improved?
+4.	How can DSL be combined with C-ITS? 
+
+### References {-}
+- ASFiNAG. (2019a). Handlungsfelder. Retrieved 17th December 2020, from http://verkehrssicherheit.asfinag.at/aktionsprogramme/handlungsfelder/
+- ASFiNAG. (2019b). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Arten von Verkehrsbeeinflussungsanlagen. Retrieved 11th December 2020, from https://asfinag.azureedge.net/media/1607/vba-fotomontage.jpg
+- ASFiNAG. (2019c). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Die VBA und der "Lufthunderter". Retrieved 3rd December 2020, from https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/ 
+- Carlson, R. C., Papamichail, I., Papageorgiou, M., & Messmer, A. (2010). Optimal motorway traffic flow control involving variable speed limits and ramp metering. Transportation Science, 44(2), 238-253.
+- De Pauw, E., Daniels, S., Franckx, L., & Mayeres, I. (2018). Safety effects of dynamic speed limits on motorways. Accident Analysis & Prevention, 114, 83-89.
+- Erhart, Jaqueline. (2019). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. Retrieved 17th December 2020, from https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/  
+- Habtemichael, F. G., & de Picado Santos, L. (2013). Safety and Operational Benefits of Variable Speed Limits under Different Traffic Conditions and Driver Compliance Levels. Transportation Research Record, 2386(1), 7–15. https://doi.org/10.3141/2386-02
+- Hassan, H. M., Abdel-Aty, M. A., Choi, K., & Algadhi, S. A. (2012). Driver behavior and preferences for changeable message signs and variable speed limits in reduced visibility conditions. Journal of Intelligent Transportation Systems, 16(3), 132-146.
+- Hegyi, A., De Schutter, B., & Hellendoorn, J. (2005). Optimal coordination of variable speed limits to suppress shock waves. IEEE Transactions on intelligent transportation systems, 6(1), 102-112.
+- Kapsch TrefficCom. Verkehrsmanagement auf Autobahnen. Retrieved 8th January 2021, https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management
+- Lu, X.-Y., & Shladover, S. E. (2014). Review of Variable Speed Limits and Advisories: Theory, Algorithms, and Practice. Transportation Research Record, 2423(1), 15–23. https://doi.org/10.3141/2423-03
+- Mobility and Transport | European Commission. (2020). Dynamic speed limits. Retrieved 2nd December 2020, from https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/new_technologies_new_opportunities/dynamic_speed_limits_en 
+- Schimany, H. K. (2011). Blue Globe Foresight.
+- Wu, Y., Abdel-Aty, M., Wang, L., & Rahman, M. S. (2020). Combined connected vehicles and variable speed limit strategies to reduce rear-end crash risk under fog conditions. Journal of Intelligent Transportation Systems, 24(5), 494-513.
+
+
 ## Passengers and goods fleet management
 
 ## Urban access management
