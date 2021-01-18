@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Pool"
-author: "Martyna Bogacz"
+author: "Institute for Transport Studies (IVe), University of Natural Resources and Life in Vienna"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,6 +10,17 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation."
 ---
+# Preface {-}
+
+This is a *continuously developing* database, which is a part of [DAVeMOS](https://www.davemos.online/) project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. Therefore, the authors of this work welcome any feedback on changes and suggestions for additional content that the readers may have. <br/>
+
+For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: xxx <br/>
+
+The knowledge pool was last compiled on:
+
+```{r, echo=FALSE}
+format(Sys.time(),'%d %B %Y' )
+```
 
 # Table of content {-}
 
