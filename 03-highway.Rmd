@@ -2,4 +2,67 @@
 
 ## Unmanned aerial vehicles for infrastructure mainteinance
 
+### Synonyms {-}
+*Drones, remotely piloted vehicles, remotely piloted aircraft, uav*
+
+### Definition {-}
+Unmanned Aerial Vehicles (UAVs), commonly known as drones are promising technologies that can be used in inspection and data gathering for infrastructure maintenance and management purposes. These include, for example, detection of wear and tear, monitoring of the progress at a highway construction site or the analysis of traffic (Frederiksen et al., 2019). UAVs typically include a portable control station for the human operator and under current legislation their operation in urban areas is limited to flying within visual line of sight (VLOS). UAVs typically feature various sensors and recorders, including video, far and near infrared, radar or laser-based range finders and specialized communication devices (Shaghlil & Khalafallah, 2018). Majority of them can transfer real-time data between the UAV and the control station. Moreover, some feature additional onboard data storage capabilities for enhanced data collection (Shaghlil & Khalafallah, 2018). The use of drones for infrastructure-related tasks provide not only savings with respect to time, labor and costs, but they also allow for reduction in risks when dangerous operations usually performed by human can be substituted with drones. Finally, the environmental impact is diminished when drones, which produce considerably less CO2, are used instead of currently employed helicopters. Nevertheless, the use of drones as a tool for inspecting infrastructure can also pose certain challenges with respect to current technology, legal framework, privacy concerns and social acceptance.
+
+### Key stakeholders {-}
+
+- **Affected**: Direct users of the roads and beneficiaries affected by the supply of transport services
+- **Responsible**: Government agencies responsible for planning, executing, and financing of maintenance activities, citizens, contractors and subcontractors, private companies and manufacturers
+
+### Current state of art in research {-}
+Current research efforts and field trials-based studies are advocating the case of using UAVs for bridge inspection and monitoring. Previous study presented a proof of concept of utilising UAVs for bridge and high mast luminaires. Several experiments in controlled conditions were performed to test UAV response in relation to wind conditions. Moreover, image quality was examined in different flight scenarios, low light conditions, altitude and payload (Otero et al., 2015). Overall, the results are in favour of using drones for infrastructure inspections, not just in terms of saving human labor but also detecting the damages. The advantages of the drone use were also demonstrated in terms of reduced traffic control and decreased use of under bridge inspection vehicles (Zink and Lovelace, 2015). On the other hand, specific skills of the drone operators were found to hinder efficient use of drones for large-scale bridges (Wu et al., 2018). Further, some technological barriers also slow down the popularity of drones in infrastructure inspection, where an average flight time of the drone given its battery life is approximately 30 minutes. Therefore, current research aims at increasing the energy-efficiency by the use of path planning and algorithms to minimize energy utilization while maximizing coverage for traffic monitoring (Outay et al., 2020). 
+
+### Current state of art in practice {-}
+Current use of drones is heavily regulated by national and international governments worldwide where the most considerable restriction is the requirement for drones to remain under VLOS of the controller. Beyond, the regulatory bodies put forward various specification with respect to physical aspects of the drones such as weight or sensors, training requirement of the operators and drones’, data acquisition regulations and operation itself such as flight timeframe, altitude etc. (FAA, 2016; Outay at al., 2020). All of them, significantly restrict fast and wide application of drones in different areas. Therefore, the authorities attempt to provide regulations to tackle safety and privacy as well as noise concerns of the citizens. At the moment drones are used in oil and gas industry to conduct local surveys in off-shore facilities (Undertaking, 2016). Meanwhile in the transport sector, Danish company Dronops, after safety clearance, has been granted permission from Danish Road Authority to fly along a highway to monitor the traffic, where drone provides data from multiple sensors as well as video recordings. At the moment, the drone can only fly in good weather conditions and it is cable-linked to its power source located on the ground to allow for continuous day-long monitoring at 120 m above the ground. Importantly, the output data is used by Danish Road Authority and local council (Frederiksen et al., 2019).
+
+### Relevant initiatives in Austria {-}
+
+- [smartcity.wien](https://smartcity.wien.gv.at/site/en/smart-inspection/) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table5, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Employees risk reduced|**+**|Health & Wellbeing (*3*)|Outay et al., 2020|
+|Systemic|Road safety increased|          **+**|Health & Wellbeing (*3*)|Outay et al., 2020|
+|Systemic|Emissions rate reduced|         **+**|Environmental sustainability (*7,12-13,15*)|Outay et al., 2020|
+|Systemic|Job posts created|          **+**|Sustainable economic development (*8,11*)|Jenkins & Vasigh, 2013|
+|Systemic|Faster road infrastructure innovation|          **+**|Innovation & Infrastructure (9)|Fan & Saadeghvaziri, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table6, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|3-4|5-7|')
+```
+
+### Open questions {-}
+1.	What are the factors influencing social acceptability of drones?
+2.	What actions from the policymakers need to be undertaken to minimalize cyber-attacks?
+3.	What aspects need to be considered by the governments before the integration of more sensors to record other relevant data along with the integration of video data with other geospatial information?
+
+### Further links {-}
+
+-	[rolandberger](https://www.rolandberger.com/en/Insights/Publications/Drones-The-future-of-asset-inspection.html) 
+
+### References {-}
+- FAA News, 2016, Summary of Small Unmanned Aircraft Rule (Part 107), Federal Aviation Authority, Washington DC, 20591, Accessed on May 2020, https://www.faa.gov/uas/media/Part_107_Summary.pdf.
+- Fan, J., & Saadeghvaziri, M. A. (2019). Applications of Drones in Infrastructures: Challenges and Opportunities. International Journal of Mechanical and Mechatronics Engineering, 13(10), 649-655.
+- Frederiksen, M. H., Mouridsen, O. A. V., & Knudsen, M. P. (2019). Drones for inspection of infrastructure: Barriers, opportunities and successful uses.
+- Jenkins, D., & Vasigh, B. (2013). The economic impact of unmanned aircraft systems integration in the United States. Association for Unmanned Vehicle Systems International (AUVSI).
+- Otero, L.D., Gagliardo, N., Dalli, D., Huang, W.-H., Cosentino, P. (2015). Proof of concept for using unmanned aerial vehicles for high mast pole and bridge inspections (No. BDV28-977-02). Florida. Dept. of Transportation. Research Center.
+- utay, F., Mengash, H. A., & Adnan, M. (2020). Applications of unmanned aerial vehicle (UAV) in road safety, traffic and highway infrastructure management: Recent advances and challenges. Transportation research. Part A, Policy and practice, 141, 116–129. https://doi.org/10.1016/j.tra.2020.09.018
+- Shaghlil, N., & Khalafallah, A. (2018). Automating highway infrastructure maintenance using unmanned aerial vehicles. In Construction Research Congress (2-4).
+- Undertaking, S. J. (2016). European drones outlook study. Unlocking the Value for Europe.
+- Wu, W., Qurishee, M. A., Owino, J., Fomunung, I., Onyango, M., Atolagbe, B. (2018). Coupling deep learning and UAV for infrastructure condition assessment automation. In: 2018 IEEE International Smart Cities Conference (ISC2). IEEE, pp. 1–7.
+- Zink, J. and Lovelace, B., 2015. Unmanned aerial vehicle bridge inspection demonstration project. Research Project. Final Report, 40. Accessed in Nov 2020
+
+
 ## Electric charging stations

@@ -2,6 +2,96 @@
 
 ## Car sharing
 
+### Synonyms {-}
+*Car-Sharing scheme, CSS*
+
+### Definition {-}
+In recent years, the growth of car sharing services as a new and more sustainable way of travelling has led to a shift in private mobility from ownership to use of services. The basic idea of car sharing is quite simple: the sharing of a fleet of vehicles by members to make trips on a per-trip basis. Although, the first car sharing scheme for economic reasons dates back to 1948 in the city of Zurich, Switzerland, other attempts at public car sharing schemes in the following years were not successful. Several successful car sharing schemes were launched in the 1980s, with a consolidation in the early 1990s, thanks to an increasing awareness of citizens and a real boom due to a greater diffusion of ICT and mobile services in the 2000s. Car sharing increases the mobility of community members to reach destinations otherwise inaccessible by public transport, walking or cycling, while raising citizens' awareness of the social and environmental impacts of using private cars. It encourages and supports multimodal communities by providing an additional transport option. From the point of view of building a sustainable city, the vehicles used in car sharing are usually fuel efficient and lead to positive effects in reducing urban emissions and urban congestion (Martin and Shaheen, 2011). <br/>
+
+Nowadays, there are different variants of car sharing available on the market. These include:
+
+- Station based
+
+In station-based CarSharing, the cars are parked in fixed parking spaces as close to home as possible. Customers pick up the car there and return it after the journey. Only with this variant, the reservations are possible several days or weeks in advance, but the end time of the booking must also usually be planned in advance. This ensures a high degree of predictability in vehicle availability. Station-based CarSharing is also the cheapest CarSharing variant. The largest providers in Germany (by fleet size) are stadtmobil, cambio, teilAuto and book-n-drive.<br/>
+
+- Free-floating
+
+With free-floating CarSharing, the cars are randomly distributed within a defined business area. Users locate and book them via smartphone. The booking is only possible shortly before the start of the journey and until booking, availability and exact location of the vehicle are uncertain. After the journey, the cars can be parked within the business area. All bookings are open-ended. With this variant, reservations in advance are not possible. Both the availability and the location of the vehicle are therefore difficult to predict. Free-floating, however, allows one-way journeys within the business area. Prices are higher than those of station-based CarSharing. The largest providers in Germany are ShareNow, Sixt share and We share.<br/>
+
+- Combined sharing
+
+Since 2011, combined CarSharing offers were established that offer station-based and free-floating vehicles from a single source. Combined offers in Germany are available, for example, from stadtmobil, book-n-drive, teilAuto and cambio. The prices are usually based on the lower prices of station-based CarSharing.
+Free-floating users, on the other hand, largely keep their car. Their motorisation at the time of the study was 485 private cars per 1,000 inhabitants (Bundesverband CarSharing e.V., 2020).
+
+### Key stakeholders {-}
+
+- **Affected**: Citizens
+- **Responsible**: Authorities, Municipalities, International lobbyists, Private Companies 
+
+### Current state of art in research {-}
+The CarSharing variants have different traffic-reducing effects. The EU research project STARS investigated the traffic-relieving effect of different CarSharing variants under uniform framework conditions. The study shows that many users of station-based and combined CarSharing get rid of private cars shortly before or during CarSharing participation. At the time of the study, the households, therefore, only had a motorisation rate of 108 and 104 cars per 1,000 people in the surveyed households. These values are already below the target of 150 cars per 1,000 people recommended by the Federal Environment Agency Germany for climate and environmentally friendly urban transport in the future.<br/>
+
+The replacement rates in different CarSharing studies from Germany vary. On the one hand, this is due to different survey methods. Only in the studies since 2018 have used a largely uniform survey method in Germany. On the other hand, the latest research has shown that the replacement rate depends strongly on the CarSharing variant studied. For station-based CarSharing and combined CarSharing, there are exclusively positive replacement rates. For pure free-floating CarSharing, both positive and negative replacement rates can be observed. In some cases, fewer private cars were removed by free-floating CarSharing than were put on the road by the CarSharing service. <br/>
+
+According to calculations made by Finanztip together with the ADAC, car sharing is already profitable if the number of kilometres driven per year is less than 10,000, or less than 800 kilometres per month. The costs for a private vehicle with 10,000 annual kilometres driven are identical to the costs that would be incurred for car sharing. Other studies see the limit only at 11,250 kilometres (Hoyer, 2013) or 15,600 kilometres (Seipp, 2014). At 5,000 kilometres per year with one's own medium-sized vehicle, one would save on average between 900 and 1,500 euros per year with a car-sharing provider.
+In summary, accrding to Evers (2018) car sharing is profitable, if one: <br/>
+
+-	does not depend on a car every day
+-	does not regularly drive longer distances over 100 kilometres
+-	drives a total of less than 10,000 kilometres a year
+
+### Current state of art in practice {-}
+
+Europe is currently the most important market for car sharing providers. In 2016, 5.8 million people used the 68,000 carsharing vehicles here. Recently, car manufacturers also started to enter the market directly, such as Daimler, BMW and the FCA Group, which are directly involved in car sharing activities, in order to find new channels to market the cars they produce. The market is growing fast and with this increasing demand comes the need for better understanding and control of the system. In fact, car sharing is not just a matter of business or fleet optimisation, but forms a complex system consisting of different actors, including citizens, authorities and municipalities, businesses. The system becomes complex because of the strong links between the actors as well as the impact on the governance of a city when a large car sharing service is introduced, such as the integration with the existing public transport network and the policies that allow different companies to compete in the same urban area (Ferrero et al., 2018).
+
+
+### Relevant initiatives in Austria {-}
+
+- [VCÖ](https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018)
+- [ÖBB](https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table9, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Uniform access to car in the population|**+**|Equality (*5,10*)|VCOE - Mobilitaet mit Zukunft, 2018|
+|Individual|Cost reduced|**+**|Sustainable economic development (*8,11*)|Evers, 2018|
+|Systemic|Reduced traffic and improved air quality|**+**|Health & Wellbeing (*3*)|Martin and Shaheen, 2011|
+|Systemic|Car-free households are no longer disadvantaged|         **+**|Equality (*5,10*)|VCOE - Mobiliteat mit Zukunft, 2018|
+|Systemic|Reduced emissions|          **+**|Environmental sustainability (*7,12-13,15*)|Martin and Shaheen, 2011|
+|Systemic|Car sharing fleet grows steadily|    **+** |Innovation & Infrastructure (*9*)|Stadt Wien, Strassenverwaltung und Strassenbau, no date|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table10, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|5-7|')
+```
+
+### Open questions {-}
+1. What is the role of policymakers and minicipalities in supporting car sharing in addressing challenges associated with long-term strategic decisions such as operation area, parking locations or size and type of the fleet, considering specific characteristics of a given city?
+
+### Further links {-}
+
+- [share_now](https://www.share-now.com/at/en/faq/)
+
+
+### References {-}
+
+- Bundesverband CarSharing (2020) CarSharing in Deutschland 2020.
+- Bundesverband CarSharing e.V. (2020) Verkehrsentlastung durch CarSharing - Factsheet.
+- Evers, H. (2018) Carsharing günstiger als eigenes Auto? Available at: https://www.computerbild.de/artikel/cb-Tipps-Connected-Car-Kostenvergleich-Ab-wann-lohnt-sich-Carsharing-20041131.html (Accessed: 14 January 2021).
+- Ferrero, F. et al. (2018) ‘Car-sharing services: An annotated review’, Sustainable Cities and Society, 37, pp. 501–518. doi: https://doi.org/10.1016/j.scs.2017.09.020.
+- Hoyer, N. (2013) Mobilität: Lohnt sich Ihr Auto? Available at: https://www.wiwo.de/technologie/mobilitaet/mobilitaet-lohnt-sich-ihr-auto/8681062-all.html (Accessed: 14 January 2021).
+- Martin, E. W. and Shaheen, S. A. (2011) ‘Greenhouse Gas Emission Impacts of Carsharing in North America’, IEEE Transactions on Intelligent Transportation Systems, 12(4), pp. 1074–1086. doi: 10.1109/TITS.2011.2158539.
+- Seipp, B. (2014) Carsharing: Für wen sich das geteilte Auto wirklich lohnt - WELT. Available at: https://www.welt.de/motor/article128304929/Fuer-wen-sich-das-geteilte-Auto-wirklich-lohnt.html (Accessed: 14 January 2021).
+- Stadt Wien | Straßenverwaltung und Straßenbau (no date) Carsharing in Wien: Nutzung nimmt zu. Available at: https://www.wien.gv.at/verkehr/kfz/carsharing/evaluierung.html (Accessed: 17 January 2021).
+- VCÖ - Mobilität mit Zukunft (2018) Mehr als 100.000 Carsharing-Haushalte in Österreich – Potenzial um ein Vielfaches höher - Mobilität mit Zukunft. Available at: https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018 (Accessed: 18 January 2021).
+
+
 ## Bicycle and e-bicycle hire
 
 ## E-scooter hire
