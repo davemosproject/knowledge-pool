@@ -1,1 +1,8 @@
 # Connected and autonomous driving {#connected}
+
+## Parking infrastructure for autonomous vehicles
+
+## Connected vehicles
+
+## Automated vehicles
+

@@ -1,1 +1,16 @@
 # Traffic management {#traffic}
+
+## Platooning
+
+## Real-time traffic information and monitoring
+
+## Cooperative - intelligent transport system
+
+## Dynamic route guidance
+
+## Variable speed limits and dynamic signage system
+
+## Passengers and goods fleet management
+
+## Urban access management
+

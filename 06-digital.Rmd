@@ -1,1 +1,9 @@
 # Digital road infrastructure and connectivity {#digital}
+
+## Vehicle to infrastructure communication
+
+## Infrastructure support levels for automated driving 
+
+## Vehicle to vehicle communication
+
+## Wireless communication
