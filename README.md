@@ -1,5 +1,6 @@
 # knowledge-pool
 
-Sorry, we are currently updating the knowledge pool, we will be back online with the newest version soon. <br/>
-In the meantime, you can contact the corresponding author *Martyna Bogacz* on the following email address: xxx , for any feedback. 
+This is a *continuously developing* database, which is a part of [DAVeMOS](https://www.davemos.online/) project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. Therefore, the authors of this work welcome any feedback, questions and contributions that the readers may have. <br/>
+
+For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/>
 
