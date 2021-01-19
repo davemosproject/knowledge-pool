@@ -88,3 +88,102 @@ International Partnership for Hydrogen and Fuel Cells in the Economy (no date) N
 
 ## Plugin hybrid vehicles
 
+### Synonyms {-}
+
+*Hybrid, HEV, PHEV*
+
+### Definition {-}
+Plug-in hybrid vehicles effectively combine the electric drive with either a conventional combustion engine or other engines that use alternative fuels. This has the advantage that the vehicles can travel long distances, but consumption and emissions are reduced. An energy management system ensures that the optimum amount of energy is drawn from the two energy sources while driving. The ratio of energy consumption is influenced by the driving cycle. The faster the vehicle drives, the more energy is needed (Aswin and Senthilmurugan, 2018).<br/>
+
+A hybrid vehicle is superior in terms of the reduced carbon footprint, better mileage than conventional vehicles, financial assistance for purchase, lower annual cost and a regenerative braking system. At the same time, the disadvantages include high purchasing cost, lower fuel efficiency because the extra parts installed take up more space and add weight, and higher maintenance costs due to the dual engine. Additionaly, some concerns have been risen about the risk that the battery may explode in the event of an accident (Aswin and Senthilmurugan, 2018). <br/>
+
+However, the safety aspect referred to above can be neglected, as the results in the EuroNCAP crash test show that hybrid vehicles are just as safe as vehicles with conventional drive systems. Toyota's Hybrid Synergy Drive technology (HSD) also serves as an example, where Toyota's hybrid system - based on the airbag trigger signal - immediately switches off all electrical systems in the event of an accident and interrupts the battery contact (ADAC, 2019). <br/>
+
+Currently, there are several types of hybrid vehicles available  on the market:
+
+- Series hybrid
+
+The series hybrid model consists of an internal combustion engine that drives a generator instead of driving the wheels directly. The wheels of the car get their power from the electric motors. The generator powers both the charging battery and the wheels of the car. Series hybrids generate the maximum energy at the time of acceleration and return the energy at the time of regenerative braking. The electric vehicles are designed in such a way that a motor is connected to each wheel. The combination of motor and wheel has the disadvantage of increasing mass and thus affecting handling, but the advantage of improved traction control.
+
+- Parallel hybrid 
+
+The parallel hybrid vehicle is an integration of an electric motor and an internal combustion engine connected in parallel to the mechanical transmission. The parallel hybrid architecture incorporates both the engine and the electric generator into one unit located between the transmission and the combustion engine. The battery is recharged by regenerative braking. There is a mechanical coupling between the engine and the wheel, recharging the battery cannot occur when the car is moving.
+
+- Combine hybrid
+
+The combined hybrid vehicle is a fusion of parallel and series hybrid (series-parallel hybrid). There is a double connection (electrical and mechanical) between the drive axle and the engine. The power transmission to the wheels can be either electric or mechanical. At low speeds it behaves like a series hybrid electric vehicle, but at higher speeds series drivetrains are less likely to be preferred and the vehicle motor takes over. This model is significantly more expensive than parallel models as they require a mechanically split drive system, an additional generator and high computing power for dual control (Aswin and Senthilmurugan, 2018).
+
+### Key stakeholders {-}
+
+- **Affected**: Conventional Cars’ Drivers
+- **Responsible**: National Governments, Car Manufacturers, International lobbyists, Private Companies
+
+### Current state of art in research {-}
+Current research efforts focus on the reduction of battery size while maintaining the electric driving performance. Therefore, the study by Song et al. (2018) suggest 30.4 kWh as an optimal battery capacity. Another, large research developments are performed with respect to reduction of emissions and continuous testing of environmental efficiency in comparison to conventional cars. In an ADAC test of plug-in hybrids, just two cars scored well in the Ecotest, namely Hyundai Ioniq and Volvo V60. The Hyundai was very energy-efficient, while the Volvo consumed more energy and emited more carbon dioxide, but its exhaust gases were cleaner. This allowed it to score well in terms of pollutants. However, the test results leave no doubt that large and heavy cars like the BMW X5 and Mercedes GLE, even as plug-in hybrids, consume a lot of energy and therefore cannot be counted as eco-mobiles (Kroher, 2020). Interestingly, recent test conducted on the newest models of PHEV showed that they pollute the environment two to four times more than the manufacturers claim which undermined the public opinion on the environmental advantages offered by the PHEV (Plötz et al., 2020; Bannon, 2020).
+
+### Current state of art in practice {-}
+The development of the hybrid electric vehicle is evolving into the next generation of the mode of transport, in line with EU's policy aims of reduction of greenhouse gas emissions. Nevertheless, current market penetration is still relatively low, contributing to 1% of total car registrations (as of 2019). In Europe, the leaders in the uptake of plug-in hybrid vehicles are Finland and Sweden followed by the United Kingdom (European Environment Agency, 2020).<br/>
+
+In Austria the number of plug-in hybrid vehicles quadrupled in 2020 from January to October compared to the same period last year. By the end of October, about 5,500 new vehicles of this type had been registered. Of the approximately 14,700 applications for e-car subsidies so far this year, 90 percent are purely electric, ten percent are plug-in hybrids and range extenders (Ortner, 2020).
+The results of a study by the Frauenhofer Institute show that the actual climate balance of plug-in hybrid passenger cars is poor, the real CO~2~ emissions are twice as high as the values determined in the test cycle, for company cars the real CO~2~ emissions are even three to four times as high. The VCÖ calls for a rapid change in the subsidies for plug-in hybrid cars in Austria (VCÖ, 2020).<br/>
+
+By 2020, there are already 800 public e-charging points in Vienna, with number close to a thousand, Vienna is one of the leading e-mobility cities in Europe (Fischer, 2020).The Austrian energy companies - members of the BEÖ - have driven the expansion of the public charging infrastructure in recent years. With over 5,000 charging points between Vienna and Bregenz, Austria provides one of the densest charging networks in Europe (Sitte, 2020b).
+Until now, all building owners had to agree to the installation of an e-charging station. This unanimity is to fall soon. Accordingly, the installation of charging stations in apartment buildings will be made easier from autumn onwards (Sitte, 2020a).
+
+
+### Relevant initiatives in Austria {-}
+
+- [oesterreich.gv](https://www.oesterreich.gv.at/themen/bauen_wohnen_und_umwelt/elektroautos_und_e_mobilitaet/Seite.4320010.html) 
+- [vcoe.at](https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table11, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Carbon dioxide emissions reduced|**+**|Health & Wellbeing (*3*)|Koellner, 2020|
+|Individual|Number of e-chargining points increases|**+**|Innovation & Infrastructure (*9*)|Sitte, 2020a|
+|Systemic|Emissions reduced for small and light vehicles only|**~**|Environmental sustainability (*7,12-13,15*)|Kroher, 2020; VCOE, 2020|
+|Systemic|Exhaust gas treatment strategies are developed|**+**|Innovation & Infrastructure (*9*)|Schaefer, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table12, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|7-9|')
+```
+
+### Open questions {-}
+
+
+
+### Further links {-}
+
+-	[europarlament](https://www.europarl.europa.eu/news/nl/press-room/20180911IPR13114/more-electric-cars-on-eu-roads-by-2030) 
+-	[ec.europa](https://ec.europa.eu/transport/themes/urban/vehicles/road/hydrogen_en) 
+-	[fch.europa](https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition) 
+
+### References {-}
+
+- ADAC (2019) Hybridantrieb: Funktionsweise sowie Vor- und Nachteile. Available at: https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/hybridantrieb/ (Accessed: 7 January 2021).
+- Aswin, A. and Senthilmurugan, S. (2018) ‘A survey on power levels of battery charging and infrastructure for plug-in electric and hybrid vehicles’, IOP Conference Series: Materials Science and Engineering, 402(1). doi: 10.1088/1757-899X/402/1/012154.
+- Bannon, E., (2020). Plug-In Hybrids In New Emissions Scandal As Tests Show Higher Pollution Than Claimed | Transport & Environment. [online] Transportenvironment.org. Available at: <https://www.transportenvironment.org/press/plug-hybrids-new-emissions-scandal-tests-show-higher-pollution-claimed> [Accessed 19 January 2021].
+- European Environment Agency. (2020). INDICATOR ASSESSMENT New Registrations Of Electric Vehicles In Europe. [online] Available at: <https://www.eea.europa.eu/data-and-maps/indicators/proportion-of-vehicle-fleet-meeting-5/assessment> [Accessed 19 January 2021]
+- Fischer, S. M. (2020) Ökostrom an jeder Ecke: Ladestellen-Ausbau auf Zielgeraden | Wien Energie GmbH, 02.09.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200902_OTS0138/oekostrom-an-jeder-ecke-ladestellen-ausbau-auf-zielgeraden (Accessed: 14 January 2021).
+- Köllner, C. (2020) Das sollten Sie über Plug-in-Hybride wissen. Available at: https://www.springerprofessional.de/plug-in-hybrid/antriebsstrang/das-sollten-sie-ueber-plug-in-hybride-wissen/18235362.
+- Kroher, T. (2020) Plug-in-Hybrid: Modelle, Verbrauch, Technik, Kosten, Ökobilanz. Available at: https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/auto/plug-in-hybrid/.
+- Ortner, M. (2020) Plug-in-Hybride sind nur so umweltfreundlich wie ihre Fahrer - Wiener Zeitung Online. Available at: https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2084730-Plug-In-Hybride-nur-so-umweltfreundlich-wie-ihre-Fahrer.html (Accessed: 14 January 2021).
+- Plötz, P., Moll, C., Biecker, G., Mock, P., & Li, Y. (2020). Real-World Usage of Plug-in Hybrid Electric Vehicles: Fuel Consumption, Electric Driving, and CO₂ Emissions.
+- Schäfer, P. (2020) Empa errechnet beste Kaltstart-Strategie für Hybridfahrzeuge. Available at: https://www.springerprofessional.de/hybridtechnik/abgasnachbehandlung/empa-errechnet-beste-kaltstart-strategie-fuer-hybridfahrzeuge/17751190.
+- Sitte, P. (2020a) BEÖ: Strom laden in eigener Garage wird einfacher. Wichtiger Schritt für E-Mobilität. | Bundesverband Elektromobilität Österreich (BEÖ), 15.07.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200715_OTS0148/beoe-strom-laden-in-eigener-garage-wird-einfacher-wichtiger-schritt-fuer-- e-mobilitaet (Accessed: 14 January 2021).
+- Sitte, P. (2020b) BEÖ begrüßt E-Mobilitätsförderung 2020 | Bundesverband Elektromobilität Österreich (BEÖ), 29.06.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200629_OTS0144/beoe-begruesst-e-mobilitaetsfoerderung-2020 (Accessed: 14 January 2021).
+- Song, Z. et al. (2018) ‘Component sizing optimization of plug-in hybrid electric vehicles with the hybrid energy storage system’, Energy. Elsevier Ltd, 144, pp. 393–403. doi: 10.1016/j.energy.2017.12.009.
+- VCÖ (2020) VCÖ: Neue Studie zeigt schlechte Klimabilanz von Plug-In-Hybrid Pkw - Mobilität mit Zukunft. Available at: https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw (Accessed: 14 January 2021).
+
+
+
+
+
+
