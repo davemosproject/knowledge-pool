@@ -93,6 +93,54 @@ cat('|TRL| SRL|
 
 
 ## Bicycle and e-bicycle hire
+### Synonyms {-}
+*bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)*
+
+### Definition {-}
+Bike-sharing schemes have become a key component of urban transport policy over the past decade, as shown by the increase in the number of bicycles recently seen in major cities around the world. The concept of bike-sharing is a service for individuals to get around comfortably by bike without owning one. The bicycle is an energy-efficient, safe, CO~2~-neutral and space-saving means of transport. It has a low environmental footprint (when used). In urban areas it is a good alternative to the car for short journeys. For longer journeys or for getting to work in an urban environment, it is an excellent complement to public transport. Although at the beginning of the 21st century most BSSs were docked, today's BSSs consist of both docked and dockless BSSs, which have recently emerged in several cities such as London, New York, San Francisco, Beijing and many others (El Arbi and Stephane, 2020).<br/>
+
+Modern urban short-term bicycle rental systems or public BSSs offer 24-hour access to bicycles, can be picked up and returned at self-service docking stations, and are distributed throughout the city (Midgley, 2011). As technology advances, global positioning systems (GPS) allow operators to track the bikes and reposition them if necessary, while user registration and credit card identification reduce anonymity and theft.<br/>
+The development of, mainly European, BSSs has typically been categorized into four different generations, which in some properties merge into each other. The use of the 1965 "White Bikes" in Amsterdam was possible without personal registration and the bikes could be found all over the city without fixed stations. The model collapsed within a few days due to vandalism and theft. The second generation used locks and heavy bikes. Vandalism rates decreased, but bikes were still stolen because of the anonymity of the customers (DeMaio, 2009). The third generation became smarter and more attractive through technological improvements such as automated smart cards, electronic bike locks and payment systems. Users received a code via SMS to unlock the bikes. 
+The current fourth generation, could include movable solar-powered docking stations, GPS-based real-time availability apps on mobile phones and more electric bikes (Zademach and Musch, 2018).
+
+
+### Key stakeholders {-}
+
+- **Affected**: Mobile citizen, pedestrians, 
+- **Responsible**: National Governments, International lobbyists, (Public) Transport Agency, Non-Profit-Organizations, Private For-Profit Companies, Private Companies (e. g. outdoor advertising companies)
+
+### Current state of art in research {-}
+
+
+### Current state of art in practice {-}
+
+
+
+
+### Relevant initiatives in Austria {-}
+
+- [citybikewien](https://www.citybikewien.at/de)
+- [citybikesalzburg](http://www.citybikesalzburg.at/)
+- [nextbike](https://www.nextbike.at/de/niederoesterreich/)
+- [tpis.at](https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+
+
+### Technology and societal readiness level {-}
+
+
+### Open questions {-}
+
+
+### Further links {-}
+
+
+
+
+### References {-}
+
 
 ## E-scooter hire
 
