@@ -1,1 +1,11 @@
 # References {#reference}
+
+- Lovelace, R., Nowosad, J., Muenchow J. (2021) *Geocomputation with R.* https://geocompr.robinlovelace.net/
+- South, A., Lovelace, R., Bogacz, M. *Afrimapr book.* https://github.com/afrimapr/afrimapr-book
+- Xie, Y. (2015). *Dynamic Documents with R and Knitr.* 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. http://yihui.org/knitr/.
+- Xie, Y. (2021). *bookdown: Authoring Books and Technical Documents with R Markdown.* https://bookdown.org/yihui/bookdown/
+
+
+
+
+
