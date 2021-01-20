@@ -22,7 +22,7 @@ In terms of the number of hydrogen refuelling stations (HRS) worldwide, just abo
 ```{r ,echo=FALSE, out.width="200%", fig.cap="Number of hydrogen refuelling stations worldwide (Apostolou and Xydis, 2019)"}
 knitr::include_graphics("image/hydrogen_refuel.png")
 ```
-The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H. 2019, Alvarez-Meaza et al., 2020). 
+The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H., 2019; Alvarez-Meaza et al., 2020). 
 
 ### Relevant initiatives in Austria {-}
 
@@ -111,7 +111,7 @@ The parallel hybrid vehicle is an integration of an electric motor and an intern
 
 - Combine hybrid
 
-The combined hybrid vehicle is a fusion of parallel and series hybrid (series-parallel hybrid). There is a double connection (electrical and mechanical) between the drive axle and the engine. The power transmission to the wheels can be either electric or mechanical. At low speeds it behaves like a series hybrid electric vehicle, but at higher speeds series drivetrains are less likely to be preferred and the vehicle motor takes over. This model is significantly more expensive than parallel models as they require a mechanically split drive system, an additional generator and high computing power for dual control (Aswin and Senthilmurugan, 2018).
+The combined hybrid vehicle is a fusion of parallel and series hybrid (series-parallel hybrid). There is a double connection (electrical and mechanical) between the drive axle and the engine. The power transmission to the wheels can be either electric or mechanical. At low speeds it behaves like a series hybrid electric vehicle, but at higher speeds series drive trains are less likely to be preferred and the vehicle motor takes over. This model is significantly more expensive than parallel models as they require a mechanically split drive system, an additional generator and high computing power for dual control (Aswin and Senthilmurugan, 2018).
 
 ### Key stakeholders {-}
 
