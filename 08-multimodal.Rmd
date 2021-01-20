@@ -50,7 +50,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |Individual|Personal, travel expenditure reduced|**+**|Sustainable economic development (*8,11*)|Turner & Wilson, 2010|
 |Individual|Access to digitalised transport|**+**|Innovation & Infrastructure (*9*)|Turner & Wilson, 2010|
 |Systemic|Public transport capacity increases|**+**|Sustainable economic development (*8,11*)|Turner & Wilson, 2010|
-|Systemic| Facilitates integration of the fare systems of several operators within a city |          **+**|Partnership & collaborations (*17*)|Kurauchi & Schmöcker, 2017|')
+|Systemic| Facilitates integration of the fare systems of several operators within a city |          **+**|Partnership & collaborations (*17*)|Kurauchi & Schmoecker, 2017|')
 ```
 
 ### Technology and societal readiness level {-}
