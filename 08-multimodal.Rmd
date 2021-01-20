@@ -38,7 +38,7 @@ Many countries, regions or cities, have smart card ticketing systems in use, lik
 
 ### Relevant initiatives in Austria {-}
 
-- [taikai.network](https://taikai.network/en/wiener-linien/challenges/tickethon ) 
+- [taikai.network](https://taikai.network/en/wiener-linien/challenges/tickethon) 
 - [variuscard](https://www.variuscard.com/) 
 - [austriacard](https://www.austriacard.com/)
 
