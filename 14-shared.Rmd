@@ -174,6 +174,81 @@ Across Austria the situation with rental bikes differs significantly, for exampl
 
 
 
-## E-scooter hire
+## E-scooters
+### Synonyms {-}
+*electric scooter*
+
+### Definition {-}
+E-scooters are electrically powered scooters which move at a similar speed to bicycles. They are one of micro-mobility solutions which is growing trend in urban mobility. It encompasses all human-powered micro-vehicles, such as bicycles and scooters, but also new micro-vehicles such as e-scooters, e-bikes and some other small, electrically powered vehicles (Oeschger, Carroll and Caulfield, 2020). Most of the modern vehicles of this type are available for both shared and private use and are gaining wide acceptance. 
+E-scooters have promised a solution to the last mile problem since their introduction in 2017 (Siegfried et al, 2021). They are seen as alternatives to cars and provide potential for reducing traffic congestion, noise and pollution. Initial results suggest that e-scooters are mainly used for distances between 1 and 6 km. Empirical evidence shows that e-scooters can substitute walking rather than driving for these short distances (James et al., 2019; Portland Bureau of Transportation, 2019). In addition to the potential positive environmental impact of e-scooters on the transportation system, some safety concerns have been raised. Most e-scooter users who had an accident have ridden without a helmet (Liew et al, 2020). In general, e-scooters are almost exclusively issued without protective equipment (Allem and Majmundar, 2019). The safety issues do not only affect the riders themselves, but also have an impact on other road users, especially pedestrians (Sikka et al., 2019). It has even been criticised that technology follows the idea of "sell first, safety later" (Choron and Sakran, 2019).
+
+### Key stakeholders {-}
+
+- **Affected**: Mobile citizens, pedestrians, insurers
+- **Responsible**: National governments, city government,  private Companies
+
+### Current state of art in research {-}
+Since e-scooters are already well-established technology, most research focuses on safety and accidents, user behaviour and potential environmental impact of uptake of this micro-mobility option. Some studies advocate e-scooters as an environmentally friendly solution for crowded cities, others report contradictory results and point to safety issues.
+Moreover, research also explores whether the presence of e-scooters reduces bicycle thefts (Gössling, 2020). In Gothenburg, Sweden, the police reported that the number of bicycle thefts halved after the introduction of e-scooters and rental bikes (Sydsvenskan, 2019).
+
+### Current state of art in practice {-}
+E-scooter providers such as *Lime* and *Bird*, which launched operations in California in 2017, can now be found in over 100 cities worldwide and have since recorded millions of rides. E-scooter provider *VOI* has experienced similar growth in Europe and entered the market in 10 countries in just one year after launching in Sweden and has recorded over 16 million rides (Oeschger et al., 2020). The results of a survey indicate that e-scooters are primarily seen as entertainment and not as a means of transport (Siegfried et al., 2021). <br/><br/>
+Maximum speed limits are an important issue and internationally there are different approaches. Los Angeles and Dallas, for example, have no speed limit, as far as can be deduced from the news; while the limit in Vienna is 25 km/h (Schwarz, 2019). Paris is discussing reducing the speed limit to 20 km/h on cycle paths and 8 km/h in parks and pedestrian areas (Négroni, 2019). One problem with the maximum speeds is that some of the e-scooter models can go much faster than 25 km/h (Le Figaro, 2018). To counteract the negative consequences of the introduction of e-scooters, cities have evaluated and implemented various rules and guidelines. Media analysis suggests that the city councils should introduce the following rules as a minimal requirement: speed limits, restrictions on the exclusive use of bicycle infrastructure and a designation of parking spaces for rental and return. Behavioural campaigns and fines, are needed to limit negative consequences of e-scooter use (Gössling, 2020). <br/><br/>
+In Vienna, only very few e-scooters are used on bicycle paths (between 4.9% and 7.1% compared to other bicycle path users). Given the modal split of Vienna (7% cycling), it can be concluded that e-scooters do not yet have a significant role in Vienna's transport system (Laa and Leth, 2020).
+
+### Relevant initiatives in Austria {-}
+- [autorevue.at](https://autorevue.at/ratgeber/e-scooter-wien-vergleich)
+- [stadt-wien.at](https://www.stadt-wien.at/wien/news/e-scooter-sharing-system-in-wien.html)
+- [wien.gv.at](https://www.wien.gv.at/verkehr/scooter-roller/index.html)
+- [oeamtc.at](https://www.oeamtc.at/thema/fahrrad/e-kleintretroller-e-scooter-in-oesterreich-31721872)
+- [oesterreich.gv.at](https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/Elektro-Scooter,-Quads-und-Co/Seite.610110.html)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table15, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|E-scooter trips replace mainly walking trips|**-**|Health & Wellbeing (*3*)|Laa and Leth, 2020|
+|Individual|More expensive compared to public transport|**-**|Sustainable economic development (*8,11*)|Widholm, 2021; Wiener Linien, 2021|
+|Individual|Increase in participants on existing road infrastructure|**~**|Innovation & Infrastructure (*9*)|Laa and Leth, 2020|
+|Systemic|Highest user share among young males|**-**|Equality (*5,10*)|Laa and Leth, 2020|
+|Systemic|E-scooter trips repalce more sustainable transport modes|**-**|Environmental sustainability (*7,12-13,15*)|Laa and Leth, 2020|
+|Systemic|Growth in micromobility sector |**+**|Sustainable economic development (*8,11*)|Goessling, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+  ```{r table16, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+
+1. Will an increasing presence of e-scooters on the bicycle infrastructure or in pedestrian zones require separate solution in urban road infrastructure?
+
+### References {-}
+- Allem, J. P. and Majmundar, A. (2019) ‘Are electric scooters promoted on social media with safety in mind? A case study on Bird’s Instagram’, Preventive Medicine Reports. Elsevier Inc., pp. 62–63. doi: 10.1016/j.pmedr.2018.11.013.
+- Choron, R. L. and Sakran, J. V. (2019) ‘The Integration of Electric Scooters: Useful Technology or Public Health Problem?’, American journal of public health. NLM (Medline), 109(4), pp. 555–556. doi: 10.2105/AJPH.2019.304955.
+- Le Figaro (2018) ‘Trottinettes: la mairie de Paris veut une réglementation nationale’, 9 September. Available at: https://www.lefigaro.fr/flash-eco/2018/09/09/97002-20180909FILWWW00064-trottinettes-la-mairie-de-paris-veut-une-reglementation-nationale.php (Accessed: 20 January 2021).
+- Gössling, S. (2020) ‘Integrating e-scooters in urban transportation: Problems, policies, and the prospect of system change’, Transportation Research Part D: Transport and Environment. Elsevier, 79(January), p. 102230. doi: 10.1016/j.trd.2020.102230.
+James, O. et al. (2019) ‘Pedestrians and E-Scooters: An Initial Look at E-Scooter Parking and Perceptions by Riders and Non-Riders’, Sustainability. MDPI AG, 11(20), p. 5591. doi: 10.3390/su11205591.
+Laa, B. and Leth, U. (2020) ‘Survey of E-scooter users in Vienna: Who they are and how they ride’, Journal of Transport Geography. Elsevier, 89(October), p. 102874. doi: 10.1016/j.jtrangeo.2020.102874.
+- Liew, Y. K., Wee, C. P. J. and Pek, J. H. (2020) ‘New peril on our roads: A retrospective study of electric scooter-related injuries’, Singapore Medical Journal. Singapore Medical Association, 61(2), pp. 92–95. doi: 10.11622/smedj.2019083.
+- Négroni, A. (2019) ‘Paris: Hidalgo prend des mesures contre les trottinettes électriques’, 6 June. Available at: https://www.lefigaro.fr/actualite-france/trottinettes-paris-prend-des-mesures-20190606 (Accessed: 20 January 2021).
+- OECD/ITF (2020) ‘Safe Micromobility’, p. 98. Available at: https://www.itf-oecd.org/safe-micromobility.
+- Oeschger, G., Carroll, P. and Caulfield, B. (2020) ‘Micromobility and public transport integration: The current state of knowledge’, Transportation Research Part D: Transport and Environment. Elsevier Ltd, 89, p. 102628. doi: 10.1016/j.trd.2020.102628.
+- Portland Bureau of Transportation (2019) 2018 E-Scooter Findings Report. Available at: https://www.portlandoregon.gov/transportation/article/709719%0Ahttps://trid.trb.org/view/1607260.
+- Schwarz, R. (2019) E-Bikes und E-Scooter sind viel zu schnell! - Ideen-Blog - derStandard.at › Diskurs. Available at: https://www.derstandard.at/story/2000106514149/e-bikes-und-e-scooter-sind-viel-zu-schnell (Accessed: 20 January 2021).
+- Siegfried, C., Martin, B. and Reichenberger, Y. (2021) ‘Consumer acceptance of shared e-scooters for urban and short-distance mobility’, Transportation Research Part D. Elsevier Ltd, 91(January), p. 102680. doi: 10.1016/j.trd.2020.102680.
+- Sikka, N. et al. (2019) ‘Sharing the sidewalk: A case of E-scooter related pedestrian injury’, American Journal of Emergency Medicine. W.B. Saunders, 37(9), pp. 1807.e5-1807.e7. doi: 10.1016/j.ajem.2019.06.017.
+- Sydsvenskan (2019) Elsparkcyklarna minskar cykelstölderna - Sydsvenskan. Available at: https://www.sydsvenskan.se/2019-08-30/elsparkcyklarna-minskar-cykelstolderna (Accessed: 20 January 2021).
+- Widholm, K. (2021) E-Scooter Sharing-System: Roller von Lime, Tier, Bird und Co. Available at: https://www.stadt-wien.at/wien/news/e-scooter-sharing-system-in-wien.html (Accessed: 20 January 2021).
+- Wiener Linien (2021) Übersicht Tickets | Tickets | Fahrgastinfo | Wiener Linien. Available at: https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648 (Accessed: 20 January 2021).
+- Zagorskas, J. and Burinskiene, M. (2020) ‘Challenges caused by increased use of E-powered personal mobility vehicles in European cities’, Sustainability (Switzerland). MDPI AG, 12(1), p. 273. doi: 10.3390/su12010273.
+
+
+
 
 ## Ride-hailing
