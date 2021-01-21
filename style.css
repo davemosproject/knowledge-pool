@@ -24,6 +24,7 @@ body {
 .book .book-body .page-wrapper .page-inner {
   max-width: 85% !important;
 }
-.book .book-body .page-wrapper .page-inner section.normal h1{font-size:20pt}
-.book .book-body .page-wrapper .page-inner section.normal h2{font-size:18pt}
-.book .book-body .page-wrapper .page-inner section.normal h3{font-size:16pt}
+
+.book .book-body .page-wrapper .page-inner section.normal h1{font-size:18pt}
+.book .book-body .page-wrapper .page-inner section.normal h2{font-size:16pt}
+.book .book-body .page-wrapper .page-inner section.normal h3{font-size:14pt}
