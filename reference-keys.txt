@@ -91,7 +91,7 @@ big-data-tools-for-maping-and-forecasting-travel-behaviour
 shared
 car-sharing
 bicycle-and-e-bicycle-hire
-e-scooter-hire
+e-scooters
 ride-hailing
 alternative
 hydrogen-fuel-cell
