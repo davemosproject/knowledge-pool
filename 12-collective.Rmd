@@ -23,8 +23,8 @@ The European Commission estimates the economic impact at €10 billion annually 
 
 ### Key stakeholders {-}
 
-- **Affected**: Citizen
-- **Responsible**: National Governments, City government, Private Companies, Insurers
+- **Affected**: Citizen, Insurers
+- **Responsible**: National Governments, City government, Private Companies
 
 ### Current state of art in research {-}
 Since all prototypes are owned by private companies and the technology is not really shared due to competition, there are few technical research papers.
