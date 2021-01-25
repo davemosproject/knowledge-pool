@@ -26,97 +26,97 @@ format(Sys.time(),'%d %B %Y' )
 
 1. Introduction to the knowledge pool \@ref(intro)
 2. Physical road infrastructure \@ref(infrastructure)  
-- Dedicated lanes for connected and automated vehicles (CAV)
-- Cooperative lane control for connected and automated vehicles
-- Operational design domains
-- Rail crossing information system
-- Electric road system
-- High occupancy toll lanes
-- Public transport priority systems
-- Transformation of public space and digital solutions
+    - Dedicated lanes for connected and automated vehicles (CAV)
+    - Cooperative lane control for connected and automated vehicles
+    - Operational design domains
+    - Rail crossing information system
+    - Electric road system
+    - High occupancy toll lanes
+    - Public transport priority systems
+    - Transformation of public space and digital solutions
 3. Highway infrastructure management \@ref(highway)
-- Unmanned aerial vehicles for infrastructure mainteinance
-- Electric charging stations
+    - Unmanned aerial vehicles for infrastructure mainteinance
+    - Electric charging stations
 4. Traffic management \@ref(traffic)
-- Platooning
-- Real-time traffic information and monitoring
-- Cooperative - intelligent transport system
-- Dynamic route guidance
-- Variable speed limits and dynamic signage system
-- Passengers and goods fleet management
-- Urban access management
+    - Platooning
+    - Real-time traffic information and monitoring
+    - Cooperative - intelligent transport system
+    - Dynamic route guidance
+    - Variable speed limits and dynamic signage system
+    - Passengers and goods fleet management
+    - Urban access management
 5. Road pricing \@ref(pricing)
-- Congestion charging
+    - Congestion charging
 6. Digital road infrastructure and connectivity \@ref(digital)
-- Vehicle to infrastructure communication
-- Infrastructure support levels for automated driving
-- Vehicle to vehicle communication
-- Wireless communication
+    - Vehicle to infrastructure communication
+    - Infrastructure support levels for automated driving
+    - Vehicle to vehicle communication
+    - Wireless communication
 7. Passenger information system \@ref(passenger)
-- Digital journey planner
-- Rail telematics for passenger services
-- Multimodal information and route planning
-- Real-time, location-based information
+    - Digital journey planner
+    - Rail telematics for passenger services
+    - Multimodal information and route planning
+    - Real-time, location-based information
 8. Multimodal integrated system \@ref(multimodal)
-- First-last mile solutions
-- Distance or time-based fares
-- Mobility as a service
-- Park and ride
-- Contantless public transport cards
-- Information and assistance for people with special needs
-- Mobility/Freight hubs
+    - First-last mile solutions
+    - Distance or time-based fares
+    - Mobility as a service
+    - Park and ride
+    - Contactless public transport cards
+    - Information and assistance for people with special needs
+    - Mobility/Freight hubs
 9. Connected and autonomous driving \@ref(connected)
-- Parking infrastructure for autonomous vehicles
-- Connected vehicles
-- Automated vehicles
+    - Parking infrastructure for autonomous vehicles
+    - Connected vehicles
+    - Automated vehicles
 10. On-board technology for connected and automated vehicles \@ref(onboard)
-- Advanced driver assistance system
-- Parking assistance system
-- Lane keeping
-- Distane keeping
-- Crash avoidance
-- Mainteinance assistance
-- Digital maps
-- E-Horizon
-- Emergency call
+    - Advanced driver assistance system
+    - Parking assistance system
+    - Lane keeping
+    - Distane keeping
+    - Crash avoidance
+    - Mainteinance assistance
+    - Digital maps
+    - E-Horizon
+    - Emergency call
 11. Freight and commercial transport \@ref(freight)
-- Automated road freight
-- Freight dreyage optimisation
-- Tracking and tracing of dangerous goods
-- Intermodal Freight
-- Real-time disruption management and route planning
-- Traffic signal control
-- Urban Deliveries
-- Parcel load pooling
-- Intelligent truck parking and delivery space booking
-- Freight drones
-- Commercial vehicle on-board safety systems
-- Truck Platooning
-- Rail telematics for freight services
-- Electric vehicle delivery fleets
-- Multimodal transport management systems
-- Cooperative adaptive cruise control in trucks
+    - Automated road freight
+    - Freight dreyage optimisation
+    - Tracking and tracing of dangerous goods
+    - Intermodal Freight
+    - Real-time disruption management and route planning
+    - Traffic signal control
+    - Urban Deliveries
+    - Parcel load pooling
+    - Intelligent truck parking and delivery space booking
+    - Freight drones
+    - Commercial vehicle on-board safety systems
+    - Truck Platooning
+    - Rail telematics for freight services
+    - Electric vehicle delivery fleets
+    - Multimodal transport management systems
+    - Cooperative adaptive cruise control in trucks
 12. Collective mobility vehicles \@ref(collective)
-- Demand responsive transit
-- Personal rapid transit
-- Bus rapid transit
-- Light rail trans
-- Automatic train operations
+    - Demand responsive transit
+    - Personal rapid transit
+    - Bus rapid transit
+    - Light rail trans
+    - Automatic train operations
 13. Big data \@ref(big)
-- Automatic identification system fir maritime transport
-- Big data lifecycle
-- Location-based data
-- Aircraft tracking system
-- Big data tools for maping and forecasting travel behaviour
+    - Automatic identification system fir maritime transport
+    - Big data lifecycle
+    - Location-based data
+    - Aircraft tracking system
+    - Big data tools for maping and forecasting travel behaviour
 14. Shared mobility \@ref(shared)
-- Car sharing
-- Bicycle and e-bicycle hire
-- E-scooters
-- Ride-hailing
+    - Car sharing
+    - Bicycle and e-bicycle hire
+    - E-scooters
+    - Ride-hailing
 15. Alternative power sources \@ref(alternative)
-- Hydrogen fuel cell
-- Battery electric
-- Plugin hybrid vehicles
+    - Hydrogen fuel cell
+    - Battery electric
+    - Plugin hybrid vehicles
 16. References \@ref(reference)
 
 
