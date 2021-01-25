@@ -41,7 +41,7 @@ first-last-mile-solutions
 distance-or-time-based-fares
 mobility-as-a-service
 park-and-ride
-contantless-public-transport-cards
+contactless-public-transport-cards
 information-and-assistance-for-people-with-special-needs
 mobilityfreight-hubs
 connected
