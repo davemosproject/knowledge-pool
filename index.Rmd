@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Pool"
 author: 'DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna'
-date: '<img class="img-footer" alt="" src="C:\\Users\\bogacz\\Documents\\GitHub\\knowledge-pool\\image\\davemos_logo.png">'
+date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -10,6 +10,7 @@ link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation."
 ---
+
 # Preface {-}
 
 This is a *continuously developing* database, which is a part of [DAVeMOS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. Therefore, the authors of this work welcome any feedback, questions and contributions that the readers may have. <br/>
