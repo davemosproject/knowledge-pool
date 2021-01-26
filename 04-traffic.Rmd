@@ -48,7 +48,7 @@ Austrian motorways are managed by the ASFiNAG - currently they have 17 DSL syste
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
-|Individual|Travel time reduced|**+**|Environmental sustainability (*7,12-13,15*)|Habtemichael & de Picado Santos, 2013|
+|Individual|Travel time reduced|**+**|Environmental sustainability (*7,12,13,15*)|Habtemichael & de Picado Santos, 2013|
 |Systemic|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
 |Systemic| Annual greenhouse gas emissions decrease|**+**|Environmental sustainability (*7,12-13,15*)|Schimany, 2011|')
 ```

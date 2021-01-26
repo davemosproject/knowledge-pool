@@ -69,11 +69,11 @@ In Linz it was once again said that this type of passenger transport is seen as 
 ```{r table18, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|It is expected to be too costly for general use|**-**|Equality (*5,10*)|Pramer and Sommavilla, 2020|
-|Individual|The flight price is expected to settle in the range of a very expensive taxi|          **-**|Environmental sustainability (*7,12-13,15*)|Pramer and Sommavilla, 2020|
-|Systemic|Slightly reduced GHG emissions compared to conventional cars from 35 km onwards|**~**|Environmental sustainability (*7,12-13,15*)|Kasliwal et al., 2019|
+|Individual|It is expected to be too costly for general use|**-**|Equality (*5,10*)|Pramer & Sommavilla, 2020|
+|Individual|The flight price is expected to settle in the range of a very expensive taxi|          **-**|Sustainable economic development (*8,11*)|Pramer & Sommavilla, 2020|
+|Systemic|Slightly reduced GHG emissions compared to conventional cars from 35 km onwards|**~**|Environmental sustainability (*7,12,13,15*)|Kasliwal et al., 2019|
 |Systemic|Increased investment until 2035 and creation of job opportunities|          **+**|Sustainable economic development (*8,11*)|SESAR, 2016|
-|Systemic|Stationary areas for safety checks|          **~**|Innovation & Infrastructure (*9*)|Pramer and Sommavilla, 2020|')
+|Systemic|Stationary areas for safety checks|          **~**|Innovation & Infrastructure (*9*)|Pramer & Sommavilla, 2020|')
 ```
 
 ### Technology and societal readiness level {-}

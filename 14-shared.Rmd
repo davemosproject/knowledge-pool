@@ -57,10 +57,10 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Uniform access to car in the population|**+**|Equality (*5,10*)|VCOE - Mobilitaet mit Zukunft, 2018|
 |Individual|Cost reduced|**+**|Sustainable economic development (*8,11*)|Evers, 2018|
-|Systemic|Reduced traffic and improved air quality|**+**|Health & Wellbeing (*3*)|Martin and Shaheen, 2011|
+|Systemic|Reduced traffic and improved air quality|**+**|Health & Wellbeing (*3*)|Martin & Shaheen, 2011|
 |Systemic|Car-free households are no longer disadvantaged|         **+**|Equality (*5,10*)|VCOE - Mobiliteat mit Zukunft, 2018|
-|Systemic|Reduced emissions|          **+**|Environmental sustainability (*7,12-13,15*)|Martin and Shaheen, 2011|
-|Systemic|Car sharing fleet grows steadily|    **+** |Innovation & Infrastructure (*9*)|Stadt Wien, Strassenverwaltung und Strassenbau, no date|')
+|Systemic|Reduced emissions|          **+**|Environmental sustainability (*7,12,13,15*)|Martin & Shaheen, 2011|
+|Systemic|Car sharing fleet grows steadily|    **+** |Innovation & Infrastructure (*9*)|Stadt Wien, no date|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -208,11 +208,11 @@ In Vienna, only very few e-scooters are used on bicycle paths (between 4.9% and 
 ```{r table15, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|E-scooter trips replace mainly walking trips|**-**|Health & Wellbeing (*3*)|Laa and Leth, 2020|
+|Individual|E-scooter trips replace mainly walking trips|**-**|Health & Wellbeing (*3*)|Laa & Leth, 2020|
 |Individual|More expensive compared to public transport|**-**|Sustainable economic development (*8,11*)|Widholm, 2021; Wiener Linien, 2021|
-|Individual|Increase in participants on existing road infrastructure|**~**|Innovation & Infrastructure (*9*)|Laa and Leth, 2020|
-|Systemic|Highest user share among young males|**-**|Equality (*5,10*)|Laa and Leth, 2020|
-|Systemic|E-scooter trips repalce more sustainable transport modes|**-**|Environmental sustainability (*7,12-13,15*)|Laa and Leth, 2020|
+|Individual|Increase in participants on existing road infrastructure|**~**|Innovation & Infrastructure (*9*)|Laa & Leth, 2020|
+|Systemic|Highest user share among young males|**-**|Equality (*5,10*)|Laa & Leth, 2020|
+|Systemic|E-scooter trips repalce more sustainable transport modes|**-**|Environmental sustainability (*7,12,13,15*)|Laa & Leth, 2020|
 |Systemic|Growth in micromobility sector |**+**|Sustainable economic development (*8,11*)|Goessling, 2020|')
 ```
 
