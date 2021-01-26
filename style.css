@@ -15,9 +15,6 @@ pre code {
 body {
   text-align: justify;
 }
-.date{
-    display: none;
-}
 .book .book-body .page-wrapper .page-inner {
   max-width: 1200px !important;
 }
