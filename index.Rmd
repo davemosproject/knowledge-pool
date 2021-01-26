@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Pool"
-author: "DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life in Vienna, Austria"
+author: 'DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna'
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
