@@ -5,4 +5,4 @@ This is a *continuously developing* database, which is a part of [DAVeMOS](https
 For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/>
 
 
-The structure of this work was inspired by the Afrimap book: https://github.com/afrimapr/afrimapr-book 
+The structure of this work was inspired by the Afrimap book: https://afrimapr.github.io/afrimapr-book/
