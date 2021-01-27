@@ -18,7 +18,7 @@
 
 ## Intelligent truck parking and delivery space booking
 
-## Freight drones
+## Delivery drones
 
 ## Commercial vehicle on-board safety systems
 
