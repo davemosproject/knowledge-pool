@@ -1,6 +1,6 @@
 # Highway infrastructure management {#highway}
 
-## Unmanned aerial vehicles for infrastructure mainteinance
+## Unmanned aerial vehicles for infrastructure maintenance
 
 ### Synonyms {-}
 *Drones, remotely piloted vehicles, remotely piloted aircraft, uav*

@@ -98,4 +98,90 @@ Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary v
 
 ## Public transport priority systems
 
+### Synonyms {-}
+*pre-emption of public transport vehicles, public transport priority (PTP), Transit signal priority (TSP), road-space priority (RSP)*
+
+### Definition {-}
+To encourage people to use public transport and thereby travel more sustainably, it is necessary that public transport operates reliably and efficiently. For example, public transport is the most efficient mode of transport at the intersections, where the difference in the number of people who can pass through a junction in a given time is particularly impressive between cars and public transport. The ratio is between 1 to 10 and 1 to 20 (Schwendinger, 2019). In contrast, a bus at full capacity that is stuck in congestion increases the travel time of many more passengers, compared to single cars in a similar position. Time delays due to traffic signals account for up to 25% of the total travel time of buses (Seredynski et al., 2015). Furthermore, energy prices and emissions generated become more relevant for public transport operators, to compete with the motorized private transport (Gassel et al., 2012).<br/><br/>
+The implementation of public transport priority measures can help improving time and energy efficiency of public transport service. The delays caused by traffic signals can be reduced by the introduction of Transit Signal Priority (TSP) such as early green, green extension, phase rotation, phase insertion and actuated transit phase, favouring public transport (Seredynski et al., 2015). TSP systems can increase the attractiveness of public transport, reduce the operation cost and reduce tailpipe emissions and energy use. On the other hand, they increase the travel time of general traffic, therefore the acceptance is limited (Seredynski et al., 2015). Another widely used systems are separated bus lanes or independent tracks for trams. These are especially relevant in 30 km/h zones, so the public transport vehicles can be excluded from the regulation. But since space is a limited good, independent lanes or tracks are not always possible to implement (Schwendinger, 2019). <br/><br/>
+For Vienna pre-emption  of public transport vehicles has high priority (WIENER STADTWERKE GmbH, 2018). The first measures to shorten  the bus route 15A at Wienerberg took effect in autumn 2018. Measures to give priority to public transport are also becoming more important in other cities such as Linz, Graz or Innsbruck. Trams in Graz have priority switching at almost all traffic lights, while there is a further need for bus lines, especially for those from the surrounding area (Schwendinger, 2019).To promote e-mobility, some countries introduced bus lane access to e-vehicles (Figenbaum et al., 2015). Wiener Linien is clearly against this measure, because cars, regardless of their propulsion system, cause delays in the bus lanes and slow down public transport (WIENER STADTWERKE GmbH, 2018).
+
+### Key stakeholders {-}
+
+- **Affected**: Road Users, Public Transport Users, Public Transport Operators
+- **Responsible**: State Authorities, Transport Infrastructure Operators, Technology Providers
+
+### Current state of art in research {-}
+Current research aims at building on the existing solutions such as TSP and proposes so-called Green Light Optimal Speed Advisory (GLOSA) driver assistance systems. A multi segment GLOSA can take several lights in a sequence on route of a bus into account and allows the driver to adjust the speed, so that the bus can arrive at the intersection when the light is green. By that, the comfort of passengers can be increased and the fuel consumption as well as the tailpipe emissions be decreased, without negatively affecting the general traffic (Seredynski et al., 2014). However, Stahlmann et al. (2018) argue that so far, most GLOSA simulation studies are too optimistic in terms of communication performance and recommend further improvement of GLOSA systems. <br/><br/>
+Moreover, the Green Light Optimal Dwell Time Advisory (GLODTA) systems look into exploiting additional dwell time at the near-side bus stop (Seredynski et al., 2014). According to Seredynski & Viti (2017) they can support on-route battery charging of electrical buses and also replace existing holding strategies used to regulate punctuality of bus services. <br/><br/>
+Due the limited acceptance of TSP systems, more research regarding the efficient use of green time provided to public transport is needed. Therefore, the focus is on the improvement of the bus detection methods. The latest TSP are working with GPS-based Virtual Detectors (VD), which eliminate the need of on-street detection infrastructure, but their disadvantages is low accuracy (Seredynski et al., 2015).<br/><br/>
+Haitao et al. (2019) developed an integrated and systematic framework for the optimization of bimodal urban networks using 3D-MFDs, considering the complexities of bimodality to manage traffic more efficiently and provide public transport priority. Results of the evaluation show that the proposed strategy always performs better than existing perimeter control schemes in terms of passenger mobility.  
+
+
+### Current state of art in practice {-}
+A common measure in use is the positioning of stops before intersections, which combines the standing time at the traffic lights with the passenger change and thus leads to travel time reductions (Schwendinger, 2019).<br/><br/>
+All around the world Bus Rapid Transit (BRT) systems have gained popularity. Cervero (2013) defines them as “bus-based system that mimics the high-capacity, high-performance characteristics of urban rail systems at a much lower price” that runs either on exclusive transit-ways, dedicated bus lanes or some grade of separation. <br/><br/>
+Regarding TPS, the cloud-based systems using GPS locations are standard technology (see Figure 1). However, there are still many outdated systems in use that are based on short-range radio. These systems require that all traffic lights are equipped with receivers. All buses in a fleet need special transmitters and an onboard system for positioning, which makes it an overall expensive system. At the same time, this technology is rather unreliable and maintenance intensive (SWARCO, 2021). 
+
+```{r, echo=FALSE, , out.width="70%", fig.cap="Smart priority for public transport (SWARCO, 2021)"}
+knitr::include_graphics("image/pt_priority_system.jpg")
+```
+
+### Relevant initiatives in Austria {-}
+
+- [digitales.wien.gv.at](https://digitales.wien.gv.at/site/open-data/) 
+- [wienerlinien.at](https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66528/channelId/-4400661) 
+- [kapsch.net-1](https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes ) 
+- [kapsch.net-2](https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Urban-Mobility-Management ) 
+- [swarco.com](https://www.swarco.com/de/loesungen/oeffentlicher-nahverkehr/vorrang-fuer-den-oeffentlichen-nahverkehr) 
+- [mobility.siemens.com](https://www.mobility.siemens.com/global/de/portfolio/strasse/verkehrsmanagement/auf-der-strasse/smart-detection.html ) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table21, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Higher equality for people who do not drive|**+**|Equality (*5,10*)|Litman, 2017; Cervero, 2013|
+|Individual|Less travel time for public transport users, more travel time for car users|**~**|Sustainable economic development (*8,11*)|Seredynski et al., 2015 |
+|Systemic|Public transport becomes more competitive compared to other transport modes|**+**|Equality (*5,10*) |Schwendinger, 2019|
+|Systemic|Less fuel consumption|**+**|Environmental sustainability (*7,12,13,15*)|Gassel et al., 2012; Seredynski et al., 2015|
+|Systemic|Transit is often the most cost-effective mode| **+**|Sustainable economic development (*8,11*)|Litman, 2015 |
+|Systemic|More infrastructre for public transport|**+**|Innovation & Infrastructure (*9*)|Cuthill et al., 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table22, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|4-8|5-8|')
+```
+
+### Open questions {-}
+
+1. Who is responsible for the implementation of PTP systems?
+2. How will Vehicle-to-Vehicle (V2V), Vehicle-to-Infrastructure (V2I) and in future Vehicle-to-Pedestrian (V2P) change PTP systems? 
+3. How could also emergency vehicles be prioritised? 
+4. How to deal with mixed fleets - half new, half old? 
+5. What are the benefits compared to the costs? 
+6. Which standards should be used?
+
+
+### References {-}
+- Cervero, R. (2013). Bus rapid transit (BRT): An efficient and competitive mode of public transport (No. 2013-01). Working Paper.
+- Cuthill, N., Cao, M., Liu, Y., Gao, X., & Zhang, Y. (2019). The association between urban public transport infrastructure and social equity and spatial accessibility within the urban environment: An investigation of Tramlink in London. Sustainability, 11(5), 1229.
+- Figenbaum, E., Fearnley, N., Pfaffenbichler, P., Hjorthol, R., Kolbenstvedt, M., Jellinek, R., ... & Iversen, L. M. (2015). Increasing the competitiveness of e-vehicles in Europe. European transport research review, 7(3), 1-14.
+- Gassel, C., Matschek, T., & Krimmling, J. (2012). Cooperative traffic signals for energy efficient driving in tramway systems. Aspekte der Verkehrstelematik–ausgewählte Veröffentlichungen 2012, 1.
+- Haitao, H., Yang, K., Liang, H., Menendez, M., & Guler, S. I. (2019). Providing public transport priority in the perimeter of urban networks: A bimodal strategy. Transportation Research Part C: Emerging Technologies, 107, 171-192.
+- Litman, T. (2015). Evaluating public transit benefits and costs. Victoria, BC, Canada: Victoria Transport Policy Institute.
+- Litman, T. (2017). Evaluating Transportation Diversity. Victoria Transport Policy Institute.
+- Schwendinger, M. (2019). Vorrang für Busse und Straßenbahnen in Städten. https://vcoe.at/files/vcoe/uploads/Projekte/Factsheets 2019 Neu/VCÖ-Factsheet ÖV-Bevorrangen.pdf
+- Seredynski, M., Khadraoui, D., & Viti, F. (2015, October). Signal phase and timing (SPaT) for cooperative public transport priority measures. In Proc. 22nd ITS World Congress.
+- Seredynski, M., Ruiz, P., Szczypiorski, K., & Khadraoui, D. (2014, May). Improving bus ride comfort using GLOSA-based dynamic speed optimisation. In 2014 IEEE International Parallel & Distributed Processing Symposium Workshops (pp. 457-463). IEEE.
+- Seredynski, M., & Viti, F. (2017, October). Novel C-ITS support for electric buses with opportunity charging. In 2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC) (pp. 1-6). IEEE.
+- Stahlmann, R., Möller, M., Brauer, A., German, R., & Eckhoff, D. (2018). Exploring GLOSA systems in the field: Technical evaluation and results. Computer Communications, 120, 112-124.
+- SWARCO. (2021). Vorrang für den ÖPNV: Öffentliche Verkehrsmittel attraktiver machen. Retrieved 26th January 2021, from https://www.swarco.com/de/loesungen/oeffentlicher-nahverkehr/vorrang-fuer-den-oeffentlichen-nahverkehr 
+- WIENER STADTWERKE GmbH. (2018). Wiener Linien: Autos auf Busspuren halten Öffis auf. https://www.wienerstadtwerke.at/eportal3/ep/contentView.do?pageTypeId=71954&channelId=-51313&programId=72863&contentId=4202309&contentTypeId=1001 
+
+
 ## Transformation of public space and digital solutions

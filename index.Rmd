@@ -27,23 +27,23 @@ format(Sys.time(),'%d %B %Y' )
 
 1. Introduction to the knowledge pool \@ref(intro)
 2. Physical road infrastructure \@ref(infrastructure)  
-    - Dedicated lanes for connected and automated vehicles (CAV) 
+    - Dedicated lanes for connected and automated vehicles (CAV) **NEW**
     - Cooperative lane control for connected and automated vehicles
     - Operational design domains
     - Rail crossing information system
     - Electric road system
     - High occupancy toll lanes
-    - Public transport priority systems
+    - Public transport priority systems **NEW**
     - Transformation of public space and digital solutions
 3. Highway infrastructure management \@ref(highway)
-    - Unmanned aerial vehicles for infrastructure mainteinance
+    - Unmanned aerial vehicles for infrastructure maintenance **NEW**
     - Electric charging stations
 4. Traffic management \@ref(traffic)
     - Platooning
     - Real-time traffic information and monitoring
     - Cooperative - intelligent transport system
     - Dynamic route guidance
-    - Variable speed limits and dynamic signage system
+    - Variable speed limits and dynamic signage system **NEW**
     - Passengers and goods fleet management
     - Urban access management
 5. Road pricing \@ref(pricing)
@@ -63,7 +63,7 @@ format(Sys.time(),'%d %B %Y' )
     - Distance or time-based fares
     - Mobility as a service
     - Park and ride
-    - Contactless public transport cards
+    - Contactless public transport cards **NEW**
     - Information and assistance for people with special needs
     - Mobility/Freight hubs
 9. Connected and autonomous driving \@ref(connected)
@@ -102,6 +102,7 @@ format(Sys.time(),'%d %B %Y' )
     - Personal rapid transit
     - Bus rapid transit
     - Light rail trans
+    - Passenger drones **NEW**
     - Automatic train operations
 13. Big data \@ref(big)
     - Automatic identification system fir maritime transport
@@ -110,14 +111,14 @@ format(Sys.time(),'%d %B %Y' )
     - Aircraft tracking system
     - Big data tools for maping and forecasting travel behaviour
 14. Shared mobility \@ref(shared)
-    - Car sharing
-    - Bicycle and e-bicycle hire
-    - E-scooters
+    - Car sharing **NEW**
+    - Bicycle and e-bicycle hire 
+    - E-scooters **NEW**
     - Ride-hailing
 15. Alternative power sources \@ref(alternative)
-    - Hydrogen fuel cell
+    - Hydrogen fuel cell **NEW**
     - Battery electric
-    - Plugin hybrid vehicles
+    - Plugin hybrid vehicles **NEW**
 16. References \@ref(reference)
 
 
