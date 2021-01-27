@@ -69,7 +69,7 @@ traffic-signal-control
 urban-deliveries
 parcel-load-pooling
 intelligent-truck-parking-and-delivery-space-booking
-freight-drones
+delivery-drones
 commercial-vehicle-on-board-safety-systems
 truck-platooning
 rail-telematics-for-freight-services
