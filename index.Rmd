@@ -112,7 +112,7 @@ format(Sys.time(),'%d %B %Y' )
     - Big data tools for maping and forecasting travel behaviour
 14. Shared mobility \@ref(shared)
     - Car sharing **NEW**
-    - Bicycle and e-bicycle hire 
+    - Bicycle and e-bicycle hire **NEW**
     - E-scooters **NEW**
     - Ride-hailing
 15. Alternative power sources \@ref(alternative)

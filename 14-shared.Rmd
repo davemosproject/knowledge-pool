@@ -100,10 +100,7 @@ cat('|TRL| SRL|
 Bike-sharing schemes have become a key component of urban transport policy over the past decade, as shown by the increase in the number of bicycles recently seen in major cities around the world. The concept of bike-sharing is a service for individuals to get around comfortably by bike without owning one. The bicycle is an energy-efficient, safe, CO~2~-neutral and space-saving means of transport. It has a low environmental footprint (when used). In urban areas it is a good alternative to the car for short journeys. For longer journeys or for getting to work in an urban environment, it is an excellent complement to public transport. Although at the beginning of the 21st century most BSSs were docked, today's BSSs consist of both docked and dockless BSSs, which have recently emerged in several cities such as London, New York, San Francisco, Beijing and many others (El Arbi and Stephane, 2020).<br/><br/>
 Modern urban short-term bicycle rental systems or public BSSs offer 24-hour access to bicycles, can be picked up and returned at self-service docking stations, and are distributed throughout the city (Midgley, 2011). As technology advances, global positioning systems (GPS) allow operators to track the bikes and reposition them if necessary, while user registration and credit card identification reduce anonymity and theft.<br/><br/>
 The development of, mainly European, BSSs has typically been categorized into four different generations, which in some properties merge into each other. The use of the 1965 "White Bikes" in Amsterdam was possible without personal registration and the bikes could be found all over the city without fixed stations. The model collapsed within a few days due to vandalism and theft. The second generation used locks and heavy bikes. Vandalism rates decreased, but bikes were still stolen because of the anonymity of the customers (DeMaio, 2009). The third generation became smarter and more attractive through technological improvements such as automated smart cards, electronic bike locks and payment systems. Users received a code via SMS to unlock the bikes. 
-The current fourth generation, could include movable solar-powered docking stations, GPS-based real-time availability apps on mobile phones and more electric bikes (Zademach and Musch, 2018).<br/><br/>
-In Austria, there are multiple companies currently offering bicycle or e-bicycle sharing services such as *Citybike, Ofo or oBike*. Nevertheless, about a year after their launch, the Asian providers of stationless rental bikes in Vienna (start-ups *Ofo* and *oBike*) are in retreat from the federal capital (Rachbauer, 2018b). This has been a result of strict rules announced stationless rental bikes in Vienna on 1st August 2018. A failure to comply with the rules results in the bikes being removed for a fee. Previously, the traffic road act (*StVO*) allowed the placement of rental bikes in public spaces and the city lacked the means of action against the providers. With the help of a so-called local police ordinance, the city hall requires that the bike-sharing companies pick up objectionable bikes on weekdays within four hours and at night and on weekends within twelve hours after notification. If they do not comply, the bikes are removed for a fee. In addition, administrative fines of up to 700 euros are possible.
-Moreover, a maximum number of 1500 bicycles per provider is also set. The bikes are given a number and each one has to be registered with the city. According to Blum, setting up several companies to circumvent the upper limit is not allowed. The rental companies themselves also have to meet some criteria now. In particular, there must be a company headquarters in Vienna and a service hotline. *Ofo* and *oBike* already meet these requirements (Rachbauer, 2018d). <br/><br/>
-Across Austria the situation with rental bikes differs significantly, for example in Innsbruck, renatal bikes were first introduced in 2014 and and are succesfully opearting. Meanwhile, in Linz rental bike system has been approved in 2017 and the docking stations are currently under construction. Further, in Salzburg the S-Bike rental system is operating and linked to federal funding (Affenzeller, 2020, Citybike Salzburg, no date a). On the other hand in Graz there is no uniform bike rental system and these services are provided by shops and hotels (Rachbauer, 2016).
+The current fourth generation, could include movable solar-powered docking stations, GPS-based real-time availability apps on mobile phones and more electric bikes (Zademach and Musch, 2018).
 
 ### Key stakeholders {-}
 
@@ -111,12 +108,24 @@ Across Austria the situation with rental bikes differs significantly, for exampl
 - **Responsible**: National Governments, International lobbyists, (Public) Transport Agency, Non-Profit-Organizations, Private For-Profit Companies, Private Companies (e. g. outdoor advertising companies)
 
 ### Current state of art in research {-}
+Research mostly focuses on customer behaviour such as trip length or travel time and behavioural influences on the use of bike-sharing systems, for example, road density, traffic density or bicycle infrastructure.
 
+For example, study by Ma et al. (2020) shows that suburban commuters are very likely to use SBBSS to travel to the nearest public transport hub quickly while avoiding long walks or waiting for buses. Moreover, the study by Li et al., (2019) demonstrated that introduction of bikes for hire near points of interest and tourists attractions can significantly increase their use in urban areas while discouraging in suburban locations. Further, it was showed that discount programs such as discounts for regular users, compensation incentives or discounted prices for the elderly increase the attractiveness of this form of transport among different population segments.
+
+In terms of general system functioning, a study by Fishman et al., (2014) shows that one of the major inconvenience of bike-sharing systems are fixed, docked stations. Therefore, to improve the flexibility, attemps are made to introduce shared bikes with locks (Zhang et al., 2019). Furthermore, the maintenance of the dockless system is also problematic, where on one hand, the high maintenance cost reduced the profit margin of the companies while on the other hand, defective bikes can reduce the satisfaction of the customers and decrease the uptake. Therefore, current research focuses on the development of the mechanisms to monitor the condition of the bicycles while maintaining cost efficiency. 
 
 ### Current state of art in practice {-}
+Public bike-share systems are one of the world's fastest growing public transport modes, with an average annual growth of 37% since 2009. The fastest increase takes place in China, a country that is experiencing a rapid uptake of electric bicycles (e-bikes). Sales of e-bikes are outpacing all other motorized modes. The figure 14.1 shows the rapid growth of the two emerging technologies, e-bikes and bike-share systems (Campbell et al., 2016).
+ 
+```{r, echo=FALSE, , out.width="60%", fig.cap="Growth in personal e-bike and public bikeshare systems (Campbell et al., 2016)"}
+knitr::include_graphics("image/bike_sharing.png")
+```
 
-
-
+Private BSS operators from China (*Mobike, Ofo*) and Shanghai (*oBike*) are currently introducing large fleets of station-less rental bikes in cities worldwide. The roll-out, especially in European cities, has encountered problems as city governments have not been able to coordinate the introduction (Zademach and Musch, 2018). Many bikes have been found abandoned around the cities. In addition, there are fears in some cases that the private companies introduced the BSS with the sole reason of tapping into private user data (Schöffel et al., 2017).<br/><br/>
+Furthermore, the company Montreal introduced "BIXI", fixed, portable, solar-powered and modular stations. They are self-contained and the stations can be placed, moved and relocated to desired locations within 20 minutes. "Mega" docking stations are available for special events (Midgley, 2011).
+The number of BSSs has grown to over 800 units worldwide (Fishman, 2016). The public-private partnership model has been the most widespread, and the implementation of BSSs has been possible in cities with limited public funds (Zademach and Musch, 2018).<br/><br/>
+In Austria, there are multiple companies currently offering bicycle or e-bicycle sharing services such as *Citybike, Ofo or oBike*. Nevertheless, about a year after their launch, the Asian providers of stationless rental bikes in Vienna (start-ups *Ofo* and *oBike*) have been in retreat from the federal capital (Rachbauer, 2018b). This has been a result of strict rules with respect to stationless rental bikes in Vienna announced on 1st August 2018. A failure to comply with the rules resulted in the bikes being removed for a fee. Previously, the traffic road act (*StVO*) allowed the placement of rental bikes in public spaces and the city lacked the means of action against the providers. With the help of a so-called local police ordinance, the city hall required that the bike-sharing companies pick up objectionable bikes on weekdays within four hours and at night and on weekends within twelve hours after notification. If they did not comply, the bikes were removed for a fee. In addition, administrative fines of up to 700 euros were possible. Moreover, a limit of maximum 1500 bicycles per provider was also set. Now, the bikes are given a number and each one has to be registered with the city. According to Blum, setting up several companies to circumvent the upper limit is not allowed. The rental companies themselves also have to meet certaine criteria, for instance, there must be a company headquarters in Vienna and a service hotline. *Ofo* and *oBike* already meet these requirements (Rachbauer, 2018d). <br/><br/>
+Across Austria the situation with rental bikes differs significantly, for example in Innsbruck, renatal bikes were first introduced in 2014 and and are succesfully opearting. Meanwhile, in Linz rental bike system has been approved in 2017 and the docking stations are currently under construction. Further, in Salzburg the S-Bike rental system is operating and linked to federal funding (Affenzeller, 2020, Citybike Salzburg, no date a). On the other hand in Graz there is no uniform bike rental system and these services are provided by shops and hotels (Rachbauer, 2016).
 
 ### Relevant initiatives in Austria {-}
 
@@ -126,17 +135,32 @@ Across Austria the situation with rental bikes differs significantly, for exampl
 - [tpis.at](https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
-
-
+```{r table23, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Often first 30-60 minutes free of charge|**+**|Equality (*5,10*)|Citybike Salzburg, no date b; Citybike Wien, no date; Nextbike Niederoesterreich, no date|
+|Individual|Continuous advancement in bike features|**+**|Innovation & Infrastructure (*9*)|Zademach & Musch, 2018 |
+|Systemic|Wider access to this cheap or free mobility service|**+**|Equality (*5,10*) |El Arbi & Stephane, 2020|
+|Systemic|Air pollution, noise pollution and congestion reduced|**+**|Environmental sustainability (*7,12,13,15*)|El Arbi & Stephane, 2020|
+|Systemic|Investment in bike sharing infrastructure|**+**|Innovation & Infrastructure (*9*)|der Grazer, 2019; Hillebrand, 2019; Affenzeller, 2020; Tech & Nature, 2020|
+|Systemic|48% of all systems are operated as public-private partnerships|**+**|Partnership & collaborations (*17*)|Midgley, 2011|')
+```
 
 ### Technology and societal readiness level {-}
 
+```{r table24, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|5-7|')
+```
+
 
 ### Open questions {-}
-
+1.	What measures can be implemented to tackle the vandalism of the bikes?
+2.	Which bike system (docked vs. free-floating) is more sustainable in the long-term?
 
 ### Further links {-}
-
+- [cyclocity.com](http://en.cyclocity.com/)
 
 
 
@@ -172,9 +196,8 @@ Across Austria the situation with rental bikes differs significantly, for exampl
 - Zademach, H. M. and Musch, A. K. (2018) ‘Bicycle-sharing systems in an alternative/diverse economy perspective: a sympathetic critique’, Local Environment. Taylor & Francis, 23(7), pp. 734–746. doi: 10.1080/13549839.2018.1434494.
 - Zhang, Y., Lin, D. and Mi, Z. (2019) ‘Electric fence planning for dockless bike-sharing services’, Journal of Cleaner Production, 206, pp. 383–393. doi: 10.1016/j.jclepro.2018.09.215.
 
-
-
 ## E-scooters
+
 ### Synonyms {-}
 *electric scooter*
 
