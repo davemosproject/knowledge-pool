@@ -3,6 +3,7 @@ fig:unnamed-chunk-3
 fig:unnamed-chunk-4
 fig:unnamed-chunk-5
 fig:unnamed-chunk-6
+fig:unnamed-chunk-7
 intro
 infrastructure
 dedicated-lanes-for-connected-and-automated-vehicles-cav
@@ -14,7 +15,7 @@ high-occupancy-toll-lanes
 public-transport-priority-systems
 transformation-of-public-space-and-digital-solutions
 highway
-unmanned-aerial-vehicles-for-infrastructure-mainteinance
+unmanned-aerial-vehicles-for-infrastructure-maintenance
 electric-charging-stations
 traffic
 platooning
