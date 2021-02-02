@@ -45,7 +45,7 @@ format(Sys.time(),'%d %B %Y' )
     - Dynamic route guidance
     - Variable speed limits and dynamic signage system **NEW**
     - Passengers and goods fleet management
-    - Urban access management
+    - Urban access management **NEW**
 5. Road pricing \@ref(pricing)
     - Congestion charging
 6. Digital road infrastructure and connectivity \@ref(digital)

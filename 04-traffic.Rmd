@@ -88,3 +88,97 @@ cat('|TRL| SRL|
 
 ## Urban access management
 
+### Synonyms {-}
+*Access Regulation Schemes (ARS), Urban Vehicle Access Regulations (UVARs), Low Emission Zones (LEZ), Access Restrictions, Traffic Restrictions, Limited Traffic Zones, Permit Schemes*
+
+### Definition {-}
+Urban Access Management can be seen as regulations, restrictions or bans, for traffic entering cities. Factors like congestion, air pollution, traffic noise or damage to historic buildings are influencing the liveability of cities negatively. Therefore, many cities have been introducing Access Regulation Schemes (ARS) with the goal of less vehicles entering the particular city or area. Implementing a pedestrian zone, is the simplest type of ARS and can improve the attractiveness of tourist attractions or shopping streets significantly (Sadler Consultants Europe GmbH, n.d. c). ARS can be differentiated by vehicle type, vehicle weight, by type of trip (e.g. delivery), by driver (e.g. residents or access), or applies to all vehicles (Sadler Consultants Europe GmbH, n.d. c). Furthermore, ARS can be static or dynamic, depending, for example, on the time of the day or air pollution levels. A list below provides examples of current measures used in the urban areas: 
+
+-	Low Emission Zones (LEZ)
+-	Limited Access Zones 
+-	Urban Toll Schemes / Congestion Charging (CS)
+-	Emergency Air Pollution Schemes
+-	Zero Emission Zones (ZEZ)
+-	Other Access Regulations (like Limited Traffic Zones, Through traffic bans, `Superblocks´ etc.)
+-	Smaller Regulations / Restrictions (like school streets or shared spaces) (Sandler Consultants Europe GmbH, n.d. d). 
+
+Solutions for ARS can be enforced by physical barriers or cameras, based on automatic number plate recognition (ANPR) systems and/or dedicated short-range communication (DSRC) technology, using on-board units (OBUs) (Kapsch TrafficCom., n.d. b) or by police or local authority officers (Sadler Consultants Europe GmbH, n.d. c). <br/>
+
+The impact of Urban Vehicle Access Regulations differs according the implemented schemes, but several common goals are addressed:
+-	Air quality improvement
+-	Traffic congestion reduction
+-	Urban landscape preservation (historical town centres)
+-	Climate change mitigation
+-	Quality of life
+- Noise mitigation
+-	Road safety
+-	Raising revenues (Sandler Consultants Europe GmbH, n.d. d). 
+
+In Austria, several cities and regions have implemented Low Emission Zones (LEZ) for lorries. For example, the city of Salzburg has Access Regulations (AR) for the city centre in place, so only vehicles with a specific reason (delivery or police) are allowed to enter. On the other hand, Tirol introduces occasionally traffic bans during the summer months (Sandler Consultants Europe GmbH, n.d. a). While, the city of Vienna aims at implementing a traffic-calmed city centre by 2022 (Stadt Wien, 2020).
+
+
+### Key stakeholders {-}
+
+- **Affected**: Car Users – especially users of old or high polluting cars, truck drivers, Shippers/producers, Wholesalers, Logistics providers, Retailers, Consumers, Citizens, Authorities
+- **Responsible**: Municipalities, Road Operators, Urban Traffic Management, Authorities
+
+### Current state of art in research {-}
+Current research addresses the evaluation of UVAR implementations and identifies their positive and negative effects. For example, Lopez (2018) found that Urban Consolidation Centres (UCCs), Cargo Bikes (CBs) and Off-hour Deliveries (OHDs) are the three preferred types of solutions to assist in mitigating unwanted side-effects of UVARs on the logistic sector. Further, current research focuses on the sustainable urban planning in cites affected by mass tourism (García Hernández, 2019; Nolasco‐Cirugeda, 2020). Additionally, most recent area of research deals with geofencing that aims at creating digital zones defined on a map, with specific rules, that can be transmitted to the vehicles (Arnesen et al., 2020).
+
+### Current state of art in practice {-}
+According to Lopez (2018) there are the two preferred UVAR schemes: Low Emission Zones (LEZ) and Congestion Charging (CC). The implementation of these schemes is widely spread within Europe but follows different approaches. Lopez (2018) identified two dominant LEZ enforcement models, first visual surveillance using windscreen stickers and second, cameras with ANPR technology. Furthermore it is argued that *“It is very important to consider that the degree of impact of each measure not only varies from city to city but also depends on the presence of a mix of access regulations“* (Lopez, 2018). 
+
+### Relevant initiatives in Austria {-}
+
+- [ris.bka.gv.at](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&Gesetzesnummer=20000270) 
+- [wien.gv.at](https://www.wien.gv.at/ma22-lgb/luftgi.htm) 
+- [kapsch.net](https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table25, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Noise & pollution reduced|**+**|Health & Wellbeing (*3*)|Sandler Consultants Europe GmbH, n.d. b|
+|Individual|Travel time & congestion reduced|          **+**|Sustainable economic development (*8,11*)|Sandler Consultants Europe GmbH, n.d. b|
+|          Systemic|         Road safety increased|          **+**|Health & Wellbeing (*3*)|Sandler Consultants Europe GmbH, n.d. b|
+|          Systemic|         Space for sustainable transport users increased|          **+**|Equality (*5,10*)|Sandler Consultants Europe GmbH, n.d. d|
+|          Systemic|        Air quality improved|         **+**|Environmental sustainability (*7,12,13,15*)|Sandler Consultants Europe GmbH, n.d. d|
+|          Systemic|         Congestion reduced, revenues increased|          **~**|Sustainable economic development (*8,11*)|Sandler Consultants Europe GmbH, n.d. b|
+|          Systemic|         Urban landscape preservation|          **+**|Innovation & Infrastructure (*9*)|Sandler Consultants Europe GmbH, n.d. b|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table26, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+
+1. What effect will autonomous vehicles have on Urban Access Management?
+2. How can geofencing be implemented on a wider scale and what are the barriers? 
+3. What standards would be useful to aggregate, to support affected stakeholders? 
+4. How can Urban Access Management engage with the Internet of Things (IoT)?
+
+
+### Further links {-}
+
+-	[urbanaccessregulations.eu-1](https://urbanaccessregulations.eu/urban-access-regulations/what-are-urban-access-regulations) 
+-	[urbanaccessregulations.eu-2](https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna-emergency-scheme ) 
+
+### References {-}
+- Arnesen, P., Seter, H., Foss, T., Dahl, E., Lillestøl, P. J., & Jenssen, G. (2020). Geofencing for smart urban mobility. Summarizing the main findings of work package 2: Pilot Design and work package 3: Piloting.
+- García Hernández, M., Ivars-Baidal, J., & Mendoza de Miguel, S. (2019). Overtourism in urban destinations: the myth of smart solutions.
+- Kapsch TrafficCom. (n.d. a). Access management | Kapsch. Retrieved January 27, 2021, from https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Access-Management
+- Kapsch TrafficCom. (n.d. b). Limited Access Zone | Kapsch. Retrieved January 27, 2021, from https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/ 
+- Lopez, O. N. (2018). Urban vehicle access regulations. In Sustainable Freight Transport (pp. 139-163). Springer, Cham.
+- Nolasco‐Cirugeda, A., Martí, P., & Ponce, G. (2020). Keeping mass tourism destinations sustainable via urban design: The case of Benidorm. Sustainable Development, 28(5), 1289-1303.
+- Sandler Consultants Europe GmbH. (n.d. a). Austria. Retrieved February 1, 2021, from https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78 
+- Sandler Consultants Europe GmbH. (n.d. b). Overview of website. Retrieved February 1, 2021, from https://urbanaccessregulations.eu/userhome/general-overview#Why%20Access%20%20Regulations  
+- Sadler Consultants Europe GmbH. (n.d. c). Urban Access Regulations in Europe. Retrieved 26th January 2021, from https://urbanaccessregulations.eu/about-us 
+- Sandler Consultants Europe GmbH. (n.d. d). What are Access Regulations? Retrieved February 1, 2021, from https://urbanaccessregulations.eu/userhome/what-are-access-regulations-uvars-or-urban-vehicle-access-regulations
+- Stadt Wien. (2020). Smarte Mobilität - Die Fortschrittskoalition für Wien. Retrieved February 1, 2021, from https://www.wien.gv.at/regierungsabkommen2020/smart-city-wien/smarte-mobilitat/ 
+
