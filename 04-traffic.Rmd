@@ -144,7 +144,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |          Systemic|         Road safety increased|          **+**|Health & Wellbeing (*3*)|Sandler Consultants Europe GmbH, n.d. b|
 |          Systemic|         Space for sustainable transport users increased|          **+**|Equality (*5,10*)|Sandler Consultants Europe GmbH, n.d. d|
 |          Systemic|        Air quality improved|         **+**|Environmental sustainability (*7,12,13,15*)|Sandler Consultants Europe GmbH, n.d. d|
-|          Systemic|         Congestion reduced, revenues increased|          **~**|Sustainable economic development (*8,11*)|Sandler Consultants Europe GmbH, n.d. b|
+|          Systemic|         Congestion reduced, revenues increased|          **+**|Sustainable economic development (*8,11*)|Sandler Consultants Europe GmbH, n.d. b|
 |          Systemic|         Urban landscape preservation|          **+**|Innovation & Infrastructure (*9*)|Sandler Consultants Europe GmbH, n.d. b|')
 ```
 
