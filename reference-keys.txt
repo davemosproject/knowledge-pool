@@ -19,6 +19,7 @@ highway
 unmanned-aerial-vehicles-for-infrastructure-maintenance
 electric-charging-stations
 traffic
+congestion-charging
 platooning
 real-time-traffic-information-and-monitoring
 cooperative---intelligent-transport-system
@@ -26,8 +27,6 @@ dynamic-route-guidance
 variable-speed-limits-and-dynamic-signage-system
 passengers-and-goods-fleet-management
 urban-access-management
-pricing
-congestion-charging
 digital
 vehicle-to-infrastructure-communication
 infrastructure-support-levels-for-automated-driving
