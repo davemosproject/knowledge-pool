@@ -4,13 +4,13 @@ This work gathers and defines essential concepts related to automation and digit
 **key stakeholders** who are the main parties responsible for and affected by the given technological development. Then, we include two subsections on **current state of art in research and practice**. The former one summarizes the most recent research in a given topic while the latter explains the current stage of implementation of given technology in the real world. Further, section named **relevant initatives in Austria** covers the leading initiatives within given topic and potential for Austrian actors. Moreover, we provide the summary table of the impacts of the concept on selected **sustainable development goals** (SDGs). Beyond, to provide an objective measure of technology maturity within each topic we include so-called **technology readiness scale** (Willismson & Beasley, 2011) as described below:<br/>
 
 ```{r, echo=FALSE, , out.width="80%", fig.cap="Technology readiness scale"}
-knitr::include_graphics("image/TRL_1.jpg")
+knitr::include_graphics("image/TRL_cropped.jpg")
 ```
 
 Furthermore, we evaluate the readiness of a given technology to be acceptable in the society and how well it contributes to the public good using **societal readiness scale** (McCulloch, 2019):
 
 ```{r, echo=FALSE, , out.width="80%", , fig.cap="Societal readiness scale"}
-knitr::include_graphics("image/SRL_1.jpg")
+knitr::include_graphics("image/SRL_cropped.jpg")
 ```
 
 Finally, we provide a list of **outstanding questions** and **links to additional sources** on the topic.
