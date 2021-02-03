@@ -20,7 +20,7 @@ For further inputs please contact the corresponding author *Martyna Bogacz* on t
 The knowledge pool was last compiled on:
 
 ```{r, echo=FALSE}
-format(Sys.time(),'%d %B %Y' )
+format(Sys.time(),'%d %B %Y')
 ```
 
 # Table of content {-}
