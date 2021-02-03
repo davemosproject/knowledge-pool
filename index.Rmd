@@ -39,6 +39,7 @@ format(Sys.time(),'%d %B %Y' )
     - Unmanned aerial vehicles for infrastructure maintenance **NEW**
     - Electric charging stations
 4. Traffic management \@ref(traffic)
+    - Congestion charging **NEW**
     - Platooning
     - Real-time traffic information and monitoring
     - Cooperative - intelligent transport system
@@ -46,19 +47,17 @@ format(Sys.time(),'%d %B %Y' )
     - Variable speed limits and dynamic signage system **NEW**
     - Passengers and goods fleet management
     - Urban access management **NEW**
-5. Road pricing \@ref(pricing)
-    - Congestion charging
-6. Digital road infrastructure and connectivity \@ref(digital)
+5. Digital road infrastructure and connectivity \@ref(digital)
     - Vehicle to infrastructure communication
     - Infrastructure support levels for automated driving
     - Vehicle to vehicle communication
     - Wireless communication
-7. Passenger information system \@ref(passenger)
+6. Passenger information system \@ref(passenger)
     - Digital journey planner
     - Rail telematics for passenger services
     - Multimodal information and route planning
     - Real-time, location-based information
-8. Multimodal integrated system \@ref(multimodal)
+7. Multimodal integrated system \@ref(multimodal)
     - First-last mile solutions
     - Distance or time-based fares
     - Mobility as a service
@@ -66,11 +65,11 @@ format(Sys.time(),'%d %B %Y' )
     - Contactless public transport cards **NEW**
     - Information and assistance for people with special needs
     - Mobility/Freight hubs
-9. Connected and autonomous driving \@ref(connected)
+8. Connected and autonomous driving \@ref(connected)
     - Parking infrastructure for autonomous vehicles
     - Connected vehicles
     - Automated vehicles
-10. On-board technology for connected and automated vehicles \@ref(onboard)
+9. On-board technology for connected and automated vehicles \@ref(onboard)
     - Advanced driver assistance system
     - Parking assistance system
     - Lane keeping
@@ -80,7 +79,7 @@ format(Sys.time(),'%d %B %Y' )
     - Digital maps
     - E-Horizon
     - Emergency call
-11. Freight and commercial transport \@ref(freight)
+10. Freight and commercial transport \@ref(freight)
     - Automated road freight
     - Freight dreyage optimisation
     - Tracking and tracing of dangerous goods
@@ -90,35 +89,35 @@ format(Sys.time(),'%d %B %Y' )
     - Urban Deliveries
     - Parcel load pooling
     - Intelligent truck parking and delivery space booking
-    - Freight drones
+    - Delivery drones
     - Commercial vehicle on-board safety systems
     - Truck Platooning
     - Rail telematics for freight services
     - Electric vehicle delivery fleets
     - Multimodal transport management systems
     - Cooperative adaptive cruise control in trucks
-12. Collective mobility vehicles \@ref(collective)
+11. Collective mobility vehicles \@ref(collective)
     - Demand responsive transit
     - Personal rapid transit
     - Bus rapid transit
     - Light rail trans
     - Passenger drones **NEW**
     - Automatic train operations
-13. Big data \@ref(big)
+12. Big data \@ref(big)
     - Automatic identification system fir maritime transport
     - Big data lifecycle
     - Location-based data
     - Aircraft tracking system
     - Big data tools for maping and forecasting travel behaviour
-14. Shared mobility \@ref(shared)
+13. Shared mobility \@ref(shared)
     - Car sharing **NEW**
     - Bicycle and e-bicycle hire **NEW**
     - E-scooters **NEW**
     - Ride-hailing
-15. Alternative power sources \@ref(alternative)
+14. Alternative power sources \@ref(alternative)
     - Hydrogen fuel cell **NEW**
     - Battery electric
     - Plugin hybrid vehicles **NEW**
-16. References \@ref(reference)
+15. References \@ref(reference)
 
 

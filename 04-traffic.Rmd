@@ -1,5 +1,95 @@
 # Traffic management {#traffic}
 
+## Congestion charging
+
+### Synonyms {-}
+*Congestion charging scheme, CSS*
+
+### Definition {-}
+The congestion charging is an example of (urban) road pricing system aimed at reducing congestion and pollution in zones where it applies. The regulations and prices of congestion charges can vary based on spatial, temporal or modal basis (Santos, 2005). Congestion charges are used to influence the traffic demand and discourage the use of roads at congested times (Valletta, 2015). The major congestion charge zone in Europe was introduced in London in 2003 and it imposed a fee for all the vehicles that drove into or through the designated area in the city centre between 7:00 and 18:00 (Mon-Fri) (Munford, 2017). It included a 90% discount for residents, nevertheless, at the time it was considered the most radical transport policy to have been implemented in the recent decades (Banister, 2003). Nearly 20 years later, congestion charges are an effective measure to protect city centres, used in several cities around the world such as London, Singapore, New York, Stockholm, Milan, Bergen or Gothenburg, even though they are still rather unpopular within the society. The research findings with respect of the effectiveness of this transport policy on a number of aspects are summarized in the *research section*, below.
+
+### Key stakeholders {-}
+- **Affected**: Local residents, car and truck drivers, motor bikers, cyclists, pedestrians
+- **Responsible**: Local and national governments, transport authorities
+
+### Current state of art in research {-} 
+Given that congestion charging has been used for some time now, the existing research focuses mainly on the effects of the introduction of congestion charges on different areas that may be affected, such as air quality, housing prices, traffic improvements, travel behavior and road safety, economic aspects and social acceptability. <br/>
+
+Starting with public attitude towards congestion charging schemes, it is fair to say that public opinion is divided and there are several factors which influence the outlook on this transport policy. For example, study by Grisolía et al. (2015) showed the differences in acceptance levels between drivers and non-drivers, where the letter ones are more favourable to congestion charging systems. Moreover, Hamilton (2011) came to a similar conclusion where he found that higher frequency of car use was associated with lower acceptance of congestion charges. Further, the study showed that public acceptance of congestion charging is likely to increase with more experience with the charging system but also amongst individuals with high value of time and pro-environmental interests as well as those who are in favour of high degree of government intervention.<br/>
+
+What is more, a number of studies showed that congestion charging has led to a significant improvement in traffic conditions where travel times decreased by 19% on average. Beyond, 14.5% decrease of the private vehicles’ presence in the affected area was observed and the use of public transport increased by up to 18% (What Works Centre for Local Economic Growth, 2020; Gibson & Carnovale, 2015; Amelsfort & Swedish, 2015).
+
+With respect to road safety the results are ambiguous depending on the location. For example, the road safety improved in London and Milan, however in Rome it deteriorated following the switch from cars to motorcycles leading to higher accidents rate (Amelsfort & Swedish, 2015).<br/>
+
+Next, a number of studies demonstrated the positive impact of congestion charges on air pollution within the targeted zones, where the levels of carbon dioxide decreased by 19.5% on average and nitrogen oxides decreased by 10.5% (Amelsfort & Swedish, 2015).<br/>
+
+In terms of economic effects, it has been showed that implementation of congestion charges can increase house values within the zone (potentially due to additional exemptions for residents). For example, following the introduction of congestion charge in London residential property values rose by 5%. At the same time, congestion charging can lead to a reduction in retail property values. In Singapore after the implementation of road pricing scheme the retail real estate prices decreased in the targeted zone (Amelsfort & Swedish, 2015; Agarwal, 2015). Further, study by Percoco (2014) found that the introduction of road pricing system reduced house prices in the affected zone. In conclusion, literature shows a mixed effect of congestion charges on property values, depending on specific location and additional regulation and exceptions that are in place.
+
+### Current state of art in practice {-}
+Nowadays there are different functioning models of congestion charging schemes around the world. One broadly used model is the *zone/cordon-based charges* which is based on the idea of geographic boundary so that charges are implemented when entering or leaving the zone (or both). Henceforth, travelers within the zone do not incur the cost. This contrasts with so-called *area charging* where the fees apply to all the drivers traveling or parking within the designated area. The first one may be though of as a ‘per passage charge’ and the latter ‘once per 24h charge’ when the fees are charged daily. Cordon-based charging is currently used in multiple Norwegian cities (eg. Bergen and Oslo), Milan or Durham while area charging systems is present in London. <br/>
+
+What is more, initially a number of exemptions were available for low emission and alternative fuel vehicles such as all-electric cars and plug-in hybrids however local authorities gradually moved away from these discounts (Chris, 2016). For example, in Vienna there are several regulations for the entry of company vehicles with different levels of emissions into the city center. These were first introduced in 2014 and they require all the business vehicles to have an environmental badge known as ‘Umwelt Pickerl’ to access the city. Moreover, there is an 'Emergency Scheme' in Vienna which becomes effective as soon as the certain pollution limits are exceeded. As a result, and depending on the severity of the event, either a recommendation to switch to public transport is announced or vehicles with internal combustion engines can be banned from driving (Sadler Consultants Ltd, 2021).
+
+### Relevant initiatives in Austria {-}
+
+- [urbanaccessregulations.eu](https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna)
+- [environmentalbadge.com](https://www.environmentalbadge.com/environmental-zone-vienna/)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table27, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Social contacts within zone reduced & air quality improved|**~**|Health & Wellbeing (*3*)|Munford, 2017; Beevers & Carslaw, 2005|
+|Individual|Increased costs of car use|**-**|Equality (*5,10*)|Amelsfort & Swedish, 2015|
+|Individual|Ambiguous effect on housing value|**~**|Sustainable economic development (*8,11*)|Keat Tang, 2016|
+|Systemic|Reduced emissions & increased use of public transport within the affected zone|**+**|Environmental sustainability (*7,12-13,15*)|Beevers & Carslaw, 2005; Gibson & Carnovale, 2015|
+|Systemic|Increased revenues from charges & increased use of public transport|**+**|Sustainable economic development (*8,11*)|Amelsfort & Swedish, 2015|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table28, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|5-7|')
+```
+
+### Open questions {-}
+1. What are the implications of congestion charges on overall welfare in the affected zone?
+2. What are the effects of different congestion charge designs such as exemptions of different nature?
+3. What effect the implementation of congestion charge zone will have on the traffic in neighboring areas (due to eg. re-routing)?
+4. What is the potential for expansion of more sustainable transport mode within the targeted zone ?
+      - What is the actual modal split?
+      - What is the proportion of road space occupied by different modes?
+      - What is the potential of future investment in public transport?
+      - To what extent road capacity is used for parking (formally and informally)? (Van Amelsfort & Swedish, 2015)
+
+### Further links {-}
+- [whatworksgrowth.org](https://whatworksgrowth.org/policy-reviews/transport/congestion-charging)
+- [adb.org](https://www.adb.org/sites/default/files/publication/159940/introduction-congestion-charging.pdf)
+- [epomm.eu](http://www.epomm.eu/newsletter/v2/content/2015/0415/doc/eupdate_en.pdf)
+
+
+### References {-}
+- Agarwal, Sumit, Koo, Kang Mo, & Sing, Tien Foo. (2015). “Impact of electronic road pricing on real estate prices in Singapore.” Journal of Urban Economics, 90, 50–59.
+- Banister, D. (2003). Critical pragmatism and congestion charging in London. International Social Science Journal, 55(176), 249-264.
+- Beevers, S. D., & Carslaw, D. C. (2005). The impact of congestion charging on vehicle emissions in London. Atmospheric Environment, 39(1), 1-5.
+Lilly, Chris (2016). Congestion charge sunset period ends today. Next Green Car. Available at:
+https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-today/  [Accessed 3 February 2021]
+- Gibson, M., and Carnovale, M. (2015). “The effects of road pricing on driver behaviour and air pollution” Journal of Urban Economics, 89, pp. 62-73.
+- Grisolía, J. M., López, F., & de Dios Ortúzar, J. (2015). Increasing the acceptability of a congestion charging scheme. Transport Policy, 39, 37-47.
+- Hamilton, C. J. (2011). Popular Acceptance of Congestion Charging.
+- Keat Tang, C. (2016). “The Cost of Traffic: Evidence from the London Congestion Charge” SERC discussion paper 205
+- Munford, L. A. (2017). The impact of congestion charging on social capital. Transportation Research Part A: Policy and Practice, 97, 192-208.
+- Percoco, M. (2014). “The impact of road pricing on housing prices: Preliminary evidence from Milan” Transportation Research Part A Policy and Practice, 67, pp. 188-194.
+- Sadler Consultants Ltd (2021). Wien (Vienna). [online] Urbanaccessregulations.eu. Available at: <https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna> [Accessed 3 February 2021].
+- Santos, G. (2005). Urban congestion charging: a comparison between London and Singapore. Transport Reviews, 25(5), 511-534.
+- What Works Centre for Local Economic Growth (2020). Evidence Review: Congestion charging. [online] Available at: <https://whatworksgrowth.org/public/files/Evidence_reviewed_examples/Congestion_charging_-_Evidence_review.pdf> [Accessed 2 February 2021].
+- Van Amelsfort, D., & Swedish, V. (2015). Introduction to congestion charging: A guide for practitioners in developing cities.
+- Valletta, M. (2015) Congestion charging in Europe.
+
+
 ## Platooning
 
 ## Real-time traffic information and monitoring
