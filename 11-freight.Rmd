@@ -20,6 +20,110 @@
 
 ## Delivery drones
 
+### Synonyms {-}
+*urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs), Unmanned Traffic Management (UTM)/U-Space*
+
+### Definition {-}
+In the recent year, online shopping and the demand for same-day deliveries has grown exponentially, with more and more people preferring online shopping instead of buying items stationary (Di Puglia Pugliese et al., 2020). At the same time, the last mile is the most expensive process in distribution logistics, contributing to 13% - 73% of the total distribution cost. As a result there is an increased pressure for more efficient solutions in the field.  The answer to this problem could be drones, or unmanned aerial vehicles (UAVs). Drones combine three key principles of technological modernity - computing, autonomy and limitless mobility. Capabilities that until now could only be used by the military are becoming accessible to most of the population. Potential use for drones ranges from surveillance and reconnaissance missions to novel forms of logistics and personal transport. The commercial use of drones is associated with enormous economic opportunities. Even though drones are already common as surveillance/sensing devices in security services, geodesy or agriculture, their use as a means of transport is still at the beginning. Delivery drones are currently able to lift weights of up to 2-3 kg and carry out flight assignments in an urban space (Kellermann et al., 2020).<br/>
+What is more, an accelerated progress is expected in the near future, where the European Commission estimates the economic impact of the wider use of drones at €10 billion annually until 2035 and foresees the creation of more than 100,000 direct jobs. Taking into account indirect macroeconomic effects in drone-related industries, the Commission even projects 250,000 to 400,000 additional jobs (SESAR, 2016).
+
+### Key stakeholders {-}
+
+- **Affected**: Mobile citizen, delivery companies and truck drivers, customers of online shops
+- **Responsible**: National governments, city government,  private companies, online shops
+
+### Current state of art in research {-}
+Current research shows that drones reduce noise, congestion in urban areas and CO~2~ emissions. Multiple studies showed that the use of drones in logistics processes can reduce the lead time (defined as the latency between the beginning and the completion of the process), time span and transport costs of the delivery process (Di Puglia Pugliese et al., 2020; Wang et al., 2017; Di Puglia Pugliese & Guerriero, 2017). However, it is also important that drones have lower capacity and working time (low flight endurance) than classic vehicles. 
+Besides all the benefits that drones can bring, there are also some potential drawbacks associated with an increased use of drones. These include safety and security issues, aerial collisions, crashes, malfunctioning of software and hardware components, misuse of drones for criminal purposes, dangers to wildlife and privacy violations, among others (Kellermann et al., 2020).
+Moreover, the media analysis about drones for parcel and passenger transportation found the following thematic priorities in relevant literature (see table below): 
+
+```{r table29, echo=FALSE, results='asis', fig.cap="Adapted from Kellermann, Biehle and Fischer, 2020"}
+cat('| Topics| Percentage|Number of studies|
+|:------------:|:-----------:|:------------:|
+|General Surveys    |   18.9%  |  21   |
+|Logistics (general)  |  18.0%   |  20   |
+|Attitude and Acceptance Research    | 13.5%    |  15   |
+|Law and Regulations    | 11.7%    |   13  |
+|Ethics and Technology Assessment    | 10.8%    |  12   |
+|Sustainability Assessment    | 8.1%    |  9   |
+|Urban and Transportation Planning    |  7.2%   |  8   |
+|Political agenda/strategies    |  6.3%   |   7  |
+|Passenger Transportation   |  2.7%   |  3   |
+|Humanitarian Logistics    |2.7%     |   3  |') 
+```
+
+The research proposes two approaches in terms of the incorporation of drones into delivery process, either as a sole delivery option or as a support system for trucks. Calculation results show the disadvantage of the exclusive use of drones in the delivery process. Overall, the vehicle routing that uses a combination of trucks and drones is the transport system offers the best trade-off between transport costs, CO~2~  emissions and congestion (Di Puglia Pugliese et al., 2020). For example, with 2 drones per truck, the delivery completion time can be reduced by 75% in the best case scenario (Wang et al., 2017). <br/> <br/>
+
+Current research also examines the potential of drones in food delivery services due to COVID-19 (Kim et al., 2021). A study on choice-model-based analysis of consumer preference for a drone delivery service concludes the following (Kim, 2020):
+
+-	Drone delivery service competes with truck delivery service for clothing and powder formula, and with motorbike delivery service for urgent documents. 
+-	Potential customers' preferences for drone delivery service depend on the price and type of goods. 
+-	Consumers are concerned about the reliability of the drone delivery service for expensive items. 
+-	In all models, it is observed that young people are more likely to choose drone delivery service than old people.
+
+### Current state of art in practice {-}
+Several large companies, such as *Amazon* (Amazon.com, 2021), *DHL* (Di Puglia Pugliese et al., 2020), *UBER* , *Wing* (Bonnington, 2012) , *UPS* (UPS, 2021) and some more have started using delivery drones for parcel delivery. However, governments and experts fear the misuse of drones. In particular, after their concerns materialised with the incident at London Airport (Keane, 2018). To protect against misuse, work is being carried out internationally on a digital remote ID so that the drone operators can always be assigned to the drone (Boyle, 2020). <br/> <br/>
+In the USA, the Federal Aviation Administration (FAA) has allowed drone flights as long as the drone is within an operator's line of sight. However, companies are working on developing drones to fly without this requirement (Fox Rubin, 2019). Further, UPS is already carrying out drone deliveries between WakeMed's main hospital campus in Raleigh, North Carolina, and its neighbouring laboratory centre to send laboratory samples back and forth. The company is also planning flights between hospitals to provide easier access to life-saving drugs like anti-venom (Fox Rubin, 2019). The fact that the first drone experiments have focused on business-to-business deliveries in the healthcare sector is not a coincidence. Firstly, funding is available in this sector, and secondly, the speed of the drones can bring considerable benefits in this field (Marshall, 2020).<br/> <br/>
+Moreover, Amazon announced back in 2013 that they would start delivering with drones within years and in 2019, alongside the unveiling of their new drone, they announced that they would start drone delivery "within months" (Kolodny & Feiner, 2019). Nonetheless, it is currently claimed that even with all the test flights and announcements, it will be several years before a drone can deliver (Marshall, 2020).
+
+### Relevant initiatives in Austria {-}
+One of the European Amazon drone development centres is localised in Austria (Marshall, 2020). Moreover, a new drone law came into force in the EU on 31 December 2020 to standardise the rules. It requires a CE marking on the drone and a drone licence for drones weighing 250g or more.
+
+- [www.oesterreich.gv.at-1](https://www.oesterreich.gv.at/themen/dokumente_und_recht/Drohnen.html) 
+- [www.oesterreich.gv.at-2](https://www.oesterreich.gv.at/themen/dokumente_und_recht/Drohnen/Drohnenfuehrerschein.html) 
+- [www.oesterreich.gv.at-3](https://www.oesterreich.gv.at/themen/dokumente_und_recht/Drohnen/EU-Regelungen-f%C3%BCr-Drohnen-im-%C3%9Cberblick.html) 
+- [oeamtc.at](https://www.oeamtc.at/thema/drohnen/drohnen-info-app-26853120) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table30, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Faster provision of time-sensitive goods (eg. pharmaceuticals)|**+**|Health & Wellbeing (*3*)|Fox Rubin, 2019|
+|Individual|Drone deliveries offered at no extra cost|          **+**|Sustainable economic development (*8,11*)|Amazon.com, 2021|
+|Individual|New delivery options available|          **+**|Innovation & Infrastructure (*9*)|Kim, 2020; Amazon.com, 2021|
+|Systemic|Reduced time of completion of logistics processes|          **+**|Sustainable economic development (*8,11*)|Wang et al., 2017|
+|Systemic|Standardised drones legislation across the EU  |          **+**|Partnership & collaborations (*17*)|EASA, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table31, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-8|3-5|')
+```
+
+### Open questions {-}
+1. Will private companies work together and share their technologies?
+2. What other areas of application will there be?
+3. What will be the thematic priorities for development in the coming years?
+4. Will freight drones automatically communicate with other drones such as surveillance, geodesy and agricultural drones?
+
+### Further links {-}
+
+-	[easa.europa.eu](https://www.easa.europa.eu/sites/default/files/dfu/Easy%20Access%20Rules%20for%20Unmanned%20Aircraft%20Systems%20(Regulations%20(EU)%202019-947%20and%20(EU)%202019-945).pdf) 
+
+### References {-}
+- Amazon.com: Prime Air (2021). Available at: https://www.amazon.com/Amazon-Prime-Air/b?ie=UTF8&node=8037720011 (Accessed: 27 January 2021).
+- Bonnington, C. (2012). Tacocopter: The Coolest Airborne Taco Delivery System That’s Completely Fake | WIRED. Available at: https://www.wired.com/2012/03/qa-with-tacocopter/ (Accessed: 4 February 2021).
+- Boyle, A. (2020). Amazon and T-Mobile will take part in FAA’s Remote ID program for drones - GeekWire. Available at: https://www.geekwire.com/2020/amazon-t-mobile-will-take-part-faas-remote-id-drone-monitoring-program/ (Accessed: 27 January 2021).
+- EASA (2021). Easy Access Rules for Unmanned Aircraft Systems (Regulations (EU) 2019/947 and (EU) 2019/945) Available at: https://www.easa.europa.eu/sites/default/files/dfu/Easy%20Access%20Rules%20for%20Unmanned%20Aircraft%20Systems%20(Regulations%20(EU)%202019-947%20and%20(EU)%202019-945).pdf. (Accessed: 08 February 2021)
+- Fox Rubin, B. (2019). UPS drone delivers medicine from CVS straight to customers’ homes. Available at: https://www.cnet.com/news/ups-drone-deliver-medicine-from-cvs-straight-to-customers-homes/.
+- Keane, S. (2018). London’s Gatwick Airport closes again after drones force 33-hour shutdown. Available at: https://www.cnet.com/news/airport-suspends-all-flights-after-drones-get-too-close-to-airfield/.
+- Kellermann, R., Biehle, T. and Fischer, L. (2020) ‘Drones for parcel and passenger transportation: A literature review’, Transportation Research Interdisciplinary Perspectives. The Author(s), 4, p. 100088. doi: 10.1016/j.trip.2019.100088.
+- Kim, J. J., Kim, I. and Hwang, J. (2021). ‘A change of perceived innovativeness for contactless food delivery services using drones after the outbreak of COVID-19’, International Journal of Hospitality Management. Elsevier Ltd, 93(June 2020), p. 102758. doi: 10.1016/j.ijhm.2020.102758.
+- Kim, S. H. (2020). ‘Choice model based analysis of consumer preference for drone delivery service’, Journal of Air Transport Management. Elsevier Ltd, 84(September 2019), p. 101785. doi: 10.1016/j.jairtraman.2020.101785.
+- Kolodny, L. and Feiner, L. (2019) Amazon debuts its new delivery drone. Available at: https://www.cnbc.com/2019/06/05/amazon-debuts-its-new-delivery-drone.html (Accessed: 27 January 2021).
+- Marshall, A. (2020). No, Amazon Won’t Deliver You a Burrito by Drone Anytime Soon | WIRED. Available at: https://www.wired.com/story/amazon-wont-deliver-burrito-drone-soon/ (Accessed: 27 January 2021).
+- Di Puglia Pugliese, L. and Guerriero, F. (2017) ‘Last-Mile Deliveries by Using Drones and Classical Vehicles’, in Sforza, A. and Sterle, C. (eds) Optimization and Decision Science: Methodologies and Applications. Cham: Springer International Publishing, pp. 557–565.
+- Di Puglia Pugliese, L., Guerriero, F. and Macrina, G. (2020) ‘Using drones for parcels delivery process’, Procedia Manufacturing. Elsevier B.V., 42, pp. 488–497. doi: 10.1016/j.promfg.2020.02.043.
+- SESAR (2016). European Drones Outlook Study, Single European Sky ATM Research. doi: 10.2829/219851.
+- UPS (2021). UPS Drone Delivery Service | UPS - United States. Available at: https://www.ups.com/us/en/services/shipping-services/flight-forward-drones.page (Accessed: 4 February 2021).
+- Wang, X., Poikonen, S. and Golden, B. (2017). ‘The vehicle routing problem with drones: several worst-case results’, Optimization Letters. Springer Berlin Heidelberg, 11(4), pp. 679–697. doi: 10.1007/s11590-016-1035-3.
+
+
+
 ## Commercial vehicle on-board safety systems
 
 ## Truck Platooning
