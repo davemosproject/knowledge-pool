@@ -89,7 +89,7 @@ format(Sys.time(),'%d %B %Y')
     - Urban Deliveries
     - Parcel load pooling
     - Intelligent truck parking and delivery space booking
-    - Delivery drones
+    - Delivery drones **NEW**
     - Commercial vehicle on-board safety systems
     - Truck Platooning
     - Rail telematics for freight services
