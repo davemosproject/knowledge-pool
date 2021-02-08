@@ -60,7 +60,7 @@ format(Sys.time(),'%d %B %Y')
 7. Multimodal integrated system \@ref(multimodal)
     - First-last mile solutions
     - Distance or time-based fares
-    - Mobility as a service
+    - Mobility as a service (MaaS) **NEW**
     - Park and ride
     - Contactless public transport cards **NEW**
     - Information and assistance for people with special needs
@@ -86,7 +86,7 @@ format(Sys.time(),'%d %B %Y')
     - Intermodal Freight
     - Real-time disruption management and route planning
     - Traffic signal control
-    - Urban Deliveries
+    - Urban deliveries
     - Parcel load pooling
     - Intelligent truck parking and delivery space booking
     - Delivery drones **NEW**
