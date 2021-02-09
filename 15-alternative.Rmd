@@ -33,14 +33,14 @@ The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell te
 ```{r table7, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|Improved air quality|**+**|Health & Wellbeing (*3*)|Colella, Jacobson and Golden, 2005|
-|Individual|High prices of hydrogen cars and hydrogen fuel|**-**|Equality (*5,10*)|Kanna and Paturu, 2020|
-|Individual|Cost for individuals|**~**|Sustainable economic development (*8,11*)|Apostolou and Xydis, 2019|
-|Systemic|Emissions reduced, improved air quality|**+**|Health & Wellbeing (*3*)|Colella, Jacobson and Golden, 2005|
-|Systemic|Distribution and allocation of goods worsens|**-**|Equality (*5,10*)|Kanna and Paturu, 2020|
-|Systemic|Reduced emissions, replacement of fossil fuels, energy transition|**+**|Environmental sustainability (*7,12-13,15*)|Colella, Jacobson and Golden, 2005|
+|Individual|Improved air quality|**+**|Health & Wellbeing (*3*)|Colella, Jacobson & Golden, 2005|
+|Individual|High prices of hydrogen cars and hydrogen fuel|**-**|Equality (*5,10*)|Kanna & Paturu, 2020|
+|Individual|Cost for individuals|**~**|Sustainable economic development (*8,11*)|Apostolou & Xydis, 2019|
+|Systemic|Emissions reduced, improved air quality|**+**|Health & Wellbeing (*3*)|Colella, Jacobson & Golden, 2005|
+|Systemic|Distribution and allocation of goods worsens|**-**|Equality (*5,10*)|Kanna & Paturu, 2020|
+|Systemic|Reduced emissions, replacement of fossil fuels, energy transition|**+**|Environmental sustainability (*7,12-13,15*)|Colella, Jacobson & Golden, 2005|
 |Systemic|Not yet profitable for manufacturers|**+**|Sustainable economic development (*8,11*)|Roadmap Europe, 2019|
-|Systemic|Number of hydrogen refuelling stations increases|**+**|Innovation & Infrastructure (*9*)|Apostolou and Xydis, 2019|
+|Systemic|Number of hydrogen refuelling stations increases|**+**|Innovation & Infrastructure (*9*)|Apostolou & Xydis, 2019|
 |Systemic|Sharing technologies internationally|**+**|Partnership & collaborations (*17*)|International Partnership for Hydrogen and Fuel Cells in the Economy, no date|')
 ```
 
