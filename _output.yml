@@ -7,8 +7,21 @@ bookdown::gitbook:
         <li><a href="./">Knowledge Pool</a></li>
       after: |
         <li><a href="https://davemosproject.github.io/knowledge-pool/" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/knowledge-pool/book-demo/edit/master/%s
-    # download: ["pdf", "epub"
+    toolbar:
+    position: fixed
+    edit: null
+    download: no
+    search: yes
+    sharing:
+      facebook: no
+      github: no
+      twitter: no
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: no
+    info: no
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
