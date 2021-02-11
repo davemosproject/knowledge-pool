@@ -18,3 +18,87 @@
 
 ## Emergency call
 
+### Synonyms {-}
+*Public-Safety Answering-Point (PSAP), E-call*
+
+### Definition {-}
+The E-Call is a system that provides an automated message to the emergency services following a road crash which includes the precise crash location. The in-vehicle e-Call is an emergency call generated either manually by the vehicle occupants or automatically via activation of in-vehicle sensors after a crash. The aim of this system is to reduce the time between the accident and the provision of medical services.As soon as the in-vehicle eCall device is activated, it establishes an emergency call carrying both voice and data directly to the nearest emergency services (normally the nearest 112 Public Safety Answering Point, PSAP). The voice call enables vehicle occupants to communicate with the trained eCall operator. At the same time, a minimum set of data is sent to the eCall operator receiving the voice call (European Commission, 2020a). <br/>
+The minimum data provided during an E-call are (Kroher, 2020):
+
+-	time of accident
+-	the exact coordinates of the accident location 
+-	direction of travel (important on motorways and in tunnels) 
+-	the last two vehicle positions
+-	vehicle ID and vehicle class
+-	type of drive (e.g. petrol, electric)
+-	service provider ID
+-	number of occupants (based on seat belts worn) 
+-	whether the emergency call was triggered automatically or manually 
+
+### Key stakeholders {-}
+- **Affected**: Car Drivers, Emergency Services
+- **Responsible**: Road Infrastructure Agencies, Local and National Governments, Automotive Companies, Policy Makers
+
+### Current state of art in research {-}
+The research on the emergency calls looks at its efficiency in fatalities reduction as a consequence of road accidents. For example, a Swedish study concluded that 49% of those who died in fatal road accidents could have survived. In particular, 5% of them would have survived if they had been located more quickly, 12% if they had been transported to hospital more quickly and 32% if they had been taken to an advanced trauma centre more quickly (Henriksson et al., 2001). Therefore, the evidence shows that the potential of e-calls in saving lives is significant. Moreover, a study by Virtanen et al. (2006) estimated that the use of an e-Call could reduce between 4-8% of road fatalities and 5-10% of motor vehicle occupant deaths in Finland. In other European countries, these estimates fluctuate between 2%-7%, whereas the estimate for whole EU area with 25 member states reaches up to 15% in fatalities reduction. The European Commission estimates that a pan-European eCall system has the potential to prevent up to 2500 deaths per year in the EU-25 if fully implemented (European Commission, 2020a). 
+Another strand of research focuses on the testing of different designs of e-Call systems and aims at its standardisation across European Union member countries. Uniform legislation concerns in particular, the communication protocol and the amount of data that is provided by an e-call, as well as its content and format (European Commission, 2020a).
+
+### Current state of art in practice {-}
+Since the end of March 2018, manufacturers in the EU have to include E-Call in all new models of passenger cars and light commercial vehicles (Bundesministerium für Verkehr, no date). However, even if the vehicles have an e-Call system installed, some car producers additionally install their own emergency call systems. The use of manufacturer-specific e-call system rather than a standardised one, gives car manufacturers an advantage and creates an opportunity to trade the data to external ‘accident related’ providers such as towing, or offer services in terms of post-accident customer care such as vehicle reparation or car replacement.<br/><br/>
+Regardless of the benefits for the car producers the results of the crash tests carried out by the European new car assessment programme *Euro NCAP* at the *ADAC Technik Zentrum* are alarming. According to the tests, manufacturer emergency calls were sometimes answered by the call centre only 58 seconds after the airbags had been deployed. This shows that the use of manufacturer-specific e-call, in fact, delays the medical service provision (relative to 112 e-Call), where the position of the car must first be determined from the transmitted location data in order to then forward it to the actual responsible rescue control centre on site. After that, only the rescue centre sends out the ambulance. In the event of an accident, the valuable time would be lost due to this indirect procedure.<br/><br/>
+Nevertheless, many vehicles still use this manufacturer-specific e-call, permitted by the EU, which  first informs the car manufacturer's control centre or its service provider, and not 112, directly. According to an ADAC survey, mainly the German manufacturers prefer to use a manufacturer-specific emergency call instead of 112 e-Call, while other car producers that participated in the survey relied only on 112 e-Call.<br/><br/>
+On the other hand, due to data protection concerns, the system is viewed sceptically by many car drivers. However, in the view of the ADAC, there is no reason for this. 112 e-Call only logs into the mobile network after a serious accident and then sends data to the rescue coordination centre, not to the manufacturer. The 112 e-Call also does not record any data in the car. According to the ADAC, there are now the following steps for legislators and manufacturers to take (Kroher, 2020):
+
+-	112-eCall should be mandatory for all new vehicles, not only for new type approvals.
+-	The manufacturer-specific emergency call already installed in many models should be convertible to 112-eCall without major effort.
+-	In order to better inform the driver about the differences between 112-eCall and the manufacturer's emergency call, a detailed description of the function including the content of the MSD (Minimum Set of Data, the transmitted data) should be available in the on-board manual and also in the display of the vehicle.
+-	If 112-eCall and manufacturer emergency call are available in parallel in the vehicle, the driver should have the right to choose his preferred service provider. As many consumers are uncertain about this, it would be advisable to pre-set 112-eCall in the car by default.
+-	When using the manufacturer's emergency call, there should be no delay in reporting the accident to the rescue coordination centre in order to enable the fastest possible assistance.
+-	The data set (MSD) transmitted in the 112-eCall should be expanded to include information (e.g. acceleration values) that enable rescue control centres to automatically predict the type and severity of injuries and thus adequately alert rescue resources.
+-	In order to be able to use an eCall technology installed in the vehicle fleet over the lifetime of the vehicles in an emergency, it is necessary to maintain the 2G/3G networks.
+ 
+### Relevant initiatives in Austria {-}
+In Austria, the handling of emergency calls falls under the responsibility of the Ministry of the Interior.
+In the project *E-Call Austria*, the E-Call system is to be implemented in Austria. The measures include the testing, implementation and certification of the emergency call answering points in Austria. The new Public-Safety Answering Points (PSAP) in all nine federal states will then be in line with the requirements of EU regulations (Regulation (EU) No 305/2013; provision of an EU-wide e-call service).
+
+- [bmi.gv.at](https://www.bmi.gv.at/209/start.aspx) 
+- [oeamtc.at](https://www.oeamtc.at/thema/ecall/) 
+- [austriatech.at](https://austriatech.at/de/wenn-es-schnell-gehen-muss-ecall-macht-die-strasse-sicherer/) 
+- [oe1.orf.at](https://oe1.orf.at/artikel/644731/eCall-der-automatische-Autonotruf-und-seine-Nachteile) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table34, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Road fatalities reduced|**+**|Health & Wellbeing (*3*)|European Commission, 2020a|
+|Systemic|         Disporportionally high fitting costs of e-Call|          **-**|Sustainable economic development (*8,11*)|European Commission, 2020a|
+|Systemic|Universal emergency number in EU (112) |          **+**|Partnership & collaborations (*17*)|European Commission, 2020b|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table35, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|6-9|')
+```
+
+### Open questions {-}
+1. What is the current state of implementation in individual EU member states?
+2. Are car buyers sufficiently informed about the difference between manufacturer-specific emergency call and 112 e-Call? And if not, how to tackle this?
+3. What is the time horizon to see a full impact of an e-Call, given the proportion of 'older' cars on the roads which do not have e-call fitted?
+
+### Further links {-}
+
+-	[ec.europa.eu](https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en) 
+
+### References {-}
+- Bundesministerium für Verkehr, I. und T. (BMVIT) (no date) eCall Austria. Available at: https://www.bmi.gv.at/209/start.aspx (Accessed: 10 February 2021).
+- European Commission (2020a) Air | Mobility and Transport, European Commission. Available at: https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en (Accessed: 10 February 2021).
+- European Commission (2020b) eCall – Kraftfahrzeugassistenzsystem für Notrufe an die europäische Notrufnummer 112 - Your Europe. Available at: https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency-assistance-vehicles-ecall/index_de.htm (Accessed: 10 February 2021).
+- Henriksson, E. M., Oström, M. Eriksson, A. (2001) Preventability of vehicle-related fatalities. Accident Analysis and Prevention, 467-475
+- Kroher, T. (2020) eCall: Probleme beim automatischen Notrufsystem | ADAC. Available at: https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/unfall/ecall-herstellernotruf/ (Accessed: 10 February 2021).
+- Virtanen, A., Schirokoff, J., Luoma and R. Kulmala (2006) Impacts of an automatic emergency call system on accident consequences, Ministry of Transport and Communications Finland Finnish R&D Programme on Real-Time Transport Information AINO
+
+
