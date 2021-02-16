@@ -41,6 +41,7 @@ In 2020, Switzerland followed and integrated an app called *yumuv*. *Swiss Feder
 
 ### Relevant initiatives in Austria {-}
 
+- [AustriaTech.at](https://www.austriatech.at/assets/Uploads/Publikationen/PDF-Dateien/29fc02ada2/MaaS-miA_english_102019_web.pdf)
 - [maas-ready.at](https://maas-ready.at) 
 - [ultimob.at](https://www.ultimob.at) 
 - [tim-oesterreich.at](https://www.tim-oesterreich.at/graz/) 
