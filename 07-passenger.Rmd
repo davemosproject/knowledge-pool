@@ -6,4 +6,105 @@
 
 ## Multimodal information and route planning
 
+### Synonyms {-}
+*Multi-Modal Transport Information Services (MMTIS)*
+
+### Definition {-}
+Information systems that ensure reliable, efficient operations and widely accessible, accurate passenger information are essential to the use of public transportation. These systems are being used for a number of specific purposes such as setting schedules and timetables, managing vehicle fleets, issuing tickets and receipts, providing real time information on service running (European Commission, n.d. b). It is particularly crucial for multimodal transport, where passengers use several transport modes or systems operators within a single trip. Therefore, it is essential to provide accurate information to ensure smooth transfer and minimise waiting times. <br/>
+Since 2006 the Transmodel (European Standard Public Transport Reference Data Model (EN 12896)) has been developed in Europe. It provides a framework for defining and agreeing data models to cover the whole area of public transport operations. Among other things, the standard facilitates interoperability between the information processing systems of transport operators and agencies by using matching definitions, structures and data formats for the component systems. Therefore, it is possible for operators, authorities and software suppliers to work together more easily towards integrated systems. Beyond, future system developments can be accommodated with the minimum difficulty (European Commission, n.d. b). Furthermore, Transmodel is particularly suitable as *(1)* a specification of an organization's "information architecture," *(2)* a specification of a database, and *(3)* a specification of a data exchange interface (European Commission, n.d. a) and has been a fundamental input for the design of the following EU standards:
+
+-	DVC (Data Communication on Vehicles);
+-	IFOPT (Identification of Fixed Objects in Public Transport);
+-	SIRI (Standard Interface for Real-Time Information);
+-	DJP/OJP (Open API for distributed journey planning);
+-	NeTEx (Network Timetable Exchange);
+-	OpRa (Operating Raw Data and statistics exchange). 
+
+Belgium, Denmark, Finland, France, Germany, Hungary, Italy, Netherlands, Norway, Spain, Slovenia, Sweden Switzerland and the UK are involved in the implementation of Transmodel at a certain level – Austria, so far, has not been (European Commission, n.d. c). <br/>
+
+The *Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services* required each EU Member State, among other things, to establish the National Access Points (NAP) by 1st December 2019 (European Commission, 2021a). NAPs were aimed at facilitating the access, easy exchange and reuse of transport-related data to enable the provision of EU-wide interoperable travel and transport services to end-users (European Commission, 2021b). In Austria the NPA is managed by [AustriaTech](https://www.mobilitydata.gv.at/). 
+
+### Key stakeholders {-}
+- **Affected**: Public Transport Users 
+- **Responsible**: European Commission, NPAs, Transport service providers and public transport operators, National Governments, IT System Providers
+
+### Current state of art in research {-}
+Presently, the research aims at improving compatibility, connectivity and flexibility of the system. For example, Dinko et al. (2020) looked at what real-time information would be needed in the future to make the trip planner system resilient and easily adaptable to changing needs, considering the changes and challenges that will bring post-pandemic transportation requirements. Further Chang et al. (2020) conducted research on the accessible indoor navigation application for smartphones, combining information of floor plans, Bluetooth beacons, Wi-Fi/cellular data connectivity, 2D/3D visual models, and user preferences. The aim was to provide visual, audio, and haptic feedback for targeted users to find the optimal route to their destination within a building. Moreover, Huang et al. (2018) looked at the approaches to better connect static (e.g. public transport) and dynamic (e.g. carpooling) networks without limiting flexibility. They found that a merged network, based on the concept of drive-time areas and points of action, could enable multimodal route planning that can provide users with trips from a starting point to a destination using different combinations of modes. <br/>
+
+What is more, the additional research addresses Mobility as a Service (MaaS) solutions. For further information see section [Mobility as a service (Maas)](#maas) of this work.
+
+
+### Current state of art in practice {-}
+*Verkehrsauskunft Österreich (VAO)*  is a nationwide multimodal routing platform authorized by Austrian transport infrastructure, means of transport and transport editorial operators, coordinated among themselves. Highly up-to-date, real-time routing information is provided for most modes of transport and their linking options, such as: car, public transport, bicycle, bike & ride, park & ride, rental bikes, car sharing, etc. The basis for the VAO is the *Graph Integration Platform (GIP)*, a routable and intermodal graph for the entire Austrian transport network and *Basemap*, an Austrian-wide, detailed administrative map based on the geodata of the Austrian federal provinces and the GIP (Verkehrsauskunft Österreich, n.d.).<br/>
+
+*Rome2rio* is an international door-to-door travel information and booking engine which provides flight, train, bus, ferry, rideshare or rental car info as well as estimated prices, journey duration and booking details. The platform uses data from over 5000 companies of more than 160 countries (Rome2rio Pty Ltd, 2021a) and provides a simple XML/JSON interface for integrating multi-modal search capability to any website, app or service (Rome2rio Pty Ltd, 2021b). <br/>
+
+With *Google Routs*, integrated in *Google Maps*, routes can also be called up for journeys by public transport, bicycle and car, as well as for journeys by foot. Based on real-time information on traffic conditions, current or future travel times are determined (Google, n.d.). Furthermore, the public transportation planning feature *Google Transit* combines the latest agency data (provided with Google Routs) with the power of Google Maps. It integrates transit stop, route, schedule, and fare information to make trip planning quick and easy for users. For the integration public transit agencies need to meet a few basic requirements, as providing their static and real-time data in the general transit feed specification (GTFS) format (Google, 2021). <br/>
+
+Finally, in 2020 *Apple* launched a new online map, including the features of real-time transit information and indoor maps for airports and malls, but not yet worldwide (Apple, 2020). 
+
+### Relevant initiatives in Austria {-}
+
+- [verkehrsauskunft.at](https://www.verkehrsauskunft.at/) 
+- [gip.gv.at](https://www.gip.gv.at/) 
+- [basemap.at](https://www.basemap.at/) 
+- [mobilitydata.gv.at](https://www.mobilitydata.gv.at/) 
+- [maps.google.com](http://maps.google.com/landing/transit/cities/index.html#Europe) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table40, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Higher accessibility to mobility|**+**|Equality *(5,10)* |Dibbelt et al., 2017|
+|Individual|Facilitated use of public trasnport|**+**| Environmental sustainability (*7,12,13,15*)|European Commission, 2021a|
+|Systemic|Accessible data on a non-discriminatory basis| **+**|Equality *(5,10)* |European Commission, 2021b |
+|Systemic|More efficient transport system|**+**|Sustainable economic development (*8,11*)|European Commission, 2021a|
+|Systemic|Implementation of NAPs, framework for defining and agreeing data models |**+**|Innovation & Infrastructure (*9*)|European Commission, 2021b; European Commission, n.d. b|
+|Systemic|Collaborations of private and public sectors & global partnerships|**+**|Partnership & collaborations (*17*)|European Commission, n.d. b|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table41, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|3-7|3-7|')
+```
+
+### Open questions {-}
+
+1. How can bus and rail travel be made as convenient to book as flights? 
+2. Why Austria has not implemented the Transmodel? What's necessary for an implementation?
+3. What effect has Multimodal information & route planning on energy consumption? 
+4. What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for dthese specific groups?
+ 
+### Further links {-}
+
+-	[transmodel-cen.eu](http://www.transmodel-cen.eu/)
+-	[trafi.com](https://www.trafi.com/)
+-	[eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32017R1926)
+-	[ec.europa.eu](https://ec.europa.eu/transport/sites/transport/files/2020-02-implementation-handbook-delegated-reg20171926.pdf) 
+-	[mobilitydata.gv.at](https://www.mobilitydata.gv.at/) 
+-	[apple.com](https://www.apple.com/maps/) 
+-	[maps.google.com](http://maps.google.com/landing/transit/cities/index.html#Europe) 
+
+### References {-}
+- Apple. (2020). Apple delivers a new redesigned Maps for all users in the United States - Apple. Retrieved February 15, 2021, from https://www.apple.com/newsroom/2020/01/apple-delivers-a-new-redesigned-maps-for-all-users-in-the-united-states/
+- Chang, Y., Chen, J., Franklin, T., Zhang, L., Ruci, A., Tang, H., & Zhu, Z. (2020, August). Multimodal Information Integration for Indoor Navigation Using a Smartphone. In 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI) (pp. 59-66). IEEE. 
+- Dibbelt, J., Konstantopoulos, C., Wagner, D., Gavalas, D., Kontogiannis, S., Zaroliagis, C., ... & Pantziou, G. (2017, July). Multimodal route and tour planning in urban environments. In 2017 IEEE Symposium on Computers and Communications (ISCC) (pp. 214-219). IEEE.
+- Dinko, A., Yatskiv, I., & Budilovich, E. (2020, October). Trip Planner Challenges in the Era of Fast Changing Requirements. In International Conference on Reliability and Statistics in Transportation and Communication (pp. 485-496). Springer, Cham.
+- European Commission. (n.d. a). Applicability of Transmodel – Transmodel. Retrieved February 8, 2021, from http://www.transmodel-cen.eu/overview/applicability-of-the-transmodel/ 
+- European Commission. (n.d. b). Purpose of the Transmodel – Transmodel. Retrieved February 8, 2021, from http://www.transmodel-cen.eu/overview/purpose-of-the-transmodel/ 
+- European Commission. (n.d. c). Transmodel countries – Transmodel. Retrieved February 12, 2021, from http://www.transmodel-cen.eu/implementations/countries/ 
+- European Commission. (2021a). Multimodal Travel Information | Mobility and Transport. Retrieved February 12, 2021, from https://ec.europa.eu/transport/themes/its/road/action_plan/multimodal-travel-information_en 
+- European Commission. (2021b). National Access Points | Mobility and Transport. Retrieved February 12, 2021, from https://ec.europa.eu/transport/themes/its/road/action_plan/nap_en 
+- Google. (2021). Get started with Google Transit - Transit Partners Help. February 8, 2021, from https://support.google.com/transitpartners/answer/1111481?hl=en&ref_topic=3521043 
+- Google. (n.d.). Routes & Directions  |  Google Maps Platform  |  Google Cloud. Retrieved February 12, 2021, from https://cloud.google.com/maps-platform/routes 
+- Huang, H., Bucher, D., Kissling, J., Weibel, R., & Raubal, M. (2018). Multimodal route planning with public transport and carpooling. IEEE Transactions on Intelligent Transportation Systems, 20(9), 3513-3525.
+- Rome2rio Pty Ltd. (2021a). About Rome2rio - Rome2rio. February 12, 2021, from https://www.rome2rio.com/about/ 
+- Rome2rio Pty Ltd. (2021b). Rome2rio API - Rome2rio. February 12, 2021, from https://www.rome2rio.com/documentation/ 
+- Verkehrsauskunft Österreich. (n.d.). Verkehrsauskunft Österreich: VAO Heute. Retrieved February 8, 2021, from https://www.verkehrsauskunft.at/ 
+
+
 ## Real-time, location-based information

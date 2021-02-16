@@ -55,7 +55,7 @@ format(Sys.time(),'%d %B %Y')
 6. Passenger information system \@ref(passenger)
     - Digital journey planner
     - Rail telematics for passenger services
-    - Multimodal information and route planning
+    - Multimodal information and route planning **NEW**
     - Real-time, location-based information
 7. Multimodal integrated system \@ref(multimodal)
     - First-last mile solutions

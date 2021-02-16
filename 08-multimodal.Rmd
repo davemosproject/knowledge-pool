@@ -4,7 +4,7 @@
 
 ## Distance or time-based fares
 
-## Mobility as a service (Maas)
+## Mobility as a service (Maas) {#maas}
 
 ### Definition {-}
 In line with the principle of "*using instead of owning*", one goal of MaaS is to make mobility available as a service anytime and anywhere with a click on one or more online platforms or apps. These digital MaaS platforms or apps should link information, booking and payment of mobility offers from different service providers and thus enable the offer of integrated mobility packages. Users should have the freedom to choose between different physical forms of mobility (Neumann & Rauch, 2021):

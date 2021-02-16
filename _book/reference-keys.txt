@@ -40,7 +40,7 @@ real-time-location-based-information
 multimodal
 first-last-mile-solutions
 distance-or-time-based-fares
-mobility-as-a-service-maas
+maas
 park-and-ride
 contactless-public-transport-cards
 information-and-assistance-for-people-with-special-needs
