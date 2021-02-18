@@ -8,7 +8,6 @@ fig:unnamed-chunk-8
 intro
 infrastructure
 dedicated-lanes-for-connected-and-automated-vehicles-cav
-cooperative-lane-control-for-connected-and-automated-vehicles
 operational-design-domains
 rail-crossing-information-system
 electric-road-system
@@ -28,9 +27,8 @@ variable-speed-limits-and-dynamic-signage-system
 passengers-and-goods-fleet-management
 urban-access-management
 digital
-vehicle-to-infrastructure-communication
+vehicle-to-everything-communication
 infrastructure-support-levels-for-automated-driving
-vehicle-to-vehicle-communication
 wireless-communication
 passenger
 digital-journey-planner
