@@ -28,7 +28,6 @@ format(Sys.time(),'%d %B %Y')
 1. Introduction to the knowledge pool \@ref(intro)
 2. Physical road infrastructure \@ref(infrastructure)  
     - Dedicated lanes for connected and automated vehicles (CAV) **NEW**
-    - Cooperative lane control for connected and automated vehicles
     - Operational design domains
     - Rail crossing information system
     - Electric road system
@@ -48,9 +47,8 @@ format(Sys.time(),'%d %B %Y')
     - Passengers and goods fleet management
     - Urban access management **NEW**
 5. Digital road infrastructure and connectivity \@ref(digital)
-    - Vehicle to infrastructure communication
+    - Vehicle to everything communication **NEW**
     - Infrastructure support levels for automated driving
-    - Vehicle to vehicle communication
     - Wireless communication
 6. Passenger information system \@ref(passenger)
     - Digital journey planner

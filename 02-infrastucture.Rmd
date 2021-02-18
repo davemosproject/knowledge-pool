@@ -86,8 +86,6 @@ Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary v
 - Zhang, J., Wu, K., Cheng, M., Yang, M., Cheng, Y., & Li, S. (2020). Safety Evaluation for Connected and Autonomous Vehicles’ Exclusive Lanes considering Penetrate Ratios and Impact of Trucks Using Surrogate Safety Measures. Journal of advanced transportation, 2020. 
 - Zhong, Z. (2018). Assessing the effectiveness of managed lane strategies for the rapid deployment of cooperative adaptive cruise control technology.
 
-## Cooperative lane control for connected and automated vehicles
-
 ## Operational design domains
 
 ## Rail crossing information system
