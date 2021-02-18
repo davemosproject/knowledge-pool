@@ -75,7 +75,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Improvement of road safety|**+**|Health & Wellbeing (*3*)|Filippi et al., 2016|
 |Individual|V2X communications will come at no cost to the end user|**+**|Sustainable economic development (*8,11*)|Hainen et al., 2019|
-|Systemic|Emissionsreduced|**+**|Environmental sustainability (*7,12,13,15*)|Outay et al., 2019|
+|Systemic|Emissions reduced|**+**|Environmental sustainability (*7,12,13,15*)|Outay et al., 2019|
 |Systemic|Increased efficiency of transport systems|**+**|Sustainable economic development (*8,11*)|Filippi et al., 2016|')
 ```
 
