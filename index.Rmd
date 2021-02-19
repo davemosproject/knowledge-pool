@@ -30,7 +30,7 @@ format(Sys.time(),'%d %B %Y')
     - Dedicated lanes for connected and automated vehicles (CAV) **NEW**
     - Operational design domains
     - Rail crossing information system
-    - Electric road system
+    - Electric road system **NEW**
     - High occupancy toll lanes
     - Public transport priority systems **NEW**
     - Transformation of public space and digital solutions

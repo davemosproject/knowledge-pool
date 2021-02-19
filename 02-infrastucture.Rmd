@@ -32,12 +32,12 @@ Currently state of Michigan together with several private partners including For
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Fuel consumption reduced|**+**|Environmental sustainability (*7,12,13,15*)|Ivanchev et al., 2017|
-|Individual|Travel time reduced|          **+**|Sustainable economic development (*8,11*)|Zhong, 2018; Yang et al., 2019|
-|          Systemic|         Collision rate reduced|          **+**|Health & Wellbeing (*3*)|Zhang et al., 2020|
-|          Systemic|         Emissions rate reduced|         **+**|Environmental sustainability (*7,12,13,15*)|Al Alam at al., 2010|
-|          Systemic|         Congestion|          **~**|Sustainable economic development (*8,11*)|Ivanchev et al., 2017; Kumar et al., 2020|
-|          Systemic|         Novel designs tested|          **+**|Innovation & Infrastructure (*9*)|Guin et al., 2008; Zhong, 2018; Krisher & Eggert, 2020|
-|          Systemic|       SHOW EU initiative  |          **+**|Partnership & collaborations (*17*)|CORDIS, 2020|')
+|Individual|Travel time reduced|**+**|Sustainable economic development (*8,11*)|Zhong, 2018; Yang et al., 2019|
+|Systemic|Collision rate reduced|**+**|Health & Wellbeing (*3*)|Zhang et al., 2020|
+|Systemic|Emissions rate reduced|**+**|Environmental sustainability (*7,12,13,15*)|Al Alam at al., 2010|
+|Systemic|Congestion|**~**|Sustainable economic development (*8,11*)|Ivanchev et al., 2017; Kumar et al., 2020|
+|Systemic|Novel designs tested|**+**|Innovation & Infrastructure (*9*)|Guin et al., 2008; Zhong, 2018; Krisher & Eggert, 2020|
+|Systemic|SHOW EU initiative|**+**|Partnership & collaborations (*17*)|CORDIS, 2020|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -91,6 +91,103 @@ Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary v
 ## Rail crossing information system
 
 ## Electric road system 
+
+### Synonyms {-}
+*ERS*
+
+### Definition {-}
+Electric Road System (ERS) is a technological solution that is aimed at charging and transferring power from the road to the vehicles driving along that road. It can be considered an alternative for sustainable transport where it ssupports the use of hybrid and electric vehicles. There are three main types of ERS (Muelaner, 2020):
+
+-	**Catenary Systems** are overhead lines suspended about 5 meters above the road which are typically used for trams and electric vehicles but sometimes can also be used along highways to power heavy commercial vehicles. Overhead lines are cheapest and the most mature form of ERS because of their resemblance with power systems used for railways or trams. They require vehicle to be equipped with pantograph which connects it with the line accommodating lateral and vertical movements. For this reason, catenary systems are the most suitable for large commercial vehicles and the lack of compatibility with small, private cars is considered a major disadvantage. What is more, the overhead lines provide a major hazard in case of road accidents for all road users. Moreover, they negatively impact the visual aspects within the areas in which they are installed, potentially posing issues for public acceptance (Muelaner, 2020). 
+
+-	**Conductive tracks** are metal rails which are embedded on (or into) the road surface and provide power through a contact with a pick-up point underneath the vehicle. For safety reasons tracks are divided into small segments rather than continuous, so that the electrical connection is running only when the vehicle passes over them. In contrast to overhead lines, the conductive tracks can be used for vehicles of different sizes. Their advantage is also clear in terms of lower installation costs. Sweden has been a testing ground for larger scale use of this electric road system (Muelaner, 2020).
+
+-	**Inductive tracks** are conductive coils which are placed below the surface of the road to provide energy by inducing an electric current in the coil placed under the vehicle driving along the track. Their advantage is smaller maintenance requirement as compared to conductive tracks, however, a system failure would require costly work to access underground infrastructure.<br/>
+
+Overall, the wider use of ERS would reduce the need for construction of costly charging station, eliminate waiting time while the vehicle is charging, significantly increase driving range of hybrid and electric vehicles   and facilitate reduction in size of batteries installed in the private cars which directly translates into more efficient performance.
+
+
+### Key stakeholders {-}
+
+- **Affected**: Private and commercial drivers, Private transportation companies, General public
+- **Responsible**: Local councils, National governments, Construction comapnies, Power and petroleum companies, Road power technology firms, Automotive manufacturers
+
+### Current state of art in research {-}
+Current, research focuses on testing of the ERS solutions to enable deployment on a larger scale, extend applicability to a new type of vehicles, increase their efficiency and assess their transport decarbonization potential. <br/>
+
+Since 2008 the South Korean company [OLEV](https://www.kaist.ac.kr/en/html/kaist/01200103.html) (branch of KAIST University) has been working on inductive power transfer and since 2013 two electric buses have been in operation on public roads, inside university campus (Kelion, 2013). Nonetheless, this system is currently outdated and results as a low-speed system within local public transport. In 2016 an initial testing of the overhead lines has been conducted in Germany on Siemens’ 2 km test track in Berlin, at the same time in Sweden a full integration with Scania vehicle has been achieved. More example include Volvo and Alstom’s cooparation on testing of conductive tracks on the 400 m test side in Hällered, Sweden (Möller, 2017). Similarly, Swedish Transport Administration in collaboration with Elonroad under [EVolution Road](https://www.evolutionroad.se/en/) project constructed a 1 km of demonstration road in Lund to test the performance of an electric bus. <br/>
+On the other hand, research on the efficiency of inductive tracks conducted in France and Italy showed that their performance depends on the precision of alignment between the track and the coil in the vehicle (Muelaner, 2020). Finally, a study by Börjesson et al. (2020) showed that use of electric road solution can decrease operational costs for freight operators due to a switch from diesel to electricity. Consequently, the social benefit of this technological solution outweighs its cost. Moreover, it has been concluded that use of ERS offers significant reduction in carbon emissions.
+
+
+### Current state of art in practice {-}
+At the moment, there are multiple companies offering power technologies such as [Elways](https://elways.se/), [Alstom](https://www.alstom.com/) or [Elonroad](https://elonroad.com/), to name a few. The proliferation of such companies enabled active testing and implementation of different ERS solutions around the world. <br/>
+
+Since 2016 overhead lines have been successfully deployed on public roads in Sweden (E16 highway outside Gävle) and the USA (City of Carson). Currently, in Germany three tests sponsored by Federal Ministry for the Environment, Nature Conservation and Nuclear Safety [(BMU)](www.bmu.de) are taking place. In Hesse and Schleswig-Holstein 5 km of motorway was electrified at the beginning of 2020 (Wettengel, 2019) while in Baden-Württemberg, 4 km of a national highway will have an overhead line system in operation at the beginning of 2021. For the moment, these overhead lines provide power to freight vehicles, however  an issue arises among the truck fleets going through Germany from Eastern Europe, because they are lacking modern hybrid trucks equipped with pantographs on the roof. <br/>
+
+Further, between 2016-2017 project [VICTORIA]( https://www.fcirce.es/en/smart-mobility-en-en/victoria-2) led by Spanish energy company Endesa developed first dynamic inductive load systems for a bus line in Malaga, Spain. Similarly, EU project [FABRIC](https://trimis.ec.europa.eu/project/feasibility-analysis-and-development-road-charging-solutions-future-electric-vehicles) has been conducted in Torino, Italy and Satory in France (Tongur & Sundelin, 2016). <br/>
+
+In terms of cost analysis, an example from the UK shows that inductive tracks provide cost advantage, where the installation of 1 mile (1,6 km) of inductive tracks on a two-lane road costs around 1.4 million euros. If these were to be installed in all UK highways the costs would come up to around 13 billion euros. At the same time, the cost of additional electricity capacity required for hydrogen in [FCEV](#FCEV) sums up to 140 billion euros. Additionally, cost-benefit analysis showed that if most vehicles used ERS, the savings resulting from smaller batteries in electric cars would outweigh the costs of ERS construction. <br/>
+
+Interestingly, ERS has not been particularly popular in Austria, potentially due to presence of well-developed railway network which, thus far, dominated freight. In particular, critics describe the construction of electric highways as *a waste of money*, because it only benefits companies that equip their fleets with the necessary vehicles with overhead line system (Traktuell.at. 2020).
+
+### Relevant initiatives in Austria {-}
+
+- [scania.com](https://www.scania.com/at/de/home/products-and-services/trucks/sustainability/elektro-mobilitaet/oberleitungs-lkw.html)
+- [electrive.net](https://www.electrive.net/2019/07/24/auswertung-der-these-zu-lastkraftwagen-an-oberleitungen/)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table49, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Potential for lowering purchasing price of electric cars with smaller battery requirement |**+**|Sustainable economic development (*8,11*)|Muelaner, 2020|
+|Systemic|Reduction in emissions and use of fossil fuels |**+**|Environmental sustainability (*7,12,13,15*)|Tongur & Sundelin, 2016; Moeller, 2017; Boerjesson et al., 2020|
+|Systemic|Cost saving compared to hybrid vehicles; long-term maintenance costs uncertain |**~**|Sustainable economic development (*8,11*)|Muelaner, 2020; Boerjesson et al., 2020|
+|Systemic|Novel designs tested|**+**|Innovation & Infrastructure (*9*)|Kelion, 2013|
+|Systemic|Increased cross-industrial collaboration|**+**|Partnership & collaborations (*17*)|Kelion, 2013; Wettengel, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table48, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-9|4-7|')
+```
+
+### Open questions {-}
+
+1. What is the potential of the use of ERS beyond freight vehicles?
+2. How do stakeholders develop new business models that support ERS deployment?
+3. Do public authorities have to own the electric roads?
+4. What are the long-term costs associated with the maintenance of ERS?
+
+
+### Further links {-}
+
+- [fcirce.es](https://www.fcirce.es/en/smart-mobility-en-en/victoria-2)
+- [engineering.com](https://www.engineering.com/story/electric-road-systems)
+- [bbc.com](https://www.bbc.com/news/technology-23603751)
+- [cleanenergywire.org](https://www.cleanenergywire.org/news/germany-opens-first-overhead-electricity-test-track-trucks-autobahn)
+- [trimis.ec.europa.eu](https://trimis.ec.europa.eu/project/feasibility-analysis-and-development-road-charging-solutions-future-electric-vehicles)
+- [Alstom](https://www.alstom.com/)
+- [Elonroad](https://elonroad.com/)
+- [KTH report](https://www.diva-portal.org/smash/get/diva2:1127479/FULLTEXT01.pdf)
+- [Scania](https://www.scania.com/group/en/home/newsroom/news/2016/scania-tests-fast-wireless-charging-in-urban-traffic.html)
+- [insideevs.com](https://insideevs.com/news/373644/electrified-roads-sweden-solaris-elonroad/)
+- [a3bau.at](https://a3bau.at/so-funktionieren-elektrifizierte-strassen)
+- [Siemens](https://press.siemens.com/global/de/feature/ehighway-loesungen-fuer-den-elektrifizierten-strassengueterverkehr)
+-	[traktuell.at](https://traktuell.at/a/ohne-akzeptanz-kein-ehighway-in-deutschland)
+
+### References {-}
+- Börjesson, M., Johansson, M., & Kågeson, P. (2020). The economics of electric roads.
+- Kelion, L., 2013. South Korean road wirelessly recharges OLEV buses. [online] BBC News. Available at: <https://www.bbc.com/news/technology-23603751> [Accessed 19 February 2021].
+- Möller, C. (2017). Carbon neutral road transportation: an assessment of the potential of electrified road systems.
+- Muelaner, J., 2020. Electric Road Systems. [online] Engineering.com. Available at: <https://www.engineering.com/story/electric-road-systems> [Accessed 18 February 2021].
+- Tongur, S., & Sundelin, H. (2016, October). The electric road system transition from a system to a system-of-systems. In 2016 Asian Conference on Energy, Power and Transportation Electrification (ACEPT) (pp. 1-8). IEEE.
+- Traktuell.at. 2020. Ohne Akzeptanz kein eHighway in Deutschland. [online] Available at: <https://traktuell.at/a/ohne-akzeptanz-kein-ehighway-in-deutschland> [Accessed 19 February 2021].
+- Wettengel, J., 2019. Germany opens first overhead electricity test track for trucks on autobahn. [online] Clean Energy Wire. Available at: <https://www.cleanenergywire.org/news/germany-opens-first-overhead-electricity-test-track-trucks-autobahn> [Accessed 19 February 2021].
+
 
 ## High occupancy toll lanes 
 

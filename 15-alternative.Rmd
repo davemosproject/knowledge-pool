@@ -1,6 +1,9 @@
 # Alternative power sources {#alternative}
 
-## Hydrogen fuel cell
+## Hydrogen fuel cell {#FCEV}
+
+### Synonyms {-}
+*hydrogen fuel cell electric vehicles, FCEV*
 
 ### Definition {-}
 
@@ -85,6 +88,8 @@ International Partnership for Hydrogen and Fuel Cells in the Economy (no date) N
 
 
 ## Battery electric
+
+[bmu.de](https://www.bmu.de/fileadmin/Daten_BMU/Pools/Broschueren/elektromobilitaet_broschuere_en_bf.pdf)
 
 ## Plugin hybrid vehicles
 
