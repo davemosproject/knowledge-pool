@@ -93,7 +93,7 @@ bicycle-and-e-bicycle-hire
 e-scooters
 ride-hailing
 alternative
-hydrogen-fuel-cell
+FCEV
 battery-electric
 plugin-hybrid-vehicles
 reference
