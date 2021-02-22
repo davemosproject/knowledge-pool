@@ -114,7 +114,7 @@ format(Sys.time(),'%d %B %Y')
     - Ride-hailing
 14. Alternative power sources \@ref(alternative)
     - Hydrogen fuel cell **NEW**
-    - Battery electric
+    - Battery electric **NEW**
     - Plugin hybrid vehicles **NEW**
 15. References \@ref(reference)
 
