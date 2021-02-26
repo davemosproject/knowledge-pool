@@ -89,8 +89,87 @@ https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-toda
 - Van Amelsfort, D., & Swedish, V. (2015). Introduction to congestion charging: A guide for practitioners in developing cities.
 - Valletta, M. (2015) Congestion charging in Europe.
 
-
 ## Platooning
+### Synonyms {-}
+*Platoon Leader (PL), Platoon Member (PM), Truck Platooning*
+
+### Definition {-}
+Trucks form a platoon on motorways by lining up in one lane. The trucks that line up behind the first truck in the platoon can save fuel because their air resistance is reduced. The energy efficiency of a vehicle is influenced by factors such as engine, road friction and air resistance, which  accounts for more than 40 % of the total energy consumption of a vehicle (Song et al., 2021). In a truck platoon, various technologies such as the ACC (Adaptive Cruise Control) system and the V2V (Vehicle-to-Vehicle) communication protocol are used to effectively control the trucks in the platoon. The camera sensors measure the distance between contiguous trucks in the platoon and these sensor measurements rely on the ACC system. Based on these sensor measurements, the ACC system controls the truck speed via in-vehicle network protocols such as the Controller Area Network (Ghosal et al., 2021).
+
+
+### Key stakeholders {-}
+- **Affected**: Truck drivers, Other road users
+- **Responsible**: National Governments, City government, Private Companies, Truck manufacturers
+
+### Current state of art in research {-} 
+A considerable amount of research has actively addressed the technical aspects of platooning, such as maintenance between platoon vehicles and safe driving techniques for platoons (Amoozadeh et al., 2015). One focus in research is the security of this innovation. According to Ghosal et al. (2021), the data transmitted between vehicles is not encrypted and this makes the V2V communication protocol vulnerable to cyber-attacks that can disable the radio channels between the trucks in the train. <br/><br/>
+Furthermore, the research looks into the efficiency of vehicles platooning, where the results of a Dutch study showed that a three-truck platooning with a vehicle spacing of 6.7 metres and an overall length of 69.75 metres has a positive impact on traffic flow near junction and passing areas on Dutch motorways with large-scale truck platooning. But as platoon intensity increased, traffic efficiency and safety decreased (Yang et al., 2019).<br/><br/>
+As an innovation in platooning, a lateral offset of the vehicles was proposed which refers to change in the lateral driving position of the subsequent trucks to reduce the abrasion of the road surface. The side shifting of the vehicles results in a use of a wider area of the roadway, but extends the life of the pavement. A value between 100 mm and 150 mm was proposed as the lateral offset, resulting in an average fuel saving of 8% and a reduction in damage of over 30% (Song et al., 2021).<br/><br/>
+In terms of public opinion, the results of a survey in Germany and California showed that the majority of respondents were convinced of the usefulness of truck platooning, but had concerns about driving on the highway at the same time as truck platoons. In fact, safety issues and problems with surrounding traffic were seen as the biggest concerns. The risk of hacking, job loss and legal liability issues were seen as less important. Therefore, it is crucial to increase public awareness on platooning technology and related safety concerns. It is particularly vital because general traffic vehicles cut-ins can significantly affect the efficiency of truck platooning. Therefore, further research should focus on the main factors that influence the cut-in behaviour and finding appropriate countermeasures or communication strategies to further investigate and address the intention to cut-in between platoon vehicles (Castritius et al., 2020).
+
+### Current state of art in practice {-}
+Comprehensive and transnational demonstrations were carried out as part of the *European Truck Platooning Challenge*, which was initiated in the Netherlands in 2016 and involved trucks from different manufacturers. Truck platoons were on the public roads in five European countries (Belgium, Denmark, Germany, Netherlands, Sweden) to get one step closer to practical implementation. One focus of the demonstration drives was the analysis of the risk, especially in relation to the length of the formation, the distance as well as the communication between the vehicles. The tests were also observed from the air to observe the interaction with other road users. Potential problems identified were: 
+
+- disruption of traffic flow, 
+- road and bridge wear, 
+- restrictions in complex traffic situations, 
+- untrained truck drivers and system failures in certain situations such as tunnels.
+
+In Germany, truck platoons have been tested in regular operation since 2018 as part of a cooperation between logistics group DB Schenker and vehicle manufacturer MAN. The truck convoys are in use on the A9 motorway between the DB Schenker branches in Munich and Nuremberg. The truck convoys, which consist of a maximum of two vehicles, each marked as test vehicle, are not driven by professional drivers. The key questions addressed by this project are: *when to form a truck convoy* and *how to best join and break up depending on the situation*. Furthermore, the acceptance of the new technology in the professional group of drivers will be investigated within the framework of this project. In an accompanying study, the experiences of the participating truck drivers will be systematically evaluated and recordings from the test drives on the interaction with other road users will be analysed. The data will also provide information on what other activities the driver in the rear truck can perform during the phases of autonomous driving.<br/><br/>
+The *Sweden4Platooning* project, which run until 2020, aimed at harmonising the systems of different manufacturers in DB Schenker's operations. Further, in the UK, platoons with vehicles from the manufacturer DAF also have been tested on public roads since 2018. Equally noteworthy is the current *ENSEMBLE* project, which aims at demonstrating truck platoons with vehicles from six manufacturers by 2021. The main goal of the *ENSEMBLE* project is to form safe truck convoys with vehicles from different manufacturers. At motorway entrances, exits and junctions, the distances between the vehicles in the convoy will automatically adjust to make room for other road users. Moreover, the goal is to facilitate the approval requirements for a cross-border demonstration. All efforts need to consider the results of the individual projects and initiatives, most of which show a need for further research. Some of the unresolved aspects are (Danzl et al., 2019):
+
+-	Infrastructure equipment and sensor technology in relation to different levels of automation;
+-	Networking with existing traffic management centres and traffic management concepts;
+-	Communication between different actors (road, vehicle, centre, other road users, users);
+-	Energy-efficient formation, implementation and resolution of truck platoons, based on recognised control strategies and protocols; 
+- Interurban and urban application scenarios.
+
+
+
+### Relevant initiatives in Austria {-}
+
+The technology of truck platooning has many potentials: savings in fuel consumption and emissions and it can partly prevent the everyday problem of traffic congestion. Above all, however, it has the potential to lead to more safety on Austria's roads and to come a step closer to the *Vision Zero*.<br/><br/>
+Taking these aspects into account, the flagship project [*Connecting Austria - Linking efficient and automated freight transport from the motorway to the city*](https://trimis.ec.europa.eu/project/connecting-austria-linking-efficient-and-automated-freight-traffic-motorway-city) was launched in Austria at the beginning of 2018. The project was funded in the ninth call for proposals of the Austrian Research Promotion Agency (FFG) within the framework of the funding programme *Mobility of the Future*. <br/><br/>
+However, in order to be able to test truck platooning under real conditions on Austrian roads, amendments to the StVO and the Automated Driving Ordinance (AutomatFahrV) are required. Testing truck platooning only makes sense if a small safety distance is maintained. However, § 18 Abs 1 StVO defines the safety distance when driving behind each other in the sense that every driver must be able to stop his vehicle in case of sudden braking of the vehicle in front. As a general rule, a two-second distance - corresponding to 2 x reaction distance - must be maintained for trucks. However, not only the StVO, but also the AutomatFahrV must be modified after the StVO has been amended to enable the testing of truck platoons. Currently, this only regulates the testing of the following use cases: *(1)* autonomous minibus, *(2)* motorway pilot with automatic lane change and *(3)* self-driving army vehicle.Testing truck platooning on roads with public traffic in Austria is currently not possible from a legal point of view - in contrast to the legal situation in Germany (Danzl et al., 2019).
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table60, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Reduced emissision|**+**|Environmental sustainability (*7,12-13,15*)|Song et al., 2021|
+|Systemic|Fuel savings|**+**|Sustainable economic development (*8,11*)|Ghosal et al., 2021|
+|Systemic|Transnational platooning demostrations|**+**|Partnership & collborations *(17)*|Danzl et al., 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table61, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|5-8|')
+```
+
+### Open questions {-}
+1. What are the digital infrastructure needs of platooning beyond on-board sensors and how can they be addressed?
+2. What are the possible solutions for platoon merging issues and how can lane changing cut-ins be minimised?
+3. How platooning will invluence the role of the drivers in the engaged trucks?
+
+### Further links {-}
+
+- [acea.be](https://www.acea.be/uploads/publications/Platooning_roadmap.pdf)
+- [mantruckandbus.com](https://www.mantruckandbus.com/en/innovation/why-platooning-is-the-future-of-delivery-traffic.html)
+- [cohdawireless.com](https://cohdawireless.com/platooning/)
+
+### References {-}
+- Amoozadeh, M. et al. (2015) ‘Platoon management with cooperative adaptive cruise control enabled by VANET’, Vehicular Communications. Elsevier Inc., 2(2), pp. 110–123. doi: 10.1016/j.vehcom.2015.03.004.
+- Castritius, S. M. et al. (2020) ‘Public acceptance of semi-automated truck platoon driving. A comparison between Germany and California’, Transportation Research Part F: Traffic Psychology and Behaviour. Elsevier Ltd, 74, pp. 361–374. doi: 10.1016/j.trf.2020.08.013.
+- Danzl, K. et al. (2019) ‘VERKEHRSRECHT’.
+- Ghosal, A. et al. (2021) ‘Truck platoon security: State-of-the-art and road ahead’, Computer Networks. Elsevier B.V., 185(April 2020), p. 107658. doi: 10.1016/j.comnet.2020.107658.
+- Song, M., Chen, F. and Ma, X. (2021) ‘Organization of autonomous truck platoon considering energy saving and pavement fatigue’, Transportation Research Part D: Transport and Environment, 90, p. 102667. doi: https://doi.org/10.1016/j.trd.2020.102667.
+- Yang, D. et al. (2019) ‘Impacts of large-scale truck platooning on Dutch highways’, Transportation Research Procedia. Elsevier B.V., 37(September 2018), pp. 425–432. doi: 10.1016/j.trpro.2018.12.212.
+
+
 
 ## Real-time traffic information and monitoring
 

@@ -4,6 +4,72 @@
 
 ## Parking assistance system
 
+### Definition {-}
+Nowadays, parking a car becomes an increasingly mundane task due to the growing size of the vehicles which consequently reduces visibility to the rear and front. Moreover, the number of vehicles on the road continues to increase which makes finding parking spaces more difficult. To overcome this challenge, efficient and advanced parking techniques are needed, such as finding the right parking space and parking cars efficiently (Khalid et al., 2021). <br/><br/>
+While in the 1990s parking assistance systems were not considered necessary, systems that support the parking process are now standard in new vehicles and have a high acceptance rate. While parking assistance systems of the first generations were mainly informative systems, today these systems help to find a suitable parking space and support the steering during the parking manoeuvre. Future systems will become even more autonomous, up to a point where they will find their parking space without human intervention (Valet Parking) (Gotzig, 2016). <br/><br/>
+With respect to safety issues, parking assistance systems can reduce insurance claims that occur during parking manoeuvres by 30% (ADAC, 2020). They also provide a useful application in the form of emergency brake assistant that prevents accidents with other road users when reversing (ADAC, 2019). <br/><br/>
+Modern Parking assistants work with two sensor concepts: ultrasonic sensors for the close range at the rear (often already installed as "parking beepers") and radar sensors with a longer range at the side in the bumper (ADAC, 2019). Additionally, there are also new releases with 360° view around the car (Land Rover, no date; Mercedes-Benz, no date). However, there are no tests for this at the moment.
+
+### Key stakeholders {-}
+- **Affected**: Car Drivers, Traffic participants, Insurers
+- **Responsible**: Car manufacturers
+
+### Current state of art in research {-}
+The research on on-board parking features is almost entirely owned by the car manufacturers. Research tends to focus on larger-scale issues such as car parking location tracking, space booking systems using IoT and congestion caused by *parking cruises*.<br/> <br/>
+Additionally, tests are carried out on the merger between emergency brake assistant and parking assistant to overcome the difficulties with obstacles detection and reduce the collision rates in this specific situation. The ADAC tested the AEB (Autonomous Emergency Braking) systems from Mercedes, Volvo, BMW, Seat and Skoda in three test scenarios: *(1)* a pedestrian dummy stands behind a car or walks past, *(2)* a car parks in the direction of travel and *(3)* cyclists as well as cars drive past crosswise. <br/> <br/>
+BMW was the best at reacting to all situations with radar and ultrasound - with some drop-outs, especially with moving pedestrians or cross-traffic. The Mercedes, on the other hand, only used its side radar sensors for reverse braking and thus did not recognise stationary vehicles at all. The VW system from Skoda and Seat had radar and ultrasound, but moving pedestrians were only detected randomly or not at all.<br/><br/> 
+Overall, these tests showed that the automatic braking parking assistants have a lot of potential, but are far from optimal. Even the system of the front-runner does not yet work 100% reliably. Even the low-cost ultrasonic sensors, however, can be very effective and even prevent pedestrian collisions, as the BMW showed in the test. Therefore, it is crucial that manufacturers equip their vehicles with an effective AEB system as a standard. The necessary technology is already available in most passenger cars where the rear ultrasonic sensors would need to be linked to the braking function (ADAC, 2019).
+The greatest difficulties are encountered in pedestrian detection, in the scenarios in which the risk of personal injury is potentially the highest. Some of the tested vehicles recognised the dangerous situation too late or not at all.
+
+### Current state of art in practice {-}
+Nearly 50% of the cars in Germany are now equipped with parking assistance. Nonetheless, the results of a study by HUK-Coburg, Germany's largest motor insurer with eleven million insured cars, show that the number of fender-benders has not decreased and the damage costs have even risen slightly. The reason for this is the damage to the expensive Park Distance Control (PDC) sensor embedded in the bumper when vehicle collides with an obstacle while parking (Focus Online, 2017).<br/> <br/>
+In 2017, 570 accidents with personal injury occurred in Austria when reversing with passenger cars. There were no fatalities, but around 290 people were injured, 60 of them seriously. In addition, there is a large amount of property damage due to obstacles being overlooked (ÖAMTC, 2019).<br/> <br/>
+According to different sources, between 23% and 46% of the cars in Germany are equipped with an on-board parking assistant (Focus Online, 2017). In contrast, only 13% of the vehicles are equipped with an emergency brake assistant that automatically brakes in the event of an imminent collision with the vehicle in front or even detects pedestrians and cyclists. Further, a survey conducted on 1000 respondents by German Road Safety Council showed that 85% of the sample found the emergency brake assistant as highly useful and 65% considered parking assistant highly beneficial (Handelsblatt, 2016).<br/> <br/>
+Currently, the most advanced technology with respect to parking assistance is offered by Tesla S, where the system is fully autonomous and allows the car to drive itself out of a tight space without the driver’s intervention. But it is expected that the technology will be available from other manufacturers too and will improve rapidly in the coming years. One reason for this is that parking assistants with brake intervention will become part of the European vehicle test programme *Euro NCAP* from 2020. In the past, it has been shown that the inclusion of active and passive passenger car safety systems in this programme quickly increases the rate at which vehicles are equipped (ÖAMTC, 2019).
+
+ 
+### Relevant initiatives in Austria {-}
+
+- [oeamtc.at](https://www.oeamtc.at/tests/assistenzsystemtest/fuenf-parkassistenten-mit-notbremssystem-im-test-31717317) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table56, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Road accidents when parking reduced|**+**|Health & Wellbeing (*3*)|ADAC, 2019|
+|Individual|Higher costs in case of collision|**-**|Sustainable economic development (*8,11*)|Focus Online, 2017|
+|Systemic|New designs tested |          **+**|Innovation & Infrastructure  (*9*)|Euro NCAP, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table57, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|8-9|')
+```
+
+### Open questions {-}
+1. How can acceptance and usability rates be increased in drivers especially in elderly group?
+2. What are the legal implications for the use of assisted parking for both drivers and car manufacturers?
+
+### References {-}
+- ADAC (2019) Parkassistenten im Test: Noch nicht gut genug. Available at: https://presse.adac.de/meldungen/adac-ev/tests/parkassistent.html (Accessed: 24 February 2021).
+- ADAC (2020) Fahrerassistenzsysteme im Überblick | ADAC. Available at: https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/assistenzsysteme/fahrerassistenzsysteme/ (Accessed: 24 February 2021).
+- Euro NCAP. (2021). http://www.euroncap.com (Accessed: 26 February 2021) 
+- Focus Online (2017) Einparkhilfen bringen nichts - sondern verursachen mehr Schaden - FOCUS Online. Available at: https://www.focus.de/auto/news/untersuchung-der-huk-coburg-studie-einparkhilfe-hilft-nicht-sie-versucht-eher-mehr-schaden_id_7035248.html (Accessed: 24 February 2021).
+- Gotzig, H. (2016) ‘Parking Assistance’, in Winner, H. et al. (eds) Handbook of Driver Assistance Systems: Basic Information, Components and Systems for Active Safety and Comfort. Cham: Springer International Publishing, pp. 1077–1092. doi: 10.1007/978-3-319-12352-3_45.
+- Handelsblatt (2016) Umfrage zu Assistenzsystemen : Einparkassistent nützlich, Notbremsassistent nützlicher. Available at: https://www.handelsblatt.com/auto/nachrichten/umfrage-zu-assistenzsystemen-einparkassistent-nuetzlich-notbremsassistent-nuetzlicher/13404708.html?ticket=ST-4955434-naHBLAxI66h66nbvrBXF-ap1 (Accessed: 24 February 2021).
+- Khalid, M. et al. (2021) ‘From smart parking towards autonomous valet parking: A survey, challenges and future Works’, - Journal of Network and Computer Applications, 175, p. 102935. doi: https://doi.org/10.1016/j.jnca.2020.102935.
+- Land Rover (no date) Parking Assistance | InControl | Land Rover UK. Available at: https://www.landrover.co.uk/incontrol/driver-safety-and-assistance/parking-assistance.html (Accessed: 25 February 2021).
+- Margreiter, M., Mayer, P., Alpas, M., & Vlahogianni, E. (2017). Driver’s Willingness to Use Parking Assistance Tools and their Expectations: A Case Study for the Cities of Munich and Athens. In 8th International Congress on Transportation Research.
+- Mercedes-Benz (no date) Mercedes-Benz X-Klasse: Park-Paket mit 360°-Kamera. Available at: https://www.mercedes-benz.at/passengercars/mercedes-benz-cars/models/x-class/x-class-pickup/facts-and-lines/equipment-packages/360-camera.html (Accessed: 25 February 2021).
+- Tsugawa, S. (2006). Trends and issues in safe driver assistance systems: Driver acceptance and assistance for elderly drivers. IATSS research, 30(2), 6-18.
+- ÖAMTC (2019) ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. Available at: https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik (Accessed: 25 February 2021).
+
+
 ## Lane keeping
 
 ## Distane keeping

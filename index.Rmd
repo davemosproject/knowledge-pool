@@ -39,7 +39,7 @@ format(Sys.time(),'%d %B %Y')
     - Electric charging stations
 4. Traffic management \@ref(traffic)
     - Congestion charging **NEW**
-    - Platooning
+    - Platooning **NEW**
     - Real-time traffic information and monitoring
     - Cooperative - intelligent transport system
     - Dynamic route guidance
@@ -62,14 +62,15 @@ format(Sys.time(),'%d %B %Y')
     - Park and ride
     - Contactless public transport cards **NEW**
     - Information and assistance for people with special needs
-    - Mobility/Freight hubs
+    - Mobility hubs
+    - Freight hubs
 8. Connected and autonomous driving \@ref(connected)
     - Parking infrastructure for autonomous vehicles
     - Connected vehicles
     - Automated vehicles
 9. On-board technology for connected and automated vehicles \@ref(onboard)
     - Advanced driver assistance system
-    - Parking assistance system
+    - Parking assistance system **NEW**
     - Lane keeping
     - Distane keeping
     - Crash avoidance
@@ -89,8 +90,7 @@ format(Sys.time(),'%d %B %Y')
     - Intelligent truck parking and delivery space booking
     - Delivery drones **NEW**
     - Commercial vehicle on-board safety systems
-    - Truck Platooning
-    - Rail telematics for freight services
+    - Rail telematics for freight services **NEW**
     - Electric vehicle delivery fleets
     - Multimodal transport management systems
     - Cooperative adaptive cruise control in trucks

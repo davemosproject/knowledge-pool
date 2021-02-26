@@ -2,7 +2,7 @@
 
 ## Digital journey planner
 
-## Rail telematics for passenger services
+## Rail telematics for passenger services {#telematics_passenger}
 
 ## Multimodal information and route planning
 
