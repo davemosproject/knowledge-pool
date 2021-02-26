@@ -32,7 +32,7 @@ infrastructure-support-levels-for-automated-driving
 wireless-communication
 passenger
 digital-journey-planner
-rail-telematics-for-passenger-services
+telematics_passenger
 multimodal-information-and-route-planning
 real-time-location-based-information
 multimodal
@@ -42,7 +42,8 @@ maas
 park-and-ride
 contactless-public-transport-cards
 information-and-assistance-for-people-with-special-needs
-mobilityfreight-hubs
+mobility-hubs
+freight-hubs
 connected
 parking-infrastructure-for-autonomous-vehicles
 connected-vehicles
@@ -69,7 +70,6 @@ parcel-load-pooling
 intelligent-truck-parking-and-delivery-space-booking
 delivery-drones
 commercial-vehicle-on-board-safety-systems
-truck-platooning
 rail-telematics-for-freight-services
 electric-vehicle-delivery-fleets
 multimodal-transport-management-systems
