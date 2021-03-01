@@ -76,7 +76,7 @@ format(Sys.time(),'%d %B %Y')
     - Crash avoidance
     - Mainteinance assistance
     - Digital maps
-    - E-Horizon
+    - Electronic Horizon **NEW**
     - Emergency call **NEW**
 10. Freight and commercial transport \@ref(freight)
     - Automated road freight
