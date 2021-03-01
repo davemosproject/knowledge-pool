@@ -56,7 +56,7 @@ distane-keeping
 crash-avoidance
 mainteinance-assistance
 digital-maps
-e-horizon
+electronic-horizon
 emergency-call
 freight
 automated-road-freight
