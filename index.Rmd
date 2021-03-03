@@ -59,7 +59,7 @@ format(Sys.time(),'%d %B %Y')
     - First-last mile solutions
     - Distance or time-based fares
     - Mobility as a service (MaaS) **NEW**
-    - Park and ride
+    - Park and ride **NEW**
     - Contactless public transport cards **NEW**
     - Information and assistance for people with special needs
     - Mobility hubs
@@ -69,14 +69,14 @@ format(Sys.time(),'%d %B %Y')
     - Connected vehicles
     - Automated vehicles
 9. On-board technology for connected and automated vehicles \@ref(onboard)
-    - Advanced driver assistance system
+    - Advanced driver assistance system (ADAS)
     - Parking assistance system **NEW**
     - Lane keeping
-    - Distane keeping
+    - Distance keeping
     - Crash avoidance
     - Mainteinance assistance
     - Digital maps
-    - Electronic Horizon **NEW**
+    - Electronic horizon **NEW**
     - Emergency call **NEW**
 10. Freight and commercial transport \@ref(freight)
     - Automated road freight
@@ -93,7 +93,6 @@ format(Sys.time(),'%d %B %Y')
     - Rail telematics for freight services **NEW**
     - Electric vehicle delivery fleets
     - Multimodal transport management systems
-    - Cooperative adaptive cruise control in trucks
 11. Collective mobility vehicles \@ref(collective)
     - Demand responsive transit
     - Personal rapid transit

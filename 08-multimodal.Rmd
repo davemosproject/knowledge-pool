@@ -100,6 +100,123 @@ cat('|TRL| SRL|
 
 ## Park and ride
 
+### Synonyms {-}
+*P&R, P and R, P+R*
+
+### Definition {-}
+Some of the main challenges the world is currently facing are related to population growth and urbanisation. The massive growth of cities has created major transport challenges that manifest themselves in traffic congestion in urban areas, especially in city centres. Many of the efforts to reduce congestion attempt to increase vehicle occupancy by inducing a shift from single occupancy vehicles (SOVs) to multiple occupancy vehicles or encouraging use of various transit modes. One example of such effort are park-and-ride facilities which attempt to reduce car use and increase road efficiency.<br/><br/>
+Park-and-ride facilities are usually located in peri-urban areas in a proximity to bus or train station to allow drivers coming from suburban and rural areas to park their cars and transfer to public transport to reach urban destinations. Park-and-ride facilities, introduced in England in the 1970s, appear to offer a simple and cost-effective alternative to building new roads. These facilities are usually accompanied by good public transport services to urban areas (Katoshevski-Cavari, Bak and Shiftan, 2018).
+
+### Key stakeholders {-}
+
+- **Affected**: Car drivers coming from suburban and rural areas 
+- **Responsible**: National Governments, Communal Governments, City governments, Parking Companies
+
+### Current state of art in research {-}
+In terms of P&R research, existing publications address topics such as the optimal location problem of P&R facilities, the relationship between private vehicle use patterns and the number and density of P&R facilities in a city, the empirical study of P&R facility use patterns, the study of P&R motives and air quality standards in Europe, the influence of P&R facilities on vehicle kilometres travelled, the analysis of travellers' stated intention to use parking and cycling facilities (P+R, B+R), empirical analysis of P&R facility choice behaviour, attitude surveys of P&R and non-P&R users and the influence of multimodal information on the use of P&R (Gan and Ye, 2018).<br/><br/>
+Studies show that some public transport users were attracted to switch to multiple modes of transport (i.e. park-and-ride), which increased the number of car trips. Nonetheless, additional car trips are made in non-congested areas, thus contributing to traffic relief (Katoshevski-Cavari, Bak and Shiftan, 2018).<br/><br/>
+The exact effects of P&R are controversial. Some studies have confirmed that P&R facilities can encourage the use of public transport, relieve urban traffic and reduce car emissions in city centres. Other studies pointed to possible counter-effects of P&R. The reduction of congestion in city centres might encourage motorists to use their cars in the city again, as accessibility has increased, and motorists travelling to the city centre via P&R facilities might travel some extra kilometres to reach the P&R facility. The exact weight of these negative externalities is still debatable (and will vary from place to place), as is the direct net benefit of P&R on car traffic in the city area as a whole. However, it is undisputed that well-used P&R facilities directly reduce car traffic in the city centre (Dijk and Montalvo, 2011).
+
+
+### Current state of art in practice {-}
+Parking management has evolved greatly in Europe over the last decades, and P&R has emerged as one of the newest elements of urban parking management. Virtually all urban areas are facing growing parking demand. More parking spaces lead to growing problems of urban congestion and pollution from traffic. Many cities have responded with policies aimed at improving the utilisation of existing infrastructure (e.g. through pricing or automatic display of parking capacity) and building new infrastructure at structural bottlenecks. The typical development of urban parking policies can be presented in seven phases (Dijk and Montalvo, 2011):
+
+1.	**No parking measures**: This phase is sustainable until the level of parked cars has a negative impact on the attractiveness and quality of the area.
+2.	**Regulation and control of parking**: This means banning parking in some streets.
+3.	**Time restrictions (free of charge)**: This leads to more efficient use of available space through increased turnover of cars.
+4.	**Paid parking**. Parking tariffs are used as a key to control the use of parking spaces.
+5.	**Resident parking schemes**: Overflow of parkers into neighbouring areas (often residential) requires resident parking regulations.
+6.	**P&R facilities**: These are being developed as an alternative or supplement to parking provision in the town centre.
+7.	**Mobility management**: It includes various activities to coordinate the combination of private and public transport to create an acceptable mobility chain for travellers.
+
+Moreover, the results of a survey show that a quarter of the cities in Europe are intensively engaged in P + R development, while the other half are moderately engaged. Geographically, it shows that cities in north-western Europe have a higher level of engagement than cities in southern and eastern Europe. Furthermore, the understanding of P&R in European cities is strongly different, revealing current beliefs about P&R. 
+Park-and-Ride is certainly not the only transport policy initiative in the city to improve accessibility and quality of life in the city. Most cities apply combination of measures. P&R is valued as part of such a package, but not seen as the perfect package. Most cities consider P&R as a "Plan B" (Dijk and Montalvo, 2011).<br/><br/>
+In Germany, some P&R facilities were tested by the ADAC. Many P&R facilities had deficiencies - most of them were missing equipment features:
+
+-	The testers hardly found any video surveillance, and forecasts of occupancy on the Internet were also scarce;
+-	No car park had continuous footpaths and safe separation between pedestrians and cars;
+-	In 25% of facilities, there were not enough parking spaces available, showing a gap between supply and demand. 
+-	Some of the public transport services were also unsatisfactory, with too long waiting/transfer time. The likelihood of choosing P + R facility decreases with longer public transport travel and waiting times (Islam et al., 2015).
+
+The facilities scored best in the category of information and prices. Two thirds had clear signage and provided comprehensible information on their websites about location, size and prices. Two of them were particularly positive: they published online forecasts of available parking spaces so that drivers could estimate in advance when parking spaces would be available. The Bremen-Burg P&R facility offered additional useful service: a display board showed free parking spaces and the departure times of the next two trains. 
+In passenger traffic, commuters do not want to wait long for their train. The frequency of public transport therefore has a significant impact on whether a P&R facility is accepted at all. In one third of the facilities, the connection to the public transport network (travel time ratio, frequency, routes to the station) was poor or very poor. 
+The testers checked lighting, digital or personal surveillance, recognisable separation between parking spaces and the roadway, and whether the transition from the car park to the station was safe. Overall, the study showed that current level of safety is unsatisfactory.<br/>
+
+Recommendations for operators:
+
+-	Provide information about P&R facilities on the Internet
+-	Pave, regularly maintain and clean the entire P&R facility - including temporary parking spaces.
+-	Make parking spaces at least 2.50 metres wide so that users can get on and off without difficulty.
+-	Keep footpaths short and safely separated from the roadway, clearly mark parking spaces and regularly tighten faded markings.
+-	Provide charging infrastructure for electric vehicles
+-	In multi-storey car parks, provide more security through video surveillance, good visibility, functioning emergency calls and comprehensive lighting
+-	Manage P&R facilities at high occupancy rates (user fees, parking time restrictions) in order to avoid misuse.
+
+Recommendations for municipalities & public transport:
+
+-	Planning on a large scale and regionally already when developing areas for P&R facilities.
+-	Where demand is particularly high and space is available, create more P&R spaces - possibly also by building parking decks.
+-	Ensure good public transport connections to the city centre with short intervals.
+-	Avoid large jumps in fares, if necessary integrate selected P&R facilities into cheaper fare groups.
+-	Combine Bike+Ride and P&R facilities to make it possible for residents from the immediate vicinity to reach the facility by bicycle instead of by car (Luca and Dommnich, 2018).
+
+### Relevant initiatives in Austria {-}
+ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region this year. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P&R facilities is free of charge for public transport passengers (VOR.at, no date).
+
+- [wien.info](https://www.wien.info/de/reiseinfos/anreise/parkgaragen) 
+- [wien.gv.at](https://www.wien.gv.at/verkehr/parken/garagen/) 
+- [derstandard.at](https://www.derstandard.at/story/2000106482985/volle-park-and-ride-plaetze-frustrieren-wien-pendler)
+- [orf.at](https://orf.at/stories/3151437/) 
+- [noe.orf.at](https://noe.orf.at/stories/3030525/) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table65, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Reduced initial congestion in city centres|**~**|Health & Wellbeing (*3*)|Dijk & Montalvo, 2011|
+|Individual|Increased access to public transport & multimodal travel|**+**|Equality (*5,10*)|Macioszek & Kurek, 2020|
+|Individual|Low cost or free of charge|**+**|Sustainable economic development (*8,11*)|VOR.at, no date|
+|Systemic|New infrastructure built|**+**|Innovation & Infrastructure (*9*)|Frey, 2021|
+|Systemic|Ambiguous impact on emissions|**~**|Environmental sustainability (*7,12-13,15*)|Moore et al., 2019; ITF, no date|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table66, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|7-9|')
+```
+
+### Open questions {-}
+
+1. How to encourage non-commuters to use P&R?
+2. How will demand for P&R parking change over time, especially with the rapid changes associated with the introduction of autonomous vehicles?
+3. What is the potential of P&R in facilitating multimodal transport at the advent of integrated travel apps?
+
+
+
+### Further links {-}
+
+- [itf-oecd.org](https://www.itf-oecd.org/policy/park-and-ride-facilities)
+- [parkeninwien.at](http://www.parkeninwien.at/en/Park-and-Ride.html)
+- [stadt-wien.at](https://www.stadt-wien.at/wien/parken-in-wien/park-ride-parkhaeuser-im-ueberblick.html)
+
+### References {-}
+- Dijk, M. and Montalvo, C. (2011) ‘Policy frames of Park-and-Ride in Europe’, Journal of Transport Geography, 19(6), pp. 1106–1119. doi: 10.1016/j.jtrangeo.2011.05.007.
+- Frey, F. (2021) ÖBB: 700 Mio. Euro für Infrastrukturausbau - noe.ORF.at. Available at: https://noe.orf.at/stories/3083619/ (Accessed: 26 February 2021).
+- Gan, H. and Ye, X. (2018) ‘Will commute drivers switch to park-and-ride under the influence of multimodal traveler information? A stated preference investigation’, Transportation Research Part F: Traffic Psychology and Behaviour. Elsevier Ltd, 56, pp. 354–361. doi: 10.1016/j.trf.2018.05.015.
+- Islam, S. T., Liu, Z., Sarvi, M., & Zhu, T. (2015). Exploring the mode change behavior of park-and-ride users. Mathematical Problems in Engineering, 2015.
+- ITF. (no date) Park and ride facilities. [online] Available at: <https://www.itf-oecd.org/policy/park-and-ride-facilities> [Accessed 3 March 2021].
+- Katoshevski-Cavari, R., Bak, N. and Shiftan, Y. (2018) ‘Would free park-and-ride with a free shuttle service attract car drivers?’, Case Studies on Transport Policy. Elsevier, 6(2), pp. 206–213. doi: 10.1016/j.cstp.2018.05.001.
+- Luca, K. and Dommnich, B. (2018) 60 P+R-Anlagen im Test | ADAC. Available at: https://www.adac.de/reise-freizeit/ratgeber/tests/park-ride/ (Accessed: 26 February 2021).
+- Macioszek, E., & Kurek, A. (2020). The use of a park and ride system—A case study based on the city of Cracow (Poland). Energies, 13(13), 3473.
+- Moore, A. M. et al. (2019) ‘Geoanalysis of park-and-ride facilities for future laboratory-wide commuting program’, Transportation Research Interdisciplinary Perspectives. The Authors, 3, p. 100025. doi: 10.1016/j.trip.2019.100025.
+- VOR.at (no date) Park/Bike+Ride - VOR. Available at: https://www.vor.at/mobil/parkbike-ride/ (Accessed: 26 February 2021).
+
+
 ## Contactless public transport cards
 
 ### Synonyms {-}

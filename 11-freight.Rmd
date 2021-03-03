@@ -215,5 +215,3 @@ cat('|TRL| SRL|
 ## Electric vehicle delivery fleets
 
 ## Multimodal transport management systems 
-
-## Cooperative adaptive cruise control in trucks

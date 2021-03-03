@@ -73,7 +73,6 @@ commercial-vehicle-on-board-safety-systems
 rail-telematics-for-freight-services
 electric-vehicle-delivery-fleets
 multimodal-transport-management-systems
-cooperative-adaptive-cruise-control-in-trucks
 collective
 demand-responsive-transit
 personal-rapid-transit

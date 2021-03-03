@@ -80,7 +80,7 @@ cat('|TRL| SRL|
 
 ## Digital maps 
 
-## Electronic Horizon
+## Electronic horizon
 
 ### Synonyms {-}
 *Connected horizon, e-horizon, EH*
