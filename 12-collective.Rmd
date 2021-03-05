@@ -58,7 +58,7 @@ The reasons for such a limited appearance are scare technical capabilities and s
 ```{r table67, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|Adverse impact on visual aspect of urban spaces|**-**|Health & Wellbeing (*3*)|Halprin, 1966; Pushkarev, 1963|
+|Individual|Adverse impact on visual aspect of urban spaces|**-**|Health & Wellbeing (*3*)|Staniscia, 2018|
 |Systemic|Grade separation increases safety|**+**|Health & Wellbeing (*3*)|Juster & Schonfeld, 2013; Furman et al., 2014|
 |Systemic|Electric power used|**+**|Environmental sustainability (*7,12,13,15*)|Juster & Schonfeld, 2013|
 |Systemic|Limited adoption worldwide|**-**|Innovation & Infrastructure (*9*)|Furman et al., 2014|')
@@ -83,7 +83,6 @@ cat('|TRL| SRL|
 
 ### References {-}
 - Furman, B., Fabian, L., Ellis, S., Muller, P., & Swenson, R. (2014). Automated transit networks (ATN): A review of the state of the industry and prospects for the future.
-- Halprin, L. (1966). Freeways. NY.
 - Juster, R., & Schonfeld, P. (2013). Comparative analysis of personal rapid transit as an urban transportation mode. Transportation research record, 2350(1), 128-135.
 - Mobolaji, K., Földes, D., & Csiszár, C. (2021). Concept of Advanced Personal Rapid Transit at Airports. Periodica Polytechnica Civil Engineering, 65(1), 320-334.
 - Staniscia, S. (2018). Aesthetic appreciation of Personal Rapid Transit: A new viewpoint. Cities, 79, 169-177.
