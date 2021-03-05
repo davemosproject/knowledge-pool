@@ -4,9 +4,94 @@
 
 ## Personal rapid transit
 
-## Bus rapid transit
+### Synonyms {-}
+*Automated Transit Networks, ATN, PRT, Podcars*
 
-## Light rail transit
+### Definition {-}
+Personal rapid transit is a public transportation option in urban areas where fully automated vehicles provide on-demand, origin-to-destination service over an area network. PRT belongs to a larger family of automated guideway transit (AGT). It is a unique mode of transport that has the following features (Furman et al., 2014; Juster & Schonfeld, 2013): 
+
+-	Direct service from origin to destination
+-	Small vehicles that can be used exclusively by an individual or a small group
+-	Service based on the needs of the user (on demand rather than fixed schedules)
+-	Travelling speed up to 30 mph (48 km/h)
+-	Fully automated vehicles
+-	Vehicles restricted to a route reserved for their exclusive use, along the guideways
+-	Small driveways that are usually elevated at or near ground level 
+
+The components of the personal rapid transit system are:
+
+-	**Software**: integrates all elements of the systems and ensures its flawless functioning 
+-	**Hardware**: includes electric and electronic components along the rails and at the stations
+-	**Vehicles**: are crucial for passenger experience. In some countries, eg. the USA, PRT vehicles must be suitable for use by disabled people
+-	**Stations and guideways**: are the most important elements from the perspective of planners because they influence the urban architecture and invade significantly in the aesthetic of the urban environment. Guideways are physical structures that support and guide an AGT vehicle, consisting of rails and columns. This is the most expensive element of the PRT system
+-	**Power sources**: all PRT are powered electrically
+-	**Operations and maintenance facilities**: are necessary for control centre, vehicle and equipment storage and maintenance areas
+
+PRT can be considered a more environmentally friendly, lighter and quieter alternative to [light rail transport](#lrt) (LRT) or [bus rapid transport](#brt) (BRT). It also travels slower than typical LRT or BRT, however, it compensates the time by only stopping at the requested stations. This, in turn, saves significant amount of deceleration and acceleration time. The capacity of PRL reaches 10 000 passenger per hour per direction, which is slightly lower compared to LRT and BRT. 
+
+### Key stakeholders {-}
+
+- **Affected**: Citizen, Airport Passengers
+- **Responsible**: City government, Private Companies, Transport Planners
+
+### Current state of art in research {-}
+Recent research on PRT is scarce, where the majority of studies have been conducted around 2010. They mainly focused on the cost-benefit analysis and comparisons to LRT and BRT (Juster & Schonfeld, 2013). Furthermore, they considered the potential of different integration designs such as construction of guideways above the pavement with and without trees, above the parking lane, in the middle of the road, adjacent to building or integrated into the buildings or tunnels. Special considerations are required due to grade separation which can interfere with trees or cause obstruction at the pavements (Furman et al., 2014). An important aspect is also the aesthetic side of PRT which intrudes significantly into the urban landscape due to elevated rails. Therefore, concerns arise about social acceptability of PRT, where it is expected to affect adversely land use, property values, obstruct light and air as well as create unused spaces underneath the guideways (Staniscia, 2018). The most recent studies focus on the PRT in the context of airport shuttles where this concept has already been proven functional. For example, study by Mobolaji et al., (2021) explored the potential of extension of PRT to connect parking facilities and terminal at Budapest Airport, taking into account user expectations and system architecture.  
+
+### Current state of art in practice {-}
+The concept of PRT is more than 50 years old, nevertheless, they are only available in few places around the world. About 30% of the PRT are located at the airports, 30% in the institutional context such as university campus and the final 30% is a mass transit. The examples of existing PRTs are (Furman et al., 2014, p.12):
+
+-	The Morgantown PRT at West Virginia University
+-	The Parkshuttle Rivium metro-feeder outside Rotterdam 
+-	The Terminal 5 shuttle at London Heathrow Airport 
+-	The nature park shuttle in Suncheon Bay, South Korea 
+-	The Masdar City PRT in Abu Dhabi 
+
+The reasons for such a limited appearance are scare technical capabilities and scalability of PRT systems along with high capital and operating costs (Furman et al., 2014, p. 36). 
+
+
+### Relevant initiatives in Austria {-}
+
+- [17th International Conference on Personal Rapid Transit and System Design in 2023](https://waset.org/personal-rapid-transit-and-system-design-conference-in-june-2023-in-vienna) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table67, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Adverse impact on visual aspect of urban spaces|**-**|Health & Wellbeing (*3*)|Halprin, 1966; Pushkarev, 1963|
+|Systemic|Grade separation increases safety|**+**|Health & Wellbeing (*3*)|Juster & Schonfeld, 2013; Furman et al., 2014|
+|Systemic|Electric power used|**+**|Environmental sustainability (*7,12,13,15*)|Juster & Schonfeld, 2013|
+|Systemic|Limited adoption worldwide|**-**|Innovation & Infrastructure (*9*)|Furman et al., 2014|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table68, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-8|5-7|')
+```
+
+### Open questions {-}
+1. More research is needed on actual analysis of costs and benefits associated with the construction of PRT.
+2. Can PRT infrastructure be considered and used as a attractive urban furniture? How can art community be engaged in its development?
+3. What are the major barriers for more widespread adoption of PRT?
+
+### Further links {-}
+
+- [MIT Report](https://transweb.sjsu.edu/sites/default/files/1227-automated-transit-networks.pdf)
+
+### References {-}
+- Furman, B., Fabian, L., Ellis, S., Muller, P., & Swenson, R. (2014). Automated transit networks (ATN): A review of the state of the industry and prospects for the future.
+- Halprin, L. (1966). Freeways. NY.
+- Juster, R., & Schonfeld, P. (2013). Comparative analysis of personal rapid transit as an urban transportation mode. Transportation research record, 2350(1), 128-135.
+- Mobolaji, K., Földes, D., & Csiszár, C. (2021). Concept of Advanced Personal Rapid Transit at Airports. Periodica Polytechnica Civil Engineering, 65(1), 320-334.
+- Staniscia, S. (2018). Aesthetic appreciation of Personal Rapid Transit: A new viewpoint. Cities, 79, 169-177.
+
+
+## Bus rapid transit {#brt}
+
+## Light rail transit {#lrt}
 
 ## Passenger drones
 

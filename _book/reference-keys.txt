@@ -76,8 +76,8 @@ multimodal-transport-management-systems
 collective
 demand-responsive-transit
 personal-rapid-transit
-bus-rapid-transit
-light-rail-transit
+brt
+lrt
 passenger-drones
 automatic-train-operations
 big

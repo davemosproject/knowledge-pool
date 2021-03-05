@@ -95,7 +95,7 @@ format(Sys.time(),'%d %B %Y')
     - Multimodal transport management systems
 11. Collective mobility vehicles \@ref(collective)
     - Demand responsive transit
-    - Personal rapid transit
+    - Personal rapid transit **NEW**
     - Bus rapid transit
     - Light rail trans
     - Passenger drones **NEW**
