@@ -1,24 +1,24 @@
 # Freight and commercial transport {#freight}
 
-## Automated road freight
+## Automated road freight {#automated_road_freight}
 
-## Freight dreyage optimisation
+## Freight dreyage optimisation {#dreyage_optim}
 
-## Tracking and tracing of dangerous goods
+## Tracking and tracing of dangerous goods {#dangerous_goods}
 
-## Intermodal Freight 
+## Intermodal Freight {#intermodal_freight}
 
-## Real-time disruption management and route planning
+## Real-time disruption management and route planning {#disruption_management}
 
-## Traffic signal control
+## Urban Deliveries {#urban_delivery}
 
-## Urban Deliveries
+## Parcel load pooling {#parcel_pooling}
 
-## Parcel load pooling
+## Intelligent truck parking {#intelligent_truck_park}
 
-## Intelligent truck parking and delivery space booking
+## Delivery space booking {#space_book}
 
-## Delivery drones
+## Delivery drones {#delivery_drone}
 
 ### Synonyms {-}
 *urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs), Unmanned Traffic Management (UTM)/U-Space*
@@ -124,9 +124,9 @@ cat('|TRL| SRL|
 
 
 
-## Commercial vehicle on-board safety systems
+## Commercial vehicle on-board safety systems {#comm_veh_safety}
 
-## Rail telematics for freight services
+## Rail telematics for freight services {#rail_telematics_freight}
 
 ### Definition {-}
 With increasing digitalisation and automation in rail operations, many applications are being developed that will make it possible to significantly increase the attractiveness and efficiency of rail freight transport. Telematics applications are a functional subsystem of the railway system. This subsystem comprises two elements:
@@ -211,7 +211,8 @@ cat('|TRL| SRL|
 - Ußler, H., Michler, O. and Löffler, G. (2019) ‘Validation of multiple sensor systems based on a telematics platform for intelligent freight wagons’, Transportation Research Procedia. Elsevier B.V., 37(September 2018), pp. 187–194. doi: 10.1016/j.trpro.2018.12.182.
 
 
+## Electric vehicle delivery fleets {#electric_delivery_fleets}
 
-## Electric vehicle delivery fleets
+## Multimodal transport management systems {#mtms}
 
-## Multimodal transport management systems 
+## Freight hubs {#freight_hubs}

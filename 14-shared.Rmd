@@ -1,6 +1,6 @@
 # Shared mobility {#shared}
 
-## Car sharing
+## Car sharing {#car_sharing}
 
 ### Synonyms {-}
 *Car-Sharing scheme, CSS*
@@ -92,7 +92,7 @@ cat('|TRL| SRL|
 - VCÖ - Mobilität mit Zukunft (2018) Mehr als 100.000 Carsharing-Haushalte in Österreich – Potenzial um ein Vielfaches höher - Mobilität mit Zukunft. Available at: https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018 (Accessed: 18 January 2021).
 
 
-## Bicycle and e-bicycle hire
+## Bicycle and e-bicycle hire {#bike_sharing}
 ### Synonyms {-}
 *bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)*
 
@@ -196,7 +196,7 @@ cat('|TRL| SRL|
 - Zademach, H. M. and Musch, A. K. (2018) ‘Bicycle-sharing systems in an alternative/diverse economy perspective: a sympathetic critique’, Local Environment. Taylor & Francis, 23(7), pp. 734–746. doi: 10.1080/13549839.2018.1434494.
 - Zhang, Y., Lin, D. and Mi, Z. (2019) ‘Electric fence planning for dockless bike-sharing services’, Journal of Cleaner Production, 206, pp. 383–393. doi: 10.1016/j.jclepro.2018.09.215.
 
-## E-scooters
+## E-scooters {#scooters}
 
 ### Synonyms {-}
 *electric scooter*
@@ -272,6 +272,4 @@ Laa, B. and Leth, U. (2020) ‘Survey of E-scooter users in Vienna: Who they are
 - Zagorskas, J. and Burinskiene, M. (2020) ‘Challenges caused by increased use of E-powered personal mobility vehicles in European cities’, Sustainability (Switzerland). MDPI AG, 12(1), p. 273. doi: 10.3390/su12010273.
 
 
-
-
-## Ride-hailing
+## Ride-hailing {#ride_hailing}

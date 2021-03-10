@@ -1,9 +1,9 @@
 # Traffic management {#traffic}
 
-## Congestion charging
+## Congestion charging {#congestion_charging}
 
 ### Synonyms {-}
-*Congestion charging scheme, CSS*
+*Congestion charging scheme, CCS*
 
 ### Definition {-}
 The congestion charging is an example of (urban) road pricing system aimed at reducing congestion and pollution in zones where it applies. The regulations and prices of congestion charges can vary based on spatial, temporal or modal basis (Santos, 2005). Congestion charges are used to influence the traffic demand and discourage the use of roads at congested times (Valletta, 2015). The major congestion charge zone in Europe was introduced in London in 2003 and it imposed a fee for all the vehicles that drove into or through the designated area in the city centre between 7:00 and 18:00 (Mon-Fri) (Munford, 2017). It included a 90% discount for residents, nevertheless, at the time it was considered the most radical transport policy to have been implemented in the recent decades (Banister, 2003). Nearly 20 years later, congestion charges are an effective measure to protect city centres, used in several cities around the world such as London, Singapore, New York, Stockholm, Milan, Bergen or Gothenburg, even though they are still rather unpopular within the society. The research findings with respect of the effectiveness of this transport policy on a number of aspects are summarized in the *research section*, below.
@@ -89,7 +89,7 @@ https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-toda
 - Van Amelsfort, D., & Swedish, V. (2015). Introduction to congestion charging: A guide for practitioners in developing cities.
 - Valletta, M. (2015) Congestion charging in Europe.
 
-## Platooning
+## Platooning {#platooning}
 ### Synonyms {-}
 *Platoon Leader (PL), Platoon Member (PM), Truck Platooning*
 
@@ -171,13 +171,13 @@ cat('|TRL| SRL|
 
 
 
-## Real-time traffic information and monitoring
+## Real-time traffic information and monitoring {#traffic_info_monitoring}
 
-## Cooperative - intelligent transport system
+## Cooperative - intelligent transport system {#cits}
 
-## Dynamic route guidance
+## Dynamic route guidance {#dynamic_route}
 
-## Variable speed limits and dynamic signage system
+## Variable speed limits and dynamic signage system {#variable_speed}
 
 ### Synonyms {-}
 *Variable speed limits (VSL), dynamic speed limits (DSL), Verkehrsbeeinflussungsanlagen (VBA), Changeable Message Signs (CMS), Dynamic Signage System*
@@ -252,10 +252,11 @@ cat('|TRL| SRL|
 - Schimany, H. K. (2011). Blue Globe Foresight.
 - Wu, Y., Abdel-Aty, M., Wang, L., & Rahman, M. S. (2020). Combined connected vehicles and variable speed limit strategies to reduce rear-end crash risk under fog conditions. Journal of Intelligent Transportation Systems, 24(5), 494-513.
 
+## Adaptive traffic signal control {#adaptive_traffic_control}
 
-## Passengers and goods fleet management
+## Passengers and goods fleet management {#p_g_fleet_management}
 
-## Urban access management
+## Urban access management {#urban_access}
 
 ### Synonyms {-}
 *Access Regulation Schemes (ARS), Urban Vehicle Access Regulations (UVARs), Low Emission Zones (LEZ), Access Restrictions, Traffic Restrictions, Limited Traffic Zones, Permit Schemes*

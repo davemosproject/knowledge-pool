@@ -1,8 +1,8 @@
 # Multimodal integrated system {#multimodal}
 
-## First-last mile solutions
+## First-last mile solutions {#flms}
 
-## Distance or time-based fares
+## Distance or time-based fares {#dist_time_fares}
 
 ## Mobility as a service (Maas) {#maas}
 
@@ -98,7 +98,7 @@ cat('|TRL| SRL|
 - Trafi Ltd. (2020). yumuv – Regional MaaS with subscriptions in Switzerland – Trafi. https://www.trafi.com/yumuv/
 
 
-## Park and ride
+## Park and ride {#p_r}
 
 ### Synonyms {-}
 *P&R, P and R, P+R*
@@ -217,7 +217,7 @@ cat('|TRL| SRL|
 - VOR.at (no date) Park/Bike+Ride - VOR. Available at: https://www.vor.at/mobil/parkbike-ride/ (Accessed: 26 February 2021).
 
 
-## Contactless public transport cards
+## Contactless public transport cards {#contactless_cards}
 
 ### Synonyms {-}
 *Contactless smart card, smart card ticketing*
@@ -293,8 +293,7 @@ der passende Tarif. Retrieved 13th January 2021, from https://www.wienerlinien.a
 - Wikipedia contributors. (2021, January 8). List of smart cards. In Wikipedia, The Free Encyclopedia. Retrieved 15:30, January 13, 2021, from https://en.wikipedia.org/w/index.php?title=List_of_smart_cards&oldid=999040130
 
 
-## Information and assistance for people with special needs
+## Information and assistance for people with special needs {#special_needs}
 
-## Mobility hubs
+## Mobility hubs {#mobility_hubs}
 
-## Freight hubs

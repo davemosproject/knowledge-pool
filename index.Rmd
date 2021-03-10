@@ -13,9 +13,7 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 # Preface {-}
 
-This is a *continuously developing* database, which is a part of [DAVeMOS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. Therefore, the authors of this work welcome any feedback, questions and contributions that the readers may have. <br/>
-
-For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/>
+This is a continuously developing database, which is a part of [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/>
 
 The knowledge pool was last compiled on:
 
@@ -23,98 +21,106 @@ The knowledge pool was last compiled on:
 format(Sys.time(),'%d %B %Y')
 ```
 
+## Acknowledgements {-}
+
+This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding content and design:
+
+- Univ. Prof. Dr. Yusak Susilo
+- B.Sc. Veronika Hebenstreit
+- B.Sc. Gregor Husner
+
 # Table of content {-}
 
-1. Introduction to the knowledge pool \@ref(intro)
-2. Physical road infrastructure \@ref(infrastructure)  
-    - Dedicated lanes for connected and automated vehicles (CAV) **NEW**
-    - Operational design domains
-    - Rail crossing information system
-    - Electric road system **NEW**
-    - High occupancy toll lanes
-    - Public transport priority systems **NEW**
-    - Transformation of public space and digital solutions
-3. Highway infrastructure management \@ref(highway)
-    - Unmanned aerial vehicles for infrastructure maintenance **NEW**
-    - Electric charging stations
-4. Traffic management \@ref(traffic)
-    - Congestion charging **NEW**
-    - Platooning **NEW**
-    - Real-time traffic information and monitoring
-    - Cooperative - intelligent transport system
-    - Dynamic route guidance
-    - Variable speed limits and dynamic signage system **NEW**
-    - Passengers and goods fleet management
-    - Urban access management **NEW**
-5. Digital road infrastructure and connectivity \@ref(digital)
-    - Vehicle to everything communication **NEW**
-    - Infrastructure support levels for automated driving
-    - Wireless communication
-6. Passenger information system \@ref(passenger)
-    - Digital journey planner
-    - Rail telematics for passenger services
-    - Multimodal information and route planning **NEW**
-    - Real-time, location-based information
-7. Multimodal integrated system \@ref(multimodal)
-    - First-last mile solutions
-    - Distance or time-based fares
-    - Mobility as a service (MaaS) **NEW**
-    - Park and ride **NEW**
-    - Contactless public transport cards **NEW**
-    - Information and assistance for people with special needs
-    - Mobility hubs
-    - Freight hubs
-8. Connected and autonomous driving \@ref(connected)
-    - Parking infrastructure for autonomous vehicles
-    - Connected vehicles
-    - Automated vehicles
-9. On-board technology for connected and automated vehicles \@ref(onboard)
-    - Advanced driver assistance system (ADAS)
-    - Parking assistance system **NEW**
-    - Lane keeping
-    - Distance keeping
-    - Crash avoidance
-    - Mainteinance assistance
-    - Digital maps
-    - Electronic horizon **NEW**
-    - Emergency call **NEW**
-10. Freight and commercial transport \@ref(freight)
-    - Automated road freight
-    - Freight dreyage optimisation
-    - Tracking and tracing of dangerous goods
-    - Intermodal Freight
-    - Real-time disruption management and route planning
-    - Traffic signal control
-    - Urban deliveries
-    - Parcel load pooling
-    - Intelligent truck parking and delivery space booking
-    - Delivery drones **NEW**
-    - Commercial vehicle on-board safety systems
-    - Rail telematics for freight services **NEW**
-    - Electric vehicle delivery fleets
-    - Multimodal transport management systems
-11. Collective mobility vehicles \@ref(collective)
-    - Demand responsive transit
-    - Personal rapid transit **NEW**
-    - Bus rapid transit
-    - Light rail trans
-    - Passenger drones **NEW**
-    - Automatic train operations
-12. Big data \@ref(big)
-    - Automatic identification system fir maritime transport
-    - Big data lifecycle
-    - Location-based data
-    - Aircraft tracking system
-    - Big data tools for maping and forecasting travel behaviour
-13. Shared mobility \@ref(shared)
-    - Car sharing **NEW**
-    - Bicycle and e-bicycle hire **NEW**
-    - E-scooters **NEW**
-    - Ride-hailing
-14. Alternative power sources \@ref(alternative)
-    - Hydrogen fuel cell **NEW**
-    - Battery electric **NEW**
-    - Plugin hybrid vehicles **NEW**
-15. References \@ref(reference)
+1. [Introduction to the knowledge pool](#intro)
+2. [Physical road infrastructure](#infrastructure)  
+    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
+    - [Operational design domains](#ODD)
+    - [Rail crossing information system](#rail_crossing_info_system)
+    - [Electric road system](#ers) **NEW**
+    - [High occupancy toll lanes](#high_occupancy)
+    - [Public transport priority systems](#public_trans_priority) **NEW**
+    - [Transformation of public space and digital solutions](#transformation_public_space)
+3. [Highway infrastructure management](#highway)
+    - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
+    - [Electric charging stations](#charging_station)
+4. [Traffic management](#traffic)
+    - [Congestion charging](#congestion_charging) **NEW**
+    - [Platooning](#platooning) **NEW**
+    - [Real-time traffic information and monitoring](#traffic_info_monitoring)
+    - [Cooperative - intelligent transport system](#cits)
+    - [Dynamic route guidance](#dynamic_route)
+    - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
+    - [Adaptive traffic signal control](#adaptive_traffic_control)
+    - [Passengers and goods fleet management](#p_g_fleet_management)
+    - [Urban access management](#urban_access) **NEW**
+5. [Digital road infrastructure and connectivity](#digital)
+    - [Vehicle to everything communication](#v2x) **NEW**
+    - [Infrastructure support levels for automated driving](#infrast_support_level)
+    - [Wireless communication](#wireless_com)
+6. [Passenger information system](#passenger)
+    - [Digital journey planner](#djp)
+    - [Rail telematics for passenger services](#telematics_passenger)
+    - [Multimodal information and route planning](#info_and_route_planning) **NEW**
+7. [Multimodal integrated system](#multimodal)
+    - [First-last mile solutions](#flms)
+    - [Distance or time-based fares](#dist_time_fares)
+    - [Mobility as a service (MaaS)](#maas) **NEW**
+    - [Park and ride](#p_r) **NEW**
+    - [Contactless public transport cards](#contactless_cards) **NEW**
+    - [Information and assistance for people with special needs](#special_needs)
+    - [Mobility hubs](#mobility_hubs)
+    8. [Connected and autonomous driving](#connected)
+    - [Parking infrastructure for autonomous vehicles](#parking_av)
+    - [Connected vehicles](#connected_veh)
+    - [Automated vehicles](#av)
+9. [On-board technology for connected and automated vehicles](#onboard)
+    - [Advanced driver assistance system (ADAS)](#adas)
+    - [Parking assistance system](#parking_assistance) **NEW**
+    - [Lane keeping](#lane_keeping)
+    - [Distance keeping](#distance_keeping)
+    - [Crash avoidance](#crash_avoid)
+    - [Maintenance assistance](#maintenance_assis)
+    - [Digital maps](#digital_maps)
+    - [Electronic horizon](#ehorizon) **NEW**
+    - [Emergency call](#ecall) **NEW**
+10. [Freight and commercial transport](#freight)
+    - [Automated road freight](#automated_road_freight)
+    - [Freight dreyage optimisation](#dreyage_optim)
+    - [Tracking and tracing of dangerous goods](#dangerous_goods)
+    - [Intermodal Freight](#intermodal_freight)
+    - [Real-time disruption management and route planning](#disruption_management)
+    - [Urban deliveries](#urban_delivery)
+    - [Parcel load pooling](#parcel_pooling)
+    - [Intelligent truck parking](#intelligent_truck_park)
+    - [Delivery space booking](#space_book)
+    - [Delivery drones](#delivery_drone) **NEW**
+    - [Commercial vehicle on-board safety systems](#comm_veh_safety)
+    - [Rail telematics for freight services](#rail_telematics_freight) **NEW**
+    - [Electric vehicle delivery fleets](#electric_delivery_fleets)
+    - [Multimodal transport management systems](#mtms)
+    - [Freight hubs](#freight_hubs)
+11. [Collective mobility vehicles](#collective)
+    - [Demand responsive transit](#drt)
+    - [Personal rapid transit](#prt) **NEW**
+    - [Bus rapid transit](#brt)
+    - [Light rail trans](#lrt)
+    - [Passenger drones](#passenger_drones) **NEW**
+    - [Automatic train operations](#automatic_train)
+12. [Big data](#big)
+    - [Automatic identification system fir maritime transport](#maritime_transport)
+    - [Big data lifecycle](#bd_life)
+    - [Location-based data](#location_data)
+    - [Aircraft tracking system](#aircraft_tracking)
+    - [Big data tools for maping and forecasting travel behaviour](#bd_tool_maping)
+13. [Shared mobility](#shared)
+    - [Car sharing](#car_sharing) **NEW**
+    - [Bicycle and e-bicycle hire](#bike_sharing) **NEW**
+    - [E-scooters](#scooters) **NEW**
+    - [Ride-hailing](#ride_hailing)
+14. [Alternative power sources](#alternative)
+    - [Hydrogen fuel cell](#FCEV) **NEW**
+    - [Battery electric](#bev) **NEW**
+    - [Plugin hybrid vehicles](#plugin_hybrid) **NEW**
+15. [References](#reference)
 
 

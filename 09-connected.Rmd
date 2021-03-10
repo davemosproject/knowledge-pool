@@ -1,8 +1,8 @@
 # Connected and autonomous driving {#connected}
 
-## Parking infrastructure for autonomous vehicles
+## Parking infrastructure for autonomous vehicles {#parking_av}
 
-## Connected vehicles
+## Connected vehicles {#connected_veh}
 
-## Automated vehicles
+## Automated vehicles {#av}
 

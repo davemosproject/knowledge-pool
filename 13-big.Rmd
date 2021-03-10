@@ -1,12 +1,12 @@
 # Big data {#big}
 
-## Automatic identification system fir maritime transport
+## Automatic identification system fir maritime transport {#maritime_transport}
 
-## Big data lifecycle 
+## Big data lifecycle {#bd_life}
 
-## Location-based data
+## Location-based data {#location_data}
 
-## Aircraft tracking system
+## Aircraft tracking system {#aircraft_tracking}
 
-## Big data tools for maping and forecasting travel behaviour
+## Big data tools for maping and forecasting travel behaviour {#bd_tool_maping}
 

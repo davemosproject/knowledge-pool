@@ -84,7 +84,7 @@ International Partnership for Hydrogen and Fuel Cells in the Economy (no date) N
 - Tanç, B. et al. (2019) ‘Overview of the next quarter century vision of hydrogen fuel cell electric vehicles’, in International Journal of Hydrogen Energy, Volume 44, Issue 20, pp. 10120–10128.
 - Töpler, J. and Lehmann, J. (2017) Wasserstoff und Brennstoffzelle - Technologien und Marktkonzepte, Springer Vieweg.
 
-## Battery electric
+## Battery electric {#bev}
 
 ### Synonyms {-}
 *Battery electric vehicle (BEV)*
@@ -204,7 +204,7 @@ Eichlseder, H., Klell, M. and Trattner, A. (2018) Wasserstoff in der Fahrzeugtec
 
 
 
-## Plugin hybrid vehicles
+## Plugin hybrid vehicles {#plugin_hybrid}
 
 ### Synonyms {-}
 

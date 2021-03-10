@@ -1,6 +1,6 @@
 # Highway infrastructure management {#highway}
 
-## Unmanned aerial vehicles for infrastructure maintenance
+## Unmanned aerial vehicles for infrastructure maintenance {#uav}
 
 ### Synonyms {-}
 *Drones, remotely piloted vehicles, remotely piloted aircraft, uav*
@@ -65,4 +65,4 @@ cat('|TRL| SRL|
 - Zink, J. and Lovelace, B., 2015. Unmanned aerial vehicle bridge inspection demonstration project. Research Project. Final Report, 40. Accessed in Nov 2020
 
 
-## Electric charging stations
+## Electric charging stations {#charging_station}

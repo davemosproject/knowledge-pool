@@ -1,8 +1,8 @@
 # On-board technology for connected and automated vehicles {#onboard}
 
-## Advanced driver assistance system
+## Advanced driver assistance system (ADAS) {#adas}
 
-## Parking assistance system
+## Parking assistance system {#parking_assistance}
 
 ### Definition {-}
 Nowadays, parking a car becomes an increasingly mundane task due to the growing size of the vehicles which consequently reduces visibility to the rear and front. Moreover, the number of vehicles on the road continues to increase which makes finding parking spaces more difficult. To overcome this challenge, efficient and advanced parking techniques are needed, such as finding the right parking space and parking cars efficiently (Khalid et al., 2021). <br/><br/>
@@ -70,17 +70,17 @@ cat('|TRL| SRL|
 - ÖAMTC (2019) ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. Available at: https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik (Accessed: 25 February 2021).
 
 
-## Lane keeping
+## Lane keeping {#lane_keeping}
 
-## Distane keeping
+## Distane keeping {#distance_keeping}
 
-## Crash avoidance
+## Crash avoidance {#crash_avoid}
 
-## Mainteinance assistance
+## Maintenance assistance {#maintenance_assis}
 
-## Digital maps 
+## Digital maps {#digital_maps} 
 
-## Electronic horizon
+## Electronic horizon {#ehorizon}
 
 ### Synonyms {-}
 *Connected horizon, e-horizon, EH*
@@ -159,10 +159,7 @@ cat('|TRL| SRL|
 - Nelson, P. (2016). Just one autonomous car will use 4,000 GB of data/day. (December 2016). http://www.networkworld.com/article/3147892/internet/ one-autonomous-car-will-use-4000-gb-of-dataday.html
 - Ress, C., Etemad, A., Kuck, D., & Requejo, J. (2008). Electronic horizon-providing digital map data for ADAS applications. In Proceedings of the 2nd International Workshop on Intelligent Vehicle Control Systems (IVCS) (pp. 40-49).
 
-
-
-
-## Emergency call
+## Emergency call {#ecall}
 
 ### Synonyms {-}
 *Public-Safety Answering-Point (PSAP), E-call*
@@ -237,7 +234,7 @@ cat('|TRL| SRL|
 
 ### Further links {-}
 
--	[ec.europa.eu](https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en) 
+-[ec.europa.eu](https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en) 
 
 ### References {-}
 - Bundesministerium für Verkehr, I. und T. (BMVIT) (no date) eCall Austria. Available at: https://www.bmi.gv.at/209/start.aspx (Accessed: 10 February 2021).

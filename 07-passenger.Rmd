@@ -1,10 +1,10 @@
 # Passenger information system {#passenger}
 
-## Digital journey planner
+## Digital journey planner {#djp}
 
 ## Rail telematics for passenger services {#telematics_passenger}
 
-## Multimodal information and route planning
+## Multimodal information and route planning {#info_and_route_planning}
 
 ### Synonyms {-}
 *Multi-Modal Transport Information Services (MMTIS)*
@@ -105,6 +105,3 @@ cat('|TRL| SRL|
 - Rome2rio Pty Ltd. (2021a). About Rome2rio - Rome2rio. February 12, 2021, from https://www.rome2rio.com/about/ 
 - Rome2rio Pty Ltd. (2021b). Rome2rio API - Rome2rio. February 12, 2021, from https://www.rome2rio.com/documentation/ 
 - Verkehrsauskunft Österreich. (n.d.). Verkehrsauskunft Österreich: VAO Heute. Retrieved February 8, 2021, from https://www.verkehrsauskunft.at/ 
-
-
-## Real-time, location-based information

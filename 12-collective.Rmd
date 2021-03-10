@@ -1,8 +1,8 @@
 # Collective mobility vehicles {#collective}
 
-## Demand responsive transit
+## Demand responsive transit {#drt}
 
-## Personal rapid transit
+## Personal rapid transit {#prt}
 
 ### Synonyms {-}
 *Automated Transit Networks, ATN, PRT, Podcars*
@@ -92,7 +92,7 @@ cat('|TRL| SRL|
 
 ## Light rail transit {#lrt}
 
-## Passenger drones
+## Passenger drones {#passenger_drones}
 
 ### Synonyms {-}
 *urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs)*
@@ -194,6 +194,4 @@ cat('|TRL| SRL|
 - Winter, S. R., Rice, S. and Lamb, T. L. (2020). ‘A prediction model of Consumer’s willingness to fly in autonomous air taxis’, Journal of Air Transport Management. Elsevier Ltd, 89(August), p. 101926. doi: 10.1016/j.jairtraman.2020.101926.
 
 
-
-
-## Automatic train operations
+## Automatic train operations {#automatic_train}

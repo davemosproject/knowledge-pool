@@ -1,6 +1,6 @@
 # Digital road infrastructure and connectivity {#digital}
 
-## Vehicle to everything communication
+## Vehicle to everything communication {#v2x}
 
 ### Synonyms {-}
 *Connected Vehicle (CV), Connected Vehicle technologies (CVT), Vehicle-to-x (car and infrastructure) (C2x/V2x), Cooperative Intelligent Transport Systems (C-ITS), Cellular-V2X technology (C-V2X)*
@@ -110,6 +110,6 @@ cat('|TRL| SRL|
 - Outay, F. et al. (2019) ‘V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation’, Procedia Computer Science. Elsevier B.V., 151(2018), pp. 353–360. doi: 10.1016/j.procs.2019.04.049.
 
 
-## Infrastructure support levels for automated driving 
+## Infrastructure support levels for automated driving {#infrast_support_level}
 
-## Wireless communication
+## Wireless communication {#wireless_com}
