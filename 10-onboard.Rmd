@@ -72,7 +72,7 @@ cat('|TRL| SRL|
 
 ## Lane keeping {#lane_keeping}
 
-## Distane keeping {#distance_keeping}
+## Distance keeping {#distance_keeping}
 
 ## Crash avoidance {#crash_avoid}
 

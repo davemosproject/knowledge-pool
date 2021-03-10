@@ -13,15 +13,9 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 # Preface {-}
 
-This is a continuously developing database, which is a part of [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/>
+This is a continuously developing database, which is a part of [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/><br/>
 
-The knowledge pool was last compiled on:
-
-```{r, echo=FALSE}
-format(Sys.time(),'%d %B %Y')
-```
-
-## Acknowledgements {-}
+**Acknowledgements**
 
 This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding content and design:
 
@@ -29,10 +23,18 @@ This knowledge pool is a collaborative effort of DAVeMoS team members who contri
 - B.Sc. Veronika Hebenstreit
 - B.Sc. Gregor Husner
 
+<br/>
+
+The knowledge pool was last compiled on:
+
+```{r, echo=FALSE}
+format(Sys.time(),'%d %B %Y')
+```
+
 # Table of content {-}
 
 1. [Introduction to the knowledge pool](#intro)
-2. [Physical road infrastructure](#infrastructure)  
+2. [Physical road infrastructure](#infrastructure)
     - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
     - [Operational design domains](#ODD)
     - [Rail crossing information system](#rail_crossing_info_system)
@@ -69,7 +71,7 @@ This knowledge pool is a collaborative effort of DAVeMoS team members who contri
     - [Contactless public transport cards](#contactless_cards) **NEW**
     - [Information and assistance for people with special needs](#special_needs)
     - [Mobility hubs](#mobility_hubs)
-    8. [Connected and autonomous driving](#connected)
+8. [Connected and autonomous driving](#connected)
     - [Parking infrastructure for autonomous vehicles](#parking_av)
     - [Connected vehicles](#connected_veh)
     - [Automated vehicles](#av)
