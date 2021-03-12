@@ -80,7 +80,7 @@
 
 \title{Knowledge Pool}
 \author{DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna}
-\date{2021-03-10}
+\date{2021-03-12}
 
 \begin{document}
 \maketitle
@@ -93,16 +93,18 @@
 \chapter*{Preface}\label{preface}}
 \addcontentsline{toc}{chapter}{Preface}
 
-This is a continuously developing database, which is a part of \href{https://www.davemos.online/}{DAVeMoS} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author \emph{Martyna Bogacz} on the following email address: \href{mailto:davemos.library@boku.ac.at}{\nolinkurl{davemos.library@boku.ac.at}}
+This is a continuously developing database, which is a part of the \href{https://www.davemos.online/}{DAVeMoS} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: \href{mailto:davemos.library@boku.ac.at}{\nolinkurl{davemos.library@boku.ac.at}}.
 
 \textbf{Acknowledgements}
 
-This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding content and design:
+This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
 \begin{itemize}
 \tightlist
 \item
   Univ. Prof.~Dr.~Yusak Susilo
+\item
+  MA (Hons), Msc. Martyna Bogacz
 \item
   B.Sc. Veronika Hebenstreit
 \item
@@ -112,7 +114,7 @@ This knowledge pool is a collaborative effort of DAVeMoS team members who contri
 The knowledge pool was last compiled on:
 
 \begin{verbatim}
-## [1] "10 March 2021"
+## [1] "12 March 2021"
 \end{verbatim}
 
 \hypertarget{table-of-content}{%
@@ -172,7 +174,7 @@ The knowledge pool was last compiled on:
   \item
     \protect\hyperlink{variable_speed}{Variable speed limits and dynamic signage system} \textbf{NEW}
   \item
-    \protect\hyperlink{adaptive_traffic_control}{Adaptive traffic signal control}
+    \protect\hyperlink{adaptive_traffic_control}{Adaptive traffic signal control} \textbf{NEW}
   \item
     \protect\hyperlink{p_g_fleet_management}{Passengers and goods fleet management}
   \item
@@ -278,7 +280,7 @@ The knowledge pool was last compiled on:
   \item
     \protect\hyperlink{parcel_pooling}{Parcel load pooling}
   \item
-    \protect\hyperlink{intelligent_truck_park}{Intelligent truck parking}
+    \protect\hyperlink{intelligent_truck_park}{Intelligent truck parking} \textbf{NEW}
   \item
     \protect\hyperlink{space_book}{Delivery space booking}
   \item
@@ -1948,20 +1950,220 @@ TRL & SRL\tabularnewline
 \hypertarget{adaptive_traffic_control}{%
 \section{Adaptive traffic signal control}\label{adaptive_traffic_control}}
 
+\hypertarget{synonyms-7}{%
+\subsection*{Synonyms}\label{synonyms-7}}
+\addcontentsline{toc}{subsection}{Synonyms}
+
+\emph{Adaptive Traffic Signal Control (ATSC), Traffic Signal Timing (TST), Traffic Signal Control (TSC)}
+
+\hypertarget{definition-7}{%
+\subsection*{Definition}\label{definition-7}}
+\addcontentsline{toc}{subsection}{Definition}
+
+In the recent years, the increasing population and the urgent need for efficient transport have led to severe traffic problems, especially in urban areas. Congestion mitigation solutions such as optimising the road network and improving basic urban management facilities have been proposed to cope with the pressure caused by the large traffic flow during peak hours. Among all possible methods, the adaptive traffic signal control (ATSC) which combine the intelligence into traffic light control systems has proven to be both, economical and efficient in relieving traffic pressure at congested intersections. With the development of deep learning techniques, ATSC strategies have shown great potential in integrating state-of-the-art intelligent methods (Wang, Cao and Hussain, 2021).
+Existing traffic light control systems either employ fixed programs without incorporating real-time traffic or take little account of traffic (Casas, 2017). They either set the traffic lights to the same duration every cycle or vary the duration depending on historical information. Some of them take input information from the underground sensors, such as inductive loop detectors, to detect vehicles near the traffic lights. However, such data is processed very crudely to determine the duration of green and red traffic lights. Consequently, they work in some cases (with low efficiency); however, during events such as sports, festivals, weather conditions or a typical high traffic volume scenario, the existing control systems tend to be paralysed.
+The recent research paper by Liang et al., 2019 reports that an experienced police officer can efficiently and directly control the intersection by waving signals. Especially, in high traffic volume scenarios, a human operator observes the real-time traffic condition at the intersecting streets and adjusts the duration of the passage time accordingly. The aim of the adaptive traffic signal control is to provide flexibility and efficiency in traffic management comparable to that provided by a human operator through the employment of V2X and Deep Reinforcement learning (Wang, Cao and Hussain, 2021).
+
+\hypertarget{key-stakeholders-7}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-7}}
+\addcontentsline{toc}{subsection}{Key stakeholders}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Affected}: Road drivers, cyclists, pedestrians
+\item
+  \textbf{Responsible}: Local governments, Local or national road infrastructure provides, car manufacturers
+\end{itemize}
+
+\hypertarget{current-state-of-art-in-research-7}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-7}}
+\addcontentsline{toc}{subsection}{Current state of art in research}
+
+Existing ATSC methods focus on varying the duration of green or red cycles based on real-time information. Nevertheless, this approach is not optimal because it neglects the impact of the current green and red lights durations on the upcoming traffic. Therefore, ATSC performs better than the fixed duration system but worse than more flexible methods because the optimal phase duration in the last cycles does not perform better in the future considering updated information about complex traffic conditions.
+
+With Deep Learning (DL) methods (which serve as input to the intersection controls), the optimal design of the basic control indices such as green phase duration and phase sequence of the traffic light at an intersection can be considered as an optimal decision-making procedure. Next, the reinforcement learning (RL) is applied to signal control to obtain the best control procedure for a signalised intersection. However, in order to achieve instantaneous data acquisition and transmission with low latency, Cooperative Vehicle Infrastructure System (CVIS) is needed to support inter-vehicle communication and vehicles with roadside infrastructure communication (see \protect\hyperlink{v2x}{V2X} section). Compared to traditional sensor detectors, V2X can collect more accurate traffic data to provide comprehensive information for traffic control, resulting in better RL decision-making (Wang et al., 2021).
+Moreover, the analysis of the recent literature for the optimisation of TSC systems, which have been published from January 2015 to January 2020 revealed that only two papers deal with signalised roundabouts. Roundabouts have different traffic dynamics compared to regular intersections. With an increasing use of signalised roundabouts, especially in urban areas, it is believed that TSC for signalised roundabouts is a particular research gap in this area. Although there are studies conducted using real data and real-time control, there are scarce results and/or methods applied or adapted in real life. One of the main challenges for researchers in this field would be to bring these methods to decision makers and implementers.
+Moreover, a vast majority of work found on this topic deals with the timing of traffic signals and their impact on average delay and/or emissions. An important part of busy intersections, especially in metropolitan areas, is pedestrian traffic. With the exception of Vilarinho et al., (2017) and Yu et al., (2017), pedestrians and the effects of their behaviour are not modelled in the studies. The same applies for drivers' behaviour. An important research direction would be to analyse the effects of pedestrian and driver behaviour on the models.
+Furthermore, the number of studies dealing with autonomous vehicles and technologies is growing rapidly. The most recent studies address the general area of how autonomous vehicles can be introduced safely and/or efficiently and/or environmentally friendly into the traffic flow
+(Qadri et al., 2020a).
+While learning from trial and error is the key idea in RL, the learning cost of RL for complicated problems might be unacceptable. Therefore, how to learn efficiently (e.g.~from limited data samples, efficient exploration, transfer of learned knowledge) is a critical issue for the application of RL in traffic signal control (Wei et al., 2019).
+
+\hypertarget{current-state-of-art-in-practice-7}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-7}}
+\addcontentsline{toc}{subsection}{Current state of art in practice}
+
+A number of stakeholders are focusing on the development of adaptive traffic control systems that support a range of smart city traffic applications, such as public transport signal priority (see \protect\hyperlink{public_trans_priority}{PTSP section} for further details), eco-driving support, messaging, intelligent traffic signal control (STSC) and emergency vehicle signal pre-emption (EVSP). Due to these factors and steady advances in sensors, artificial intelligence (AI) and machine learning, the global market for adaptive traffic control systems is forecasted to reach the market value of US\$21.9 billion by the end of 2030.
+Governments and city administrations in different regions of the world are looking for new ways to respond to the increasing number of traffic accidents and managing road congestion, which is why adaptive traffic control systems have attracted a lot of interest in recent years as a viable alternative to address the existing challenges (The Sentinel Newspaper, 2021).
+There are many options already existing and more are still under development. Currently available adaptive signal control technologies include:
+
+\begin{itemize}
+\tightlist
+\item
+  Split Cycle Offset Optimisation Technique (SCOOT);
+\item
+  Sydney Coordinated Adaptive Traffic System (SCATS),
+\item
+  Real Time Hierarchical Optimised Distributed Effective System (RHODES);
+\item
+  Optimised Policies for Adaptive Control (OPAC) \emph{Virtual Fixed Cycle}
+\item
+  ACS Lite
+\end{itemize}
+
+Real-time control of traffic systems have proven performance record, yet these systems have been deployed in less than 1\% of existing traffic signals in America. The Federal Highway Administration is now working to roll out these technologies to the rest of the country (Curtis, 2017). Further, for example, in Germany the adaptive signal control system has been installed on a 6 km long arterial in Muenster, where it was demonstrated to have positive effect on traffic quality and improve the bus transit by 30\% based on the adopted performance index (Brilon \& Wietholt, 2013).
+
+\hypertarget{relevant-initiatives-in-austria-7}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-7}}
+\addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.asfinag.at/road-safety/traffic-management/traffic-control/}{Asfinag}
+\item
+  \href{https://www.atc.or.at/smart-cities/smart-mobility/urban-traffic-management-solutions/}{ATC}
+\end{itemize}
+
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-7}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-7}}
+\addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\centering
+Impact level\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\centering
+Indicator\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Impact direction\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Goal description and number\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Source\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Scarcity of studies that include the effects of pedestrians behaviour\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{-}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Equality (\emph{5,10})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Qadri et al., 2020b\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Decrease in congestion at the intersections\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Sustainable economic development (\emph{8,11})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Wang et al., 2021\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Progress in the use of RL algorithms and V2X technologies\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Innovation \& Infrastructure (\emph{9})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Wang et al., 2021\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{technology-and-societal-readiness-level-7}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-7}}
+\addcontentsline{toc}{subsection}{Technology and societal readiness level}
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+TRL & SRL\tabularnewline
+\midrule
+\endhead
+7-9 & 7-8\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{open-questions-7}{%
+\subsection*{Open questions}\label{open-questions-7}}
+\addcontentsline{toc}{subsection}{Open questions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  How can ATSC for signalised roundabouts be designed, developed and implemented?
+\item
+  How can pedestrian movement be included to a larger extent into the algorithms of ATSC?
+\item
+  How can reinforcement learning algorithms learn efficiently from limited data samples for the purpose traffic signal control?
+\end{enumerate}
+
+\hypertarget{further-links-5}{%
+\subsection*{Further links}\label{further-links-5}}
+\addcontentsline{toc}{subsection}{Further links}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.rapidflowtech.com/surtrac}{rapidflowtech.com}
+\item
+  \href{https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm}{fhwa.dot.gov}
+\end{itemize}
+
+\hypertarget{references-7}{%
+\subsection*{References}\label{references-7}}
+\addcontentsline{toc}{subsection}{References}
+
+\begin{itemize}
+\tightlist
+\item
+  Brilon, W., \& Wietholt, T. (2013). Experiences with adaptive signal control in Germany. Transportation research record, 2356(1), 9-16.
+\item
+  Casas, N. (2017) `Deep deterministic policy gradient for urban traffic light control', arXiv, pp.~1--12.
+\item
+  Curtis, E. (2017) EDC-1: Adaptive Signal Control Technology \textbar{} Federal Highway Administration. Available at: \url{https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm} (Accessed: 8 March 2021).
+\item
+  Liang, X. et al.~(2019) `A Deep Reinforcement Learning Network for Traffic Light Cycle Control', IEEE Transactions on Vehicular Technology, 68(2), pp.~1243--1253. doi: 10.1109/TVT.2018.2890726.
+\item
+  Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020a) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review, 12(1), p.~55. doi: 10.1186/s12544-020-00439-1.
+\item
+  Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020b) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review. European Transport Research Review, 12(1), pp.~1--23. doi: 10.1186/s12544-020-00439-1.
+\item
+  The Sentinel Newspaper (2021) `Adaptive Traffic Control System Market to reach US\$ 21.9 Bn by 2030 -- KSU \textbar{} The Sentinel Newspaper', 3 March. Available at: \url{https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/} (Accessed: 8 March 2021).
+\item
+  Vilarinho, C., Tavares, J. P. and Rossetti, R. J. F. (2017) `Intelligent Traffic Lights: Green Time Period Negotiaton', Transportation Research Procedia, 22, pp.~325--334. doi: \url{https://doi.org/10.1016/j.trpro.2017.03.039}.
+\item
+  Wang, T., Cao, J. and Hussain, A. (2021) `Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning', Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 125(February), p.~103046. doi: 10.1016/j.trc.2021.103046.
+\item
+  Wei, H. et al.~(2019) `A survey on traffic signal control methods', arXiv, 1(1).
+\item
+  Yu, C. et al.~(2017) `Optimization of vehicle and pedestrian signals at isolated intersections', Transportation Research Part B: Methodological, 98, pp.~135--153. doi: \url{https://doi.org/10.1016/j.trb.2016.12.015}.
+\end{itemize}
+
 \hypertarget{p_g_fleet_management}{%
 \section{Passengers and goods fleet management}\label{p_g_fleet_management}}
 
 \hypertarget{urban_access}{%
 \section{Urban access management}\label{urban_access}}
 
-\hypertarget{synonyms-7}{%
-\subsection*{Synonyms}\label{synonyms-7}}
+\hypertarget{synonyms-8}{%
+\subsection*{Synonyms}\label{synonyms-8}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Access Regulation Schemes (ARS), Urban Vehicle Access Regulations (UVARs), Low Emission Zones (LEZ), Access Restrictions, Traffic Restrictions, Limited Traffic Zones, Permit Schemes}
 
-\hypertarget{definition-7}{%
-\subsection*{Definition}\label{definition-7}}
+\hypertarget{definition-8}{%
+\subsection*{Definition}\label{definition-8}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Urban Access Management can be seen as regulations, restrictions or bans, for traffic entering cities. Factors like congestion, air pollution, traffic noise or damage to historic buildings are influencing the liveability of cities negatively. Therefore, many cities have been introducing Access Regulation Schemes (ARS) with the goal of less vehicles entering the particular city or area. Implementing a pedestrian zone, is the simplest type of ARS and can improve the attractiveness of tourist attractions or shopping streets significantly (Sadler Consultants Europe GmbH, n.d. c). ARS can be differentiated by vehicle type, vehicle weight, by type of trip (e.g.~delivery), by driver (e.g.~residents or access), or applies to all vehicles (Sadler Consultants Europe GmbH, n.d. c). Furthermore, ARS can be static or dynamic, depending, for example, on the time of the day or air pollution levels. A list below provides examples of current measures used in the urban areas:
@@ -1998,8 +2200,8 @@ The impact of Urban Vehicle Access Regulations differs according the implemented
 
 In Austria, several cities and regions have implemented Low Emission Zones (LEZ) for lorries. For example, the city of Salzburg has Access Regulations (AR) for the city centre in place, so only vehicles with a specific reason (delivery or police) are allowed to enter. On the other hand, Tirol introduces occasionally traffic bans during the summer months (Sandler Consultants Europe GmbH, n.d. a). While, the city of Vienna aims at implementing a traffic-calmed city centre by 2022 (Stadt Wien, 2020).
 
-\hypertarget{key-stakeholders-7}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-7}}
+\hypertarget{key-stakeholders-8}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-8}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -2010,20 +2212,20 @@ In Austria, several cities and regions have implemented Low Emission Zones (LEZ)
   \textbf{Responsible}: Municipalities, Road Operators, Urban Traffic Management, Authorities
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-7}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-7}}
+\hypertarget{current-state-of-art-in-research-8}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-8}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Current research addresses the evaluation of UVAR implementations and identifies their positive and negative effects. For example, Lopez (2018) found that Urban Consolidation Centres (UCCs), Cargo Bikes (CBs) and Off-hour Deliveries (OHDs) are the three preferred types of solutions to assist in mitigating unwanted side-effects of UVARs on the logistic sector. Further, current research focuses on the sustainable urban planning in cites affected by mass tourism (García Hernández, 2019; Nolasco‐Cirugeda, 2020). Additionally, most recent area of research deals with geofencing that aims at creating digital zones defined on a map, with specific rules, that can be transmitted to the vehicles (Arnesen et al., 2020).
 
-\hypertarget{current-state-of-art-in-practice-7}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-7}}
+\hypertarget{current-state-of-art-in-practice-8}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-8}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 According to Lopez (2018) there are the two preferred UVAR schemes: Low Emission Zones (LEZ) and Congestion Charging (CC). The implementation of these schemes is widely spread within Europe but follows different approaches. Lopez (2018) identified two dominant LEZ enforcement models, first visual surveillance using windscreen stickers and second, cameras with ANPR technology. Furthermore it is argued that \emph{``It is very important to consider that the degree of impact of each measure not only varies from city to city but also depends on the presence of a mix of access regulations``} (Lopez, 2018).
 
-\hypertarget{relevant-initiatives-in-austria-7}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-7}}
+\hypertarget{relevant-initiatives-in-austria-8}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-8}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -2036,8 +2238,8 @@ According to Lopez (2018) there are the two preferred UVAR schemes: Low Emission
   \href{https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/}{kapsch.net}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-7}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-7}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-8}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-8}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -2135,8 +2337,8 @@ Sandler Consultants Europe GmbH, n.d. b\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-7}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-7}}
+\hypertarget{technology-and-societal-readiness-level-8}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-8}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -2148,8 +2350,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-7}{%
-\subsection*{Open questions}\label{open-questions-7}}
+\hypertarget{open-questions-8}{%
+\subsection*{Open questions}\label{open-questions-8}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -2165,8 +2367,8 @@ TRL & SRL\tabularnewline
   How can Urban Access Management engage with the Internet of Things (IoT)?
 \end{enumerate}
 
-\hypertarget{further-links-5}{%
-\subsection*{Further links}\label{further-links-5}}
+\hypertarget{further-links-6}{%
+\subsection*{Further links}\label{further-links-6}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -2177,8 +2379,8 @@ TRL & SRL\tabularnewline
   \href{https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna-emergency-scheme}{urbanaccessregulations.eu-2}
 \end{itemize}
 
-\hypertarget{references-7}{%
-\subsection*{References}\label{references-7}}
+\hypertarget{references-8}{%
+\subsection*{References}\label{references-8}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -2213,14 +2415,14 @@ TRL & SRL\tabularnewline
 \hypertarget{v2x}{%
 \section{Vehicle to everything communication}\label{v2x}}
 
-\hypertarget{synonyms-8}{%
-\subsection*{Synonyms}\label{synonyms-8}}
+\hypertarget{synonyms-9}{%
+\subsection*{Synonyms}\label{synonyms-9}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Connected Vehicle (CV), Connected Vehicle technologies (CVT), Vehicle-to-x (car and infrastructure) (C2x/V2x), Cooperative Intelligent Transport Systems (C-ITS), Cellular-V2X technology (C-V2X)}
 
-\hypertarget{definition-8}{%
-\subsection*{Definition}\label{definition-8}}
+\hypertarget{definition-9}{%
+\subsection*{Definition}\label{definition-9}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Through Intelligent Transportation Systems (ITS), various Connected Vehicle (CV) technologies have been developed in recent years to contribute to safer roads through cooperative situational awareness and hazard avoidance. Two main types of communication have been proposed: vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication (Outay et al., 2019).
@@ -2228,8 +2430,8 @@ C2X (car to everything) or more broadly V2X (vehicle to everything) is the new t
 V2V offers benefits in terms of increased safety, as it can prevent accidents by allowing a vehicle to exchange real-time information about speed, location and direction with other vehicles in the surrounding area. In addition to their safety applications, V2V and V2I communications can potentially help reduce fuel consumption and emissions due to the fact that excessive pollutant emissions are often associated with heavy braking, changing traveling speeds and acceleration/deceleration, especially at signalised intersections. In the context of smart cities, many researchers are exploring the potential use of connected vehicles to support eco-friendly driving by reducing CO\textsubscript{2} emissions. This is often achieved through vehicle-to-vehicle (V2V) and vehicle-to-roadside unit RSU (V2I) inter-connectivity to harmonise vehicle speeds by maintaining traffic flow and reducing unnecessary stops and starts (Outay et al., 2019).
 In terms of the communication technology used for V2X, according to Dey et al.~(2016) Dedicated Short Range Communication (DSRC) was considered the primary option for CVT security applications in 2016. However, the use of other radio technologies such as Wi-Fi, LTE or WiMAX enables communication with greater range and provides higher throughput requirements that could not be supported by DSRC alone. In addition, the use of other radio technologies potentially reduces the need for costly DSRC infrastructure.
 
-\hypertarget{key-stakeholders-8}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-8}}
+\hypertarget{key-stakeholders-9}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-9}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -2240,16 +2442,16 @@ In terms of the communication technology used for V2X, according to Dey et al.~(
   \textbf{Responsible}: National Governments, Private Companies, Car Manufacturers, Infrastructure operators
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-8}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-8}}
+\hypertarget{current-state-of-art-in-research-9}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-9}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Many research papers focus on the technical performance of this technology, the comparison of V2V with V2I and the mixing of V2V vehicles with non-V2V equipped vehicles. As in 2019, the idea of combining V2V and V2I communications into a hybrid V2X alert system has already became reality (Outay et al., 2019).
 Moreover, research is conducted on the comparison of available communication technology to ensure the fastest, most efficient and error-free solution. Currently, there are two possibilities under discussion for Car2X communication. Firstly, the IEEE 802.11p Dedicated Short Range Communication (DSRC) and secondly, the Cellular-V2X technology (C-V2X). The former is based on the IEEE 802.11 WiFi standard, while C-V2X is based on 4G LTE, with a roadmap towards 5G C-V-to-X. While China and USA primarily rely on C-V2X, Europe is still undecided as to whether car networking should take place via pWLAN or via C-V2X. This creates an international confusion of languages. As a result, vehicles may not be able to communicate without errors because they use different languages (Köllner, 2020).
 IEEE 802.11p is technically very advanced and operates with minimal latencies. But the advantage of 5GAA technology is that 5G is to be introduced globally on a massive scale in the near future and the fast-mobile radio standard will be in the car anyway, if only to transmit the huge amounts of data generated by autonomous driving. Moreover, in a dense 5G network, far fewer of the 5.9 GHz units needed for direct communication have to be integrated into the infrastructure than with the 802.11p solution. Some of the tasks of these units will then be taken over by the 5G network (Knecht, 2018).
 
-\hypertarget{current-state-of-art-in-practice-8}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-8}}
+\hypertarget{current-state-of-art-in-practice-9}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-9}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 So far, C2X is only available from some German manufacturers. Only Ford models, the Volkswagen Golf 8 and all Volvo models always have C2X on board as standard. This is desirable from the point of view of consumer protection, because more cars are equipped with C2X, more accurate this system is in preventing accidents. Again, only Golf and Volvo models have C2X free of charge after purchase. All other manufacturers charge money for C2X after one to three years. Moreover, C2X is never available on its own, but only in a package with other Connect services that do not necessarily have anything to do with road safety (ADAC, 2021).
@@ -2377,8 +2579,8 @@ On this basis, German, Dutch and Austrian road operators, together with partners
 (Cooperative ITS Corridor, no date).
 In Austria, with the award of a comprehensive framework contract, ASFINAG has now become the first infrastructure provider in Europe to reach a further milestone in networking vehicles and roads. The total volume of the framework contract is 14.5 million euros. This will make it possible to equip the entire motorway network in Austria with C-ITS in the coming years.The equipment, which will be installed step by step along the motorways starting in November, includes up to 525 so-called road units as well as a control centre. The first C-ITS services for hazard warning are expected to go into operation within the next 16 months. Further expansion will focus on the support of automated driving and networked traffic management. The C-ITS equipment is part of the digitalisation of the road infrastructure and is funded by the Climate and Energy Fund and the EU (Močnik, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-8}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-8}}
+\hypertarget{relevant-initiatives-in-austria-9}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-9}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -2395,8 +2597,8 @@ In Austria, with the award of a comprehensive framework contract, ASFINAG has no
   \href{https://www.hitech.at/mobilitaet/wohin-geht-die-fahrt}{hitech.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-8}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-8}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-9}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-9}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -2461,8 +2663,8 @@ Filippi et al., 2016\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-8}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-8}}
+\hypertarget{technology-and-societal-readiness-level-9}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-9}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -2474,8 +2676,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-8}{%
-\subsection*{Open questions}\label{open-questions-8}}
+\hypertarget{open-questions-9}{%
+\subsection*{Open questions}\label{open-questions-9}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -2489,8 +2691,8 @@ TRL & SRL\tabularnewline
   Are infrastructure operators already taking care of making data internationally compatible so that cars can communicate with it?
 \end{enumerate}
 
-\hypertarget{further-links-6}{%
-\subsection*{Further links}\label{further-links-6}}
+\hypertarget{further-links-7}{%
+\subsection*{Further links}\label{further-links-7}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -2501,8 +2703,8 @@ TRL & SRL\tabularnewline
   \href{https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication}{nhtsa.gov}
 \end{itemize}
 
-\hypertarget{references-8}{%
-\subsection*{References}\label{references-8}}
+\hypertarget{references-9}{%
+\subsection*{References}\label{references-9}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -2545,14 +2747,14 @@ TRL & SRL\tabularnewline
 \hypertarget{info_and_route_planning}{%
 \section{Multimodal information and route planning}\label{info_and_route_planning}}
 
-\hypertarget{synonyms-9}{%
-\subsection*{Synonyms}\label{synonyms-9}}
+\hypertarget{synonyms-10}{%
+\subsection*{Synonyms}\label{synonyms-10}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Multi-Modal Transport Information Services (MMTIS)}
 
-\hypertarget{definition-9}{%
-\subsection*{Definition}\label{definition-9}}
+\hypertarget{definition-10}{%
+\subsection*{Definition}\label{definition-10}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Information systems that ensure reliable, efficient operations and widely accessible, accurate passenger information are essential to the use of public transportation. These systems are being used for a number of specific purposes such as setting schedules and timetables, managing vehicle fleets, issuing tickets and receipts, providing real time information on service running (European Commission, n.d. b). It is particularly crucial for multimodal transport, where passengers use several transport modes or systems operators within a single trip. Therefore, it is essential to provide accurate information to ensure smooth transfer and minimise waiting times.
@@ -2578,8 +2780,8 @@ Belgium, Denmark, Finland, France, Germany, Hungary, Italy, Netherlands, Norway,
 
 The \emph{Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services} required each EU Member State, among other things, to establish the National Access Points (NAP) by 1st December 2019 (European Commission, 2021a). NAPs were aimed at facilitating the access, easy exchange and reuse of transport-related data to enable the provision of EU-wide interoperable travel and transport services to end-users (European Commission, 2021b). In Austria the NPA is managed by \href{https://www.mobilitydata.gv.at/}{AustriaTech}.
 
-\hypertarget{key-stakeholders-9}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-9}}
+\hypertarget{key-stakeholders-10}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-10}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -2590,16 +2792,16 @@ The \emph{Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 suppleme
   \textbf{Responsible}: European Commission, NPAs, Transport service providers and public transport operators, National Governments, IT System Providers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-9}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-9}}
+\hypertarget{current-state-of-art-in-research-10}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-10}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Presently, the research aims at improving compatibility, connectivity and flexibility of the system. For example, Dinko et al.~(2020) looked at what real-time information would be needed in the future to make the trip planner system resilient and easily adaptable to changing needs, considering the changes and challenges that will bring post-pandemic transportation requirements. Further Chang et al.~(2020) conducted research on the accessible indoor navigation application for smartphones, combining information of floor plans, Bluetooth beacons, Wi-Fi/cellular data connectivity, 2D/3D visual models, and user preferences. The aim was to provide visual, audio, and haptic feedback for targeted users to find the optimal route to their destination within a building. Moreover, Huang et al.~(2018) looked at the approaches to better connect static (e.g.~public transport) and dynamic (e.g.~carpooling) networks without limiting flexibility. They found that a merged network, based on the concept of drive-time areas and points of action, could enable multimodal route planning that can provide users with trips from a starting point to a destination using different combinations of modes.
 
 What is more, the additional research addresses Mobility as a Service (MaaS) solutions. For further information see section \protect\hyperlink{maas}{Mobility as a service (Maas)} of this work.
 
-\hypertarget{current-state-of-art-in-practice-9}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-9}}
+\hypertarget{current-state-of-art-in-practice-10}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-10}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 \emph{Verkehrsauskunft Österreich (VAO)} is a nationwide multimodal routing platform authorized by Austrian transport infrastructure, means of transport and transport editorial operators, coordinated among themselves. Highly up-to-date, real-time routing information is provided for most modes of transport and their linking options, such as: car, public transport, bicycle, bike \& ride, park \& ride, rental bikes, car sharing, etc. The basis for the VAO is the \emph{Graph Integration Platform (GIP)}, a routable and intermodal graph for the entire Austrian transport network and \emph{Basemap}, an Austrian-wide, detailed administrative map based on the geodata of the Austrian federal provinces and the GIP (Verkehrsauskunft Österreich, n.d.).
@@ -2610,8 +2812,8 @@ With \emph{Google Routs}, integrated in \emph{Google Maps}, routes can also be c
 
 Finally, in 2020 \emph{Apple} launched a new online map, including the features of real-time transit information and indoor maps for airports and malls, but not yet worldwide (Apple, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-9}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-9}}
+\hypertarget{relevant-initiatives-in-austria-10}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-10}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -2628,8 +2830,8 @@ Finally, in 2020 \emph{Apple} launched a new online map, including the features 
   \href{http://maps.google.com/landing/transit/cities/index.html\#Europe}{maps.google.com}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-9}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-9}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-10}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-10}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -2716,8 +2918,8 @@ European Commission, n.d. b\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-9}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-9}}
+\hypertarget{technology-and-societal-readiness-level-10}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-10}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -2729,8 +2931,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-9}{%
-\subsection*{Open questions}\label{open-questions-9}}
+\hypertarget{open-questions-10}{%
+\subsection*{Open questions}\label{open-questions-10}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -2746,8 +2948,8 @@ TRL & SRL\tabularnewline
   What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for dthese specific groups?
 \end{enumerate}
 
-\hypertarget{further-links-7}{%
-\subsection*{Further links}\label{further-links-7}}
+\hypertarget{further-links-8}{%
+\subsection*{Further links}\label{further-links-8}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -2768,8 +2970,8 @@ TRL & SRL\tabularnewline
   \href{http://maps.google.com/landing/transit/cities/index.html\#Europe}{maps.google.com}
 \end{itemize}
 
-\hypertarget{references-9}{%
-\subsection*{References}\label{references-9}}
+\hypertarget{references-10}{%
+\subsection*{References}\label{references-10}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -2818,8 +3020,8 @@ TRL & SRL\tabularnewline
 \hypertarget{maas}{%
 \section{Mobility as a service (Maas)}\label{maas}}
 
-\hypertarget{definition-10}{%
-\subsection*{Definition}\label{definition-10}}
+\hypertarget{definition-11}{%
+\subsection*{Definition}\label{definition-11}}
 \addcontentsline{toc}{subsection}{Definition}
 
 In line with the principle of ``\emph{using instead of owning}'', one goal of MaaS is to make mobility available as a service anytime and anywhere with a click on one or more online platforms or apps. These digital MaaS platforms or apps should link information, booking and payment of mobility offers from different service providers and thus enable the offer of integrated mobility packages. Users should have the freedom to choose between different physical forms of mobility (Neumann \& Rauch, 2021):
@@ -2843,8 +3045,8 @@ In line with the principle of ``\emph{using instead of owning}'', one goal of Ma
 MaaS solutions can be built up in stages. The first stage consists of a bundling of information from different providers so that all available mobility offers are displayed for the entire journey from start to destination. Stage two includes planning routes according to customers' priorities and the possibility to book and pay for all means of transport used for the journey at once. In addition, real-time information for the route is included, such as changes in journey and waiting times due to unforeseen events - such as accidents or weather conditions -- as well as continuous notifications about alternative options. Stage three consists of a mobility guarantee by means of a customised mobility package based on personal needs and preferences, e.g.~in the form of a monthly subscription (Neumann \& Rauch, 2021).
 The aim of MaaS is to provide an alternative to the private use of cars, thus equally convenient, even cheaper, but more sustainable (Maas Alliance, 2015). The theory of MaaS opens up new business areas and enables mobility service providers to increase their customer base. The usage data generated by the ongoing operation can help to get to know customers better and thus to work more efficiently, as it would be easier to plan the orientation and distribution of the services. A well-functioning MaaS system requires the willingness of private and public mobility providers to cooperate with each other and with the platform operators (MaaS providers) (Neumann \& Rauch, 2021). Moreover, it relies heavily on availability of high-quality data. To enforce safe and secure real-time access to data , is equally important as ensuring the clarity regarding liabilities of parties with principal control over the data (Maas Alliance, 2015). The first step towards MaaS is the harmonization of data, supported by appropriate regulations and standards (Maas Alliance, 2015). In Austria, both researchers and mobility service providers are researching how to best implement MaaS. One example is the ULTIMOB research project.
 
-\hypertarget{key-stakeholders-10}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-10}}
+\hypertarget{key-stakeholders-11}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-11}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -2855,8 +3057,8 @@ The aim of MaaS is to provide an alternative to the private use of cars, thus eq
   \textbf{Responsible}: Transport service providers and public transport operators, MaaS operators and integrators, IT system providers, city councils, local, regional and national authorities
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-10}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-10}}
+\hypertarget{current-state-of-art-in-research-11}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-11}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 In order to support the cooperation between private and public mobility providers as well as platform operators (MaaS providers), the legal and organizational framework conditions as well as standards for a secure and fair exchange of data should be created at European and Austrian level (Neumann \& Rauch, 2021).
@@ -2882,8 +3084,8 @@ In 2019 Berlin's public transport authority \emph{Berliner Verkehrsbetriebe (BVG
 
 In 2020, Switzerland followed and integrated an app called \emph{yumuv}. \emph{Swiss Federal Railways SBB CFF FFS, PTOs of Verkehrsbetriebe Zürich, Basler Verkehrs-Betriebe (BVB)}, and \emph{BERNMOBIL} cooperated also with the start-up \emph{Trafi} and managed to create the first regional MaaS with subscriptions (Trafi Ltd., 2020).
 
-\hypertarget{relevant-initiatives-in-austria-10}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-10}}
+\hypertarget{relevant-initiatives-in-austria-11}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-11}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -2904,8 +3106,8 @@ In 2020, Switzerland followed and integrated an app called \emph{yumuv}. \emph{S
   \href{https://anachb.vor.at/}{anachb.vor.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-10}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-10}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-11}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-11}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -3025,8 +3227,8 @@ Gudonavicius, 2020; Marinelli et al., 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-10}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-10}}
+\hypertarget{technology-and-societal-readiness-level-11}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-11}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -3038,8 +3240,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-10}{%
-\subsection*{Open questions}\label{open-questions-10}}
+\hypertarget{open-questions-11}{%
+\subsection*{Open questions}\label{open-questions-11}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 1.How can a sustainability transformation be reached through MaaS and what circumstances does it require?
@@ -3047,8 +3249,8 @@ TRL & SRL\tabularnewline
 3.How fast is MaaS going to be implemented?
 4.How can bureaucratic hurdles be overcome in a timely manner?
 
-\hypertarget{further-links-8}{%
-\subsection*{Further links}\label{further-links-8}}
+\hypertarget{further-links-9}{%
+\subsection*{Further links}\label{further-links-9}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -3065,8 +3267,8 @@ TRL & SRL\tabularnewline
   \href{http://www.maas4eu.eu}{maas4eu.eu}
 \end{itemize}
 
-\hypertarget{references-10}{%
-\subsection*{References}\label{references-10}}
+\hypertarget{references-11}{%
+\subsection*{References}\label{references-11}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -3090,21 +3292,21 @@ TRL & SRL\tabularnewline
 \hypertarget{p_r}{%
 \section{Park and ride}\label{p_r}}
 
-\hypertarget{synonyms-10}{%
-\subsection*{Synonyms}\label{synonyms-10}}
+\hypertarget{synonyms-11}{%
+\subsection*{Synonyms}\label{synonyms-11}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{P\&R, P and R, P+R}
 
-\hypertarget{definition-11}{%
-\subsection*{Definition}\label{definition-11}}
+\hypertarget{definition-12}{%
+\subsection*{Definition}\label{definition-12}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Some of the main challenges the world is currently facing are related to population growth and urbanisation. The massive growth of cities has created major transport challenges that manifest themselves in traffic congestion in urban areas, especially in city centres. Many of the efforts to reduce congestion attempt to increase vehicle occupancy by inducing a shift from single occupancy vehicles (SOVs) to multiple occupancy vehicles or encouraging use of various transit modes. One example of such effort are park-and-ride facilities which attempt to reduce car use and increase road efficiency.
 Park-and-ride facilities are usually located in peri-urban areas in a proximity to bus or train station to allow drivers coming from suburban and rural areas to park their cars and transfer to public transport to reach urban destinations. Park-and-ride facilities, introduced in England in the 1970s, appear to offer a simple and cost-effective alternative to building new roads. These facilities are usually accompanied by good public transport services to urban areas (Katoshevski-Cavari, Bak and Shiftan, 2018).
 
-\hypertarget{key-stakeholders-11}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-11}}
+\hypertarget{key-stakeholders-12}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-12}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -3115,16 +3317,16 @@ Park-and-ride facilities are usually located in peri-urban areas in a proximity 
   \textbf{Responsible}: National Governments, Communal Governments, City governments, Parking Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-11}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-11}}
+\hypertarget{current-state-of-art-in-research-12}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-12}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 In terms of P\&R research, existing publications address topics such as the optimal location problem of P\&R facilities, the relationship between private vehicle use patterns and the number and density of P\&R facilities in a city, the empirical study of P\&R facility use patterns, the study of P\&R motives and air quality standards in Europe, the influence of P\&R facilities on vehicle kilometres travelled, the analysis of travellers' stated intention to use parking and cycling facilities (P+R, B+R), empirical analysis of P\&R facility choice behaviour, attitude surveys of P\&R and non-P\&R users and the influence of multimodal information on the use of P\&R (Gan and Ye, 2018).
 Studies show that some public transport users were attracted to switch to multiple modes of transport (i.e.~park-and-ride), which increased the number of car trips. Nonetheless, additional car trips are made in non-congested areas, thus contributing to traffic relief (Katoshevski-Cavari, Bak and Shiftan, 2018).
 The exact effects of P\&R are controversial. Some studies have confirmed that P\&R facilities can encourage the use of public transport, relieve urban traffic and reduce car emissions in city centres. Other studies pointed to possible counter-effects of P\&R. The reduction of congestion in city centres might encourage motorists to use their cars in the city again, as accessibility has increased, and motorists travelling to the city centre via P\&R facilities might travel some extra kilometres to reach the P\&R facility. The exact weight of these negative externalities is still debatable (and will vary from place to place), as is the direct net benefit of P\&R on car traffic in the city area as a whole. However, it is undisputed that well-used P\&R facilities directly reduce car traffic in the city centre (Dijk and Montalvo, 2011).
 
-\hypertarget{current-state-of-art-in-practice-10}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-10}}
+\hypertarget{current-state-of-art-in-practice-11}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-11}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Parking management has evolved greatly in Europe over the last decades, and P\&R has emerged as one of the newest elements of urban parking management. Virtually all urban areas are facing growing parking demand. More parking spaces lead to growing problems of urban congestion and pollution from traffic. Many cities have responded with policies aimed at improving the utilisation of existing infrastructure (e.g.~through pricing or automatic display of parking capacity) and building new infrastructure at structural bottlenecks. The typical development of urban parking policies can be presented in seven phases (Dijk and Montalvo, 2011):
@@ -3204,8 +3406,8 @@ Recommendations for municipalities \& public transport:
   Combine Bike+Ride and P\&R facilities to make it possible for residents from the immediate vicinity to reach the facility by bicycle instead of by car (Luca and Dommnich, 2018).
 \end{itemize}
 
-\hypertarget{relevant-initiatives-in-austria-11}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-11}}
+\hypertarget{relevant-initiatives-in-austria-12}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-12}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region this year. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P\&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P\&R facilities is free of charge for public transport passengers (VOR.at, no date).
@@ -3224,8 +3426,8 @@ Recommendations for municipalities \& public transport:
   \href{https://noe.orf.at/stories/3030525/}{noe.orf.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-11}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-11}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-12}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-12}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -3301,8 +3503,8 @@ Moore et al., 2019; ITF, no date\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-11}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-11}}
+\hypertarget{technology-and-societal-readiness-level-12}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-12}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -3314,8 +3516,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-11}{%
-\subsection*{Open questions}\label{open-questions-11}}
+\hypertarget{open-questions-12}{%
+\subsection*{Open questions}\label{open-questions-12}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -3329,8 +3531,8 @@ TRL & SRL\tabularnewline
   What is the potential of P\&R in facilitating multimodal transport at the advent of integrated travel apps?
 \end{enumerate}
 
-\hypertarget{further-links-9}{%
-\subsection*{Further links}\label{further-links-9}}
+\hypertarget{further-links-10}{%
+\subsection*{Further links}\label{further-links-10}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -3343,8 +3545,8 @@ TRL & SRL\tabularnewline
   \href{https://www.stadt-wien.at/wien/parken-in-wien/park-ride-parkhaeuser-im-ueberblick.html}{stadt-wien.at}
 \end{itemize}
 
-\hypertarget{references-11}{%
-\subsection*{References}\label{references-11}}
+\hypertarget{references-12}{%
+\subsection*{References}\label{references-12}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -3374,14 +3576,14 @@ TRL & SRL\tabularnewline
 \hypertarget{contactless_cards}{%
 \section{Contactless public transport cards}\label{contactless_cards}}
 
-\hypertarget{synonyms-11}{%
-\subsection*{Synonyms}\label{synonyms-11}}
+\hypertarget{synonyms-12}{%
+\subsection*{Synonyms}\label{synonyms-12}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Contactless smart card, smart card ticketing}
 
-\hypertarget{definition-12}{%
-\subsection*{Definition}\label{definition-12}}
+\hypertarget{definition-13}{%
+\subsection*{Definition}\label{definition-13}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Smart card ticketing means, that the passenger's entitlement to travel is stored electronically on a chip that is usually embedded in a plastic card and validated when the card is presented to a smart reader (Turner \& Wilson, 2010). On the contrary to contact smart cards, which have to be inserted into a smart card reader, contactless smart cards must only be near to the readers (about 10 cm) to exchange data (Mezghani, 2008). There are three types of standards used, called Type A, Type B (both complying with ISO 14443 standard) and FeliCa, while FeliCa provides faster transmission and is mainly used in Asian countries (Kurauchi \& Schmöcker, 2017).
@@ -3389,8 +3591,8 @@ Smart and integrated ticketing systems are expected to deliver greater flexibili
 England's Department of Transport has planned a strategy, to introduce integrated and smart ticketing to the majority of the UK by 2020. Their research suggests that net annual benefits of over £1 billion per year to passengers, operators and local authorities can be the result (Turner \& Wilson, 2010).
 Another advantage of using smart cards ticketing, is the large amount of data on passengers' behaviour, which can be collected with lower cost (Kurauchi \& Schmöcker, 2017). In Austria smart cards have not been implemented on a large scale. Only the City of Wales has smart cards for the public transport in use (Wels Linien). ÖBB (ÖBB, 2021) and Wiener Linien (Wiener Linien, 2021) don't have smart cards in use, but online tickets for smart phones, using QR Codes. Wiener Linien are currently researching on a more efficient solution for the usage of digital tickets, since they developed, that ticket controls of digital tickets take longer than for paper tickets (Wiener Linien, 2021b).
 
-\hypertarget{key-stakeholders-12}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-12}}
+\hypertarget{key-stakeholders-13}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-13}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -3401,8 +3603,8 @@ Another advantage of using smart cards ticketing, is the large amount of data on
   \textbf{Responsible}: Public transport operators, public transport associations, public transport authorities, smart card producers, Industry suppliers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-12}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-12}}
+\hypertarget{current-state-of-art-in-research-13}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-13}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The latest research goes in the direction of using smart phones or other mobile devices for smart ticketing. An initiative, led by NFC Forum and GSMA achieved in 2015 together with global public transport representatives, the Smart Ticketing Alliance and the JR East as well as standards bodies, including CEN and ISO, harmonizing the specifications of mobile device NFC interfaces and public transport readers and cards. Together they established standards for testing mobile devices and public transport equipment (NFC Forum, 2016).
@@ -3413,14 +3615,14 @@ The latest research goes in the direction of using smart phones or other mobile 
 
 Furthermore current research addresses the issues of big data and how collected data through contactless smart cards can be best analysed (see Kurauchi \& Schmöcker, 2017).
 
-\hypertarget{current-state-of-art-in-practice-11}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-11}}
+\hypertarget{current-state-of-art-in-practice-12}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-12}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Many countries, regions or cities, have smart card ticketing systems in use, like the whole of Netherlands, Helsinki Region, Minsk, Berlin, Auckland, Sydney and many more (see Wikipedia contributors, 2021). The systems itself differ and depend on the local ticketing and fare systems. While London, for instance, is using an access control system, Helsinki's system is trust based. Furthermore, a distinction can be made between pre-paid (debit) and post-paid (credit) systems (Kurauchi \& Schmöcker, 2017).
 
-\hypertarget{relevant-initiatives-in-austria-12}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-12}}
+\hypertarget{relevant-initiatives-in-austria-13}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-13}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -3433,8 +3635,8 @@ Many countries, regions or cities, have smart card ticketing systems in use, lik
   \href{https://www.austriacard.com/}{austriacard}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-12}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-12}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-13}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-13}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -3499,8 +3701,8 @@ Kurauchi \& Schmoecker, 2017\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-12}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-12}}
+\hypertarget{technology-and-societal-readiness-level-13}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-13}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -3512,8 +3714,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-12}{%
-\subsection*{Open questions}\label{open-questions-12}}
+\hypertarget{open-questions-13}{%
+\subsection*{Open questions}\label{open-questions-13}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -3525,8 +3727,8 @@ TRL & SRL\tabularnewline
   What advantages and disadvantages would an implementation in the main cities of Austria have?
 \end{enumerate}
 
-\hypertarget{further-links-10}{%
-\subsection*{Further links}\label{further-links-10}}
+\hypertarget{further-links-11}{%
+\subsection*{Further links}\label{further-links-11}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -3535,8 +3737,8 @@ TRL & SRL\tabularnewline
   \href{https://www.itso.org.uk/}{itso}
 \end{itemize}
 
-\hypertarget{references-12}{%
-\subsection*{References}\label{references-12}}
+\hypertarget{references-13}{%
+\subsection*{References}\label{references-13}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -3589,8 +3791,8 @@ TRL & SRL\tabularnewline
 \hypertarget{parking_assistance}{%
 \section{Parking assistance system}\label{parking_assistance}}
 
-\hypertarget{definition-13}{%
-\subsection*{Definition}\label{definition-13}}
+\hypertarget{definition-14}{%
+\subsection*{Definition}\label{definition-14}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Nowadays, parking a car becomes an increasingly mundane task due to the growing size of the vehicles which consequently reduces visibility to the rear and front. Moreover, the number of vehicles on the road continues to increase which makes finding parking spaces more difficult. To overcome this challenge, efficient and advanced parking techniques are needed, such as finding the right parking space and parking cars efficiently (Khalid et al., 2021).
@@ -3598,8 +3800,8 @@ While in the 1990s parking assistance systems were not considered necessary, sys
 With respect to safety issues, parking assistance systems can reduce insurance claims that occur during parking manoeuvres by 30\% (ADAC, 2020). They also provide a useful application in the form of emergency brake assistant that prevents accidents with other road users when reversing (ADAC, 2019).
 Modern Parking assistants work with two sensor concepts: ultrasonic sensors for the close range at the rear (often already installed as ``parking beepers'') and radar sensors with a longer range at the side in the bumper (ADAC, 2019). Additionally, there are also new releases with 360° view around the car (Land Rover, no date; Mercedes-Benz, no date). However, there are no tests for this at the moment.
 
-\hypertarget{key-stakeholders-13}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-13}}
+\hypertarget{key-stakeholders-14}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-14}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -3610,8 +3812,8 @@ Modern Parking assistants work with two sensor concepts: ultrasonic sensors for 
   \textbf{Responsible}: Car manufacturers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-13}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-13}}
+\hypertarget{current-state-of-art-in-research-14}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-14}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The research on on-board parking features is almost entirely owned by the car manufacturers. Research tends to focus on larger-scale issues such as car parking location tracking, space booking systems using IoT and congestion caused by \emph{parking cruises}.
@@ -3620,8 +3822,8 @@ BMW was the best at reacting to all situations with radar and ultrasound - with 
 Overall, these tests showed that the automatic braking parking assistants have a lot of potential, but are far from optimal. Even the system of the front-runner does not yet work 100\% reliably. Even the low-cost ultrasonic sensors, however, can be very effective and even prevent pedestrian collisions, as the BMW showed in the test. Therefore, it is crucial that manufacturers equip their vehicles with an effective AEB system as a standard. The necessary technology is already available in most passenger cars where the rear ultrasonic sensors would need to be linked to the braking function (ADAC, 2019).
 The greatest difficulties are encountered in pedestrian detection, in the scenarios in which the risk of personal injury is potentially the highest. Some of the tested vehicles recognised the dangerous situation too late or not at all.
 
-\hypertarget{current-state-of-art-in-practice-12}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-12}}
+\hypertarget{current-state-of-art-in-practice-13}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-13}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Nearly 50\% of the cars in Germany are now equipped with parking assistance. Nonetheless, the results of a study by HUK-Coburg, Germany's largest motor insurer with eleven million insured cars, show that the number of fender-benders has not decreased and the damage costs have even risen slightly. The reason for this is the damage to the expensive Park Distance Control (PDC) sensor embedded in the bumper when vehicle collides with an obstacle while parking (Focus Online, 2017).
@@ -3629,8 +3831,8 @@ In 2017, 570 accidents with personal injury occurred in Austria when reversing w
 According to different sources, between 23\% and 46\% of the cars in Germany are equipped with an on-board parking assistant (Focus Online, 2017). In contrast, only 13\% of the vehicles are equipped with an emergency brake assistant that automatically brakes in the event of an imminent collision with the vehicle in front or even detects pedestrians and cyclists. Further, a survey conducted on 1000 respondents by German Road Safety Council showed that 85\% of the sample found the emergency brake assistant as highly useful and 65\% considered parking assistant highly beneficial (Handelsblatt, 2016).
 Currently, the most advanced technology with respect to parking assistance is offered by Tesla S, where the system is fully autonomous and allows the car to drive itself out of a tight space without the driver's intervention. But it is expected that the technology will be available from other manufacturers too and will improve rapidly in the coming years. One reason for this is that parking assistants with brake intervention will become part of the European vehicle test programme \emph{Euro NCAP} from 2020. In the past, it has been shown that the inclusion of active and passive passenger car safety systems in this programme quickly increases the rate at which vehicles are equipped (ÖAMTC, 2019).
 
-\hypertarget{relevant-initiatives-in-austria-13}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-13}}
+\hypertarget{relevant-initiatives-in-austria-14}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-14}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -3639,8 +3841,8 @@ Currently, the most advanced technology with respect to parking assistance is of
   \href{https://www.oeamtc.at/tests/assistenzsystemtest/fuenf-parkassistenten-mit-notbremssystem-im-test-31717317}{oeamtc.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-13}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-13}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-14}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-14}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -3694,8 +3896,8 @@ Euro NCAP, 2021\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-13}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-13}}
+\hypertarget{technology-and-societal-readiness-level-14}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-14}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -3707,8 +3909,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-13}{%
-\subsection*{Open questions}\label{open-questions-13}}
+\hypertarget{open-questions-14}{%
+\subsection*{Open questions}\label{open-questions-14}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -3720,8 +3922,8 @@ TRL & SRL\tabularnewline
   What are the legal implications for the use of assisted parking for both drivers and car manufacturers?
 \end{enumerate}
 
-\hypertarget{references-13}{%
-\subsection*{References}\label{references-13}}
+\hypertarget{references-14}{%
+\subsection*{References}\label{references-14}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -3770,14 +3972,14 @@ TRL & SRL\tabularnewline
 \hypertarget{ehorizon}{%
 \section{Electronic horizon}\label{ehorizon}}
 
-\hypertarget{synonyms-12}{%
-\subsection*{Synonyms}\label{synonyms-12}}
+\hypertarget{synonyms-13}{%
+\subsection*{Synonyms}\label{synonyms-13}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Connected horizon, e-horizon, EH}
 
-\hypertarget{definition-14}{%
-\subsection*{Definition}\label{definition-14}}
+\hypertarget{definition-15}{%
+\subsection*{Definition}\label{definition-15}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Modern vehicles are currently equipped with different sensors to increase the safety and comfort of driving. Nonetheless, these built-in sensors can usually operate for a short distance of a few hundred meters. On the other hand, digital maps within the system provide information about the road such as its geometry, number of lanes, speed limits or traffic signals. Therefore, the merger between the functions of the sensors and the data provided by the map gives rise to so-called \emph{Electronic Horizon} applications, that are able to provide information from the sensors within an extended range and allow for earlier preparation for a situation ahead (Ress et al., 2008).
@@ -3796,8 +3998,8 @@ The benefits of the e-horizon include increased comfort due to partially automat
   \emph{Security and privacy issues}: as with other connected systems, the issue with data protection arises to ensure security and quality for customers.
 \end{itemize}
 
-\hypertarget{key-stakeholders-14}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-14}}
+\hypertarget{key-stakeholders-15}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-15}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -3808,20 +4010,20 @@ The benefits of the e-horizon include increased comfort due to partially automat
   \textbf{Responsible}: Car manufacturers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-14}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-14}}
+\hypertarget{current-state-of-art-in-research-15}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-15}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Profound test of software and hardware are performed under various condition such as different speed and journey breaks to gather data on the entire information chain from GPS positioning to e-Horizon generation. Based on the collected information the engineers optimize the workflow before moving to real test drive. In real test drives, the performance of the applications is frequently checked in the borderline scenarios or with deliberate errors (Ludwig, 2013). Moreover, driving simulation is used to test the effects of sensors failures (Elgharbawy et al., 2019)
 
-\hypertarget{current-state-of-art-in-practice-13}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-13}}
+\hypertarget{current-state-of-art-in-practice-14}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-14}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Electronic horizon is relatively well-established technology in terms of both, passenger and commercial vehicles and it is offered by several manufacturers including \href{https://www.bosch-mobility-solutions.com/en/products-and-services/passenger-cars-and-light-commercial-vehicles/connectivity-solutions/connected-horizon/}{BOSCH}, \href{https://www.tomtom.com/products/autostream/}{TomTom} in cooperation with \href{https://www.elektrobit.com/products/automated-driving/eb-robinos/predictor/}{Electrobit} and \href{https://www.continental.com/en/press/press-releases/continental-ehorizon-and-previewesc-systems-180356}{Continental} working together with data technology company \href{https://www.continental.com/en/press/press-releases/continental-and-ibm-enter-connected-vehicle-collaboration-8438}{IBM} and \href{https://360.here.com/2017/01/04/introducing-here-electronic-horizon/}{HERE}, pioneering company in location technology (Continental, 2019).
 
-\hypertarget{relevant-initiatives-in-austria-14}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-14}}
+\hypertarget{relevant-initiatives-in-austria-15}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-15}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -3830,8 +4032,8 @@ Electronic horizon is relatively well-established technology in terms of both, p
   \href{https://gsv.co.at/wp-content/uploads/2015_05_06_Foersterling.pdf}{gsv.co.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-14}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-14}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-15}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-15}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -3907,8 +4109,8 @@ Continental, 2019; Foersterling, 2015\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-14}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-14}}
+\hypertarget{technology-and-societal-readiness-level-15}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-15}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -3920,8 +4122,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-14}{%
-\subsection*{Open questions}\label{open-questions-14}}
+\hypertarget{open-questions-15}{%
+\subsection*{Open questions}\label{open-questions-15}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -3937,8 +4139,8 @@ TRL & SRL\tabularnewline
   How to ensure availability of services and data when these are deployed outside of the vehicle? (Grewe et al., 2017)
 \end{enumerate}
 
-\hypertarget{further-links-11}{%
-\subsection*{Further links}\label{further-links-11}}
+\hypertarget{further-links-12}{%
+\subsection*{Further links}\label{further-links-12}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -3959,8 +4161,8 @@ TRL & SRL\tabularnewline
   \href{http://strategic-partnering.net/continental-ibm-enter-connected-vehicle-collaboration/}{strategic-partnering.net}
 \end{itemize}
 
-\hypertarget{references-14}{%
-\subsection*{References}\label{references-14}}
+\hypertarget{references-15}{%
+\subsection*{References}\label{references-15}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -3986,14 +4188,14 @@ TRL & SRL\tabularnewline
 \hypertarget{ecall}{%
 \section{Emergency call}\label{ecall}}
 
-\hypertarget{synonyms-13}{%
-\subsection*{Synonyms}\label{synonyms-13}}
+\hypertarget{synonyms-14}{%
+\subsection*{Synonyms}\label{synonyms-14}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Public-Safety Answering-Point (PSAP), E-call}
 
-\hypertarget{definition-15}{%
-\subsection*{Definition}\label{definition-15}}
+\hypertarget{definition-16}{%
+\subsection*{Definition}\label{definition-16}}
 \addcontentsline{toc}{subsection}{Definition}
 
 The E-Call is a system that provides an automated message to the emergency services following a road crash which includes the precise crash location. The in-vehicle e-Call is an emergency call generated either manually by the vehicle occupants or automatically via activation of in-vehicle sensors after a crash. The aim of this system is to reduce the time between the accident and the provision of medical services.As soon as the in-vehicle eCall device is activated, it establishes an emergency call carrying both voice and data directly to the nearest emergency services (normally the nearest 112 Public Safety Answering Point, PSAP). The voice call enables vehicle occupants to communicate with the trained eCall operator. At the same time, a minimum set of data is sent to the eCall operator receiving the voice call (European Commission, 2020a).
@@ -4021,8 +4223,8 @@ The minimum data provided during an E-call are (Kroher, 2020):
   whether the emergency call was triggered automatically or manually
 \end{itemize}
 
-\hypertarget{key-stakeholders-15}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-15}}
+\hypertarget{key-stakeholders-16}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-16}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -4033,15 +4235,15 @@ The minimum data provided during an E-call are (Kroher, 2020):
   \textbf{Responsible}: Road Infrastructure Agencies, Local and National Governments, Automotive Companies, Policy Makers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-15}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-15}}
+\hypertarget{current-state-of-art-in-research-16}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-16}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The research on the emergency calls looks at its efficiency in fatalities reduction as a consequence of road accidents. For example, a Swedish study concluded that 49\% of those who died in fatal road accidents could have survived. In particular, 5\% of them would have survived if they had been located more quickly, 12\% if they had been transported to hospital more quickly and 32\% if they had been taken to an advanced trauma centre more quickly (Henriksson et al., 2001). Therefore, the evidence shows that the potential of e-calls in saving lives is significant. Moreover, a study by Virtanen et al.~(2006) estimated that the use of an e-Call could reduce between 4-8\% of road fatalities and 5-10\% of motor vehicle occupant deaths in Finland. In other European countries, these estimates fluctuate between 2\%-7\%, whereas the estimate for whole EU area with 25 member states reaches up to 15\% in fatalities reduction. The European Commission estimates that a pan-European eCall system has the potential to prevent up to 2500 deaths per year in the EU-25 if fully implemented (European Commission, 2020a).
 Another strand of research focuses on the testing of different designs of e-Call systems and aims at its standardisation across European Union member countries. Uniform legislation concerns in particular, the communication protocol and the amount of data that is provided by an e-call, as well as its content and format (European Commission, 2020a).
 
-\hypertarget{current-state-of-art-in-practice-14}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-14}}
+\hypertarget{current-state-of-art-in-practice-15}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-15}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Since the end of March 2018, manufacturers in the EU have to include E-Call in all new models of passenger cars and light commercial vehicles (Bundesministerium für Verkehr, no date). However, even if the vehicles have an e-Call system installed, some car producers additionally install their own emergency call systems. The use of manufacturer-specific e-call system rather than a standardised one, gives car manufacturers an advantage and creates an opportunity to trade the data to external `accident related' providers such as towing, or offer services in terms of post-accident customer care such as vehicle reparation or car replacement.
@@ -4067,8 +4269,8 @@ On the other hand, due to data protection concerns, the system is viewed sceptic
   In order to be able to use an eCall technology installed in the vehicle fleet over the lifetime of the vehicles in an emergency, it is necessary to maintain the 2G/3G networks.
 \end{itemize}
 
-\hypertarget{relevant-initiatives-in-austria-15}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-15}}
+\hypertarget{relevant-initiatives-in-austria-16}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-16}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 In Austria, the handling of emergency calls falls under the responsibility of the Ministry of the Interior.
@@ -4086,8 +4288,8 @@ In the project \emph{E-Call Austria}, the E-Call system is to be implemented in 
   \href{https://oe1.orf.at/artikel/644731/eCall-der-automatische-Autonotruf-und-seine-Nachteile}{oe1.orf.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-15}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-15}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-16}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-16}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -4141,8 +4343,8 @@ European Commission, 2020b\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-15}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-15}}
+\hypertarget{technology-and-societal-readiness-level-16}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-16}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -4154,8 +4356,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-15}{%
-\subsection*{Open questions}\label{open-questions-15}}
+\hypertarget{open-questions-16}{%
+\subsection*{Open questions}\label{open-questions-16}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -4169,14 +4371,14 @@ TRL & SRL\tabularnewline
   What is the time horizon to see a full impact of an e-Call, given the proportion of `older' cars on the roads which do not have e-call fitted?
 \end{enumerate}
 
-\hypertarget{further-links-12}{%
-\subsection*{Further links}\label{further-links-12}}
+\hypertarget{further-links-13}{%
+\subsection*{Further links}\label{further-links-13}}
 \addcontentsline{toc}{subsection}{Further links}
 
 -\href{https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en}{ec.europa.eu}
 
-\hypertarget{references-15}{%
-\subsection*{References}\label{references-15}}
+\hypertarget{references-16}{%
+\subsection*{References}\label{references-16}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -4222,27 +4424,258 @@ TRL & SRL\tabularnewline
 \hypertarget{intelligent_truck_park}{%
 \section{Intelligent truck parking}\label{intelligent_truck_park}}
 
+\hypertarget{synonyms-15}{%
+\subsection*{Synonyms}\label{synonyms-15}}
+\addcontentsline{toc}{subsection}{Synonyms}
+
+\emph{ITP, Information on Truck Parking}
+
+\hypertarget{definition-17}{%
+\subsection*{Definition}\label{definition-17}}
+\addcontentsline{toc}{subsection}{Definition}
+
+Nowadays, there is a significant increase in transport volume, especially in the international road freight transport. In particular, with the enlargement of the EU member states, the interdependence of the member states has increased as well as the ratio of the exchange of goods and thus the increase in need for transport services (Gnap and Kubíková, 2020). Consequently, the higher number of vehicles and associated traffic lead to difficulties in meeting deadlines for loading and unloading goods as well as the obligation to take mandatory safety breaks and rest periods. It also amplifies the issue with lack of parking spaces along the route for the Heavy Goods Vehicle (HGV) which has a negative impact on logistics and creates assumptions for increasing logistics costs (Lozia and Kulma, 2014).
+Therefore, the European Union is striving to support the development of the Trans-European Transport Network (TEN-T) through structural funds. The TEN-T network is intended to connect the member states from east to west and from north to south. Unfortunately, the rate of road construction in some countries is far below the rate of growth of transport services. The abolishment of in-vehicle resting and other upcoming changes in the so-called ``road package'' will increase the need for more parking spaces and associated equipment for drivers, especially on motorways. This fact will have a significant impact on the pressure on vehicle parking spaces when the maximum prescribed driving time is observed and there is a need to stop a vehicle and take a safety break or a daily/weekly rest period (Carrese et al., 2014). On top of this, there is a clear need for charging and refuelling stations for alternative fuels at rest areas to ensure smooth transit of vehicles using alternative fuels. These should be in line with the implementation of \href{https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX\%3A32014L0094}{Directive 2014/94/EU} of the European Parliament.
+Therefore, to attempt addressing these issues, an Intelligent Truck Parking (ITP) emerged which is an Intelligent Transportation Systems service concerned with the management of information related to HGV parking operations. ITP collects data about parking facilities (services and availability), processes the data, e.g.~occupancy level, and communicates the information to drivers (in real time) in order to help them easily access such a facility. ITP enables efficient parking management and potentially improve the needs of transport stakeholders through the provision of information such as available parking spaces and additional services (Sochor \& Mbiydzenyuy, 2013).
+Good examples of the efficient use of the information system can be found in Germany or Austria. These systems, as part of the intelligent transport systems, offer services that make transport easier for drivers, e.g.~searching for free parking spaces at rest areas located along motorways and motorways (Gnap and Kubíková, 2020).
+
+\hypertarget{key-stakeholders-17}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-17}}
+\addcontentsline{toc}{subsection}{Key stakeholders}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Affected}: Drivers, Transport companies, Freight forwarders, Shippers and Insurers
+\item
+  \textbf{Responsible}: National Governments, Fright Companies, International authorities (eg. EU)
+\end{itemize}
+
+\hypertarget{current-state-of-art-in-research-17}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-17}}
+\addcontentsline{toc}{subsection}{Current state of art in research}
+
+In the literature mostly, regional plans for specific areas in a certain country can be found. For example Carrese et al., (2014) for the Lazio Region in Italy and Gnap and Kubíková, (2020) for the Slovak Republic. However, safety aspects are also highlighted, such as a classification scheme of parking spaces for trucks in long-distance traffic. Again, the data is limited to a specific region (Peel Region in Ontario, Canada) but efforts have been made to develop a generally applicable scheme (Nevland et al., 2020).
+
+\hypertarget{current-state-of-art-in-practice-16}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-16}}
+\addcontentsline{toc}{subsection}{Current state of art in practice}
+
+A common European park strategy was developed in 2014 by the European organisation SETPOS within the \href{https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/2010_04_28_setpos_project_handbook.pdf}{SETPOS} project. The project had four objectives:
+
+\begin{itemize}
+\tightlist
+\item
+  The assessment and validation of the requirements of stakeholders, i.e.~drivers, dispatchers, hauliers, rest area operators, insurers, authorities and shippers;
+\item
+  The formulation of a common set of standards for secured parking;
+\item
+  The establishment of a number of pilot parking areas in cross-border regions to validate and demonstrate the standard set;
+\item
+  To set up an information, guidance and reservation platform for all types of truck parking.
+\end{itemize}
+
+The \href{https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/handbook_for_labelling.pdf}{LABEL} project, which follows the SETPOS, aims to increase safety and quality standards for truck parking in Europe by (Carrese et al., 2014):
+
+\begin{itemize}
+\tightlist
+\item
+  Introducing a European standard certification scheme for truck parking areas;
+\item
+  developing an online database for users to provide financial benefits to certified sites.
+\end{itemize}
+
+Every day, billions of euros worth of goods are transported on the trans-European road network, the backbone of the EU economy. Despite the sector's successful performance with respect to volume, it faces a significant number of issues, including drivers' shortage, skills shortage, ageing workforce and challenges related to safety, security and connectivity. In the road haulage industry, cargo equipment is a frequent target of organised criminal groups. Consequently, cargo thefts and illegal truck boarding cause significant financial and reputational losses for supply chain operators.
+Currently, there is a lack of facilities that allow for safe parking of trucks and that also provide a minimum level of services for the social well-being of drivers. By establishing a denser network of secure truck parking areas (SSTPAs) with a clear definition of security levels, it is possible to address these issues all together. Drivers, transport companies, freight forwarders, shippers and insurers, as well as society as a whole, will benefit from a sufficient supply of these facilities by protecting drivers, cargo and transport equipment. In addition, road safety through well-rested drivers is another area where such facilities can have a significant positive impact. In this context, the European Commission conducted a study on safe parking areas for trucks, which was completed in December 2018. The main findings of this study demonstrated a need for (van Weenen et al., 2019):
+
+\begin{itemize}
+\tightlist
+\item
+  A common standard and rating system for safety and service;
+\item
+  Audit responsibilities and guidelines to ensure reliability;
+\item
+  Comprehensive maps showing where SSTPAs are needed;
+\item
+  Recommendations for the basis of a common application program interface (API) for the exchange of dynamic data between SSTPAs and information platforms;
+\item
+  Manuals to support the creation of business plans for the establishment of SSTPAs.
+\end{itemize}
+
+A gap analysis to compare secure truck parking demand and supply at the European level and in more detail along the core network identified a number of issues, including (van Weenen et al., 2019):
+
+\begin{itemize}
+\tightlist
+\item
+  The total night parking demand is 400,000 truck parking spaces per night;
+\item
+  Only 300,000 truck parking spaces are available, which means a deficit of about 100,000 additional spaces;
+\item
+  The deficit in certified secure parking spaces is much greater, as only 7,000 spaces are available in a few countries. In some countries and on certain corridors, motorists cannot rely on the availability of certified secure parking spaces;
+\item
+  The current supply of non-secure parking spaces is more evenly distributed across the network. However, these spaces are not certified and do not offer guaranteed services to drivers.
+\end{itemize}
+
+Truck Parking Europe helps transport companies ensure the safety of drivers and freight. Inspection reports provide information on the safety features in truck parking areas. These audit reports help safety and planning managers to approve safe parking areas across Europe (in line with the standardised safety framework created by the EU). They provide a detailed overview of the facilities that each truck parking area offers (Truck Parking Europe, no date).
+
+\hypertarget{relevant-initiatives-in-austria-17}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-17}}
+\addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
+
+One of the European Amazon drone development centres is localised in Austria (Marshall, 2020). Moreover, a new drone law came into force in the EU on 31 December 2020 to standardise the rules. It requires a CE marking on the drone and a drone licence for drones weighing 250g or more.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.truckparkingeurope.com/secure-truck-parking-overview/austria/}{truckparkingeurope-austria}
+\end{itemize}
+
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-17}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-17}}
+\addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\centering
+Impact level\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\centering
+Indicator\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Impact direction\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Goal description and number\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Source\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Increase safety and security of drivers\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Health \& Wellbeing (\emph{3})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+van Weenen et al., 2019\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Reduced loses ralated to cargo thefts\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Sustainable economic development (\emph{8,11})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+van Weenen et al., 2019\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Additional focus on the alternative fuel infrastructure\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Innovation \& Infrastructure (\emph{9})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Gnap and Kubikova, 2020\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{technology-and-societal-readiness-level-17}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-17}}
+\addcontentsline{toc}{subsection}{Technology and societal readiness level}
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+TRL & SRL\tabularnewline
+\midrule
+\endhead
+8-9 & 7-9\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{open-questions-17}{%
+\subsection*{Open questions}\label{open-questions-17}}
+\addcontentsline{toc}{subsection}{Open questions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  How to attract the interest of motorway companies, both private and public, to facilitate data provision, upgrading of parking sites for security and reservation, and encourage the infrastructure construction to capture dynamic data?
+\item
+  What software infrastructure is needed to allow for in-vehicle up-to-date information about the occupancy and reservation of truck parking areas?
+\end{enumerate}
+
+\hypertarget{further-links-14}{%
+\subsection*{Further links}\label{further-links-14}}
+\addcontentsline{toc}{subsection}{Further links}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.truckparkingeurope.com/secure-truck-parking-overview/}{truckparkingeurope.com-1}
+\item
+  \href{https://www.truckparkingeurope.com/how-do-i-reserve-a-secure-truck-parking-spot/}{truckparkingeurope.com-2}
+\item
+  \href{https://ec.europa.eu/transport/themes/its/road/action_plan/intelligent-truck-parking_en}{ec.europa.eu-1}
+\item
+  \href{https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/2010_04_28_setpos_project_handbook.pdf}{ec.europa.eu-2}
+\item
+  \href{https://ec.europa.eu/transport/sites/transport/files/2019-study-on-safe-and-secure-parking-places-for-trucks.pdf}{ec.europa.eu-3}
+\item
+  \href{https://www.tis-gdv.de/tis_e/bedingungen/parken/lpp-htm/}{tis-gdv.de}
+\item
+  \href{https://unece.org/DAM/trans/doc/2008/sc1/ECE-TRANS-SC1-103-pres01e.pdf}{unece.org}
+\end{itemize}
+
+\hypertarget{references-17}{%
+\subsection*{References}\label{references-17}}
+\addcontentsline{toc}{subsection}{References}
+
+\begin{itemize}
+\tightlist
+\item
+  Carrese, S., Mantovani, S. and Nigro, M. (2014) `A security plan procedure for Heavy Goods Vehicles parking areas: An application to the Lazio Region (Italy)', Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 65(1), pp.~35--49. doi: 10.1016/j.tre.2013.12.011.
+\item
+  Gnap, J. and Kubíková, S. S. (2020) `Possible Effects of Lacking Parking Areas for Road Freight Transport on Logistics and Transport Safety', Transportation Research Procedia. Elsevier B.V., 44(2019), pp.~53--60. doi: 10.1016/j.trpro.2020.02.009.
+\item
+  Lozia, Z. and Kulma, J. (2014) `Simulation method of comparative evaluation of the agility of a passenger car when moving ``forwards'' and ``backwards''\,', Archiwum Motoryzacji, 64, pp.~49--64, 149.
+\item
+  Nevland, E. A., Gingerich, K. and Park, P. Y. (2020) `A data-driven systematic approach for identifying and classifying long-haul truck parking locations', Transport Policy. Elsevier Ltd, 96, pp.~48--59. doi: 10.1016/j.tranpol.2020.04.003.
+\item
+  Sochor, J., \& Mbiydzenyuy, G. (2013). Assessing the benefits of intelligent truck parking. International Journal of Intelligent Transportation Systems Research, 11(2), 43-53.
+\item
+  Truck Parking Europe (no date) Audit reports on secure truck parking locations - Truck Parking Europe. Available at: \url{https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/} (Accessed: 3 March 2021).
+\item
+  van Weenen, R., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I., Ruschin, P. P. (2019) Study on Safe and Secure Parking Places for Trucks.
+\end{itemize}
+
 \hypertarget{space_book}{%
 \section{Delivery space booking}\label{space_book}}
 
 \hypertarget{delivery_drone}{%
 \section{Delivery drones}\label{delivery_drone}}
 
-\hypertarget{synonyms-14}{%
-\subsection*{Synonyms}\label{synonyms-14}}
+\hypertarget{synonyms-16}{%
+\subsection*{Synonyms}\label{synonyms-16}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs), Unmanned Traffic Management (UTM)/U-Space}
 
-\hypertarget{definition-16}{%
-\subsection*{Definition}\label{definition-16}}
+\hypertarget{definition-18}{%
+\subsection*{Definition}\label{definition-18}}
 \addcontentsline{toc}{subsection}{Definition}
 
 In the recent year, online shopping and the demand for same-day deliveries has grown exponentially, with more and more people preferring online shopping instead of buying items stationary (Di Puglia Pugliese et al., 2020). At the same time, the last mile is the most expensive process in distribution logistics, contributing to 13\% - 73\% of the total distribution cost. As a result there is an increased pressure for more efficient solutions in the field. The answer to this problem could be drones, or unmanned aerial vehicles (UAVs). Drones combine three key principles of technological modernity - computing, autonomy and limitless mobility. Capabilities that until now could only be used by the military are becoming accessible to most of the population. Potential use for drones ranges from surveillance and reconnaissance missions to novel forms of logistics and personal transport. The commercial use of drones is associated with enormous economic opportunities. Even though drones are already common as surveillance/sensing devices in security services, geodesy or agriculture, their use as a means of transport is still at the beginning. Delivery drones are currently able to lift weights of up to 2-3 kg and carry out flight assignments in an urban space (Kellermann et al., 2020).
 What is more, an accelerated progress is expected in the near future, where the European Commission estimates the economic impact of the wider use of drones at €10 billion annually until 2035 and foresees the creation of more than 100,000 direct jobs. Taking into account indirect macroeconomic effects in drone-related industries, the Commission even projects 250,000 to 400,000 additional jobs (SESAR, 2016).
 
-\hypertarget{key-stakeholders-16}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-16}}
+\hypertarget{key-stakeholders-18}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-18}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -4253,8 +4686,8 @@ What is more, an accelerated progress is expected in the near future, where the 
   \textbf{Responsible}: National governments, city government, private companies, online shops
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-16}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-16}}
+\hypertarget{current-state-of-art-in-research-18}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-18}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Current research shows that drones reduce noise, congestion in urban areas and CO\textsubscript{2} emissions. Multiple studies showed that the use of drones in logistics processes can reduce the lead time (defined as the latency between the beginning and the completion of the process), time span and transport costs of the delivery process (Di Puglia Pugliese et al., 2020; Wang et al., 2017; Di Puglia Pugliese \& Guerriero, 2017). However, it is also important that drones have lower capacity and working time (low flight endurance) than classic vehicles.
@@ -4295,16 +4728,16 @@ Current research also examines the potential of drones in food delivery services
   In all models, it is observed that young people are more likely to choose drone delivery service than old people.
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-practice-15}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-15}}
+\hypertarget{current-state-of-art-in-practice-17}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-17}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Several large companies, such as \emph{Amazon} (Amazon.com, 2021), \emph{DHL} (Di Puglia Pugliese et al., 2020), \emph{UBER} , \emph{Wing} (Bonnington, 2012), \emph{UPS} (UPS, 2021) and some more have started using delivery drones for parcel delivery. However, governments and experts fear the misuse of drones. In particular, after their concerns materialised with the incident at London Airport (Keane, 2018). To protect against misuse, work is being carried out internationally on a digital remote ID so that the drone operators can always be assigned to the drone (Boyle, 2020).
 In the USA, the Federal Aviation Administration (FAA) has allowed drone flights as long as the drone is within an operator's line of sight. However, companies are working on developing drones to fly without this requirement (Fox Rubin, 2019). Further, UPS is already carrying out drone deliveries between WakeMed's main hospital campus in Raleigh, North Carolina, and its neighbouring laboratory centre to send laboratory samples back and forth. The company is also planning flights between hospitals to provide easier access to life-saving drugs like anti-venom (Fox Rubin, 2019). The fact that the first drone experiments have focused on business-to-business deliveries in the healthcare sector is not a coincidence. Firstly, funding is available in this sector, and secondly, the speed of the drones can bring considerable benefits in this field (Marshall, 2020).
 Moreover, Amazon announced back in 2013 that they would start delivering with drones within years and in 2019, alongside the unveiling of their new drone, they announced that they would start drone delivery ``within months'' (Kolodny \& Feiner, 2019). Nonetheless, it is currently claimed that even with all the test flights and announcements, it will be several years before a drone can deliver (Marshall, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-16}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-16}}
+\hypertarget{relevant-initiatives-in-austria-18}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-18}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 One of the European Amazon drone development centres is localised in Austria (Marshall, 2020). Moreover, a new drone law came into force in the EU on 31 December 2020 to standardise the rules. It requires a CE marking on the drone and a drone licence for drones weighing 250g or more.
@@ -4321,8 +4754,8 @@ One of the European Amazon drone development centres is localised in Austria (Ma
   \href{https://www.oeamtc.at/thema/drohnen/drohnen-info-app-26853120}{oeamtc.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-16}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-16}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-18}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-18}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -4398,8 +4831,8 @@ EASA, 2021\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-16}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-16}}
+\hypertarget{technology-and-societal-readiness-level-18}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-18}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -4411,8 +4844,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-16}{%
-\subsection*{Open questions}\label{open-questions-16}}
+\hypertarget{open-questions-18}{%
+\subsection*{Open questions}\label{open-questions-18}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -4428,8 +4861,8 @@ TRL & SRL\tabularnewline
   Will freight drones automatically communicate with other drones such as surveillance, geodesy and agricultural drones?
 \end{enumerate}
 
-\hypertarget{further-links-13}{%
-\subsection*{Further links}\label{further-links-13}}
+\hypertarget{further-links-15}{%
+\subsection*{Further links}\label{further-links-15}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -4438,8 +4871,8 @@ TRL & SRL\tabularnewline
   \href{https://www.easa.europa.eu/sites/default/files/dfu/Easy\%20Access\%20Rules\%20for\%20Unmanned\%20Aircraft\%20Systems\%20(Regulations\%20(EU)\%202019-947\%20and\%20(EU)\%202019-945).pdf}{easa.europa.eu}
 \end{itemize}
 
-\hypertarget{references-16}{%
-\subsection*{References}\label{references-16}}
+\hypertarget{references-18}{%
+\subsection*{References}\label{references-18}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -4484,8 +4917,8 @@ TRL & SRL\tabularnewline
 \hypertarget{rail_telematics_freight}{%
 \section{Rail telematics for freight services}\label{rail_telematics_freight}}
 
-\hypertarget{definition-17}{%
-\subsection*{Definition}\label{definition-17}}
+\hypertarget{definition-19}{%
+\subsection*{Definition}\label{definition-19}}
 \addcontentsline{toc}{subsection}{Definition}
 
 With increasing digitalisation and automation in rail operations, many applications are being developed that will make it possible to significantly increase the attractiveness and efficiency of rail freight transport. Telematics applications are a functional subsystem of the railway system. This subsystem comprises two elements:
@@ -4516,8 +4949,8 @@ In the area of freight transport, this includes the following (European Commissi
 
 The basis for a smart and connected freight wagon is, in addition to telematics for geolocation and communication (satellite navigation, inertial and mobile radio systems), the use of sensors for condition recording and intelligent validation of driving and operating conditions (Ußler et al., 2019). In road transport, about 85\% of trucks are equipped with telematics systems that monitor the condition of the vehicle, track its position and provide a direct communication with the driver via mobile phone. Fleet management receives real-time information and has redundant ways to communicate with the transport in case of problems. Rail freight traditionally operates its transports with infrastructure-based information sources. Therefore, wagons are usually not equipped with wagon-based monitoring and communication devices such as telematics systems and sensors. The result is a constant loss of time-critical goods to road transport (Behrends et al., 2016).
 
-\hypertarget{key-stakeholders-17}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-17}}
+\hypertarget{key-stakeholders-19}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-19}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -4528,16 +4961,16 @@ The basis for a smart and connected freight wagon is, in addition to telematics 
   \textbf{Responsible}: National governments, private companies, public rail provider
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-17}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-17}}
+\hypertarget{current-state-of-art-in-research-19}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-19}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 \href{https://blog.railcargo.com/de/artikel/einzelwagenverkehr}{Single wagonload transport} (SWL) that refers to a situation where individual wagons or groups of wagons from different consignors are bundled together to form one train, is an important component in the European rail transport system and in the logistics of various industries such as steel, chemicals and automotive. However, changing framework conditions and increasingly demanding market requirements have led to dramatic losses of market share and in some countries even to the complete discontinuation of the SWL business. As this business segment is also seen as an important part of the European co-modal transport system in the future, significant improvements are necessary.
 With on-board communication technology, freight operators can improve wagon dispatching and rescheduling processes in case of disruptions. Based on reliable online telematics data, dispatchers will be able to inform their customers about changes in the transport plan earlier, which will increase reliability and satisfaction of stakeholders.
 Cost-efficient and intelligent telematics-based information services allow wagons to be tracked in real time and automatically present wagon mileage information. The telematics data service generates the necessary information required for reliable quality recording. This additional information optimises the current six-year life cycle of freight wagons.
 
-\hypertarget{current-state-of-art-in-practice-16}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-16}}
+\hypertarget{current-state-of-art-in-practice-18}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-18}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 A group of freight rail industry stakeholders in the US announced the formation of Rail Pulse, a joint venture in late 2020 to create a technology platform which will facilitate and accelerate the adoption of GPS and other telematics technologies in the North American railcar fleet. Rail Pulse partners are focused on promoting the adoption of telematics on two fronts:
@@ -4555,8 +4988,8 @@ An investment in wagon telematics results in lower costs and higher turnover. On
 
 Thus far, a significant cost reduction was achieved with new GSM and GPS modules. Interfaces for supplementary sensors such as impact detection, digital/analogue inputs/outputs, etc. were integrated. Furthermore, based on the analysis of user requirements, the development of a reliable load-sensing technology for freight wagons was started. This requirement emerged from the fact that today most freight wagons in railway operation do not use their full load capacity, as there is no cost-effective way to measure the load, especially during the filling process, e.g.~in the area of bulk goods. If the wagons were to be overloaded and then moved by a train, all wheelsets would have to be replaced during costly inspection in a workshop. As a result, the freight wagon is not filled to its maximum payload, which leads to lower capacity and higher costs. To optimise the dispatching processes, the wagons transmit their loading status so that the dispatchers can re-dispatch the wagon in a short time after unloading, resulting in shorter downtimes and higher efficiency of the wagons (Behrends et al., 2016).
 
-\hypertarget{relevant-initiatives-in-austria-17}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-17}}
+\hypertarget{relevant-initiatives-in-austria-19}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-19}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -4571,8 +5004,8 @@ Thus far, a significant cost reduction was achieved with new GSM and GPS modules
   \href{https://www.railcargo.com/de/unternehmen/international/oesterreich}{railcargo.com}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-17}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-17}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-19}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-19}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -4637,8 +5070,8 @@ Behrends et al., 2016\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-17}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-17}}
+\hypertarget{technology-and-societal-readiness-level-19}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-19}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -4650,8 +5083,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-17}{%
-\subsection*{Open questions}\label{open-questions-17}}
+\hypertarget{open-questions-19}{%
+\subsection*{Open questions}\label{open-questions-19}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -4663,8 +5096,8 @@ TRL & SRL\tabularnewline
   What should be changed to enable an effective use of digital solutions?
 \end{enumerate}
 
-\hypertarget{further-links-14}{%
-\subsection*{Further links}\label{further-links-14}}
+\hypertarget{further-links-16}{%
+\subsection*{Further links}\label{further-links-16}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -4681,8 +5114,8 @@ TRL & SRL\tabularnewline
   \href{http://taf-jsg.info/wp-content/uploads/2019/05/RU-IM-Telematics-governance-ToR_V1.3_final-14-05-2019.pdf}{taf-jsg.info}
 \end{itemize}
 
-\hypertarget{references-17}{%
-\subsection*{References}\label{references-17}}
+\hypertarget{references-19}{%
+\subsection*{References}\label{references-19}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -4715,14 +5148,14 @@ TRL & SRL\tabularnewline
 \hypertarget{prt}{%
 \section{Personal rapid transit}\label{prt}}
 
-\hypertarget{synonyms-15}{%
-\subsection*{Synonyms}\label{synonyms-15}}
+\hypertarget{synonyms-17}{%
+\subsection*{Synonyms}\label{synonyms-17}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Automated Transit Networks, ATN, PRT, Podcars}
 
-\hypertarget{definition-18}{%
-\subsection*{Definition}\label{definition-18}}
+\hypertarget{definition-20}{%
+\subsection*{Definition}\label{definition-20}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Personal rapid transit is a public transportation option in urban areas where fully automated vehicles provide on-demand, origin-to-destination service over an area network. PRT belongs to a larger family of automated guideway transit (AGT). It is a unique mode of transport that has the following features (Furman et al., 2014; Juster \& Schonfeld, 2013):
@@ -4765,8 +5198,8 @@ The components of the personal rapid transit system are:
 
 PRT can be considered a more environmentally friendly, lighter and quieter alternative to \protect\hyperlink{lrt}{light rail transport} (LRT) or \protect\hyperlink{brt}{bus rapid transport} (BRT). It also travels slower than typical LRT or BRT, however, it compensates the time by only stopping at the requested stations. This, in turn, saves significant amount of deceleration and acceleration time. The capacity of PRL reaches 10 000 passenger per hour per direction, which is slightly lower compared to LRT and BRT.
 
-\hypertarget{key-stakeholders-18}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-18}}
+\hypertarget{key-stakeholders-20}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-20}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -4777,14 +5210,14 @@ PRT can be considered a more environmentally friendly, lighter and quieter alter
   \textbf{Responsible}: City government, Private Companies, Transport Planners
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-18}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-18}}
+\hypertarget{current-state-of-art-in-research-20}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-20}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Recent research on PRT is scarce, where the majority of studies have been conducted around 2010. They mainly focused on the cost-benefit analysis and comparisons to LRT and BRT (Juster \& Schonfeld, 2013). Furthermore, they considered the potential of different integration designs such as construction of guideways above the pavement with and without trees, above the parking lane, in the middle of the road, adjacent to building or integrated into the buildings or tunnels. Special considerations are required due to grade separation which can interfere with trees or cause obstruction at the pavements (Furman et al., 2014). An important aspect is also the aesthetic side of PRT which intrudes significantly into the urban landscape due to elevated rails. Therefore, concerns arise about social acceptability of PRT, where it is expected to affect adversely land use, property values, obstruct light and air as well as create unused spaces underneath the guideways (Staniscia, 2018). The most recent studies focus on the PRT in the context of airport shuttles where this concept has already been proven functional. For example, study by Mobolaji et al., (2021) explored the potential of extension of PRT to connect parking facilities and terminal at Budapest Airport, taking into account user expectations and system architecture.
 
-\hypertarget{current-state-of-art-in-practice-17}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-17}}
+\hypertarget{current-state-of-art-in-practice-19}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-19}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The concept of PRT is more than 50 years old, nevertheless, they are only available in few places around the world. About 30\% of the PRT are located at the airports, 30\% in the institutional context such as university campus and the final 30\% is a mass transit. The examples of existing PRTs are (Furman et al., 2014, p.12):
@@ -4805,8 +5238,8 @@ The concept of PRT is more than 50 years old, nevertheless, they are only availa
 
 The reasons for such a limited appearance are scare technical capabilities and scalability of PRT systems along with high capital and operating costs (Furman et al., 2014, p.~36).
 
-\hypertarget{relevant-initiatives-in-austria-18}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-18}}
+\hypertarget{relevant-initiatives-in-austria-20}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-20}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -4815,8 +5248,8 @@ The reasons for such a limited appearance are scare technical capabilities and s
   \href{https://waset.org/personal-rapid-transit-and-system-design-conference-in-june-2023-in-vienna}{17th International Conference on Personal Rapid Transit and System Design in 2023}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-18}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-18}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-20}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-20}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -4881,8 +5314,8 @@ Furman et al., 2014\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-18}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-18}}
+\hypertarget{technology-and-societal-readiness-level-20}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-20}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -4894,8 +5327,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-18}{%
-\subsection*{Open questions}\label{open-questions-18}}
+\hypertarget{open-questions-20}{%
+\subsection*{Open questions}\label{open-questions-20}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -4909,8 +5342,8 @@ TRL & SRL\tabularnewline
   What are the major barriers for more widespread adoption of PRT?
 \end{enumerate}
 
-\hypertarget{further-links-15}{%
-\subsection*{Further links}\label{further-links-15}}
+\hypertarget{further-links-17}{%
+\subsection*{Further links}\label{further-links-17}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -4919,8 +5352,8 @@ TRL & SRL\tabularnewline
   \href{https://transweb.sjsu.edu/sites/default/files/1227-automated-transit-networks.pdf}{MIT Report}
 \end{itemize}
 
-\hypertarget{references-18}{%
-\subsection*{References}\label{references-18}}
+\hypertarget{references-20}{%
+\subsection*{References}\label{references-20}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -4944,14 +5377,14 @@ TRL & SRL\tabularnewline
 \hypertarget{passenger_drones}{%
 \section{Passenger drones}\label{passenger_drones}}
 
-\hypertarget{synonyms-16}{%
-\subsection*{Synonyms}\label{synonyms-16}}
+\hypertarget{synonyms-18}{%
+\subsection*{Synonyms}\label{synonyms-18}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs)}
 
-\hypertarget{definition-19}{%
-\subsection*{Definition}\label{definition-19}}
+\hypertarget{definition-21}{%
+\subsection*{Definition}\label{definition-21}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Drones or unmanned aerial vehicles (UAVs) could become the most iconic technology of the 21st century. Drones combine three key principles of technological modernity - computing, autonomy and limitless mobility. Capabilities that until now could only be used by the military are becoming accessible to most of the population. Potential use cases for drones range from surveillance and reconnaissance missions to novel forms of logistics and personal transport. The commercial use of drones is associated with enormous economic opportunities. However, even though drones are already common as surveillance/sensing devices in security services, geodesy or agriculture, their use as a means of transport is still at the beginning (Kellermann et al., 2020).
@@ -4961,8 +5394,8 @@ The autonomous air taxis will be a mixture of helicopter and drone. But this als
 There are several reasons why drone-related industries are being supported significantly. One of the reasons is that the airspace is still fairly free of traffic. The risk of collisions is (relatively) low and autopilots for aircraft have long been established. Industry experts therefore suspect that we could see self-flying air taxis even before self-driving cars. Being able to do without pilots would make an air taxi service even cheaper and make it possible for more people to afford it (UNIQA, 2019).
 The European Commission estimates the economic impact at €10 billion annually until 2035 and foresees the creation of more than 100,000 direct jobs. Taking into account indirect macroeconomic effects in drone-related industries, the Commission even projects 250,000 to 400,000 additional jobs (SESAR, 2016).
 
-\hypertarget{key-stakeholders-19}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-19}}
+\hypertarget{key-stakeholders-21}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-21}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -4973,8 +5406,8 @@ The European Commission estimates the economic impact at €10 billion annually 
   \textbf{Responsible}: National Governments, City government, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-19}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-19}}
+\hypertarget{current-state-of-art-in-research-21}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-21}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Since all prototypes are owned by private companies and the technology is not really shared due to competition, there are few technical research papers.
@@ -5001,8 +5434,8 @@ Humanitarian Logistics & 2.7\% & 3\tabularnewline
 And although there are currently no autonomous air taxis, there is an initial research examining the factors of consumer willingness to fly in autonomous air taxis. This study identified four factors that turned out to be significantly positive: Familiarity, Value, Fun Factor, Sense of Happiness and two as significantly negative: Aversion to New Technology and Fear (Winter et al., 2020).
 When comparing the GHG emissions of conventional cars with VTOL passenger drones, the passenger drone actually performs a little better than the ordinary car from 35 km onwards. The reasons for this break-even point are, on the one hand, the energy-intensive take-off and landing hover mode and, on the other hand, the enormous efficiency of flying from point A to point B. Given the expected significant time savings over flying, passengers may have an incentive to share VTOL journeys. Therefore, it seems likely that the average occupancy of VTOLs will be greater than that of conventional passenger cars (Kasliwal et al., 2019).
 
-\hypertarget{current-state-of-art-in-practice-18}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-18}}
+\hypertarget{current-state-of-art-in-practice-20}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-20}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 There are quite a few providers working to develop the unmanned aerial taxis. Munich-based start-up \emph{Lilium} successfully launched a one-and-a-half-ton prototype vertically into the air and hovered in place in early May 2019. It sounds like a helicopter, but it doesn't look like one: The Lilium Jet has wings and 36 all-electric jet motors. That makes it quieter and more energy efficient (and makes it look more futuristic) than a helicopter. Lilium expects to be able to start commercial everyday operation not before 2025.
@@ -5014,8 +5447,8 @@ The air taxi will not be shuttling crowds of tourists between Schwechat and Step
 The first approved test track in Austria for an unmanned aerial taxi is located in Linz. There is already a functioning prototype in Austria that was developed by \emph{Ehang} in China and built by \emph{FACC} in Innviertel. The aircraft costs around 300,000 euros, weighs 360 kilos, is equipped with 16 electric motors and 16 rotors and is designed to autonomously transport two people. The batteries of the eight-armed drone are sufficient for about 50 kilometres. In its own production line in Ried, 300 units are to be delivered by the end of next year. In order for them to be able to take off in Europe and also for Linz AG, they are working with Austro Control on the ``approval regulations'', explains FACC board member Robert Machtlinger.
 In Linz it was once again said that this type of passenger transport is seen as a supplement to bus and train. The air enables the fastest connection from A to B in urban areas. However, before the first test route is set up in the Upper Austrian capital for this autonomous transport, 5G mobile radio must first be installed, which was planned for spring 2020 (DerStandard, 2019).
 
-\hypertarget{relevant-initiatives-in-austria-19}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-19}}
+\hypertarget{relevant-initiatives-in-austria-21}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-21}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -5028,8 +5461,8 @@ In Linz it was once again said that this type of passenger transport is seen as 
   \href{https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte}{derstandard.at-2}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-19}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-19}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-21}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-21}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -5105,8 +5538,8 @@ Pramer \& Sommavilla, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-19}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-19}}
+\hypertarget{technology-and-societal-readiness-level-21}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-21}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -5118,8 +5551,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-19}{%
-\subsection*{Open questions}\label{open-questions-19}}
+\hypertarget{open-questions-21}{%
+\subsection*{Open questions}\label{open-questions-21}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -5141,8 +5574,8 @@ TRL & SRL\tabularnewline
   What name will be agreed internationally for this type of vehicles?
 \end{enumerate}
 
-\hypertarget{references-19}{%
-\subsection*{References}\label{references-19}}
+\hypertarget{references-21}{%
+\subsection*{References}\label{references-21}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -5198,14 +5631,14 @@ TRL & SRL\tabularnewline
 \hypertarget{car_sharing}{%
 \section{Car sharing}\label{car_sharing}}
 
-\hypertarget{synonyms-17}{%
-\subsection*{Synonyms}\label{synonyms-17}}
+\hypertarget{synonyms-19}{%
+\subsection*{Synonyms}\label{synonyms-19}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Car-Sharing scheme, CSS}
 
-\hypertarget{definition-20}{%
-\subsection*{Definition}\label{definition-20}}
+\hypertarget{definition-22}{%
+\subsection*{Definition}\label{definition-22}}
 \addcontentsline{toc}{subsection}{Definition}
 
 In recent years, the growth of car sharing services as a new and more sustainable way of travelling has led to a shift in private mobility from ownership to use of services. The basic idea of car sharing is quite simple: the sharing of a fleet of vehicles by members to make trips on a per-trip basis. Although, the first car sharing scheme for economic reasons dates back to 1948 in the city of Zurich, Switzerland, other attempts at public car sharing schemes in the following years were not successful. Several successful car sharing schemes were launched in the 1980s, with a consolidation in the early 1990s, thanks to an increasing awareness of citizens and a real boom due to a greater diffusion of ICT and mobile services in the 2000s. Car sharing increases the mobility of community members to reach destinations otherwise inaccessible by public transport, walking or cycling, while raising citizens' awareness of the social and environmental impacts of using private cars. It encourages and supports multimodal communities by providing an additional transport option. From the point of view of building a sustainable city, the vehicles used in car sharing are usually fuel efficient and lead to positive effects in reducing urban emissions and urban congestion (Martin and Shaheen, 2011).
@@ -5237,8 +5670,8 @@ With free-floating CarSharing, the cars are randomly distributed within a define
 Since 2011, combined CarSharing offers were established that offer station-based and free-floating vehicles from a single source. Combined offers in Germany are available, for example, from stadtmobil, book-n-drive, teilAuto and cambio. The prices are usually based on the lower prices of station-based CarSharing.
 Free-floating users, on the other hand, largely keep their car. Their motorisation at the time of the study was 485 private cars per 1,000 inhabitants (Bundesverband CarSharing e.V., 2020).
 
-\hypertarget{key-stakeholders-20}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-20}}
+\hypertarget{key-stakeholders-22}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-22}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -5249,8 +5682,8 @@ Free-floating users, on the other hand, largely keep their car. Their motorisati
   \textbf{Responsible}: Authorities, Municipalities, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-20}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-20}}
+\hypertarget{current-state-of-art-in-research-22}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-22}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The CarSharing variants have different traffic-reducing effects. The EU research project STARS investigated the traffic-relieving effect of different CarSharing variants under uniform framework conditions. The study shows that many users of station-based and combined CarSharing get rid of private cars shortly before or during CarSharing participation. At the time of the study, the households, therefore, only had a motorisation rate of 108 and 104 cars per 1,000 people in the surveyed households. These values are already below the target of 150 cars per 1,000 people recommended by the Federal Environment Agency Germany for climate and environmentally friendly urban transport in the future.
@@ -5270,14 +5703,14 @@ In summary, accrding to Evers (2018) car sharing is profitable, if one:
   drives a total of less than 10,000 kilometres a year
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-practice-19}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-19}}
+\hypertarget{current-state-of-art-in-practice-21}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-21}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Europe is currently the most important market for car sharing providers. In 2016, 5.8 million people used the 68,000 carsharing vehicles here. Recently, car manufacturers also started to enter the market directly, such as Daimler, BMW and the FCA Group, which are directly involved in car sharing activities, in order to find new channels to market the cars they produce. The market is growing fast and with this increasing demand comes the need for better understanding and control of the system. In fact, car sharing is not just a matter of business or fleet optimisation, but forms a complex system consisting of different actors, including citizens, authorities and municipalities, businesses. The system becomes complex because of the strong links between the actors as well as the impact on the governance of a city when a large car sharing service is introduced, such as the integration with the existing public transport network and the policies that allow different companies to compete in the same urban area (Ferrero et al., 2018).
 
-\hypertarget{relevant-initiatives-in-austria-20}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-20}}
+\hypertarget{relevant-initiatives-in-austria-22}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-22}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -5288,8 +5721,8 @@ Europe is currently the most important market for car sharing providers. In 2016
   \href{https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive}{ÖBB}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-20}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-20}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-22}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-22}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -5376,8 +5809,8 @@ Stadt Wien, no date\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-20}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-20}}
+\hypertarget{technology-and-societal-readiness-level-22}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-22}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -5389,8 +5822,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-20}{%
-\subsection*{Open questions}\label{open-questions-20}}
+\hypertarget{open-questions-22}{%
+\subsection*{Open questions}\label{open-questions-22}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -5400,8 +5833,8 @@ TRL & SRL\tabularnewline
   What is the role of policymakers and minicipalities in supporting car sharing in addressing challenges associated with long-term strategic decisions such as operation area, parking locations or size and type of the fleet, considering specific characteristics of a given city?
 \end{enumerate}
 
-\hypertarget{further-links-16}{%
-\subsection*{Further links}\label{further-links-16}}
+\hypertarget{further-links-18}{%
+\subsection*{Further links}\label{further-links-18}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -5410,8 +5843,8 @@ TRL & SRL\tabularnewline
   \href{https://www.share-now.com/at/en/faq/}{share\_now}
 \end{itemize}
 
-\hypertarget{references-20}{%
-\subsection*{References}\label{references-20}}
+\hypertarget{references-22}{%
+\subsection*{References}\label{references-22}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -5439,14 +5872,14 @@ TRL & SRL\tabularnewline
 \hypertarget{bike_sharing}{%
 \section{Bicycle and e-bicycle hire}\label{bike_sharing}}
 
-\hypertarget{synonyms-18}{%
-\subsection*{Synonyms}\label{synonyms-18}}
+\hypertarget{synonyms-20}{%
+\subsection*{Synonyms}\label{synonyms-20}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)}
 
-\hypertarget{definition-21}{%
-\subsection*{Definition}\label{definition-21}}
+\hypertarget{definition-23}{%
+\subsection*{Definition}\label{definition-23}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Bike-sharing schemes have become a key component of urban transport policy over the past decade, as shown by the increase in the number of bicycles recently seen in major cities around the world. The concept of bike-sharing is a service for individuals to get around comfortably by bike without owning one. The bicycle is an energy-efficient, safe, CO\textsubscript{2}-neutral and space-saving means of transport. It has a low environmental footprint (when used). In urban areas it is a good alternative to the car for short journeys. For longer journeys or for getting to work in an urban environment, it is an excellent complement to public transport. Although at the beginning of the 21st century most BSSs were docked, today's BSSs consist of both docked and dockless BSSs, which have recently emerged in several cities such as London, New York, San Francisco, Beijing and many others (El Arbi and Stephane, 2020).
@@ -5454,8 +5887,8 @@ Modern urban short-term bicycle rental systems or public BSSs offer 24-hour acce
 The development of, mainly European, BSSs has typically been categorized into four different generations, which in some properties merge into each other. The use of the 1965 ``White Bikes'' in Amsterdam was possible without personal registration and the bikes could be found all over the city without fixed stations. The model collapsed within a few days due to vandalism and theft. The second generation used locks and heavy bikes. Vandalism rates decreased, but bikes were still stolen because of the anonymity of the customers (DeMaio, 2009). The third generation became smarter and more attractive through technological improvements such as automated smart cards, electronic bike locks and payment systems. Users received a code via SMS to unlock the bikes.
 The current fourth generation, could include movable solar-powered docking stations, GPS-based real-time availability apps on mobile phones and more electric bikes (Zademach and Musch, 2018).
 
-\hypertarget{key-stakeholders-21}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-21}}
+\hypertarget{key-stakeholders-23}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-23}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -5466,8 +5899,8 @@ The current fourth generation, could include movable solar-powered docking stati
   \textbf{Responsible}: National Governments, International lobbyists, (Public) Transport Agency, Non-Profit-Organizations, Private For-Profit Companies, Private Companies (e. g. outdoor advertising companies)
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-21}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-21}}
+\hypertarget{current-state-of-art-in-research-23}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-23}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Research mostly focuses on customer behaviour such as trip length or travel time and behavioural influences on the use of bike-sharing systems, for example, road density, traffic density or bicycle infrastructure.
@@ -5476,8 +5909,8 @@ For example, study by Ma et al.~(2020) shows that suburban commuters are very li
 
 In terms of general system functioning, a study by Fishman et al., (2014) shows that one of the major inconvenience of bike-sharing systems are fixed, docked stations. Therefore, to improve the flexibility, attemps are made to introduce shared bikes with locks (Zhang et al., 2019). Furthermore, the maintenance of the dockless system is also problematic, where on one hand, the high maintenance cost reduced the profit margin of the companies while on the other hand, defective bikes can reduce the satisfaction of the customers and decrease the uptake. Therefore, current research focuses on the development of the mechanisms to monitor the condition of the bicycles while maintaining cost efficiency.
 
-\hypertarget{current-state-of-art-in-practice-20}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-20}}
+\hypertarget{current-state-of-art-in-practice-22}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-22}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Public bike-share systems are one of the world's fastest growing public transport modes, with an average annual growth of 37\% since 2009. The fastest increase takes place in China, a country that is experiencing a rapid uptake of electric bicycles (e-bikes). Sales of e-bikes are outpacing all other motorized modes. The figure 14.1 shows the rapid growth of the two emerging technologies, e-bikes and bike-share systems (Campbell et al., 2016).
@@ -5492,8 +5925,8 @@ The number of BSSs has grown to over 800 units worldwide (Fishman, 2016). The pu
 In Austria, there are multiple companies currently offering bicycle or e-bicycle sharing services such as \emph{Citybike, Ofo or oBike}. Nevertheless, about a year after their launch, the Asian providers of stationless rental bikes in Vienna (start-ups \emph{Ofo} and \emph{oBike}) have been in retreat from the federal capital (Rachbauer, 2018b). This has been a result of strict rules with respect to stationless rental bikes in Vienna announced on 1st August 2018. A failure to comply with the rules resulted in the bikes being removed for a fee. Previously, the traffic road act (\emph{StVO}) allowed the placement of rental bikes in public spaces and the city lacked the means of action against the providers. With the help of a so-called local police ordinance, the city hall required that the bike-sharing companies pick up objectionable bikes on weekdays within four hours and at night and on weekends within twelve hours after notification. If they did not comply, the bikes were removed for a fee. In addition, administrative fines of up to 700 euros were possible. Moreover, a limit of maximum 1500 bicycles per provider was also set. Now, the bikes are given a number and each one has to be registered with the city. According to Blum, setting up several companies to circumvent the upper limit is not allowed. The rental companies themselves also have to meet certaine criteria, for instance, there must be a company headquarters in Vienna and a service hotline. \emph{Ofo} and \emph{oBike} already meet these requirements (Rachbauer, 2018d).
 Across Austria the situation with rental bikes differs significantly, for example in Innsbruck, renatal bikes were first introduced in 2014 and and are succesfully opearting. Meanwhile, in Linz rental bike system has been approved in 2017 and the docking stations are currently under construction. Further, in Salzburg the S-Bike rental system is operating and linked to federal funding (Affenzeller, 2020, Citybike Salzburg, no date a). On the other hand in Graz there is no uniform bike rental system and these services are provided by shops and hotels (Rachbauer, 2016).
 
-\hypertarget{relevant-initiatives-in-austria-21}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-21}}
+\hypertarget{relevant-initiatives-in-austria-23}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-23}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -5508,8 +5941,8 @@ Across Austria the situation with rental bikes differs significantly, for exampl
   \href{https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten}{tpis.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-21}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-21}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-23}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-23}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -5596,8 +6029,8 @@ Midgley, 2011\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-21}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-21}}
+\hypertarget{technology-and-societal-readiness-level-23}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-23}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -5609,8 +6042,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-21}{%
-\subsection*{Open questions}\label{open-questions-21}}
+\hypertarget{open-questions-23}{%
+\subsection*{Open questions}\label{open-questions-23}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -5622,8 +6055,8 @@ TRL & SRL\tabularnewline
   Which bike system (docked vs.~free-floating) is more sustainable in the long-term?
 \end{enumerate}
 
-\hypertarget{further-links-17}{%
-\subsection*{Further links}\label{further-links-17}}
+\hypertarget{further-links-19}{%
+\subsection*{Further links}\label{further-links-19}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -5632,8 +6065,8 @@ TRL & SRL\tabularnewline
   \href{http://en.cyclocity.com/}{cyclocity.com}
 \end{itemize}
 
-\hypertarget{references-21}{%
-\subsection*{References}\label{references-21}}
+\hypertarget{references-23}{%
+\subsection*{References}\label{references-23}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -5703,21 +6136,21 @@ TRL & SRL\tabularnewline
 \hypertarget{scooters}{%
 \section{E-scooters}\label{scooters}}
 
-\hypertarget{synonyms-19}{%
-\subsection*{Synonyms}\label{synonyms-19}}
+\hypertarget{synonyms-21}{%
+\subsection*{Synonyms}\label{synonyms-21}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{electric scooter}
 
-\hypertarget{definition-22}{%
-\subsection*{Definition}\label{definition-22}}
+\hypertarget{definition-24}{%
+\subsection*{Definition}\label{definition-24}}
 \addcontentsline{toc}{subsection}{Definition}
 
 E-scooters are electrically powered scooters which move at a similar speed to bicycles. They are one of micro-mobility solutions which is growing trend in urban mobility. It encompasses all human-powered micro-vehicles, such as bicycles and scooters, but also new micro-vehicles such as e-scooters, e-bikes and some other small, electrically powered vehicles (Oeschger, Carroll and Caulfield, 2020). Most of the modern vehicles of this type are available for both shared and private use and are gaining wide acceptance.
 E-scooters have promised a solution to the last mile problem since their introduction in 2017 (Siegfried et al, 2021). They are seen as alternatives to cars and provide potential for reducing traffic congestion, noise and pollution. Initial results suggest that e-scooters are mainly used for distances between 1 and 6 km. Empirical evidence shows that e-scooters can substitute walking rather than driving for these short distances (James et al., 2019; Portland Bureau of Transportation, 2019). In addition to the potential positive environmental impact of e-scooters on the transportation system, some safety concerns have been raised. Most e-scooter users who had an accident have ridden without a helmet (Liew et al, 2020). In general, e-scooters are almost exclusively issued without protective equipment (Allem and Majmundar, 2019). The safety issues do not only affect the riders themselves, but also have an impact on other road users, especially pedestrians (Sikka et al., 2019). It has even been criticised that technology follows the idea of ``sell first, safety later'' (Choron and Sakran, 2019).
 
-\hypertarget{key-stakeholders-22}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-22}}
+\hypertarget{key-stakeholders-24}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-24}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -5728,23 +6161,23 @@ E-scooters have promised a solution to the last mile problem since their introdu
   \textbf{Responsible}: National governments, city government, private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-22}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-22}}
+\hypertarget{current-state-of-art-in-research-24}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-24}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Since e-scooters are already well-established technology, most research focuses on safety and accidents, user behaviour and potential environmental impact of uptake of this micro-mobility option. Some studies advocate e-scooters as an environmentally friendly solution for crowded cities, others report contradictory results and point to safety issues.
 Moreover, research also explores whether the presence of e-scooters reduces bicycle thefts (Gössling, 2020). In Gothenburg, Sweden, the police reported that the number of bicycle thefts halved after the introduction of e-scooters and rental bikes (Sydsvenskan, 2019).
 
-\hypertarget{current-state-of-art-in-practice-21}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-21}}
+\hypertarget{current-state-of-art-in-practice-23}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-23}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 E-scooter providers such as \emph{Lime} and \emph{Bird}, which launched operations in California in 2017, can now be found in over 100 cities worldwide and have since recorded millions of rides. E-scooter provider \emph{VOI} has experienced similar growth in Europe and entered the market in 10 countries in just one year after launching in Sweden and has recorded over 16 million rides (Oeschger et al., 2020). The results of a survey indicate that e-scooters are primarily seen as entertainment and not as a means of transport (Siegfried et al., 2021).
 Maximum speed limits are an important issue and internationally there are different approaches. Los Angeles and Dallas, for example, have no speed limit, as far as can be deduced from the news; while the limit in Vienna is 25 km/h (Schwarz, 2019). Paris is discussing reducing the speed limit to 20 km/h on cycle paths and 8 km/h in parks and pedestrian areas (Négroni, 2019). One problem with the maximum speeds is that some of the e-scooter models can go much faster than 25 km/h (Le Figaro, 2018). To counteract the negative consequences of the introduction of e-scooters, cities have evaluated and implemented various rules and guidelines. Media analysis suggests that the city councils should introduce the following rules as a minimal requirement: speed limits, restrictions on the exclusive use of bicycle infrastructure and a designation of parking spaces for rental and return. Behavioural campaigns and fines, are needed to limit negative consequences of e-scooter use (Gössling, 2020).
 In Vienna, only very few e-scooters are used on bicycle paths (between 4.9\% and 7.1\% compared to other bicycle path users). Given the modal split of Vienna (7\% cycling), it can be concluded that e-scooters do not yet have a significant role in Vienna's transport system (Laa and Leth, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-22}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-22}}
+\hypertarget{relevant-initiatives-in-austria-24}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-24}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -5761,8 +6194,8 @@ In Vienna, only very few e-scooters are used on bicycle paths (between 4.9\% and
   \href{https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/Elektro-Scooter,-Quads-und-Co/Seite.610110.html}{oesterreich.gv.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-22}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-22}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-24}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-24}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -5849,8 +6282,8 @@ Goessling, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-22}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-22}}
+\hypertarget{technology-and-societal-readiness-level-24}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-24}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -5862,8 +6295,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-22}{%
-\subsection*{Open questions}\label{open-questions-22}}
+\hypertarget{open-questions-24}{%
+\subsection*{Open questions}\label{open-questions-24}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -5873,8 +6306,8 @@ TRL & SRL\tabularnewline
   Will an increasing presence of e-scooters on the bicycle infrastructure or in pedestrian zones require separate solution in urban road infrastructure?
 \end{enumerate}
 
-\hypertarget{references-22}{%
-\subsection*{References}\label{references-22}}
+\hypertarget{references-24}{%
+\subsection*{References}\label{references-24}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -5924,20 +6357,20 @@ TRL & SRL\tabularnewline
 \hypertarget{FCEV}{%
 \section{Hydrogen fuel cell}\label{FCEV}}
 
-\hypertarget{synonyms-20}{%
-\subsection*{Synonyms}\label{synonyms-20}}
+\hypertarget{synonyms-22}{%
+\subsection*{Synonyms}\label{synonyms-22}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{hydrogen fuel cell electric vehicles, FCEV}
 
-\hypertarget{definition-23}{%
-\subsection*{Definition}\label{definition-23}}
+\hypertarget{definition-25}{%
+\subsection*{Definition}\label{definition-25}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Hydrogen Fuel Cells are systems that use hydrogen as fuel to generate electrical energy in a Fuel Cell and drive the vehicle with electrical structure. In a technical manner, they show similarities with electric vehicles. The advantages of Fuel Cell Electrical Vehicles (FCEV) are emission-free (water only), fast refuelling, noiseless driving, more economical fuel consumption and efficiency, easy maintenance. Regardless of these benefits, FCEV has some disadvantages, such as limited range, lack of hydrogen refuelling stations, safety problems, low profitability for car manufacturers, high prices and lower awareness and acceptance (Tanç et al., 2019; Borgstedt et al., 2017; Iribarren et al., 2016). Moreover, FCEVs have higher energy density than electric batteries which enables them to drive further with heavier loads. At the same time, it raises constraints on weight and size of the energy storage in the vehicles. Consequently, FCEVs are more suitable for freight transport, commercial vehicles, buses, trains, ships and aircrafts, where the performance requirements are higher. Prototypes of all the examples mentioned already exist (Eichlseder et al, 2018). In terms of private cars, the FCEVs are likely to provide advantage for long-distance travelling (Roadmap Europe, 2019).
 
-\hypertarget{key-stakeholders-23}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-23}}
+\hypertarget{key-stakeholders-25}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-25}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -5948,14 +6381,14 @@ Hydrogen Fuel Cells are systems that use hydrogen as fuel to generate electrical
   \textbf{Responsible}: National Governments, Car Manufacturers, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-23}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-23}}
+\hypertarget{current-state-of-art-in-research-25}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-25}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The goal of alternative propulsion systems is to minimize or eliminate completely the climate-damaging CO\textsubscript{2} emissions, consequently the European Community Research Program proposes electromobility as a priority research area. In particular, the most substantial research is carried out on methods of hydrogen production using biological and photochemical processes because 95\% of hydrogen currently produced on an industrial scale comes from fossil hydrocarbons and only 5\% from water by electrolysis. Where the only emission-free production process of hydrogen is the electrochemical water splitting in electrolysis, when the required electricity is generated from wind-, water or solar energy. This process results in high degrees of purity and usually achieves efficiencies of up to 85\% (Eichlseder et al., 2018). Moreover, the electric vehicle policy aims at technology optimization, market development, durability and capacity of the batteries and charging stations (Alvarez-Meaza et al., 2020).
 
-\hypertarget{current-state-of-art-in-practice-22}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-22}}
+\hypertarget{current-state-of-art-in-practice-24}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-24}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Hydrogen in transport is only at the beginning of its development (in 2013 the first light FCEVs were introduced for leasing only). Compared to other alternative propulsion systems such as battery electric vehicles (BEVs), which were introduced to the vehicle market earlier, FCEVs show a similar upward trend. At the end of 2017, the total number of FCEVs in Europe reached 799 vehicles, of which 602 were passenger cars and 197 light commercial vehicles, while the total number of BEVs reached 447,150 vehicles. At the end of 2018, the number of FCEVs in Europe rose to about 1,110 (Apostolou and Xydis, 2019).
@@ -5968,8 +6401,8 @@ In terms of the number of hydrogen refuelling stations (HRS) worldwide, just abo
 
 The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H., 2019; Alvarez-Meaza et al., 2020).
 
-\hypertarget{relevant-initiatives-in-austria-23}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-23}}
+\hypertarget{relevant-initiatives-in-austria-25}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-25}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -5978,8 +6411,8 @@ The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell te
   \href{https://fuelcellsworks.com/news/alstoms-hydrogen-train-successfully-completes-three-months-of-testing-in-austria/\#:~:text=Alstom's\%20Hydrogen\%20Train\%20Successfully\%20Completes\%20Three\%20Months\%20of\%20Testing\%20in\%20Austria,-By\%20FuelCellsWorksDecember\&text=Alstom's\%20Coradia\%20iLint\%2C\%20the\%20world's,Austrian\%20Federal\%20Railways}{hydrogen train}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-23}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-23}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-25}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-25}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -6099,8 +6532,8 @@ International Partnership for Hydrogen and Fuel Cells in the Economy, no date\st
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-23}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-23}}
+\hypertarget{technology-and-societal-readiness-level-25}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-25}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -6112,8 +6545,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-23}{%
-\subsection*{Open questions}\label{open-questions-23}}
+\hypertarget{open-questions-25}{%
+\subsection*{Open questions}\label{open-questions-25}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -6125,8 +6558,8 @@ TRL & SRL\tabularnewline
   How to store large amounts of energy at low weight and in a restricted space within the vehicle? (Roadmap Europe, 2019)
 \end{enumerate}
 
-\hypertarget{further-links-18}{%
-\subsection*{Further links}\label{further-links-18}}
+\hypertarget{further-links-20}{%
+\subsection*{Further links}\label{further-links-20}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -6139,8 +6572,8 @@ TRL & SRL\tabularnewline
   \href{https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition}{fch.europa}
 \end{itemize}
 
-\hypertarget{references-23}{%
-\subsection*{References}\label{references-23}}
+\hypertarget{references-25}{%
+\subsection*{References}\label{references-25}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -6179,14 +6612,14 @@ TRL & SRL\tabularnewline
 \hypertarget{bev}{%
 \section{Battery electric}\label{bev}}
 
-\hypertarget{synonyms-21}{%
-\subsection*{Synonyms}\label{synonyms-21}}
+\hypertarget{synonyms-23}{%
+\subsection*{Synonyms}\label{synonyms-23}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Battery electric vehicle (BEV)}
 
-\hypertarget{definition-24}{%
-\subsection*{Definition}\label{definition-24}}
+\hypertarget{definition-26}{%
+\subsection*{Definition}\label{definition-26}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Transport contributes up to 30\% of climate-relevant greenhouse gas emissions in Austria, with CO\textsubscript{2} playing the largest role here (Bundesministerium für Umwelt, 2019). While the average engine power of vehicles sold annually is increasing (Kreuzer, 2020), the total emissions from the transport sector are also rising (Bundesministerium für Umwelt, 2019). Without a change in mobility behaviour, only a switch to locally emission-free drive technologies, such as BEVs, can help this situation.
@@ -6229,8 +6662,8 @@ Disadvantages\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{key-stakeholders-24}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-24}}
+\hypertarget{key-stakeholders-26}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-26}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -6241,8 +6674,8 @@ Disadvantages\strut
   \textbf{Responsible}: National Governments, City Government, Private Companies, International Lobbyists
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-24}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-24}}
+\hypertarget{current-state-of-art-in-research-26}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-26}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Research on this topic focuses mainly on technology performance, component sizing, charging stations and life cycle assessment (LCA).
@@ -6273,8 +6706,8 @@ The advantages of electric drives are also evident in the cumulative energy cons
 In terms of the efficiency of this technology, the well-to-wheel efficiency in Austria is about 69\%. This is a significant efficeinty gain as compared to a fuel cell car with an average well-to-wheel efficiency of about 27\% and a petrol-powered car at about 20\% (Bundesministerium für Umwelt Naturschutz und nukleare Sicherheit, no date). The losses in the electricity grid in Austria are very low and can be estimated in the range of 5\%, which results in a well-to-tank efficiency of 95\% based on 100\% green electricity.
 In the course of the charging process, charging losses of 10\% occur due to resistances in the charging cable and the battery. However, an AC/DC voltage converter (rectifier) is connected upstream of the traction battery, which causes a further 5\% energy loss. In order to get the stored energy onto the road, it now flows through a DC/AC voltage converter (inverter) with 5\% energy loss and can finally be transferred to the wheel by an electric motor with 90\% efficiency. The tank-to-wheel efficiency is therefore 73\%. The overall well-to-wheel efficiency of a BEV is 69\%.
 
-\hypertarget{current-state-of-art-in-practice-23}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-23}}
+\hypertarget{current-state-of-art-in-practice-25}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-25}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The number of e-cars registered worldwide has reached a new record level. At the same time, however, the growth in new registrations weakened. Around 7.9 million e-cars were registered worldwide in 2019. That is almost 2.3 million more than in 2018 - an increase of 40\%.
@@ -6283,8 +6716,8 @@ According to the Centre for Solar Energy and Hydrogen Research Baden-Württember
 With around 230,000 registered vehicles, Germany is in seventh place in terms of the total number of e-cars after China, the USA, Norway, Japan, France and the UK (Prack, 2020).
 But electric power is not just an alternative for personal modes of transport. Increasingly more vehicles in the commercial and public transport sectors are being electrically powered. The larger and heavier a vehicle is, the more difficult it is to electrify it due to the enormous mass of the larger batteries. However, battery technology is constantly developing, and the ranges are increasing. Even heavy semi-trailer trucks could be electrified in the near future. However, they would need batteries and overhead lines on motorways for fast charging along their routes. This is now being tested in Germany. Three routes in Hesse, Schleswig-Holstein and Baden-Württemberg are currently being equipped with overhead lines (see more in section on \protect\hyperlink{ers}{Electric Road Systems}).In many cities, such as Cologne, Berlin and Hamburg, electric buses are already part of regular service. Their electricity needs are met by fast, occasional charging at bus stops and by charging at night in depots. Many German cities plan to use all-electric buses in the near future (Kurzempa, 2018).
 
-\hypertarget{relevant-initiatives-in-austria-24}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-24}}
+\hypertarget{relevant-initiatives-in-austria-26}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-26}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -6295,8 +6728,8 @@ But electric power is not just an alternative for personal modes of transport. I
   \href{https://www.beoe.at/statistik/}{beoe.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-24}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-24}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-26}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-26}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -6383,8 +6816,8 @@ IEA, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-24}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-24}}
+\hypertarget{technology-and-societal-readiness-level-26}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-26}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -6396,8 +6829,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-24}{%
-\subsection*{Open questions}\label{open-questions-24}}
+\hypertarget{open-questions-26}{%
+\subsection*{Open questions}\label{open-questions-26}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -6413,8 +6846,8 @@ TRL & SRL\tabularnewline
   How can local govenments increase consumer awareness about BEVs?
 \end{enumerate}
 
-\hypertarget{further-links-19}{%
-\subsection*{Further links}\label{further-links-19}}
+\hypertarget{further-links-21}{%
+\subsection*{Further links}\label{further-links-21}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -6435,8 +6868,8 @@ TRL & SRL\tabularnewline
   \href{https://ec.europa.eu/eurostat/databrowser/view/ROAD_EQR_CARPDA__custom_91702/bookmark/table?lang=de\&bookmarkId=7e47ef9d-b80b-4bd6-a35b-046cb5af4500}{ec.europa.eu}
 \end{itemize}
 
-\hypertarget{references-24}{%
-\subsection*{References}\label{references-24}}
+\hypertarget{references-26}{%
+\subsection*{References}\label{references-26}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -6477,14 +6910,14 @@ TRL & SRL\tabularnewline
 \hypertarget{plugin_hybrid}{%
 \section{Plugin hybrid vehicles}\label{plugin_hybrid}}
 
-\hypertarget{synonyms-22}{%
-\subsection*{Synonyms}\label{synonyms-22}}
+\hypertarget{synonyms-24}{%
+\subsection*{Synonyms}\label{synonyms-24}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Hybrid, HEV, PHEV}
 
-\hypertarget{definition-25}{%
-\subsection*{Definition}\label{definition-25}}
+\hypertarget{definition-27}{%
+\subsection*{Definition}\label{definition-27}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Plug-in hybrid vehicles effectively combine the electric drive with either a conventional combustion engine or other engines that use alternative fuels. This has the advantage that the vehicles can travel long distances, but consumption and emissions are reduced. An energy management system ensures that the optimum amount of energy is drawn from the two energy sources while driving. The ratio of energy consumption is influenced by the driving cycle. The faster the vehicle drives, the more energy is needed (Aswin and Senthilmurugan, 2018).
@@ -6519,8 +6952,8 @@ The parallel hybrid vehicle is an integration of an electric motor and an intern
 
 The combined hybrid vehicle is a fusion of parallel and series hybrid (series-parallel hybrid). There is a double connection (electrical and mechanical) between the drive axle and the engine. The power transmission to the wheels can be either electric or mechanical. At low speeds it behaves like a series hybrid electric vehicle, but at higher speeds series drive trains are less likely to be preferred and the vehicle motor takes over. This model is significantly more expensive than parallel models as they require a mechanically split drive system, an additional generator and high computing power for dual control (Aswin and Senthilmurugan, 2018).
 
-\hypertarget{key-stakeholders-25}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-25}}
+\hypertarget{key-stakeholders-27}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-27}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -6531,14 +6964,14 @@ The combined hybrid vehicle is a fusion of parallel and series hybrid (series-pa
   \textbf{Responsible}: National Governments, Car Manufacturers, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-25}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-25}}
+\hypertarget{current-state-of-art-in-research-27}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-27}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Current research efforts focus on the reduction of battery size while maintaining the electric driving performance. Therefore, the study by Song et al.~(2018) suggest 30.4 kWh as an optimal battery capacity. Another, large research developments are performed with respect to reduction of emissions and continuous testing of environmental efficiency in comparison to conventional cars. In an ADAC test of plug-in hybrids, just two cars scored well in the Ecotest, namely Hyundai Ioniq and Volvo V60. The Hyundai was very energy-efficient, while the Volvo consumed more energy and emited more carbon dioxide, but its exhaust gases were cleaner. This allowed it to score well in terms of pollutants. However, the test results leave no doubt that large and heavy cars like the BMW X5 and Mercedes GLE, even as plug-in hybrids, consume a lot of energy and therefore cannot be counted as eco-mobiles (Kroher, 2020). Interestingly, recent test conducted on the newest models of PHEV showed that they pollute the environment two to four times more than the manufacturers claim which undermined the public opinion on the environmental advantages offered by the PHEV (Plötz et al., 2020; Bannon, 2020).
 
-\hypertarget{current-state-of-art-in-practice-24}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-24}}
+\hypertarget{current-state-of-art-in-practice-26}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-26}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The development of the hybrid electric vehicle is evolving into the next generation of the mode of transport, in line with EU's policy aims of reduction of greenhouse gas emissions. Nevertheless, current market penetration is still relatively low, contributing to 1\% of total car registrations (as of 2019). In Europe, the leaders in the uptake of plug-in hybrid vehicles are Finland and Sweden followed by the United Kingdom (European Environment Agency, 2020).
@@ -6549,8 +6982,8 @@ The results of a study by the Frauenhofer Institute show that the actual climate
 By 2020, there are already 800 public e-charging points in Vienna, with number close to a thousand, Vienna is one of the leading e-mobility cities in Europe (Fischer, 2020).The Austrian energy companies - members of the BEÖ - have driven the expansion of the public charging infrastructure in recent years. With over 5,000 charging points between Vienna and Bregenz, Austria provides one of the densest charging networks in Europe (Sitte, 2020b).
 Until now, all building owners had to agree to the installation of an e-charging station. This unanimity is to fall soon. Accordingly, the installation of charging stations in apartment buildings will be made easier from autumn onwards (Sitte, 2020a).
 
-\hypertarget{relevant-initiatives-in-austria-25}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-25}}
+\hypertarget{relevant-initiatives-in-austria-27}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-27}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -6561,8 +6994,8 @@ Until now, all building owners had to agree to the installation of an e-charging
   \href{https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw}{vcoe.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-25}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-25}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-27}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-27}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -6627,8 +7060,8 @@ Schaefer, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-25}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-25}}
+\hypertarget{technology-and-societal-readiness-level-27}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-27}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -6640,12 +7073,12 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-25}{%
-\subsection*{Open questions}\label{open-questions-25}}
+\hypertarget{open-questions-27}{%
+\subsection*{Open questions}\label{open-questions-27}}
 \addcontentsline{toc}{subsection}{Open questions}
 
-\hypertarget{further-links-20}{%
-\subsection*{Further links}\label{further-links-20}}
+\hypertarget{further-links-22}{%
+\subsection*{Further links}\label{further-links-22}}
 \addcontentsline{toc}{subsection}{Further links}
 
 \begin{itemize}
@@ -6658,8 +7091,8 @@ TRL & SRL\tabularnewline
   \href{https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition}{fch.europa}
 \end{itemize}
 
-\hypertarget{references-25}{%
-\subsection*{References}\label{references-25}}
+\hypertarget{references-27}{%
+\subsection*{References}\label{references-27}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}

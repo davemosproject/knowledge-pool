@@ -13,13 +13,14 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 # Preface {-}
 
-This is a continuously developing database, which is a part of [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author *Martyna Bogacz* on the following email address: davemos.library@boku.ac.at <br/><br/>
+This is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/><br/>
 
 **Acknowledgements**
 
-This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding content and design:
+This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
 - Univ. Prof. Dr. Yusak Susilo
+- MA (Hons), Msc. Martyna Bogacz
 - B.Sc. Veronika Hebenstreit
 - B.Sc. Gregor Husner
 
@@ -52,7 +53,7 @@ format(Sys.time(),'%d %B %Y')
     - [Cooperative - intelligent transport system](#cits)
     - [Dynamic route guidance](#dynamic_route)
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
-    - [Adaptive traffic signal control](#adaptive_traffic_control)
+    - [Adaptive traffic signal control](#adaptive_traffic_control) **NEW**
     - [Passengers and goods fleet management](#p_g_fleet_management)
     - [Urban access management](#urban_access) **NEW**
 5. [Digital road infrastructure and connectivity](#digital)
@@ -93,7 +94,7 @@ format(Sys.time(),'%d %B %Y')
     - [Real-time disruption management and route planning](#disruption_management)
     - [Urban deliveries](#urban_delivery)
     - [Parcel load pooling](#parcel_pooling)
-    - [Intelligent truck parking](#intelligent_truck_park)
+    - [Intelligent truck parking](#intelligent_truck_park) **NEW**
     - [Delivery space booking](#space_book)
     - [Delivery drones](#delivery_drone) **NEW**
     - [Commercial vehicle on-board safety systems](#comm_veh_safety)

@@ -124,8 +124,6 @@ The *Sweden4Platooning* project, which run until 2020, aimed at harmonising the 
 -	Energy-efficient formation, implementation and resolution of truck platoons, based on recognised control strategies and protocols; 
 - Interurban and urban application scenarios.
 
-
-
 ### Relevant initiatives in Austria {-}
 
 The technology of truck platooning has many potentials: savings in fuel consumption and emissions and it can partly prevent the everyday problem of traffic congestion. Above all, however, it has the potential to lead to more safety on Austria's roads and to come a step closer to the *Vision Zero*.<br/><br/>
@@ -253,6 +251,93 @@ cat('|TRL| SRL|
 - Wu, Y., Abdel-Aty, M., Wang, L., & Rahman, M. S. (2020). Combined connected vehicles and variable speed limit strategies to reduce rear-end crash risk under fog conditions. Journal of Intelligent Transportation Systems, 24(5), 494-513.
 
 ## Adaptive traffic signal control {#adaptive_traffic_control}
+
+### Synonyms {-}
+*Adaptive Traffic Signal Control (ATSC), Traffic Signal Timing (TST), Traffic Signal Control (TSC)*
+
+### Definition {-}
+In the recent years, the increasing population and the urgent need for efficient transport have led to severe traffic problems, especially in urban areas. Congestion mitigation solutions such as optimising the road network and improving basic urban management facilities have been proposed to cope with the pressure caused by the large traffic flow during peak hours. Among all possible methods, the adaptive traffic signal control (ATSC) which combine the intelligence into traffic light control systems has proven to be both, economical and efficient in relieving traffic pressure at congested intersections. With the development of deep learning techniques, ATSC strategies have shown great potential in integrating state-of-the-art intelligent methods (Wang, Cao and Hussain, 2021). <br/><br/>
+Existing traffic light control systems either employ fixed programs without incorporating real-time traffic or take little account of traffic (Casas, 2017). They either set the traffic lights to the same duration every cycle or vary the duration depending on historical information. Some of them take input information from the underground sensors, such as inductive loop detectors, to detect vehicles near the traffic lights. However, such data is processed very crudely to determine the duration of green and red traffic lights. Consequently, they work in some cases (with low efficiency); however, during events such as sports, festivals, weather conditions or a typical high traffic volume scenario, the existing control systems tend to be paralysed. <br/><br/>
+The recent research paper by  Liang et al., 2019 reports that an experienced police officer can efficiently and directly control the intersection by waving signals. Especially, in high traffic volume scenarios, a human operator observes the real-time traffic condition at the intersecting streets and adjusts the duration of the passage time accordingly. The aim of the adaptive traffic signal control is to provide flexibility and efficiency in traffic management comparable to that provided by a human operator through the employment of V2X and Deep Reinforcement learning (Wang, Cao and Hussain, 2021).
+
+
+### Key stakeholders {-}
+- **Affected**: Road drivers, cyclists, pedestrians
+- **Responsible**: Local governments, Local or national road infrastructure provides, car manufacturers
+
+### Current state of art in research {-} 
+Existing ATSC methods focus on varying the duration of green or red cycles based on real-time information. Nevertheless, this approach is not optimal because it neglects the impact of the current green and red lights durations on the upcoming traffic. Therefore, ATSC performs better than the fixed duration system but worse than more flexible methods because the optimal phase duration in the last cycles does not perform better in the future considering updated information about complex traffic conditions. <br/><br/>
+
+With Deep Learning (DL) methods (which serve as input to the intersection controls), the optimal design of the basic control indices such as green phase duration and phase sequence of the traffic light at an intersection can be considered as an optimal decision-making procedure. Next, the reinforcement learning (RL) is applied to signal control to obtain the best control procedure for a signalised intersection. However, in order to achieve instantaneous data acquisition and transmission with low latency, Cooperative Vehicle Infrastructure System (CVIS) is needed to support inter-vehicle communication and vehicles with roadside infrastructure communication (see [V2X]( #v2x) section). Compared to traditional sensor detectors, V2X can collect more accurate traffic data to provide comprehensive information for traffic control, resulting in better RL decision-making (Wang et al., 2021). <br/><br/>
+Moreover, the analysis of the recent literature for the optimisation of TSC systems, which have been published from January 2015 to January 2020 revealed that only two papers deal with signalised roundabouts. Roundabouts have different traffic dynamics compared to regular intersections. With an increasing use of signalised roundabouts, especially in urban areas, it is believed that TSC for signalised roundabouts is a particular research gap in this area. Although there are studies conducted using real data and real-time control, there are scarce results and/or methods applied or adapted in real life. One of the main challenges for researchers in this field would be to bring these methods to decision makers and implementers. <br/><br/>
+Moreover, a vast majority of work found on this topic deals with the timing of traffic signals and their impact on average delay and/or emissions. An important part of busy intersections, especially in metropolitan areas, is pedestrian traffic. With the exception of Vilarinho et al., (2017) and Yu et al., (2017), pedestrians and the effects of their behaviour are not modelled in the studies. The same applies for drivers’ behaviour. An important research direction would be to analyse the effects of pedestrian and driver behaviour on the models. <br/><br/>
+Furthermore, the number of studies dealing with autonomous vehicles and technologies is growing rapidly. The most recent studies address the general area of how autonomous vehicles can be introduced safely and/or efficiently and/or environmentally friendly into the traffic flow
+(Qadri et al., 2020a). <br/><br/>
+While learning from trial and error is the key idea in RL, the learning cost of RL for complicated problems might be unacceptable. Therefore, how to learn efficiently (e.g. from limited data samples, efficient exploration, transfer of learned knowledge) is a critical issue for the application of RL in traffic signal control (Wei et al., 2019).
+
+
+### Current state of art in practice {-}
+A number of stakeholders are focusing on the development of adaptive traffic control systems that support a range of smart city traffic applications, such as public transport signal priority (see [PTSP section]( #public_trans_priority) for further details), eco-driving support, messaging, intelligent traffic signal control (STSC) and emergency vehicle signal pre-emption (EVSP). Due to these factors and steady advances in sensors, artificial intelligence (AI) and machine learning, the global market for adaptive traffic control systems is forecasted to reach the market value of US$21.9 billion by the end of 2030.
+Governments and city administrations in different regions of the world are looking for new ways to respond to the increasing number of traffic accidents and managing road congestion, which is why adaptive traffic control systems have attracted a lot of interest in recent years as a viable alternative to address the existing challenges (The Sentinel Newspaper, 2021).
+There are many options already existing and more are still under development. Currently available adaptive signal control technologies include:
+
+- Split Cycle Offset Optimisation Technique (SCOOT);
+- Sydney Coordinated Adaptive Traffic System (SCATS),
+- Real Time Hierarchical Optimised Distributed Effective System (RHODES);
+- Optimised Policies for Adaptive Control (OPAC) *Virtual Fixed Cycle*
+- ACS Lite
+
+Real-time control of traffic systems have proven performance record, yet these systems have been deployed in less than 1% of existing traffic signals in America. The Federal Highway Administration is now working to roll out these technologies to the rest of the country (Curtis, 2017). Further, for example, in Germany the adaptive signal control system has been installed on a 6 km long arterial in Muenster, where it was demonstrated to have positive effect on traffic quality and improve the bus transit by 30% based on the adopted performance index (Brilon & Wietholt, 2013).
+
+
+### Relevant initiatives in Austria {-}
+
+- [Asfinag]( https://www.asfinag.at/road-safety/traffic-management/traffic-control/)
+- [ATC](https://www.atc.or.at/smart-cities/smart-mobility/urban-traffic-management-solutions/ )
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table72, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Scarcity of studies that include the effects of pedestrians behaviour |**-**|Equality (*5,10*)|Qadri et al., 2020b|
+|Systemic|Decrease in congestion at the intersections|**+**|Sustainable economic development (*8,11*)|Wang et al., 2021|
+|Systemic|Progress in the use of RL algorithms and V2X technologies|**+**|Innovation & Infrastructure (*9*)|Wang et al., 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table73, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-8|')
+```
+
+### Open questions {-}
+
+1. How can ATSC for signalised roundabouts be designed, developed and implemented?
+2. How can pedestrian movement be included to a larger extent into the algorithms of ATSC?
+3. How can reinforcement learning algorithms learn efficiently from limited data samples for the purpose traffic signal control?
+
+
+### Further links {-}
+- [rapidflowtech.com](https://www.rapidflowtech.com/surtrac)
+- [fhwa.dot.gov](https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm)
+
+### References {-}
+-	Brilon, W., & Wietholt, T. (2013). Experiences with adaptive signal control in Germany. Transportation research record, 2356(1), 9-16.
+-	Casas, N. (2017) ‘Deep deterministic policy gradient for urban traffic light control’, arXiv, pp. 1–12.
+-	Curtis, E. (2017) EDC-1: Adaptive Signal Control Technology | Federal Highway Administration. Available at: https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm (Accessed: 8 March 2021).
+-	Liang, X. et al. (2019) ‘A Deep Reinforcement Learning Network for Traffic Light Cycle Control’, IEEE Transactions on Vehicular Technology, 68(2), pp. 1243–1253. doi: 10.1109/TVT.2018.2890726.
+-	Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020a) ‘State-of-art review of traffic signal control methods: challenges and opportunities’, European Transport Research Review, 12(1), p. 55. doi: 10.1186/s12544-020-00439-1.
+-	Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020b) ‘State-of-art review of traffic signal control methods: challenges and opportunities’, European Transport Research Review. European Transport Research Review, 12(1), pp. 1–23. doi: 10.1186/s12544-020-00439-1.
+-	The Sentinel Newspaper (2021) ‘Adaptive Traffic Control System Market to reach US$ 21.9 Bn by 2030 – KSU | The Sentinel Newspaper’, 3 March. Available at: https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/ (Accessed: 8 March 2021).
+-	Vilarinho, C., Tavares, J. P. and Rossetti, R. J. F. (2017) ‘Intelligent Traffic Lights: Green Time Period Negotiaton’, Transportation Research Procedia, 22, pp. 325–334. doi: https://doi.org/10.1016/j.trpro.2017.03.039.
+-	Wang, T., Cao, J. and Hussain, A. (2021) ‘Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning’, Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 125(February), p. 103046. doi: 10.1016/j.trc.2021.103046.
+-	Wei, H. et al. (2019) ‘A survey on traffic signal control methods’, arXiv, 1(1).
+-	Yu, C. et al. (2017) ‘Optimization of vehicle and pedestrian signals at isolated intersections’, Transportation Research Part B: Methodological, 98, pp. 135–153. doi: https://doi.org/10.1016/j.trb.2016.12.015.
+
 
 ## Passengers and goods fleet management {#p_g_fleet_management}
 

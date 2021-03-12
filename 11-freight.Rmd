@@ -15,6 +15,102 @@
 ## Parcel load pooling {#parcel_pooling}
 
 ## Intelligent truck parking {#intelligent_truck_park}
+### Synonyms {-}
+*ITP, Information on Truck Parking*
+
+### Definition {-}
+Nowadays, there is a significant increase in transport volume, especially in the international road freight transport. In particular, with the enlargement of the EU member states, the interdependence of the member states has increased as well as the ratio of the exchange of goods and thus the increase in need for transport services (Gnap and Kubíková, 2020). Consequently, the higher number of vehicles and associated traffic lead to difficulties in meeting deadlines for loading and unloading goods as well as the obligation to take mandatory safety breaks and rest periods. It also amplifies the issue with lack of parking spaces along the route for the Heavy Goods Vehicle (HGV) which has a negative impact on logistics and creates assumptions for increasing logistics costs (Lozia and Kulma, 2014). <br/><br/>
+Therefore, the European Union is striving to support the development of the Trans-European Transport Network (TEN-T) through structural funds. The TEN-T network is intended to connect the member states from east to west and from north to south. Unfortunately, the rate of road construction in some countries is far below the rate of growth of transport services. The abolishment of in-vehicle resting and other upcoming changes in the so-called "road package" will increase the need for more parking spaces and associated equipment for drivers, especially on motorways. This fact will have a significant impact on the pressure on vehicle parking spaces when the maximum prescribed driving time is observed and there is a need to stop a vehicle and take a safety break or a daily/weekly rest period (Carrese et al., 2014). On top of this, there is a clear need for charging and refuelling stations for alternative fuels at rest areas to ensure smooth transit of vehicles using alternative fuels. These should be in line with the implementation of [Directive 2014/94/EU](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32014L0094) of the European Parliament. <br/><br/>
+Therefore, to attempt addressing these issues, an Intelligent Truck Parking (ITP) emerged which is an Intelligent Transportation Systems service concerned with the management of information related to HGV parking operations. ITP collects data about parking facilities (services and availability), processes the data, e.g. occupancy level, and communicates the information to drivers (in real time) in order to help them easily access such a facility. ITP enables efficient parking management and potentially improve the needs of transport stakeholders through the provision of information such as available parking spaces and additional services (Sochor & Mbiydzenyuy, 2013). <br/><br/>
+Good examples of the efficient use of the information system can be found in Germany or Austria. These systems, as part of the intelligent transport systems, offer services that make transport easier for drivers, e.g. searching for free parking spaces at rest areas located along motorways and motorways (Gnap and Kubíková, 2020).
+
+### Key stakeholders {-}
+
+- **Affected**: Drivers, Transport companies, Freight forwarders, Shippers and Insurers
+- **Responsible**: National Governments, Fright Companies, International authorities (eg. EU)
+
+### Current state of art in research {-}
+In the literature mostly, regional plans for specific areas in a certain country can be found. For example Carrese et al., (2014) for the Lazio Region in Italy and Gnap and Kubíková, (2020) for the Slovak Republic. However, safety aspects are also highlighted, such as a classification scheme of parking spaces for trucks in long-distance traffic. Again, the data is limited to a specific region (Peel Region in Ontario, Canada) but efforts have been made to develop a generally applicable scheme (Nevland et al., 2020).
+
+### Current state of art in practice {-}
+A common European park strategy was developed in 2014 by the European organisation SETPOS within the [SETPOS]( https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/2010_04_28_setpos_project_handbook.pdf) project. The project had four objectives:
+
+-	The assessment and validation of the requirements of stakeholders, i.e. drivers, dispatchers, hauliers, rest area operators, insurers, authorities and shippers;
+-	The formulation of a common set of standards for secured parking;
+-	The establishment of a number of pilot parking areas in cross-border regions to validate and demonstrate the standard set;
+-	To set up an information, guidance and reservation platform for all types of truck parking.
+
+The [LABEL]( https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/handbook_for_labelling.pdf ) project, which follows the SETPOS, aims to increase safety and quality standards for truck parking in Europe by (Carrese et al., 2014):
+
+-	Introducing a European standard certification scheme for truck parking areas;
+-	developing an online database for users to provide financial benefits to certified sites.
+
+Every day, billions of euros worth of goods are transported on the trans-European road network, the backbone of the EU economy. Despite the sector's successful performance with respect to volume, it faces a significant number of issues, including drivers’ shortage, skills shortage, ageing workforce and challenges related to safety, security and connectivity. In the road haulage industry, cargo equipment is a frequent target of organised criminal groups. Consequently, cargo thefts and illegal truck boarding cause significant financial and reputational losses for supply chain operators. <br/><br/>
+Currently, there is a lack of facilities that allow for safe parking of trucks and that also provide a minimum level of services for the social well-being of drivers. By establishing a denser network of secure truck parking areas (SSTPAs) with a clear definition of security levels, it is possible to address these issues all together. Drivers, transport companies, freight forwarders, shippers and insurers, as well as society as a whole, will benefit from a sufficient supply of these facilities by protecting drivers, cargo and transport equipment. In addition, road safety through well-rested drivers is another area where such facilities can have a significant positive impact. In this context, the European Commission conducted a study on safe parking areas for trucks, which was completed in December 2018. The main findings of this study demonstrated a need for (van Weenen et al., 2019):
+
+-	A common standard and rating system for safety and service;
+-	Audit responsibilities and guidelines to ensure reliability;
+-	Comprehensive maps showing where SSTPAs are needed;
+-	Recommendations for the basis of a common application program interface (API) for the exchange of dynamic data between SSTPAs and information platforms;
+-	Manuals to support the creation of business plans for the establishment of SSTPAs.
+
+A gap analysis to compare secure truck parking demand and supply at the European level and in more detail along the core network identified a number of issues, including (van Weenen et al., 2019):
+
+-	The total night parking demand is 400,000 truck parking spaces per night;
+-	Only 300,000 truck parking spaces are available, which means a deficit of about 100,000 additional spaces;
+-	The deficit in certified secure parking spaces is much greater, as only 7,000 spaces are available in a few countries. In some countries and on certain corridors, motorists cannot rely on the availability of certified secure parking spaces;
+-	The current supply of non-secure parking spaces is more evenly distributed across the network. However, these spaces are not certified and do not offer guaranteed services to drivers.
+
+Truck Parking Europe helps transport companies ensure the safety of drivers and freight. Inspection reports provide information on the safety features in truck parking areas. These audit reports help safety and planning managers to approve safe parking areas across Europe (in line with the standardised safety framework created by the EU). They provide a detailed overview of the facilities that each truck parking area offers (Truck Parking Europe, no date).
+
+### Relevant initiatives in Austria {-}
+One of the European Amazon drone development centres is localised in Austria (Marshall, 2020). Moreover, a new drone law came into force in the EU on 31 December 2020 to standardise the rules. It requires a CE marking on the drone and a drone licence for drones weighing 250g or more.
+
+- [truckparkingeurope-austria](https://www.truckparkingeurope.com/secure-truck-parking-overview/austria/) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table70, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Increase safety and security of drivers|**+**|Health & Wellbeing (*3*)|van Weenen et al., 2019|
+|Systemic|Reduced loses ralated to cargo thefts|**+**|Sustainable economic development (*8,11*)|van Weenen et al., 2019|
+|Systemic|Additional focus on the alternative fuel infrastructure|**+**|Innovation & Infrastructure (*9*)|Gnap and Kubikova, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table71, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|7-9|')
+```
+
+### Open questions {-}
+1. How to attract the interest of motorway companies, both private and public, to facilitate data provision, upgrading of parking sites for security and reservation, and encourage the infrastructure construction to capture dynamic data?
+2. What software infrastructure is needed to allow for in-vehicle up-to-date information about the occupancy and reservation of truck parking areas?
+
+
+### Further links {-}
+
+- [truckparkingeurope.com-1](https://www.truckparkingeurope.com/secure-truck-parking-overview/)
+- [truckparkingeurope.com-2](https://www.truckparkingeurope.com/how-do-i-reserve-a-secure-truck-parking-spot/)
+- [ec.europa.eu-1](https://ec.europa.eu/transport/themes/its/road/action_plan/intelligent-truck-parking_en)
+- [ec.europa.eu-2](https://ec.europa.eu/transport/sites/transport/files/modes/road/parking/doc/2010_04_28_setpos_project_handbook.pdf) 
+- [ec.europa.eu-3](https://ec.europa.eu/transport/sites/transport/files/2019-study-on-safe-and-secure-parking-places-for-trucks.pdf) 
+- [tis-gdv.de](https://www.tis-gdv.de/tis_e/bedingungen/parken/lpp-htm/)
+- [unece.org](https://unece.org/DAM/trans/doc/2008/sc1/ECE-TRANS-SC1-103-pres01e.pdf)
+
+
+### References {-}
+
+-	Carrese, S., Mantovani, S. and Nigro, M. (2014) ‘A security plan procedure for Heavy Goods Vehicles parking areas: An application to the Lazio Region (Italy)’, Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 65(1), pp. 35–49. doi: 10.1016/j.tre.2013.12.011.
+-	Gnap, J. and Kubíková, S. S. (2020) ‘Possible Effects of Lacking Parking Areas for Road Freight Transport on Logistics and Transport Safety’, Transportation Research Procedia. Elsevier B.V., 44(2019), pp. 53–60. doi: 10.1016/j.trpro.2020.02.009.
+-	Lozia, Z. and Kulma, J. (2014) ‘Simulation method of comparative evaluation of the agility of a passenger car when moving “forwards” and “backwards”’, Archiwum Motoryzacji, 64, pp. 49–64, 149.
+-	Nevland, E. A., Gingerich, K. and Park, P. Y. (2020) ‘A data-driven systematic approach for identifying and classifying long-haul truck parking locations’, Transport Policy. Elsevier Ltd, 96, pp. 48–59. doi: 10.1016/j.tranpol.2020.04.003.
+-	Sochor, J., & Mbiydzenyuy, G. (2013). Assessing the benefits of intelligent truck parking. International Journal of Intelligent Transportation Systems Research, 11(2), 43-53.
+-	Truck Parking Europe (no date) Audit reports on secure truck parking locations - Truck Parking Europe. Available at: https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/ (Accessed: 3 March 2021).
+-	van Weenen, R., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I., Ruschin, P. P. (2019) Study on Safe and Secure Parking Places for Trucks.
 
 ## Delivery space booking {#space_book}
 
