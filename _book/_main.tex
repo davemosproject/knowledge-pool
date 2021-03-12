@@ -1960,9 +1960,9 @@ TRL & SRL\tabularnewline
 \subsection*{Definition}\label{definition-7}}
 \addcontentsline{toc}{subsection}{Definition}
 
-In the recent years, the increasing population and the urgent need for efficient transport have led to severe traffic problems, especially in urban areas. Congestion mitigation solutions such as optimising the road network and improving basic urban management facilities have been proposed to cope with the pressure caused by the large traffic flow during peak hours. Among all possible methods, the adaptive traffic signal control (ATSC) which combine the intelligence into traffic light control systems has proven to be both, economical and efficient in relieving traffic pressure at congested intersections. With the development of deep learning techniques, ATSC strategies have shown great potential in integrating state-of-the-art intelligent methods (Wang, Cao and Hussain, 2021).
+In the recent years, the increasing population and the urgent need for efficient transport have led to severe traffic problems, especially in urban areas. Congestion mitigation solutions such as optimising the road network and improving basic urban management facilities have been proposed to cope with the pressure caused by the large traffic flow during peak hours. Among all possible methods, the adaptive traffic signal control (ATSC) which combine the intelligence into traffic light control systems has proven to be both, economical and efficient in relieving traffic pressure at congested intersections. With the development of deep learning techniques, ATSC strategies have shown great potential in integrating state-of-the-art intelligent methods (Wang et al., 2021).
 Existing traffic light control systems either employ fixed programs without incorporating real-time traffic or take little account of traffic (Casas, 2017). They either set the traffic lights to the same duration every cycle or vary the duration depending on historical information. Some of them take input information from the underground sensors, such as inductive loop detectors, to detect vehicles near the traffic lights. However, such data is processed very crudely to determine the duration of green and red traffic lights. Consequently, they work in some cases (with low efficiency); however, during events such as sports, festivals, weather conditions or a typical high traffic volume scenario, the existing control systems tend to be paralysed.
-The recent research paper by Liang et al., 2019 reports that an experienced police officer can efficiently and directly control the intersection by waving signals. Especially, in high traffic volume scenarios, a human operator observes the real-time traffic condition at the intersecting streets and adjusts the duration of the passage time accordingly. The aim of the adaptive traffic signal control is to provide flexibility and efficiency in traffic management comparable to that provided by a human operator through the employment of V2X and Deep Reinforcement learning (Wang, Cao and Hussain, 2021).
+The recent research paper by Liang et al., 2019 reports that an experienced police officer can efficiently and directly control the intersection by waving signals. Especially, in high traffic volume scenarios, a human operator observes the real-time traffic condition at the intersecting streets and adjusts the duration of the passage time accordingly. The aim of the adaptive traffic signal control is to provide flexibility and efficiency in traffic management comparable to that provided by a human operator through the employment of V2X and Deep Reinforcement learning (Wang et al., 2021).
 
 \hypertarget{key-stakeholders-7}{%
 \subsection*{Key stakeholders}\label{key-stakeholders-7}}
@@ -1982,7 +1982,7 @@ The recent research paper by Liang et al., 2019 reports that an experienced poli
 
 Existing ATSC methods focus on varying the duration of green or red cycles based on real-time information. Nevertheless, this approach is not optimal because it neglects the impact of the current green and red lights durations on the upcoming traffic. Therefore, ATSC performs better than the fixed duration system but worse than more flexible methods because the optimal phase duration in the last cycles does not perform better in the future considering updated information about complex traffic conditions.
 
-With Deep Learning (DL) methods (which serve as input to the intersection controls), the optimal design of the basic control indices such as green phase duration and phase sequence of the traffic light at an intersection can be considered as an optimal decision-making procedure. Next, the reinforcement learning (RL) is applied to signal control to obtain the best control procedure for a signalised intersection. However, in order to achieve instantaneous data acquisition and transmission with low latency, Cooperative Vehicle Infrastructure System (CVIS) is needed to support inter-vehicle communication and vehicles with roadside infrastructure communication (see \protect\hyperlink{v2x}{V2X} section). Compared to traditional sensor detectors, V2X can collect more accurate traffic data to provide comprehensive information for traffic control, resulting in better RL decision-making (Wang et al., 2021).
+With Deep Learning (DL) methods (which serve as input to the intersection controls), the optimal design of the basic control indices such as green phase duration and phase sequence of the traffic light at an intersection can be considered as an optimal decision-making procedure. Next, the reinforcement learning (RL) is applied to signal control to obtain the best control procedure for a signalised intersection. However, in order to achieve instantaneous data acquisition and transmission with low latency, Cooperative Vehicle Infrastructure System (CVIS) is needed to support inter-vehicle communication and vehicles with roadside infrastructure communication (see \protect\hyperlink{v2x}{V2X section}). Compared to traditional sensor detectors, V2X can collect more accurate traffic data to provide comprehensive information for traffic control, resulting in better RL decision-making (Wang et al., 2021).
 Moreover, the analysis of the recent literature for the optimisation of TSC systems, which have been published from January 2015 to January 2020 revealed that only two papers deal with signalised roundabouts. Roundabouts have different traffic dynamics compared to regular intersections. With an increasing use of signalised roundabouts, especially in urban areas, it is believed that TSC for signalised roundabouts is a particular research gap in this area. Although there are studies conducted using real data and real-time control, there are scarce results and/or methods applied or adapted in real life. One of the main challenges for researchers in this field would be to bring these methods to decision makers and implementers.
 Moreover, a vast majority of work found on this topic deals with the timing of traffic signals and their impact on average delay and/or emissions. An important part of busy intersections, especially in metropolitan areas, is pedestrian traffic. With the exception of Vilarinho et al., (2017) and Yu et al., (2017), pedestrians and the effects of their behaviour are not modelled in the studies. The same applies for drivers' behaviour. An important research direction would be to analyse the effects of pedestrian and driver behaviour on the models.
 Furthermore, the number of studies dealing with autonomous vehicles and technologies is growing rapidly. The most recent studies address the general area of how autonomous vehicles can be introduced safely and/or efficiently and/or environmentally friendly into the traffic flow
@@ -2133,21 +2133,21 @@ TRL & SRL\tabularnewline
 \item
   Curtis, E. (2017) EDC-1: Adaptive Signal Control Technology \textbar{} Federal Highway Administration. Available at: \url{https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm} (Accessed: 8 March 2021).
 \item
-  Liang, X. et al.~(2019) `A Deep Reinforcement Learning Network for Traffic Light Cycle Control', IEEE Transactions on Vehicular Technology, 68(2), pp.~1243--1253. doi: 10.1109/TVT.2018.2890726.
+  Liang, X., Du, X., Wang, G., \& Han, Z. (2019). A deep reinforcement learning network for traffic light cycle control. IEEE Transactions on Vehicular Technology, 68(2), 1243-1253.
 \item
-  Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020a) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review, 12(1), p.~55. doi: 10.1186/s12544-020-00439-1.
+  Qadri, S. S. S. M., Gökçe, M. A. \& Öner, E. (2020a) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review, 12(1), p.~55. doi: 10.1186/s12544-020-00439-1.
 \item
-  Qadri, S. S. S. M., Gökçe, M. A. and Öner, E. (2020b) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review. European Transport Research Review, 12(1), pp.~1--23. doi: 10.1186/s12544-020-00439-1.
+  Qadri, S. S. S. M., Gökçe, M. A. \& Öner, E. (2020b) `State-of-art review of traffic signal control methods: challenges and opportunities', European Transport Research Review. European Transport Research Review, 12(1), pp.~1--23. doi: 10.1186/s12544-020-00439-1.
 \item
   The Sentinel Newspaper (2021) `Adaptive Traffic Control System Market to reach US\$ 21.9 Bn by 2030 -- KSU \textbar{} The Sentinel Newspaper', 3 March. Available at: \url{https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/} (Accessed: 8 March 2021).
 \item
-  Vilarinho, C., Tavares, J. P. and Rossetti, R. J. F. (2017) `Intelligent Traffic Lights: Green Time Period Negotiaton', Transportation Research Procedia, 22, pp.~325--334. doi: \url{https://doi.org/10.1016/j.trpro.2017.03.039}.
+  Vilarinho, C., Tavares, J. P. \& Rossetti, R. J. F. (2017) `Intelligent Traffic Lights: Green Time Period Negotiaton', Transportation Research Procedia, 22, pp.~325--334. doi: \url{https://doi.org/10.1016/j.trpro.2017.03.039}.
 \item
-  Wang, T., Cao, J. and Hussain, A. (2021) `Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning', Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 125(February), p.~103046. doi: 10.1016/j.trc.2021.103046.
+  Wang, T., Cao, J. \& Hussain, A. (2021) `Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning', Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 125(February), p.~103046. doi: 10.1016/j.trc.2021.103046.
 \item
-  Wei, H. et al.~(2019) `A survey on traffic signal control methods', arXiv, 1(1).
+  Wei, H., Zheng, G., Gayah, V., \& Li, Z. (2019). A survey on traffic signal control methods. arXiv preprint arXiv:1904.08117.
 \item
-  Yu, C. et al.~(2017) `Optimization of vehicle and pedestrian signals at isolated intersections', Transportation Research Part B: Methodological, 98, pp.~135--153. doi: \url{https://doi.org/10.1016/j.trb.2016.12.015}.
+  Yu, C., Ma, W., Han, K., \& Yang, X. (2017). Optimization of vehicle and pedestrian signals at isolated intersections. Transportation Research Part B: Methodological, 98, 135-153.
 \end{itemize}
 
 \hypertarget{p_g_fleet_management}{%
@@ -4434,10 +4434,10 @@ TRL & SRL\tabularnewline
 \subsection*{Definition}\label{definition-17}}
 \addcontentsline{toc}{subsection}{Definition}
 
-Nowadays, there is a significant increase in transport volume, especially in the international road freight transport. In particular, with the enlargement of the EU member states, the interdependence of the member states has increased as well as the ratio of the exchange of goods and thus the increase in need for transport services (Gnap and Kubíková, 2020). Consequently, the higher number of vehicles and associated traffic lead to difficulties in meeting deadlines for loading and unloading goods as well as the obligation to take mandatory safety breaks and rest periods. It also amplifies the issue with lack of parking spaces along the route for the Heavy Goods Vehicle (HGV) which has a negative impact on logistics and creates assumptions for increasing logistics costs (Lozia and Kulma, 2014).
+Nowadays, there is a significant increase in transport volume, especially in the international road freight transport. In particular, with the enlargement of the EU member states, the interdependence of the member states has increased as well as the ratio of the exchange of goods and thus the increase in need for transport services (Gnap \& Kubíková, 2020). Consequently, the higher number of vehicles and associated traffic lead to difficulties in meeting deadlines for loading and unloading goods as well as the obligation to take mandatory safety breaks and rest periods. It also amplifies the issue with lack of parking spaces along the route for the Heavy Goods Vehicle (HGV) which has a negative impact on logistics and creates assumptions for increasing logistics costs (Lozia \& Kulma, 2014).
 Therefore, the European Union is striving to support the development of the Trans-European Transport Network (TEN-T) through structural funds. The TEN-T network is intended to connect the member states from east to west and from north to south. Unfortunately, the rate of road construction in some countries is far below the rate of growth of transport services. The abolishment of in-vehicle resting and other upcoming changes in the so-called ``road package'' will increase the need for more parking spaces and associated equipment for drivers, especially on motorways. This fact will have a significant impact on the pressure on vehicle parking spaces when the maximum prescribed driving time is observed and there is a need to stop a vehicle and take a safety break or a daily/weekly rest period (Carrese et al., 2014). On top of this, there is a clear need for charging and refuelling stations for alternative fuels at rest areas to ensure smooth transit of vehicles using alternative fuels. These should be in line with the implementation of \href{https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX\%3A32014L0094}{Directive 2014/94/EU} of the European Parliament.
 Therefore, to attempt addressing these issues, an Intelligent Truck Parking (ITP) emerged which is an Intelligent Transportation Systems service concerned with the management of information related to HGV parking operations. ITP collects data about parking facilities (services and availability), processes the data, e.g.~occupancy level, and communicates the information to drivers (in real time) in order to help them easily access such a facility. ITP enables efficient parking management and potentially improve the needs of transport stakeholders through the provision of information such as available parking spaces and additional services (Sochor \& Mbiydzenyuy, 2013).
-Good examples of the efficient use of the information system can be found in Germany or Austria. These systems, as part of the intelligent transport systems, offer services that make transport easier for drivers, e.g.~searching for free parking spaces at rest areas located along motorways and motorways (Gnap and Kubíková, 2020).
+Good examples of the efficient use of the information system can be found in Germany or Austria. These systems, as part of the intelligent transport systems, offer services that make transport easier for drivers, e.g.~searching for free parking spaces at rest areas located along motorways and motorways (Gnap \& Kubíková, 2020).
 
 \hypertarget{key-stakeholders-17}{%
 \subsection*{Key stakeholders}\label{key-stakeholders-17}}
@@ -4455,7 +4455,7 @@ Good examples of the efficient use of the information system can be found in Ger
 \subsection*{Current state of art in research}\label{current-state-of-art-in-research-17}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
-In the literature mostly, regional plans for specific areas in a certain country can be found. For example Carrese et al., (2014) for the Lazio Region in Italy and Gnap and Kubíková, (2020) for the Slovak Republic. However, safety aspects are also highlighted, such as a classification scheme of parking spaces for trucks in long-distance traffic. Again, the data is limited to a specific region (Peel Region in Ontario, Canada) but efforts have been made to develop a generally applicable scheme (Nevland et al., 2020).
+In the literature mostly, regional plans for specific areas in a certain country can be found. For example Carrese et al., (2014) for the Lazio Region in Italy and Gnap \& Kubíková, (2020) for the Slovak Republic. However, safety aspects are also highlighted, such as a classification scheme of parking spaces for trucks in long-distance traffic. Again, the data is limited to a specific region (Peel Region in Ontario, Canada) but efforts have been made to develop a generally applicable scheme (Nevland et al., 2020).
 
 \hypertarget{current-state-of-art-in-practice-16}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-16}}
@@ -4522,8 +4522,6 @@ Truck Parking Europe helps transport companies ensure the safety of drivers and 
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-17}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
-One of the European Amazon drone development centres is localised in Austria (Marshall, 2020). Moreover, a new drone law came into force in the EU on 31 December 2020 to standardise the rules. It requires a CE marking on the drone and a drone licence for drones weighing 250g or more.
-
 \begin{itemize}
 \tightlist
 \item
@@ -4580,7 +4578,7 @@ Additional focus on the alternative fuel infrastructure\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
 Innovation \& Infrastructure (\emph{9})\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
-Gnap and Kubikova, 2020\strut
+Gnap \& Kubikova, 2020\strut
 \end{minipage}\tabularnewline
 \bottomrule
 \end{longtable}
@@ -4640,19 +4638,19 @@ TRL & SRL\tabularnewline
 \begin{itemize}
 \tightlist
 \item
-  Carrese, S., Mantovani, S. and Nigro, M. (2014) `A security plan procedure for Heavy Goods Vehicles parking areas: An application to the Lazio Region (Italy)', Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 65(1), pp.~35--49. doi: 10.1016/j.tre.2013.12.011.
+  Carrese, S., Mantovani, S. \& Nigro, M. (2014) `A security plan procedure for Heavy Goods Vehicles parking areas: An application to the Lazio Region (Italy)', Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 65(1), pp.~35--49. doi: 10.1016/j.tre.2013.12.011.
 \item
-  Gnap, J. and Kubíková, S. S. (2020) `Possible Effects of Lacking Parking Areas for Road Freight Transport on Logistics and Transport Safety', Transportation Research Procedia. Elsevier B.V., 44(2019), pp.~53--60. doi: 10.1016/j.trpro.2020.02.009.
+  Gnap, J. \& Kubíková, S. S. (2020) `Possible Effects of Lacking Parking Areas for Road Freight Transport on Logistics and Transport Safety', Transportation Research Procedia. Elsevier B.V., 44(2019), pp.~53--60. doi: 10.1016/j.trpro.2020.02.009.
 \item
-  Lozia, Z. and Kulma, J. (2014) `Simulation method of comparative evaluation of the agility of a passenger car when moving ``forwards'' and ``backwards''\,', Archiwum Motoryzacji, 64, pp.~49--64, 149.
+  Lozia, Z. \& Kulma, J. (2014) `Simulation method of comparative evaluation of the agility of a passenger car when moving ``forwards'' and ``backwards''\,', Archiwum Motoryzacji, 64, pp.~49--64, 149.
 \item
-  Nevland, E. A., Gingerich, K. and Park, P. Y. (2020) `A data-driven systematic approach for identifying and classifying long-haul truck parking locations', Transport Policy. Elsevier Ltd, 96, pp.~48--59. doi: 10.1016/j.tranpol.2020.04.003.
+  Nevland, E. A., Gingerich, K. \& Park, P. Y. (2020) `A data-driven systematic approach for identifying and classifying long-haul truck parking locations', Transport Policy. Elsevier Ltd, 96, pp.~48--59. doi: 10.1016/j.tranpol.2020.04.003.
 \item
   Sochor, J., \& Mbiydzenyuy, G. (2013). Assessing the benefits of intelligent truck parking. International Journal of Intelligent Transportation Systems Research, 11(2), 43-53.
 \item
   Truck Parking Europe (no date) Audit reports on secure truck parking locations - Truck Parking Europe. Available at: \url{https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/} (Accessed: 3 March 2021).
 \item
-  van Weenen, R., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I., Ruschin, P. P. (2019) Study on Safe and Secure Parking Places for Trucks.
+  van Weenen, R., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I. \& Ruschin, P. P. (2019) Study on Safe and Secure Parking Places for Trucks.
 \end{itemize}
 
 \hypertarget{space_book}{%
