@@ -61,7 +61,7 @@ format(Sys.time(),'%d %B %Y')
     - [Infrastructure support levels for automated driving](#infrast_support_level)
     - [Wireless communication](#wireless_com)
 6. [Passenger information system](#passenger)
-    - [Digital journey planner](#djp)
+    - [Digital journey planner](#djp) **NEW**
     - [Rail telematics for passenger services](#telematics_passenger)
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
 7. [Multimodal integrated system](#multimodal)
