@@ -59,7 +59,6 @@ ehorizon
 ecall
 freight
 automated_road_freight
-dreyage_optim
 dangerous_goods
 intermodal_freight
 disruption_management
