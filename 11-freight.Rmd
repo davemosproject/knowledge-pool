@@ -2,11 +2,79 @@
 
 ## Automated road freight {#automated_road_freight}
 
-## Freight dreyage optimisation {#dreyage_optim}
-
 ## Tracking and tracing of dangerous goods {#dangerous_goods}
 
 ## Intermodal Freight {#intermodal_freight}
+
+### Synonyms {-}
+*unaccompanied combined transport (UCT), intermodal transport unit (ITE)* 
+
+### Definition {-}
+Intermodal freight refers to the transport of goods in an intermodal transport unit (ITE) with at least two different modes of transport (e.g. road, rail, inland waterway). ITEs are containers or swap bodies, accompanied or unaccompanied road freight vehicles and trailers of road freight vehicles. The essential feature of intermodal transport is that, when the transport unit is changed to another mode of transport, there is no transhipment of goods, i.e. the entire ITE is always loaded onto another mode of transport (Rudlof et al., 2018).<br/>
+
+In terms of the advantages the intermodal freight is crucial in reducing the emissions where transport accounts for almost a quarter of the European Union's green house gases (GHG) emissions, of which road transport accounts for 74%. In particular, freight transport by road is an important source of emissions, as heavy-duty vehicles are responsible for 6% of the European Union's total emissions. Therefore, reducing carbon emissions associated with freight transport by road is a priority to meet current policy emission reduction targets, such as reducing GHG emissions by 80% by 2050 under the terms of the Paris Agreement. Other possible solutions to this problem include technological improvements, such as the development of more efficient and near-zero emission engines, and management improvements, such as reducing and optimising transport distances and shifting traffic from high-emission to low-emission vehicles, for example from trucks to trains or ships (European Commission, no date). Nonetheless, intermodal freight is frequently associated with slower speed, lack of reliability and increased potential for damages of the good.
+
+
+### Key stakeholders {-}
+
+- **Affected**: Truck drivers, freight companies, rail companies, freight terminals, highway user
+- **Responsible**: National Governments, International authorities
+
+### Current state of art in research {-}
+Research focuses on the ecological perspective of intermodal transport (Heinold & Meisel, 2020) as well as automated intermodal freight transport systems that aim to reduce GHG emissions, minimise infrastructure and logistics costs and reduce traffic congestion (Shin et al., 2018). Moreover, some papers, for example Saeedi et al. (2019) look at the technical efficiency of the intermodal transport. 
+
+### Current state of art in practice {-}
+Over the last two decades, EU transport policy has promoted intermodal freight transport (by rail or inland waterways). In 2011, the European Commission set a target of shifting 30% of freight transported further than 300 km by road to other modes such as rail or waterways by 2030, and more than 50% by 2050. Despite significant investments (about €28 billion in funding for rail projects between 2007 and 2013) and the priority shift of freight from road to intermodal freight transport (IFT), EU policy for intermodal transport has not achieved significant improvements (European Court of Auditors, 2016). The performance of an IFT service is attributed to two main factors: the performance of the different parts of the chain and the cooperation and harmony between these parts (Saeedi et al., 2019). <br/>
+
+Since this special type of freight transport has become increasingly important in recent years from an economic and political point of view, Eurostat has set up the Task Force on Intermodal Transport Statistics on this topic. The task force, in which Statistics Austria (STAT) also participated, was to evaluate how meaningful and high-quality data on intermodal transport could be compiled at European level for road and rail transport as well as inland and maritime navigation without imposing additional burdens on the member states of the European Union. It was investigated whether in individual countries, in addition to the data on intermodal transport already to be collected according to EU regulations,  information is available that could provide a better picture of transport with ITE. This assessment showed that information on intermodal transport is available in many different forms across countries. Possible indicators can, therefore, only be compiled in a limited form at EU level, as their characteristics differ with regard to the individual modes of transport and also show inconsistencies due to methodological reasons. For example, there are differences in the weights to be collected or the type and size of the ITEs. Furthermore, information on the source and destination regions of transported containers is not available, nor is information on transport chains. This is because the transports on individual modes are considered independent of each other. In the context of the Task Force it also turned out that, compared to other Member States, most information on intermodal transport at national level is available in Germany. The Federal Statistical Office in Germany (Destatis) collects data on the transport of goods in containers, swap bodies, road freight vehicles and trailers of road freight vehicles on roads, railways, rivers and seas. For other countries, one of the basic assumptions is that only a small amount of ITE is transported by road freight vehicles, mainly over short distances (Rudlof et al., 2018). <br/>
+
+Some foreign developments in the field of automated freight transport system technologies have entered pilot operations after finalising their concept designs. In other cases, further developments have been suspended due to economic challenges such as high initial investment. In the case of FSS, an unmanned automated freight transport system was developed in the US and considered the most advanced of its kind in terms of its development progress. The system is currently in test operation after completing the construction of a test bed with a 100 m linear track. Overall, in the advanced countries, it is considered that the developments have reached a point where they will be subjected to the validation processes for commercialisation after the concept phase is completed. Upon completion of further testing, product launches are expected within the next 3 to 4 years (Shin etal., 2018).
+
+
+### Relevant initiatives in Austria {-}
+In Austria, there is a special support programme for unaccompanied combined transport (UCT) by rail, which is intended to contribute to a shift of freight transport to this mode of transport. The Rail Infrastructure Service Company ([SCHIG](https://www.schig.com/)) is responsible for handling these subsidies on behalf of the BMVIT.<br/>
+
+A survey of the terminals as well as the analysis of the SCHIG data sets on the UCT funding programme have shown that no supplementary data on intermodal transport is currently available in Austria. Without new and specially designed surveys, it is currently not possible to compile comprehensive statistics on intermodal transport across all modes of transport, which would above all also allow statements on transport chains. One way of obtaining data could be, for example, to oblige the terminals where intermodal transport takes place to keep records and make them available to the statistics. However, the necessary legal basis for this would first have to be created.<br/>
+
+Intermodal transport in Austria in 2016 was particularly important in the area of rail freight transport with a share of 22.3%. In contrast, only 2.6% of the transport volume on the road was carried in intermodal transport units, and intermodal transport was of no significance for the inland waterway mode of transport, as only empty containers were transported on inland vessels (Rudlof et al., 2018).
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table76, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Potential for reduction in emissions|**+**|Environmental sustainability  (*7,12-13,15*)|European Commission, no date|
+|Systemic|Lack of standarisation in information on intermodal transport across EU|**~**|Partnership & collaborations (*17*)|Rudlof et al., 2018|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table77, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|8-9|')
+```
+
+### Open questions {-}
+1. How can coordination between multi-level decision makers be improved to make intermodal performance more efficient?
+2. Given that drayage operations are a large proportion of total cost in intermodal freight, how they can be performed more efficiently?
+3. How the standarisation in information collection, storage and sharing procedures can be achieved across the EU conutries?
+
+
+### Further links {-}
+
+- [eca.europa.eu](https://www.eca.europa.eu/en/Pages/DocItem.aspx?did=36398)
+- [transportgeography.org](https://transportgeography.org/contents/chapter5/intermodal-transportation-containerization/)
+
+### References {-}
+-	European Commission (no date) Transport emissions | Climate Action. Available at: https://ec.europa.eu/clima/policies/transport_en (Accessed: 11 March 2021).
+-	European Court of Auditors (2016) Rail freight transport in the EU: still not on the right track. Luxembourg. doi: 10.2865/53961.
+-	Heinold, A. and Meisel, F. (2020) ‘Emission limits and emission allocation schemes in intermodal freight transportation’, Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 141, p. 101963. doi: 10.1016/j.tre.2020.101963.
+-	Rudlof, M., Karner, T. and Fleck, S. (2018) ‘Intermodaler Verkehr in Österreich’, pp. 87–95.
+-	Saeedi, H. et al. (2019) ‘Assessing the technical efficiency of intermodal freight transport chains using a modified network DEA approach’, Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 126, pp. 66–86. doi: 10.1016/j.tre.2019.04.003.
+-	Shin, S., Roh, H. S. and Hur, S. H. (2018) ‘Technical Trends Related to Intermodal Automated Freight Transport Systems (AFTS) *’, Asian Journal of Shipping and Logistics. Korean Association of Shipping and Logistics, Inc., 34(2), pp. 161–169. doi: 10.1016/j.ajsl.2018.06.013.
+
+
 
 ## Real-time disruption management and route planning {#disruption_management}
 
@@ -15,6 +83,7 @@
 ## Parcel load pooling {#parcel_pooling}
 
 ## Intelligent truck parking {#intelligent_truck_park}
+
 ### Synonyms {-}
 *ITP, Information on Truck Parking*
 

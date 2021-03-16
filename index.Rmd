@@ -70,7 +70,7 @@ format(Sys.time(),'%d %B %Y')
     - [Mobility as a service (MaaS)](#maas) **NEW**
     - [Park and ride](#p_r) **NEW**
     - [Contactless public transport cards](#contactless_cards) **NEW**
-    - [Information and assistance for people with special needs](#special_needs)
+    - [Information and assistance for people with special needs](#special_needs) **NEW**
     - [Mobility hubs](#mobility_hubs)
 8. [Connected and autonomous driving](#connected)
     - [Parking infrastructure for autonomous vehicles](#parking_av)
@@ -88,9 +88,8 @@ format(Sys.time(),'%d %B %Y')
     - [Emergency call](#ecall) **NEW**
 10. [Freight and commercial transport](#freight)
     - [Automated road freight](#automated_road_freight)
-    - [Freight dreyage optimisation](#dreyage_optim)
     - [Tracking and tracing of dangerous goods](#dangerous_goods)
-    - [Intermodal Freight](#intermodal_freight)
+    - [Intermodal Freight](#intermodal_freight) **NEW**
     - [Real-time disruption management and route planning](#disruption_management)
     - [Urban deliveries](#urban_delivery)
     - [Parcel load pooling](#parcel_pooling)

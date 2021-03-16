@@ -294,6 +294,101 @@ der passende Tarif. Retrieved 13th January 2021, from https://www.wienerlinien.a
 
 
 ## Information and assistance for people with special needs {#special_needs}
+### Synonyms {-}
+
+*Assistive technology*
+
+### Definition {-}
+Vehmas (2010: 92) defines that having a special need *"...implies that an individual has the kind of characteristics that it is unlikely, or at least uncertain, whether he or she would achieve the aim that defines the need in question without special instruction, procedures that are out of ordinary."* Special needs can therefore mean a mobility limitation due to age or any type of disability. 
+
+Furthermore, *"Assistive technology refers to any system, services, appliances or devices that could be used to help disabled people with their daily life by removing some barriers to activities."* (Low et al., 2020).
+
+Because the types of disabilities are diverse and so are the specific needs, Low et al. (2020) argue that more specific measures should be taken to meet the particular needs of specific disabilities rather than generalizing the types of assistive devices available. The requirements regarding traffic systems for people with special needs can be divided into *(1)* visual impairment, *(2)* hearing impairment, *(3)* mobility impairment, and *(4)* mental impairment. While for some people with special needs only one may be applicable, the elderly people might depend upon more than one or even all. <br/>
+
+Low et al. (2020) argue, that especially people with visual impairment (VIP) are dependent on public transport, because they cannot drive vehicles themselves, which leads to a restriction of freedom of movement. The same applies to many people with limited mobility who are excluded from active participation in motorized individual transport. Limited access to travel information is often a barrier to independent travel and other daily activities for people with special needs. When using public transportation, the choice of route is influenced by the reliability and availability of information, as well as convenience and comfort. However simply gathering this information before a trip can often be a problem for VIPs, as a lot of information is printed. However, the current trend towards online materials is helping. Due to physical and mental conditions, especially old or disabled people might need some extra information, for example, many older people cannot stand for long, are sensitive to weather conditions, cannot do things quickly or cannot walk long distances (Hounsell et al., 2016). A lack of usable information can add a negative aspect to the overall experience and actually prevent a trip. <br/>
+
+In addition, Low et al. (2020) argue, that bus riding poses several challenges for VIPs, such as finding the right bus, which is especially problematic when multiple bus stops are at the same station. The mix of fleets used makes it difficult for VIPs to identify the characteristics of a bus. Furthermore, it is often difficult for VIPs to locate the boarding point for buses. Regarding trains, the gap between the train and the platform can be a barrier. An important part of public transport are audio announcements, which serve as a source of information for VIPs. If these systems fail, the journey is perceived as particularly stressful. <br/>
+
+To overcome barriers at the ticket buying, the implementation of contactless card systems (see [Contactless public transport cards section](#contactless_cards)) or free passes for disabled people can help (Low et al., 2020). 
+
+
+### Key stakeholders {-}
+
+- **Affected**: People with special needs, elderly population, care takers
+- **Responsible**: Transport service providers and public transport operators, MaaS operators and integrators, IT system providers, city councils, local, regional and national authorities, public transport associations, industry suppliers, Association for the Blind, Association for the Disabled
+
+### Current state of art in research {-}
+The study by Low et al. (2020) reflects, among other things, VIPs' desire to be independent in planning their trips by using online resources rather than seeking help from others. This shows the importance of having appropriate online tools for VIPs. Interviewees mentioned that they need to use many different sources and apps to plan a single trip, which in turn causes a lot of stress and decreases the propensity to the use of public transport. In addition, VIPs were found to lack access to current policies and information on available assistance. Furthermore, it was pointed out, that a similar interior design of buses would be extremely helpful for VIP and increase safety.<br/>
+
+Goldberg et al. (2018) looked into the needs of VIPs for orientation, navigation and mobility. Based on their findings, they propose *"an integrated cyber-physical system (CPS) framework with 'Agents' and 'Smart Environments' to address VIP's ONM needs in urban settings."* Fusco & Coughlan (2020) described *"a computer vision approach to indoor localization that runs as a real-time app on a conventional smart-phone, which is intended to support a full-featured wayfinding app in the future that will include turn-by-turn directions."* One advantage of this approach is that no new infrastructure is needed, just a working smartphone with a built-in camera.<br/>
+
+Hounsell et al. (2016) addressed information needs of older people particularly using public transport. Among other things, they found that elderly people *“may need larger font displays and primary data only, while mobility impaired people may need information on walking distances and the existence of gradient, steps, seats, etc."* By reviewing international cases of open data implementation, they found examples of authorities initiating the market by running competitions to develop apps for targeted groups such as older or disabled people. 
+
+### Current state of art in practice {-}
+One of the common assistive tools available to VIP are mobility tools, in particular a long cane or a guide dog. GPS is used as an assistive technology for VIP for orientation purposes and as a navigation aid. It can also be integrated into other devices to help VIP with orientation, such as a GPS-based voice alarm system that alerts VIP to nearby obstacles (Low et al., 2020). *BlindSquare* is one of the most popular GPS apps in the world for blind and visually impaired people. It describes the surroundings, warns about street intersections and important points as one moves along. Used in conjunction with external free navigation apps, *BlindSquare* provides almost all the information blind and visually impaired people need to be independent on the road. *BlindSquare* determines the location using the smartphone's GPS capabilities and retrieves information about the surrounding area on Foursquare and Open Street Map. Thanks to its unique algorithms, it determines the most relevant information and states it clearly in an artificial voice (BlindSquare., n.d.). A similar app is *Seeing Assistant Move*, which is based on Google Maps and also works offline and with voice control (Transition Technologies S.A., n.d.). Using public transport audio announcements plays a crucial role in helping VIP to be prepared to alight from the vehicle (Low et al., 2020).<br/>
+
+Induction hearing systems or induction hearing loops are used to provide people with hearing problems with auditory information. The principle is based on special cables, the so-called induction loop, which is operated by an induction amplifier that converts the signals coming from the microphone and feeds them into the loop as a current. This current, in turn, creates a weak magnetic field in the coil in the room, which pulses in rhythm with the speech. This weak magnetic field is picked up by the hearing aid's T-coil, similar to an antenna, and converted back into audible sound vibrations. Almost no background noise is transmitted and the desired information can thus be heard without interference, almost in HIFI quality (Sturma, 2011). <br/>
+
+To ensure accessibility for people with limited mobility in buses, more and more cities are focusing on the use of low-floor vehicles that can be lowered further hydraulically if required. The low entrance height makes boarding and alighting much easier, especially for older people and passengers with baby carriages or wheelchair users. Tramway equipment is also constantly being improved. Modern cars have more space for passengers with wheelchairs or baby carriages and a retractable ramp to bridge the already minimized gap between the platform edge and the vehicle (Wiener Linien, n.d.). As in Vienna, for example, real-time displays at stations can use a wheelchair symbol to indicate whether the expected public transport vehicles are barrier-free. <br/>
+
+Finally, for example in Singaporean buses were introduced amenities for the convenience of pregnant, elderly and young passengers in the form of designated priority seats, low floors along the entire bus and low steps at the entrance and exit to facilitate individuals with limited mobility to board the bus quickly as well as move along the bus more easily (Smrt.com.sg, 2021).
+
+
+### Relevant initiatives in Austria {-}
+
+- [oebb.at](https://www.oebb.at/de/reiseplanung-services/barrierefrei-reisen) 
+- [wienerlinien.at](https://www.wienerlinien.at/web/wiener-linien/neue-bim-und-bus-haltestellen-f%C3%BCr-wien)
+- [induktionsschleife.at](https://www.induktionsschleife.at/ )
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table78, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Safe access to public transport|**+**|Health & Wellbeing (*3*)|Low et al. (2020)|
+|Individual|Equal freedom of movement|**+**|Equality (*5,10*) |Low et al. (2020)|
+|Individual|Improved access to public transport|**+**|Environmental sustainability (*7,12-13,15*) |Low et al. (2020)|
+|Systemic| Increase in innovative apps developed for targeted groups; use of open data| **+**|Innovation & Infrastructure (*9*) |Hounsell et al. (2016)|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table79, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|3-7|3-7|')
+```
+
+### Open questions {-}
+
+1. How could real-time information be better available for visually impaired people? 
+2. How could audio announcements be improved? 
+3. How to improve staff assistance? 
+4. How could smart technologies become more accessible to older people? 
+
+### Further links {-}
+
+- [blindsquare.com](https://www.blindsquare.com/de/about/)
+- [seeingassistant.tt.com.pl](http://seeingassistant.tt.com.pl/move/ )
+- [induktionsschleife.at](https://www.induktionsschleife.at/anwendungen/) 
+- [oebb.at](https://www.oebb.at/de/reiseplanung-services/barrierefrei-reisen) 
+- [wienerlinien.at](https://www.wienerlinien.at/eportal3/ep/contentView.do?pageTypeId=66526&channelId=-47186&programId=74577&contentId=5002349&contentTypeId=1001) 
+- [oesb-dachverband.at](https://www.oesb-dachverband.at/)
+- [blindenverband.at](https://www.blindenverband.at/ )
+ 
+### References {-}
+-	BlindSquare. (n.d.). What is BlindSquare? Retrieved March 4, 2021, from https://www.blindsquare.com/about/
+-	Fusco, G., & Coughlan, J. M. (2020, April). Indoor localization for visually impaired travelers using computer vision on a smartphone. In Proceedings of the 17th International Web for All Conference (pp. 1-11).
+-	Goldberg, M., Zhu, Z., & Zhang, Z. (2018). How do we aid visually impaired people safely manage unfamiliar environments?.
+-	Hounsell, N. B., Shrestha, B. P., McDonald, M., & Wong, A. (2016). Open data and the needs of older people for public transport information. Transportation research procedia, 14, 4334-4343.
+-	Low, W. Y., Cao, M., De Vos, J., & Hickman, R. (2020). The journey experience of visually impaired people on public transport in London. Transport Policy, 97, 137-148.
+-	Smrt.com.sg. (2021). Accessibility. [online] Smrt.com.sg. Available at: <https://www.smrt.com.sg/Journey-with-Us/SMRT-Buses/Accessibility> [Accessed 12 March 2021].
+-	Sturma, A. (2011). Höranlagen. https://www.oessh.or.at/hoerspuren/hoeranlagen
+-	Transition Technologies S.A. (n.d.). Seeing Assistant Move - Features. Retrieved March 4, 2021, from http://seeingassistant.tt.com.pl/move/
+-	Vehmas, S. (2010). Special needs: a philosophical analysis. International journal of inclusive education, 14(1), 87-96.
+-	Wiener Linien. (n.d.). Barrierefreiheit bei den Wiener Linien - Wiener Linien. Retrieved March 16, 2021, from https://www.wienerlinien.at/web/wiener-linien/barrierefreiheit
+
 
 ## Mobility hubs {#mobility_hubs}
 
