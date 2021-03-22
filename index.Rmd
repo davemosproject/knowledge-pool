@@ -102,7 +102,7 @@ format(Sys.time(),'%d %B %Y')
     - [Multimodal transport management systems](#mtms)
     - [Freight hubs](#freight_hubs)
 11. [Collective mobility vehicles](#collective)
-    - [Demand responsive transit](#drt)
+    - [Demand responsive transit](#drt) **NEW**
     - [Personal rapid transit](#prt) **NEW**
     - [Bus rapid transit](#brt)
     - [Light rail trans](#lrt)

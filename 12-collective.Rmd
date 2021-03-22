@@ -2,6 +2,114 @@
 
 ## Demand responsive transit {#drt}
 
+### Synonyms {-}
+*Micro-public transport, Sustainable Urban Mobility Plans (SUMP), European Structural and Investment Funds (ESIF), Information and communications technology (ICT)*
+
+### Definition {-}
+Demand-responsive transit (DRT) systems provide transport services in response to a passenger's request. Modern telecommunication technologies are used to receive requests (via websites, SMS, mobile apps, and less frequently phone calls). These systems are a middle ground between routing systems and taxi services and hardly differ from them in extreme implementations. DRT systems offer flexibility in transport services provided according to demand by using different technologies and organisational principles (Gorev et al., 2020).
+DRT has been seen primarily as a solution for people with reduced mobility, but targeting new user groups and combining it with new ICT systems and traffic management tools is an innovative and effective approach. This new form of mobility can bring many benefits to European regions, such as cost savings, less congestion on the roads and emission reductions, while improving the quality of life of citizens. DRT systems are adaptable to almost any region, with numerous parameters that can be changed to suit different regional scenarios (Hunkin & Krell, 2018):
+
+-	DRT systems usually need to be initiated by a public authority. By their very nature, potential user groups are often scattered and fragmented, making them difficult for private operators to identify. Regions should take stock of the performance of their transport systems and consider where public transport is used and at what cost to see where it might be cheaper and more environmentally friendly to use a DRT system.
+-	Sustainable Urban Mobility Plans should be developed or modified to include DRT, considering linkages with other transport modes. The process should be overseen by a single transport authority that sets clear low-carbon transport targets to show the long-term direction of travel.
+-	The lead partner of DRT initiatives must bring together all stakeholders and manage the process of collaboration. It is the role of the authority to consider the long-term goals and set targets to achieve broader public policy objectives.
+-	DRT needs to be made attractive and convenient if it is to have a broad impact. Communication should focus on the multiple benefits of DRT, and ICT should be used as much as possible to effectively integrate services into public transport information systems.
+-	The integration of [smart cards](#contactless_cards) and electronic payments can help improve the convenience of the DRT solution, but care must be taken not to alienate users who may not have access to these technologies by avoiding app/mobile-only services.
+-	Systems should aim to provide both instant and pre-order services for maximum convenience.
+-	There is support for the development and implementation of DRT systems such as ESIFs (European Structural and Investment Funds).
+
+### Key stakeholders {-}
+
+- **Affected**: Public transport users 
+- **Responsible**: National governments, Local government, Public transport authorities
+
+### Current state of art in research {-}
+There are many variables that have a direct or indirect influence on the performance of DRT services. These factors can be divided into three groups: *Network*, *Operations* and *Demand Characteristics*. Most research uses different approaches to study the impact of these factors on the performance of the service. These approaches can be broadly categorised into two groups: simulations and approximate mathematical methods (Amirgholy & Gonzales, 2016). <br/><br/>
+A study on the impact of pricing and service area design on modal shift towards demand responsive transport has shown that a small service area and too low prices can lead to an undesirable shift effect from walking and cycling to DRT. In order to design a DRT concept that leads to a reduction of car trips, the service area should not be limited to the city centre but cover a typical commuter area. Furthermore, the pricing system should have a relatively high minimum charge to make DRT less attractive for short-distance travellers who can also walk or cycle. The simulation experiments have also shown that even with a city-wide DRT coverage area and a minimum charge of 3.00 EUR, without car toll only 11% of DRT users are shifted from car to DRT. With car tolls, the simulation experiments result in a larger share of users shifting from car to DRT. Similar to Kaddoura et al., (2020a) this shows the importance of combining "*pull*" measures (introducing the DRT as a new mode of transport) with "*push*" measures, such as introducing road pricing, increasing parking fees or banning private cars in certain areas. Several simulation experiments show that even with a city-wide DRT and a minimum charge, a significant proportion of DRT users come from public transport. From a user perspective, this is a positive effect as users who switch from public transport to DRT benefit from, for instance, a shorter travel time (Kaddoura et al., 2020b).
+Demand responsive transport (DRT) services appear to be more effective in minimising emissions than scheduled services when demand density is not excessive and good service levels are targeted. In particular, demand responsive services perform better in a ring network and the possibility to use smaller vehicles makes them perform better than scheduled services in almost all scenarios studied (Amirgholy & Gonzales, 2016). <br/><br/>
+The analysis on the introduction of flexible modes of public transport services recommends the following order of measures for the implementation of the DRT system: 
+
+-	the analysis of the service area in terms of demand for public passenger transport services (population and job density, transport accessibility, condition of the road network, age structure of the population, income level, level of motorisation): 
+-	the forecast of passenger transport intensity and identification of areas with low demand; 
+-	the analysis of the demand structure, identification of factors that negatively affect the DRT system, such as time-dependent demand (seasonal demand, etc.); 
+-	the development of an organisational plan and DRT technology, selection of the service type; 
+-	the analysis of the possibility to combine the service with social services for people with reduced mobility; 
+-	the calculation of costs;
+-	the determination of the possibility to receive subsidies from local authorities; 
+-	the development of a detailed service plan, including a business plan and a marketing policy. 
+
+As the DRT system needs significant subsidies from local authorities to cover the significant difference between the costs and the revenues of the transport operator, it is advisable to use combined solutions for existing routes that provide for the use of DRT at certain intervals, which can be beneficial for all entities (transport operators, local authorities, passengers) (Gorev et al., 2020).Finally, the productivity and costs of DRT services of two management practices (time window size setting and a centralised vs. decentralised strategy) is investigated by Quadrifoglio et al., (2008).
+
+### Current state of art in practice {-}
+In the last decades, several companies have launched app-based on-demand mobility services (e.g. [UBER](https://www.uber.com/at/en/), [Lyft]( https://www.lyft.com/), [BerlKönig]( https://www.berlkoenig.de/), [CleverShuttle]( https://www.clevershuttle.de/en), [MOIA]( https://www.moia.io/en)). Most of these services combine ride requests of several passengers who then share a ride (pooling, ridesharing). These services form a new category within public transport and are often referred to as Demand Responsive Transit (DRT) or ride-hailing. Most of the existing services are still based on conventional driver-controlled vehicles; only a few services are experimenting with autonomous vehicles (Harris, 2015; Hsu, 2016). A broad market introduction of (shared) autonomous vehicles is expected to reduce operating costs. Lower estimates are in the range of 0.30 to 0.38 EUR per passenger-km (Bösch et al., 2018). Lower operating costs can translate into lower user prices, which can boost demand for such innovative on-demand mobility services (Kaddoura et al., 2020).
+The global Demand-Responsive Transit market can be segmented on the basis of transport service, transit service type, booking type and region. In terms of transit service, the Demand-Responsive Transit market can be segmented into bus and taxi. DRT service is generally served by buses. The demand for DRT service for various applications such as school buses, para-transit, medical rides and more is increasing. <br/><br/>
+Based on booking type, the Demand-responsive Transit market can be segmented into online booking and offline booking. DRT service offers multiple booking modes such as offline and online booking. Majority of consumers use online booking as it offers higher level of flexibility and real-time information. The online segment is expected to grow rapidly.
+In terms of regions, the global demand responsive transit market can be segmented into North America, Europe, Asia Pacific, and Middle East and Africa. Demand-response transit in the United Kingdom and Europe has largely catered to the needs of mobility-impaired passengers since 1997. Europe is likely to dominate the global Demand-Responsive Transit market for the next few years.<br/><br/>
+The global market is in its early stages; however, the number of service providers entering the market in North America and Asia-Pacific is increasing (Demand-responsive Transit (DRT) Market Analysis Report with Investment Feasibility & Trends 2026 – FLA News, 2021)
+A report by Frost & Sullivan predicts that DRT shuttles will account for 50% of the shared mobility market by 2030. They forecast the DRT market to grow from 2.8 billion US dollars in 2017 to 551.61 billion US dollars and fleet size to increase from 24,100 units to 5.8 million by 2030.<br/><br/>
+DRT adoption is being driven by smart city initiatives, government and mobility policies, reduced car ownership and a shift towards multimodal and intermodal transport.
+Much of this growth will take place in Europe, currently the largest market for shared mobility, and China. Asia-Pacific, where shuttles are already replacing public transport, is one of the largest DRT markets and will be responsible for over 60% of fleet size growth. The US is also experimenting with different models and it is expected to see strong growth in the medium to long term. However, in other regions such as Latin America, shuttles compete with existing shuttle buses and the potential market in Africa is still very small. 
+DRT shuttles combine the affordability of public transport with the convenience of single rides. Accessible transport promotes social inclusion as citizens of all income levels are able to commute to work in a reasonable time.<br/><br/>
+The ITF Forum proposes to replace all car trips with demand responsive shuttles.
+As DRT shuttles generally complement public transport, Frost & Sullivan recommend public-private partnerships to expand the market and deploy resources effectively. They suggest that asset-intensive services could be operated in collaboration between different service providers or through specially developed technology platforms (Martret, 2019).
+The degree of cost recovery from ticket sales of flexible public transport services varies, according to an evaluation of different mobility services in Germany, between 6% and 41% (BMVBS & BBSR, 2009). In rural areas in Austria, the degree of cost recovery is about 15% due to low utilisation rate (VCÖ, 2011). This circumstance requires increased subsidies, which cannot be provided without restrictions due to the need to save money in the public sector (Sammer & Klementschitz, 2010).
+
+### Relevant initiatives in Austria {-}
+The term micro-public transport is currently not found in any legal documents in Austria. In the „Kraftfahrliniengesetz“ (KflG), the term Anrufsammeltaxis (§ 38 para. 3 Z 2 KflG) is explained in more detail and many micro-public transport services correspond to this legal definition. In addition, the commercial operation of passenger transport requires a licence under the “Gelegenheitsverkehrsgesetz” (§ 3 para. 1 Z 3 GelverkG). Nevertheless, there are micro public transport services, which cannot be assigned to the KflG nor the GelverkG. For the future development, with regard to legal certainty, more in-depth research work is recommended (Brandl, 2020).
+
+- [bedarfsverkehr.at](https://www.bedarfsverkehr.at/content/Literatur)
+- [repositum.tuwien.at](https://repositum.tuwien.at/handle/20.500.12708/1312)
+- [projekte.ffg.at](https://projekte.ffg.at/projekt/2929323)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table80, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Increases affordability, social inclusion and accessibility of transport.|**+**|Equality (*5,10*)|Martret, 2019|
+|Systemic|Potential for cost savings, congestion and emissions reductions|**+**|Health & Wellbeing (*3*)|Hunkin and Krell, 2018|
+|Systemic|Only 11% of car users are predicted to shift to DRT|**~**|Environmental sustainability (*7,12,13,15*)|Kaddoura et al., 2020b|
+|Systemic|Predicted market growth worldwide; low utilisation rate in Austrain rural areas|**~**|Sustainable economic development (*8,11*))|VCOE, 2011; Martret, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table81, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|6-8|')
+```
+
+### Open questions {-}
+1. Which service concepts lead to which modal shift effect?
+2. How to deal with volunteering in the context of micro-public (demand responsive) transport ? What framework conditions (legal basis) need to be created?
+3. Can DRT be included in the 1-2-3 ticket in Austria, and how to operationalise it?
+
+### Further links {-}
+
+- [maas-alliance.eu](https://maas-alliance.eu/)
+
+### References {-}
+
+- Amirgholy, M. and Gonzales, E. J. (2016) ‘Demand responsive transit systems with time-dependent demand: User equilibrium, system optimum, and management strategy’, Transportation Research Part B: Methodological. Elsevier Ltd, 92, pp. 234–252. doi: 10.1016/j.trb.2015.11.006.
+- BMVBS and BBSR (2009) ‘Mobilitätskonzepte zur Sicherung der Daseinsvorsorge in nachfrageschwachen Räumen - Evaluationsreport’, BBSR-Online-Publikation, (10), p. 47. Available at: http://www.bbsr.bund.de/BBSR/DE/Veroeffentlichungen/BBSROnline/2009/DL_ON102009.pdf?__blob=publicationFile&v=2.
+- Bösch, P. M. et al. (2018) ‘Cost-based analysis of autonomous mobility services’, Transport Policy, 64(August 2017), pp. 76–91. doi: 10.1016/j.tranpol.2017.09.005.
+Brandl, H. (2020) ‘Mobilität – Daseinsgrundfunktion in ländlichen Räumen? Erfolgsfaktoren für den idealtypischen Prozess zur Planung und Implementierung von Mikro-ÖV Angeboten’.
+Demand-responsive Transit (DRT) Market Analysis Report with Investment Feasibility & Trends 2026 – FLA News (2021). Available at: https://www.flanewsonline.com/demand-responsive-transit-drt-market-analysis-report-with-investment-feasibility-trends-2026/ (Accessed: 20 March 2021).
+- Gorev, A., Popova, O. and Solodkij, A. (2020) ‘Demand-responsive transit systems in areas with low transport demand of “smart city”’, Transportation Research Procedia. Elsevier B.V., 50(2019), pp. 160–166. doi: 10.1016/j.trpro.2020.10.020.
+- Harris, M. (2015) Uber Could Be First to Test Completely Driverless Cars in Public - IEEE Spectrum. Available at: https://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public (Accessed: 1 March 2021).
+- Hsu, J. (2016) GM and Lyft Team Up for Robot Taxi Service - IEEE Spectrum. Available at: https://spectrum.ieee.org/cars-that-think/transportation/self-driving/gm-and-lyft-team-up-for-robot-taxi-service (Accessed: 1 March 2021).
+- Hunkin, S. and Krell, K. (2018) ‘Demand responsive transportation’, Interreg Europe Policy Learning Platform on Low-carbon economy. doi: 10.4324/9781315118321.
+- Kaddoura, I., Bischoff, J. and Nagel, K. (2020a) ‘Towards welfare optimal operation of innovative mobility concepts: External cost pricing in a world of shared autonomous vehicles’, Transportation Research Part A: Policy and Practice, 136(February), pp. 48–63. doi: 10.1016/j.tra.2020.03.032.
+- Kaddoura, I., Leich, G. and Nagel, K. (2020b) ‘The impact of pricing and service area design on the modal shift towards demand responsive transit’, Procedia Computer Science. Elsevier B.V., 170, pp. 807–812. doi: 10.1016/j.procs.2020.03.152.
+- Martret, O. (2019) Demand-Responsive Transit Is the Future of the Mobility Market. Available at: https://shotl.com/news/responsive-transit-is-the-future-of-the-mobility-market (Accessed: 20 March 2021).
+- Quadrifoglio, L., Dessouky, M. M. and Ordóñez, F. (2008) ‘A simulation study of demand responsive transit system design’, Transportation Research Part A: Policy and Practice. Pergamon, 42(4), pp. 718–737. doi: 10.1016/j.tra.2008.01.018.
+- Sammer, G. and Klementschitz, R. (2010) ‘Finanzierung des öffentlichen Personennahverkehrs in Österreich.’, ÖGZ - Österreichische Gemeindezeitung, pp. 26 – 28.
+VCÖ (2011) Erfolgreicher Öffentlicher Verkehr, VCÖ Schriftenreihe ‘Mobilität mit Zukunft’.
+
+
+
+
 ## Personal rapid transit {#prt}
 
 ### Synonyms {-}
