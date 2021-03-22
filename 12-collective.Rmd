@@ -28,7 +28,7 @@ A study on the impact of pricing and service area design on modal shift towards 
 Demand responsive transport (DRT) services appear to be more effective in minimising emissions than scheduled services when demand density is not excessive and good service levels are targeted. In particular, demand responsive services perform better in a ring network and the possibility to use smaller vehicles makes them perform better than scheduled services in almost all scenarios studied (Amirgholy & Gonzales, 2016). <br/><br/>
 The analysis on the introduction of flexible modes of public transport services recommends the following order of measures for the implementation of the DRT system: 
 
--	the analysis of the service area in terms of demand for public passenger transport services (population and job density, transport accessibility, condition of the road network, age structure of the population, income level, level of motorisation): 
+-	the analysis of the service area in terms of demand for public passenger transport services (population and job density, transport accessibility, condition of the road network, age structure of the population, income level, level of motorisation); 
 -	the forecast of passenger transport intensity and identification of areas with low demand; 
 -	the analysis of the demand structure, identification of factors that negatively affect the DRT system, such as time-dependent demand (seasonal demand, etc.); 
 -	the development of an organisational plan and DRT technology, selection of the service type; 
