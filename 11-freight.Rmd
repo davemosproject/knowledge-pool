@@ -17,7 +17,7 @@ In terms of the advantages the intermodal freight is crucial in reducing the emi
 
 ### Key stakeholders {-}
 
-- **Affected**: Truck drivers, freight companies, rail companies, freight terminals, highway user
+- **Affected**: Truck drivers, Freight companies, Rail companies, Freight terminals, Highway users
 - **Responsible**: National Governments, International authorities
 
 ### Current state of art in research {-}
@@ -180,7 +180,89 @@ cat('|TRL| SRL|
 -	Truck Parking Europe (no date) Audit reports on secure truck parking locations - Truck Parking Europe. Available at: https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/ (Accessed: 3 March 2021).
 -	van Weenen, R., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I. & Ruschin, P. P. (2019) Study on Safe and Secure Parking Places for Trucks.
 
-## Delivery space booking {#space_book}
+## Delivery space booking {#space_book} 
+
+### Synonyms {-}
+*on-street loading zones (OLZ), Freight Trip Generation (FTG), loading/unloading zones (L/U) *
+
+### Definition {-}
+In urban areas, goods deliveries for commercial and residential customers generate a huge flow of vehicles ranging from small vans (for express deliveries) to trucks (for deliveries to larger shops). Delivery services are increasing due to a number of factors such as just-in-time management, the development of e-commerce and the emergence of new customer behaviours  for example home delivery, driving and delivery lockers (Patier et al., 2014).
+Urban distribution usually requires delivery vehicles to stop temporarily at the side of the road to allow the driver to complete the last part of the delivery on foot. The stops take place in designated areas called loading/unloading (L/U) zones, each with a certain number of available parking spaces. Distributors often face bottlenecks in the L/U areas due to a variety of factors, such as peaks in delivery demands in terms of time or space, systemic problems in the allocation of L/U areas (e.g. scarcity) or poor placement of spaces (Mor et al., 2020).
+All this complicates the movement of goods in city centres, with negative effects on vehicle traffic and public transport, for example by causing congestion. In European cities (especially in France), a significant proportion of double-parked delivery trucks (delivery trucks parked on the street parallel to parked cars) is observed. Such behaviour leads to congestion, pollution and conflicts between road users. In this context, special areas called "delivery zones" have been created to improve the work of delivery drivers and reduce congestion.  Nevertheless, delivery drivers continue to double park as the delivery areas are regularly occupied by unauthorised vehicles (single cars) (Patier et al., 2014).
+
+
+### Key stakeholders {-}
+
+- **Affected**: Delivery truck drivers in urban areas, Car drivers, Road and/or pavement users in cities, parcel/goods receivers
+- **Responsible**: National governments, Local governments, Transport authorities, Delivery companies
+
+### Current state of art in research {-}
+Several works address the problem of sizing and locating L/U areas in an urban environment. Muñuzuri et al., 2017 presents several alternative approaches to estimating the need for loading zones. Pinto et al., 2019 propose to determine the number and location of L/U areas using a "coverage principle" based on the longest distance a delivery person is willing to walk and define the number of spaces in each area based on demand. The impact of parking availability on the cost and operation of commercial vehicles is explored in (Dezi et al., 2010).<br/><br/>
+Mor et al., 2020 conclude that double parking is unlikely to disappear from urban areas unless more dedicated L/U spaces are made available at peak times. In turn, however, the lack of available parking spaces for commercial vehicles is not only caused by undersized infrastructure, but often also by the misuse of reserved spaces by private vehicles (Aiura & Taniguchi, 2005; Pinto et al., 2019).<br/><br/>
+In Nourinejad et al., (2014), a parking choice simulation for the study of truck parking policies is presented that captures various dimensions of parking activity such as walking distance, congestion impacts and parking search times. Two scenarios based on the Toronto area are presented to validate the model.
+The issue of pricing L/U spaces has also been considered in the literature. An auction-based approach for allocating time slots of a single area with multiple parking spaces is considered to optimise the performance of a management system while ensuring fair allocation of L/U zones (Nourinejad et al., 2014). The time preferences and service duration of booking requests are considered in finding the best possible allocation.<br/><br/>
+Next, a sizing problem considering L/U range management is also looked at. A two-phase algorithm is proposed for the problem (Letnik et al., 2018). In the first phase, the location of the L/U areas is optimised based on the location of the goods receivers. In the second phase, the algorithm optimises deliveries from outside the city to the L/U areas. L/U areas are assigned to vehicles and if none are available, vehicles are queued. The benefits of a booking system for L/U areas are assessed for the case of Winchester High Street (McLeod & Cherrett, 2011). It is assumed that each vehicle arrives from one of eight possible entry points and stops in an L/U area, with the possibility of transfer to another area if the desired one is not available. A control system to deal with operational problems such as vehicles arriving too early or too late is also presented.<br/><br/>
+The management of L/U areas through a booking system would require the involvement of all stakeholders (customers, traders, municipality, traffic police) and their acceptance that it is in everyone's interest that the system works well as it allows for less inconvenience both in terms of delivery delays and traffic flow. In the initial phase of implementation, the traffic police would need to oversee the new system and educate any trader coming with an unregistered vehicle or without registration about the new rules for using the L/U areas. Information for stakeholders could be provided via the Internet (and possibly in some meetings) to share some statistics on the adoption of the system, the occupancy of delivery positions across the hours of the day and days of the week, and to review the problems each category has in using the system and explore corrective measures (Mor et al., 2020).
+
+### Current state of art in practice {-}
+Efforts are being made in various cities around the world to introduce a management system for L/U areas. For example, in Barcelona's *DUM programme1*, traders are asked to check in and out of any L/U operation using an SMS or an app in a smartphone, but in September 2020 no reservation could be made (Mor et al., 2020).
+Companies such as *Smart Parking Systems*, *Coord*, *ParkUnload* and *Cleverciti* offer solutions for delivery area booking. However, many different terms are still used, such as "curb management", "smart loading zones" or "digital loading zones". <br/><br/>
+In 2010, Treviso was awarded the title of "First European Smart City". Through Smart Parking Applications, the city has benefited from a significant increase in revenue from paid municipal parking, greater economic availability and a reduction in traffic and pollution within the historic centre. Parking management within Treviso Municipality was already in an excellent situation in 2009, monitored and supervised by an extremely attentive mobility department.
+The real problem of the municipality was, therefore, not the economic aspect, but mainly the excessive traffic and the scarce availability of parking spaces in some areas of the city. For this reason, it was considered appropriate to use smart parking technology to influence urban mobility in connection with parking. Since 2010, Treviso has, therefore, embarked on this technological path together with Intercomp, installing Smart Parking Systems® in the historic centre with the long-term goal of improving mobility, air quality and service for citizens (Smart Parking Systems®, no date).<br/><br/>
+In September 2020, the City of Omaha (US) launched its Smart Zone pilot project with *Coord* in five Smart Zones. Overall, the rollout has gone well, although the city and fleets still need to learn how to disseminate information. Fleets have embraced the concept well in particular that they do not pay to use the Smart Zones. It is expected that once more data is collected and the concept becomes more established the city will introduce the charge (Brown, 2020).
+
+### Relevant initiatives in Austria {-}
+In Vienna, more than 2600 loading zones were recorded and located via geodata as part of a project. This data is now available via app *Ladezonen in Wien*. It is not yet possible to make a booking or check the current occupancy rate. The project *i-Ladezone* was first mentioned in 2010 from FFG Austria. In 2012, the project *i-Ladezone - Intelligent Loading Zone Routing and Management* was mentioned again, but only to detect and record the illegal occupancy of loading zones (Stocker, 2012). In 2016, the project *Urban Loading* was submitted to the VCÖ Mobility Award. From a technical point of view, reservation/booking, information to the road user and control/enforcement were considered (VCÖ, 2016). No further information about this project was found.
+
+- [ots.at](https://www.ots.at/presseaussendung/OTS_20150123_OTS0044/simple-stressfreie-ladezonensuche-wk-wien-praesentiert-neue-app) 
+- [wko.at-1](https://www.wko.at/service/verkehr-betriebsstandort/Ladezonen-Nutzung.html) 
+- [wko.at-2](https://www.wko.at/service/w/verkehr-betriebsstandort/ladezone-wien-app.html) 
+- [oeamtc.at](https://www2.ffg.at/verkehr/projekte.php?id=805&lang=de&browse=programm) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table82, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Congestion, pollution and conflicts between road users can be reduced|**+**|Health & Wellbeing (*3*)|Patier et al., 2014; Alho et al., 2018; Mor et al., 2020|
+|Systemic|Digitalised solution for occupancy and availability status|**+**|Innovation & Infrastructure (*9*)|Smart Parking Systems, no date|
+|Systemic|L/U booking systems requires engagement of all stakeholders|          **+**|Partnership & collaborations (*17*)|Mor et al., 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table83, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|5-8|')
+```
+
+### Open questions {-}
+1. How to improve the information dissemination and enable the engagement of all stakeholders to develop an efficient L/U booking system?
+2. What are the solutions for enforcement of legislation beyond traffic officers?
+
+### Further links {-}
+
+- [areaverda.cat](https://www.areaverda.cat/index.php/es)
+- [smartparkingsystems.com](https://smartparkingsystems.com/en/loading-parking-bay-management/)
+- [smartloadingzone.com](https://www.smartloadingzone.com/en_us/)
+- [coord.com](https://www.coord.com/blog/comparing-loading-zones)
+
+### References {-}
+- Aiura, N. & Taniguchi, E. (2005) ‘PLANNING ON-STREET LOADING-UNLOADING SPACES CONSIDERING THE BEHAVIOUR OF PICKUP-DELIVERY VEHICLES’, Journal of the Eastern Asia Society for Transportation Studies, 6, pp. 2963–2974. doi: 10.11175/easts.6.2963.
+- Alho, A. R. et al. (2018) ‘Improving mobility by optimizing the number, location and usage of loading/unloading bays for urban freight vehicles’, Transportation Research Part D: Transport and Environment. Elsevier Ltd, 61, pp. 3–18. doi: 10.1016/j.trd.2017.05.014.
+- Brown, C. (2020) Should Delivery Fleets Pay to Park in Loading Zones? - Smart Cities - Fleet Forward. Available at: https://www.fleetforward.com/10127896/should-delivery-fleets-pay-to-park-in-loading-zones (Accessed: 21 March 2021).
+- Dezi, G., Dondi, G. & Sangiorgi, C. (2010) ‘Urban freight transport in Bologna: Planning commercial vehicle loading/unloading zones’, Procedia - Social and Behavioral Sciences, 2(3), pp. 5990–6001. doi: 10.1016/j.sbspro.2010.04.013.
+Letnik, T. et al. (2018) ‘Dynamic management of loading bays for energy efficient urban freight deliveries’, Energy, 159, pp. 916–928. doi: 10.1016/j.energy.2018.06.125.
+- McLeod, F. & Cherrett, T. (2011) ‘Loading bay booking and control for urban freight’, International Journal of Logistics Research and Applications. Taylor & Francis, 14(6), pp. 385–397. doi: 10.1080/13675567.2011.641525.
+- Mor, A., Speranza, M. G. & Viegas, J. M. (2020) ‘Efficient loading and unloading operations via a booking system’, Transportation Research Part E: Logistics and Transportation Review. Elsevier Ltd, 141, p. 102040. doi: 10.1016/j.tre.2020.102040.
+- Muñuzuri, J. et al. (2017) ‘Improving the design of urban loading zone systems’, Journal of Transport Geography. Elsevier Ltd, 59, pp. 1–13. doi: 10.1016/j.jtrangeo.2017.01.004.
+- Nourinejad, M. et al. (2014) ‘Truck parking in urban areas: Application of choice modelling within traffic microsimulation’, Transportation Research Part A: Policy and Practice. Elsevier Ltd, 64, pp. 54–64. doi: 10.1016/j.tra.2014.03.006.
+- Patier, D. et al. (2014) ‘A New Concept for Urban Logistics Delivery Area Booking’, Procedia - Social and Behavioral Sciences. Elsevier B.V., 125, pp. 99–110. doi: 10.1016/j.sbspro.2014.01.1459.
+- Pinto, R., Lagorio, A. & Golini, R. (2019) ‘The location and sizing of urban freight loading/unloading lay-by areas’, International Journal of Production Research. Taylor & Francis, 57(1), pp. 83–99. doi: 10.1080/00207543.2018.1461269.
+- Smart Parking Systems® (no date) The economic benefits of Smart Parking Systems® > Smart Parking Systems - Intercomp Innovation. Available at: https://smartparkingsystems.com/en/the-economic-benefits-of-smart-parking-systems/ (Accessed: 21 March 2021).
+- Stocker, G. (2012) Snizek+Partner Verkehrsplanungs GmbH - iLadezone - Intelligentes Ladezonenrouting und Management. Available at: https://www.snizek.at/go/de/projects/simulationen/94-iladezonen-intelligentes-ladezonenrouting-und-management (Accessed: 21 March 2021).
+- VCÖ (2016) Urban Loading - VCÖ Vorbildhafte Mobilitätsprojekte. Available at: https://mobilitaetsprojekte.vcoe.at/urban-loading (Accessed: 21 March 2021).
 
 ## Delivery drones {#delivery_drone}
 
