@@ -71,7 +71,7 @@ cat('|TRL| SRL|
 *electric vehicle charging station, EV charging station, electric recharging point, charging point, electronic charging station (ECS), electric vehicle supply equipment (EVSE)*
 
 ### Definition {-}
-Nowadays, the use of electric vehicles is continuously increasing, hence it is not surprising that both, governments and private companies have strong interest in expanding EV charging infrastructure to ensure uninterrupted travelling and stimulate consumer adoption. There are three main types of charging stations, depending on the power output (measured in kilowatts (kW)) and consequently charging speed. These are (Lilly, 2020):
+Nowadays, the use of electric vehicles is continuously increasing, hence it is not surprising that both, governments and private companies have strong interest in expanding EV charging infrastructure to ensure uninterrupted travelling and stimulate consumer adoption. There are three main types of charging stations, depending on the power output (measured in kilowatts (kW)) and consequently charging speed. These are:
 
 -	**Rapid**
 
