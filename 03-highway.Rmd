@@ -66,3 +66,97 @@ cat('|TRL| SRL|
 
 
 ## Electric charging stations {#charging_station}
+
+### Synonyms {-}
+*electric vehicle charging station, EV charging station, electric recharging point, charging point, electronic charging station (ECS), electric vehicle supply equipment (EVSE)*
+
+### Definition {-}
+Nowadays, the use of electric vehicles is continuously increasing, hence it is not surprising that both, governments and private companies have strong interest in expanding EV charging infrastructure to ensure uninterrupted travelling and stimulate consumer adoption. There are three main types of charging stations, depending on the power output (measured in kilowatts (kW)) and consequently charging speed. These are (Lilly, 2020):
+
+-	**Rapid**
+
+They are the fastest way to charge an EV, therefore, this type is most frequently deployed near main routes and at highway service stations. They provide tethered cable and high power of direct (DC) or alternating current (AC). Vehicles can be charged in approximately 20 minutes up to 80%, but, on average it takes about an hour for a new EV. *Rapid DC* chargers use either [CHAdeMO](https://chademo.com/) or CCS charging standards. These are two most popular types at the moment. They provide power of 50 kW. A newer type are *Ultra Rapid DC* chargers that have power output of at least 100 kW. Further, *Rapid AC* chargers provide power of 43 kW and use the [Type 2](https://www.mobilityhouse.com/int_en/knowledge-center/charging-cable-and-plug-types#:~:text=Type%202%20plug,-The%20triple%2Dphase&text=In%20private%20spaces%2C%20charging%20power,with%20a%20type%202%20socket.) charging standard. Finally, a special network of chargers are *Tesla’s superchargers* which are custom made for Tesla vehicles. Nonetheless, many Tesla drivers use adapters that enable them to use widely-available generic chargers (Lilly, 2020). 
+
+-	**Fast**
+
+Fast charging units typically provide AC charging with power output of 7kW or 22kW. Nevertheless, it is also possible to find stations that use 25 kW DC chargers with CHAdeMO or CCS charging standards. The charging times range between 1-6 hours depending on the battery installed in the vehicle. Fast chargers are usually located at the car parks, supermarkets, or leisure centres, where cars are likely be parked at for an hour or more. Fast charging units can be both tethered and untethered (Lilly, 2020).
+
+-	**Slow**
+
+The power output of slow chargers varies between 2.3 kW to 6 kW and takes from 6 to 12 hours. Most slow charging units are untethered, meaning that the driver needs to supply his own cable to connect the EV with the charge point. They are usually used to charge at home overnight but also at workplace and at public points. Because of the longer charging times over fast units, slow public charge points are less common and may be older devices.
+
+Finally, it is important to mention that the development of public EV charging stations is an important factor that influences the adoption of electric vehicles, nonetheless, the high investment costs (including land acquisition, installation, operation and maintenance) and low profitability (that heavily relies on their use) are considered key barriers to the faster development of charging stations (Lilly, 2020). 
+
+
+### Key stakeholders {-}
+
+- **Affected**: EV drivers
+- **Responsible**: National enterprises and governments, international oil and gas companies, automotive companies, start-ups in the green energy sector, transport authorities
+
+### Current state of art in research {-}
+Charging stations for electric vehicles are now a well-established technology in itself. Therefore, current research focuses on the exploration of their potential when combined with other new technologies. For example, Lokhandwala & Cai (2020) use New York City taxis as a case study to considers possible interactions between charging infrastructure for electric vehicles, ride sharing (RS) and autonomous vehicles (AV). For this purpose, they compare the optimal charging infrastructure expansion plans for three cases: non-AV-RS scenario (present), AV-RS scenario (future) and a mixed case. The study simulation shows that for the AV-RS case the use of charging stations is more spread throughout the day as compared to non-AV-RS where the demand and queuing are the highest in the mornings. In terms of the service levels, it is found that in the non-AV-RS scenario the service level remained unchanged as a result of the adoption of EV while in the AV-RS case, the level decreased by 2%. Finally, the study shows that EV taxis were predicted to achieve reduction in CO~2~  emission in both scenario types. <br/>
+
+Additionally, a large strand of research focuses on optimising the locations of charging station for various vehicle types such as taxis (Zhang et al, 2019), buses (Uslu & Kaya, 2021; Wu et al., 2021; He et al., 2019) and private EVs (Pan et al., 2020) considering different factors, for instanc,e social acceptance, EV adoption rate, demand fluctuations, trip length (Anjos et al., 2020) and road infrastructure types including highways (Napoli et al., 2020) and urban network (Ji et al., 2020). <br/>
+
+Finally, an important part of the research looks at the role of charging station infrastructure in the adoption and use of electric vehicle which are considered a solution to reduce green-house gas emissions and air pollution (Philipsen et al., 2019; Bonges et al., 2016). For instance, the study by Melliger et al. (2018) explored how the expansion of the charging station network can counteract phenomenon of so-called ‘*range anxiety*’ in EV buyers related to the capacity of EV battery and availability of charging point along the routes (Melliger et al., 2018). 
+ 
+
+### Current state of art in practice {-}
+According to the Global EV outlook 2020 (IEA, 2020), the number of global charging stations reached 7.3 million chargers in 2019. Of this number, 6.5 million are slow and normal chargers which are installed at home, residential, and office buildings while the rest are publicly accessible chargers (Thananusak et al., 2021). <br/>
+
+Denser network of charging stations has been showed to be an important factor in counteracting *range anxiety* in EV users (Philipsen et al., 2019). Therefore, it is not surprising that policies of many countries in Europe and beyond set the goals for the construction of EV charging stations to encourage their uptake. For example, France introduced so called [Law on Energy Transition for Green Growth (LTECV)](https://www.iea.org/policies/8737-law-on-energy-transition-for-green-growth-ltecv) which aims at building 7 million charging station by 2030 (Thananusak et al., 2021). Similarly, in Switzerland the Federal Road Office (FEDRO) recommended installation of fast-charging stations at all main highway service areas (Melliger et al., 2018). In terms of EU-wide legislation, *[Directive 2014/94/EU](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014L0094&from=en) on the deployment of alternative fuels recharging and refuelling infrastructure* (known as Alternative Fuels Infrastructure Directive (AFI)) requires the EU member states to provide an appropriate number of publicly accessible charging points. <br/><br/>
+In Austrian context, the study by Baresch & Moser (2019) showed that 88% of EV users charges their cars at home and only 1.5% - 1.7% uses public stations. This significantly influences the profitability of public stations. To alleviate this problem, governments can use demand-push or technology-push policies. The demand-push solutions are based on extending the markets for innovations to induce the demand and increase the profits from charging station business. These include, for example, consumer awareness building, rebates and tax credits. On the other hand, the technology-push solutions are aimed at decreasing the cost of innovative solution, through funding and subsidies for R&D in private sector (Thananusak et al., 2021).<br/><br/>
+Interestingly, between 2007 and 2013 first transnational electric mobility project took place between Vienna and Bratislava. It aimed at demonstrating the operationability of a cross-border initiative. For this purpose, a number of charging stations have been build in public and semi-public places to allow users of electric vehicles to charge their cars on either side of the border. The project showed the user-friendliness of electric vehicles in daily traffic and the trans-border availability of services, no matter what the country of residence of the e-mobility customer (Verbund, 2011).
+
+### Relevant initiatives in Austria {-}
+- [ieahev.org](http://www.ieahev.org/by-country/austria-charging-infrastructure/)
+- [ev-charging.com](https://ev-charging.com/at/en/elektrotankstellen)
+- [smatrics.com](https://smatrics.com/en/charging-network)
+- [chargemap.com](https://chargemap.com/cities/wien-AT)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table84, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Contribution to emissions reduction (via EVs)|**+**|Environmental sustainability (*7,12,13,15*)|Thananusak et al., 2021|
+|Systemic|Increased public funding on charging stations but high entry barriers for investors|**~**|Innovation & Infrastructure (*9*)|Thananusak et al., 2021|
+|Systemic|Encorages collaboration between different stakeholders (eg. Industry and Governmants) and countries|**+**|Partnership & collaborations  (*17*)|Thananusak et al., 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table85, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|6-8|')
+```
+
+### Open questions {-}
+1. What are demand-pull and technology-push policies to increase investment in EV charging stations? What is their relative effectiveness?
+2. What share of car trips can be successfully covered with the currently available (2021) BEVs and the current charging infrastructure?
+3. What are the needs of Austrian car users with respect to the driving range?
+
+### Further links {-}
+
+-	[plugshare.com](https://www.plugshare.com/en) 
+-	[dekra-product-safety.com](https://www.dekra-product-safety.com/en/ev-charging-station-technology) 
+
+### References {-}
+- Anjos, M. F., Gendron, B., & Joyce-Moniz, M. (2020). Increasing electric vehicle adoption through the optimal deployment of fast-charging stations for local and long-distance travel. European Journal of Operational Research, 285(1), 263-278.
+- Bonges III, H. A., & Lusk, A. C. (2016). Addressing electric vehicle (EV) sales and range anxiety through parking layout, policy and regulation. Transportation Research Part A: Policy and Practice, 83, 63-73.
+- He, Y., Song, Z., & Liu, Z. (2019). Fast-charging station deployment for battery electric bus systems considering electricity demand charges. Sustainable Cities and Society, 48, 101530.
+- IEA. (2020). Global EV Outlook 2020; IEA: Paris, France. p. 276.
+- Ji, D., Lv, M., Yang, J., & Yi, W. (2020). Optimizing the Locations and Sizes of Solar Assisted Electric Vehicle Charging Stations in an Urban Area. IEEE Access, 8, 112772-112782.
+- Lilly, C., (2020). EV Charging connectors - Electric car charging speeds. [online] Zap-Map. Available at: <https://www.zap-map.com/charge-points/connectors-speeds/#:~:text=There%20are%20three%20main%20types,measured%20in%20kilowatts%20(kW).> [Accessed 26 March 2021].
+- Lokhandwala, M., & Cai, H. (2020). Siting charging stations for electric vehicle adoption in shared autonomous fleets. Transportation Research Part D: Transport and Environment, 80, 102231.
+- Melliger, M. A., van Vliet, O. P., & Liimatainen, H. (2018). Anxiety vs reality–Sufficiency of battery electric vehicle range in Switzerland and Finland. Transportation Research Part D: Transport and Environment, 65, 101-115.
+- Napoli, G., Polimeni, A., Micari, S., Andaloro, L., & Antonucci, V. (2020). Optimal allocation of electric vehicle charging stations in a highway network: Part 1. Methodology and test application. Journal of Energy Storage, 27, 101102.
+- Pan, L., Yao, E., Yang, Y., & Zhang, R. (2020). A location model for electric vehicle (EV) public charging stations based on drivers’ existing activities. Sustainable Cities and Society, 59, 102192.
+- Philipsen, R., Brell, T., Biermann, H., & Ziefle, M. (2019). Under Pressure—Users’ Perception of Range Stress in the Context of Charging and Traditional Refueling. World Electric Vehicle Journal, 10(3), 50.
+- Thananusak, T., Punnakitikashem, P., Tanthasith, S., & Kongarchapatara, B. (2021). The Development of Electric Vehicle Charging Stations in Thailand: Policies, Players, and Key Issues (2015–2020). World Electric Vehicle Journal, 12(1), 2.
+- Uslu, T., & Kaya, O. (2021). Location and capacity decisions for electric bus charging stations considering waiting times. Transportation Research Part D: Transport and Environment, 90, 102645.
+- Verbund.com (2011). Europe Premiere: Unlimited Electric Mobility - VERBUND. [online] Verbund.com. Available at: <https://www.verbund.com/en-de/about-verbund/news-press/press-releases/2011/03/04/unlimited-electric-mobility> [Accessed 26 March 2021].
+- Wu, X., Feng, Q., Bai, C., Lai, C. S., Jia, Y., & Lai, L. L. (2021). A novel fast-charging stations locational planning model for electric bus transit system. Energy, 120106.
+- Zhang, S., Wang, H., Zhang, Y. F., & Li, Y. Z. (2019). A novel two-stage location model of charging station considering dynamic distribution of electric taxis. Sustainable Cities and Society, 51, 101752.

@@ -45,7 +45,7 @@ format(Sys.time(),'%d %B %Y')
     - [Transformation of public space and digital solutions](#transformation_public_space)
 3. [Highway infrastructure management](#highway)
     - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
-    - [Electric charging stations](#charging_station)
+    - [Electric charging stations](#charging_station) **NEW**
 4. [Traffic management](#traffic)
     - [Congestion charging](#congestion_charging) **NEW**
     - [Platooning](#platooning) **NEW**
