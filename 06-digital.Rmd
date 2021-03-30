@@ -99,16 +99,15 @@ cat('|TRL| SRL|
 -	[nhtsa.gov](https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication) 
 
 ### References {-}
-- ADAC (2021) ‘Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen’.
-- Cooperative ITS Corridor (no date) Cooperative ITS Corridor. Available at: https://c-its-korridor.de/?menuId=1&sp=de (Accessed: 18 February 2021).
-- Dey, K. C. et al. (2016) ‘Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication in a heterogeneous wireless network - Performance evaluation’, Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 68, pp. 168–184. doi: 10.1016/j.trc.2016.03.008.
-- Filippi, A. et al. (2016) ‘Ready to roll: Why 802.11p beats LTE and 5G for V2x’, pp. 1–14. Available at: https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/mobility/road/connected-mobility-solutions/documents/its-g5-ready-to-roll-en.pdf.
-- Hainen, A. et al. (2019) ‘Co-Deployment of DSRC Radio and Cellular Connected Vehicle Technology in Tuscaloosa, AL and Northport, AL’, pp. 1–9.
-- Knecht, J. (2018) C-V2X Europapremiere: Wie Autos sprechen – mit wem auch immer | AUTO MOTOR UND SPORT. Available at: https://www.auto-motor-und-sport.de/technik/vernetzung-cv2x-car-to-car-europapremiere/ (Accessed: 15 February 2021).
-- Köllner, C. (2020) Car-to-X | Fahrzeugvernetzung per C-V2X oder pWLAN? | springerprofessional.de. Available at: https://www.springerprofessional.de/car-to-x/automatisiertes-fahren/fahrzeugvernetzung-per-c-v2x-oder-pwlan-/17822610 (Accessed: 15 February 2021).
-- Močnik, W. (2020) ASFINAG startet als erster Autobahnbetreiber Europas Vernetzung von Straße und Fahrzeug. Available at: https://www.asfinag.at/ueber-uns/newsroom/pressemeldungen/2020/wlan-ausbau-cooperative-intelligent-transport-systems/ (Accessed: 18 February 2021).
-- Outay, F. et al. (2019) ‘V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation’, Procedia Computer Science. Elsevier B.V., 151(2018), pp. 353–360. doi: 10.1016/j.procs.2019.04.049.
-
+-	ADAC. (2021). Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen.
+-	Cooperative ITS Corridor. (n.d.). Cooperative ITS Corridor. Retrieved 18 February 2021, from https://c-its-korridor.de/?menuId=1&sp=de
+-	Dey, K. C., Rayamajhi, A., Chowdhury, M., Bhavsar, P., & Martin, J. (2016). Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication in a heterogeneous wireless network - Performance evaluation. Transportation Research Part C: Emerging Technologies, 68, 168–184. https://doi.org/10.1016/j.trc.2016.03.008
+-	Filippi, A., Moerman, K., Daalderop, G., Alexander, P. D., Schober, F., & Pfliegl, W. (2016). Ready to roll: Why 802.11p beats LTE and 5G for V2x. 1–14. https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/mobility/road/connected-mobility-solutions/documents/its-g5-ready-to-roll-en.pdf
+-	Hainen, A., Mulligan, B., Deetlefs, J., Mulligan, I., & Ashley, P. (2019). Co-Deployment of DSRC Radio and Cellular Connected Vehicle Technology in Tuscaloosa, AL and Northport, AL. 1–9.
+-	Knecht, J. (2018). C-V2X Europapremiere: Wie Autos sprechen – mit wem auch immer | AUTO MOTOR UND SPORT. https://www.auto-motor-und-sport.de/technik/vernetzung-cv2x-car-to-car-europapremiere/
+-	Köllner, C. (2020, March 24). Car-to-X | Fahrzeugvernetzung per C-V2X oder pWLAN? | springerprofessional.de. https://www.springerprofessional.de/car-to-x/automatisiertes-fahren/fahrzeugvernetzung-per-c-v2x-oder-pwlan-/17822610
+-	Močnik, W. (2020, October 20). ASFINAG startet als erster Autobahnbetreiber Europas Vernetzung von Straße und Fahrzeug. https://www.asfinag.at/ueber-uns/newsroom/pressemeldungen/2020/wlan-ausbau-cooperative-intelligent-transport-systems/
+-	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
 
 ## Infrastructure support levels for automated driving {#infrast_support_level}
 

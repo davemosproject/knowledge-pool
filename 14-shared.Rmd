@@ -6,21 +6,21 @@
 *Car-Sharing scheme, CSS*
 
 ### Definition {-}
-In recent years, the growth of car sharing services as a new and more sustainable way of travelling has led to a shift in private mobility from ownership to use of services. The basic idea of car sharing is quite simple: the sharing of a fleet of vehicles by members to make trips on a per-trip basis. Although, the first car sharing scheme for economic reasons dates back to 1948 in the city of Zurich, Switzerland, other attempts at public car sharing schemes in the following years were not successful. Several successful car sharing schemes were launched in the 1980s, with a consolidation in the early 1990s, thanks to an increasing awareness of citizens and a real boom due to a greater diffusion of ICT and mobile services in the 2000s. Car sharing increases the mobility of community members to reach destinations otherwise inaccessible by public transport, walking or cycling, while raising citizens' awareness of the social and environmental impacts of using private cars. It encourages and supports multimodal communities by providing an additional transport option. From the point of view of building a sustainable city, the vehicles used in car sharing are usually fuel efficient and lead to positive effects in reducing urban emissions and urban congestion (Martin and Shaheen, 2011). <br/>
+In recent years, the growth of car sharing services as a new and more sustainable way of travelling has led to a shift in private mobility from ownership to use of services. The basic idea of car sharing is quite simple: the sharing of a fleet of vehicles by members to make trips on a per-trip basis. Although, the first car sharing scheme for economic reasons dates back to 1948 in the city of Zurich, Switzerland, other attempts at public car sharing schemes in the following years were not successful. Several successful car sharing schemes were launched in the 1980s, with a consolidation in the early 1990s, thanks to an increasing awareness of citizens and a real boom due to a greater diffusion of ICT and mobile services in the 2000s. Car sharing increases the mobility of community members to reach destinations otherwise inaccessible by public transport, walking or cycling, while raising citizens' awareness of the social and environmental impacts of using private cars. It encourages and supports multimodal communities by providing an additional transport option. From the point of view of building a sustainable city, the vehicles used in car sharing are usually fuel efficient and lead to positive effects in reducing urban emissions and urban congestion (Martin & Shaheen, 2011). <br/>
 
 Nowadays, there are different variants of car sharing available on the market. These include:
 
 - Station based
 
-In station-based CarSharing, the cars are parked in fixed parking spaces as close to home as possible. Customers pick up the car there and return it after the journey. Only with this variant, the reservations are possible several days or weeks in advance, but the end time of the booking must also usually be planned in advance. This ensures a high degree of predictability in vehicle availability. Station-based CarSharing is also the cheapest CarSharing variant. The largest providers in Germany (by fleet size) are stadtmobil, cambio, teilAuto and book-n-drive.<br/>
+In station-based CarSharing, the cars are parked in fixed parking spaces as close to home as possible. Customers pick up the car there and return it after the journey. Only with this variant, the reservations are possible several days or weeks in advance, but the end time of the booking must also usually be planned in advance. This ensures a high degree of predictability in vehicle availability. Station-based CarSharing is also the cheapest CarSharing variant. The largest providers in Germany (by fleet size) are *stadtmobil, cambio, teilAuto* and *book-n-drive*.<br/>
 
 - Free-floating
 
-With free-floating CarSharing, the cars are randomly distributed within a defined business area. Users locate and book them via smartphone. The booking is only possible shortly before the start of the journey and until booking, availability and exact location of the vehicle are uncertain. After the journey, the cars can be parked within the business area. All bookings are open-ended. With this variant, reservations in advance are not possible. Both the availability and the location of the vehicle are therefore difficult to predict. Free-floating, however, allows one-way journeys within the business area. Prices are higher than those of station-based CarSharing. The largest providers in Germany are ShareNow, Sixt share and We share.<br/>
+With free-floating CarSharing, the cars are randomly distributed within a defined business area. Users locate and book them via smartphone. The booking is only possible shortly before the start of the journey and until booking, availability and exact location of the vehicle are uncertain. After the journey, the cars can be parked within the business area. All bookings are open-ended. With this variant, reservations in advance are not possible. Both the availability and the location of the vehicle are therefore difficult to predict. Free-floating, however, allows one-way journeys within the business area. Prices are higher than those of station-based CarSharing. The largest providers in Germany are *ShareNow*, *Sixt share* and *We share*.<br/>
 
 - Combined sharing
 
-Since 2011, combined CarSharing offers were established that offer station-based and free-floating vehicles from a single source. Combined offers in Germany are available, for example, from stadtmobil, book-n-drive, teilAuto and cambio. The prices are usually based on the lower prices of station-based CarSharing.
+Since 2011, combined CarSharing offers were established that offer station-based and free-floating vehicles from a single source. Combined offers in Germany are available, for example, from *stadtmobil, book-n-drive, teilAuto* and *cambio*. The prices are usually based on the lower prices of station-based CarSharing.
 Free-floating users, on the other hand, largely keep their car. Their motorisation at the time of the study was 485 private cars per 1,000 inhabitants (Bundesverband CarSharing e.V., 2020).
 
 ### Key stakeholders {-}
@@ -76,23 +76,23 @@ cat('|TRL| SRL|
 
 ### Further links {-}
 
-- [share_now](https://www.share-now.com/at/en/faq/)
-
+- [Share-now](https://www.share-now.com/at/en/faq/)
 
 ### References {-}
-
-- Bundesverband CarSharing (2020) CarSharing in Deutschland 2020.
-- Bundesverband CarSharing e.V. (2020) Verkehrsentlastung durch CarSharing - Factsheet.
-- Evers, H. (2018) Carsharing günstiger als eigenes Auto? Available at: https://www.computerbild.de/artikel/cb-Tipps-Connected-Car-Kostenvergleich-Ab-wann-lohnt-sich-Carsharing-20041131.html (Accessed: 14 January 2021).
-- Ferrero, F. et al. (2018) ‘Car-sharing services: An annotated review’, Sustainable Cities and Society, 37, pp. 501–518. doi: https://doi.org/10.1016/j.scs.2017.09.020.
-- Hoyer, N. (2013) Mobilität: Lohnt sich Ihr Auto? Available at: https://www.wiwo.de/technologie/mobilitaet/mobilitaet-lohnt-sich-ihr-auto/8681062-all.html (Accessed: 14 January 2021).
-- Martin, E. W. and Shaheen, S. A. (2011) ‘Greenhouse Gas Emission Impacts of Carsharing in North America’, IEEE Transactions on Intelligent Transportation Systems, 12(4), pp. 1074–1086. doi: 10.1109/TITS.2011.2158539.
-- Seipp, B. (2014) Carsharing: Für wen sich das geteilte Auto wirklich lohnt - WELT. Available at: https://www.welt.de/motor/article128304929/Fuer-wen-sich-das-geteilte-Auto-wirklich-lohnt.html (Accessed: 14 January 2021).
-- Stadt Wien | Straßenverwaltung und Straßenbau (no date) Carsharing in Wien: Nutzung nimmt zu. Available at: https://www.wien.gv.at/verkehr/kfz/carsharing/evaluierung.html (Accessed: 17 January 2021).
-- VCÖ - Mobilität mit Zukunft (2018) Mehr als 100.000 Carsharing-Haushalte in Österreich – Potenzial um ein Vielfaches höher - Mobilität mit Zukunft. Available at: https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018 (Accessed: 18 January 2021).
+-	Bundesverband CarSharing. (2020). CarSharing in Deutschland 2020.
+-	Bundesverband CarSharing e.V. (2020). Verkehrsentlastung durch CarSharing - Factsheet.
+-	Evers, H. (2018, March 20). Carsharing günstiger als eigenes Auto? https://www.computerbild.de/artikel/cb-Tipps-Connected-Car-Kostenvergleich-Ab-wann-lohnt-sich-Carsharing-20041131.html
+-	Ferrero, F., Perboli, G., Rosano, M., & Vesco, A. (2018). Car-sharing services: An annotated review. Sustainable Cities and Society, 37, 501–518. https://doi.org/https://doi.org/10.1016/j.scs.2017.09.020
+-	Hoyer, N. (2013, August 29). Mobilität: Lohnt sich Ihr Auto? https://www.wiwo.de/technologie/mobilitaet/mobilitaet-lohnt-sich-ihr-auto/8681062-all.html
+-	Martin, E. W., & Shaheen, S. A. (2011). Greenhouse Gas Emission Impacts of Carsharing in North America. IEEE Transactions on Intelligent Transportation Systems, 12(4), 1074–1086. https://doi.org/10.1109/TITS.2011.2158539
+-	ÖBB Rail & Drive. (n.d.). ÖBB Rail & Drive - Tarife, Vor- und Nachteile, die erste Fahrt. Retrieved 17 January 2021, from https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive
+-	Seipp, B. (2014, May 22). Carsharing: Für wen sich das geteilte Auto wirklich lohnt - WELT. https://www.welt.de/motor/article128304929/Fuer-wen-sich-das-geteilte-Auto-wirklich-lohnt.html
+-	Stadt Wien | Straßenverwaltung und Straßenbau. (n.d.). Carsharing in Wien: Nutzung nimmt zu. Retrieved 17 January 2021, from https://www.wien.gv.at/verkehr/kfz/carsharing/evaluierung.html
+-	VCÖ - Mobilität mit Zukunft. (2018). Mehr als 100.000 Carsharing-Haushalte in Österreich – Potenzial um ein Vielfaches höher - Mobilität mit Zukunft. https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018
 
 
 ## Bicycle and e-bicycle hire {#bike_sharing}
+
 ### Synonyms {-}
 *bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)*
 
@@ -162,39 +162,37 @@ cat('|TRL| SRL|
 ### Further links {-}
 - [cyclocity.com](http://en.cyclocity.com/)
 
-
-
 ### References {-}
-- Affenzeller, J. (2020) Linzer Radverleih startet im Frühjahr an 40 Standorten. Available at: https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten (Accessed: 18 January 2021).
-- El Arbi, A. A. and Stephane, C. K. T. (2020) ‘Intelligent Management of Bike Sharing in Smart Cities using Machine Learning and Internet of Things’, Sustainable Cities and Society. Elsevier B.V., p. 135907. doi: 10.1016/j.scs.2020.102702.
-- Campbell, A. A. et al. (2016) ‘Factors influencing the choice of shared bicycles and shared electric bikes in Beijing’, Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 67, pp. 399–414. doi: 10.1016/j.trc.2016.03.004.
-- Cheng, L. et al. (2020) ‘How could the station-based bike sharing system and the free-floating bike sharing system be coordinated?’, Journal of Transport Geography. Elsevier Ltd, 89(March 2019), p. 102896. doi: 10.1016/j.jtrangeo.2020.102896.
-- Cheng, X. and Gao, Y. (2018) ‘The Optimal Monthly Strategy Pricing of Free-Floating Bike Sharing Platform’, Modern Economy. Scientific Research Publishing, Inc, 09(02), pp. 318–338. doi: 10.4236/me.2018.92021.
-- Citybike Salzburg (no date a) Citybike Salzburg. Available at: http://www.citybikesalzburg.at/hanuschplatz.php (Accessed: 12 January 2021).
-- Citybike Salzburg (no date b) Citybike Salzburg - Tarife. Available at: http://www.citybikesalzburg.at/tarife.php (Accessed: 18 January 2021).
-- Citybike Wien (2019) 10 Millionen Fahrten bei Citybike Wien! Available at: https://www.citybikewien.at/de/news/595-neuer-meilenstein-bei-citybike-wien-erreicht (Accessed: 12 January 2021).
-- Citybike Wien (no date) Tarife - Citybike Wien. Available at: https://www.citybikewien.at/de/tarife (Accessed: 18 January 2021).
-- DeMaio, P. (2009) ‘Bike-sharing: History, Impacts, Models of Provision, and Future’, Journal of Public Transportation. University of South Florida Libraries, 12(4), pp. 41–56. doi: 10.5038/2375-0901.12.4.3.
-- Eillie, A. (2016) Oxford Test Drives Peer-to-Peer Bike Sharing. Available at: https://www.bloomberg.com/news/articles/2016-09-13/cycle-land-is-a-new-peer-to-peer-bike-sharing-platform (Accessed: 8 January 2021).
-- Fishman, E. et al. (2014) ‘Barriers to bikesharing: An analysis from Melbourne and Brisbane’, Journal of Transport Geography. Elsevier Ltd, 41, pp. 325–337. doi: 10.1016/j.jtrangeo.2014.08.005.
-- Fishman, E. (2016) ‘Bikeshare: A Review of Recent Literature’, Transport Reviews. Routledge, 36(1), pp. 92–113. doi: 10.1080/01441647.2015.1033036.
-- der Grazer (2019) 100 Millionen Euro für Fahrrad-Offensive im Großraum Graz – Der Grazer. Available at: https://grazer.at/de/uHAnk5t2/100-millionen-euro-fuer-fahrrad-offensive-im-graz/ (Accessed: 18 January 2021).
-- Gu, T., Kim, I. and Currie, G. (2019) ‘To be or not to be dockless: Empirical analysis of dockless bikeshare development in China’, Transportation Research Part A: Policy and Practice. Elsevier Ltd, 119, pp. 122–147. doi: 10.1016/j.tra.2018.11.007.
-- Hillebrand, T. (2019) Mietradsystem ‘Stadtrad Innsbruck’ - VCÖ Vorbildhafte Mobilitätsprojekte. Available at: https://mobilitaetsprojekte.vcoe.at/mietradsystem-stadtrad-innsbruck-2019 (Accessed: 18 January 2021).
-- Li, H. et al. (2019) ‘Effects of dockless bike-sharing systems on the usage of the London Cycle Hire’, Transportation Research Part A: Policy and Practice. Elsevier Ltd, 130, pp. 398–411. doi: 10.1016/j.tra.2019.09.050.
-- Ma, X. et al. (2020) ‘A comparison in travel patterns and determinants of user demand between docked and dockless bike-sharing systems using multi-sourced data’, Transportation Research Part A: Policy and Practice. Elsevier, 139(June), pp. 148–173. doi: 10.1016/j.tra.2020.06.022.
-- Midgley, P. (2011) ‘Bicycle-Sharing Schemes: Enhancing Sustainable Mobility in Urban Areas’, Commission on Sustainable Development, Nine teent(8), p. 24. Available at: http://www.un.org/esa/dsd/resources/res_pdfs/csd-19/Background-Paper8-P.Midgley-Bicycle.pdf.
-- Nextbike Niederösterreich (no date) Nextbike Niederösterreich - Tarife. Available at: https://www.nextbike.at/de/niederoesterreich/preise/ (Accessed: 18 January 2021).
-- Rachbauer, S. (2016) Bikesharing in Österreich: Leihräder auf der Überholspur | kurier.at. Available at: https://kurier.at/chronik/oesterreich/bikesharing-in-oesterreich-leihraeder-auf-der-ueberholspur/400067369 (Accessed: 12 January 2021).
-- Rachbauer, S. (2018a) Bikesharing in Österreich: Leihräder auf der Überholspur. Available at: https://kurier.at/chronik/oesterreich/bikesharing-in-oesterreich-leihraeder-auf-der-ueberholspur/400067369.
-- Rachbauer, S. (2018b) Leihräder: Wiener wollen es aufgeräumt. Available at: https://kurier.at/chronik/wien/leihraeder-wiener-wollen-es-aufgeraeumt/400067357 (Accessed: 12 January 2021).
-- Rachbauer, S. (2018c) Leihräder: Wiener wollen es aufgeräumt. Available at: https://kurier.at/chronik/wien/leihraeder-wiener-wollen-es-aufgeraeumt/400067357.
-- Rachbauer, S. (2018d) Wien führt strenge Regeln für stationslose Leihräder ein. Available at: https://kurier.at/chronik/wien/wien-fuehrt-strenge-regeln-fuer-stationslose-leihraeder-ein/312.944.617 (Accessed: 12 January 2021).
-- Schöffel, R., Zierer, M. and Kühne, S. (2017) Nutzerdaten offen im Netz: BR deckt Datenleck beim Fahrradverleiher Obike auf. Available at: https://www.br.de/nachricht/datenleck-obike-100.html (Accessed: 8 January 2021).
-- Sun, S. and Ertz, M. (2021) ‘Contribution of bike-sharing to urban resource conservation: The case of free-floating bike-sharing’, Journal of Cleaner Production. Elsevier Ltd, 280, p. 124416. doi: 10.1016/j.jclepro.2020.124416.
-- Tech & Nature (2020) Niederösterreich modernisiert Sharing-Bike-Flotte ‘nextbike’ - Tech & Nature. Available at: https://www.techandnature.com/niederosterreich-modernisiert-sharing-bike-flotte-nextbike/ (Accessed: 18 January 2021).
-- Zademach, H. M. and Musch, A. K. (2018) ‘Bicycle-sharing systems in an alternative/diverse economy perspective: a sympathetic critique’, Local Environment. Taylor & Francis, 23(7), pp. 734–746. doi: 10.1080/13549839.2018.1434494.
-- Zhang, Y., Lin, D. and Mi, Z. (2019) ‘Electric fence planning for dockless bike-sharing services’, Journal of Cleaner Production, 206, pp. 383–393. doi: 10.1016/j.jclepro.2018.09.215.
+-	Affenzeller, J. (2020, December 17). Linzer Radverleih startet im Frühjahr an 40 Standorten. https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten
+-	Campbell, A. A., Cherry, C. R., Ryerson, M. S., & Yang, X. (2016). Factors influencing the choice of shared bicycles and shared electric bikes in Beijing. Transportation Research Part C: Emerging Technologies, 67, 399–414. https://doi.org/10.1016/j.trc.2016.03.004
+-	Cheng, L., Yang, J., Chen, X., Cao, M., Zhou, H., & Sun, Y. (2020). How could the station-based bike sharing system and the free-floating bike sharing system be coordinated? Journal of Transport Geography, 89(March 2019), 102896. https://doi.org/10.1016/j.jtrangeo.2020.102896
+-	Cheng, X., & Gao, Y. (2018). The Optimal Monthly Strategy Pricing of Free-Floating Bike Sharing Platform. Modern Economy, 09(02), 318–338. https://doi.org/10.4236/me.2018.92021
+-	Citybike Salzburg. (n.d.-a). Citybike Salzburg. Retrieved 12 January 2021, from http://www.citybikesalzburg.at/hanuschplatz.php
+-	Citybike Salzburg. (n.d.-b). Citybike Salzburg - Tarife. Retrieved 18 January 2021, from http://www.citybikesalzburg.at/tarife.php
+-	Citybike Wien. (n.d.). Tarife - Citybike Wien. Retrieved 18 January 2021, from https://www.citybikewien.at/de/tarife
+-	Citybike Wien. (2019). 10 Millionen Fahrten bei Citybike Wien! https://www.citybikewien.at/de/news/595-neuer-meilenstein-bei-citybike-wien-erreicht
+-	DeMaio, P. (2009). Bike-sharing: History, Impacts, Models of Provision, and Future. Journal of Public Transportation, 12(4), 41–56. https://doi.org/10.5038/2375-0901.12.4.3
+-	der Grazer. (2019, October 21). 100 Millionen Euro für Fahrrad-Offensive im Großraum Graz – Der Grazer. https://grazer.at/de/uHAnk5t2/100-millionen-euro-fuer-fahrrad-offensive-im-graz/
+-	Eillie, A. (2016). Oxford Test Drives Peer-to-Peer Bike Sharing. https://www.bloomberg.com/news/articles/2016-09-13/cycle-land-is-a-new-peer-to-peer-bike-sharing-platform
+-	El Arbi, A. A., & Stephane, C. K. T. (2020). Intelligent Management of Bike Sharing in Smart Cities using Machine Learning and Internet of Things. Sustainable Cities and Society, 135907. https://doi.org/10.1016/j.scs.2020.102702
+-	Fishman, E. (2016). Bikeshare: A Review of Recent Literature. Transport Reviews, 36(1), 92–113. https://doi.org/10.1080/01441647.2015.1033036
+-	Fishman, E., Washington, S., Haworth, N., & Mazzei, A. (2014). Barriers to bikesharing: An analysis from Melbourne and Brisbane. Journal of Transport Geography, 41, 325–337. https://doi.org/10.1016/j.jtrangeo.2014.08.005
+-	Gu, T., Kim, I., & Currie, G. (2019). To be or not to be dockless: Empirical analysis of dockless bikeshare development in China. Transportation Research Part A: Policy and Practice, 119, 122–147. https://doi.org/10.1016/j.tra.2018.11.007
+-	Hillebrand, T. (2019). Mietradsystem ‘Stadtrad Innsbruck’ - VCÖ Vorbildhafte Mobilitätsprojekte. https://mobilitaetsprojekte.vcoe.at/mietradsystem-stadtrad-innsbruck-2019
+-	Li, H., Zhang, Y., Ding, H., & Ren, G. (2019). Effects of dockless bike-sharing systems on the usage of the London Cycle Hire. Transportation Research Part A: Policy and Practice, 130, 398–411. https://doi.org/10.1016/j.tra.2019.09.050
+-	Ma, X., Ji, Y., Yuan, Y., Van Oort, N., Jin, Y., & Hoogendoorn, S. (2020). A comparison in travel patterns and determinants of user demand between docked and dockless bike-sharing systems using multi-sourced data. Transportation Research Part A: Policy and Practice, 139(June), 148–173. https://doi.org/10.1016/j.tra.2020.06.022
+-	Midgley, P. (2011). Bicycle-Sharing Schemes: Enhancing Sustainable Mobility in Urban Areas. Commission on Sustainable Development, Nine teent(8), 24. http://www.un.org/esa/dsd/resources/res_pdfs/csd-19/Background-Paper8-P.Midgley-Bicycle.pdf
+-	Nextbike Niederösterreich. (n.d.). Nextbike Niederösterreich - Tarife. Retrieved 18 January 2021, from https://www.nextbike.at/de/niederoesterreich/preise/
+-	Rachbauer, S. (2016, July). Bikesharing in Österreich: Leihräder auf der Überholspur | kurier.at. https://kurier.at/chronik/oesterreich/bikesharing-in-oesterreich-leihraeder-auf-der-ueberholspur/400067369
+-	Rachbauer, S. (2018a). Bikesharing in Österreich: Leihräder auf der Überholspur. https://kurier.at/chronik/oesterreich/bikesharing-in-oesterreich-leihraeder-auf-der-ueberholspur/400067369
+-	Rachbauer, S. (2018b). Leihräder: Wiener wollen es aufgeräumt. https://kurier.at/chronik/wien/leihraeder-wiener-wollen-es-aufgeraeumt/400067357
+-	Rachbauer, S. (2018c, March). Wien führt strenge Regeln für stationslose Leihräder ein. https://kurier.at/chronik/wien/wien-fuehrt-strenge-regeln-fuer-stationslose-leihraeder-ein/312.944.617
+-	Rachbauer, S. (2018d, July 17). Leihräder: Wiener wollen es aufgeräumt. https://kurier.at/chronik/wien/leihraeder-wiener-wollen-es-aufgeraeumt/400067357
+-	Schöffel, R., Zierer, M., & Kühne, S. (2017). Nutzerdaten offen im Netz: BR deckt Datenleck beim Fahrradverleiher Obike auf. https://www.br.de/nachricht/datenleck-obike-100.html
+-	Sun, S., & Ertz, M. (2021). Contribution of bike-sharing to urban resource conservation: The case of free-floating bike-sharing. Journal of Cleaner Production, 280, 124416. https://doi.org/10.1016/j.jclepro.2020.124416
+-	Tech & Nature. (2020, April 28). Niederösterreich modernisiert Sharing-Bike-Flotte ‘nextbike’ - Tech & Nature. https://www.techandnature.com/niederosterreich-modernisiert-sharing-bike-flotte-nextbike/
+-	Zademach, H. M., & Musch, A. K. (2018). Bicycle-sharing systems in an alternative/diverse economy perspective: a sympathetic critique. Local Environment, 23(7), 734–746. https://doi.org/10.1080/13549839.2018.1434494
+-	Zhang, Y., Lin, D., & Mi, Z. (2019). Electric fence planning for dockless bike-sharing services. Journal of Cleaner Production, 206, 383–393. https://doi.org/10.1016/j.jclepro.2018.09.215
 
 ## E-scooters {#scooters}
 
@@ -252,24 +250,23 @@ cat('|TRL| SRL|
 1. Will an increasing presence of e-scooters on the bicycle infrastructure or in pedestrian zones require separate solution in urban road infrastructure?
 
 ### References {-}
-- Allem, J. P. and Majmundar, A. (2019) ‘Are electric scooters promoted on social media with safety in mind? A case study on Bird’s Instagram’, Preventive Medicine Reports. Elsevier Inc., pp. 62–63. doi: 10.1016/j.pmedr.2018.11.013.
-- Choron, R. L. and Sakran, J. V. (2019) ‘The Integration of Electric Scooters: Useful Technology or Public Health Problem?’, American journal of public health. NLM (Medline), 109(4), pp. 555–556. doi: 10.2105/AJPH.2019.304955.
-- Le Figaro (2018) ‘Trottinettes: la mairie de Paris veut une réglementation nationale’, 9 September. Available at: https://www.lefigaro.fr/flash-eco/2018/09/09/97002-20180909FILWWW00064-trottinettes-la-mairie-de-paris-veut-une-reglementation-nationale.php (Accessed: 20 January 2021).
-- Gössling, S. (2020) ‘Integrating e-scooters in urban transportation: Problems, policies, and the prospect of system change’, Transportation Research Part D: Transport and Environment. Elsevier, 79(January), p. 102230. doi: 10.1016/j.trd.2020.102230.
-James, O. et al. (2019) ‘Pedestrians and E-Scooters: An Initial Look at E-Scooter Parking and Perceptions by Riders and Non-Riders’, Sustainability. MDPI AG, 11(20), p. 5591. doi: 10.3390/su11205591.
-Laa, B. and Leth, U. (2020) ‘Survey of E-scooter users in Vienna: Who they are and how they ride’, Journal of Transport Geography. Elsevier, 89(October), p. 102874. doi: 10.1016/j.jtrangeo.2020.102874.
-- Liew, Y. K., Wee, C. P. J. and Pek, J. H. (2020) ‘New peril on our roads: A retrospective study of electric scooter-related injuries’, Singapore Medical Journal. Singapore Medical Association, 61(2), pp. 92–95. doi: 10.11622/smedj.2019083.
-- Négroni, A. (2019) ‘Paris: Hidalgo prend des mesures contre les trottinettes électriques’, 6 June. Available at: https://www.lefigaro.fr/actualite-france/trottinettes-paris-prend-des-mesures-20190606 (Accessed: 20 January 2021).
-- OECD/ITF (2020) ‘Safe Micromobility’, p. 98. Available at: https://www.itf-oecd.org/safe-micromobility.
-- Oeschger, G., Carroll, P. and Caulfield, B. (2020) ‘Micromobility and public transport integration: The current state of knowledge’, Transportation Research Part D: Transport and Environment. Elsevier Ltd, 89, p. 102628. doi: 10.1016/j.trd.2020.102628.
-- Portland Bureau of Transportation (2019) 2018 E-Scooter Findings Report. Available at: https://www.portlandoregon.gov/transportation/article/709719%0Ahttps://trid.trb.org/view/1607260.
-- Schwarz, R. (2019) E-Bikes und E-Scooter sind viel zu schnell! - Ideen-Blog - derStandard.at › Diskurs. Available at: https://www.derstandard.at/story/2000106514149/e-bikes-und-e-scooter-sind-viel-zu-schnell (Accessed: 20 January 2021).
-- Siegfried, C., Martin, B. and Reichenberger, Y. (2021) ‘Consumer acceptance of shared e-scooters for urban and short-distance mobility’, Transportation Research Part D. Elsevier Ltd, 91(January), p. 102680. doi: 10.1016/j.trd.2020.102680.
-- Sikka, N. et al. (2019) ‘Sharing the sidewalk: A case of E-scooter related pedestrian injury’, American Journal of Emergency Medicine. W.B. Saunders, 37(9), pp. 1807.e5-1807.e7. doi: 10.1016/j.ajem.2019.06.017.
-- Sydsvenskan (2019) Elsparkcyklarna minskar cykelstölderna - Sydsvenskan. Available at: https://www.sydsvenskan.se/2019-08-30/elsparkcyklarna-minskar-cykelstolderna (Accessed: 20 January 2021).
-- Widholm, K. (2021) E-Scooter Sharing-System: Roller von Lime, Tier, Bird und Co. Available at: https://www.stadt-wien.at/wien/news/e-scooter-sharing-system-in-wien.html (Accessed: 20 January 2021).
-- Wiener Linien (2021) Übersicht Tickets | Tickets | Fahrgastinfo | Wiener Linien. Available at: https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648 (Accessed: 20 January 2021).
-- Zagorskas, J. and Burinskiene, M. (2020) ‘Challenges caused by increased use of E-powered personal mobility vehicles in European cities’, Sustainability (Switzerland). MDPI AG, 12(1), p. 273. doi: 10.3390/su12010273.
-
+-	Allem, J. P., & Majmundar, A. (2019). Are electric scooters promoted on social media with safety in mind? A case study on Bird’s Instagram. In Preventive Medicine Reports (Vol. 13, pp. 62–63). Elsevier Inc. https://doi.org/10.1016/j.pmedr.2018.11.013
+-	Choron, R. L., & Sakran, J. V. (2019). The Integration of Electric Scooters: Useful Technology or Public Health Problem? American Journal of Public Health, 109(4), 555–556. https://doi.org/10.2105/AJPH.2019.304955
+-	Gössling, S. (2020). Integrating e-scooters in urban transportation: Problems, policies, and the prospect of system change. Transportation Research Part D: Transport and Environment, 79(January), 102230. https://doi.org/10.1016/j.trd.2020.102230
+-	James, O., Swiderski, J., Hicks, J., Teoman, D., & Buehler, R. (2019). Pedestrians and E-Scooters: An Initial Look at E-Scooter Parking and Perceptions by Riders and Non-Riders. Sustainability, 11(20), 5591. https://doi.org/10.3390/su11205591
+-	Laa, B., & Leth, U. (2020). Survey of E-scooter users in Vienna: Who they are and how they ride. Journal of Transport Geography, 89(October), 102874. https://doi.org/10.1016/j.jtrangeo.2020.102874
+-	Le Figaro. (2018, September 9). Trottinettes: la mairie de Paris veut une réglementation nationale. https://www.lefigaro.fr/flash-eco/2018/09/09/97002-20180909FILWWW00064-trottinettes-la-mairie-de-paris-veut-une-reglementation-nationale.php
+-	Liew, Y. K., Wee, C. P. J., & Pek, J. H. (2020). New peril on our roads: A retrospective study of electric scooter-related injuries. Singapore Medical Journal, 61(2), 92–95. https://doi.org/10.11622/smedj.2019083
+-	Négroni, A. (2019, June 6). Paris: Hidalgo prend des mesures contre les trottinettes électriques. https://www.lefigaro.fr/actualite-france/trottinettes-paris-prend-des-mesures-20190606
+-	OECD/ITF. (2020). Safe Micromobility. 98. https://www.itf-oecd.org/safe-micromobility
+-	Oeschger, G., Carroll, P., & Caulfield, B. (2020). Micromobility and public transport integration: The current state of knowledge. Transportation Research Part D: Transport and Environment, 89, 102628. https://doi.org/10.1016/j.trd.2020.102628
+-	Portland Bureau of Transportation. (2019). 2018 E-Scooter Findings Report. https://www.portlandoregon.gov/transportation/article/709719%0Ahttps://trid.trb.org/view/1607260
+-	Schwarz, R. (2019, July 27). E-Bikes und E-Scooter sind viel zu schnell! - Ideen-Blog - derStandard.at › Diskurs. https://www.derstandard.at/story/2000106514149/e-bikes-und-e-scooter-sind-viel-zu-schnell
+-	Siegfried, C., Martin, B., & Reichenberger, Y. (2021). Consumer acceptance of shared e-scooters for urban and short-distance mobility. Transportation Research Part D, 91(January), 102680. https://doi.org/10.1016/j.trd.2020.102680
+-	Sikka, N., Vila, C., Stratton, M., Ghassemi, M., & Pourmand, A. (2019). Sharing the sidewalk: A case of E-scooter related pedestrian injury. American Journal of Emergency Medicine, 37(9), 1807.e5-1807.e7. https://doi.org/10.1016/j.ajem.2019.06.017
+-	Sydsvenskan. (2019, August 30). Elsparkcyklarna minskar cykelstölderna - Sydsvenskan. https://www.sydsvenskan.se/2019-08-30/elsparkcyklarna-minskar-cykelstolderna
+-	Widholm, K. (n.d.). E-Scooter Sharing-System: Roller von Lime, Tier, Bird und Co. Retrieved 20 January 2021, from https://www.stadt-wien.at/wien/news/e-scooter-sharing-system-in-wien.html
+-	Wiener Linien. (n.d.). Übersicht Tickets | Tickets | Fahrgastinfo | Wiener Linien. Retrieved 20 January 2021, from https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648
+-	Zagorskas, J., & Burinskiene, M. (2020). Challenges caused by increased use of E-powered personal mobility vehicles in European cities. Sustainability (Switzerland), 12(1), 273. https://doi.org/10.3390/su12010273
 
 ## Ride-hailing {#ride_hailing}

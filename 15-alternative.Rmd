@@ -67,22 +67,21 @@ cat('|TRL| SRL|
 -	[fch.europa](https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition) 
 
 ### References {-}
-
 - Alvarez-Meaza, I., Zarrabeitia-Bilbao, E., Rio-Belver, R. M., & Garechana-Anacabe, G. (2020). Fuel-Cell Electric Vehicles: Plotting a Scientific and Technological Knowledge Map. Sustainability, 12(6), 2334.
-- Apostolou, D. and Xydis, G. (2019) ‘A literature review on hydrogen refuelling stations and infrastructure. Current status and future prospects’, Renewable and Sustainable Energy Reviews. Elsevier Ltd, 113(May), p. 109292. doi: 10.1016/j.rser.2019.109292.
+-	Apostolou, D., & Xydis, G. (2019). A literature review on hydrogen refuelling stations and infrastructure. Current status and future prospects. Renewable and Sustainable Energy Reviews, 113(May), 109292. https://doi.org/10.1016/j.rser.2019.109292
 - Borgstedt, P., Neyer, B., & Schewe, G. (2017). Paving the road to electric vehicles–A patent analysis of the automotive supply industry. Journal of cleaner production, 167, 75-87.
-- Colella, W. G., Jacobson, M. Z. and Golden, D. M. (2005) ‘Switching to a U.S. hydrogen fuel cell vehicle fleet: The resultant change in emissions, energy use, and greenhouse gases’, Journal of Power Sources, 150, pp. 150–181. doi: https://doi.org/10.1016/j.jpowsour.2005.05.092.
-- Doppelbauer, M. (2020) Grundlagen der Elektromobilität, Grundlagen der Elektromobilität. doi: 10.1007/978-3-658-29730-5.
-- Eichlseder, H., Klell, M. and Trattner, A. (2018) Wasserstoff in der Fahrzeugtechnik, Wasserstoff in der Fahrzeugtechnik. doi: 10.1007/978-3-8348-9674-2.
-International Partnership for Hydrogen and Fuel Cells in the Economy (no date) No Title. Available at: https://www.iphe.net/.
+-	Colella, W. G., Jacobson, M. Z., & Golden, D. M. (2005). Switching to a U.S. hydrogen fuel cell vehicle fleet: The resultant change in emissions, energy use, and greenhouse gases. Journal of Power Sources, 150, 150–181. https://doi.org/https://doi.org/10.1016/j.jpowsour.2005.05.092
+-	Doppelbauer, M. (2020). Grundlagen der Elektromobilität. In Grundlagen der Elektromobilität. https://doi.org/10.1007/978-3-658-29730-5
+-	Eichlseder, H., Klell, M., & Trattner, A. (2018). Wasserstoff in der Fahrzeugtechnik. In Wasserstoff in der Fahrzeugtechnik. https://doi.org/10.1007/978-3-8348-9674-2
+-	International Partnership for Hydrogen and Fuel Cells in the Economy. (n.d.). No Title. https://www.iphe.net/
 - Iribarren, D., Martín-Gamboa, M., Manzano, J., & Dufour, J. (2016). Assessing the social acceptance of hydrogen for transportation in Spain: an unintentional focus on target population for a potential hydrogen economy. International journal of hydrogen energy, 41(10), 5203-5208.
-- Kanna, I. V. and Paturu, P. (2020) ‘A study of hydrogen as an alternative fuel’, International Journal of Ambient Energy. Taylor & Francis, 41(12), pp. 1433–1436. doi: 10.1080/01430750.2018.1484803.
-- Lehmann, J. and Luschtinetz, T. (2014) Wasserstoff und Brennstoffzellen.
-- Pötscher, F. et al. (2014) Ökobilanz alternativer Antriebe – Elektrofahrzeuge im Vergleich.
+-	Kanna, I. V., & Paturu, P. (2020). A study of hydrogen as an alternative fuel. International Journal of Ambient Energy, 41(12), 1433–1436. https://doi.org/10.1080/01430750.2018.1484803
+-	Lehmann, J., & Luschtinetz, T. (2014). Wasserstoff und Brennstoffzellen.
 - Roadmap Europe (2019). A sustainable pathway for the European energy transition. Luxembourg: Publications Office of the European Union.
-- Schabbach, T. and Wesselak, V. (2020) Energie - Den Erneuerbaren gehört die Zukunft.
-- Tanç, B. et al. (2019) ‘Overview of the next quarter century vision of hydrogen fuel cell electric vehicles’, in International Journal of Hydrogen Energy, Volume 44, Issue 20, pp. 10120–10128.
-- Töpler, J. and Lehmann, J. (2017) Wasserstoff und Brennstoffzelle - Technologien und Marktkonzepte, Springer Vieweg.
+-	Pötscher, F., Winter, R., Lichtblau, G., Schreiber, H., & Kutschera, U. (2014). Ökobilanz alternativer Antriebe – Elektrofahrzeuge im Vergleich.
+-	Schabbach, T., & Wesselak, V. (2020). Energie - Den Erneuerbaren gehört die Zukunft.
+-	Tanç, B., Arat, H. T., Baltacıoğlu, E., & Kadir, A. (2019). Overview of the next quarter century vision of hydrogen fuel cell electric vehicles. In International Journal of Hydrogen Energy, Volume 44, Issue 20, (pp. 10120–10128).
+-	Töpler, J., & Lehmann, J. (2017). Wasserstoff und Brennstoffzelle - Technologien und Marktkonzepte. In Springer Vieweg.
 
 ## Battery electric {#bev}
 
@@ -185,24 +184,22 @@ cat('|TRL| SRL|
 -	[ec.europa.eu](https://ec.europa.eu/eurostat/databrowser/view/ROAD_EQR_CARPDA__custom_91702/bookmark/table?lang=de&bookmarkId=7e47ef9d-b80b-4bd6-a35b-046cb5af4500)
 
 ### References {-}
-- Bundesministerium für Umwelt, N. und nukleare S. (BMU) (2019) ‘Wie umweltfreundlich sind Elektroautos?’, pp. 1–20. Available at: www.bmu.de.
-- Bundesministerium für Umwelt Naturschutz und nukleare Sicherheit (no date) Effizienz und Kosten: Lohnt sich der Betrieb eines Elektroautos? | BMU. Available at: https://www.bmu.de/themen/luft-laerm-verkehr/verkehr/elektromobilitaet/effizienz-und-kosten/ (Accessed: 19 February 2021).
-- Doppelbauer, M. (2020) Grundlagen der Elektromobilität, Grundlagen der Elektromobilität. doi: 10.1007/978-3-658-29730-5.
-Eichlseder, H., Klell, M. and Trattner, A. (2018) Wasserstoff in der Fahrzeugtechnik, Wasserstoff in der Fahrzeugtechnik. doi: 10.1007/978-3-8348-9674-2.
-- Fritz, D. et al. (2018) ‘Update: Ökobilanz alternativer Antriebe’, pp. 1–16. Available at: https://umweltbundesamt.at/fileadmin/site/publikationen/DP152.pdf.
-- IEA (2020) Electric Vehicles Initiative – Programmes and partnerships - IEA. Available at: https://www.iea.org/areas-of-work/programmes-and-partnerships/electric-vehicles-initiative (Accessed: 4 February 2021).
-- Kreuzer, C. (2020) Österreicher fahren auf immer PS-stärkere Autos ab | Wiener Städtische. Available at: https://www.wienerstaedtische.at/unternehmen/presse/pressemeldungen/detail/oesterreicher-fahren-auf-immer-ps-staerkere-autos-ab.html (Accessed: 4 February 2021).
-- Kurzempa, A. (2018) ‘Electromobility – what does it mean?’, AUTOBUSY – Technika, Eksploatacja, Systemy Transportowe, 19(6), pp. 894–897. doi: 10.24136/atest.2018.197.
-- Lehmann, J. and Luschtinetz, T. (2014) Wasserstoff und Brennstoffzellen.
-- Michael (2020) Wasserstoff, E-Auto, E-Fuels: Warum das E-Auto die beste Alternative ist | Elektroauto-News.net. Available at: https://www.elektroauto-news.net/2020/wasserstoff-e-auto-e-fuels-batterieauto-beste-alternative (Accessed: 4 February 2021).
-- Pötscher, F. et al. (2014) Ökobilanz alternativer Antriebe – Elektrofahrzeuge im Vergleich.
-- Prack, N. (2020) Anzahl der Elektroautos: Deutschland & Ausland | ADAC. Available at: https://www.adac.de/news/statistik-e-autos/ (Accessed: 18 February 2021).
-- Roy, P. et al. (2009) ‘A review of life cycle assessment (LCA) on some food products’, Journal of Food Engineering, 90(1), pp. 1–10. doi: https://doi.org/10.1016/j.jfoodeng.2008.06.016.
-- Schabbach, T. and Wesselak, V. (2020) Energie - Den Erneuerbaren gehört die Zukunft.
-- Sitte, P. (2019) E-Mobilität: Zahl der Ladestationen für Elektroautos steigt weiter an | Bundesverband Elektromobilität Österreich (BEÖ), 21.01.2019. Available at: https://www.ots.at/presseaussendung/OTS_20190121_OTS0048/e-mobilitaet-zahl-der-ladestationen-fuer-elektroautos-steigt-weiter-an-bild (Accessed: 4 February 2021).
-- Töpler, J. and Lehmann, J. (2017) Wasserstoff und Brennstoffzelle - Technologien und Marktkonzepte, Springer Vieweg.
-
-
+- Bundesministerium für Umwelt, N. und nukleare S. (BMU). (2019). Wie umweltfreundlich sind Elektroautos? 1–20. www.bmu.de
+-	Bundesministerium für Umwelt Naturschutz und nukleare Sicherheit. (n.d.). Effizienz und Kosten: Lohnt sich der Betrieb eines Elektroautos? | BMU. Retrieved 19 February 2021, from https://www.bmu.de/themen/luft-laerm-verkehr/verkehr/elektromobilitaet/effizienz-und-kosten/
+-	Doppelbauer, M. (2020). Grundlagen der Elektromobilität. In Grundlagen der Elektromobilität. https://doi.org/10.1007/978-3-658-29730-5
+-	Eichlseder, H., Klell, M., & Trattner, A. (2018). Wasserstoff in der Fahrzeugtechnik. In Wasserstoff in der Fahrzeugtechnik. https://doi.org/10.1007/978-3-8348-9674-2
+-	Fritz, D., Heinfellner, H., Lichtblau, G., Pölz, W., & Stranner, G. (2018). Update: Ökobilanz alternativer Antriebe. 1–16. https://umweltbundesamt.at/fileadmin/site/publikationen/DP152.pdf
+-	IEA. (2020, October 26). Electric Vehicles Initiative – Programmes and partnerships - IEA. https://www.iea.org/areas-of-work/programmes-and-partnerships/electric-vehicles-initiative
+-	Kreuzer, C. (2020, September 8). Österreicher fahren auf immer PS-stärkere Autos ab | Wiener Städtische. https://www.wienerstaedtische.at/unternehmen/presse/pressemeldungen/detail/oesterreicher-fahren-auf-immer-ps-staerkere-autos-ab.html
+-	Kurzempa, A. (2018). Electromobility – what does it mean? AUTOBUSY – Technika, Eksploatacja, Systemy Transportowe, 19(6), 894–897. https://doi.org/10.24136/atest.2018.197
+-	Lehmann, J., & Luschtinetz, T. (2014). Wasserstoff und Brennstoffzellen.
+-	Michael. (2020, January 26). Wasserstoff, E-Auto, E-Fuels: Warum das E-Auto die beste Alternative ist | Elektroauto-News.net. https://www.elektroauto-news.net/2020/wasserstoff-e-auto-e-fuels-batterieauto-beste-alternative
+-	Pötscher, F., Winter, R., Lichtblau, G., Schreiber, H., & Kutschera, U. (2014). Ökobilanz alternativer Antriebe – Elektrofahrzeuge im Vergleich.
+-	Prack, N. (2020, February 27). Anzahl der Elektroautos: Deutschland & Ausland | ADAC. https://www.adac.de/news/statistik-e-autos/
+-	Roy, P., Nei, D., Orikasa, T., Xu, Q., Okadome, H., Nakamura, N., & Shiina, T. (2009). A review of life cycle assessment (LCA) on some food products. Journal of Food Engineering, 90(1), 1–10. https://doi.org/https://doi.org/10.1016/j.jfoodeng.2008.06.016
+-	Schabbach, T., & Wesselak, V. (2020). Energie - Den Erneuerbaren gehört die Zukunft.
+-	Sitte, P. (2019, January 21). E-Mobilität: Zahl der Ladestationen für Elektroautos steigt weiter an | Bundesverband Elektromobilität Österreich (BEÖ), 21.01.2019. https://www.ots.at/presseaussendung/OTS_20190121_OTS0048/e-mobilitaet-zahl-der-ladestationen-fuer-elektroautos-steigt-weiter-an-bild
+-	Töpler, J., & Lehmann, J. (2017). Wasserstoff und Brennstoffzelle - Technologien und Marktkonzepte. In Springer Vieweg.
 
 ## Plugin hybrid vehicles {#plugin_hybrid}
 
@@ -284,21 +281,20 @@ cat('|TRL| SRL|
 -	[fch.europa](https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition) 
 
 ### References {-}
-
-- ADAC (2019) Hybridantrieb: Funktionsweise sowie Vor- und Nachteile. Available at: https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/hybridantrieb/ (Accessed: 7 January 2021).
-- Aswin, A. and Senthilmurugan, S. (2018) ‘A survey on power levels of battery charging and infrastructure for plug-in electric and hybrid vehicles’, IOP Conference Series: Materials Science and Engineering, 402(1). doi: 10.1088/1757-899X/402/1/012154.
+-	ADAC. (2019). Hybridantrieb: Funktionsweise sowie Vor- und Nachteile. https://www.adac.de/verkehr/tanken-kraftstoff-antrieb/alternative-antriebe/hybridantrieb/
+-	Aswin, A., & Senthilmurugan, S. (2018). A survey on power levels of battery charging and infrastructure for plug-in electric and hybrid vehicles. IOP Conference Series: Materials Science and Engineering, 402(1). https://doi.org/10.1088/1757-899X/402/1/012154
 - Bannon, E., (2020). Plug-In Hybrids In New Emissions Scandal As Tests Show Higher Pollution Than Claimed | Transport & Environment. [online] Transportenvironment.org. Available at: <https://www.transportenvironment.org/press/plug-hybrids-new-emissions-scandal-tests-show-higher-pollution-claimed> [Accessed 19 January 2021].
 - European Environment Agency. (2020). INDICATOR ASSESSMENT New Registrations Of Electric Vehicles In Europe. [online] Available at: <https://www.eea.europa.eu/data-and-maps/indicators/proportion-of-vehicle-fleet-meeting-5/assessment> [Accessed 19 January 2021]
-- Fischer, S. M. (2020) Ökostrom an jeder Ecke: Ladestellen-Ausbau auf Zielgeraden | Wien Energie GmbH, 02.09.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200902_OTS0138/oekostrom-an-jeder-ecke-ladestellen-ausbau-auf-zielgeraden (Accessed: 14 January 2021).
-- Köllner, C. (2020) Das sollten Sie über Plug-in-Hybride wissen. Available at: https://www.springerprofessional.de/plug-in-hybrid/antriebsstrang/das-sollten-sie-ueber-plug-in-hybride-wissen/18235362.
-- Kroher, T. (2020) Plug-in-Hybrid: Modelle, Verbrauch, Technik, Kosten, Ökobilanz. Available at: https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/auto/plug-in-hybrid/.
-- Ortner, M. (2020) Plug-in-Hybride sind nur so umweltfreundlich wie ihre Fahrer - Wiener Zeitung Online. Available at: https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2084730-Plug-In-Hybride-nur-so-umweltfreundlich-wie-ihre-Fahrer.html (Accessed: 14 January 2021).
+-	Fischer, S. M. (2020, September 2). Ökostrom an jeder Ecke: Ladestellen-Ausbau auf Zielgeraden | Wien Energie GmbH, 02.09.2020. https://www.ots.at/presseaussendung/OTS_20200902_OTS0138/oekostrom-an-jeder-ecke-ladestellen-ausbau-auf-zielgeraden
+-	Köllner, C. (2020). Das sollten Sie über Plug-in-Hybride wissen. https://www.springerprofessional.de/plug-in-hybrid/antriebsstrang/das-sollten-sie-ueber-plug-in-hybride-wissen/18235362
+-	Kroher, T. (2020). Plug-in-Hybrid: Modelle, Verbrauch, Technik, Kosten, Ökobilanz. https://www.adac.de/rund-ums-fahrzeug/autokatalog/marken-modelle/auto/plug-in-hybrid/
+-	Ortner, M. (2020, December 9). Plug-in-Hybride sind nur so umweltfreundlich wie ihre Fahrer - Wiener Zeitung Online. https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2084730-Plug-In-Hybride-nur-so-umweltfreundlich-wie-ihre-Fahrer.html
 - Plötz, P., Moll, C., Biecker, G., Mock, P., & Li, Y. (2020). Real-World Usage of Plug-in Hybrid Electric Vehicles: Fuel Consumption, Electric Driving, and CO₂ Emissions.
-- Schäfer, P. (2020) Empa errechnet beste Kaltstart-Strategie für Hybridfahrzeuge. Available at: https://www.springerprofessional.de/hybridtechnik/abgasnachbehandlung/empa-errechnet-beste-kaltstart-strategie-fuer-hybridfahrzeuge/17751190.
-- Sitte, P. (2020a) BEÖ: Strom laden in eigener Garage wird einfacher. Wichtiger Schritt für E-Mobilität. | Bundesverband Elektromobilität Österreich (BEÖ), 15.07.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200715_OTS0148/beoe-strom-laden-in-eigener-garage-wird-einfacher-wichtiger-schritt-fuer-- e-mobilitaet (Accessed: 14 January 2021).
-- Sitte, P. (2020b) BEÖ begrüßt E-Mobilitätsförderung 2020 | Bundesverband Elektromobilität Österreich (BEÖ), 29.06.2020. Available at: https://www.ots.at/presseaussendung/OTS_20200629_OTS0144/beoe-begruesst-e-mobilitaetsfoerderung-2020 (Accessed: 14 January 2021).
-- Song, Z. et al. (2018) ‘Component sizing optimization of plug-in hybrid electric vehicles with the hybrid energy storage system’, Energy. Elsevier Ltd, 144, pp. 393–403. doi: 10.1016/j.energy.2017.12.009.
-- VCÖ (2020) VCÖ: Neue Studie zeigt schlechte Klimabilanz von Plug-In-Hybrid Pkw - Mobilität mit Zukunft. Available at: https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw (Accessed: 14 January 2021).
+-	Schäfer, P. (2020). Empa errechnet beste Kaltstart-Strategie für Hybridfahrzeuge. https://www.springerprofessional.de/hybridtechnik/abgasnachbehandlung/empa-errechnet-beste-kaltstart-strategie-fuer-hybridfahrzeuge/17751190
+-	Sitte, P. (2020a, June 29). BEÖ begrüßt E-Mobilitätsförderung 2020 | Bundesverband Elektromobilität Österreich (BEÖ), 29.06.2020. https://www.ots.at/presseaussendung/OTS_20200629_OTS0144/beoe-begruesst-e-mobilitaetsfoerderung-2020
+-	Sitte, P. (2020b, July 15). BEÖ: Strom laden in eigener Garage wird einfacher. Wichtiger Schritt für E-Mobilität. | Bundesverband Elektromobilität Österreich (BEÖ), 15.07.2020. https://www.ots.at/presseaussendung/OTS_20200715_OTS0148/beoe-strom-laden-in-eigener-garage-wird-einfacher-wichtiger-schritt-fuer-e-mobilitaet
+-	Song, Z., Zhang, X., Li, J., Hofmann, H., Ouyang, M., & Du, J. (2018). Component sizing optimization of plug-in hybrid electric vehicles with the hybrid energy storage system. Energy, 144, 393–403. https://doi.org/10.1016/j.energy.2017.12.009
+-	VCÖ. (2020). VCÖ: Neue Studie zeigt schlechte Klimabilanz von Plug-In-Hybrid Pkw - Mobilität mit Zukunft. https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw
 
 
 

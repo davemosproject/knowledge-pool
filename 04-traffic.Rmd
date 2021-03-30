@@ -160,14 +160,12 @@ cat('|TRL| SRL|
 - [cohdawireless.com](https://cohdawireless.com/platooning/)
 
 ### References {-}
-- Amoozadeh, M. et al. (2015) ‘Platoon management with cooperative adaptive cruise control enabled by VANET’, Vehicular Communications. Elsevier Inc., 2(2), pp. 110–123. doi: 10.1016/j.vehcom.2015.03.004.
-- Castritius, S. M. et al. (2020) ‘Public acceptance of semi-automated truck platoon driving. A comparison between Germany and California’, Transportation Research Part F: Traffic Psychology and Behaviour. Elsevier Ltd, 74, pp. 361–374. doi: 10.1016/j.trf.2020.08.013.
-- Danzl, K. et al. (2019) ‘VERKEHRSRECHT’.
-- Ghosal, A. et al. (2021) ‘Truck platoon security: State-of-the-art and road ahead’, Computer Networks. Elsevier B.V., 185(April 2020), p. 107658. doi: 10.1016/j.comnet.2020.107658.
-- Song, M., Chen, F. and Ma, X. (2021) ‘Organization of autonomous truck platoon considering energy saving and pavement fatigue’, Transportation Research Part D: Transport and Environment, 90, p. 102667. doi: https://doi.org/10.1016/j.trd.2020.102667.
-- Yang, D. et al. (2019) ‘Impacts of large-scale truck platooning on Dutch highways’, Transportation Research Procedia. Elsevier B.V., 37(September 2018), pp. 425–432. doi: 10.1016/j.trpro.2018.12.212.
-
-
+-	Amoozadeh, M., Deng, H., Chuah, C. N., Zhang, H. M., & Ghosal, D. (2015). Platoon management with cooperative adaptive cruise control enabled by VANET. Vehicular Communications, 2(2), 110–123. https://doi.org/10.1016/j.vehcom.2015.03.004
+-	Castritius, S. M., Lu, X. Y., Bernhard, C., Liebherr, M., Schubert, P., & Hecht, H. (2020). Public acceptance of semi-automated truck platoon driving. A comparison between Germany and California. Transportation Research Part F: Traffic Psychology and Behaviour, 74, 361–374. https://doi.org/10.1016/j.trf.2020.08.013
+-	Danzl, K., Huber, C., Kathrein, G., Pürstl, G., Blass, P., Kaiser, S., & Romaniewicz-wenk, M. (2019). VERKEHRSRECHT.
+-	Ghosal, A., Sagong, S. U., Halder, S., Sahabandu, K., Conti, M., Poovendran, R., & Bushnell, L. (2021). Truck platoon security: State-of-the-art and road ahead. Computer Networks, 185(April 2020), 107658. https://doi.org/10.1016/j.comnet.2020.107658
+-	Song, M., Chen, F., & Ma, X. (2021). Organization of autonomous truck platoon considering energy saving and pavement fatigue. Transportation Research Part D: Transport and Environment, 90, 102667. https://doi.org/https://doi.org/10.1016/j.trd.2020.102667
+-	Yang, D., Kuijpers, A., Dane, G., & Der Sande, T. Van. (2019). Impacts of large-scale truck platooning on Dutch highways. Transportation Research Procedia, 37(September 2018), 425–432. https://doi.org/10.1016/j.trpro.2018.12.212
 
 ## Real-time traffic information and monitoring {#traffic_info_monitoring}
 
@@ -327,16 +325,17 @@ cat('|TRL| SRL|
 
 ### References {-}
 -	Brilon, W., & Wietholt, T. (2013). Experiences with adaptive signal control in Germany. Transportation research record, 2356(1), 9-16.
--	Casas, N. (2017) ‘Deep deterministic policy gradient for urban traffic light control’, arXiv, pp. 1–12.
--	Curtis, E. (2017) EDC-1: Adaptive Signal Control Technology | Federal Highway Administration. Available at: https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm (Accessed: 8 March 2021).
--	Liang, X., Du, X., Wang, G., & Han, Z. (2019). A deep reinforcement learning network for traffic light cycle control. IEEE Transactions on Vehicular Technology, 68(2), 1243-1253.
--	Qadri, S. S. S. M., Gökçe, M. A. & Öner, E. (2020a) ‘State-of-art review of traffic signal control methods: challenges and opportunities’, European Transport Research Review, 12(1), p. 55. doi: 10.1186/s12544-020-00439-1.
--	Qadri, S. S. S. M., Gökçe, M. A. & Öner, E. (2020b) ‘State-of-art review of traffic signal control methods: challenges and opportunities’, European Transport Research Review. European Transport Research Review, 12(1), pp. 1–23. doi: 10.1186/s12544-020-00439-1.
--	The Sentinel Newspaper (2021) ‘Adaptive Traffic Control System Market to reach US$ 21.9 Bn by 2030 – KSU | The Sentinel Newspaper’, 3 March. Available at: https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/ (Accessed: 8 March 2021).
--	Vilarinho, C., Tavares, J. P. & Rossetti, R. J. F. (2017) ‘Intelligent Traffic Lights: Green Time Period Negotiaton’, Transportation Research Procedia, 22, pp. 325–334. doi: https://doi.org/10.1016/j.trpro.2017.03.039.
--	Wang, T., Cao, J. & Hussain, A. (2021) ‘Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning’, Transportation Research Part C: Emerging Technologies. Elsevier Ltd, 125(February), p. 103046. doi: 10.1016/j.trc.2021.103046.
--	Wei, H., Zheng, G., Gayah, V., & Li, Z. (2019). A survey on traffic signal control methods. arXiv preprint arXiv:1904.08117.
--	Yu, C., Ma, W., Han, K., & Yang, X. (2017). Optimization of vehicle and pedestrian signals at isolated intersections. Transportation Research Part B: Methodological, 98, 135-153.
+-	Casas, N. (2017). Deep deterministic policy gradient for urban traffic light control. ArXiv, 1–12.
+-	Curtis, E. (2017, September 8). EDC-1: Adaptive Signal Control Technology | Federal Highway Administration. https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm
+-	Liang, X., Du, X., Wang, G., & Han, Z. (2019). A Deep Reinforcement Learning Network for Traffic Light Cycle Control. IEEE Transactions on Vehicular Technology, 68(2), 1243–1253. https://doi.org/10.1109/TVT.2018.2890726
+-	Qadri, S. S. S. M., Gökçe, M. A., & Öner, E. (2020a). State-of-art review of traffic signal control methods: challenges and opportunities. European Transport Research Review, 12(1), 55. https://doi.org/10.1186/s12544-020-00439-1
+-	Qadri, S. S. S. M., Gökçe, M. A., & Öner, E. (2020b). State-of-art review of traffic signal control methods: challenges and opportunities. European Transport Research Review, 12(1), 1–23. https://doi.org/10.1186/s12544-020-00439-1
+-	The Sentinel Newspaper. (2021, March 3). Adaptive Traffic Control System Market to reach US$ 21.9 Bn by 2030 – KSU | The Sentinel Newspaper. https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/
+-	Vilarinho, C., Tavares, J. P., & Rossetti, R. J. F. (2017). Intelligent Traffic Lights: Green Time Period Negotiaton. Transportation Research Procedia, 22, 325–334. https://doi.org/https://doi.org/10.1016/j.trpro.2017.03.039
+-	Wang, T., Cao, J., & Hussain, A. (2021). Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning. Transportation Research Part C: Emerging Technologies, 125(February), 103046. https://doi.org/10.1016/j.trc.2021.103046
+-	Wei, H., Zheng, G., Gayah, V., & Li, Z. (2019). A survey on traffic signal control methods. ArXiv, 1(1).
+-	Yu, C., Ma, W., Han, K., & Yang, X. (2017). Optimization of vehicle and pedestrian signals at isolated intersections. Transportation Research Part B: Methodological, 98, 135–153. https://doi.org/https://doi.org/10.1016/j.trb.2016.12.015
+
 
 
 ## Passengers and goods fleet management {#p_g_fleet_management}

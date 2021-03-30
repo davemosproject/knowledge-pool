@@ -56,18 +56,22 @@ cat('|TRL| SRL|
 2. What are the legal implications for the use of assisted parking for both drivers and car manufacturers?
 
 ### References {-}
-- ADAC (2019) Parkassistenten im Test: Noch nicht gut genug. Available at: https://presse.adac.de/meldungen/adac-ev/tests/parkassistent.html (Accessed: 24 February 2021).
-- ADAC (2020) Fahrerassistenzsysteme im Überblick | ADAC. Available at: https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/assistenzsysteme/fahrerassistenzsysteme/ (Accessed: 24 February 2021).
-- Euro NCAP. (2021). http://www.euroncap.com (Accessed: 26 February 2021) 
-- Focus Online (2017) Einparkhilfen bringen nichts - sondern verursachen mehr Schaden - FOCUS Online. Available at: https://www.focus.de/auto/news/untersuchung-der-huk-coburg-studie-einparkhilfe-hilft-nicht-sie-versucht-eher-mehr-schaden_id_7035248.html (Accessed: 24 February 2021).
-- Gotzig, H. (2016) ‘Parking Assistance’, in Winner, H. et al. (eds) Handbook of Driver Assistance Systems: Basic Information, Components and Systems for Active Safety and Comfort. Cham: Springer International Publishing, pp. 1077–1092. doi: 10.1007/978-3-319-12352-3_45.
-- Handelsblatt (2016) Umfrage zu Assistenzsystemen : Einparkassistent nützlich, Notbremsassistent nützlicher. Available at: https://www.handelsblatt.com/auto/nachrichten/umfrage-zu-assistenzsystemen-einparkassistent-nuetzlich-notbremsassistent-nuetzlicher/13404708.html?ticket=ST-4955434-naHBLAxI66h66nbvrBXF-ap1 (Accessed: 24 February 2021).
-- Khalid, M. et al. (2021) ‘From smart parking towards autonomous valet parking: A survey, challenges and future Works’, - Journal of Network and Computer Applications, 175, p. 102935. doi: https://doi.org/10.1016/j.jnca.2020.102935.
-- Land Rover (no date) Parking Assistance | InControl | Land Rover UK. Available at: https://www.landrover.co.uk/incontrol/driver-safety-and-assistance/parking-assistance.html (Accessed: 25 February 2021).
+- ADAC. (2019, May 14). Parkassistenten im Test: Noch nicht gut genug. https://presse.adac.de/meldungen/adac-ev/tests/parkassistent.html
+- ADAC. (2020, January 9). Fahrerassistenzsysteme im Überblick | ADAC. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/assistenzsysteme/fahrerassistenzsysteme/
+- Euro NCAP. (2021). http://www.euroncap.com (Accessed: 26 February 2021)
+- Focus Online. (2017, April 27). Einparkhilfen bringen nichts - sondern verursachen mehr Schaden - FOCUS Online. https://www.focus.de/auto/news/untersuchung-der-huk-coburg-studie-einparkhilfe-hilft-nicht-sie-versucht-eher-mehr-schaden_id_7035248.html
+- Gotzig, H. (2016). Parking Assistance. In H. Winner, S. Hakuli, F. Lotz, & C. Singer (Eds.), Handbook of Driver Assistance Systems: Basic Information, Components and Systems for Active Safety and Comfort (pp. 1077–1092). Springer International Publishing. https://doi.org/10.1007/978-3-319-12352-3_45
+- Handelsblatt. (2016, April 8). Umfrage zu Assistenzsystemen : Einparkassistent nützlich, Notbremsassistent nützlicher. https://www.handelsblatt.com/auto/nachrichten/umfrage-zu-assistenzsystemen-einparkassistent-nuetzlich-notbremsassistent-nuetzlicher/13404708.html?ticket=ST-4955434-naHBLAxI66h66nbvrBXF-ap1
+- Khalid, M., Wang, K., Aslam, N., Cao, Y., Ahmad, N., & Khan, M. K. (2021). From smart parking towards autonomous valet parking: A survey, challenges and future Works. Journal of Network and Computer Applications, 175, 102935. https://doi.org/https://doi.org/10.1016/j.jnca.2020.102935
+- Land Rover. (n.d.). Parking Assistance | InControl | Land Rover UK. Retrieved 25 February 2021, from https://www.landrover.co.uk/incontrol/driver-safety-and-assistance/parking-assistance.html
 - Margreiter, M., Mayer, P., Alpas, M., & Vlahogianni, E. (2017). Driver’s Willingness to Use Parking Assistance Tools and their Expectations: A Case Study for the Cities of Munich and Athens. In 8th International Congress on Transportation Research.
-- Mercedes-Benz (no date) Mercedes-Benz X-Klasse: Park-Paket mit 360°-Kamera. Available at: https://www.mercedes-benz.at/passengercars/mercedes-benz-cars/models/x-class/x-class-pickup/facts-and-lines/equipment-packages/360-camera.html (Accessed: 25 February 2021).
+- Mercedes-Benz. (n.d.). Mercedes-Benz X-Klasse: Park-Paket mit 360°-Kamera. Retrieved 25 February 2021, from https://www.mercedes-benz.at/passengercars/mercedes-benz-cars/models/x-class/x-class-pickup/facts-and-lines/equipment-packages/360-camera.html
 - Tsugawa, S. (2006). Trends and issues in safe driver assistance systems: Driver acceptance and assistance for elderly drivers. IATSS research, 30(2), 6-18.
-- ÖAMTC (2019) ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. Available at: https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik (Accessed: 25 February 2021).
+- ÖAMTC. (2019, May 14). ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik
+
+
+
+
 
 
 ## Lane keeping {#lane_keeping}
@@ -234,14 +238,14 @@ cat('|TRL| SRL|
 
 ### Further links {-}
 
--[ec.europa.eu](https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en) 
+- [ec.europa.eu](https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en) 
 
 ### References {-}
-- Bundesministerium für Verkehr, I. und T. (BMVIT) (no date) eCall Austria. Available at: https://www.bmi.gv.at/209/start.aspx (Accessed: 10 February 2021).
-- European Commission (2020a) Air | Mobility and Transport, European Commission. Available at: https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en (Accessed: 10 February 2021).
-- European Commission (2020b) eCall – Kraftfahrzeugassistenzsystem für Notrufe an die europäische Notrufnummer 112 - Your Europe. Available at: https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency-assistance-vehicles-ecall/index_de.htm (Accessed: 10 February 2021).
-- Henriksson, E. M., Oström, M. Eriksson, A. (2001) Preventability of vehicle-related fatalities. Accident Analysis and Prevention, 467-475
-- Kroher, T. (2020) eCall: Probleme beim automatischen Notrufsystem | ADAC. Available at: https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/unfall/ecall-herstellernotruf/ (Accessed: 10 February 2021).
-- Virtanen, A., Schirokoff, J., Luoma and R. Kulmala (2006) Impacts of an automatic emergency call system on accident consequences, Ministry of Transport and Communications Finland Finnish R&D Programme on Real-Time Transport Information AINO
+-	Bundesministerium für Verkehr, I. und T. (BMVIT). (n.d.). eCall Austria. Retrieved 10 February 2021, from https://www.bmi.gv.at/209/start.aspx
+-	European Commission. (2020a). Air | Mobility and Transport. European Commission. https://ec.europa.eu/transport/road_safety/specialist/knowledge/esave/esafety_measures_unknown_safety_effects/ecall_en
+-	European Commission. (2020b, October 29). eCall – Kraftfahrzeugassistenzsystem für Notrufe an die europäische Notrufnummer 112 - Your Europe. https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency-assistance-vehicles-ecall/index_de.htm
+- Henriksson, E. M., Oström, M., & Eriksson, A. (2001). Preventability of vehicle-related fatalities. Accident Analysis and Prevention, 467-475
+-	Kroher, T. (2020, November 25). eCall: Probleme beim automatischen Notrufsystem | ADAC. https://www.adac.de/rund-ums-fahrzeug/unfall-schaden-panne/unfall/ecall-herstellernotruf/
+- Virtanen, N., Schirokoff, A., Luoma, J., & Kulmala, R. (2006). Impacts of an automatic emergency call system on accident consequences, Ministry of Transport and Communications Finland Finnish R&D Programme on Real-Time Transport Information AINO
 
 

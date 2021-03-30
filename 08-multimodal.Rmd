@@ -205,16 +205,18 @@ cat('|TRL| SRL|
 - [stadt-wien.at](https://www.stadt-wien.at/wien/parken-in-wien/park-ride-parkhaeuser-im-ueberblick.html)
 
 ### References {-}
-- Dijk, M. and Montalvo, C. (2011) ‘Policy frames of Park-and-Ride in Europe’, Journal of Transport Geography, 19(6), pp. 1106–1119. doi: 10.1016/j.jtrangeo.2011.05.007.
-- Frey, F. (2021) ÖBB: 700 Mio. Euro für Infrastrukturausbau - noe.ORF.at. Available at: https://noe.orf.at/stories/3083619/ (Accessed: 26 February 2021).
-- Gan, H. and Ye, X. (2018) ‘Will commute drivers switch to park-and-ride under the influence of multimodal traveler information? A stated preference investigation’, Transportation Research Part F: Traffic Psychology and Behaviour. Elsevier Ltd, 56, pp. 354–361. doi: 10.1016/j.trf.2018.05.015.
+-	Dijk, M., & Montalvo, C. (2011). Policy frames of Park-and-Ride in Europe. Journal of Transport Geography, 19(6), 1106–1119. https://doi.org/10.1016/j.jtrangeo.2011.05.007
+-	Frey, F. (2021, January 6). ÖBB: 700 Mio. Euro für Infrastrukturausbau - noe.ORF.at. https://noe.orf.at/stories/3083619/
+-	Gan, H., & Ye, X. (2018). Will commute drivers switch to park-and-ride under the influence of multimodal traveler information? A stated preference investigation. Transportation Research Part F: Traffic Psychology and Behaviour, 56, 354–361. https://doi.org/10.1016/j.trf.2018.05.015
 - Islam, S. T., Liu, Z., Sarvi, M., & Zhu, T. (2015). Exploring the mode change behavior of park-and-ride users. Mathematical Problems in Engineering, 2015.
 - ITF. (no date) Park and ride facilities. [online] Available at: <https://www.itf-oecd.org/policy/park-and-ride-facilities> [Accessed 3 March 2021].
-- Katoshevski-Cavari, R., Bak, N. and Shiftan, Y. (2018) ‘Would free park-and-ride with a free shuttle service attract car drivers?’, Case Studies on Transport Policy. Elsevier, 6(2), pp. 206–213. doi: 10.1016/j.cstp.2018.05.001.
-- Luca, K. and Dommnich, B. (2018) 60 P+R-Anlagen im Test | ADAC. Available at: https://www.adac.de/reise-freizeit/ratgeber/tests/park-ride/ (Accessed: 26 February 2021).
+-	Katoshevski-Cavari, R., Bak, N., & Shiftan, Y. (2018). Would free park-and-ride with a free shuttle service attract car drivers? Case Studies on Transport Policy, 6(2), 206–213. https://doi.org/10.1016/j.cstp.2018.05.001
+-	Luca, K., & Dommnich, B. (2018, August 6). 60 P+R-Anlagen im Test | ADAC. https://www.adac.de/reise-freizeit/ratgeber/tests/park-ride/
 - Macioszek, E., & Kurek, A. (2020). The use of a park and ride system—A case study based on the city of Cracow (Poland). Energies, 13(13), 3473.
-- Moore, A. M. et al. (2019) ‘Geoanalysis of park-and-ride facilities for future laboratory-wide commuting program’, Transportation Research Interdisciplinary Perspectives. The Authors, 3, p. 100025. doi: 10.1016/j.trip.2019.100025.
-- VOR.at (no date) Park/Bike+Ride - VOR. Available at: https://www.vor.at/mobil/parkbike-ride/ (Accessed: 26 February 2021).
+-	Moore, A. M., Curran, S. J., Lapsa, M. V., & Bittler, A. D. (2019). Geoanalysis of park-and-ride facilities for future laboratory-wide commuting program. Transportation Research Interdisciplinary Perspectives, 3, 100025. https://doi.org/10.1016/j.trip.2019.100025
+-	VOR.at. (n.d.). Park/Bike+Ride - VOR. Retrieved 26 February 2021, from https://www.vor.at/mobil/parkbike-ride/
+
+
 
 
 ## Contactless public transport cards {#contactless_cards}

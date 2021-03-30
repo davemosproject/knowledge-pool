@@ -90,25 +90,21 @@ cat('|TRL| SRL|
 - [maas-alliance.eu](https://maas-alliance.eu/)
 
 ### References {-}
-
-- Amirgholy, M. and Gonzales, E. J. (2016) ‘Demand responsive transit systems with time-dependent demand: User equilibrium, system optimum, and management strategy’, Transportation Research Part B: Methodological. Elsevier Ltd, 92, pp. 234–252. doi: 10.1016/j.trb.2015.11.006.
-- BMVBS and BBSR (2009) ‘Mobilitätskonzepte zur Sicherung der Daseinsvorsorge in nachfrageschwachen Räumen - Evaluationsreport’, BBSR-Online-Publikation, (10), p. 47. Available at: http://www.bbsr.bund.de/BBSR/DE/Veroeffentlichungen/BBSROnline/2009/DL_ON102009.pdf?__blob=publicationFile&v=2.
-- Bösch, P. M. et al. (2018) ‘Cost-based analysis of autonomous mobility services’, Transport Policy, 64(August 2017), pp. 76–91. doi: 10.1016/j.tranpol.2017.09.005.
-Brandl, H. (2020) ‘Mobilität – Daseinsgrundfunktion in ländlichen Räumen? Erfolgsfaktoren für den idealtypischen Prozess zur Planung und Implementierung von Mikro-ÖV Angeboten’.
-Demand-responsive Transit (DRT) Market Analysis Report with Investment Feasibility & Trends 2026 – FLA News (2021). Available at: https://www.flanewsonline.com/demand-responsive-transit-drt-market-analysis-report-with-investment-feasibility-trends-2026/ (Accessed: 20 March 2021).
-- Gorev, A., Popova, O. and Solodkij, A. (2020) ‘Demand-responsive transit systems in areas with low transport demand of “smart city”’, Transportation Research Procedia. Elsevier B.V., 50(2019), pp. 160–166. doi: 10.1016/j.trpro.2020.10.020.
-- Harris, M. (2015) Uber Could Be First to Test Completely Driverless Cars in Public - IEEE Spectrum. Available at: https://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public (Accessed: 1 March 2021).
-- Hsu, J. (2016) GM and Lyft Team Up for Robot Taxi Service - IEEE Spectrum. Available at: https://spectrum.ieee.org/cars-that-think/transportation/self-driving/gm-and-lyft-team-up-for-robot-taxi-service (Accessed: 1 March 2021).
-- Hunkin, S. and Krell, K. (2018) ‘Demand responsive transportation’, Interreg Europe Policy Learning Platform on Low-carbon economy. doi: 10.4324/9781315118321.
-- Kaddoura, I., Bischoff, J. and Nagel, K. (2020a) ‘Towards welfare optimal operation of innovative mobility concepts: External cost pricing in a world of shared autonomous vehicles’, Transportation Research Part A: Policy and Practice, 136(February), pp. 48–63. doi: 10.1016/j.tra.2020.03.032.
-- Kaddoura, I., Leich, G. and Nagel, K. (2020b) ‘The impact of pricing and service area design on the modal shift towards demand responsive transit’, Procedia Computer Science. Elsevier B.V., 170, pp. 807–812. doi: 10.1016/j.procs.2020.03.152.
-- Martret, O. (2019) Demand-Responsive Transit Is the Future of the Mobility Market. Available at: https://shotl.com/news/responsive-transit-is-the-future-of-the-mobility-market (Accessed: 20 March 2021).
-- Quadrifoglio, L., Dessouky, M. M. and Ordóñez, F. (2008) ‘A simulation study of demand responsive transit system design’, Transportation Research Part A: Policy and Practice. Pergamon, 42(4), pp. 718–737. doi: 10.1016/j.tra.2008.01.018.
-- Sammer, G. and Klementschitz, R. (2010) ‘Finanzierung des öffentlichen Personennahverkehrs in Österreich.’, ÖGZ - Österreichische Gemeindezeitung, pp. 26 – 28.
-VCÖ (2011) Erfolgreicher Öffentlicher Verkehr, VCÖ Schriftenreihe ‘Mobilität mit Zukunft’.
-
-
-
+- Amirgholy, M., & Gonzales, E. J. (2016). Demand responsive transit systems with time-dependent demand: User equilibrium, system optimum, and management strategy. Transportation Research Part B: Methodological, 92, 234–252. https://doi.org/10.1016/j.trb.2015.11.006
+-	BMVBS, & BBSR. (2009). Mobilitätskonzepte zur Sicherung der Daseinsvorsorge in nachfrageschwachen Räumen - Evaluationsreport. BBSR-Online-Publikation, 10, 47. http://www.bbsr.bund.de/BBSR/DE/Veroeffentlichungen/BBSROnline/2009/DL_ON102009.pdf?__blob=publicationFile&v=2
+-	Bösch, P. M., Becker, F., Becker, H., & Axhausen, K. W. (2018). Cost-based analysis of autonomous mobility services. Transport Policy, 64(August 2017), 76–91. https://doi.org/10.1016/j.tranpol.2017.09.005
+-	Brandl, H. (2020). Mobilität – Daseinsgrundfunktion in ländlichen Räumen? Erfolgsfaktoren für den idealtypischen Prozess zur Planung und Implementierung von Mikro-ÖV Angeboten.
+-	Demand-responsive Transit (DRT) Market Analysis Report with Investment Feasibility & Trends 2026 – FLA News. (2021, March 12). https://www.flanewsonline.com/demand-responsive-transit-drt-market-analysis-report-with-investment-feasibility-trends-2026/
+-	Gorev, A., Popova, O., & Solodkij, A. (2020). Demand-responsive transit systems in areas with low transport demand of “smart city”. Transportation Research Procedia, 50(2019), 160–166. https://doi.org/10.1016/j.trpro.2020.10.020
+-	Harris, M. (2015, September 14). Uber Could Be First to Test Completely Driverless Cars in Public - IEEE Spectrum. https://spectrum.ieee.org/cars-that-think/transportation/self-driving/uber-could-be-first-to-test-completely-driverless-cars-in-public
+-	Hsu, J. (2016, January 4). GM and Lyft Team Up for Robot Taxi Service - IEEE Spectrum. https://spectrum.ieee.org/cars-that-think/transportation/self-driving/gm-and-lyft-team-up-for-robot-taxi-service
+-	Hunkin, S., & Krell, K. (2018). Demand responsive transportation. Interreg Europe Policy Learning Platform on Low-Carbon Economy. https://doi.org/10.4324/9781315118321
+-	Kaddoura, I., Bischoff, J., & Nagel, K. (2020a). Towards welfare optimal operation of innovative mobility concepts: External cost pricing in a world of shared autonomous vehicles. Transportation Research Part A: Policy and Practice, 136(February), 48–63. https://doi.org/10.1016/j.tra.2020.03.032
+-	Kaddoura, I., Leich, G., & Nagel, K. (2020b). The impact of pricing and service area design on the modal shift towards demand responsive transit. Procedia Computer Science, 170, 807–812. https://doi.org/10.1016/j.procs.2020.03.152
+-	Martret, O. (2019, March 25). Demand-Responsive Transit Is the Future of the Mobility Market. https://shotl.com/news/responsive-transit-is-the-future-of-the-mobility-market
+-	Quadrifoglio, L., Dessouky, M. M., & Ordóñez, F. (2008). A simulation study of demand responsive transit system design. Transportation Research Part A: Policy and Practice, 42(4), 718–737. https://doi.org/10.1016/j.tra.2008.01.018
+-	Sammer, G., & Klementschitz, R. (2010). Finanzierung des öffentlichen Personennahverkehrs in Österreich. ÖGZ - Österreichische Gemeindezeitung, 26 – 28.
+-	VCÖ. (2011). Erfolgreicher Öffentlicher Verkehr. In VCÖ Schriftenreihe ‘Mobilität mit Zukunft’ (Issue 4).
 
 ## Personal rapid transit {#prt}
 
@@ -288,18 +284,16 @@ cat('|TRL| SRL|
 
 
 ### References {-}
-
-- DerStandard (2019). ‘Teststrecke: Erstes unbemanntes Lufttaxi hebt 2020 in Linz ab - Unternehmen - derStandard.at › Wirtschaft’, 14 May. Available at: https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz (Accessed: 21 January 2021).
-- Holt, K. (2018). Volocopter will test its autonomous air taxis in Singapore next year | Engadget. Available at: https://www.engadget.com/2018-10-24-volocopter-air-taxi-test-singapore-autonomous-drone-helicopter.html (Accessed: 21 January 2021).
-- J. Hawkins, A. (2018). ‘Airbus’ autonomous “air taxi” Vahana completes its first test flight - The Verge’, 1 February. Available at: https://www.theverge.com/2018/2/1/16961688/airbus-vahana-evtol-first-test-flight (Accessed: 21 January 2021).
-- Kasliwal, A. et al. (2019). ‘Role of flying cars in sustainable mobility’, Nature Communications, 10(1). doi: 10.1038/s41467-019-09426-0.
-- Kellermann, R., Biehle, T. and Fischer, L. (2020) ‘Drones for parcel and passenger transportation: A literature review’, Transportation Research Interdisciplinary Perspectives. The Author(s), 4, p. 100088. doi: 10.1016/j.trip.2019.100088.
-- LeBeau, P. (2016). Boeing’s first test flight of air taxi a success as it works on Uber Air. Available at: https://www.cnbc.com/2019/01/23/boeing-takes-step-in-developing-uber-air--with-successful-test-flight.html (Accessed: 21 January 2021).
-- Pramer, P. and Sommavilla, F. (2020) Flugtaxis: Wann kommt der Tesla der Lüfte? - PodcastEditionZukunft - derStandard.at › EditionZukunft. Available at: https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte (Accessed: 21 January 2021).
-- SESAR (2016). European Drones Outlook Study, Single European Sky ATM Research. doi: 10.2829/219851.
-- UNIQA (2019). Lufttaxis: Die Überflieger im Verkehr | UNIQA Österreich | UNIQA Österreich. Available at: https://www.uniqa.at/versicherung/mobilitaet/lufttaxis.html (Accessed: 21 January 2021).
-- Wiener Zeitung (2019). ‘Regelwerk für autonome Lufttaxis noch offen - Wiener Zeitung Online’, 20 September. Available at: https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2030182-Fliegen-statt-fahren.html (Accessed: 21 January 2021).
-- Winter, S. R., Rice, S. and Lamb, T. L. (2020). ‘A prediction model of Consumer’s willingness to fly in autonomous air taxis’, Journal of Air Transport Management. Elsevier Ltd, 89(August), p. 101926. doi: 10.1016/j.jairtraman.2020.101926.
-
+-	DerStandard. (2019, May 14). Teststrecke: Erstes unbemanntes Lufttaxi hebt 2020 in Linz ab - Unternehmen - derStandard.at › Wirtschaft. https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz
+-	Holt, K. (2018, October 24). Volocopter will test its autonomous air taxis in Singapore next year | Engadget. https://www.engadget.com/2018-10-24-volocopter-air-taxi-test-singapore-autonomous-drone-helicopter.html
+-	J. Hawkins, A. (2018, February 1). Airbus’ autonomous ‘air taxi’ Vahana completes its first test flight - The Verge. https://www.theverge.com/2018/2/1/16961688/airbus-vahana-evtol-first-test-flight
+-	Kasliwal, A., Furbush, N. J., Gawron, J. H., McBride, J. R., Wallington, T. J., De Kleine, R. D., Kim, H. C., & Keoleian, G. A. (2019). Role of flying cars in sustainable mobility. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09426-0
+-	Kellermann, R., Biehle, T., & Fischer, L. (2020). Drones for parcel and passenger transportation: A literature review. Transportation Research Interdisciplinary Perspectives, 4, 100088. https://doi.org/10.1016/j.trip.2019.100088
+-	LeBeau, P. (2016, January 23). Boeing’s first test flight of air taxi a success as it works on Uber Air. https://www.cnbc.com/2019/01/23/boeing-takes-step-in-developing-uber-air--with-successful-test-flight.html
+-	Pramer, P., & Sommavilla, F. (2020, December 11). Flugtaxis: Wann kommt der Tesla der Lüfte? - PodcastEditionZukunft - derStandard.at › EditionZukunft. https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte
+-	SESAR. (2016). European Drones Outlook Study. In Single European Sky ATM Research (Issue November). https://doi.org/10.2829/219851
+-	UNIQA. (2019, October 24). Lufttaxis: Die Überflieger im Verkehr | UNIQA Österreich | UNIQA Österreich. https://www.uniqa.at/versicherung/mobilitaet/lufttaxis.html
+-	Wiener Zeitung. (2019, September 20). Regelwerk für autonome Lufttaxis noch offen - Wiener Zeitung Online. https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2030182-Fliegen-statt-fahren.html
+-	Winter, S. R., Rice, S., & Lamb, T. L. (2020). A prediction model of Consumer’s willingness to fly in autonomous air taxis. Journal of Air Transport Management, 89(August), 101926. https://doi.org/10.1016/j.jairtraman.2020.101926
 
 ## Automatic train operations {#automatic_train}
