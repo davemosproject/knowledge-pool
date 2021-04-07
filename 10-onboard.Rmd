@@ -78,8 +78,6 @@ cat('|TRL| SRL|
 
 ## Distance keeping {#distance_keeping}
 
-## Crash avoidance {#crash_avoid}
-
 ## Maintenance assistance {#maintenance_assis}
 
 ## Digital maps {#digital_maps} 

@@ -272,7 +272,8 @@ cat('|TRL| SRL|
 
 ### Open questions {-}
 
-
+1. How the increased use of PHEV will influence the market of second-hand cars?
+2. What is the impact of batteries on the life cycle of the car?
 
 ### Further links {-}
 

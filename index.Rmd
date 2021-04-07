@@ -59,7 +59,6 @@ format(Sys.time(),'%d %B %Y')
 5. [Digital road infrastructure and connectivity](#digital)
     - [Vehicle to everything communication](#v2x) **NEW**
     - [Infrastructure support levels for automated driving](#infrast_support_level)
-    - [Wireless communication](#wireless_com)
 6. [Passenger information system](#passenger)
     - [Digital journey planner](#djp) **NEW**
     - [Rail telematics for passenger services](#telematics_passenger)
@@ -72,16 +71,14 @@ format(Sys.time(),'%d %B %Y')
     - [Contactless public transport cards](#contactless_cards) **NEW**
     - [Information and assistance for people with special needs](#special_needs) **NEW**
     - [Mobility hubs](#mobility_hubs)
-8. [Connected and autonomous driving](#connected)
-    - [Parking infrastructure for autonomous vehicles](#parking_av)
-    - [Connected vehicles](#connected_veh)
+8. [Autonomous driving](#connected)
     - [Automated vehicles](#av)
+    - [Parking infrastructure for autonomous vehicles](#parking_av)
 9. [On-board technology for connected and automated vehicles](#onboard)
     - [Advanced driver assistance system (ADAS)](#adas)
     - [Parking assistance system](#parking_assistance) **NEW**
     - [Lane keeping](#lane_keeping)
     - [Distance keeping](#distance_keeping)
-    - [Crash avoidance](#crash_avoid)
     - [Maintenance assistance](#maintenance_assis)
     - [Digital maps](#digital_maps)
     - [Electronic horizon](#ehorizon) **NEW**
@@ -92,11 +89,9 @@ format(Sys.time(),'%d %B %Y')
     - [Intermodal Freight](#intermodal_freight) **NEW**
     - [Real-time disruption management and route planning](#disruption_management)
     - [Urban deliveries](#urban_delivery)
-    - [Parcel load pooling](#parcel_pooling)
     - [Intelligent truck parking](#intelligent_truck_park) **NEW**
     - [Delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**
-    - [Commercial vehicle on-board safety systems](#comm_veh_safety)
     - [Rail telematics for freight services](#rail_telematics_freight) **NEW**
     - [Electric vehicle delivery fleets](#electric_delivery_fleets)
     - [Multimodal transport management systems](#mtms)
@@ -109,10 +104,8 @@ format(Sys.time(),'%d %B %Y')
     - [Passenger drones](#passenger_drones) **NEW**
     - [Automatic train operations](#automatic_train)
 12. [Big data](#big)
-    - [Automatic identification system fir maritime transport](#maritime_transport)
+    - [Wireless communication systems](#wireless_com)
     - [Big data lifecycle](#bd_life)
-    - [Location-based data](#location_data)
-    - [Aircraft tracking system](#aircraft_tracking)
     - [Big data tools for maping and forecasting travel behaviour](#bd_tool_maping)
 13. [Shared mobility](#shared)
     - [Car sharing](#car_sharing) **NEW**

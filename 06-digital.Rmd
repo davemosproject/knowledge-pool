@@ -110,5 +110,3 @@ cat('|TRL| SRL|
 -	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
 
 ## Infrastructure support levels for automated driving {#infrast_support_level}
-
-## Wireless communication {#wireless_com}
