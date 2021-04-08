@@ -269,4 +269,112 @@ cat('|TRL| SRL|
 -	Wiener Linien. (n.d.). Übersicht Tickets | Tickets | Fahrgastinfo | Wiener Linien. Retrieved 20 January 2021, from https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648
 -	Zagorskas, J., & Burinskiene, M. (2020). Challenges caused by increased use of E-powered personal mobility vehicles in European cities. Sustainability (Switzerland), 12(1), 273. https://doi.org/10.3390/su12010273
 
-## Ride-hailing {#ride_hailing}
+## Ride-hailing & Ride-sharing {#ride_hailing}
+
+### Synonyms {-}
+
+- Ride hailing: *Ridesourcing, app-based ride services, ride-booking, on-demand ride services, Transportation Network Companies (TNCs), mobility service providers (MSPs)*
+- Ride sharing: *car-pooling*
+
+### Definition {-}
+Ride sharing and ride hailing both emerged from the "shared economy" or "collaborative economy", which aims to share underutilized resources to increase efficiency, protect the environment and promote economic growth (Tirachini, 2019). <br/>
+
+Ride hailing (RH) in comparison to street-hailing enables booking a journey via an online platform – usually an app. The platforms match travellers who want to book a specific ride with a personal driver who is willing to take that ride in their private car, based on their location. Ride-hailing platforms mostly eliminate the exchange of cash and apply basic economic principles to match supply and demand through dynamic price adjustments. However, this original model is not allowed in all countries. In Austria, for example, it is not allowed to offer ride hailing with one's private car, only with rental cars. Since 2021, drivers are also required to have a Viennese taxi driver's license (Uber Technologies Inc., n.d.).<br/>
+
+Ride sharing, by contrast, describes the process in which a rider shares a vehicle with multiple other riders, who want to go in the same direction. Some Transportation Network Companies who offer ride hailing are also offering ride sharing services, like *UberPool* or *Lyft Shared* which are usually cheaper and also more environmentally friendly due to the higher occupancy rate (Herzog, 2018). Dynamic ride sharing systems use algorithms to match riders, who want to go in a similar direction and form a shared ride (Lokhandwala & Cai, 2018).  
+
+
+### Key stakeholders {-}
+
+- **Affected**: Mobile Citizen, Taxi Drivers 
+- **Responsible**: National Governments, City government, Private Companies, Transportation Network Companies, Software providers 
+
+### Current state of art in research {-}
+Even though ride hailing emerged from the sharing economy, it is controversial whether it has ultimately had a positive effect on the environment (Herzog, 2018).<br/>
+
+Jan et al. (2018) argue that ride hailing has a positive impact on economic efficiency. As it both complements and competes with public transport, its impact on congestion near city centres is still unclear. In terms of equity, ride hailing reinforces the problem of the digital gap and raises concerns about discrimination, privacy and security. It is also controversial whether prosumers (producers/consumers) are exploited by sharing economy platforms, whether ride hailing drivers are adequately compensated and how the rights of on-demand workers can be better protected. Even though ride hailing likes to present itself with a green image, the actual environmental impacts have not yet been thoroughly investigated. Further, Jin et al. (2018) pointed out the danger of conceptual confusion in ride hailing research. Based on evidences reported in the literature, they argue, that it is unlikely, that people stop owning cars due to ride hailing. <br/>
+
+Regarding ride sharing, Alisoltani et al. (2012) argue, that it can reduce traffic congestion, but only if the trip density is high, which is usually the case in large-scale networks. In smaller cities, with a small- or medium-scale network, the trip density is not high enough. Importantly, trip density is defined as the total number of trips ends (origins and destinations) within 24 h within a given area (Miller & Soberman, 2003).<br/>
+
+Lokhandwala & Cai (2018) compared in a case study in New York City shared autonomous vehicles (SAVs) to traditional taxis and found out that SAVs have the potential to reduce the fleet size in NYC by more than 50% and reduce daily greenhouse gas emissions by up to 866 MT of CO~2~ eq.<br/>
+
+The NGO Mothers Against Drunk Driving (MADD) and Uber – one of the most known ride hailing platforms – published a report in 2015, in which they argue, based on studies in California, that the presence of uber services in a city can lower the amount of drunk driving crashes involving younger populations. Based on a study of Seattle's data, they argue that Uber's entry into the Seattle market was associated with a 10% drop in drunk driving arrests.  
+
+### Current state of art in practice {-}
+The two most known companies offering ride hailing in the US are *Uber* and *Lyft*. Uber, for instance, again offers various services, such as:
+ 
+-	UberX - affordable rides, door to door, all to yourself
+-	UberPool - shared rides, door to door or with a short walk
+-	UberGreen - sustainable rides in electric vehicles - or many more. 
+
+Due to regulations and uprisings of local cab companies, Uber had to adapt its business model for European cities. Other ride hailing platforms operating in Western and Central Europe are *Gett, Bolt, Hailo* or *Taxilo*. They all have small differences and vary based on the drivers' commission fee to the particular platform (Khatri, 2020a). <br/>
+
+Before the Covid-19 pandemic, the ride hailing marked had been growing fast. Like other industries, the ride hailing market dropped in 2020 globally, due to the crisis and related measures, such as lockdowns, social distancing, etc. To survive, some of the bigger companies, like Uber e.g., started to foray into on-demand food delivery and parcel delivery. The industry is expected to recover depending on how quickly the general economy recovers from the crisis. Nevertheless, there will be differences in speed between countries, regions and social groups. Looking to the post-Covid era, ride hailing drivers will have to implement various safety measures, like e.g. frequent sanitation, wearing masks, guarantee tracing, to win back the trust of customers. Mushahid Khatri (2021), a Chief Executive Officer of [Yelowsoft]( https://www.yelowsoft.com/) expects "that ride-hailing companies will move towards transit authorities for providing on-demand shuttle & bus services". Secondly, he thinks that ride hailing companies should make sure they are part of MaaS (see section on [MaaS](#maas)) and use Artificial Intelligence (AI) to improve their services (Khatri, 2020b).<br/>
+
+The world's largest long-distance ride-sharing app, which has 90 million members, is *BlaBlaCar*. Every quarter, 25 million global travellers use BlaBlaCar to organize their car trip and thus share the cost of travel (BlaBlaCar, 2021). Similar to other platforms based on the sharing economy, safety is ensured through a rating system where riders can rate other passengers and vice versa. <br/>
+
+The Austrian platforms *GREENDRIVE* and *Carployee* both connect drivers who work for the same companies or institutions with the goal of saving company parking spaces through shared rides and protecting the environment at the same time (GREENDRIVE MOBILITY GMBH, 2020; Carployee, 2020). 
+
+
+### Relevant initiatives in Austria {-}
+-	[ots.at](https://www.ots.at/presseaussendung/OTS_20210113_OTS0026/free-now-will-als-erste-mobilitaetsplattform-in-europa-bis-2030-null-emissionen-erreichen)
+-	[umweltberatung.a](https://www.umweltberatung.at/carsharing-mitfahrboersen) 
+-	[greendrive.a](https://greendrive.at/premium/#benefits) 
+-	[carployee.com](https://www.carployee.com/#start-section) 
+-	[ummadum.com](https://ummadum.com/) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table88, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Increased accessibility|**+**|Equality (*5,10*)|Abdelwahab, 2020; Tirachini, 2019|
+|Systemic|Reduced accidents by drunk drivers |**+**|Health & Wellbeing (*3*)|Uber & MADD, 2015|
+|Systemic|Increased emissions|**-**|Environmental sustainability (*7,12,13,15*)|Tirachini, 2019|
+|Systemic|Increased motorized traffic and congestion; positive impact on economic efficiency |**~**|Sustainable economic development (*8,11*)|Tirachini, 2019; Jin et al., 2018 |')
+```
+
+### Technology and societal readiness level {-}
+
+  ```{r table89, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|6-9|')
+```
+
+### Open questions {-}
+
+1. How to overcome the rising concerns over discrimination and data privacy and security?
+2. Which impacts of ride-hailing on traffic congestion outweigh the others?
+3. How can the environmental impacts of ride hailing be reliably and holistically analysed?
+4. How can ride-hailing and ride-sharing discourage private car ownership?
+
+### Further links {-}
+-	[ots.at](https://www.ots.at/presseaussendung/OTS_20210113_OTS0026/free-now-will-als-erste-mobilitaetsplattform-in-europa-bis-2030-null-emissionen-erreichen)
+-	[umweltberatung.at](https://www.umweltberatung.at/carsharing-mitfahrboersen) 
+-	[greendrive](https://greendrive.at/premium/#benefits)
+-	[carployee](https://www.carployee.com/#start-section)
+-	[ummadum.com](https://ummadum.com/) 
+-	[blablacar](https://www.blablacar.de/)
+-	[uber](https://www.uber.com/at/de/) 
+
+
+### References {-}
+
+-	Abdelwahab, B. (2020). Ridesharing and Social Inclusion: The Role of Ridesharing in Improving Job Access for Disadvantaged Populations (Doctoral dissertation). 
+-	Alisoltani, N., Leclercq, L., & Zargayouna, M. (2021). Can dynamic ride-sharing reduce traffic congestion?. Transportation research part B: methodological, 145, 212-246.
+-	BlaBlaCar. (2021). Über uns - BlaBlaCar. https://blog.blablacar.de/about-us 
+-	Carployee. (2020). Carployee | Für Unternehmen. https://www.carployee.com/
+-	GREENDRIVE MOBILITY GMBH. (2020). Greendrive - Premiumpaket für Firmen - Fahrgemeinschaften und Mitfahrgelegenheiten. https://greendrive.at/premium/
+-	Herzog, W. (2018, October 18). Ecolane Blog: Ride-hailing vs. ride-sharing: The key difference and why it matters. https://www.ecolane.com/blog/ride-hailing-vs.-ride-sharing-the-key-difference-and-why-it-matters
+-	Jin, S. T., Kong, H., Wu, R., & Sui, D. Z. (2018). Ridesourcing, the sharing economy, and the future of cities. Cities, 76, 96-104.
+-	Khatri, M. (2020a). A closer look at the ride-hailing landscape of the Western and Central Europe. https://www.yelowsoft.com/blog/ride-hailing-landscape-of-western-and-central-europe/
+-	Khatri, M. (2020b). Ride-hailing in 2021: A glimpse into the future. https://www.yelowsoft.com/blog/ride-hailing-a-glimpse-into-the-future/
+-	Lokhandwala, M., & Cai, H. (2018). Dynamic ride sharing using traditional taxis and shared autonomous taxis: A case study of NYC. Transportation Research Part C: Emerging Technologies, 97, 45-60.
+-	Martins, L. D. C., de la Torre, R., Corlu, C. G., Juan, A. A., & Masmoudi, M. A. (2021). Optimizing ride-sharing operations in smart sustainable cities: Challenges and the need for agile algorithms. Computers & Industrial Engineering, 153, 107080.
+-	Miller, E., & Soberman, R. (2003). Travel Demand.
+-	Tirachini, A. (2019). Ride-hailing, travel behaviour and sustainable mobility: an international review. Transportation, 1-37.
+-	Uber Technologies Inc. (n.d.). Erhalte eine Konzession in Österreich. Retrieved March 30, 2021, from https://www.uber.com/at/de/drive/requirements/get-a-license/
+-	Uber, & Mothers Against Drunk Driving (MADD). (2015). MORE OPTIONS. SHIFTING MINDSETS. DRIVING BETTER CHOICES. #ThinkandRide.
+

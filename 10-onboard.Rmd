@@ -69,12 +69,83 @@ cat('|TRL| SRL|
 - Tsugawa, S. (2006). Trends and issues in safe driver assistance systems: Driver acceptance and assistance for elderly drivers. IATSS research, 30(2), 6-18.
 - ÖAMTC. (2019, May 14). ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik
 
-
-
-
-
-
 ## Lane keeping {#lane_keeping}
+
+### Synonyms {-}
+*Lane Keeping Assist System (LKAS), Lane Keeping Assist (LKA)*
+
+### Definition {-}
+Lane keeping assist monitors road markings, typically using a camera located behind the windscreen to keep the car within its driving lane and as a result reduce the burden of the driver. There are different systems currently available and they are not the same (Autonationdrive, 2019): 
+
+- **Lane Departure Warning (LDW)**: Audible or visual warnings signal to the driver that their vehicle is approaching or may be crossing the lane markings.
+- **Road Departure Assist (RDA)**: An automatic steering system, which may also include an automatic braking system, keeps the vehicle on the roadway itself.
+- **Lane Keeping Assist (LKA)**: An automatic steering system, which may also include an automatic braking system, keeps the vehicle within its lane.
+- **Lane Centering Assist (LCA)**: An automatic steering system, which may also include an automatic braking system, to keep the vehicle in the center of the lane.
+
+The main difference betwenn them is that LDW informs the driver in case of crossing the road marking through different sensory cues such as tactile, visual or audio, the LKAS helps the driver to stay within the lane through the adjustments to steering wheel movements depending on the distance from the lane marking on either side. The systems can use reactive or proactive process, where the vehicle is reactively put back on track while it begins to leave the lane or proactively kept in the centre of the lane, respectively. It is usually activated by the driver and works at speed between 65 km/h and 180 km/h and radius of 230 m. Hence, it is the most suitable for highways and motorways but less so for urban or country roads. Even though the LKAS is activated, the driver remains responsible for controlling the vehicle. Consequently, LKAS continuously checks the steering movements applied by the driver and if he has his/her hands on the steering wheel. In case, the system detects that driver is not actively steering, it produces the waring and deactivates. This is to ensure that the driver remains in control throughout. Moreover, the driver can overrule the LKAS at any time. For example, LKAS deactivates automatically when braking and deliberate lane charge activated via the use of indicators (blinkers) (VDA, 2021). 
+
+
+
+### Key stakeholders {-}
+- **Affected**: General public, Drivers, Road infrastructure companies, Insurers
+- **Responsible**: Car manufacturers, Transport agencies, National governments and International bodies (eg. EU or [UNECE](https://unece.org/fileadmin/DAM/trans/main/wp29/wp29regs/2018/R079r4e.pdf))
+
+### Current state of art in research {-}
+Current research explores new approaches to the development of lane keeping assistance such as the use of Global Navigation Satellite System (Tominaga et al., 2020), deep learning (Wang et al., 2020) or neural network techniques (Yusuf et al., 2020). Beyond, it aims at the validation and improvement of LKAS by looking at the impact of system design (Lee et al., 2018) and different road conditions on the overall quality performance of lane keeping assistance (Romano et al., 2020). Further, a number of studies explored the potential of including driver’s characteristics to develop of personalised lane keeping assist.
+Further, study by Weaver & Gonzalez (2020) focused on the influence of LKAS on drivers’ behaviour and acceptance level of LKAS technology. It not only confirmed existing findings that more experience and familiarity with the system increases acceptance rate and trust, but it also showed a positive response from individuals who had no previous experience in using LKAS. 
+
+### Current state of art in practice {-}
+In Europe the main existing legal basis for lane keeping systems that regulate its use is [Regulation (EU) 2019/2144]( https://op.europa.eu/en/publication-detail/-/publication/bfd5eba8-2058-11ea-95ab-01aa75ed71a1/language-en). Hence, many car manufacturers nowadays offer cars featured with lane keeping assist which together with other system such as automatic cruise control or [distance keeping](#distance_keeping) already provide a high level of automation. Some of many producers offering LKAS are [BOSCH]( https://www.bosch-mobility-solutions.com/en/products-and-services/passenger-cars-and-light-commercial-vehicles/driver-assistance-systems/lane-keeping-assist/), [Honda](https://www.hondainfocenter.com/2021/CR-V/Feature-Guide/Interior-Features/Lane-Keeping-Assist-System-LKAS/), [Tesla]( https://www.tesla.com/de_DE/blog/more-advanced-safety-tesla-owners?redirect=no) or [Ford](https://owner.ford.com/support/how-tos/safety/driver-assist-technology/driving/how-to-use-lane-keeping-system.html). <br/>
+
+In terms of the accident prevention, lane keeping assist has a huge potential to increase road safety where National Highway Traffic Safety Administration (NHTSA) data from 2011 show that 53% of road fatalities result from a roadway departure (Automotive World, 2013). In fact, real world data from Sweden shows that crashes involving out-of-lane drift were reduced by 40% for cars with Electonic Stability Control (ESC) as opposed to 29% for cars without it (Sternlung, 2018). <br/>
+
+The major disadvantage of lane keeping systems is the fact that it relies on a visual detection of painted road marking in order to work effectively therefore any condition deterioration such as nighttime or rain have a significant impact on the system performance (Tchir, 2019). 
+ 
+ 
+### Relevant initiatives in Austria {-}
+
+- [ertrac.org](https://www.ertrac.org/uploads/images/ERTRAC2019-Connected-Automated-Driving-Roadmap%20-2019-04-04.pdf)
+ 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table86, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Accident risk reduced; low performance in suboptimal road conditions|**~**|Health & Wellbeing (*3*)|Sterlund, 2018; Tchir, 2019|
+|Systemic|Systems are continuously improved|**+**|Innovation & Infrastructure (*9*) | Lawrence & Kareta, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table87, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-7|5-7|')
+```
+
+### Open questions {-}
+
+1. What are the implication of lane keeping systems for physical infrastructure (such as contrast and colour of painted lanes) and how these can be improved to enhance the effectiveness of lane keeping systems?
+2. Cross-national standardisation of road markings is required to ensure equal safety levels.
+
+### Further links {-}
+
+- [mes-insights.com](https://www.mes-insights.com/automated-lane-keeping-systems-pave-the-autonomous-car-future-a-965712/)
+
+
+### References {-}
+-	Automotive World (2013) Latest Lane Keeping Assist technology from TRW goes into production. Available at: <https://www.automotiveworld.com/news-releases/latest-lane-keeping-assist-technology-from-trw-goes-into-production/> [Accessed 7 April 2021].
+-	Autonationdrive (2019). Best Cars with Lane Assist. Available at: https://www.autonationdrive.com/research/best-cars-with-lane-assist.htm [Accessed: 7 April 2021]
+-	Lawrence, C. & Kareta, N. (2020). Automated Lane Keeping Systems pave the autonomous car future. Available at: < https://www.mes-insights.com/automated-lane-keeping-systems-pave-the-autonomous-car-future-a-965712/> [Accessed: 7 April 2020]
+-	Romano, R., Maggi, D., Hirose, T., Broadhead, Z., & Carsten, O. (2020). Impact of lane keeping assist system camera misalignment on driver behavior. Journal of Intelligent Transportation Systems, 1-13.
+-	Sternlund, S. (2018). The Safety Potential and Effectiveness of Lane Departure Warning Systems in Passenger Cars. Chalmers Tekniska Hogskola (Sweden).
+-	Tchir, J. (2019). The limitations of lane-keeping assist. Available at: https://www.theglobeandmail.com/drive/mobility/article-the-limitations-of-lane-keeping-assist/ [Accessed: 7 April 2021]
+-	Vda.de. 2021. VDA. [online] Available at: <https://www.vda.de/en/topics/safety-and-standards/lkas/lane-keeping-assist-systems.html> [Accessed 30 March 2021].
+-	Wang, Q., Zhuang, W., Wang, L., & Ju, F. (2020). Lane Keeping Assist for an Autonomous Vehicle Based on Deep Reinforcement Learning (No. 2020-01-0728). SAE Technical Paper.
+-	Weaver, S., & Gonzalez, T. (2020). To Alert or Assist: Comparing Effects of Different Lateral Support Systems on Lane-Keeping (No. FHWA-HRT-20-068).
+-	Yusuf, M. M., Karim, T., & Saif, A. S. (2020, January). A robust method for lane detection under adverse weather and illumination conditions using convolutional neural network. In Proceedings of the International Conference on Computing Advancements (pp. 1-8).
+
 
 ## Distance keeping {#distance_keeping}
 
