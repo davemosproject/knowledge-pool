@@ -93,7 +93,7 @@ format(Sys.time(),'%d %B %Y')
     - [Delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**
     - [Rail telematics for freight services](#rail_telematics_freight) **NEW**
-    - [Electric vehicle delivery fleets](#electric_delivery_fleets)
+    - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
     - [Multimodal transport management systems](#mtms)
     - [Freight hubs](#freight_hubs)
 11. [Collective mobility vehicles](#collective)

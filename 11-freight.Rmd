@@ -452,6 +452,111 @@ cat('|TRL| SRL|
 
 ## Electric vehicle delivery fleets {#electric_delivery_fleets}
 
+### Synonyms {-}
+*Electric commercial vehicle (ECV)*
+
+### Definition {-}
+The majority of current conventional transport vehicles are highly dependent on fossil fuels, leading to an increase in greenhouse gas (GHG) emissions. Although environmentally friendly transport alternatives exist, their number is still limited, especially in developing countries. Therefore, the governments, authorities and organisations need to take precautions to reduce the use of these fuels or limit emissions. In 2011, the European Commission published draft legislation on transport to define its goals for a competitive and efficient energy system by achieving zero-emission urban freight transport by 2030. According to this, the European Commission's goal is to halve the use of conventionally powered vehicles in urban freight transport in the medium term and phase them out by 2030. It is important to introduce the e-vehicles in commercial fleets because road transport constitutes a largest proportion of the overall inland freight while the e-vehicles are currently mainly used in ride-sharing and public transport (Bac & Erdem, 2021). <br/>
+
+From November 2020, one in ten new cars sold in Europe will be a pure electric or plug-in hybrid to achieve a milestone of one million electric vehicles (EVs) being sold. This is a crucial turning point towards achieving 30-40% EV sales volumes by 2030, bringing Europe's carbon reduction targets within reach. The environmental benefits are the biggest prize. <br/>
+
+In twenty in-depth interviews with executives from a wide range of industries, overwhelming optimism was found to electrify their fleet. One utility company, for example, plans to electrify its entire commercial fleet of 10,000 vehicles by 2026. Then, a battery manufacturer makes significant investments to build low-carbon, lithium-ion battery production site in Europe. Moreover, the electricity grid operators are pursuing the goal of adding value to mass transport electrification through the use of smart charging and vehicle-to-grid technologies (Colle et al., 2020).<br/>
+
+However, there are many factors such as the limited mileage of these vehicles, long recharging times and low availability of charging stations (for more details on [electric charging stations](#charging_station)) that diminish the benefits of EVs in industrial and commercial logistics. Effective planning of EV routes and charging times is crucial for the future of the logistics sector (Bac & Erdem, 2021).
+
+
+### Key stakeholders {-}
+
+- **Affected**: Commercial vehicle drivers, freight industry
+- **Responsible**: International, national and local authorities, Public and private transport companies, Automobile manufacturers
+
+### Current state of art in research {-}
+Recent studies on ECVs can be divided into two streams focusing on *(i)* aggregated cost analysis with TCO calculations to investigate the competitiveness of ECVs and *(ii)* decision support models for both integrated network design and fleet operation based on location routing problems (LRP) and vehicle routing problems (VRP) (Schiffer et al., 2021).
+
+- Aggregated cost analyses
+
+In order to assess the competitiveness of ECVs, it is common to perform aggregated TCO calculations to compare the life cycle costs of ECVs and ICEVs. Analyses by Davis & Figliozzi (2013), Lee et al., (2013) and Taefi et al., (2017) conclude that ECVs become more competitive with increasing distance travelled. In addition, characteristics of certain driving patterns such as frequent stops, congestion, engine idling and low speed increase the competitiveness of ECVs (Schiffer et al., 2021).
+
+- Vehicle routing and location-routing problems
+
+The major problems faced by the fleets are the optimisation of the electric vehicle charging schedule and the routing problem. For given problems, an electric vehicle routing problem with time windows (EVRPTW) is proposed, which is an extension of the well-known vehicle routing problem (VRP) (Bac & Erdem, 2021). Another EV-related problem is the location selection of charging stations. In the literature, there are a multiple studies proposing different approaches such as multi-criteria decision models (Feng et al., 2021; Wang et al., 2020) or genetic algorithm (GA) applications (Pan et al., 2020). Furthermore, Sachan et al., (2020) iexplored in this regard different charging infrastructures categorized into traditional charging infrastructures, fast-charging stations, and battery swapping stations.<br/>
+
+Optimising electric vehicle charging to minimise marginal GHG emissions from electricity generation is also being investigated (Tu et al., 2020). A high penetration rate of EVs and night-time charging can potentially lead to periodic electricity demand congestion (Shaukat et al., 2018) and high marginal emissions from electricity generation. Optimal spatio-temporal distribution of EV charging activities should enable more environmentally friendly charging. The optimal charging schedule can be further improved with the help of a smart grid and vehicle-to-grid communication.
+
+### Current state of art in practice {-}
+In Europe, about 75% of fleet vehicles are spread across six key industries (Colle et al., 2020):
+
+-	Wholesale and retail
+-	Public administration and defence
+-	Manufacturing
+-	Construction
+-	Transport including taxis, buses and coaches
+-	Logistics
+-	Vehicle rental and leasing
+
+With currently 63 million vehicles, the fleet (comercial vehicles) accounts for 20% of all vehicles in Europe. Fleet vehicles cover more than 40% of total vehicle kilometres in Europe and are responsible for half of total road transport emissions. Six out of ten cars sold in Europe are company cars and in 2019, 96% of new company car registrations were petrol or diesel vehicles. On average, company cars travel 2.25 times further than private cars, contributing disproportionately to emissions. It is predicted that the total electrified fleet will increase 24-fold by 2030. National and local government incentives, the ability to negotiate discounts on vehicle contracts and route predictability make the choice of fleet electrification more popular (Colle et al., 2020).<br/>
+
+All major delivery companies are starting to replace their gas-powered fleets with electric or low-emission vehicles, a switch will boost profits while fighting climate change and urban pollution. UPS has placed an order for 10,000 electric delivery vehicles. Amazon is buying 100,000 from start-up *Rivian*. DHL says one-fifth of its fleet is made up of zero-emission vehicles, with more to come. FedEx has just committed to replacing 100% of its pick-up and delivery fleet with battery-powered vehicles by 2040 (Domonoske, 2021).<br/>
+
+One of the reasons why delivery fleets are increasingly investing in electric or zero-emission vehicles is the increasing government mandates to reduce emissions. Regulations can become even stricter in the future (Hughes, 2020). In Europe, 24 cities with a combined population of over 62 million plan to completely ban internal combustion engine (ICE) vehicles from urban areas by 2030 through a combination of regulations and incentives (Behrmann, 2019). However, more charging stations will have to be built to meet the increaseing demand. There are already about 285.800 charging stations in Europe (Statista, 2021). Nevertheless, logistics fleet operators have so far tended not to include public charging infrastructure in their planning in order to avoid operational disruptions that can occur in the event of blocked stations or vandalism (Schiffer et al., 2021).<br/>
+
+Currently, electric cars, including company cars, pool cars, rental cars, ride-hailing vehicles and taxis, account for more than half (59%) of the total EV fleet. The light commercial vehicle (LCV) or van segment, which includes last-mile vehicles and delivery and service vehicles, accounts for 38%. The remainder is composed of heavy-duty vehicles (HDVs) and buses. The bus segment is expected to electrify the fastest, with 42% of the total bus fleet electrified by 2030. The passenger car segment follows with 17.5% by 2030, indicating a shift in company car policy towards electric vehicles and greater vehicle choice. More than 12% of the van segment will be electric by 2030, compared to only 2% of HDVs. Electric HDVs will, for the time being, be limited to vehicles under 7.5 tonnes and special and dedicated service vehicles, such as refuse collection and street sweeping vehicles (Colle et al., 2020).
+
+### Relevant initiatives in Austria {-}
+Austrian Post aims to exclusively use 100% electric vehicles by 2030, a process initiated in 2011. Today, Austrian Post already operates the largest e-vehicle fleet in Austria and has a comprehensive charging network at its disposal (Uyttebroeck, 2021). The commitment to convert their fleets was formalised when the two groups joined EV100, an initiative that aims to encourage and support fleets to convert their fleets to electric vehicles by 2030 (Field, 2019).
+
+-	[theclimategroup.org](https://www.theclimategroup.org/ev100)
+-	[cleantechnica.com](https://cleantechnica.com/2019/04/27/the-swiss-austrian-post-announce-commitment-to-100-evs-by-2030/)
+-	[beoe.at](https://www.beoe.at/about-us/)
+-	[ots.at](https://www.ots.at/pressemappe/17440/bundesverband-elektromobilitaet-oesterreich-beoe)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table91, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Lower pollutant and noise emissions|**+**|Health & Wellbeing (*3*)|Bundesministerium fuer Umwelt, 2019|
+|Systemic|Reduced overall level of emissions|**+**|Environmental sustainability *(7,12-13,15)*|Fritz et al., 2018|
+|Systemic|Very limited use in large commercial vehicles|**~**|Sustainable economic development (*8,11*)|Colle et al., 2020|
+|Systemic|Electric Vehicles Initiative is accelerating the introduction and adoption of electric vehicles worldwide|          **+**|Partnership & collaborations (*17*)|IEA, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table92, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|8-9|')
+```
+
+### Open questions {-}
+1. Could battery exchange stations play a role in electric city logistics?
+
+### References {-}
+-	Bac, U., & Erdem, M. (2021). Optimization of electric vehicle recharge schedule and routing problem with time windows and partial recharge: A comparative study for an urban logistics fleet. Sustainable Cities and Society, 102883. https://doi.org/10.1016/j.scs.2021.102883
+-	Behrmann, E. (2019, July 26). A Dead End for Fossil Fuel in Europe’s City Centers - Bloomberg. https://www.bloomberg.com/news/articles/2019-07-26/a-dead-end-for-fossil-fuel-in-europe-s-city-centers
+-	Bundesministerium für Umwelt, N. und nukleare S. (BMU). (2019). Wie umweltfreundlich sind Elektroautos? 1–20. www.bmu.de
+-	Colle, S., Miller, R., Mortier, T., Coltelli, M., Horstead, A., Ruby, K., & Georgiev, P. (2020). Accelerating fleet electrification in Europe When does reinventing the wheel make perfect sense ?
+-	Davis, B. A., & Figliozzi, M. A. (2013). A methodology to evaluate the competitiveness of electric delivery trucks. Transportation Research Part E: Logistics and Transportation Review, 49(1), 8–23. https://doi.org/10.1016/j.tre.2012.07.003
+-	Domonoske, C. (2021, March 17). From Amazon To FedEx, The Delivery Truck Is Going Electric. https://text.npr.org/976152350
+-	Feng, J., Xu, S. X., & Li, M. (2021). A novel multi-criteria decision-making method for selecting the site of an electric-vehicle charging station from a sustainable perspective. Sustainable Cities and Society, 65, 102623. https://doi.org/10.1016/j.scs.2020.102623
+-	Field, K. (2019, April 27). The Swiss & Austrian Post Announce Commitment To 100% EVs By 2030. https://cleantechnica.com/2019/04/27/the-swiss-austrian-post-announce-commitment-to-100-evs-by-2030/
+-	Fritz, D., Heinfellner, H., Lichtblau, G., Pölz, W., & Stranner, G. (2018). Update: Ökobilanz alternativer Antriebe. 1–16. https://umweltbundesamt.at/fileadmin/site/publikationen/DP152.pdf
+-	Hughes, M. (2020, December 5). Electric Delivery Fleet Trends: How Green Are Your Deliveries? | ChargePoint. https://www.chargepoint.com/blog/electric-delivery-fleet-trends-how-green-are-your-deliveries/
+-	IEA. (2020, October 26). Electric Vehicles Initiative – Programmes and partnerships - IEA. https://www.iea.org/areas-of-work/programmes-and-partnerships/electric-vehicles-initiative
+-	Lee, D.-Y., Thomas, V. M., & Brown, M. A. (2013). Electric Urban Delivery Trucks: Energy Use, Greenhouse Gas Emissions, and Cost-Effectiveness. Environmental Science & Technology, 47(14), 8022–8030. https://doi.org/10.1021/es400179w
+-	Pan, L., Yao, E., Yang, Y., & Zhang, R. (2020). A location model for electric vehicle (EV) public charging stations based on drivers’ existing activities. Sustainable Cities and Society, 59, 102192. https://doi.org/10.1016/j.scs.2020.102192
+-	Sachan, S., Deb, S., & Singh, S. N. (2020). Different charging infrastructures along with smart charging strategies for electric vehicles. Sustainable Cities and Society, 60, 102238. https://doi.org/10.1016/j.scs.2020.102238
+-	Schiffer, M., Klein, P. S., Laporte, G., & Walther, G. (2021). Integrated planning for electric commercial vehicle fleets: A case study for retail mid-haul logistics networks. European Journal of Operational Research, 291(3), 944–960. https://doi.org/10.1016/j.ejor.2020.09.054
+-	Shaukat, N., Khan, B., Ali, S. M., Mehmood, C. A., Khan, J., Farid, U., Majid, M., Anwar, S. M., Jawad, M., & Ullah, Z. (2018). A survey on electric vehicle transportation within smart grid system. In Renewable and Sustainable Energy Reviews (Vol. 81, pp. 1329–1349). Elsevier Ltd. https://doi.org/10.1016/j.rser.2017.05.092
+-	Statista. (2021). • Europe: number of electric vehicle charging stations 2010-2020 | Statista. https://www.statista.com/statistics/955443/number-of-electric-vehicle-charging-stations-in-europe/
+-	Taefi, T. T., Stütz, S., & Fink, A. (2017). Assessing the cost-optimal mileage of medium-duty electric vehicles with a numeric simulation approach. Transportation Research Part D: Transport and Environment, 56, 271–285. https://doi.org/10.1016/j.trd.2017.08.015
+-	Tu, R., Gai, Y. (Jessie), Farooq, B., Posen, D., & Hatzopoulou, M. (2020). Electric vehicle charging optimization to minimize marginal greenhouse gas emissions from power generation. Applied Energy, 277, 115517. https://doi.org/10.1016/j.apenergy.2020.115517
+-	Uyttebroeck, B. (2021, March 21). The Mobility House to manage 100% EV fleet for Austrian Post | Fleet Europe. https://www.fleeteurope.com/en/new-energies/austria/features/mobility-house-manage-100-ev-fleet-austrian-post?a=BUY03&curl=1
+-	Wang, R., Li, X., Xu, C., & Li, F. (2020). Study on location decision framework of electric vehicle battery swapping station: Using a hybrid MCDM method. Sustainable Cities and Society, 61, 102149. https://doi.org/10.1016/j.scs.2020.102149
+
+
+
 ## Multimodal transport management systems {#mtms}
 
 ## Freight hubs {#freight_hubs}

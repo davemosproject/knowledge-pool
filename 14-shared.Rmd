@@ -298,6 +298,8 @@ Regarding ride sharing, Alisoltani et al. (2012) argue, that it can reduce traff
 
 Lokhandwala & Cai (2018) compared in a case study in New York City shared autonomous vehicles (SAVs) to traditional taxis and found out that SAVs have the potential to reduce the fleet size in NYC by more than 50% and reduce daily greenhouse gas emissions by up to 866 MT of CO~2~ eq.<br/>
 
+The study by Martin et al. (2021) provides a recent review of studies on ridesharing optimization. They compare different analytical approaches in this research area and discuss the emerging concept of "agile" algorithms that could help to cope with the demands of large-scale and dynamic optimization problems for ridesharing.<br/>
+
 The NGO Mothers Against Drunk Driving (MADD) and Uber – one of the most known ride hailing platforms – published a report in 2015, in which they argue, based on studies in California, that the presence of uber services in a city can lower the amount of drunk driving crashes involving younger populations. Based on a study of Seattle's data, they argue that Uber's entry into the Seattle market was associated with a 10% drop in drunk driving arrests.  
 
 ### Current state of art in practice {-}
