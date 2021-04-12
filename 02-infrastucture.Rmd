@@ -280,3 +280,99 @@ cat('|TRL| SRL|
 
 
 ## Transformation of public space and digital solutions {#transformation_public_space}
+
+### Definition {-}
+The digitalisation of urban (and public) spaces has been developing giving rise to concepts such as smart city, wise city, U-city, intelligent city etc. However, its real acceleration started in 2010s as a result of industrial initiatives focused on the collection, management, processing and near real-time analysis of big data through the wide-spread of sensors connecting urban spaces known as Internet of Things (IoT) devices. In the recent years, especially since the outbreak of COVID pandemic, the urban digitalisation reached a new level. For example, in China digital system for mass surveillance based on facial recognition are being deployed and in other parts of the world legal basis (such as General Data Protection Regulation (GDPR)) have been developed to allow for recording of biometric data in public spaces (Languillon-Aussel, 2021). <br/>
+
+Beyond surveillance, digitalisation of public spaces has influence on many different areas, for example, in 2020 Singapore initiated the satellite-based urban toll system which allows for tracking any vehicle at any time of the day to implement dynamic pricing and road use and zone access (Languillon-Aussel, 2021).
+
+Moroever, public spaces are claimed to be highly political in nature. In Europe they support and condition the expression of the life in the city (Languillon-Aussel, 2021; Parkinson, 2012). For example, in 2013 ÖBB aimed at building a [new freight centre](https://www.partizipation.at/gueterzentrum_sued.html) in Vienna that would move freight traffic away from the roads and onto the railways. The new freight centre was meant to replace the one at north-west station (Nordwestbahnhof). From the beginning, it was intended to actively involve the general public, and the stakeholders were also strongly integrated into the planning. Therefore, before the start of the project, the ÖBB held an information event, which was accompanied by great protests (from the public) against the project. ÖBB tried, probably for this very reason, to involve the stakeholders so intensively in the entire planning process, and was successful in the case of this project. Therefore, the digitalisation of urban spaces can also be linked to the innovation in participatory tools where it allows the citizens to actively contribute to infrastructure planning process and decision-making. <br/>
+
+Current approaches to digitalisation of public spaces include mobiles apps, high resolution cameras, interactive stands and kiosks providing services and information but also IoT devices such as sensors and beacons that automatically collect the data. These devices bring potential to improve the quality and coverage of service in public spaces, lower provision and delivery costs, increase safety and security. Nonetheless, they are not problemless. Potential issues arise due to privacy and security concerns especially when private sector plays a key role (Warbis, 2018), potential technical difficulties such as unreliable Internet connection or unstable electricity supply (Haldrup, 2018) as well as low trust among society members and so called *digital exclusion* of certain social groups (Durand & Zijlstra, 2020).
+
+### Key stakeholders {-}
+
+- **Affected**: Citizens
+- **Responsible**: Local and national governments, Private technology companies, Citizens
+
+### Current state of art in research {-}
+The research shows that as a result of higher digitalisation of public spaces and, in particular, increased digitalisation of transport some groups may become *digitally excluded*. The factors that are linked to vulnerability in terms of access to digitally-based services and transport are:
+
+-	**Age**: The elderly and underaged are particularly disadvantaged due to their lower engagement with technology. In the case of elderly population, the reduction in cognitive abilities and a decline in psychological mechanisms mean that in general, coping with new technologies can be difficult (Harvey et al., 2019; Pangbourne et al., 2010; Durand & Zijlstra, 2020). On the other hand, children frequently do not have access to digitals forms of payment or cannot use all available modes of transport alone (Durand & Zijlstra, 2020).
+-	**Income and educational level**: People with lower income and education levels are more vulnerable to digital exclusion where, for example, a Dutch report shows that the transition from the offline to the online purchase of a yearly public transport subscription causes issues for people with lower income levels (Durand & Zijlstra, 2020).
+-	**Ethnicity**: The individuals from minorities tend to be more disadvantaged however this is frequently linked to other contributing factors such as cultural preferences or economic depravation (Durand & Zijlstra, 2020).
+
+### Current state of art in practice {-}
+At the beginning the digitalization of cities and public spaces strongly relied on the hidden, underground network of cables, sensors, connectors and masts which did not play significant role in the everyday life of an average citizen. Nowadays, the digitalization of public spaces incorporates the concept of smart city into the day-to-day life to a much larger extent. There are many ways in which digitalization materializes in public spaces. <br/>
+
+One of them is improved **connectivity** in the form of Wi-Fi hotspots and zones. For example, in New York  [LinkNYC](https://www.link.nyc/) created connectivity corridors across five districts where more than 1700 Links has allowed approximately 5 million users to connect for free to the country’s fastest, most robust public fibre network. Through this service, *LinkNYC* has supported people in accessing charities, using council services, and even applying for jobs (Warbis, 2018).  Moreover, [Calvium](https://calvium.com/) uses the improved connectivity to build a sense-of-place through digital-physical journeys of history and heritage, such as in [Battersea Power Station]( https://calvium.com/projects/battersea-power-station-redevelopment/) in London (Warbis, 2018). <br/>
+
+Then, digitalisation brings the **transformation of public services** where non-personal data collected from public spaces is used to better understand the use and users of public spaces and in turn improve the cities’ spaces, infrastructure and provision of public services. For instance, looking at the type of devices connected to WiFi spots or engaging in digital place-making scheme might indicate socio-economic profiles and support councils in delivering the right services to the right people. <br/>
+
+Two of such examples are [Borough Data Explorer](https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1&zoom=5.0&lng=-0.36613&lat=54.04187) that gathers data for the indicators that either contribute to borough’s so-called *Borough Manifesto* targets or feature within borough’s *social progress index* (Lbbd.emu-analytics.net, 2021). Moreover, the Australian city of Joondalup partnered with [Telstra]( https://www.lakesidejoondalup.com.au/store-directory/telstra-shop/) to test IoT technologies to better monitor environmental factors like temperature, humidity, pollution, light and noise levels in real time (Barns, 2017).<br/>
+
+Next, a **public-private partnership** is crucial for the strong and reliable digital public domain, where technology companies need to understand policy and strategy of local government to identify areas that may be supported through digital deployment. On the other hand, it is important for local government to understand the features of the technology for deployment, and their ambitions. This tight cooperation will enable the public sector to direct the digitisation of places in ways that work for public good, retaining the publicness of space and place, regardless of who owns, oversees or manages technologies being deployed (Warbis, 2018). The examples of such initatives are [ÖBB360 wegfinder](https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/), [Living Labs](https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/) and [Seestadt Wien]( https://www.aspern-seestadt.at/en).<br/>
+
+Within transport network the digitalisation brings benefits of improved customisation, efficiency and comfort. The examples of such efforts are real-time information on parking spaces availability such as [eParkomat](https://www.eparkomat.com/) in Czech Republic, digital ticketing and scheduling, for instance, [DV Ticketing]( https://www.dv-ticketing.com/)  or [Trainline](https://www.thetrainline.com/) in the UK, electronic system for car and bike sharing fleets such as [Share-now]( https://www.share-now.com/at/en/) or [Nextbike](https://www.nextbike.at/de/niederoesterreich/) etc. For more information on bike and car sharing see sections on [bicycle and e-bicycle hire](#bike_sharing) and [car shring]( #car_sharing) in this work.
+
+
+### Relevant initiatives in Austria {-}
+
+-	[ÖBB360 wegfinder](https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/)
+-	[Living Labs](https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/)
+-	[Seestadt Wien](https://www.aspern-seestadt.at/en)
+-	[House of digitalisation]( https://ec.europa.eu/regional_policy/en/projects/Austria/support-for-digital-transformation-in-lower-austria)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table93, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Diminished access to digitally based transport services for certain groups |**-**|Equality (*5,10*)|Durand & Zijlstra, 2020|
+|Systemic|Reduced risk for transport-related social exclusion|**+**|Equality (*5,10*) |Harvey et al., 2019; Pangbourne et al., 2010|
+|Systemic|More informed planning and decision-making based on real-time data from IoT|**+**|Innovation & Infrastructure (*9*)|Barns, 2017|
+|Systemic|Increased collaboration between public and private sector|**+**|Partnership & collaborations (*17*)|Warbis, 2018;|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table94, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-9|5-8|')
+```
+
+### Open questions {-}
+
+1.	To what extent does the increasingly important deployment of digital devices in public spaces impact their political dimensions?
+2.	Are digital technologies transforming citizen practices in public spaces and/or do they allow the emergence of new practices? 
+3.	By allowing new forms of expression, as well as political and democratic participation online, the virtual space tends to become a new forum. Is digital technology capturing the political functions of public spaces, which have therefore become unnecessary? 
+4.	What impacts do the short life cycles of technologies and the changes of technological generations have on the development of public spaces?
+5.	Is digital transforming the designs, shapes, dimensions, and spatiality of public spaces? 
+6.	In what ways is the emergence of new tools and skills changing the way public spaces are planned and developed? 
+7.	What role do digital technologies play in the representation, imagination, and perception of public spaces? 
+8.	For which type(s) of recipient(s) (such as citizen, consumer, user, and inhabitant) are digital technologies deployed in the public space? 
+9.	What impacts do they have on the populations frequenting public spaces? 
+10.	Do digital technologies promote social exchanges, or on the contrary, do they physically replicate the segregation of digital bubbles?
+11.	What roles has digital played in adapting public spaces to the health crisis of COVID-19? 
+(Languillon-Aussel, 2021)
+
+
+### Further links {-}
+-	[An article on city of bits]( https://theconversation.com/surprise-digital-space-isnt-replacing-public-space-and-might-even-help-make-it-better-87173)
+-	[Parking management systems](https://archer-soft.com/blog/how-build-real-time-parking-availability-system)
+-	[Internet of Things and Privacy in Public](https://jsis.washington.edu/news/internet-of-things-and-privacy-in-public/)
+
+### References {-}
+
+-	Barns, S. (2017) Surprise! Digital space isn’t replacing public space, and might even help make it better. Available at: <https://theconversation.com/surprise-digital-space-isnt-replacing-public-space-and-might-even-help-make-it-better-87173> [Accessed 12 April 2021].
+-	Durand, A. & Zijlstra, T. (2020). The impact of digitalisation on the access to transport services: a literature review. 10.13140/RG.2.2.22686.97600.
+-	Haldrup, S.,V. (2018). Digitising public service delivery: opportunities and limitations. Available at: <https://www.opml.co.uk/blog/digitising-public-service-delivery-opportunities-and-limitations> [Accessed 12 April 2021].
+-	Harvey, J., Guo, W., & Edwards, S. (2019). Increasing mobility for older travellers through engagement with technology. Transportation Research Part F: Trafc Psychology and Behaviour, 60, 172-184. doi:10.1016/j.trf.2018.10.019
+-	Languillon-Aussel, R. (2021). Digitalisation of public spaces: the great urban change? Available at: <https://journals.openedition.org/articulo/4518> . [Accessed: 9 April 2021]
+-	Lbbd.emu-analytics.net. (2021). Borough Data Explorer. [online] Available at: <https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1&zoom=4.7&lng=3.34490&lat=54.11363> [Accessed 12 April 2021].
+-	Pangbourne, K. (2018). Mobility and Ageing: A Review of Interactions Between Transport and Technology from the Perspective of Older People In A. Curl & C. Musselwhite (Eds.), Geographies of Transport and Ageing (pp. 51-71). Cham: Springer International Publishing.
+-	Parkinson J., 2012, Democracy and Public Space: The Physical Sites of Democratic Performance, Oxford: Oxford University Press, 262 p.
+-	Warbis, M. (2018). Making the Spaces of Cities Smarter: Why cities (and their citizens) should embrace the digital public realm. <Available at: https://medium.com/@warbismichelle/making-the-spaces-of-cities-smarter-why-cities-should-embrace-the-digital-public-realm-c12afc810aaa>. [Accessed: 12 April 2021]
+

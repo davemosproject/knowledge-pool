@@ -42,7 +42,7 @@ format(Sys.time(),'%d %B %Y')
     - [Electric road system](#ers) **NEW**
     - [High occupancy toll lanes](#high_occupancy)
     - [Public transport priority systems](#public_trans_priority) **NEW**
-    - [Transformation of public space and digital solutions](#transformation_public_space)
+    - [Transformation of public space and digital solutions](#transformation_public_space) **NEW**
 3. [Highway infrastructure management](#highway)
     - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
     - [Electric charging stations](#charging_station) **NEW**
