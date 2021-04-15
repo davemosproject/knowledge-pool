@@ -189,7 +189,94 @@ cat('|TRL| SRL|
 - Wettengel, J., 2019. Germany opens first overhead electricity test track for trucks on autobahn. [online] Clean Energy Wire. Available at: <https://www.cleanenergywire.org/news/germany-opens-first-overhead-electricity-test-track-trucks-autobahn> [Accessed 19 February 2021].
 
 
-## High occupancy toll lanes {#high_occupancy}
+## High occupancy vehicle and toll lanes {#high_occupancy}
+
+### Synonyms {-}
+*high-occupancy vehicle (HOV) lane, carpool lane, commuter lane, diamond lane, express lane, transit lane*
+
+### Definition {-}
+High-occupancy vehicle (HOV) lanes are special lanes on highways, which are reserved for vehicles with a driver and one or more passengers. They are existing since the late 1960s, mainly in the US and Canada and are usually marked by diamond symbols on the roadway and associated traffic signs. In some cases, also other special vehicles, like motorcycles, transit and charter buses, emergency and law enforcement vehicles, low emission vehicles, hybrid or alternative fuel vehicles, and/or single-occupancy vehicles (SOVs) are allowed on the HOV lanes. These lanes are intended to encourage carpooling (see [ride hailing & ride sharing]( #ride_hailing)) and thus increase vehicle occupancy rates, resulting in greater traffic efficiency and lower emissions at the same time. Using the HOV lanes should result in travel time savings, which serves as an incentive for carpooling (United States Department of Transportation - Federal Highway Administration, 2008). <br/>
+
+However, if too many (or too few) vehicles are allowed to use the HOV lanes at times, problems can arise that eliminate the incentive. Changes to the HOV policies can help to realize throughput gains (United States Department of Transportation - Federal Highway Administration, 2008). One example are the High Occupancy Toll (HOT) Lanes, which allow vehicles not meeting established occupancy requirements for an HOV lane to "buy-into" the lane by paying a toll. Thus, HOT lanes provide a congestion-free, time-saving alternative for travellers and improve utilization of previously underutilized HOV lanes. Using the electronic toll collection, the toll is set variably at the level required to maintain the speed advantage of the lane (United States Department of Transportation - Federal Highway Administration, n.d.). <br/> 
+
+Motorists may see the benefits of reduced rush hour congestion, increased travel time reliability, and funding for congestion-reducing roadway improvement projects. Furthermore, the possibility of avoiding traffic jams when one is in a hurry is offered (United States Department of Transportation - Federal Highway Administration, 2021). <br/>
+
+For taxpayers, HOT lanes offer more choice than traditional taxes, promote accountability by tying drivers' costs directly to their decisions, and reduce tax demand for congestion-reducing initiatives such as roadway expansion. Further, they provide a means to repay toll road bonds more quickly (United States Department of Transportation - Federal Highway Administration, 2021). <br/>
+
+Further, HOT lanes can generate needed funding for transit improvements, park-and-rides, etc., and provide a financial incentive to make transit and carpooling more attractive, as well as improve transit travel time, which primarily benefits transit riders and carpoolers (United States Department of Transportation - Federal Highway Administration, 2021). <br/>
+
+Companies can benefit from reduced congestion-related labour and transportation costs, as well as improved quality of life in the region. Since the environment benefits from reduced air pollution caused by cars stuck in traffic jams as well as reduced fuel consumption caused by stop-and-go traffic (United States Department of Transportation - Federal Highway Administration, 2021). 
+
+### Key stakeholders {-}
+- **Affected**: Private and shared car drivers and passengers
+- **Responsible**: Highway operators, local councils, national governments, software providers, state authorities, technology providers
+
+### Current state of art in research {-}
+Nohekhan et al. (2021) investigated the difference in travel time on I-66 Inner Beltway by changing an HOV lane to a HOT lane and found that the change reduced travel time. At the same time, the toll system provides a reliable cash flow that raises essential funds for the transportation sector.  However, Burris et al. (2014) argue that it appears that carpooling is often negatively impacted when an HOV lane is converted to a HOT lane. <br/>
+
+Wang et al. (2020) have been addressing the fact that existing pricing strategies of HOT lanes cannot guarantee that the closed-loop system converges to the optimal state where the capacity of HOT lanes is fully utilized but there is no queue on HOT lanes. A well-functioning estimation and control method is quite challenging and still hard to find. In their paper, they try to fill the gap by (*i*) presenting a simpler formulation of the point queueing model based on the new concept of residual capacity, (*ii*) proposing a simple feedback control theory approach to estimate the average value of time and compute the dynamic price, and (*iii*) proving analytically and numerically that the closed-loop system is stable and guaranteed to converge to the optimal state, either in a Gaussian or exponential manner. Further, Boysen et al. (2021) conducted a case study on how carpooling could be optimized along HOT lanes in the North America region. <br/>
+
+Hosford et al. (2021) looked at the impact of road pricing on transportation and health equity. They identified impacts on car travel, modal shift to public transport, destination accessibility, affordability, prosperity, social interactions, air pollution, traffic accidents and fatalities, acute asthma attacks, and life expectancy. In general, existing evidence suggests that road pricing has largely positive net effects in reducing car trips, air pollution, asthma attacks, and traffic collisions, and increasing life expectancy. However, the frequency and ease of social interactions were negatively affected. The populations that generally fared better in terms of transportation and health were those with higher incomes, men, and people between the ages of 35 and 55. Also, it turned out that there are few evaluations that include non-occupational trips, so there may be missing effects for the unemployed or women who are more likely to make non-occupational trips. They concluded that the limited evidence suggests that tolls are beneficial for a range of transportation and health outcomes, particularly for populations within the catchment area, but that there may be some degree of inequality in the distribution of benefits and burdens. 
+
+### Current state of art in practice {-}
+HOV lanes as well as HOT lanes are already widespread in North America. Several HOV lanes were also implemented in Europe as early as the 1990s, for example in Leeds, UK, Madrid or Trondheim in Norway. These examples have resulted in reduced travel time and increased occupancy levels (University of Leeds - Institute for Transport Studies, n.d.). HOT lanes, however, have not yet been realized. <br/>
+
+State-of-the-art technology for HOT lanes is the use of sensors that automatically detect the number of occupants in a vehicle. Simultaneously, tolls are calculated dynamically based on the traffic situation and the current prices are displayed in real time via electronic traffic signs (Kapsch TrafficCom, n.d.).  
+
+### Relevant initiatives in Austria {-}
+-	[Kapsch.net](https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes)
+-	[sn.at](https://www.sn.at/wirtschaft/oesterreich/kapsch-trafficcom-stellt-sich-breiter-auf-81617200) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table95, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Reduced travel times using HOVs |**+**|Health & Wellbeing (*3*)|United States Department of Transportation - Federal Highway Administration, 2008; University of Leeds - ITS, n.d.|
+|Systemic|Less asthma attacks, reduced traffic collisions & increased life expectancy|**+**|Health & Wellbeing (*3*)|Hosford et al., 2021 |
+|Systemic|Additional costs imposed|**-**|Equality (*5,10*) |Hosford et al., 2021 |
+|Systemic|Less fuel consumption & airpollution|**+**|Environmental sustainability (*7,12,13,15*)|Hosford et al., 2021 |
+|Systemic|Support transportation infrastructure costs| **+**|Sustainable economic development (*8,11*)|Hosford et al., 2021|
+|Systemic|Variable pricing through real-time data|**+**|Innovation & Infrastructure (*9*)|Gihub.org, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table96, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|5-7|')
+```
+
+### Open questions {-}
+
+1. What long-term health benefits can be achieved through HOT toll collection?
+2. How could HOT lanes be introduced in Europe?
+3. How can HOT lanes be combined with the Austrian toll system?
+4. What social inequalities can HOT lanes create and can they be compensated for?
+
+
+### Further links {-}
+- [kapsch.net](https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes) 
+- [ops.fhwa.dot.gov](https://ops.fhwa.dot.gov/congestionpricing/strategies/involving_tolls/hot_lanes.htm) 
+- [its.leeds.ac.uk](http://www.its.leeds.ac.uk/projects/konsult/private/level2/instruments/instrument029/l2_029c.htm)
+- [fhwa.dot.gov](https://www.fhwa.dot.gov/policy/otps/pricingkit.cfm) 
+- [gihub.org](https://www.gihub.org/resources/showcase-projects/dynamic-pricing-for-roadways-and-parking/)
+
+### References {-}
+-	Boysen, N., Briskorn, D., Schwerdfeger, S., & Stephan, K. (2021). Optimizing carpool formation along high-occupancy vehicle lanes. European Journal of Operational Research.
+-	Burris, M., Alemazkoor, N., Benz, R., & Wood, N. S. (2014). The impact of HOT lanes on carpools. Research in Transportation Economics, 44, 43-51.
+- Gihub.org. (2020). Dynamic Pricing for Roadways and Parking. Available at: < https://www.gihub.org/resources/showcase-projects/dynamic-pricing-for-roadways-and-parking/> [Accessed: 15 April 2021]
+-	Hosford, K., Firth, C., Brauer, M., & Winters, M. (2021). The effects of road pricing on transportation and health equity: a scoping review. Transport Reviews, 1-22.
+-	Nohekhan, A., Zahedian, S., & Sadabadi, K. F. (2021). Investigating the impacts of I-66 Inner Beltway dynamic tolling system. Transportation Engineering, 4, 100059.
+-	Kapsch TrafficCom. (n.d.). Kapsch TrafficCom | Managed lanes. . Retrieved April 13, 2021, from https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes?lang=en-us 
+-	United States Department of Transportation - Federal Highway Administration. (n.d.). High-Occupancy Toll Lanes (Partial Facility Pricing) - Congestion Pricing - FHWA Office of Operations. Retrieved April 12, 2021, from https://ops.fhwa.dot.gov/congestionpricing/strategies/involving_tolls/hot_lanes.htm 
+-	United States Department of Transportation - Federal Highway Administration. (2008). HOV Lane Compendium - Introduction - FHWA Office of Operations. https://ops.fhwa.dot.gov/publications/fhwahop09029/sec1_introduction.htm
+-	United States Department of Transportation - Federal Highway Administration. (2021, April 14). Pricing Kit: HOT Lanes. https://www.fhwa.dot.gov/policy/otps/pricingkit.cfm#HOT
+-	University of Leeds - Institute for Transport Studies. (n.d.). High Occupancy Vehicle (HOV) Lanes: evidence on performance. Retrieved April 14, 2021, from http://www.its.leeds.ac.uk/projects/konsult/private/level2/instruments/instrument029/l2_029c.htm
+-	Wang, X., Jin, W. L., & Yin, Y. (2020). A Control Theoretic Approach to Simultaneously Estimate Average Value of Time and Determine Dynamic Price for High-Occupancy Toll Lanes. IEEE Transactions on Intelligent Transportation Systems.
+
 
 ## Public transport priority systems {#public_trans_priority}
 

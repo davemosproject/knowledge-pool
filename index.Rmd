@@ -40,7 +40,7 @@ format(Sys.time(),'%d %B %Y')
     - [Operational design domains](#ODD)
     - [Rail crossing information system](#rail_crossing_info_system)
     - [Electric road system](#ers) **NEW**
-    - [High occupancy toll lanes](#high_occupancy)
+    - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
     - [Public transport priority systems](#public_trans_priority) **NEW**
     - [Transformation of public space and digital solutions](#transformation_public_space) **NEW**
 3. [Highway infrastructure management](#highway)
