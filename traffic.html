@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Traffic management | Knowledge Pool</title>
+  <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Traffic management | Knowledge Pool" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Traffic management | Knowledge Pool" />
+  
+  <meta name="twitter:description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
+  
+
+<meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
+
+
+<meta name="date" content="2021-04-15" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="highway.html"/>
+<link rel="next" href="digital.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Knowledge Pool</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="table-of-content.html"><a href="table-of-content.html"><i class="fa fa-check"></i>Table of content</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="infrastructure.html"><a href="infrastructure.html"><i class="fa fa-check"></i><b>2</b> Physical road infrastructure</a><ul>
+<li class="chapter" data-level="2.1" data-path="infrastructure.html"><a href="infrastructure.html#dedicated_lanes"><i class="fa fa-check"></i><b>2.1</b> Dedicated lanes for connected and automated vehicles (CAV)</a><ul>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#synonyms"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#definition"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#key-stakeholders"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-research"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-practice"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#relevant-initiatives-in-austria"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#impacts-with-respect-to-sustainable-development-goals-sdgs"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#technology-and-societal-readiness-level"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#open-questions"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#further-links"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#references"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="infrastructure.html"><a href="infrastructure.html#ODD"><i class="fa fa-check"></i><b>2.2</b> Operational design domains</a></li>
+<li class="chapter" data-level="2.3" data-path="infrastructure.html"><a href="infrastructure.html#rail_crossing_info_system"><i class="fa fa-check"></i><b>2.3</b> Rail crossing information system</a></li>
+<li class="chapter" data-level="2.4" data-path="infrastructure.html"><a href="infrastructure.html#ers"><i class="fa fa-check"></i><b>2.4</b> Electric road system</a><ul>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#synonyms-1"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#definition-1"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#key-stakeholders-1"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-research-1"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-practice-1"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#relevant-initiatives-in-austria-1"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#impacts-with-respect-to-sustainable-development-goals-sdgs-1"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#technology-and-societal-readiness-level-1"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#open-questions-1"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#further-links-1"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#references-1"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="infrastructure.html"><a href="infrastructure.html#high_occupancy"><i class="fa fa-check"></i><b>2.5</b> High occupancy vehicle and toll lanes</a><ul>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#synonyms-2"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#definition-2"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#key-stakeholders-2"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-research-2"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-practice-2"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#relevant-initiatives-in-austria-2"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#impacts-with-respect-to-sustainable-development-goals-sdgs-2"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#technology-and-societal-readiness-level-2"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#open-questions-2"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#further-links-2"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#references-2"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="infrastructure.html"><a href="infrastructure.html#public_trans_priority"><i class="fa fa-check"></i><b>2.6</b> Public transport priority systems</a><ul>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#synonyms-3"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#definition-3"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#key-stakeholders-3"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-research-3"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-practice-3"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#relevant-initiatives-in-austria-3"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#impacts-with-respect-to-sustainable-development-goals-sdgs-3"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#technology-and-societal-readiness-level-3"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#open-questions-3"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#references-3"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="infrastructure.html"><a href="infrastructure.html#transformation_public_space"><i class="fa fa-check"></i><b>2.7</b> Transformation of public space and digital solutions</a><ul>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#definition-4"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#key-stakeholders-4"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-research-4"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#current-state-of-art-in-practice-4"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#relevant-initiatives-in-austria-4"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#impacts-with-respect-to-sustainable-development-goals-sdgs-4"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#technology-and-societal-readiness-level-4"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#open-questions-4"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#further-links-3"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="infrastructure.html"><a href="infrastructure.html#references-4"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="highway.html"><a href="highway.html"><i class="fa fa-check"></i><b>3</b> Highway infrastructure management</a><ul>
+<li class="chapter" data-level="3.1" data-path="highway.html"><a href="highway.html#uav"><i class="fa fa-check"></i><b>3.1</b> Unmanned aerial vehicles for infrastructure maintenance</a><ul>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#synonyms-4"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#definition-5"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#key-stakeholders-5"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#current-state-of-art-in-research-5"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#current-state-of-art-in-practice-5"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#relevant-initiatives-in-austria-5"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#impacts-with-respect-to-sustainable-development-goals-sdgs-5"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#technology-and-societal-readiness-level-5"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#open-questions-5"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#further-links-4"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#references-5"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="highway.html"><a href="highway.html#charging_station"><i class="fa fa-check"></i><b>3.2</b> Electric charging stations</a><ul>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#synonyms-5"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#definition-6"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#key-stakeholders-6"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#current-state-of-art-in-research-6"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#current-state-of-art-in-practice-6"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#relevant-initiatives-in-austria-6"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#impacts-with-respect-to-sustainable-development-goals-sdgs-6"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#technology-and-societal-readiness-level-6"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#open-questions-6"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#further-links-5"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="highway.html"><a href="highway.html#references-6"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="traffic.html"><a href="traffic.html"><i class="fa fa-check"></i><b>4</b> Traffic management</a><ul>
+<li class="chapter" data-level="4.1" data-path="traffic.html"><a href="traffic.html#congestion_charging"><i class="fa fa-check"></i><b>4.1</b> Congestion charging</a><ul>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#synonyms-6"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#definition-7"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#key-stakeholders-7"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-research-7"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-practice-7"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#relevant-initiatives-in-austria-7"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#impacts-with-respect-to-sustainable-development-goals-sdgs-7"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#technology-and-societal-readiness-level-7"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#open-questions-7"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#further-links-6"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#references-7"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="traffic.html"><a href="traffic.html#platooning"><i class="fa fa-check"></i><b>4.2</b> Platooning</a><ul>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#synonyms-7"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#definition-8"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#key-stakeholders-8"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-research-8"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-practice-8"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#relevant-initiatives-in-austria-8"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#impacts-with-respect-to-sustainable-development-goals-sdgs-8"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#technology-and-societal-readiness-level-8"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#open-questions-8"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#further-links-7"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#references-8"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="traffic.html"><a href="traffic.html#traffic_info_monitoring"><i class="fa fa-check"></i><b>4.3</b> Real-time traffic information and monitoring</a></li>
+<li class="chapter" data-level="4.4" data-path="traffic.html"><a href="traffic.html#cits"><i class="fa fa-check"></i><b>4.4</b> Cooperative - intelligent transport system</a></li>
+<li class="chapter" data-level="4.5" data-path="traffic.html"><a href="traffic.html#dynamic_route"><i class="fa fa-check"></i><b>4.5</b> Dynamic route guidance</a></li>
+<li class="chapter" data-level="4.6" data-path="traffic.html"><a href="traffic.html#variable_speed"><i class="fa fa-check"></i><b>4.6</b> Variable speed limits and dynamic signage system</a><ul>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#synonyms-8"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#definition-9"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#key-stakeholders-9"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-research-9"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-practice-9"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#relevant-initiatives-in-austria-9"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#impacts-with-respect-to-sustainable-development-goals-sdgs-9"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#technology-and-societal-readiness-level-9"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#open-questions-9"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#references-9"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="4.7" data-path="traffic.html"><a href="traffic.html#adaptive_traffic_control"><i class="fa fa-check"></i><b>4.7</b> Adaptive traffic signal control</a><ul>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#synonyms-9"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#definition-10"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#key-stakeholders-10"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-research-10"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-practice-10"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#relevant-initiatives-in-austria-10"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#impacts-with-respect-to-sustainable-development-goals-sdgs-10"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#technology-and-societal-readiness-level-10"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#open-questions-10"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#further-links-8"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#references-10"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="4.8" data-path="traffic.html"><a href="traffic.html#p_g_fleet_management"><i class="fa fa-check"></i><b>4.8</b> Passengers and goods fleet management</a></li>
+<li class="chapter" data-level="4.9" data-path="traffic.html"><a href="traffic.html#urban_access"><i class="fa fa-check"></i><b>4.9</b> Urban access management</a><ul>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#synonyms-10"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#definition-11"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#key-stakeholders-11"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-research-11"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#current-state-of-art-in-practice-11"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#relevant-initiatives-in-austria-11"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#impacts-with-respect-to-sustainable-development-goals-sdgs-11"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#technology-and-societal-readiness-level-11"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#open-questions-11"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#further-links-9"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="traffic.html"><a href="traffic.html#references-11"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="digital.html"><a href="digital.html"><i class="fa fa-check"></i><b>5</b> Digital road infrastructure and connectivity</a><ul>
+<li class="chapter" data-level="5.1" data-path="digital.html"><a href="digital.html#v2x"><i class="fa fa-check"></i><b>5.1</b> Vehicle to everything communication</a><ul>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#synonyms-11"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#definition-12"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#key-stakeholders-12"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#current-state-of-art-in-research-12"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#current-state-of-art-in-practice-12"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#relevant-initiatives-in-austria-12"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#impacts-with-respect-to-sustainable-development-goals-sdgs-12"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#technology-and-societal-readiness-level-12"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#open-questions-12"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#further-links-10"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="digital.html"><a href="digital.html#references-12"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="digital.html"><a href="digital.html#infrast_support_level"><i class="fa fa-check"></i><b>5.2</b> Infrastructure support levels for automated driving</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="passenger.html"><a href="passenger.html"><i class="fa fa-check"></i><b>6</b> Passenger information system</a><ul>
+<li class="chapter" data-level="6.1" data-path="passenger.html"><a href="passenger.html#djp"><i class="fa fa-check"></i><b>6.1</b> Digital journey planner</a><ul>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#synonyms-12"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#definition-13"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#key-stakeholders-13"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#current-state-of-art-in-research-13"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#current-state-of-art-in-practice-13"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#relevant-initiatives-in-austria-13"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#impacts-with-respect-to-sustainable-development-goals-sdgs-13"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#technology-and-societal-readiness-level-13"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#open-questions-13"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#further-links-11"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#references-13"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="passenger.html"><a href="passenger.html#telematics_passenger"><i class="fa fa-check"></i><b>6.2</b> Rail telematics for passenger services</a></li>
+<li class="chapter" data-level="6.3" data-path="passenger.html"><a href="passenger.html#info_and_route_planning"><i class="fa fa-check"></i><b>6.3</b> Multimodal information and route planning</a><ul>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#synonyms-13"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#definition-14"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#key-stakeholders-14"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#current-state-of-art-in-research-14"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#current-state-of-art-in-practice-14"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#relevant-initiatives-in-austria-14"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#impacts-with-respect-to-sustainable-development-goals-sdgs-14"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#technology-and-societal-readiness-level-14"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#open-questions-14"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#further-links-12"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="passenger.html"><a href="passenger.html#references-14"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="multimodal.html"><a href="multimodal.html"><i class="fa fa-check"></i><b>7</b> Multimodal integrated system</a><ul>
+<li class="chapter" data-level="7.1" data-path="multimodal.html"><a href="multimodal.html#flms"><i class="fa fa-check"></i><b>7.1</b> First-last mile solutions</a></li>
+<li class="chapter" data-level="7.2" data-path="multimodal.html"><a href="multimodal.html#dist_time_fares"><i class="fa fa-check"></i><b>7.2</b> Distance or time-based fares</a></li>
+<li class="chapter" data-level="7.3" data-path="multimodal.html"><a href="multimodal.html#maas"><i class="fa fa-check"></i><b>7.3</b> Mobility as a service (Maas)</a><ul>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#definition-15"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#key-stakeholders-15"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-research-15"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#relevant-initiatives-in-austria-15"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#impacts-with-respect-to-sustainable-development-goals-sdgs-15"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#technology-and-societal-readiness-level-15"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#open-questions-15"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#further-links-13"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#references-15"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="7.4" data-path="multimodal.html"><a href="multimodal.html#p_r"><i class="fa fa-check"></i><b>7.4</b> Park and ride</a><ul>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#synonyms-14"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#definition-16"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#key-stakeholders-16"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-research-16"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-practice-15"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#relevant-initiatives-in-austria-16"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#impacts-with-respect-to-sustainable-development-goals-sdgs-16"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#technology-and-societal-readiness-level-16"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#open-questions-16"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#further-links-14"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#references-16"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="multimodal.html"><a href="multimodal.html#contactless_cards"><i class="fa fa-check"></i><b>7.5</b> Contactless public transport cards</a><ul>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#synonyms-15"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#definition-17"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#key-stakeholders-17"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-research-17"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-practice-16"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#relevant-initiatives-in-austria-17"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#impacts-with-respect-to-sustainable-development-goals-sdgs-17"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#technology-and-societal-readiness-level-17"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#open-questions-17"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#further-links-15"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#references-17"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="7.6" data-path="multimodal.html"><a href="multimodal.html#special_needs"><i class="fa fa-check"></i><b>7.6</b> Information and assistance for people with special needs</a><ul>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#synonyms-16"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#definition-18"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#key-stakeholders-18"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-research-18"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#current-state-of-art-in-practice-17"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#relevant-initiatives-in-austria-18"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#impacts-with-respect-to-sustainable-development-goals-sdgs-18"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#technology-and-societal-readiness-level-18"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#open-questions-18"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#further-links-16"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="multimodal.html"><a href="multimodal.html#references-18"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="multimodal.html"><a href="multimodal.html#mobility_hubs"><i class="fa fa-check"></i><b>7.7</b> Mobility hubs</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="connected.html"><a href="connected.html"><i class="fa fa-check"></i><b>8</b> Autonomous driving</a><ul>
+<li class="chapter" data-level="8.1" data-path="connected.html"><a href="connected.html#av"><i class="fa fa-check"></i><b>8.1</b> Automated vehicles</a></li>
+<li class="chapter" data-level="8.2" data-path="connected.html"><a href="connected.html#parking_av"><i class="fa fa-check"></i><b>8.2</b> Parking infrastructure for autonomous vehicles</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="onboard.html"><a href="onboard.html"><i class="fa fa-check"></i><b>9</b> On-board technology for connected and automated vehicles</a><ul>
+<li class="chapter" data-level="9.1" data-path="onboard.html"><a href="onboard.html#adas"><i class="fa fa-check"></i><b>9.1</b> Advanced driver assistance system (ADAS)</a></li>
+<li class="chapter" data-level="9.2" data-path="onboard.html"><a href="onboard.html#parking_assistance"><i class="fa fa-check"></i><b>9.2</b> Parking assistance system</a><ul>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#definition-19"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#key-stakeholders-19"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-research-19"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-practice-18"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#relevant-initiatives-in-austria-19"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#impacts-with-respect-to-sustainable-development-goals-sdgs-19"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#technology-and-societal-readiness-level-19"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#open-questions-19"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#references-19"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="onboard.html"><a href="onboard.html#lane_keeping"><i class="fa fa-check"></i><b>9.3</b> Lane keeping</a><ul>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#synonyms-17"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#definition-20"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#key-stakeholders-20"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-research-20"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-practice-19"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#relevant-initiatives-in-austria-20"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#impacts-with-respect-to-sustainable-development-goals-sdgs-20"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#technology-and-societal-readiness-level-20"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#open-questions-20"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#further-links-17"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#references-20"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="onboard.html"><a href="onboard.html#distance_keeping"><i class="fa fa-check"></i><b>9.4</b> Distance keeping</a></li>
+<li class="chapter" data-level="9.5" data-path="onboard.html"><a href="onboard.html#maintenance_assis"><i class="fa fa-check"></i><b>9.5</b> Maintenance assistance</a></li>
+<li class="chapter" data-level="9.6" data-path="onboard.html"><a href="onboard.html#digital_maps"><i class="fa fa-check"></i><b>9.6</b> Digital maps</a></li>
+<li class="chapter" data-level="9.7" data-path="onboard.html"><a href="onboard.html#ehorizon"><i class="fa fa-check"></i><b>9.7</b> Electronic horizon</a><ul>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#synonyms-18"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#definition-21"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#key-stakeholders-21"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-research-21"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-practice-20"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#relevant-initiatives-in-austria-21"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#impacts-with-respect-to-sustainable-development-goals-sdgs-21"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#technology-and-societal-readiness-level-21"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#open-questions-21"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#further-links-18"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#references-21"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="9.8" data-path="onboard.html"><a href="onboard.html#ecall"><i class="fa fa-check"></i><b>9.8</b> Emergency call</a><ul>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#synonyms-19"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#definition-22"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#key-stakeholders-22"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-research-22"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#current-state-of-art-in-practice-21"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#relevant-initiatives-in-austria-22"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#impacts-with-respect-to-sustainable-development-goals-sdgs-22"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#technology-and-societal-readiness-level-22"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#open-questions-22"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#further-links-19"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="onboard.html"><a href="onboard.html#references-22"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="freight.html"><a href="freight.html"><i class="fa fa-check"></i><b>10</b> Freight and commercial transport</a><ul>
+<li class="chapter" data-level="10.1" data-path="freight.html"><a href="freight.html#automated_road_freight"><i class="fa fa-check"></i><b>10.1</b> Automated road freight</a></li>
+<li class="chapter" data-level="10.2" data-path="freight.html"><a href="freight.html#dangerous_goods"><i class="fa fa-check"></i><b>10.2</b> Tracking and tracing of dangerous goods</a></li>
+<li class="chapter" data-level="10.3" data-path="freight.html"><a href="freight.html#intermodal_freight"><i class="fa fa-check"></i><b>10.3</b> Intermodal Freight</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#synonyms-20"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-23"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-23"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-23"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-22"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-23"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-23"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-23"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-23"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#further-links-20"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-23"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.4" data-path="freight.html"><a href="freight.html#disruption_management"><i class="fa fa-check"></i><b>10.4</b> Real-time disruption management and route planning</a></li>
+<li class="chapter" data-level="10.5" data-path="freight.html"><a href="freight.html#urban_delivery"><i class="fa fa-check"></i><b>10.5</b> Urban Deliveries</a></li>
+<li class="chapter" data-level="10.6" data-path="freight.html"><a href="freight.html#intelligent_truck_park"><i class="fa fa-check"></i><b>10.6</b> Intelligent truck parking</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#synonyms-21"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-24"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-24"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-24"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-23"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-24"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-24"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-24"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-24"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#further-links-21"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-24"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.7" data-path="freight.html"><a href="freight.html#space_book"><i class="fa fa-check"></i><b>10.7</b> Delivery space booking</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#synonyms-22"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-25"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-25"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-25"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-24"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-25"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-25"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-25"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-25"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#further-links-22"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-25"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.8" data-path="freight.html"><a href="freight.html#delivery_drone"><i class="fa fa-check"></i><b>10.8</b> Delivery drones</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#synonyms-23"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-26"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-26"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-26"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-25"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-26"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-26"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-26"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-26"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#further-links-23"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-26"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.9" data-path="freight.html"><a href="freight.html#rail_telematics_freight"><i class="fa fa-check"></i><b>10.9</b> Rail telematics for freight services</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-27"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-27"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-27"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-26"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-27"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-27"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-27"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-27"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#further-links-24"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-27"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.10" data-path="freight.html"><a href="freight.html#electric_delivery_fleets"><i class="fa fa-check"></i><b>10.10</b> Electric vehicle delivery fleets</a><ul>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#synonyms-24"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#definition-28"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#key-stakeholders-28"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-research-28"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#current-state-of-art-in-practice-27"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#relevant-initiatives-in-austria-28"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#impacts-with-respect-to-sustainable-development-goals-sdgs-28"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#technology-and-societal-readiness-level-28"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#open-questions-28"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="freight.html"><a href="freight.html#references-28"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="10.11" data-path="freight.html"><a href="freight.html#mtms"><i class="fa fa-check"></i><b>10.11</b> Multimodal transport management systems</a></li>
+<li class="chapter" data-level="10.12" data-path="freight.html"><a href="freight.html#freight_hubs"><i class="fa fa-check"></i><b>10.12</b> Freight hubs</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="collective.html"><a href="collective.html"><i class="fa fa-check"></i><b>11</b> Collective mobility vehicles</a><ul>
+<li class="chapter" data-level="11.1" data-path="collective.html"><a href="collective.html#drt"><i class="fa fa-check"></i><b>11.1</b> Demand responsive transit</a><ul>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#synonyms-25"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#definition-29"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#key-stakeholders-29"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-research-29"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-practice-28"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#relevant-initiatives-in-austria-29"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#impacts-with-respect-to-sustainable-development-goals-sdgs-29"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#technology-and-societal-readiness-level-29"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#open-questions-29"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#further-links-25"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#references-29"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="collective.html"><a href="collective.html#prt"><i class="fa fa-check"></i><b>11.2</b> Personal rapid transit</a><ul>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#synonyms-26"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#definition-30"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#key-stakeholders-30"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-research-30"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-practice-29"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#relevant-initiatives-in-austria-30"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#impacts-with-respect-to-sustainable-development-goals-sdgs-30"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#technology-and-societal-readiness-level-30"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#open-questions-30"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#further-links-26"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#references-30"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="collective.html"><a href="collective.html#brt"><i class="fa fa-check"></i><b>11.3</b> Bus rapid transit</a></li>
+<li class="chapter" data-level="11.4" data-path="collective.html"><a href="collective.html#lrt"><i class="fa fa-check"></i><b>11.4</b> Light rail transit</a></li>
+<li class="chapter" data-level="11.5" data-path="collective.html"><a href="collective.html#passenger_drones"><i class="fa fa-check"></i><b>11.5</b> Passenger drones</a><ul>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#synonyms-27"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#definition-31"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#key-stakeholders-31"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-research-31"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#current-state-of-art-in-practice-30"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#relevant-initiatives-in-austria-31"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#impacts-with-respect-to-sustainable-development-goals-sdgs-31"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#technology-and-societal-readiness-level-31"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#open-questions-31"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="collective.html"><a href="collective.html#references-31"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="11.6" data-path="collective.html"><a href="collective.html#automatic_train"><i class="fa fa-check"></i><b>11.6</b> Automatic train operations</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="big.html"><a href="big.html"><i class="fa fa-check"></i><b>12</b> Big data</a><ul>
+<li class="chapter" data-level="12.1" data-path="big.html"><a href="big.html#wireless_com"><i class="fa fa-check"></i><b>12.1</b> Wireless communication systems</a></li>
+<li class="chapter" data-level="12.2" data-path="big.html"><a href="big.html#bd_life"><i class="fa fa-check"></i><b>12.2</b> Big data lifecycle</a></li>
+<li class="chapter" data-level="12.3" data-path="big.html"><a href="big.html#bd_tool_maping"><i class="fa fa-check"></i><b>12.3</b> Big data tools for maping and forecasting travel behaviour</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="shared.html"><a href="shared.html"><i class="fa fa-check"></i><b>13</b> Shared mobility</a><ul>
+<li class="chapter" data-level="13.1" data-path="shared.html"><a href="shared.html#car_sharing"><i class="fa fa-check"></i><b>13.1</b> Car sharing</a><ul>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#synonyms-28"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#definition-32"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#key-stakeholders-32"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-research-32"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-practice-31"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#relevant-initiatives-in-austria-32"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#impacts-with-respect-to-sustainable-development-goals-sdgs-32"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#technology-and-societal-readiness-level-32"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#open-questions-32"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#further-links-27"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#references-32"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="13.2" data-path="shared.html"><a href="shared.html#bike_sharing"><i class="fa fa-check"></i><b>13.2</b> Bicycle and e-bicycle hire</a><ul>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#synonyms-29"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#definition-33"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#key-stakeholders-33"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-research-33"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-practice-32"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#relevant-initiatives-in-austria-33"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#impacts-with-respect-to-sustainable-development-goals-sdgs-33"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#technology-and-societal-readiness-level-33"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#open-questions-33"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#further-links-28"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#references-33"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="shared.html"><a href="shared.html#scooters"><i class="fa fa-check"></i><b>13.3</b> E-scooters</a><ul>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#synonyms-30"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#definition-34"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#key-stakeholders-34"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-research-34"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-practice-33"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#relevant-initiatives-in-austria-34"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#impacts-with-respect-to-sustainable-development-goals-sdgs-34"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#technology-and-societal-readiness-level-34"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#open-questions-34"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#references-34"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="13.4" data-path="shared.html"><a href="shared.html#ride_hailing"><i class="fa fa-check"></i><b>13.4</b> Ride-hailing &amp; Ride-sharing</a><ul>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#synonyms-31"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#definition-35"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#key-stakeholders-35"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-research-35"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#current-state-of-art-in-practice-34"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#relevant-initiatives-in-austria-35"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#impacts-with-respect-to-sustainable-development-goals-sdgs-35"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#technology-and-societal-readiness-level-35"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#open-questions-35"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#further-links-29"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="shared.html"><a href="shared.html#references-35"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="alternative.html"><a href="alternative.html"><i class="fa fa-check"></i><b>14</b> Alternative power sources</a><ul>
+<li class="chapter" data-level="14.1" data-path="alternative.html"><a href="alternative.html#FCEV"><i class="fa fa-check"></i><b>14.1</b> Hydrogen fuel cell</a><ul>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#synonyms-32"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#definition-36"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#key-stakeholders-36"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-research-36"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-practice-35"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#relevant-initiatives-in-austria-36"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#impacts-with-respect-to-sustainable-development-goals-sdgs-36"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#technology-and-societal-readiness-level-36"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#open-questions-36"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#further-links-30"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#references-36"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="14.2" data-path="alternative.html"><a href="alternative.html#bev"><i class="fa fa-check"></i><b>14.2</b> Battery electric</a><ul>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#synonyms-33"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#definition-37"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#key-stakeholders-37"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-research-37"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-practice-36"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#relevant-initiatives-in-austria-37"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#impacts-with-respect-to-sustainable-development-goals-sdgs-37"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#technology-and-societal-readiness-level-37"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#open-questions-37"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#further-links-31"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#references-37"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+<li class="chapter" data-level="14.3" data-path="alternative.html"><a href="alternative.html#plugin_hybrid"><i class="fa fa-check"></i><b>14.3</b> Plugin hybrid vehicles</a><ul>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#synonyms-34"><i class="fa fa-check"></i>Synonyms</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#definition-38"><i class="fa fa-check"></i>Definition</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#key-stakeholders-38"><i class="fa fa-check"></i>Key stakeholders</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-research-38"><i class="fa fa-check"></i>Current state of art in research</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#current-state-of-art-in-practice-37"><i class="fa fa-check"></i>Current state of art in practice</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#relevant-initiatives-in-austria-38"><i class="fa fa-check"></i>Relevant initiatives in Austria</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#impacts-with-respect-to-sustainable-development-goals-sdgs-38"><i class="fa fa-check"></i>Impacts with respect to Sustainable Development Goals (SDGs)</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#technology-and-societal-readiness-level-38"><i class="fa fa-check"></i>Technology and societal readiness level</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#open-questions-38"><i class="fa fa-check"></i>Open questions</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#further-links-32"><i class="fa fa-check"></i>Further links</a></li>
+<li class="chapter" data-level="" data-path="alternative.html"><a href="alternative.html#references-38"><i class="fa fa-check"></i>References</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="reference.html"><a href="reference.html"><i class="fa fa-check"></i><b>15</b> References</a></li>
+<li class="divider"></li>
+<li><a href="https://davemosproject.github.io/knowledge-pool/" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Knowledge Pool</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="traffic" class="section level1">
+<h1><span class="header-section-number">4</span> Traffic management</h1>
+<div id="congestion_charging" class="section level2">
+<h2><span class="header-section-number">4.1</span> Congestion charging</h2>
+<div id="synonyms-6" class="section level3 unnumbered">
+<h3>Synonyms</h3>
+<p><em>Congestion charging scheme, CCS</em></p>
+</div>
+<div id="definition-7" class="section level3 unnumbered">
+<h3>Definition</h3>
+<p>The congestion charging is an example of (urban) road pricing system aimed at reducing congestion and pollution in zones where it applies. The regulations and prices of congestion charges can vary based on spatial, temporal or modal basis (Santos, 2005). Congestion charges are used to influence the traffic demand and discourage the use of roads at congested times (Valletta, 2015). The major congestion charge zone in Europe was introduced in London in 2003 and it imposed a fee for all the vehicles that drove into or through the designated area in the city centre between 7:00 and 18:00 (Mon-Fri) (Munford, 2017). It included a 90% discount for residents, nevertheless, at the time it was considered the most radical transport policy to have been implemented in the recent decades (Banister, 2003). Nearly 20 years later, congestion charges are an effective measure to protect city centres, used in several cities around the world such as London, Singapore, New York, Stockholm, Milan, Bergen or Gothenburg, even though they are still rather unpopular within the society. The research findings with respect of the effectiveness of this transport policy on a number of aspects are summarized in the <em>research section</em>, below.</p>
+</div>
+<div id="key-stakeholders-7" class="section level3 unnumbered">
+<h3>Key stakeholders</h3>
+<ul>
+<li><strong>Affected</strong>: Local residents, car and truck drivers, motor bikers, cyclists, pedestrians</li>
+<li><strong>Responsible</strong>: Local and national governments, transport authorities</li>
+</ul>
+</div>
+<div id="current-state-of-art-in-research-7" class="section level3 unnumbered">
+<h3>Current state of art in research</h3>
+<p>Given that congestion charging has been used for some time now, the existing research focuses mainly on the effects of the introduction of congestion charges on different areas that may be affected, such as air quality, housing prices, traffic improvements, travel behavior and road safety, economic aspects and social acceptability. <br/></p>
+<p>Starting with public attitude towards congestion charging schemes, it is fair to say that public opinion is divided and there are several factors which influence the outlook on this transport policy. For example, study by Grisolía et al. (2015) showed the differences in acceptance levels between drivers and non-drivers, where the letter ones are more favorable to congestion charging systems. Moreover, Hamilton (2011) came to a similar conclusion where he found that higher frequency of car use was associated with lower acceptance of congestion charges. Further, the study showed that public acceptance of congestion charging is likely to increase with more experience with the charging system but also among individuals with high value of time and pro-environmental interests as well as those who are in favour of high degree of government intervention.<br/></p>
+<p>What is more, a number of studies showed that congestion charging has led to a significant improvement in traffic conditions where travel times decreased by 19% on average. Beyond, 14.5% decrease of the private vehicles’ presence in the affected area was observed and the use of public transport increased by up to 18% (What Works Centre for Local Economic Growth, 2020; Gibson &amp; Carnovale, 2015; Amelsfort &amp; Swedish, 2015).</p>
+<p>With respect to road safety the results are ambiguous depending on the location. For example, the road safety improved in London and Milan, however in Rome it deteriorated following the switch from cars to motorcycles leading to higher accidents rate (Amelsfort &amp; Swedish, 2015).<br/></p>
+<p>Next, a number of studies demonstrated the positive impact of congestion charges on air pollution within the targeted zones, where the levels of CO<sub>2</sub> decreased by 19.5% on average and NO<sub>x</sub> (nitrogen oxides) decreased by 10.5% (Amelsfort &amp; Swedish, 2015).<br/></p>
+<p>In terms of economic effects, it has been showed that implementation of congestion charges can increase house values within the zone (potentially due to additional exemptions for residents). For example, following the introduction of congestion charge in London residential property values rose by 5%. At the same time, congestion charging can lead to a reduction in retail property values. In Singapore after the implementation of road pricing scheme the retail real estate prices decreased in the targeted zone (Amelsfort &amp; Swedish, 2015; Agarwal, 2015). Further, study by Percoco (2014) found that the introduction of road pricing system reduced house prices in the affected zone. In conclusion, literature shows a mixed effect of congestion charges on property values, depending on specific location and additional regulation and exceptions that are in place.</p>
+</div>
+<div id="current-state-of-art-in-practice-7" class="section level3 unnumbered">
+<h3>Current state of art in practice</h3>
+<p>Nowadays there are different functioning models of congestion charging schemes around the world. One broadly used model is the <em>zone/cordon-based charges</em> which is based on the idea of geographic boundary so that charges are implemented when entering or leaving the zone (or both). Henceforth, travelers within the zone do not incur the cost. This contrasts with so-called <em>area charging</em> where the fees apply to all the drivers traveling or parking within the designated area. The first one may be though of as a ‘per passage charge’ and the latter ‘once per 24h charge’ when the fees are charged daily. Cordon-based charging is currently used in multiple Norwegian cities (eg. Bergen and Oslo), Milan or Durham while area charging systems is present in London. <br/></p>
+<p>What is more, initially a number of exemptions were available for low emission and alternative fuel vehicles such as all-electric cars and plug-in hybrids however local authorities gradually moved away from these discounts (Chris, 2016). For example, in Vienna there are several regulations for the entry of company vehicles with different levels of emissions into the city center. These were first introduced in 2014 and they require all the business vehicles to have an environmental badge known as ‘Umwelt Pickerl’ to access the city. Moreover, there is an ‘Emergency Scheme’ in Vienna which becomes effective as soon as the certain pollution limits are exceeded. As a result, and depending on the severity of the event, either a recommendation to switch to public transport is announced or vehicles with internal combustion engines can be banned from driving (Sadler Consultants Ltd, 2021).</p>
+</div>
+<div id="relevant-initiatives-in-austria-7" class="section level3 unnumbered">
+<h3>Relevant initiatives in Austria</h3>
+<ul>
+<li><a href="https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna">urbanaccessregulations.eu</a></li>
+<li><a href="https://www.environmentalbadge.com/environmental-zone-vienna/">environmentalbadge.com</a></li>
+</ul>
+</div>
+<div id="impacts-with-respect-to-sustainable-development-goals-sdgs-7" class="section level3 unnumbered">
+<h3>Impacts with respect to Sustainable Development Goals (SDGs)</h3>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="18%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Impact level</th>
+<th align="center">Indicator</th>
+<th align="center">Impact direction</th>
+<th align="center">Goal description and number</th>
+<th align="center">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Individual</td>
+<td align="center">Social contacts within zone reduced &amp; air quality improved</td>
+<td align="center"><strong>~</strong></td>
+<td align="center">Health &amp; Wellbeing (<em>3</em>)</td>
+<td align="center">Munford, 2017; Beevers &amp; Carslaw, 2005</td>
+</tr>
+<tr class="even">
+<td align="center">Individual</td>
+<td align="center">Increased costs of car use</td>
+<td align="center"><strong>-</strong></td>
+<td align="center">Equality (<em>5,10</em>)</td>
+<td align="center">Amelsfort &amp; Swedish, 2015</td>
+</tr>
+<tr class="odd">
+<td align="center">Individual</td>
+<td align="center">Ambiguous effect on housing value</td>
+<td align="center"><strong>~</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Keat Tang, 2016</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Reduced emissions &amp; increased use of public transport within the affected zone</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Environmental sustainability (<em>7,12-13,15</em>)</td>
+<td align="center">Beevers &amp; Carslaw, 2005; Gibson &amp; Carnovale, 2015</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Increased revenues from charges &amp; increased use of public transport</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Amelsfort &amp; Swedish, 2015</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="technology-and-societal-readiness-level-7" class="section level3 unnumbered">
+<h3>Technology and societal readiness level</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">TRL</th>
+<th align="center">SRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7-9</td>
+<td align="center">5-7</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="open-questions-7" class="section level3 unnumbered">
+<h3>Open questions</h3>
+<ol style="list-style-type: decimal">
+<li>What are the implications of congestion charges on overall welfare in the affected zone?</li>
+<li>What are the effects of different congestion charge designs such as exemptions of different nature?</li>
+<li>What effect the implementation of congestion charge zone will have on the traffic in neighboring areas (due to eg. re-routing)?</li>
+<li>What is the potential for expansion of more sustainable transport mode within the targeted zone ?
+<ul>
+<li>What is the actual modal split?</li>
+<li>What is the proportion of road space occupied by different modes?</li>
+<li>What is the potential of future investment in public transport?</li>
+<li>To what extent road capacity is used for parking (formally and informally)? (Van Amelsfort &amp; Swedish, 2015)</li>
+</ul></li>
+</ol>
+</div>
+<div id="further-links-6" class="section level3 unnumbered">
+<h3>Further links</h3>
+<ul>
+<li><a href="https://whatworksgrowth.org/policy-reviews/transport/congestion-charging">whatworksgrowth.org</a></li>
+<li><a href="https://www.adb.org/sites/default/files/publication/159940/introduction-congestion-charging.pdf">adb.org</a></li>
+<li><a href="http://www.epomm.eu/newsletter/v2/content/2015/0415/doc/eupdate_en.pdf">epomm.eu</a></li>
+</ul>
+</div>
+<div id="references-7" class="section level3 unnumbered">
+<h3>References</h3>
+<ul>
+<li>Agarwal, Sumit, Koo, Kang Mo, &amp; Sing, Tien Foo. (2015). “Impact of electronic road pricing on real estate prices in Singapore.” Journal of Urban Economics, 90, 50–59.</li>
+<li>Banister, D. (2003). Critical pragmatism and congestion charging in London. International Social Science Journal, 55(176), 249-264.</li>
+<li>Beevers, S. D., &amp; Carslaw, D. C. (2005). The impact of congestion charging on vehicle emissions in London. Atmospheric Environment, 39(1), 1-5.
+Lilly, Chris (2016). Congestion charge sunset period ends today. Next Green Car. Available at:
+<a href="https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-today/" class="uri">https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-today/</a> [Accessed 3 February 2021]</li>
+<li>Gibson, M., and Carnovale, M. (2015). “The effects of road pricing on driver behaviour and air pollution” Journal of Urban Economics, 89, pp. 62-73.</li>
+<li>Grisolía, J. M., López, F., &amp; de Dios Ortúzar, J. (2015). Increasing the acceptability of a congestion charging scheme. Transport Policy, 39, 37-47.</li>
+<li>Hamilton, C. J. (2011). Popular Acceptance of Congestion Charging.</li>
+<li>Keat Tang, C. (2016). “The Cost of Traffic: Evidence from the London Congestion Charge” SERC discussion paper 205</li>
+<li>Munford, L. A. (2017). The impact of congestion charging on social capital. Transportation Research Part A: Policy and Practice, 97, 192-208.</li>
+<li>Percoco, M. (2014). “The impact of road pricing on housing prices: Preliminary evidence from Milan” Transportation Research Part A Policy and Practice, 67, pp. 188-194.</li>
+<li>Sadler Consultants Ltd (2021). Wien (Vienna). [online] Urbanaccessregulations.eu. Available at: <a href="https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna" class="uri">https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna</a> [Accessed 3 February 2021].</li>
+<li>Santos, G. (2005). Urban congestion charging: a comparison between London and Singapore. Transport Reviews, 25(5), 511-534.</li>
+<li>What Works Centre for Local Economic Growth (2020). Evidence Review: Congestion charging. [online] Available at: <a href="https://whatworksgrowth.org/public/files/Evidence_reviewed_examples/Congestion_charging_-_Evidence_review.pdf" class="uri">https://whatworksgrowth.org/public/files/Evidence_reviewed_examples/Congestion_charging_-_Evidence_review.pdf</a> [Accessed 2 February 2021].</li>
+<li>Van Amelsfort, D., &amp; Swedish, V. (2015). Introduction to congestion charging: A guide for practitioners in developing cities.</li>
+<li>Valletta, M. (2015) Congestion charging in Europe.</li>
+</ul>
+</div>
+</div>
+<div id="platooning" class="section level2">
+<h2><span class="header-section-number">4.2</span> Platooning</h2>
+<div id="synonyms-7" class="section level3 unnumbered">
+<h3>Synonyms</h3>
+<p><em>Platoon Leader (PL), Platoon Member (PM), Truck Platooning</em></p>
+</div>
+<div id="definition-8" class="section level3 unnumbered">
+<h3>Definition</h3>
+<p>Trucks form a platoon on motorways by lining up in one lane. The trucks that line up behind the first truck in the platoon can save fuel because their air resistance is reduced. The energy efficiency of a vehicle is influenced by factors such as engine, road friction and air resistance, which accounts for more than 40 % of the total energy consumption of a vehicle (Song et al., 2021). In a truck platoon, various technologies such as the ACC (Adaptive Cruise Control) system and the V2V (Vehicle-to-Vehicle) communication protocol are used to effectively control the trucks in the platoon. The camera sensors measure the distance between contiguous trucks in the platoon and these sensor measurements rely on the ACC system. Based on these sensor measurements, the ACC system controls the truck speed via in-vehicle network protocols such as the Controller Area Network (Ghosal et al., 2021).</p>
+</div>
+<div id="key-stakeholders-8" class="section level3 unnumbered">
+<h3>Key stakeholders</h3>
+<ul>
+<li><strong>Affected</strong>: Truck drivers, Other road users</li>
+<li><strong>Responsible</strong>: National Governments, City government, Private Companies, Truck manufacturers</li>
+</ul>
+</div>
+<div id="current-state-of-art-in-research-8" class="section level3 unnumbered">
+<h3>Current state of art in research</h3>
+<p>A considerable amount of research has actively addressed the technical aspects of platooning, such as maintenance between platoon vehicles and safe driving techniques for platoons (Amoozadeh et al., 2015). One focus in research is the security of this innovation. According to Ghosal et al. (2021), the data transmitted between vehicles is not encrypted and this makes the V2V communication protocol vulnerable to cyber-attacks that can disable the radio channels between the trucks in the train. <br/><br/>
+Furthermore, the research looks into the efficiency of vehicles platooning, where the results of a Dutch study showed that a three-truck platooning with a vehicle spacing of 6.7 metres and an overall length of 69.75 metres has a positive impact on traffic flow near junction and passing areas on Dutch motorways with large-scale truck platooning. But as platoon intensity increased, traffic efficiency and safety decreased (Yang et al., 2019).<br/><br/>
+As an innovation in platooning, a lateral offset of the vehicles was proposed which refers to change in the lateral driving position of the subsequent trucks to reduce the abrasion of the road surface. The side shifting of the vehicles results in a use of a wider area of the roadway, but extends the life of the pavement. A value between 100 mm and 150 mm was proposed as the lateral offset, resulting in an average fuel saving of 8% and a reduction in damage of over 30% (Song et al., 2021).<br/><br/>
+In terms of public opinion, the results of a survey in Germany and California showed that the majority of respondents were convinced of the usefulness of truck platooning, but had concerns about driving on the highway at the same time as truck platoons. In fact, safety issues and problems with surrounding traffic were seen as the biggest concerns. The risk of hacking, job loss and legal liability issues were seen as less important. Therefore, it is crucial to increase public awareness on platooning technology and related safety concerns. It is particularly vital because general traffic vehicles cut-ins can significantly affect the efficiency of truck platooning. Therefore, further research should focus on the main factors that influence the cut-in behaviour and finding appropriate countermeasures or communication strategies to further investigate and address the intention to cut-in between platoon vehicles (Castritius et al., 2020).</p>
+</div>
+<div id="current-state-of-art-in-practice-8" class="section level3 unnumbered">
+<h3>Current state of art in practice</h3>
+<p>Comprehensive and transnational demonstrations were carried out as part of the <em>European Truck Platooning Challenge</em>, which was initiated in the Netherlands in 2016 and involved trucks from different manufacturers. Truck platoons were on the public roads in five European countries (Belgium, Denmark, Germany, Netherlands, Sweden) to get one step closer to practical implementation. One focus of the demonstration drives was the analysis of the risk, especially in relation to the length of the formation, the distance as well as the communication between the vehicles. The tests were also observed from the air to observe the interaction with other road users. Potential problems identified were:</p>
+<ul>
+<li>disruption of traffic flow,</li>
+<li>road and bridge wear,</li>
+<li>restrictions in complex traffic situations,</li>
+<li>untrained truck drivers and system failures in certain situations such as tunnels.</li>
+</ul>
+<p>In Germany, truck platoons have been tested in regular operation since 2018 as part of a cooperation between logistics group DB Schenker and vehicle manufacturer MAN. The truck convoys are in use on the A9 motorway between the DB Schenker branches in Munich and Nuremberg. The truck convoys, which consist of a maximum of two vehicles, each marked as test vehicle, are not driven by professional drivers. The key questions addressed by this project are: <em>when to form a truck convoy</em> and <em>how to best join and break up depending on the situation</em>. Furthermore, the acceptance of the new technology in the professional group of drivers will be investigated within the framework of this project. In an accompanying study, the experiences of the participating truck drivers will be systematically evaluated and recordings from the test drives on the interaction with other road users will be analysed. The data will also provide information on what other activities the driver in the rear truck can perform during the phases of autonomous driving.<br/><br/>
+The <em>Sweden4Platooning</em> project, which run until 2020, aimed at harmonising the systems of different manufacturers in DB Schenker’s operations. Further, in the UK, platoons with vehicles from the manufacturer DAF also have been tested on public roads since 2018. Equally noteworthy is the current <em>ENSEMBLE</em> project, which aims at demonstrating truck platoons with vehicles from six manufacturers by 2021. The main goal of the <em>ENSEMBLE</em> project is to form safe truck convoys with vehicles from different manufacturers. At motorway entrances, exits and junctions, the distances between the vehicles in the convoy will automatically adjust to make room for other road users. Moreover, the goal is to facilitate the approval requirements for a cross-border demonstration. All efforts need to consider the results of the individual projects and initiatives, most of which show a need for further research. Some of the unresolved aspects are (Danzl et al., 2019):</p>
+<ul>
+<li>Infrastructure equipment and sensor technology in relation to different levels of automation;</li>
+<li>Networking with existing traffic management centres and traffic management concepts;</li>
+<li>Communication between different actors (road, vehicle, centre, other road users, users);</li>
+<li>Energy-efficient formation, implementation and resolution of truck platoons, based on recognised control strategies and protocols;</li>
+<li>Interurban and urban application scenarios.</li>
+</ul>
+</div>
+<div id="relevant-initiatives-in-austria-8" class="section level3 unnumbered">
+<h3>Relevant initiatives in Austria</h3>
+<p>The technology of truck platooning has many potentials: savings in fuel consumption and emissions and it can partly prevent the everyday problem of traffic congestion. Above all, however, it has the potential to lead to more safety on Austria’s roads and to come a step closer to the <em>Vision Zero</em>.<br/><br/>
+Taking these aspects into account, the flagship project <a href="https://trimis.ec.europa.eu/project/connecting-austria-linking-efficient-and-automated-freight-traffic-motorway-city"><em>Connecting Austria - Linking efficient and automated freight transport from the motorway to the city</em></a> was launched in Austria at the beginning of 2018. The project was funded in the ninth call for proposals of the Austrian Research Promotion Agency (FFG) within the framework of the funding programme <em>Mobility of the Future</em>. <br/><br/>
+However, in order to be able to test truck platooning under real conditions on Austrian roads, amendments to the StVO and the Automated Driving Ordinance (AutomatFahrV) are required. Testing truck platooning only makes sense if a small safety distance is maintained. However, § 18 Abs 1 StVO defines the safety distance when driving behind each other in the sense that every driver must be able to stop his vehicle in case of sudden braking of the vehicle in front. As a general rule, a two-second distance - corresponding to 2 x reaction distance - must be maintained for trucks. However, not only the StVO, but also the AutomatFahrV must be modified after the StVO has been amended to enable the testing of truck platoons. Currently, this only regulates the testing of the following use cases: <em>(1)</em> autonomous minibus, <em>(2)</em> motorway pilot with automatic lane change and <em>(3)</em> self-driving army vehicle.Testing truck platooning on roads with public traffic in Austria is currently not possible from a legal point of view - in contrast to the legal situation in Germany (Danzl et al., 2019).</p>
+</div>
+<div id="impacts-with-respect-to-sustainable-development-goals-sdgs-8" class="section level3 unnumbered">
+<h3>Impacts with respect to Sustainable Development Goals (SDGs)</h3>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="18%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Impact level</th>
+<th align="center">Indicator</th>
+<th align="center">Impact direction</th>
+<th align="center">Goal description and number</th>
+<th align="center">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Reduced emissision</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Environmental sustainability (<em>7,12-13,15</em>)</td>
+<td align="center">Song et al., 2021</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Fuel savings</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Ghosal et al., 2021</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Transnational platooning demostrations</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Partnership &amp; collborations <em>(17)</em></td>
+<td align="center">Danzl et al., 2019</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="technology-and-societal-readiness-level-8" class="section level3 unnumbered">
+<h3>Technology and societal readiness level</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">TRL</th>
+<th align="center">SRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7-9</td>
+<td align="center">5-8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="open-questions-8" class="section level3 unnumbered">
+<h3>Open questions</h3>
+<ol style="list-style-type: decimal">
+<li>What are the digital infrastructure needs of platooning beyond on-board sensors and how can they be addressed?</li>
+<li>What are the possible solutions for platoon merging issues and how can lane changing cut-ins be minimised?</li>
+<li>How platooning will invluence the role of the drivers in the engaged trucks?</li>
+</ol>
+</div>
+<div id="further-links-7" class="section level3 unnumbered">
+<h3>Further links</h3>
+<ul>
+<li><a href="https://www.acea.be/uploads/publications/Platooning_roadmap.pdf">acea.be</a></li>
+<li><a href="https://www.mantruckandbus.com/en/innovation/why-platooning-is-the-future-of-delivery-traffic.html">mantruckandbus.com</a></li>
+<li><a href="https://cohdawireless.com/platooning/">cohdawireless.com</a></li>
+</ul>
+</div>
+<div id="references-8" class="section level3 unnumbered">
+<h3>References</h3>
+<ul>
+<li>Amoozadeh, M., Deng, H., Chuah, C. N., Zhang, H. M., &amp; Ghosal, D. (2015). Platoon management with cooperative adaptive cruise control enabled by VANET. Vehicular Communications, 2(2), 110–123. <a href="https://doi.org/10.1016/j.vehcom.2015.03.004" class="uri">https://doi.org/10.1016/j.vehcom.2015.03.004</a></li>
+<li>Castritius, S. M., Lu, X. Y., Bernhard, C., Liebherr, M., Schubert, P., &amp; Hecht, H. (2020). Public acceptance of semi-automated truck platoon driving. A comparison between Germany and California. Transportation Research Part F: Traffic Psychology and Behaviour, 74, 361–374. <a href="https://doi.org/10.1016/j.trf.2020.08.013" class="uri">https://doi.org/10.1016/j.trf.2020.08.013</a></li>
+<li>Danzl, K., Huber, C., Kathrein, G., Pürstl, G., Blass, P., Kaiser, S., &amp; Romaniewicz-wenk, M. (2019). VERKEHRSRECHT.</li>
+<li>Ghosal, A., Sagong, S. U., Halder, S., Sahabandu, K., Conti, M., Poovendran, R., &amp; Bushnell, L. (2021). Truck platoon security: State-of-the-art and road ahead. Computer Networks, 185(April 2020), 107658. <a href="https://doi.org/10.1016/j.comnet.2020.107658" class="uri">https://doi.org/10.1016/j.comnet.2020.107658</a></li>
+<li>Song, M., Chen, F., &amp; Ma, X. (2021). Organization of autonomous truck platoon considering energy saving and pavement fatigue. Transportation Research Part D: Transport and Environment, 90, 102667. <a href="https://doi.org/https://doi.org/10.1016/j.trd.2020.102667" class="uri">https://doi.org/https://doi.org/10.1016/j.trd.2020.102667</a></li>
+<li>Yang, D., Kuijpers, A., Dane, G., &amp; Der Sande, T. Van. (2019). Impacts of large-scale truck platooning on Dutch highways. Transportation Research Procedia, 37(September 2018), 425–432. <a href="https://doi.org/10.1016/j.trpro.2018.12.212" class="uri">https://doi.org/10.1016/j.trpro.2018.12.212</a></li>
+</ul>
+</div>
+</div>
+<div id="traffic_info_monitoring" class="section level2">
+<h2><span class="header-section-number">4.3</span> Real-time traffic information and monitoring</h2>
+</div>
+<div id="cits" class="section level2">
+<h2><span class="header-section-number">4.4</span> Cooperative - intelligent transport system</h2>
+</div>
+<div id="dynamic_route" class="section level2">
+<h2><span class="header-section-number">4.5</span> Dynamic route guidance</h2>
+</div>
+<div id="variable_speed" class="section level2">
+<h2><span class="header-section-number">4.6</span> Variable speed limits and dynamic signage system</h2>
+<div id="synonyms-8" class="section level3 unnumbered">
+<h3>Synonyms</h3>
+<p><em>Variable speed limits (VSL), dynamic speed limits (DSL), Verkehrsbeeinflussungsanlagen (VBA), Changeable Message Signs (CMS), Dynamic Signage System</em></p>
+</div>
+<div id="definition-9" class="section level3 unnumbered">
+<h3>Definition</h3>
+<p>Speed limits are based on safety, mobility and environmental considerations. While fixed speed limits represent the appropriate speed for average conditions, variable or dynamic speed limits (DSL) take account of the real time traffic, or the road and weather conditions. Therefore, the latter reflect the safe speed better (Mobility and Transport, 2020). The road users are typically informed of the current speed limit by electronic signs above or beside the lanes (De Pauw et al., 2018), as shown in figure 1. These can be supplemented with warning signs (dynamic signage system). For example, if the usual speed limit is 100 km/h, the DSL could change to 80 km/h and further to 60 km/h, to limit rear-end collisions, if there is e.g., a traffic jam ahead or weather conditions are difficult.</p>
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<img src="image/dynamic_signage.png" alt="Dynamic signage system in Austria (ASFiNAG, 2019b)" width="90%" />
+<p class="caption">
+Figure 4.1: Dynamic signage system in Austria (ASFiNAG, 2019b)
+</p>
+</div>
+<p>With respect to the impact on the societal level, a Belgian study, by E. De Pauw et al. showed a significant decrease (-18 %) in the number of injury crashes after the introduction of a DSL system (De Pauw et al., 2018). F.G. Habtemichael and L. de Picado Santos (2013) found that a DSL system has the highest safety benefit during highly congested traffic conditions. The operational benefit in turn was the highest during lightly congested traffic conditions. However, the success of DSL is highly dependent on the level of driver compliance (Habtemichael &amp; de Picado Santos, 2013). Besides the safety aspects, the goal of DSL is to harmonize the traffic flow. Heavy traffic can cause shock waves, which result in longer travel times and large variations in the speeds of the vehicles. The latter again may lead to unsafe situations. By using DSL this phenomenon could be reduced (Hegyi et al., 2005). Traffic flow efficiency can be improved more, when DSL is combined with coordinated ramp metering (Carlson, 2010). Speed limits can also be temporary lowered, due to high emission values. If the emission values combined with the amount of traffic, reach a specific level, the DSL-System responds automatically and lowers the speed limit for a certain time. How high that level is, depends on the local policies (ASFiNAG, 2019c).</p>
+</div>
+<div id="key-stakeholders-9" class="section level3 unnumbered">
+<h3>Key stakeholders</h3>
+<ul>
+<li><strong>Affected</strong>: Motorways users</li>
+<li><strong>Responsible</strong>: Motorway Infrastructure Agencies, Technology Providers, Policymakers, State authorities</li>
+</ul>
+</div>
+<div id="current-state-of-art-in-research-9" class="section level3 unnumbered">
+<h3>Current state of art in research</h3>
+<p>Studies show, that in retrospect most DSL implementations in Europe were efficient traffic safety and flow improvement. In the United States the increase in safety was significant as well, but the flow improvement was controversial (Lu &amp; Shladover, 2014). Hassan et al. (2012) discovered that during bad weather conditions the combination of Changeable Message Signs (CMS) and DSL was the best way to improve safety. Current research shows that the benefits of DSL systems could be improved by integrating it in a fully connected vehicles (CV) environment (Wu et al., 2020). Currently, research focuses on the integration of C-ITS, to connect the infrastructure to the vehicles. European standards should be developed during the next years (Erhart, 2019).</p>
+</div>
+<div id="current-state-of-art-in-practice-9" class="section level3 unnumbered">
+<h3>Current state of art in practice</h3>
+<p>DSL systems are implemented and used around the world. The used algorithms differ, however. DSL integrated with C-ITS has been implemented in a test environment (Erhart, 2019).
+Austrian motorways are managed by the ASFiNAG - currently they have 17 DSL systems in use. That means that about 19 % of the Austrian Motorway-System are currently equipped by an DSL system (ASFiNAG, 2019a). So, there is potential for expansion. One global player in traffic management is the Austrian company Kapsch TrafficCom. Worldwide they have implemented their systems on more than 3.500 km of motorway (Kapsch TrefficCom). Kapsch TrafficCom’s approximately 5,000 employees generated revenues of EUR 738 million in the fiscal year 2018/19.</p>
+</div>
+<div id="relevant-initiatives-in-austria-9" class="section level3 unnumbered">
+<h3>Relevant initiatives in Austria</h3>
+<ul>
+<li><a href="https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/">Asfinag</a></li>
+<li><a href="https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/">Asifinag blog</a></li>
+<li><a href="https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management">kapsch.net</a></li>
+<li><a href="https://www.strabag-iss.com/databases/internet/_public/content30.nsf/web30?Openagent&amp;id=DE-STRABAGISS-DE_verkehrstechnik.html&amp;men1=3&amp;men2=5&amp;sid=351">strabag-iss.com</a></li>
+<li><a href="https://www.pke.at/index.php?id=17#c117">pke.at</a></li>
+<li><a href="http://www.aigner-stahlbau.at/leistungen/verkehrstechnik/">aigner-stahlbau.at</a></li>
+</ul>
+</div>
+<div id="impacts-with-respect-to-sustainable-development-goals-sdgs-9" class="section level3 unnumbered">
+<h3>Impacts with respect to Sustainable Development Goals (SDGs)</h3>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="18%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Impact level</th>
+<th align="center">Indicator</th>
+<th align="center">Impact direction</th>
+<th align="center">Goal description and number</th>
+<th align="center">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Individual</td>
+<td align="center">Fatal collisions reduced</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Health &amp; Wellbeing (<em>3</em>)</td>
+<td align="center">Hegyi et al., 2005</td>
+</tr>
+<tr class="even">
+<td align="center">Individual</td>
+<td align="center">Travel time reduced</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Environmental sustainability (<em>7,12,13,15</em>)</td>
+<td align="center">Habtemichael &amp; de Picado Santos, 2013</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Fatal collisions reduced</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Health &amp; Wellbeing (<em>3</em>)</td>
+<td align="center">Hegyi et al., 2005</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Annual greenhouse gas emissions decrease</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Environmental sustainability (<em>7,12-13,15</em>)</td>
+<td align="center">Schimany, 2011</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="technology-and-societal-readiness-level-9" class="section level3 unnumbered">
+<h3>Technology and societal readiness level</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">TRL</th>
+<th align="center">SRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7-9</td>
+<td align="center">8-9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="open-questions-9" class="section level3 unnumbered">
+<h3>Open questions</h3>
+<ol style="list-style-type: decimal">
+<li>Which algorithms for DSL are the most efficient ones?</li>
+<li>How can DSL be further developed?</li>
+<li>How can fail-safe operation be improved?</li>
+<li>How can DSL be combined with C-ITS?</li>
+</ol>
+</div>
+<div id="references-9" class="section level3 unnumbered">
+<h3>References</h3>
+<ul>
+<li>ASFiNAG. (2019a). Handlungsfelder. Retrieved 17th December 2020, from <a href="http://verkehrssicherheit.asfinag.at/aktionsprogramme/handlungsfelder/" class="uri">http://verkehrssicherheit.asfinag.at/aktionsprogramme/handlungsfelder/</a></li>
+<li>ASFiNAG. (2019b). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Arten von Verkehrsbeeinflussungsanlagen. Retrieved 11th December 2020, from <a href="https://asfinag.azureedge.net/media/1607/vba-fotomontage.jpg" class="uri">https://asfinag.azureedge.net/media/1607/vba-fotomontage.jpg</a></li>
+<li>ASFiNAG. (2019c). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Die VBA und der “Lufthunderter”. Retrieved 3rd December 2020, from <a href="https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/" class="uri">https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/</a></li>
+<li>Carlson, R. C., Papamichail, I., Papageorgiou, M., &amp; Messmer, A. (2010). Optimal motorway traffic flow control involving variable speed limits and ramp metering. Transportation Science, 44(2), 238-253.</li>
+<li>De Pauw, E., Daniels, S., Franckx, L., &amp; Mayeres, I. (2018). Safety effects of dynamic speed limits on motorways. Accident Analysis &amp; Prevention, 114, 83-89.</li>
+<li>Erhart, Jaqueline. (2019). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. Retrieved 17th December 2020, from <a href="https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/" class="uri">https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/</a><br />
+</li>
+<li>Habtemichael, F. G., &amp; de Picado Santos, L. (2013). Safety and Operational Benefits of Variable Speed Limits under Different Traffic Conditions and Driver Compliance Levels. Transportation Research Record, 2386(1), 7–15. <a href="https://doi.org/10.3141/2386-02" class="uri">https://doi.org/10.3141/2386-02</a></li>
+<li>Hassan, H. M., Abdel-Aty, M. A., Choi, K., &amp; Algadhi, S. A. (2012). Driver behavior and preferences for changeable message signs and variable speed limits in reduced visibility conditions. Journal of Intelligent Transportation Systems, 16(3), 132-146.</li>
+<li>Hegyi, A., De Schutter, B., &amp; Hellendoorn, J. (2005). Optimal coordination of variable speed limits to suppress shock waves. IEEE Transactions on intelligent transportation systems, 6(1), 102-112.</li>
+<li>Kapsch TrefficCom. Verkehrsmanagement auf Autobahnen. Retrieved 8th January 2021, <a href="https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management" class="uri">https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management</a></li>
+<li>Lu, X.-Y., &amp; Shladover, S. E. (2014). Review of Variable Speed Limits and Advisories: Theory, Algorithms, and Practice. Transportation Research Record, 2423(1), 15–23. <a href="https://doi.org/10.3141/2423-03" class="uri">https://doi.org/10.3141/2423-03</a></li>
+<li>Mobility and Transport | European Commission. (2020). Dynamic speed limits. Retrieved 2nd December 2020, from <a href="https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/new_technologies_new_opportunities/dynamic_speed_limits_en" class="uri">https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/new_technologies_new_opportunities/dynamic_speed_limits_en</a></li>
+<li>Schimany, H. K. (2011). Blue Globe Foresight.</li>
+<li>Wu, Y., Abdel-Aty, M., Wang, L., &amp; Rahman, M. S. (2020). Combined connected vehicles and variable speed limit strategies to reduce rear-end crash risk under fog conditions. Journal of Intelligent Transportation Systems, 24(5), 494-513.</li>
+</ul>
+</div>
+</div>
+<div id="adaptive_traffic_control" class="section level2">
+<h2><span class="header-section-number">4.7</span> Adaptive traffic signal control</h2>
+<div id="synonyms-9" class="section level3 unnumbered">
+<h3>Synonyms</h3>
+<p><em>Adaptive Traffic Signal Control (ATSC), Traffic Signal Timing (TST), Traffic Signal Control (TSC)</em></p>
+</div>
+<div id="definition-10" class="section level3 unnumbered">
+<h3>Definition</h3>
+<p>In the recent years, the increasing population and the urgent need for efficient transport have led to severe traffic problems, especially in urban areas. Congestion mitigation solutions such as optimising the road network and improving basic urban management facilities have been proposed to cope with the pressure caused by the large traffic flow during peak hours. Among all possible methods, the adaptive traffic signal control (ATSC) which combine the intelligence into traffic light control systems has proven to be both, economical and efficient in relieving traffic pressure at congested intersections. With the development of deep learning techniques, ATSC strategies have shown great potential in integrating state-of-the-art intelligent methods (Wang et al., 2021). <br/><br/>
+Existing traffic light control systems either employ fixed programs without incorporating real-time traffic or take little account of traffic (Casas, 2017). They either set the traffic lights to the same duration every cycle or vary the duration depending on historical information. Some of them take input information from the underground sensors, such as inductive loop detectors, to detect vehicles near the traffic lights. However, such data is processed very crudely to determine the duration of green and red traffic lights. Consequently, they work in some cases (with low efficiency); however, during events such as sports, festivals, weather conditions or a typical high traffic volume scenario, the existing control systems tend to be paralysed. <br/><br/>
+The recent research paper by Liang et al., 2019 reports that an experienced police officer can efficiently and directly control the intersection by waving signals. Especially, in high traffic volume scenarios, a human operator observes the real-time traffic condition at the intersecting streets and adjusts the duration of the passage time accordingly. The aim of the adaptive traffic signal control is to provide flexibility and efficiency in traffic management comparable to that provided by a human operator through the employment of V2X and Deep Reinforcement learning (Wang et al., 2021).</p>
+</div>
+<div id="key-stakeholders-10" class="section level3 unnumbered">
+<h3>Key stakeholders</h3>
+<ul>
+<li><strong>Affected</strong>: Road drivers, cyclists, pedestrians</li>
+<li><strong>Responsible</strong>: Local governments, Local or national road infrastructure provides, car manufacturers</li>
+</ul>
+</div>
+<div id="current-state-of-art-in-research-10" class="section level3 unnumbered">
+<h3>Current state of art in research</h3>
+<p>Existing ATSC methods focus on varying the duration of green or red cycles based on real-time information. Nevertheless, this approach is not optimal because it neglects the impact of the current green and red lights durations on the upcoming traffic. Therefore, ATSC performs better than the fixed duration system but worse than more flexible methods because the optimal phase duration in the last cycles does not perform better in the future considering updated information about complex traffic conditions. <br/><br/></p>
+<p>With Deep Learning (DL) methods (which serve as input to the intersection controls), the optimal design of the basic control indices such as green phase duration and phase sequence of the traffic light at an intersection can be considered as an optimal decision-making procedure. Next, the reinforcement learning (RL) is applied to signal control to obtain the best control procedure for a signalised intersection. However, in order to achieve instantaneous data acquisition and transmission with low latency, Cooperative Vehicle Infrastructure System (CVIS) is needed to support inter-vehicle communication and vehicles with roadside infrastructure communication (see <a href="digital.html#v2x">V2X section</a>). Compared to traditional sensor detectors, V2X can collect more accurate traffic data to provide comprehensive information for traffic control, resulting in better RL decision-making (Wang et al., 2021). <br/><br/>
+Moreover, the analysis of the recent literature for the optimisation of TSC systems, which have been published from January 2015 to January 2020 revealed that only two papers deal with signalised roundabouts. Roundabouts have different traffic dynamics compared to regular intersections. With an increasing use of signalised roundabouts, especially in urban areas, it is believed that TSC for signalised roundabouts is a particular research gap in this area. Although there are studies conducted using real data and real-time control, there are scarce results and/or methods applied or adapted in real life. One of the main challenges for researchers in this field would be to bring these methods to decision makers and implementers. <br/><br/>
+Moreover, a vast majority of work found on this topic deals with the timing of traffic signals and their impact on average delay and/or emissions. An important part of busy intersections, especially in metropolitan areas, is pedestrian traffic. With the exception of Vilarinho et al., (2017) and Yu et al., (2017), pedestrians and the effects of their behaviour are not modelled in the studies. The same applies for drivers’ behaviour. An important research direction would be to analyse the effects of pedestrian and driver behaviour on the models. <br/><br/>
+Furthermore, the number of studies dealing with autonomous vehicles and technologies is growing rapidly. The most recent studies address the general area of how autonomous vehicles can be introduced safely and/or efficiently and/or environmentally friendly into the traffic flow
+(Qadri et al., 2020a). <br/><br/>
+While learning from trial and error is the key idea in RL, the learning cost of RL for complicated problems might be unacceptable. Therefore, how to learn efficiently (e.g. from limited data samples, efficient exploration, transfer of learned knowledge) is a critical issue for the application of RL in traffic signal control (Wei et al., 2019).</p>
+</div>
+<div id="current-state-of-art-in-practice-10" class="section level3 unnumbered">
+<h3>Current state of art in practice</h3>
+<p>A number of stakeholders are focusing on the development of adaptive traffic control systems that support a range of smart city traffic applications, such as public transport signal priority (see <a href="infrastructure.html#public_trans_priority">PTSP section</a> for further details), eco-driving support, messaging, intelligent traffic signal control (STSC) and emergency vehicle signal pre-emption (EVSP). Due to these factors and steady advances in sensors, artificial intelligence (AI) and machine learning, the global market for adaptive traffic control systems is forecasted to reach the market value of US$21.9 billion by the end of 2030.
+Governments and city administrations in different regions of the world are looking for new ways to respond to the increasing number of traffic accidents and managing road congestion, which is why adaptive traffic control systems have attracted a lot of interest in recent years as a viable alternative to address the existing challenges (The Sentinel Newspaper, 2021).
+There are many options already existing and more are still under development. Currently available adaptive signal control technologies include:</p>
+<ul>
+<li>Split Cycle Offset Optimisation Technique (SCOOT);</li>
+<li>Sydney Coordinated Adaptive Traffic System (SCATS),</li>
+<li>Real Time Hierarchical Optimised Distributed Effective System (RHODES);</li>
+<li>Optimised Policies for Adaptive Control (OPAC) <em>Virtual Fixed Cycle</em></li>
+<li>ACS Lite</li>
+</ul>
+<p>Real-time control of traffic systems have proven performance record, yet these systems have been deployed in less than 1% of existing traffic signals in America. The Federal Highway Administration is now working to roll out these technologies to the rest of the country (Curtis, 2017). Further, for example, in Germany the adaptive signal control system has been installed on a 6 km long arterial in Muenster, where it was demonstrated to have positive effect on traffic quality and improve the bus transit by 30% based on the adopted performance index (Brilon &amp; Wietholt, 2013).</p>
+</div>
+<div id="relevant-initiatives-in-austria-10" class="section level3 unnumbered">
+<h3>Relevant initiatives in Austria</h3>
+<ul>
+<li><a href="https://www.asfinag.at/road-safety/traffic-management/traffic-control/">Asfinag</a></li>
+<li><a href="https://www.atc.or.at/smart-cities/smart-mobility/urban-traffic-management-solutions/">ATC</a></li>
+</ul>
+</div>
+<div id="impacts-with-respect-to-sustainable-development-goals-sdgs-10" class="section level3 unnumbered">
+<h3>Impacts with respect to Sustainable Development Goals (SDGs)</h3>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="18%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Impact level</th>
+<th align="center">Indicator</th>
+<th align="center">Impact direction</th>
+<th align="center">Goal description and number</th>
+<th align="center">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Scarcity of studies that include the effects of pedestrians behaviour</td>
+<td align="center"><strong>-</strong></td>
+<td align="center">Equality (<em>5,10</em>)</td>
+<td align="center">Qadri et al., 2020b</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Decrease in congestion at the intersections</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Wang et al., 2021</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Progress in the use of RL algorithms and V2X technologies</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Innovation &amp; Infrastructure (<em>9</em>)</td>
+<td align="center">Wang et al., 2021</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="technology-and-societal-readiness-level-10" class="section level3 unnumbered">
+<h3>Technology and societal readiness level</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">TRL</th>
+<th align="center">SRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7-9</td>
+<td align="center">7-8</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="open-questions-10" class="section level3 unnumbered">
+<h3>Open questions</h3>
+<ol style="list-style-type: decimal">
+<li>How can ATSC for signalised roundabouts be designed, developed and implemented?</li>
+<li>How can pedestrian movement be included to a larger extent into the algorithms of ATSC?</li>
+<li>How can reinforcement learning algorithms learn efficiently from limited data samples for the purpose traffic signal control?</li>
+</ol>
+</div>
+<div id="further-links-8" class="section level3 unnumbered">
+<h3>Further links</h3>
+<ul>
+<li><a href="https://www.rapidflowtech.com/surtrac">rapidflowtech.com</a></li>
+<li><a href="https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm">fhwa.dot.gov</a></li>
+</ul>
+</div>
+<div id="references-10" class="section level3 unnumbered">
+<h3>References</h3>
+<ul>
+<li>Brilon, W., &amp; Wietholt, T. (2013). Experiences with adaptive signal control in Germany. Transportation research record, 2356(1), 9-16.</li>
+<li>Casas, N. (2017). Deep deterministic policy gradient for urban traffic light control. ArXiv, 1–12.</li>
+<li>Curtis, E. (2017, September 8). EDC-1: Adaptive Signal Control Technology | Federal Highway Administration. <a href="https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm" class="uri">https://www.fhwa.dot.gov/innovation/everydaycounts/edc-1/asct.cfm</a></li>
+<li>Liang, X., Du, X., Wang, G., &amp; Han, Z. (2019). A Deep Reinforcement Learning Network for Traffic Light Cycle Control. IEEE Transactions on Vehicular Technology, 68(2), 1243–1253. <a href="https://doi.org/10.1109/TVT.2018.2890726" class="uri">https://doi.org/10.1109/TVT.2018.2890726</a></li>
+<li>Qadri, S. S. S. M., Gökçe, M. A., &amp; Öner, E. (2020a). State-of-art review of traffic signal control methods: challenges and opportunities. European Transport Research Review, 12(1), 55. <a href="https://doi.org/10.1186/s12544-020-00439-1" class="uri">https://doi.org/10.1186/s12544-020-00439-1</a></li>
+<li>Qadri, S. S. S. M., Gökçe, M. A., &amp; Öner, E. (2020b). State-of-art review of traffic signal control methods: challenges and opportunities. European Transport Research Review, 12(1), 1–23. <a href="https://doi.org/10.1186/s12544-020-00439-1" class="uri">https://doi.org/10.1186/s12544-020-00439-1</a></li>
+<li>The Sentinel Newspaper. (2021, March 3). Adaptive Traffic Control System Market to reach US$ 21.9 Bn by 2030 – KSU | The Sentinel Newspaper. <a href="https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/" class="uri">https://ksusentinel.com/2021/03/03/adaptive-traffic-control-system-market-to-reach-us-21-9-bn-by-2030/</a></li>
+<li>Vilarinho, C., Tavares, J. P., &amp; Rossetti, R. J. F. (2017). Intelligent Traffic Lights: Green Time Period Negotiaton. Transportation Research Procedia, 22, 325–334. <a href="https://doi.org/https://doi.org/10.1016/j.trpro.2017.03.039" class="uri">https://doi.org/https://doi.org/10.1016/j.trpro.2017.03.039</a></li>
+<li>Wang, T., Cao, J., &amp; Hussain, A. (2021). Adaptive Traffic Signal Control for large-scale scenario with Cooperative Group-based Multi-agent reinforcement learning. Transportation Research Part C: Emerging Technologies, 125(February), 103046. <a href="https://doi.org/10.1016/j.trc.2021.103046" class="uri">https://doi.org/10.1016/j.trc.2021.103046</a></li>
+<li>Wei, H., Zheng, G., Gayah, V., &amp; Li, Z. (2019). A survey on traffic signal control methods. ArXiv, 1(1).</li>
+<li>Yu, C., Ma, W., Han, K., &amp; Yang, X. (2017). Optimization of vehicle and pedestrian signals at isolated intersections. Transportation Research Part B: Methodological, 98, 135–153. <a href="https://doi.org/https://doi.org/10.1016/j.trb.2016.12.015" class="uri">https://doi.org/https://doi.org/10.1016/j.trb.2016.12.015</a></li>
+</ul>
+</div>
+</div>
+<div id="p_g_fleet_management" class="section level2">
+<h2><span class="header-section-number">4.8</span> Passengers and goods fleet management</h2>
+</div>
+<div id="urban_access" class="section level2">
+<h2><span class="header-section-number">4.9</span> Urban access management</h2>
+<div id="synonyms-10" class="section level3 unnumbered">
+<h3>Synonyms</h3>
+<p><em>Access Regulation Schemes (ARS), Urban Vehicle Access Regulations (UVARs), Low Emission Zones (LEZ), Access Restrictions, Traffic Restrictions, Limited Traffic Zones, Permit Schemes</em></p>
+</div>
+<div id="definition-11" class="section level3 unnumbered">
+<h3>Definition</h3>
+<p>Urban Access Management can be seen as regulations, restrictions or bans, for traffic entering cities. Factors like congestion, air pollution, traffic noise or damage to historic buildings are influencing the liveability of cities negatively. Therefore, many cities have been introducing Access Regulation Schemes (ARS) with the goal of less vehicles entering the particular city or area. Implementing a pedestrian zone, is the simplest type of ARS and can improve the attractiveness of tourist attractions or shopping streets significantly (Sadler Consultants Europe GmbH, n.d. c). ARS can be differentiated by vehicle type, vehicle weight, by type of trip (e.g. delivery), by driver (e.g. residents or access), or applies to all vehicles (Sadler Consultants Europe GmbH, n.d. c). Furthermore, ARS can be static or dynamic, depending, for example, on the time of the day or air pollution levels. A list below provides examples of current measures used in the urban areas:</p>
+<ul>
+<li>Low Emission Zones (LEZ)</li>
+<li>Limited Access Zones</li>
+<li>Urban Toll Schemes / Congestion Charging (CS)</li>
+<li>Emergency Air Pollution Schemes</li>
+<li>Zero Emission Zones (ZEZ)</li>
+<li>Other Access Regulations (like Limited Traffic Zones, Through traffic bans, `Superblocks´ etc.)</li>
+<li>Smaller Regulations / Restrictions (like school streets or shared spaces) (Sandler Consultants Europe GmbH, n.d. d).</li>
+</ul>
+<p>Solutions for ARS can be enforced by physical barriers or cameras, based on automatic number plate recognition (ANPR) systems and/or dedicated short-range communication (DSRC) technology, using on-board units (OBUs) (Kapsch TrafficCom., n.d. b) or by police or local authority officers (Sadler Consultants Europe GmbH, n.d. c). <br/></p>
+<p>The impact of Urban Vehicle Access Regulations differs according the implemented schemes, but several common goals are addressed:
+- Air quality improvement
+- Traffic congestion reduction
+- Urban landscape preservation (historical town centres)
+- Climate change mitigation
+- Quality of life
+- Noise mitigation
+- Road safety
+- Raising revenues (Sandler Consultants Europe GmbH, n.d. d).</p>
+<p>In Austria, several cities and regions have implemented Low Emission Zones (LEZ) for lorries. For example, the city of Salzburg has Access Regulations (AR) for the city centre in place, so only vehicles with a specific reason (delivery or police) are allowed to enter. On the other hand, Tirol introduces occasionally traffic bans during the summer months (Sandler Consultants Europe GmbH, n.d. a). While, the city of Vienna aims at implementing a traffic-calmed city centre by 2022 (Stadt Wien, 2020).</p>
+</div>
+<div id="key-stakeholders-11" class="section level3 unnumbered">
+<h3>Key stakeholders</h3>
+<ul>
+<li><strong>Affected</strong>: Car Users – especially users of old or high polluting cars, truck drivers, Shippers/producers, Wholesalers, Logistics providers, Retailers, Consumers, Citizens, Authorities</li>
+<li><strong>Responsible</strong>: Municipalities, Road Operators, Urban Traffic Management, Authorities</li>
+</ul>
+</div>
+<div id="current-state-of-art-in-research-11" class="section level3 unnumbered">
+<h3>Current state of art in research</h3>
+<p>Current research addresses the evaluation of UVAR implementations and identifies their positive and negative effects. For example, Lopez (2018) found that Urban Consolidation Centres (UCCs), Cargo Bikes (CBs) and Off-hour Deliveries (OHDs) are the three preferred types of solutions to assist in mitigating unwanted side-effects of UVARs on the logistic sector. Further, current research focuses on the sustainable urban planning in cites affected by mass tourism (García Hernández, 2019; Nolasco‐Cirugeda, 2020). Additionally, most recent area of research deals with geofencing that aims at creating digital zones defined on a map, with specific rules, that can be transmitted to the vehicles (Arnesen et al., 2020).</p>
+</div>
+<div id="current-state-of-art-in-practice-11" class="section level3 unnumbered">
+<h3>Current state of art in practice</h3>
+<p>According to Lopez (2018) there are the two preferred UVAR schemes: Low Emission Zones (LEZ) and Congestion Charging (CC). The implementation of these schemes is widely spread within Europe but follows different approaches. Lopez (2018) identified two dominant LEZ enforcement models, first visual surveillance using windscreen stickers and second, cameras with ANPR technology. Furthermore it is argued that <em>“It is very important to consider that the degree of impact of each measure not only varies from city to city but also depends on the presence of a mix of access regulations“</em> (Lopez, 2018).</p>
+</div>
+<div id="relevant-initiatives-in-austria-11" class="section level3 unnumbered">
+<h3>Relevant initiatives in Austria</h3>
+<ul>
+<li><a href="https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrW&amp;Gesetzesnummer=20000270">ris.bka.gv.at</a></li>
+<li><a href="https://www.wien.gv.at/ma22-lgb/luftgi.htm">wien.gv.at</a></li>
+<li><a href="https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/">kapsch.net</a></li>
+</ul>
+</div>
+<div id="impacts-with-respect-to-sustainable-development-goals-sdgs-11" class="section level3 unnumbered">
+<h3>Impacts with respect to Sustainable Development Goals (SDGs)</h3>
+<table>
+<colgroup>
+<col width="20%" />
+<col width="18%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Impact level</th>
+<th align="center">Indicator</th>
+<th align="center">Impact direction</th>
+<th align="center">Goal description and number</th>
+<th align="center">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Individual</td>
+<td align="center">Noise &amp; pollution reduced</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Health &amp; Wellbeing (<em>3</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. b</td>
+</tr>
+<tr class="even">
+<td align="center">Individual</td>
+<td align="center">Travel time &amp; congestion reduced</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. b</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Road safety increased</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Health &amp; Wellbeing (<em>3</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. b</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Space for sustainable transport users increased</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Equality (<em>5,10</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. d</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Air quality improved</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Environmental sustainability (<em>7,12,13,15</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. d</td>
+</tr>
+<tr class="even">
+<td align="center">Systemic</td>
+<td align="center">Congestion reduced, revenues increased</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Sustainable economic development (<em>8,11</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. b</td>
+</tr>
+<tr class="odd">
+<td align="center">Systemic</td>
+<td align="center">Urban landscape preservation</td>
+<td align="center"><strong>+</strong></td>
+<td align="center">Innovation &amp; Infrastructure (<em>9</em>)</td>
+<td align="center">Sandler Consultants Europe GmbH, n.d. b</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="technology-and-societal-readiness-level-11" class="section level3 unnumbered">
+<h3>Technology and societal readiness level</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="center">TRL</th>
+<th align="center">SRL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7-9</td>
+<td align="center">7-9</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="open-questions-11" class="section level3 unnumbered">
+<h3>Open questions</h3>
+<ol style="list-style-type: decimal">
+<li>What effect will autonomous vehicles have on Urban Access Management?</li>
+<li>How can geofencing be implemented on a wider scale and what are the barriers?</li>
+<li>What standards would be useful to aggregate, to support affected stakeholders?</li>
+<li>How can Urban Access Management engage with the Internet of Things (IoT)?</li>
+</ol>
+</div>
+<div id="further-links-9" class="section level3 unnumbered">
+<h3>Further links</h3>
+<ul>
+<li><a href="https://urbanaccessregulations.eu/urban-access-regulations/what-are-urban-access-regulations">urbanaccessregulations.eu-1</a></li>
+<li><a href="https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna-emergency-scheme">urbanaccessregulations.eu-2</a></li>
+</ul>
+</div>
+<div id="references-11" class="section level3 unnumbered">
+<h3>References</h3>
+<ul>
+<li>Arnesen, P., Seter, H., Foss, T., Dahl, E., Lillestøl, P. J., &amp; Jenssen, G. (2020). Geofencing for smart urban mobility. Summarizing the main findings of work package 2: Pilot Design and work package 3: Piloting.</li>
+<li>García Hernández, M., Ivars-Baidal, J., &amp; Mendoza de Miguel, S. (2019). Overtourism in urban destinations: the myth of smart solutions.</li>
+<li>Kapsch TrafficCom. (n.d. a). Access management | Kapsch. Retrieved January 27, 2021, from <a href="https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Access-Management" class="uri">https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Access-Management</a></li>
+<li>Kapsch TrafficCom. (n.d. b). Limited Access Zone | Kapsch. Retrieved January 27, 2021, from <a href="https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/" class="uri">https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/</a></li>
+<li>Lopez, O. N. (2018). Urban vehicle access regulations. In Sustainable Freight Transport (pp. 139-163). Springer, Cham.</li>
+<li>Nolasco‐Cirugeda, A., Martí, P., &amp; Ponce, G. (2020). Keeping mass tourism destinations sustainable via urban design: The case of Benidorm. Sustainable Development, 28(5), 1289-1303.</li>
+<li>Sandler Consultants Europe GmbH. (n.d. a). Austria. Retrieved February 1, 2021, from <a href="https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78" class="uri">https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78</a></li>
+<li>Sandler Consultants Europe GmbH. (n.d. b). Overview of website. Retrieved February 1, 2021, from <a href="https://urbanaccessregulations.eu/userhome/general-overview#Why%20Access%20%20Regulations" class="uri">https://urbanaccessregulations.eu/userhome/general-overview#Why%20Access%20%20Regulations</a><br />
+</li>
+<li>Sadler Consultants Europe GmbH. (n.d. c). Urban Access Regulations in Europe. Retrieved 26th January 2021, from <a href="https://urbanaccessregulations.eu/about-us" class="uri">https://urbanaccessregulations.eu/about-us</a></li>
+<li>Sandler Consultants Europe GmbH. (n.d. d). What are Access Regulations? Retrieved February 1, 2021, from <a href="https://urbanaccessregulations.eu/userhome/what-are-access-regulations-uvars-or-urban-vehicle-access-regulations" class="uri">https://urbanaccessregulations.eu/userhome/what-are-access-regulations-uvars-or-urban-vehicle-access-regulations</a></li>
+<li>Stadt Wien. (2020). Smarte Mobilität - Die Fortschrittskoalition für Wien. Retrieved February 1, 2021, from <a href="https://www.wien.gv.at/regierungsabkommen2020/smart-city-wien/smarte-mobilitat/" class="uri">https://www.wien.gv.at/regierungsabkommen2020/smart-city-wien/smarte-mobilitat/</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="highway.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="digital.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": null,
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+},
+"toolbar": null,
+"position": "fixed",
+"search": true,
+"info": false
+});
+});
+</script>
+
+</body>
+
+</html>
