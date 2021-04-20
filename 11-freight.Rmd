@@ -2,7 +2,124 @@
 
 ## Automated road freight {#automated_road_freight}
 
-## Tracking and tracing of dangerous goods {#dangerous_goods}
+## Tracking and tracing of goods {#dangerous_goods}
+
+### Synonyms {-}
+*Radio Frequency Identification (RFID)* 
+
+### Definition {-}
+Current technology developments offer promising opportunities to address diverse challenges faced by manufacturers in today's dynamic business environment. To effectively manage ever-changing customer demands, managers are looking to technology solutions, such as tracking and tracing technologies, to improve planning, control and performance (Kache & Seuring, 2017). This improved level of service leads to a higher customer satisfaction and is crucial in such a competitive market as it "*increases customer trust, strengthens brand integrity and increases customer loyalty*" (Costa et al., 2013). <br/>
+
+Integration into existing systems and whether to label at item or package level remains a challenge. Perhaps this is one reason why adoption has been strongest in some segments of the retail industry, where finished goods are mostly sold by piece. Therefore, there is a need to shed more light on the challenges of adopting and using tracking and tracing technologies in other industrial settings if the potential benefits are to be fully realised (Høyer et al., 2019). <br/>
+
+**Existing technologies** <br/>
+Various tracking and tracing systems have different capabilities and functions, some span the entire chain, from farmer to retailer, while other solutions are limited to a specific area. The level of detail of the information these technologies capture varies. The following technologies were found during the literature review and were considered popular for tracking (Høyer et al., 2019).
+
+**Barcodes** <br/>
+Barcodes and barcode scanners are an established technology for identifying products. Barcode technology can often be seen as a simpler form of tracking, yet it is often preferred in industry as it is easier to implement and is a more cost-effective solution that still captures data at the required level of detail and accuracy (Høyer et al., 2019).
+
+**RFID** <br/>
+Radio Frequency Identification (RFID) technology consists of two components: an antenna and the chip that contains the electronic product code. The information can be tracked in real-time throughout the chain. With the emergence of RFID technology, research has proven that it has improved inventory handling and warehouse management (Lao et al., 2012). The adoption of RFID technology also leads to a reduction in human errors originally caused by manual data entry (RFID tags transmit the data "by themselves", which largely eliminates any human error in the inventory process (cwi-logistics, 2020)). The significant benefits will be noted most by the distributor and the retailer (Høyer et al., 2019).
+Thus, unlike barcodes, RFID tags do not require a scanner to be in the same line of sight. This eliminates the need to manually scan each box because items can be scanned and catalogued even if they are hidden behind other goods (cwi-logistics, 2020). <br/>
+
+However, RFID tags are problematic from a technological point of view, mainly because there is no (global) industry-wide standardisation. Also, because RFID tags and their systems operate on radio frequency, they can easily become jammed or disturbed, reducing their usability. RFID systems can also experience signal problems, such as collisions when signals from two or more readers overlap, or interference is caused by metal, water or other magnetic fields in the environment. An RFID system is time-consuming and labour-intensive to set up. Companies need to test different hardware and tag systems to determine the best fit. This can take months. In addition to the cost of the RFID system itself, such as RFID tags and scanners, an increase in time and labour also means an increase in cost. These types of disadvantages are often avoided by using barcodes, which is why they remain a popular choice for many businesses for data collection and inventory control (Jänisch, 2019). <br/>
+
+**Smart packaging systems and TTIs** <br/>
+These packaging systems equipped with time-temperature indicators (TTIs) can sense the environment and detect, record, track and communicate based on stimuli. These functions help in decision making regarding shelf life and quality, they are able to warn in case of deviations, and they support the flow of materials and information (Høyer et al., 2019).
+
+### Key stakeholders {-}
+
+- **Affected**: Online shop consumers, Freight forwarders, Shippers
+- **Responsible**: National Governments, City government, Private Companies
+
+### Current state of art in research {-}
+The challenges with tracking and tracing technology encountered during the literature review can be categorised as strategic challenges, technical challenges and convenience challenges (Vermesan & Friess, 2014).
+
+**Strategic challenges**<br/>
+
+-	Implementation costs: High implementation costs remain one of the biggest barriers to the adoption of certain tracking and tracing technologies, such as RFID.
+-	Low awareness of the benefits and lack of incentives: It is claimed that there is a lack of incentives to adopt the technologies and risk when applying new technologies to old processes. These may be incompatible and lead to increased costs and inefficiencies. 
+-	Information sharing: i.e. increased supply chain visibility and integration, can have a significant positive impact on the entire supply chain by improving planning, production and delivery performance (Zhou & Benton, 2007). With the advent of Big Data, it is important to ensure that masses of data are made interpretable and available to all partners in a timely manner (Morgan et al., 2018).
+-	Coordination, collaboration and trust: A supply chain can potentially consist of multiple partners and there is always a risk of divergent and misaligned interests that can affect the quality of information shared. The strategic value of some information can inhibit the free exchange of information (Aramyan et al., 2007). There is a tendency to associate the act of sharing information with the loss of power and dependency (Soosay & Hyland, 2015). 
+-	Ingrained business practices: If not all key stakeholders are on board, this can lead to the technology not being implemented at all due to, for instance, high one-off investments.
+
+**Technical challenges**<br/>
+
+-	Colliding signal: One risk with these technologies is that signals may overlap.
+-	Environmental interference: Environmental factors and materials with high water content affect the performance of tracing technologies (Kumari et al., 2015). These characteristics are critical in food supply chains where food is often affected by high water content, exposed to extreme temperatures, and have dielectric properties that can interfere with signals. 
+-	Suboptimal reading:On one hand, errors can occur and on the other hand, the packaging of the product and not the product itself is registered.  
+-	Data acquisition: The industry is lagging in comparison to the research that has been done to digitise supply chains. The reality is that manual and paper-based operations are still common practice, the data collected is unstructured and the masses of data generated are difficult to handle as current collection systems are limited and unable to handle large volumes of data (Høyer et al., 2019).
+
+**Convenience challenges**<br/>
+
+-	Waste and recycling: As for recycling the RFID tags, there is no easy way other than to remove them from each box before it is thrown away and then melt down the metal antenna if one is used.
+-	Lack of professional skills: It is possibly due to inadequate or poor training of employees in the use of tracking and tracing technology, limits the potential in the supply chain (Ruiz-Garcia & Lunadei, 2011).
+-	Privacy and security: Privacy issues prevent companies from taking advantage of the opportunities offered by tracking technologies. The consequences are fake barcodes, hacking, industrial espionage, unwanted customer tracking, virus attacks and malicious intent.
+-	Regulations and standards: As transparency increases, so does the need for regulations and traceability standards, with several standards currently co-existing (Kumari et al., 2015). The lack of standards leads to system incompatibilities that make it difficult to share information.
+-	Unification and standardisation of data: The process of data collection and transmission varies between supply chain partners. This disparity makes collaboration difficult and leads to greater incompatibilities (Høyer et al., 2019).
+
+### Current state of art in practice {-}
+There is no doubt that tracking and tracing technology leads to more real and representative data, improving and facilitating decision-making. Some manufacturers have abandoned RFID pilot projects due to high implementation costs and lack of benefits, but many manufacturers are still interested in exploring other solutions that support operational decision-making. The physical implementation of tracking and tracing technology has not generally posed any major difficulties, instead it appears to be aspects relating to organisational issues and security (Høyer et al., 2019). <br/>
+
+The Digital Container Shipping Association (DCSA), a neutral, non-profit group formed by major shipping lines to digitise and standardise container shipping, has announced that "*the majority of its member shipping lines have adopted the DCSA Track & Trace (T&T) standards and are currently or will soon be providing their customers with access to the standards-based API*".
+The DCSA believes this is a ground breaking development that "*provides shippers with a streamlined way to obtain real-time data on the whereabouts of their containers*". The widespread adoption of the DCSA standard will move the industry forward in terms of real-time visibility and responsiveness, leading to greater reliability and a better customer experience. <br/>
+Executives from the world's leading shipping companies MSC, ONE, CMA CGM, Yang Ming and Evergreen issued statements supporting the new T&T standards. All executives emphasised the need for standards to support digital initiatives working across multiple shipping companies and highlighted the importance of standardisation to their digitalisation initiatives. <br/>
+
+"*We are very pleased to see the increasing adoption among shipping companies*" said Thomas Bagge, the CEO of DCSA. "*But the digital transformation of the container shipping industry and the resulting improvements in efficiency and customer experience simply cannot happen without even wider adoption of digital standards. DCSA's focus for 2021 is to drive adoption by all stakeholders. Without acceptance, the industry will not benefit from the digital foundation that is being created.*" (Avery, 2021). <br/>
+
+What is now already perceived as live tracking by the customer is tracking based on the position of the delivery driver. The vehicle is equipped with GPS, which means that the driver's position can be tracked but not the parcels themselves. DPD has been using this system for several years. When a shipment is moved, the barcode on the parcel, which is linked to the delivery address, is scanned. As a result, the current shipment data is loaded into a database.Amazon also offers real-time tracking with its own delivery service, Amazon Logistics. Amazon's map tracking service uses its own intelligent route planning for this - but technical details are not disclosed. However, not all parcels are sent via Amazon Logistics, especially since the transport service is not yet available in all regions. The tracking in the map view is, therefore, also not available everywhere. <br/>
+
+In contrast to Germany, DHL Austria does not yet offer live tracking. Here, parcels can still be tracked conventionally by means of physical scans of a barcode on a parcel-by-parcel basis at certain process points (Iosa, 2021).
+
+### Relevant initiatives in Austria {-}
+DPD and Amazon already offer live tracking in Austria. Real-time tracking is not yet offered by Austrian Post but is in the planning stage and is expected to become a focus in 2021. According to a company spokeswoman, the aim is not so much to track the delivery route online and live, but rather to continuously update the route and the time of delivery. In this way, the delivery window can be limited to the smallest possible range. At the moment, the tracking of consignments is still done with scan events, which update the status of the parcel with every scan.
+In addition, historical data is currently used to calculate the time window for delivery. Data from the past is compared to determine how long it took to reach an address during a particular tour. In this way, the time of delivery can be narrowed down to three hours (Iosa, 2021).
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table97, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Improved planning, control and performance|**+**|Sustainable economic development  (*8,11*)|Kache & Seuring, 2017|
+|Systemic|Development in tagging technologies|**+**|Innovation & Infrastructure  (*9*)|cwi-logistics, 2020|
+|Systemic|Effort and initatives for global standardisation |**+**|Partnership & collaborations (*17*)|Avery, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table98, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+1. Is the potential of RFID tags to reduce the carbon footprint higher than the waste they can produce?
+
+### Further links {-}
+
+- [cargomon.com-tracking](http://cargomon.com/index.php/language/en/cargoobserver-track/)
+- [cargomon.com-gps monitoring](http://cargomon.com/index.php/language/en/industry-sectors-for-montoring-gps/)
+- [imaginenext.ingrammicro.com](https://imaginenext.ingrammicro.com/iot/rfid-in-logistics)
+- [rand.org](https://www.rand.org/pubs/technical_reports/TR1283.html)
+
+
+### References {-}
+-	Aramyan, L. H., Oude Lansink, A. G. J. M., van der Vorst, J. G. A. J., & van Kooten, O. (2007). Performance measurement in agri‐food supply chains: a case study. Supply Chain Management: An International Journal, 12(4), 304–315. https://doi.org/10.1108/13598540710759826
+-	Avery, P. (2021, April 9). WorldCargo News - News - Majority of DCSA members adopt Track and Trace standards. https://www.worldcargonews.com/news/majority-of-dcsa-members-adopt-track-and-trace-standards-65996
+-	Costa, C., Antonucci, F., Pallottino, F., Aguzzi, J., Sarriá, D., & Menesatti, P. (2013). A Review on Agri-food Supply Chain Traceability by Means of RFID Technology. Food and Bioprocess Technology, 6(2), 353–366. https://doi.org/10.1007/s11947-012-0958-7
+-	cwi-logistics. (2020, January 13). How RFID Is Taking Warehousing to the Next Level | CWI Logistics. https://cwi-logistics.com/news/how-rfid-is-taking-warehousing-to-the-next-level/
+-	Høyer, M. R., Oluyisola, O. E., Strandhagen, J. O., & Semini, M. G. (2019). Exploring the challenges with applying tracking and tracing technology in the dairy industry. IFAC-PapersOnLine, 52(13), 1727–1732. https://doi.org/10.1016/j.ifacol.2019.11.450
+-	Iosa, A. (2021, January 9). Wie funktioniert Live-Tracking bei Paketen? https://futurezone.at/digital-life/wie-funktioniert-live-tracking-bei-paketen/401110917
+-	Jänisch, R. (2019, February 17). Was sind RFID-Tags? Funktionsweise, Einsatz und Nachteile. https://ioxlab.de/de/iot-tech-blog/was-sind-rfid-tags/#Einsatzgebiete_fuer_IOX_RFID
+-	Kache, F., & Seuring, S. (2017). Challenges and opportunities of digital information at the intersection of Big Data Analytics and supply chain management. International Journal of Operations & Production Management, 37(1), 10–36. https://doi.org/10.1108/IJOPM-02-2015-0078
+-	Kumari, L., Narsaiah, K., Grewal, M. K., & Anurag, R. K. (2015). Application of RFID in agri-food sector. Trends in Food Science and Technology, 43(2), 144–161. https://doi.org/10.1016/j.tifs.2015.02.005
+-	Lao, S. I., Choy, K. L., Ho, G. T. S., & Yam, R. C. M. (2012). An RFRS that combines RFID and CBR technologies. Industrial Management & Data Systems, 112(3), 385–404. https://doi.org/10.1108/02635571211210040
+-	Morgan, T. R., Richey Jr, R. G., & Ellinger, A. E. (2018). Supplier transparency: scale development and validation. The International Journal of Logistics Management, 29(3), 959–984. https://doi.org/10.1108/IJLM-01-2017-0018
+-	Ruiz-Garcia, L., & Lunadei, L. (2011). The role of RFID in agriculture: Applications, limitations and challenges. Computers and Electronics in Agriculture, 79(1), 42–50. https://doi.org/10.1016/j.compag.2011.08.010
+-	Soosay, C. A., & Hyland, P. (2015). A decade of supply chain collaboration and directions for future research. Supply Chain Management: An International Journal, 20(6), 613–630. https://doi.org/10.1108/SCM-06-2015-0217
+-	Vermesan, O., & Friess, P. (2014). Internet of Things - From Research and Innovation to Market Deployment. In River Publishers. https://doi.org/10.1007/978-3-642-24788-0_19
+-	Zhou, H., & Benton, W. C. (2007). Supply chain practice and information sharing. Journal of Operations Management, 25(6), 1348–1365. https://doi.org/10.1016/j.jom.2007.01.009
 
 ## Intermodal Freight {#intermodal_freight}
 

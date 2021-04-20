@@ -11,9 +11,13 @@ github-repo: rstudio/bookdown-demo
 description: "This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation."
 ---
 
-# Preface {-}
+# Welcome {-}
 
-This is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/><br/>
+```{r, echo=FALSE, out.width="50%"}
+knitr::include_graphics("image/davemos_logo.png")
+```
+
+This is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/>
 
 **Acknowledgements**
 
@@ -85,7 +89,7 @@ format(Sys.time(),'%d %B %Y')
     - [Emergency call](#ecall) **NEW**
 10. [Freight and commercial transport](#freight)
     - [Automated road freight](#automated_road_freight)
-    - [Tracking and tracing of dangerous goods](#dangerous_goods)
+    - [Tracking and tracing of goods](#dangerous_goods) **NEW**
     - [Intermodal Freight](#intermodal_freight) **NEW**
     - [Real-time disruption management and route planning](#disruption_management)
     - [Urban deliveries](#urban_delivery)
