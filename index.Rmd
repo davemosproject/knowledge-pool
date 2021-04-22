@@ -13,7 +13,7 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 # Welcome {-}
 
-```{r, echo=FALSE, out.width="50%"}
+```{r, echo=FALSE, out.width="40%"}
 knitr::include_graphics("image/davemos_logo.png")
 ```
 
@@ -65,7 +65,6 @@ format(Sys.time(),'%d %B %Y')
     - [Infrastructure support levels for automated driving](#infrast_support_level)
 6. [Passenger information system](#passenger)
     - [Digital journey planner](#djp) **NEW**
-    - [Rail telematics for passenger services](#telematics_passenger)
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
 7. [Multimodal integrated system](#multimodal)
     - [First-last mile solutions](#flms)
@@ -75,6 +74,7 @@ format(Sys.time(),'%d %B %Y')
     - [Contactless public transport cards](#contactless_cards) **NEW**
     - [Information and assistance for people with special needs](#special_needs) **NEW**
     - [Mobility hubs](#mobility_hubs)
+    - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Autonomous driving](#connected)
     - [Automated vehicles](#av)
     - [Parking infrastructure for autonomous vehicles](#parking_av)
@@ -96,7 +96,6 @@ format(Sys.time(),'%d %B %Y')
     - [Intelligent truck parking](#intelligent_truck_park) **NEW**
     - [Delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**
-    - [Rail telematics for freight services](#rail_telematics_freight) **NEW**
     - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
     - [Multimodal transport management systems](#mtms)
     - [Freight hubs](#freight_hubs)

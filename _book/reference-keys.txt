@@ -32,7 +32,6 @@ v2x
 infrast_support_level
 passenger
 djp
-telematics_passenger
 info_and_route_planning
 multimodal
 flms
@@ -42,6 +41,7 @@ p_r
 contactless_cards
 special_needs
 mobility_hubs
+rail_telematics
 connected
 av
 parking_av
@@ -63,7 +63,6 @@ urban_delivery
 intelligent_truck_park
 space_book
 delivery_drone
-rail_telematics_freight
 electric_delivery_fleets
 mtms
 freight_hubs

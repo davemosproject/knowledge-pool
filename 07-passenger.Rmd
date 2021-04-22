@@ -72,8 +72,6 @@ cat('|TRL| SRL|
 -	Amrani, K. Pasini and M. Khouadjia, "Enhance Journey Planner with Predictive Travel Information for Smart City Routing Services," 2020 Forum on Integrated and Sustainable Transportation Systems (FISTS), Delft, Netherlands, 2020, pp. 304-308, doi: 10.1109/FISTS46898.2020.9264859.
 
 
-## Rail telematics for passenger services {#telematics_passenger}
-
 ## Multimodal information and route planning {#info_and_route_planning}
 
 ### Synonyms {-}
