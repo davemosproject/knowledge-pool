@@ -12,12 +12,16 @@ Advanced driver assistance system is a broad spectrum of technologies that enhan
 - **Warning**: warning systems support the driver in anticipating potential hazards. These include, for example, wrong way driving warning, forward collision warning or lane departure warning.
 Importantly, there are different level of ADAS support depending on the level of automation of the vehicle. Currently, the [Society of Automotive Engineers (SAE)](sae.org) distinguishes 5 levels of driving automation which together with ADAS functions have been depicted in Figure 9.1.
 
-```{r, echo=FALSE, , out.width="90%", fig.cap="Levels of driving automation (Shuttleworth, 2019; sae.org, 2019)"}
+```{r, echo=FALSE, , out.width="90%", fig.cap="Levels of driving automation (Shuttleworth, 2019)"}
 knitr::include_graphics("image/adas_level.png")
 ```
 
 
+### References {-}
+- Samsara.com (2020). Advanced Driver Assistance Systems (ADAS) for Commercial Fleets. Available at:< https://www.samsara.com/guides/adas> Accessed: 28/04/2021 
 
+- Shuttleworth, J. (2019). SAE Standards News: J3016 automated-driving graphic update
+Available at: <https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic> Accessed: 28/04/2021
 
 
 
