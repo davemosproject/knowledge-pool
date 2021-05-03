@@ -82,8 +82,6 @@ format(Sys.time(),'%d %B %Y')
     - [Advanced driver assistance system (ADAS)](#adas)
     - [Parking assistance system](#parking_assistance) **NEW**
     - [Lane keeping](#lane_keeping) **NEW**
-    - [Distance keeping](#distance_keeping)
-    - [Maintenance assistance](#maintenance_assis)
     - [Digital maps](#digital_maps)
     - [Electronic horizon](#ehorizon) **NEW**
     - [Emergency call](#ecall) **NEW**

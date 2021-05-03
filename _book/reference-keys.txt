@@ -5,6 +5,7 @@ fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 fig:unnamed-chunk-8
 fig:unnamed-chunk-9
+fig:unnamed-chunk-10
 intro
 infrastructure
 dedicated_lanes
@@ -49,8 +50,6 @@ onboard
 adas
 parking_assistance
 lane_keeping
-distance_keeping
-maintenance_assis
 digital_maps
 ehorizon
 ecall

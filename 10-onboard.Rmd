@@ -2,6 +2,25 @@
 
 ## Advanced driver assistance system (ADAS) {#adas}
 
+### Definition {-}
+
+Advanced driver assistance system is a broad spectrum of technologies that enhance the safety of vehicle and comfort of driving by helping driver prevent or avoid accidents (samsara.com, 2020). They can be divided into four categories depending on their functions:
+
+- **Adaptive**: adaptive systems are focused on making small adjustments while driving, to make it safer, based on the inputs from the surrounding environment. The examples of adaptive systems are lane keep assist and lane departure warning which are described in more detail [here](#lane_keeping), adaptive cruise control (ACC) which adjusts the speed of the vehicle depending on the behaviour of the vehicle ahead to maintain optimal distance, adaptive light control (ALC) that adjusts the illumination of road depending on weather and road conditions, crosswind stabilisation, intelligent speed adaptation (ISA) or electronic stability control.
+- **Automated**: automated systems take over the control of the vehicle in cases of imminent collision such as an emergency braking (AEB) when obstacle is detected. The other automatic functions include automatic parking, cruise control or collision avoidance system. 
+- **Monitoring**: monitoring systems provide a continuous assessment of driving and road conditions. They might be, for instance, back up camera, blind spot monitor, traffic sign recognition, driver drowsiness detection, intersection assistant, tire pressure control etc.
+- **Warning**: warning systems support the driver in anticipating potential hazards. These include, for example, wrong way driving warning, forward collision warning or lane departure warning.
+Importantly, there are different level of ADAS support depending on the level of automation of the vehicle. Currently, the [Society of Automotive Engineers (SAE)](sae.org) distinguishes 5 levels of driving automation which together with ADAS functions have been depicted in Figure 9.1.
+
+```{r, echo=FALSE, , out.width="90%", fig.cap="Levels of driving automation (Shuttleworth, 2019; sae.org, 2019)"}
+knitr::include_graphics("image/adas_level.png")
+```
+
+
+
+
+
+
 ## Parking assistance system {#parking_assistance}
 
 ### Definition {-}
@@ -145,11 +164,6 @@ cat('|TRL| SRL|
 -	Wang, Q., Zhuang, W., Wang, L., & Ju, F. (2020). Lane Keeping Assist for an Autonomous Vehicle Based on Deep Reinforcement Learning (No. 2020-01-0728). SAE Technical Paper.
 -	Weaver, S., & Gonzalez, T. (2020). To Alert or Assist: Comparing Effects of Different Lateral Support Systems on Lane-Keeping (No. FHWA-HRT-20-068).
 -	Yusuf, M. M., Karim, T., & Saif, A. S. (2020, January). A robust method for lane detection under adverse weather and illumination conditions using convolutional neural network. In Proceedings of the International Conference on Computing Advancements (pp. 1-8).
-
-
-## Distance keeping {#distance_keeping}
-
-## Maintenance assistance {#maintenance_assis}
 
 ## Digital maps {#digital_maps} 
 

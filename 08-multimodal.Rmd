@@ -34,6 +34,7 @@ The research and development project *MaaS4EU*, which is funded by the Horizon20
 (4) policy
 
 Therefore, the holistic *MaaS4EU* solutions are demonstrated and validated in real life via Living Labs in Greater Manchester (UK), Luxembourg-Germany, and Budapest (Hungary) (MaaS4EU, 2017). In summmary, current research is mainly working on the development of different MaaS app/platform prototypes, that will offer a multimodal travel solution. One example is the project *TrønderMaaS* of Marinelli et al. (2020) who is operating a full-scale pilot test in the Trondheim-Stjørdal region, Norway. 
+
 ### Current state of art in practice {-}
 In 2019 Berlin’s public transport authority *Berliner Verkehrsbetriebe (BVG)* invented and implemented together with the Lithuanian start-up and MaaS solution leader *Trafi* the mobility app called *Jelbi*, which counts as the world’s most extensive Mobility as a Service-solution (Rastenytė, 2020). The app covers assistance planning and routes discovery, real-time public transport information and shared mobility vehicle location and availability, a streamlined payment solution for any integrated mobility service, as well as the possibility to compare the duration and cost of each trip (Rastenytė, 2020). <br/>
 
@@ -400,7 +401,7 @@ cat('|TRL| SRL|
 *Telematics Applications for Freight services (TAF), Telematics Applications for Passenger services (TAP), Technical Specification for Interoperability (TSI)*
 
 ### Definition {-}
-With increasing digitalisation and automation in rail operations, many applications are being developed that will make it possible to significantly increase the attractiveness and efficiency of rail transport. Telematics applications are a functional subsystem of the railway system. This subsystem comprises two elements (European Commission, 2021):
+With increasing digitalisation and automation in rail operations, many applications are being developed that will make it possible to significantly increase the attractiveness and efficiency of rail transport. Telematics applications are a functional subsystem of the railway that comprises two elements (European Commission, 2021):
 
   -	applications for freight services, including information systems (real-time monitoring of freight and trains), marshalling and allocation systems, reservation, payment and invoicing systems, management of connections with other modes of transport and production of electronic accompanying documents
   -	applications for passenger services, including systems providing passengers with information before and during the journey, reservation and payment systems, luggage management and management of connections between trains and with other modes of transport 
