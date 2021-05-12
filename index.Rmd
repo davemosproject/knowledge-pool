@@ -73,7 +73,7 @@ format(Sys.time(),'%d %B %Y')
     - [Park and ride](#p_r) **NEW**
     - [Contactless public transport cards](#contactless_cards) **NEW**
     - [Information and assistance for people with special needs](#special_needs) **NEW**
-    - [Mobility hubs](#mobility_hubs)
+    - [Mobility hubs](#mobility_hubs) **NEW**
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Autonomous driving](#connected)
     - [Automated vehicles](#av)

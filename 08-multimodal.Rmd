@@ -393,7 +393,105 @@ cat('|TRL| SRL|
 -	Wiener Linien. (n.d.). Barrierefreiheit bei den Wiener Linien - Wiener Linien. Retrieved March 16, 2021, from https://www.wienerlinien.at/web/wiener-linien/barrierefreiheit
 
 
-## Mobility hubs {#mobility_hubs}
+## Mobility hubs {#mobility_hubs} 
+
+### Synonyms {-}
+*Mobility station or point, mobihub, (public) ride point, smart station, sharing zone, transportation center, public transit or transport hub, transport interchange, ride port, share point, intermodal hubs*
+
+### Definition {-}
+There are many different definitions of mobility hubs. In general, mobility hubs are places to change transport mode. However, they can also be much more than that and are essential for the functioning of Mobility as a Service (see [MaaS](#maas)). Mobility hubs are expected to be convenient and safe for switching modes, but they could also close supply gaps, enhance traveler experience and the quality of life in a certain area (Clemens, 2020). Airports, train and subway stations usually include car park and car rental, bus stops and taxi stands as well as restaurants, shops, hotels or even conference centres, which benefit from passing trade and goods accessibility. They represent so-called "*naturally*" grown mega hubs (Clemens, 2020). In addition, municipalities around the world are systematically planning and implementing further mobility hubs that vary in size - from a small bus stop with an attached bike sharing station to a mega hub as described above. They are supposed to improve intermodal mobility and bring socio-economic benefits (Clemens, 2020). Specific names and strong visual branding are designed to help passengers recognize them quickly. <br/>
+
+Mobility as a Service or Mobility on Demand concepts are designed to make it possible to not own a car and still be mobile. Mobility hubs should offer the greatest possible variation of means of transport for individual route chains and thus, ensure that car journeys are not all replaced one-to-one by car sharing journeys, but that the transport routes are covered as sustainably as possible (Clemens, 2020). Since each additional transfer during a trip creates a barrier and tempts people to use private motorized transport instead, the goal of mobility hubs is to provide these transfers with a benefit and to ensure that the transfer runs smoothly. Examples include allowing people to work or relax, pick up a package, meet friends, or do necessary shopping during their commute home (Clemens, 2020). Mobility hubs could also be combined with quarter logistics hubs (see [Urban deliveries](#urban_delivery)) (Herrmann, n.d.). 
+
+### Key stakeholders {-}
+
+- **Affected**: All kinds of passengers 
+- **Responsible**: City administration, Public transport operators, Mobility service providers, Funding provider, District authorities, Private companies
+
+### Current state of art in research {-}
+Bell (2019) has analyzed the user requirements of mobility hubs. He argues that mobility hubs or intermodal hubs differ depending on the area in which they are implemented, e.g. rural or urban areas, and that success and sustainability strongly depend on the particular design. An overview of his general conclusion is shown in Figure 7.2. 
+
+```{r, echo=FALSE, , out.width="65%", fig.cap=": User requirements at public transport stops (Bell, 2019)"}
+knitr::include_graphics("image/mobility_hubs.png")
+```
+
+Based on research conducted in American cities, Hochmair (2015) argues, that it is recommended to ensure improved cycling infrastructure, such as bike-sharing stations, within a 1-mile radius for bus-only stations and within 2 miles for train stations.<br/>
+
+Tran & Draeger (2021) have presented a new evaluation framework and algorithm to locate and assess the sustainability and equity impacts of nodes in cities. Investment strategies for nodes are evaluated based on *(1)* current mode split, *(2)* high transit capacity, and *(3)* multimodal services. From an equity perspective, high transit capacity and multimodal node strategies include more low-income areas than the current mode split, which primarily covers middle-income areas. The results of the study show how municipalities can strategically invest in public transit and multimodal options to increase frequency, quality and overall mobility for low- and moderate-income households and improve access to key facilities for more vulnerable citizens. Municipalities can use the assessment framework to explore alternative transport investment scenarios. This should make it possible to spatially locate urban hubs to meet future transport demand, increase the uptake of multimodal services and improve equal access for all citizens.<br/>
+
+Franken (2021) investigated the potential of mobility hubs to reduce car use and car ownership and also how these are influenced by the characteristics of the car owner, the characteristics of the trip and the characteristics of the car owner's living environment. His results showed that the operating costs of shared mobility services and walking distances to mobility hubs are important determinants of the use of shared mobility services, with higher sensitivity to operating costs for the shared e-car than for shared e-mopeds and e-bikes. Furthermore, he found that the density of mobility hubs in a residential area has a strong impact on reducing car use and car ownership. This matches with the fact that the impact of mobility hubs on car use and car ownership was highest in the city center, followed by a suburban area and lowest in a rural area.<br/>
+
+In 2018, MA 18 - Urban Development and Planning and MA 21 - District Planning and Land Use of the City of Vienna published a guideline for the implementation of mobility stations in urban development areas (Stadt Wien - Stadtentwicklung und Stadtplanung (MA 18) & Stadtteilplanung und Flächennutzung (MA 21), 2018). On behalf of the German Federal Ministry for the Environment, Nature Conservation and Nuclear Safety (BMU), also the German Institute of Urban Affairs (Deutsches Institut für Urbanistik) published a report in 2019 on the findings and experiences on mobility stations in municipal practice (Stein & Bauer, 2019).
+
+
+### Current state of art in practice {-}
+In order to promote both the health and quality of life of citizens, while improving sustainability and accessibility in transportation within cities, six partner cities from five different countries have committed to establish so-called e-Mobility Hubs, in short eHUBS. eHUBS are on-street locations that bring together e-bikes, e-cargo bikes, e-scooters and/or e-cars, offering users a wide range of options to experiment with and use in different situations. These dedicated on-street locations, where citizens can choose from a variety of sustainable electric transportation options for shared use, are intended to provide a true alternative to private car use by offering opportunities to increase shared and electric mobility in a truly innovative way. Hubs can vary in size (minimalist, light, medium, large), type of location, and type of service. They can be small and located in residential areas, with only one or two parking spaces, or larger and positioned near train stations and major public transit hubs, but ultimately the key is that they should always be where supply and demand meet. The knowledge and experience gained will, then help other cities and regions get close and consistently tackle air pollution, congestion and CO~2~ emissions, and create a growing market for commercial e-mobility providers (Interreg North-West Europe (NWE), 2019). <br/>
+
+In Vienna, there are already 8 so-called "*WienMobil Stations*" operated by Wiener Linien, which combine access to public transport with various services and sharing offers. They vary by station, but can include bike sharing, scooter sharing, moped sharing, car sharing, bike service station, cab, e-charging station, bike storage boxes, cargo bikes (Wiener Linien, 2021).<br/>
+
+Beyond, in the cities of Graz and Linz and the Styrian Central Region, mobility hubs called "*tim*" have been implemented. They combine public transport stations with (e-)car sharing, call-collection taxis, bicycle parking facilities and rentable cargo bikes (see [tim-oesterreich](https://www.tim-oesterreich.at)). <br/>
+
+In the Netherlands, too, there are already several Mobility hubs of various types. One example is the hub P+R Gieten, which is located at the transport hub Gieten and has a fast connection to Groningen, Veendam, Stadskanaal, Emmen and Assen via the N33 and N34. The hub allows a transfer between Qliners and regional buses and is the main bus stop for the villages of Gieten and Eext. At this hub there are two free parking facilities, a spacious covered bike shed, lockers and a kiosk, a wheelchair accessible toilet and outdoor fitness equipment. Also, there are two types of bicycle lockers. Boxes that can be opened with a key and boxes that can be reserved and opened with an app (Reisviahub.nl, n.d.).
+
+
+### Relevant initiatives in Austria {-}
+
+- [wienmobil-stationen](https://www.wienerlinien.at/web/wiener-linien/wienmobil-stationen)
+- [tim-oesterreich](https://www.tim-oesterreich.at) 
+- [wien.gv.at](https://www.wien.gv.at/stadtentwicklung/studien/pdf/b008521.pdf) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table99, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Improved accessibility|**+**|Equality (5,10)|Miramontes et al., (2017)|
+|Individual|Increased multimodal trips|**+**|Sustainable economic development (*8,11*)|Miramontes et al., (2017)|
+|Systemic|Reduced car use and car ownership|**+**|Environmental sustainability (*7,12-13,15*)|Mosshammer, (2020); Franken, (2021)|
+|Systemic|Creation of new nodes and upgrading of existing transport infrastructure|**+**|Innovation & Infrastructure  (*9*)|Reisviahub.nl, n.d.;Wiener Linien, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table100, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|6-8|7-9|')
+```
+
+### Open questions {-}
+1. How to ensure that the construction of mobility hubs does not drive up the housing prices of an area?
+2. How to ensure the best user experience?
+3. How to prevent vandalism? 
+
+### Further links {-}
+
+
+- [mobility hubs 1](https://mobility-as-a-service.blog/mobility-hubs/)
+- [mobility hub guidance](https://como.org.uk/wp-content/uploads/2019/10/Mobility-Hub-Guide-241019-final.pdf)
+- [ehubs-smart-shared-green-mobility-hubs](https://www.nweurope.eu/projects/project-search/ehubs-smart-shared-green-mobility-hubs/)
+- [european-mobility-hubs](https://www.metro-magazine.com/10122757/a-look-at-european-mobility-hubs) 
+- [mobility hubs UK](https://www.intelligenttransport.com/transport-articles/98414/what-the-uk-can-learn-from-europe-on-mobility-hubs-and-shared-transport/) 
+- [new-mobility-hub-guidance-published](https://www.eltis.org/in-brief/news/new-mobility-hub-guidance-published) 
+
+
+### References {-}
+Bell, D. (2019). Intermodal Mobility Hubs and User Needs. Social Sciences, 8(2), 65.
+Clemens. (2020, November 24). Mobility as a Service (MaaS) - Mobility Hubs. https://mobility-as-a-service.blog/mobility-hubs/
+Franken, M. (2021). Effects of e-mobility hubs in residential areas on car use and ownership: Stated choice experiments in the context of Dutch cities.
+Herrmann, F. (n.d.). Intermodal Urban Mobility Systems. Retrieved May 6, 2021, from https://www.morgenstadt.de/de/innovationsfelder/intermodal_urban_mobility_systems.html
+Hochmair, H. H. (2015). Assessment of bicycle service areas around transit stations. International journal of sustainable transportation, 9(1), 15-29.
+Interreg North-West Europe (NWE). (2019, October 3). eHUBS - Smart Shared Green Mobility Hubs | Interreg NWE. https://www.nweurope.eu/projects/project-search/ehubs-smart-shared-green-mobility-hubs/
+Miramontes, M., Pfertner, M., Rayaprolu, H. S., Schreiner, M., & Wulfhorst, G. (2017). Impacts of a multimodal mobility service on travel behavior and preferences: user insights from Munich’s first Mobility Station. Transportation, 44(6), 1325-1342.
+Mosshammer, L. (2020, October 27). Sharing and new forms of mobility: social, environmentally friendly, efficient. https://www.austriatech.at/en/sharing-and-new-forms-of-mobility/
+Reisviahub.nl. (n.d.). Gieten (N33 / N34) . Retrieved May 6, 2021, from https://www.reisviahub.nl/hubs/gieten-ov-knooppunt-n33-n34/ 
+Stadt Wien - Stadtentwicklung und Stadtplanung (MA 18) und Stadtteilplanung und Flächennutzung (MA 21). (2018). Leitfaden Mobilitätsstationen: Die Umsetzung von Mobilitätsstationen in Stadtentwicklungsgebieten am Beispiel Zielgebiet Donaufeld, Wien.
+Stein, T., & Bauer, U. (2019). Mobilitätsstationen in der kommunalen Praxis, Erkenntnisse und Erfahrungen aus dem BMU-Forschungsprojekt City2Share und weiteren kommunalen Praxisbeispielen. http://www.difu.de
+Tran, M., & Draeger, C. (2021). A data-driven complex network approach for planning sustainable and inclusive urban mobility hubs and services. Environment and Planning B: Urban Analytics and City Science, 2399808320987093.
+Wiener Linien. (2021). WienMobil Stationen - Wiener Linien. https://www.wienerlinien.at/web/wiener-linien/wienmobil-stationen
+
+
 
 ## Rail telematics for passengers and freight {#rail_telematics}
 
@@ -464,7 +562,7 @@ cat('|TRL| SRL|
 ```
 
 ### Open questions {-}
-1. Whiat are the barriers that prevent the implementation of digital solutions?
+1. What are the barriers that prevent the implementation of digital solutions?
 2. What should be changed to enable an effective use of digital solutions?
 
 
