@@ -446,7 +446,7 @@ In the Netherlands, too, there are already several Mobility hubs of various type
 ```{r table99, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|Improved accessibility|**+**|Equality (5,10)|Miramontes et al., (2017)|
+|Individual|Improved accessibility|**+**|Equality (*5,10*)|Miramontes et al., (2017)|
 |Individual|Increased multimodal trips|**+**|Sustainable economic development (*8,11*)|Miramontes et al., (2017)|
 |Systemic|Reduced car use and car ownership|**+**|Environmental sustainability (*7,12-13,15*)|Mosshammer, (2020); Franken, (2021)|
 |Systemic|Creation of new nodes and upgrading of existing transport infrastructure|**+**|Innovation & Infrastructure  (*9*)|Reisviahub.nl, n.d.;Wiener Linien, 2021|')

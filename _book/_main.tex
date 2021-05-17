@@ -80,7 +80,7 @@
 
 \title{Knowledge Pool}
 \author{DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna}
-\date{2021-05-12}
+\date{2021-05-17}
 
 \begin{document}
 \maketitle
@@ -116,7 +116,7 @@ This knowledge pool is a collaborative effort of DAVeMoS team members who contri
 The knowledge pool was last compiled on:
 
 \begin{verbatim}
-## [1] "12 May 2021"
+## [1] "17 May 2021"
 \end{verbatim}
 
 \hypertarget{table-of-content}{%
@@ -296,7 +296,7 @@ The knowledge pool was last compiled on:
   \item
     \protect\hyperlink{passenger_drones}{Passenger drones} \textbf{NEW}
   \item
-    \protect\hyperlink{automatic_train}{Automatic train operations}
+    \protect\hyperlink{automatic_train}{Automatic train operations} \textbf{NEW}
   \end{itemize}
 \item
   \protect\hyperlink{big}{Big data}
@@ -4941,7 +4941,7 @@ Improved accessibility\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
 \textbf{+}\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
-Equality (5,10)\strut
+Equality (\emph{5,10})\strut
 \end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
 Miramontes et al., (2017)\strut
 \end{minipage}\tabularnewline
@@ -8181,6 +8181,279 @@ TRL & SRL\tabularnewline
 \hypertarget{automatic_train}{%
 \section{Automatic train operations}\label{automatic_train}}
 
+\hypertarget{synonyms-31}{%
+\subsection*{Synonyms}\label{synonyms-31}}
+\addcontentsline{toc}{subsection}{Synonyms}
+
+\emph{high-speed railways (HSR), automatic train control system (ATC), Grade of Automation (GoA), unattended train operation (UTO or GoA4)}
+
+\hypertarget{definition-35}{%
+\subsection*{Definition}\label{definition-35}}
+\addcontentsline{toc}{subsection}{Definition}
+
+Over the past decades, rail transport systems have undergone significant changes in terms of technology level, overall length, travel speed and service qualities. The management of train operations to achieve safe and efficient operation for a railway system has been a long-term concern. In traditional railway systems, this is usually achieved by \emph{(i)} a timetable and a vehicle plan and \emph{(ii)} real-time train operation by drivers using fixed signalling equipment. However, this partially manual work has many disadvantages for train operation due to increasing traffic demand and limited railway infrastructure. Manual driving is usually based on training and experience, which lacks rigorous calculations and systematic considerations. Therefore, it is difficult to ensure safety, quality of service (e.g.~transport capacity, punctuality, accuracy of stops) and operating costs (e.g.~energy consumption, infrastructure utilisation). This problem is particularly serious in urban rail systems, where passenger demand is extremely high and train departure times are very short (Yin et al., 2017).
+
+In manual operation, drivers must keep track of the forward signals and then give appropriate train control commands. Essentially, the track logic and dispatchers only know which track circuit the train is on and prevent other trains from entering the same track circuit. Furthermore, as this process is not strictly monitored and rigorously calculated, it is usually susceptible to external factors (e.g.~mental state of the driver, extreme weather that can affect driver visibility), leading to uncertainty and inefficiency (Yin et al., 2017). With the development of communication, control and computer technologies in recent decades, automatic train operation (ATO) is considered an emerging technology to replace traditional manual driving in many urban rail systems (Dong et al., 2010; Miyatake \& Ko, 2010). Typically, ATO aims to improve the efficiency of railway operations by automatically making real-time decisions on optimised train acceleration, deceleration and braking commands. In the face of increasingly serious environmental and energy concerns, ATO is also widely recognised as a promising approach to reduce energy consumption and carbon emissions through optimised train control decisions while improving service quality (Yin et al., 2017).
+
+In the railway transportation system, a distinction is made between two basic control loops: the outer control loop as the control of railway traffic and the inner control loop as the train operation itself (Rao, 2015). These two control loops are closely linked and both are important for the safe and efficient operation of a railway system (Yin et al., 2017).
+
+\textbf{Rail traffic control}
+
+Rail traffic control aims to monitor the status of traffic and infrastructure, identify deviations and conflicts, and develop a conflict-free plan for rescheduling trains to make supporting decisions for railway dispatchers to optimise the capacity and punctuality of arriving trains and avoid conflicts with other trains (Corman and Meng, 2015).
+
+\textbf{Train operations}
+
+Train operation (i.e.~the inner loop) focuses on the safe and efficient train movements in each block at a microscopic level during scheduled (or rescheduled) planning by defining all the basic train control commands (i.e.~accelerate, run, coast and brake).
+
+\textbf{For defining the terminology}: ATO is a subsystem of the automatic train control system (ATC). ATC contains three subsystems, namely, automatic train protection (ATP), automatic train operation (ATO) and automatic train supervision (ATS) (Yin et al., 2017).
+
+\begin{itemize}
+\tightlist
+\item
+  The ATS system is responsible for monitoring train movement by performing the following tasks: Train status monitoring, automatic route selection, automatic schedule generation, automatic operation logging, statistics and reporting, and automatic system status monitoring.
+\item
+  The ATP system is a fail-safe system responsible for the safe movement of each train. ATP regulates speed limits not only to maintain a safe operating distance between trains, but also to meet safety and speed requirements. Once the train exceeds the speed limit, ATP automatically applies braking (or emergency braking) to stop the train and ensure safety.
+\item
+  The ATO system takes over the on-board functions of a driver to ensure smooth acceleration of the train to the running speed, speed control and precise stopping of the train at the destination platform. In normal situations, the ATO system is responsible for all control commands for traction and braking control of the train and is therefore key to the operational efficiency and profitability of train operation systems (Dong et al., 2010).
+\end{itemize}
+
+Essentially, ATO consists of computer programming and control techniques that support (or completely replace) the driver in the automatic control of train movements under the supervision of ATP and ATS. Typically, train operation is currently realised in two ways:
+
+\emph{(1)} Manual driving, supported by a driver advisory system (DAS), which can give the driver a recommended speed to help him with better driving strategies.
+
+\emph{(2)} Semi- or fully automatic mode through ATO system in light rail lines with higher level of automation, which can partially (or fully) replace manual driving. In some automated light rail lines, the ATO system first generates a recommended speed profile before the train departs, which allows the train to arrive on time at the next station. After the train has left the station, ATO's speed controller automatically adjusts the control commands for train acceleration, coasting, running or braking through a feedback control loop. Furthermore, ATO is responsible for the automatic precise stopping of the train in the station. Other functions include the automatic reversing of trains at terminals (Yin et al., 2017).
+
+An ATO system consists of two components (Tasler \& Knollmann, 2018):
+
+\begin{itemize}
+\tightlist
+\item
+  The trackside component ATO-TS (ATO trackside) collects static and dynamic route and timetable data from existing and timetable data from existing trackside TMS (Traffic Management System) and transmits it to the ATO on-board units.
+\item
+  The on-board component ATO-OB (ATO onboard) calculates the optimal the optimal driving profile at any time based on the data on infrastructure, route and timetable information, and timetable information and controls the vehicle's traction and braking braking devices of the vehicle for automated driving.
+\end{itemize}
+
+The automation levels of train operating systems are defined by the international standard IEC 62290-1 2014. The five levels of automation range from GoA0 to GoA4. According to this standard, GoA0 and GoA1 are essentially non-automated train operation levels that require manual operation of the trains by the crew in the driver's cab. In GoA2, acceleration and braking are automated, while the driver in the cab is responsible for the safe departure of the train and door control. GoA3 is driverless train operation, where there is no driver in the front cab of the train. Instead, there is only one member of the operating staff responsible for the safe departure of the train. Most of the existing ATO systems usually achieve GoA2 or GoA3. The highest level of train operation automation is unaccompanied train operation (Fully automated {[}or unattended{]} train operation (termed as UTO or GoA4), where there is no driver or operations staff at all and trains are operated fully automatically (Yin et al., 2017).
+
+A wide range of automation functions are already in use on the railways today: electronic interlockings control and secure the routes, automatic train control systems ensure that train movements are secured with the greatest possible track capacity and intelligent operations control systems take over the timely setting of routes and ensure that the existing capacities are better utilised by exploiting all performance reserves and that a high level of performance and quality of rail traffic is guaranteed even in exceptional operational situations. With digitalisation, however, a further increase in performance is possible through the optimisation of complete operational processes in rail traffic according to operational and economic indicators. In the case of underground railways, fully automated rail operations have long been a reality, as their routes in closed tunnel systems make them particularly well suited for driverless operation (Tasler \& Knollmann, 2018).
+
+The expected advantages of ATO in long-distance rail transport are (Tasler \& Knollmann, 2018):
+
+\begin{itemize}
+\tightlist
+\item
+  Increased line and transport capacity by reducing the intervals between trains
+\item
+  Improvement of timetable stability and punctuality through uniform and plannable travel times between stations
+\item
+  Energy savings through optimised driving
+\item
+  Reduction of mechanical stress and wear in the drive and braking system with lower maintenance costs
+\item
+  Noise reduction, especially in freight transport, through smooth and even driving smooth driving with fewer braking operations
+\item
+  Increased passenger comfort due to smooth and even driving and consistent and consistent ride quality
+\item
+  Increased flexibility for demand-responsive train services (with GoA3/4)
+\item
+  Improvement of operating costs by increasing the effectiveness of the personnel (for GoA3/4)
+\end{itemize}
+
+\hypertarget{key-stakeholders-34}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-34}}
+\addcontentsline{toc}{subsection}{Key stakeholders}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Affected}: Passengers, Train operators
+\item
+  \textbf{Responsible}: National Governments, City Governments, Private Transport Companies, Public Transport Authorities, Policymakers
+\end{itemize}
+
+\hypertarget{current-state-of-art-in-research-34}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-34}}
+\addcontentsline{toc}{subsection}{Current state of art in research}
+
+A majority of ongoing research is considered to be in private hands, however, recent literature review shows some important trends in rail automation research.
+
+Firstly, the concept of rail platooning is being developed by Schwerdfeger et al.~(2021). It is to enable the coupling of several smaller trains (together with their locomotives) to form a platoon. Radio communication and sensors ensure coordination between the locomotives so that all trains in a platoon brake and accelerate at the same time (Castagnetti et al., 2016). Unlike truck platooning, where the trucks are only connected via wireless vehicle-to-vehicle communication technology, in the rail platooning concept the trains are actually physically connected. In marshalling yards, goods trains are supposed to wait for other trains to be coupled into longer train formations. However, the construction of these fast marshalling yards requires a massive investment in rail infrastructure. Germany's largest rail operator, Deutsche Bahn, has initiated a project to evaluate whether the gains promised by train platooning are worth the huge investment. However, train platooning has the potential to significantly increase train throughput in a congested rail corridor and minimise total train kilometres if the shunting process is fully automated and takes only a few minutes. Therefore, technological developments to realise fast shunting operations are a critical success factor for the rail platooning concept (Schwerdfeger et al., 2021).
+
+Secondly, the obstacle detection plays an important role in automatic train operation. To overcome the low accuracy and poor real-time performance of conventional detection methods and better detect obstacles over medium and long distances, obstacle detection in rail transport based on Deep Learning was investigated (He et al., 2021).
+
+Although there is currently no common model or approach aimed at controlling the entire railway network, there is an emerging trend to use integrated optimisation models to simultaneously generate train control actions (e.g.~recommended speed profile) and rescheduling. Furthermore, as LTE-R (Long Term Evolution for Railway) technology is emerging, enabling cross-border train-to-ground and train-to-train communication, integrated rail traffic control can also benefit from the future application of this new technology and contribute to the improvement of rail transport systems (Yin et al., 2017).
+
+\hypertarget{current-state-of-art-in-practice-34}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-34}}
+\addcontentsline{toc}{subsection}{Current state of art in practice}
+
+Currently, ATO is being deployed on many newly established metro mass transit lines. Almost a quarter of the world's metro systems use at least one line in unattended train operation (UTO) mode, for example in Paris, Beijing, Dubai and Sydney (Fraszczyk \& Mulley, 2017) and it has shown its great benefits in reducing manual labour, increasing the transport capacity of the infrastructure and improving the quality of service for passengers (eg. higher punctuality and more precise stops) (Yin et al., 2017).
+
+However, UTO operation is not yet possible in regional and long-distance traffic. Although research and facilities for the forced braking of trains and the influencing of traction units began as early as the 1930s, it was not until December 1989 that the representatives of all EU states met to decide on the creation of a uniform train control system. The planners were primarily concerned with cross-border traffic. With the uniform European Train Control System (ETCS), an internationally valid standard was to be created that other states and railway companies could then also adopt. So far, the EU Commission has mainly pushed the equipment of the international corridors, which are to be operated with ETCS throughout by the mid-2020s. In addition, new locomotives are to be generally equipped with this system, but for the time being they will also be able to run without the system with conventional signals. The achievements of the ETCS are remarkable and show the direction in which European rail traffic will go in the future. However, the introduction of the complex and technically advanced systems is associated with enormous investments (DB, 2019).
+
+The train control system (ETCS), the train radio system (GSM-R) and parts of the uniform regulations (Technical Specifications for Interoperability (TSI)) together form the European Rail Traffic Management System (ERTMS) (ÖBB, n.d.). The ETCS enables driving without main and advance signals and increases safety at the same time. The system is comparable to an autopilot, which has been common in aviation for decades. The system monitors the train using information from the route atlas, a precise position determination and predefined command variables and can, thus, make the right decisions in good time to ensure the train's journey even at high speeds. As in the aircraft cockpit, however, the train driver has the final say, he can drive and control the train even if the system fails or other unforeseen events occur. So although, it would technically be possible to operate the train without a driver, in the current state, it is the driver who controls the safety of the systems on the track. He still bears the responsibility for the train and its passengers or its freight. He observes the track and makes sure that there is no damage or obstacles and is the last and most important safety instance in the system. In addition, so far only a few routes are equipped with the technically demanding and price-intensive system. As soon as the train is to continue on other sections of track, the driver is also indispensable (DB, 2019).
+
+\textbf{Ongoing projects}
+
+Together with other partners, \emph{Siemens Mobility} has won two innovative research projects of the German Centre for Rail Transport Research (DZSF) to investigate the safety of automated rail operations at the end of 2020. The aim is to define the necessary criteria for the approval of fully automated regional and long-distance transport. The two projects are funded with 1.7 million euros and have a duration of 30 months. The studies will focus on the highest levels of automation (GoA 3 and GoA 4), which classify fully automated trains with and without attendants. It is expected that automated regional and long-distance rail transport will shape the future of mobility. In Hamburg, Siemens Mobility is conducting a pilot project on highly automated driving with the S-Bahn, which is scheduled to start passenger operations in 2021 for the ITS World Congress. In London, Siemens Mobility has combined a system for automated train operation (ATO) with the European Train Control System (ATCS) for the first time on the ThamesLink line (Global Railway Review, 2020).
+
+\emph{Alstom} has been awarded an innovation prize for a planned test project to implement Automatic Train Operation (ATO) in the daily operation of regional passenger transport. Alstom will launch this project in 2021 together with the Regional Association ``\emph{Großraum Braunschweig}'', the German Aerospace Centre (DLR) and the Technical University of Berlin (TU Berlin). It will run for three years. The test trains will run between Braunschweig and Wolfsburg (Sapién, 2020).
+
+\emph{Nokia} will work with Deutsche Bahn to develop 5G for ATO in 2021 on a 23-km section of Line 21 of the Hamburg S-Bahn from Berliner Tor to Bergedorf. Line 21 will initially demonstrate driverless shunting of empty trains in the Bergedorf station area based on the transmission of train control information via the 5G network. Siemens will install a similar system in Hamburg (Briginshaw, 2019).
+
+\emph{EAST Japan Railway (JR East)} has announced plans to start automatic train operation (ATO) on an initial 30km section of the Tokyo Joban commuter line between Ayase and Toride in 2021 (Cuenca, 2021).
+
+\emph{China Railway Corporation} is developing a train control system that will allow Fuxing high-speed trains to run automatically at speeds of up to 350 km per hour. The automated trains are scheduled to enter service in 2022 ahead of the opening of the Winter Olympics (China Plus, 2019).
+
+With its smartrail 4.0, the \emph{Swiss railway SBB} is only aiming for the GoA2 automation level. The ATO assistance system developed and tested by SBB is based on the European safety standard ETCS (SBB, n.d.).The train manufacturer Bombardier wants to put the first autonomous trains on the rails in long-distance transport in 2025. On closed lines, self-driving rail vehicles have already existed since the 1980s, for example in suburban and underground trains. On open tracks, however, the demands on the technology are much higher because it has to detect signals and obstacles such as fallen trees or animals without any doubt. However, development is progressing. Oz Ural (head of digital at Bombardier Transportation in Berlin) says: ``\emph{Most of the technology is already there and tests are already being carried out. What is still missing for the use of autonomous trains on open tracks is the legal framework and public acceptance.}'' (Schwär, 2020)
+
+\hypertarget{relevant-initiatives-in-austria-34}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-34}}
+\addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
+
+The Digital Automatic Coupling (DAK) is a pioneering innovation in European rail freight transport. It not only enables largely automated coupling for the first time, but also creates the conditions for the automation and digitalisation of rail freight transport in Europe and is, thus, regarded as an important step towards increasing its attractiveness and productivity.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://presse.oebb.at/de/presseinformationen/20200908-oebb-fokus-auf-digitaler-automatischer-kupplung-im-gueterverkehr}{DAK}
+\end{itemize}
+
+Currently, about 300 km of ETCS Level 2 are in operation in Austria. In three implementation phases, the ETCS network is to be extended to 3,700 km of ETCS Level 2. From 2025, only railways that can operate with this standard will be allowed to use it.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://infrastruktur.oebb.at/de/geschaeftspartner/schienennetz/dokumente-und-daten/etcs-zugbeeinflussung/etcs-ausbau}{ETCS in Austria}
+\end{itemize}
+
+From 2025, driverless metro trains are to run on the new U5 line in Vienna.
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.wienerzeitung.at/nachrichten/chronik/wien-chronik/2023966-Erster-Blick-auf-fahrerlose-U-Bahn.html}{Driverless trains 1}
+\item
+  \href{https://www.wienerlinien.at/web/wiener-linien/erste-u-bahn-testfahrt-mit-dem-neuen-x-wagen}{Driverless trains 2}
+\item
+  \href{https://www.unsereoebb.at/de/artikel/2019/automatisierter-bahnbetrieb}{Automatic trains}
+\end{itemize}
+
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-34}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-34}}
+\addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
+
+\begin{longtable}[]{@{}ccccc@{}}
+\toprule
+\begin{minipage}[b]{0.17\columnwidth}\centering
+Impact level\strut
+\end{minipage} & \begin{minipage}[b]{0.16\columnwidth}\centering
+Indicator\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Impact direction\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Goal description and number\strut
+\end{minipage} & \begin{minipage}[b]{0.17\columnwidth}\centering
+Source\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Noise reduction\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Health \& Wellbeing (\emph{3})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Tasler \& Knollmann, 2018\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Reduced energy consumption\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Environmental sustainability (\emph{7,12,13,15})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Tasler \& Knollmann, 2018; Yin et al., 2017\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Parallel efforts in different countries on the development of ATO\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Innovation \& Infrastructure (\emph{9})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+China Plus, 2019; Cuenca, 2021; Briginshaw, 2019\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.17\columnwidth}\centering
+Systemic\strut
+\end{minipage} & \begin{minipage}[t]{0.16\columnwidth}\centering
+Many collaboration and joint projects emerge\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+\textbf{+}\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Partnership \& collaborations (\emph{17})\strut
+\end{minipage} & \begin{minipage}[t]{0.17\columnwidth}\centering
+Sapien, 2020; Briginshaw, 2019\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{technology-and-societal-readiness-level-34}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-34}}
+\addcontentsline{toc}{subsection}{Technology and societal readiness level}
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule
+TRL & SRL\tabularnewline
+\midrule
+\endhead
+7-9 & 7-9\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{open-questions-34}{%
+\subsection*{Open questions}\label{open-questions-34}}
+\addcontentsline{toc}{subsection}{Open questions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  How to deal with the social impact of train drivers being able to lose their jobs?
+\item
+  How to increase social acceptance of top level automated trains in Europe?
+\end{enumerate}
+
+\hypertarget{references-35}{%
+\subsection*{References}\label{references-35}}
+\addcontentsline{toc}{subsection}{References}
+
+Briginshaw, D. (2019, December 12). DB appoints Nokia to develop 5G network for automatic operation \textbar{} International Railway Journal. \url{https://www.railjournal.com/infrastructure/db-appoints-nokia-to-develop-5g-network-for-automatic-operation/}
+- Castagnetti, F., Toubol, A., \& Rizzi, G. (2016). C4R Project Increases Rail Capacity without Laying Down New Tracks. Transportation Research Procedia, 14, 672--678. \url{https://doi.org/10.1016/j.trpro.2016.05.329}
+- China Plus. (2019, January 4). China developing world's first 350 km/h automated bullet trains - China Plus. \url{http://chinaplus.cri.cn/news/china/9/20190103/231172.html}
+- Cuenca, O. (2021, February 22). JR East to introduce ATO on the Joban Line next month \textbar{} International Railway Journal. \url{https://www.railjournal.com/regions/asia/jr-east-to-introduce-ato-on-the-joban-line-next-month/}
+- DB. (2019, March 19). ETCS: Das Europäische Zugsicherungssystem \textbar{} DB Inside Bahn. \url{https://inside.bahn.de/etcs-europaeisches-zugsicherheitssystem/}
+- Dong, H., Ning, B., Cai, B., \& Hou, Z. (2010). Automatic Train Control System Development and Simulation for High-Speed Railways. IEEE Circuits and Systems Magazine, 10(2), 6--18. \url{https://doi.org/10.1109/MCAS.2010.936782}
+- Fraszczyk, A., \& Mulley, C. (2017). Public Perception of and Attitude to Driverless Train: A Case Study of Sydney, Australia. Urban Rail Transit, 3(2), 100--111. \url{https://doi.org/10.1007/s40864-017-0052-6}
+- Global Railway Review. (2020, November 24). Siemens Mobility and partners to study automated rail operations. \url{https://www.globalrailwayreview.com/news/114422/siemens-mobility-partners-automated-rail-operations/}
+- He, D., Zou, Z., Chen, Y., Liu, B., Yao, X., \& Shan, S. (2021). Obstacle detection of rail transit based on deep learning. Measurement: Journal of the International Measurement Confederation, 176, 109241. \url{https://doi.org/10.1016/j.measurement.2021.109241}
+- Miyatake, M., \& Ko, H. (2010). Optimization of train speed profile for minimum energy consumption. IEEJ Transactions on Electrical and Electronic Engineering, 5(3), 263--269. \url{https://doi.org/10.1002/tee.20528}
+- ÖBB. (n.d.). ETCS Zugbeeinflussung - ÖBB-Infrastruktur AG. Retrieved May 14, 2021, from \url{https://infrastruktur.oebb.at/de/geschaeftspartner/schienennetz/dokumente-und-daten/etcs-zugbeeinflussung}
+- Rao, X. (2015). Holistic rail network operation by integration of train automation and traffic management. PhD Thesis, ETH Zurich, 22706.
+- Sapién, J. C. (2020, May 28). Alstom Wins Prize for World-First: ATO Testing for Regional Trains \textbar{} Railway-News. \url{https://railway-news.com/alstom-wins-german-innovation-prize-ato/}
+- SBB. (n.d.). Automatic Train Operation (ATO): die innovative Automatisierung \textbar{} SBB. Retrieved May 5, 2021, from \url{https://bahninfrastruktur.sbb.ch/de/digitale-bahn/ato.html}
+- Schwär, H. (2020, July 24). Autonome Züge ab 2025: Wie sich Bombardier zukunftsfit machen will - Business Insider. \url{https://www.businessinsider.de/wirtschaft/mobility/autonome-zuege-ab-2025-und-schnelles-internet-im-abteil-wie-dieser-30-jaehrige-den-zughersteller-bombardier-fit-fuer-die-zukunft-machen-will/}
+- Schwerdfeger, S., Otto, A., \& Boysen, N. (2021). Rail platooning: Scheduling trains along a rail corridor with rapid-shunting facilities. European Journal of Operational Research. \url{https://doi.org/10.1016/j.ejor.2021.02.019}
+- Tasler, G., \& Knollmann, V. (2018). Einführung des hochautomatisierten Fahrens -- auf dem Weg zum vollautomatischen Bahnbetrieb. Signal + Draht, 110(6), 6--14.
+- Yin, J., Tang, T., Yang, L., Xun, J., Huang, Y., \& Gao, Z. (2017). Research and development of automatic train operation for railway transportation systems: A survey. In Transportation Research Part C: Emerging Technologies (Vol. 85, pp.~548--572). Elsevier Ltd.~\url{https://doi.org/10.1016/j.trc.2017.09.009}
+
 \hypertarget{big}{%
 \chapter{Big data}\label{big}}
 
@@ -8199,14 +8472,14 @@ TRL & SRL\tabularnewline
 \hypertarget{car_sharing}{%
 \section{Car sharing}\label{car_sharing}}
 
-\hypertarget{synonyms-31}{%
-\subsection*{Synonyms}\label{synonyms-31}}
+\hypertarget{synonyms-32}{%
+\subsection*{Synonyms}\label{synonyms-32}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Car-Sharing scheme, CSS}
 
-\hypertarget{definition-35}{%
-\subsection*{Definition}\label{definition-35}}
+\hypertarget{definition-36}{%
+\subsection*{Definition}\label{definition-36}}
 \addcontentsline{toc}{subsection}{Definition}
 
 In recent years, the growth of car sharing services as a new and more sustainable way of travelling has led to a shift in private mobility from ownership to use of services. The basic idea of car sharing is quite simple: the sharing of a fleet of vehicles by members to make trips on a per-trip basis. Although, the first car sharing scheme for economic reasons dates back to 1948 in the city of Zurich, Switzerland, other attempts at public car sharing schemes in the following years were not successful. Several successful car sharing schemes were launched in the 1980s, with a consolidation in the early 1990s, thanks to an increasing awareness of citizens and a real boom due to a greater diffusion of ICT and mobile services in the 2000s. Car sharing increases the mobility of community members to reach destinations otherwise inaccessible by public transport, walking or cycling, while raising citizens' awareness of the social and environmental impacts of using private cars. It encourages and supports multimodal communities by providing an additional transport option. From the point of view of building a sustainable city, the vehicles used in car sharing are usually fuel efficient and lead to positive effects in reducing urban emissions and urban congestion (Martin \& Shaheen, 2011).
@@ -8238,8 +8511,8 @@ With free-floating CarSharing, the cars are randomly distributed within a define
 Since 2011, combined CarSharing offers were established that offer station-based and free-floating vehicles from a single source. Combined offers in Germany are available, for example, from \emph{stadtmobil, book-n-drive, teilAuto} and \emph{cambio}. The prices are usually based on the lower prices of station-based CarSharing.
 Free-floating users, on the other hand, largely keep their car. Their motorisation at the time of the study was 485 private cars per 1,000 inhabitants (Bundesverband CarSharing e.V., 2020).
 
-\hypertarget{key-stakeholders-34}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-34}}
+\hypertarget{key-stakeholders-35}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-35}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -8250,8 +8523,8 @@ Free-floating users, on the other hand, largely keep their car. Their motorisati
   \textbf{Responsible}: Authorities, Municipalities, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-34}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-34}}
+\hypertarget{current-state-of-art-in-research-35}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-35}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The CarSharing variants have different traffic-reducing effects. The EU research project STARS investigated the traffic-relieving effect of different CarSharing variants under uniform framework conditions. The study shows that many users of station-based and combined CarSharing get rid of private cars shortly before or during CarSharing participation. At the time of the study, the households, therefore, only had a motorisation rate of 108 and 104 cars per 1,000 people in the surveyed households. These values are already below the target of 150 cars per 1,000 people recommended by the Federal Environment Agency Germany for climate and environmentally friendly urban transport in the future.
@@ -8271,14 +8544,14 @@ In summary, accrding to Evers (2018) car sharing is profitable, if one:
   drives a total of less than 10,000 kilometres a year
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-practice-34}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-34}}
+\hypertarget{current-state-of-art-in-practice-35}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-35}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Europe is currently the most important market for car sharing providers. In 2016, 5.8 million people used the 68,000 carsharing vehicles here. Recently, car manufacturers also started to enter the market directly, such as Daimler, BMW and the FCA Group, which are directly involved in car sharing activities, in order to find new channels to market the cars they produce. The market is growing fast and with this increasing demand comes the need for better understanding and control of the system. In fact, car sharing is not just a matter of business or fleet optimisation, but forms a complex system consisting of different actors, including citizens, authorities and municipalities, businesses. The system becomes complex because of the strong links between the actors as well as the impact on the governance of a city when a large car sharing service is introduced, such as the integration with the existing public transport network and the policies that allow different companies to compete in the same urban area (Ferrero et al., 2018).
 
-\hypertarget{relevant-initiatives-in-austria-34}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-34}}
+\hypertarget{relevant-initiatives-in-austria-35}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-35}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -8289,8 +8562,8 @@ Europe is currently the most important market for car sharing providers. In 2016
   \href{https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive}{ÖBB}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-34}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-34}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-35}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-35}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -8377,8 +8650,8 @@ Stadt Wien, no date\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-34}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-34}}
+\hypertarget{technology-and-societal-readiness-level-35}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-35}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -8390,8 +8663,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-34}{%
-\subsection*{Open questions}\label{open-questions-34}}
+\hypertarget{open-questions-35}{%
+\subsection*{Open questions}\label{open-questions-35}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -8411,8 +8684,8 @@ TRL & SRL\tabularnewline
   \href{https://www.share-now.com/at/en/faq/}{Share-now}
 \end{itemize}
 
-\hypertarget{references-35}{%
-\subsection*{References}\label{references-35}}
+\hypertarget{references-36}{%
+\subsection*{References}\label{references-36}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -8442,14 +8715,14 @@ TRL & SRL\tabularnewline
 \hypertarget{bike_sharing}{%
 \section{Bicycle and e-bicycle hire}\label{bike_sharing}}
 
-\hypertarget{synonyms-32}{%
-\subsection*{Synonyms}\label{synonyms-32}}
+\hypertarget{synonyms-33}{%
+\subsection*{Synonyms}\label{synonyms-33}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)}
 
-\hypertarget{definition-36}{%
-\subsection*{Definition}\label{definition-36}}
+\hypertarget{definition-37}{%
+\subsection*{Definition}\label{definition-37}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Bike-sharing schemes have become a key component of urban transport policy over the past decade, as shown by the increase in the number of bicycles recently seen in major cities around the world. The concept of bike-sharing is a service for individuals to get around comfortably by bike without owning one. The bicycle is an energy-efficient, safe, CO\textsubscript{2}-neutral and space-saving means of transport. It has a low environmental footprint (when used). In urban areas it is a good alternative to the car for short journeys. For longer journeys or for getting to work in an urban environment, it is an excellent complement to public transport. Although at the beginning of the 21st century most BSSs were docked, today's BSSs consist of both docked and dockless BSSs, which have recently emerged in several cities such as London, New York, San Francisco, Beijing and many others (El Arbi and Stephane, 2020).
@@ -8457,8 +8730,8 @@ Modern urban short-term bicycle rental systems or public BSSs offer 24-hour acce
 The development of, mainly European, BSSs has typically been categorized into four different generations, which in some properties merge into each other. The use of the 1965 ``White Bikes'' in Amsterdam was possible without personal registration and the bikes could be found all over the city without fixed stations. The model collapsed within a few days due to vandalism and theft. The second generation used locks and heavy bikes. Vandalism rates decreased, but bikes were still stolen because of the anonymity of the customers (DeMaio, 2009). The third generation became smarter and more attractive through technological improvements such as automated smart cards, electronic bike locks and payment systems. Users received a code via SMS to unlock the bikes.
 The current fourth generation, could include movable solar-powered docking stations, GPS-based real-time availability apps on mobile phones and more electric bikes (Zademach and Musch, 2018).
 
-\hypertarget{key-stakeholders-35}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-35}}
+\hypertarget{key-stakeholders-36}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-36}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -8469,8 +8742,8 @@ The current fourth generation, could include movable solar-powered docking stati
   \textbf{Responsible}: National Governments, International lobbyists, (Public) Transport Agency, Non-Profit-Organizations, Private For-Profit Companies, Private Companies (e. g. outdoor advertising companies)
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-35}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-35}}
+\hypertarget{current-state-of-art-in-research-36}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-36}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Research mostly focuses on customer behaviour such as trip length or travel time and behavioural influences on the use of bike-sharing systems, for example, road density, traffic density or bicycle infrastructure.
@@ -8479,8 +8752,8 @@ For example, study by Ma et al.~(2020) shows that suburban commuters are very li
 
 In terms of general system functioning, a study by Fishman et al., (2014) shows that one of the major inconvenience of bike-sharing systems are fixed, docked stations. Therefore, to improve the flexibility, attemps are made to introduce shared bikes with locks (Zhang et al., 2019). Furthermore, the maintenance of the dockless system is also problematic, where on one hand, the high maintenance cost reduced the profit margin of the companies while on the other hand, defective bikes can reduce the satisfaction of the customers and decrease the uptake. Therefore, current research focuses on the development of the mechanisms to monitor the condition of the bicycles while maintaining cost efficiency.
 
-\hypertarget{current-state-of-art-in-practice-35}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-35}}
+\hypertarget{current-state-of-art-in-practice-36}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-36}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Public bike-share systems are one of the world's fastest growing public transport modes, with an average annual growth of 37\% since 2009. The fastest increase takes place in China, a country that is experiencing a rapid uptake of electric bicycles (e-bikes). Sales of e-bikes are outpacing all other motorized modes. The figure 14.1 shows the rapid growth of the two emerging technologies, e-bikes and bike-share systems (Campbell et al., 2016).
@@ -8495,8 +8768,8 @@ The number of BSSs has grown to over 800 units worldwide (Fishman, 2016). The pu
 In Austria, there are multiple companies currently offering bicycle or e-bicycle sharing services such as \emph{Citybike, Ofo or oBike}. Nevertheless, about a year after their launch, the Asian providers of stationless rental bikes in Vienna (start-ups \emph{Ofo} and \emph{oBike}) have been in retreat from the federal capital (Rachbauer, 2018b). This has been a result of strict rules with respect to stationless rental bikes in Vienna announced on 1st August 2018. A failure to comply with the rules resulted in the bikes being removed for a fee. Previously, the traffic road act (\emph{StVO}) allowed the placement of rental bikes in public spaces and the city lacked the means of action against the providers. With the help of a so-called local police ordinance, the city hall required that the bike-sharing companies pick up objectionable bikes on weekdays within four hours and at night and on weekends within twelve hours after notification. If they did not comply, the bikes were removed for a fee. In addition, administrative fines of up to 700 euros were possible. Moreover, a limit of maximum 1500 bicycles per provider was also set. Now, the bikes are given a number and each one has to be registered with the city. According to Blum, setting up several companies to circumvent the upper limit is not allowed. The rental companies themselves also have to meet certaine criteria, for instance, there must be a company headquarters in Vienna and a service hotline. \emph{Ofo} and \emph{oBike} already meet these requirements (Rachbauer, 2018d).
 Across Austria the situation with rental bikes differs significantly, for example in Innsbruck, renatal bikes were first introduced in 2014 and and are succesfully opearting. Meanwhile, in Linz rental bike system has been approved in 2017 and the docking stations are currently under construction. Further, in Salzburg the S-Bike rental system is operating and linked to federal funding (Affenzeller, 2020, Citybike Salzburg, no date a). On the other hand in Graz there is no uniform bike rental system and these services are provided by shops and hotels (Rachbauer, 2016).
 
-\hypertarget{relevant-initiatives-in-austria-35}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-35}}
+\hypertarget{relevant-initiatives-in-austria-36}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-36}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -8511,8 +8784,8 @@ Across Austria the situation with rental bikes differs significantly, for exampl
   \href{https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten}{tpis.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-35}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-35}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-36}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-36}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -8599,8 +8872,8 @@ Midgley, 2011\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-35}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-35}}
+\hypertarget{technology-and-societal-readiness-level-36}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-36}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -8612,8 +8885,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-35}{%
-\subsection*{Open questions}\label{open-questions-35}}
+\hypertarget{open-questions-36}{%
+\subsection*{Open questions}\label{open-questions-36}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -8635,8 +8908,8 @@ TRL & SRL\tabularnewline
   \href{http://en.cyclocity.com/}{cyclocity.com}
 \end{itemize}
 
-\hypertarget{references-36}{%
-\subsection*{References}\label{references-36}}
+\hypertarget{references-37}{%
+\subsection*{References}\label{references-37}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -8706,21 +8979,21 @@ TRL & SRL\tabularnewline
 \hypertarget{scooters}{%
 \section{E-scooters}\label{scooters}}
 
-\hypertarget{synonyms-33}{%
-\subsection*{Synonyms}\label{synonyms-33}}
+\hypertarget{synonyms-34}{%
+\subsection*{Synonyms}\label{synonyms-34}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{electric scooter}
 
-\hypertarget{definition-37}{%
-\subsection*{Definition}\label{definition-37}}
+\hypertarget{definition-38}{%
+\subsection*{Definition}\label{definition-38}}
 \addcontentsline{toc}{subsection}{Definition}
 
 E-scooters are electrically powered scooters which move at a similar speed to bicycles. They are one of micro-mobility solutions which is growing trend in urban mobility. It encompasses all human-powered micro-vehicles, such as bicycles and scooters, but also new micro-vehicles such as e-scooters, e-bikes and some other small, electrically powered vehicles (Oeschger, Carroll and Caulfield, 2020). Most of the modern vehicles of this type are available for both shared and private use and are gaining wide acceptance.
 E-scooters have promised a solution to the last mile problem since their introduction in 2017 (Siegfried et al, 2021). They are seen as alternatives to cars and provide potential for reducing traffic congestion, noise and pollution. Initial results suggest that e-scooters are mainly used for distances between 1 and 6 km. Empirical evidence shows that e-scooters can substitute walking rather than driving for these short distances (James et al., 2019; Portland Bureau of Transportation, 2019). In addition to the potential positive environmental impact of e-scooters on the transportation system, some safety concerns have been raised. Most e-scooter users who had an accident have ridden without a helmet (Liew et al, 2020). In general, e-scooters are almost exclusively issued without protective equipment (Allem and Majmundar, 2019). The safety issues do not only affect the riders themselves, but also have an impact on other road users, especially pedestrians (Sikka et al., 2019). It has even been criticised that technology follows the idea of ``sell first, safety later'' (Choron and Sakran, 2019).
 
-\hypertarget{key-stakeholders-36}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-36}}
+\hypertarget{key-stakeholders-37}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-37}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -8731,23 +9004,23 @@ E-scooters have promised a solution to the last mile problem since their introdu
   \textbf{Responsible}: National governments, city government, private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-36}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-36}}
+\hypertarget{current-state-of-art-in-research-37}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-37}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Since e-scooters are already well-established technology, most research focuses on safety and accidents, user behaviour and potential environmental impact of uptake of this micro-mobility option. Some studies advocate e-scooters as an environmentally friendly solution for crowded cities, others report contradictory results and point to safety issues.
 Moreover, research also explores whether the presence of e-scooters reduces bicycle thefts (Gössling, 2020). In Gothenburg, Sweden, the police reported that the number of bicycle thefts halved after the introduction of e-scooters and rental bikes (Sydsvenskan, 2019).
 
-\hypertarget{current-state-of-art-in-practice-36}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-36}}
+\hypertarget{current-state-of-art-in-practice-37}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-37}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 E-scooter providers such as \emph{Lime} and \emph{Bird}, which launched operations in California in 2017, can now be found in over 100 cities worldwide and have since recorded millions of rides. E-scooter provider \emph{VOI} has experienced similar growth in Europe and entered the market in 10 countries in just one year after launching in Sweden and has recorded over 16 million rides (Oeschger et al., 2020). The results of a survey indicate that e-scooters are primarily seen as entertainment and not as a means of transport (Siegfried et al., 2021).
 Maximum speed limits are an important issue and internationally there are different approaches. Los Angeles and Dallas, for example, have no speed limit, as far as can be deduced from the news; while the limit in Vienna is 25 km/h (Schwarz, 2019). Paris is discussing reducing the speed limit to 20 km/h on cycle paths and 8 km/h in parks and pedestrian areas (Négroni, 2019). One problem with the maximum speeds is that some of the e-scooter models can go much faster than 25 km/h (Le Figaro, 2018). To counteract the negative consequences of the introduction of e-scooters, cities have evaluated and implemented various rules and guidelines. Media analysis suggests that the city councils should introduce the following rules as a minimal requirement: speed limits, restrictions on the exclusive use of bicycle infrastructure and a designation of parking spaces for rental and return. Behavioural campaigns and fines, are needed to limit negative consequences of e-scooter use (Gössling, 2020).
 In Vienna, only very few e-scooters are used on bicycle paths (between 4.9\% and 7.1\% compared to other bicycle path users). Given the modal split of Vienna (7\% cycling), it can be concluded that e-scooters do not yet have a significant role in Vienna's transport system (Laa and Leth, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-36}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-36}}
+\hypertarget{relevant-initiatives-in-austria-37}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-37}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -8764,8 +9037,8 @@ In Vienna, only very few e-scooters are used on bicycle paths (between 4.9\% and
   \href{https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/Elektro-Scooter,-Quads-und-Co/Seite.610110.html}{oesterreich.gv.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-36}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-36}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-37}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-37}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -8852,8 +9125,8 @@ Goessling, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-36}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-36}}
+\hypertarget{technology-and-societal-readiness-level-37}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-37}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -8865,8 +9138,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-36}{%
-\subsection*{Open questions}\label{open-questions-36}}
+\hypertarget{open-questions-37}{%
+\subsection*{Open questions}\label{open-questions-37}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -8876,8 +9149,8 @@ TRL & SRL\tabularnewline
   Will an increasing presence of e-scooters on the bicycle infrastructure or in pedestrian zones require separate solution in urban road infrastructure?
 \end{enumerate}
 
-\hypertarget{references-37}{%
-\subsection*{References}\label{references-37}}
+\hypertarget{references-38}{%
+\subsection*{References}\label{references-38}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -8923,8 +9196,8 @@ TRL & SRL\tabularnewline
 \hypertarget{ride_hailing}{%
 \section{Ride-hailing \& Ride-sharing}\label{ride_hailing}}
 
-\hypertarget{synonyms-34}{%
-\subsection*{Synonyms}\label{synonyms-34}}
+\hypertarget{synonyms-35}{%
+\subsection*{Synonyms}\label{synonyms-35}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \begin{itemize}
@@ -8935,8 +9208,8 @@ TRL & SRL\tabularnewline
   Ride sharing: \emph{car-pooling}
 \end{itemize}
 
-\hypertarget{definition-38}{%
-\subsection*{Definition}\label{definition-38}}
+\hypertarget{definition-39}{%
+\subsection*{Definition}\label{definition-39}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Ride sharing and ride hailing both emerged from the ``shared economy'' or ``collaborative economy'', which aims to share underutilized resources to increase efficiency, protect the environment and promote economic growth (Tirachini, 2019).
@@ -8945,8 +9218,8 @@ Ride hailing (RH) in comparison to street-hailing enables booking a journey via 
 
 Ride sharing, by contrast, describes the process in which a rider shares a vehicle with multiple other riders, who want to go in the same direction. Some Transportation Network Companies who offer ride hailing are also offering ride sharing services, like \emph{UberPool} or \emph{Lyft Shared} which are usually cheaper and also more environmentally friendly due to the higher occupancy rate (Herzog, 2018). Dynamic ride sharing systems use algorithms to match riders, who want to go in a similar direction and form a shared ride (Lokhandwala \& Cai, 2018).
 
-\hypertarget{key-stakeholders-37}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-37}}
+\hypertarget{key-stakeholders-38}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-38}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -8957,8 +9230,8 @@ Ride sharing, by contrast, describes the process in which a rider shares a vehic
   \textbf{Responsible}: National Governments, City government, Private Companies, Transportation Network Companies, Software providers
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-37}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-37}}
+\hypertarget{current-state-of-art-in-research-38}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-38}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Even though ride hailing emerged from the sharing economy, it is controversial whether it has ultimately had a positive effect on the environment (Herzog, 2018).
@@ -8973,8 +9246,8 @@ The study by Martin et al.~(2021) provides a recent review of studies on ridesha
 
 The NGO Mothers Against Drunk Driving (MADD) and Uber -- one of the most known ride hailing platforms -- published a report in 2015, in which they argue, based on studies in California, that the presence of uber services in a city can lower the amount of drunk driving crashes involving younger populations. Based on a study of Seattle's data, they argue that Uber's entry into the Seattle market was associated with a 10\% drop in drunk driving arrests.
 
-\hypertarget{current-state-of-art-in-practice-37}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-37}}
+\hypertarget{current-state-of-art-in-practice-38}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-38}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The two most known companies offering ride hailing in the US are \emph{Uber} and \emph{Lyft}. Uber, for instance, again offers various services, such as:
@@ -8997,8 +9270,8 @@ The world's largest long-distance ride-sharing app, which has 90 million members
 
 The Austrian platforms \emph{GREENDRIVE} and \emph{Carployee} both connect drivers who work for the same companies or institutions with the goal of saving company parking spaces through shared rides and protecting the environment at the same time (GREENDRIVE MOBILITY GMBH, 2020; Carployee, 2020).
 
-\hypertarget{relevant-initiatives-in-austria-37}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-37}}
+\hypertarget{relevant-initiatives-in-austria-38}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-38}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -9015,8 +9288,8 @@ The Austrian platforms \emph{GREENDRIVE} and \emph{Carployee} both connect drive
   \href{https://ummadum.com/}{ummadum.com}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-37}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-37}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-38}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-38}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -9081,8 +9354,8 @@ Tirachini, 2019; Jin et al., 2018\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-37}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-37}}
+\hypertarget{technology-and-societal-readiness-level-38}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-38}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -9094,8 +9367,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-37}{%
-\subsection*{Open questions}\label{open-questions-37}}
+\hypertarget{open-questions-38}{%
+\subsection*{Open questions}\label{open-questions-38}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -9133,8 +9406,8 @@ TRL & SRL\tabularnewline
   \href{https://www.uber.com/at/de/}{uber}
 \end{itemize}
 
-\hypertarget{references-38}{%
-\subsection*{References}\label{references-38}}
+\hypertarget{references-39}{%
+\subsection*{References}\label{references-39}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -9177,20 +9450,20 @@ TRL & SRL\tabularnewline
 \hypertarget{FCEV}{%
 \section{Hydrogen fuel cell}\label{FCEV}}
 
-\hypertarget{synonyms-35}{%
-\subsection*{Synonyms}\label{synonyms-35}}
+\hypertarget{synonyms-36}{%
+\subsection*{Synonyms}\label{synonyms-36}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{hydrogen fuel cell electric vehicles, FCEV}
 
-\hypertarget{definition-39}{%
-\subsection*{Definition}\label{definition-39}}
+\hypertarget{definition-40}{%
+\subsection*{Definition}\label{definition-40}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Hydrogen Fuel Cells are systems that use hydrogen as fuel to generate electrical energy in a Fuel Cell and drive the vehicle with electrical structure. In a technical manner, they show similarities with electric vehicles. The advantages of Fuel Cell Electrical Vehicles (FCEV) are emission-free (water only), fast refuelling, noiseless driving, more economical fuel consumption and efficiency, easy maintenance. Regardless of these benefits, FCEV has some disadvantages, such as limited range, lack of hydrogen refuelling stations, safety problems, low profitability for car manufacturers, high prices and lower awareness and acceptance (Tanç et al., 2019; Borgstedt et al., 2017; Iribarren et al., 2016). Moreover, FCEVs have higher energy density than electric batteries which enables them to drive further with heavier loads. At the same time, it raises constraints on weight and size of the energy storage in the vehicles. Consequently, FCEVs are more suitable for freight transport, commercial vehicles, buses, trains, ships and aircrafts, where the performance requirements are higher. Prototypes of all the examples mentioned already exist (Eichlseder et al, 2018). In terms of private cars, the FCEVs are likely to provide advantage for long-distance travelling (Roadmap Europe, 2019).
 
-\hypertarget{key-stakeholders-38}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-38}}
+\hypertarget{key-stakeholders-39}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-39}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -9201,14 +9474,14 @@ Hydrogen Fuel Cells are systems that use hydrogen as fuel to generate electrical
   \textbf{Responsible}: National Governments, Car Manufacturers, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-38}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-38}}
+\hypertarget{current-state-of-art-in-research-39}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-39}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 The goal of alternative propulsion systems is to minimize or eliminate completely the climate-damaging CO\textsubscript{2} emissions, consequently the European Community Research Program proposes electromobility as a priority research area. In particular, the most substantial research is carried out on methods of hydrogen production using biological and photochemical processes because 95\% of hydrogen currently produced on an industrial scale comes from fossil hydrocarbons and only 5\% from water by electrolysis. Where the only emission-free production process of hydrogen is the electrochemical water splitting in electrolysis, when the required electricity is generated from wind-, water or solar energy. This process results in high degrees of purity and usually achieves efficiencies of up to 85\% (Eichlseder et al., 2018). Moreover, the electric vehicle policy aims at technology optimization, market development, durability and capacity of the batteries and charging stations (Alvarez-Meaza et al., 2020).
 
-\hypertarget{current-state-of-art-in-practice-38}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-38}}
+\hypertarget{current-state-of-art-in-practice-39}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-39}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 Hydrogen in transport is only at the beginning of its development (in 2013 the first light FCEVs were introduced for leasing only). Compared to other alternative propulsion systems such as battery electric vehicles (BEVs), which were introduced to the vehicle market earlier, FCEVs show a similar upward trend. At the end of 2017, the total number of FCEVs in Europe reached 799 vehicles, of which 602 were passenger cars and 197 light commercial vehicles, while the total number of BEVs reached 447,150 vehicles. At the end of 2018, the number of FCEVs in Europe rose to about 1,110 (Apostolou and Xydis, 2019).
@@ -9221,8 +9494,8 @@ In terms of the number of hydrogen refuelling stations (HRS) worldwide, just abo
 
 The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H., 2019; Alvarez-Meaza et al., 2020).
 
-\hypertarget{relevant-initiatives-in-austria-38}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-38}}
+\hypertarget{relevant-initiatives-in-austria-39}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-39}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -9231,8 +9504,8 @@ The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell te
   \href{https://fuelcellsworks.com/news/alstoms-hydrogen-train-successfully-completes-three-months-of-testing-in-austria/\#:~:text=Alstom's\%20Hydrogen\%20Train\%20Successfully\%20Completes\%20Three\%20Months\%20of\%20Testing\%20in\%20Austria,-By\%20FuelCellsWorksDecember\&text=Alstom's\%20Coradia\%20iLint\%2C\%20the\%20world's,Austrian\%20Federal\%20Railways}{hydrogen train}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-38}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-38}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-39}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-39}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -9352,8 +9625,8 @@ International Partnership for Hydrogen and Fuel Cells in the Economy, no date\st
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-38}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-38}}
+\hypertarget{technology-and-societal-readiness-level-39}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-39}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -9365,8 +9638,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-38}{%
-\subsection*{Open questions}\label{open-questions-38}}
+\hypertarget{open-questions-39}{%
+\subsection*{Open questions}\label{open-questions-39}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -9392,8 +9665,8 @@ TRL & SRL\tabularnewline
   \href{https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition}{fch.europa}
 \end{itemize}
 
-\hypertarget{references-39}{%
-\subsection*{References}\label{references-39}}
+\hypertarget{references-40}{%
+\subsection*{References}\label{references-40}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -9433,14 +9706,14 @@ TRL & SRL\tabularnewline
 \hypertarget{bev}{%
 \section{Battery electric}\label{bev}}
 
-\hypertarget{synonyms-36}{%
-\subsection*{Synonyms}\label{synonyms-36}}
+\hypertarget{synonyms-37}{%
+\subsection*{Synonyms}\label{synonyms-37}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Battery electric vehicle (BEV)}
 
-\hypertarget{definition-40}{%
-\subsection*{Definition}\label{definition-40}}
+\hypertarget{definition-41}{%
+\subsection*{Definition}\label{definition-41}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Transport contributes up to 30\% of climate-relevant greenhouse gas emissions in Austria, with CO\textsubscript{2} playing the largest role here (Bundesministerium für Umwelt, 2019). While the average engine power of vehicles sold annually is increasing (Kreuzer, 2020), the total emissions from the transport sector are also rising (Bundesministerium für Umwelt, 2019). Without a change in mobility behaviour, only a switch to locally emission-free drive technologies, such as BEVs, can help this situation. BEVs are emission-free in operation (apart from tyre wear and minimal brake dust) and have a battery storage/accumulator installed that is charged at an external charging station. The power conversion takes place in an electric motor. The benefits and drawbacks of BEVs are presented in the table below.
@@ -9482,8 +9755,8 @@ Disadvantages\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{key-stakeholders-39}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-39}}
+\hypertarget{key-stakeholders-40}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-40}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -9494,8 +9767,8 @@ Disadvantages\strut
   \textbf{Responsible}: National Governments, City Government, Private Companies, International Lobbyists
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-39}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-39}}
+\hypertarget{current-state-of-art-in-research-40}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-40}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Research on this topic focuses mainly on technology performance, component sizing, charging stations and life cycle assessment (LCA).
@@ -9526,8 +9799,8 @@ The advantages of electric drives are also evident in the cumulative energy cons
 In terms of the efficiency of this technology, the well-to-wheel efficiency in Austria is about 69\%. This is a significant efficeinty gain as compared to a fuel cell car with an average well-to-wheel efficiency of about 27\% and a petrol-powered car at about 20\% (Bundesministerium für Umwelt Naturschutz und nukleare Sicherheit, no date). The losses in the electricity grid in Austria are very low and can be estimated in the range of 5\%, which results in a well-to-tank efficiency of 95\% based on 100\% green electricity.
 In the course of the charging process, charging losses of 10\% occur due to resistances in the charging cable and the battery. However, an AC/DC voltage converter (rectifier) is connected upstream of the traction battery, which causes a further 5\% energy loss. In order to get the stored energy onto the road, it now flows through a DC/AC voltage converter (inverter) with 5\% energy loss and can finally be transferred to the wheel by an electric motor with 90\% efficiency. The tank-to-wheel efficiency is therefore 73\%. The overall well-to-wheel efficiency of a BEV is 69\%.
 
-\hypertarget{current-state-of-art-in-practice-39}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-39}}
+\hypertarget{current-state-of-art-in-practice-40}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-40}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The number of e-cars registered worldwide has reached a new record level. At the same time, however, the growth in new registrations weakened. Around 7.9 million e-cars were registered worldwide in 2019. That is almost 2.3 million more than in 2018 - an increase of 40\%.
@@ -9536,8 +9809,8 @@ According to the Centre for Solar Energy and Hydrogen Research Baden-Württember
 With around 230,000 registered vehicles, Germany is in seventh place in terms of the total number of e-cars after China, the USA, Norway, Japan, France and the UK (Prack, 2020).
 But electric power is not just an alternative for personal modes of transport. Increasingly more vehicles in the commercial and public transport sectors are being electrically powered. The larger and heavier a vehicle is, the more difficult it is to electrify it due to the enormous mass of the larger batteries. However, battery technology is constantly developing, and the ranges are increasing. Even heavy semi-trailer trucks could be electrified in the near future. However, they would need batteries and overhead lines on motorways for fast charging along their routes. This is now being tested in Germany. Three routes in Hesse, Schleswig-Holstein and Baden-Württemberg are currently being equipped with overhead lines (see more in section on \protect\hyperlink{ers}{Electric Road Systems}). In many cities, such as Cologne, Berlin and Hamburg, electric buses are already part of regular service. Their electricity needs are met by fast, occasional charging at bus stops and by charging at night in depots. Many German cities plan to use all-electric buses in the near future (Kurzempa, 2018).
 
-\hypertarget{relevant-initiatives-in-austria-39}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-39}}
+\hypertarget{relevant-initiatives-in-austria-40}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-40}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -9548,8 +9821,8 @@ But electric power is not just an alternative for personal modes of transport. I
   \href{https://www.beoe.at/statistik/}{beoe.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-39}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-39}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-40}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-40}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -9636,8 +9909,8 @@ IEA, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-39}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-39}}
+\hypertarget{technology-and-societal-readiness-level-40}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-40}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -9649,8 +9922,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-39}{%
-\subsection*{Open questions}\label{open-questions-39}}
+\hypertarget{open-questions-40}{%
+\subsection*{Open questions}\label{open-questions-40}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -9688,8 +9961,8 @@ TRL & SRL\tabularnewline
   \href{https://ec.europa.eu/eurostat/databrowser/view/ROAD_EQR_CARPDA__custom_91702/bookmark/table?lang=de\&bookmarkId=7e47ef9d-b80b-4bd6-a35b-046cb5af4500}{ec.europa.eu}
 \end{itemize}
 
-\hypertarget{references-40}{%
-\subsection*{References}\label{references-40}}
+\hypertarget{references-41}{%
+\subsection*{References}\label{references-41}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}
@@ -9731,14 +10004,14 @@ TRL & SRL\tabularnewline
 \hypertarget{plugin_hybrid}{%
 \section{Plugin hybrid vehicles}\label{plugin_hybrid}}
 
-\hypertarget{synonyms-37}{%
-\subsection*{Synonyms}\label{synonyms-37}}
+\hypertarget{synonyms-38}{%
+\subsection*{Synonyms}\label{synonyms-38}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{Hybrid, HEV, PHEV}
 
-\hypertarget{definition-41}{%
-\subsection*{Definition}\label{definition-41}}
+\hypertarget{definition-42}{%
+\subsection*{Definition}\label{definition-42}}
 \addcontentsline{toc}{subsection}{Definition}
 
 Plug-in hybrid vehicles effectively combine the electric drive with either a conventional combustion engine or other engines that use alternative fuels. This has the advantage that the vehicles can travel long distances, but consumption and emissions are reduced. An energy management system ensures that the optimum amount of energy is drawn from the two energy sources while driving. The ratio of energy consumption is influenced by the driving cycle. The faster the vehicle drives, the more energy is needed (Aswin and Senthilmurugan, 2018).
@@ -9773,8 +10046,8 @@ The parallel hybrid vehicle is an integration of an electric motor and an intern
 
 The combined hybrid vehicle is a fusion of parallel and series hybrid (series-parallel hybrid). There is a double connection (electrical and mechanical) between the drive axle and the engine. The power transmission to the wheels can be either electric or mechanical. At low speeds it behaves like a series hybrid electric vehicle, but at higher speeds series drive trains are less likely to be preferred and the vehicle motor takes over. This model is significantly more expensive than parallel models as they require a mechanically split drive system, an additional generator and high computing power for dual control (Aswin and Senthilmurugan, 2018).
 
-\hypertarget{key-stakeholders-40}{%
-\subsection*{Key stakeholders}\label{key-stakeholders-40}}
+\hypertarget{key-stakeholders-41}{%
+\subsection*{Key stakeholders}\label{key-stakeholders-41}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
 
 \begin{itemize}
@@ -9785,14 +10058,14 @@ The combined hybrid vehicle is a fusion of parallel and series hybrid (series-pa
   \textbf{Responsible}: National Governments, Car Manufacturers, International lobbyists, Private Companies
 \end{itemize}
 
-\hypertarget{current-state-of-art-in-research-40}{%
-\subsection*{Current state of art in research}\label{current-state-of-art-in-research-40}}
+\hypertarget{current-state-of-art-in-research-41}{%
+\subsection*{Current state of art in research}\label{current-state-of-art-in-research-41}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Current research efforts focus on the reduction of battery size while maintaining the electric driving performance. Therefore, the study by Song et al.~(2018) suggest 30.4 kWh as an optimal battery capacity. Another, large research developments are performed with respect to reduction of emissions and continuous testing of environmental efficiency in comparison to conventional cars. In an ADAC test of plug-in hybrids, just two cars scored well in the Ecotest, namely Hyundai Ioniq and Volvo V60. The Hyundai was very energy-efficient, while the Volvo consumed more energy and emited more carbon dioxide, but its exhaust gases were cleaner. This allowed it to score well in terms of pollutants. However, the test results leave no doubt that large and heavy cars like the BMW X5 and Mercedes GLE, even as plug-in hybrids, consume a lot of energy and therefore cannot be counted as eco-mobiles (Kroher, 2020). Interestingly, recent test conducted on the newest models of PHEV showed that they pollute the environment two to four times more than the manufacturers claim which undermined the public opinion on the environmental advantages offered by the PHEV (Plötz et al., 2020; Bannon, 2020).
 
-\hypertarget{current-state-of-art-in-practice-40}{%
-\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-40}}
+\hypertarget{current-state-of-art-in-practice-41}{%
+\subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-41}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
 The development of the hybrid electric vehicle is evolving into the next generation of the mode of transport, in line with EU's policy aims of reduction of greenhouse gas emissions. Nevertheless, current market penetration is still relatively low, contributing to 1\% of total car registrations (as of 2019). In Europe, the leaders in the uptake of plug-in hybrid vehicles are Finland and Sweden followed by the United Kingdom (European Environment Agency, 2020).
@@ -9803,8 +10076,8 @@ The results of a study by the Frauenhofer Institute show that the actual climate
 By 2020, there are already 800 public e-charging points in Vienna, with number close to a thousand, Vienna is one of the leading e-mobility cities in Europe (Fischer, 2020).The Austrian energy companies - members of the BEÖ - have driven the expansion of the public charging infrastructure in recent years. With over 5,000 charging points between Vienna and Bregenz, Austria provides one of the densest charging networks in Europe (Sitte, 2020b).
 Until now, all building owners had to agree to the installation of an e-charging station. This unanimity is to fall soon. Accordingly, the installation of charging stations in apartment buildings will be made easier from autumn onwards (Sitte, 2020a).
 
-\hypertarget{relevant-initiatives-in-austria-40}{%
-\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-40}}
+\hypertarget{relevant-initiatives-in-austria-41}{%
+\subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-41}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
 \begin{itemize}
@@ -9815,8 +10088,8 @@ Until now, all building owners had to agree to the installation of an e-charging
   \href{https://www.vcoe.at/presse/presseaussendungen/detail/vcoe-neue-studie-zeigt-schlechte-klimabilanz-von-plug-in-hybrid-pkw}{vcoe.at}
 \end{itemize}
 
-\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-40}{%
-\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-40}}
+\hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-41}{%
+\subsection*{Impacts with respect to Sustainable Development Goals (SDGs)}\label{impacts-with-respect-to-sustainable-development-goals-sdgs-41}}
 \addcontentsline{toc}{subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}
 
 \begin{longtable}[]{@{}ccccc@{}}
@@ -9881,8 +10154,8 @@ Schaefer, 2020\strut
 \bottomrule
 \end{longtable}
 
-\hypertarget{technology-and-societal-readiness-level-40}{%
-\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-40}}
+\hypertarget{technology-and-societal-readiness-level-41}{%
+\subsection*{Technology and societal readiness level}\label{technology-and-societal-readiness-level-41}}
 \addcontentsline{toc}{subsection}{Technology and societal readiness level}
 
 \begin{longtable}[]{@{}cc@{}}
@@ -9894,8 +10167,8 @@ TRL & SRL\tabularnewline
 \bottomrule
 \end{longtable}
 
-\hypertarget{open-questions-40}{%
-\subsection*{Open questions}\label{open-questions-40}}
+\hypertarget{open-questions-41}{%
+\subsection*{Open questions}\label{open-questions-41}}
 \addcontentsline{toc}{subsection}{Open questions}
 
 \begin{enumerate}
@@ -9921,8 +10194,8 @@ TRL & SRL\tabularnewline
   \href{https://www.fch.europa.eu/news/hydrogen-roadmap-europe-sustainable-pathway-european-energy-transition}{fch.europa}
 \end{itemize}
 
-\hypertarget{references-41}{%
-\subsection*{References}\label{references-41}}
+\hypertarget{references-42}{%
+\subsection*{References}\label{references-42}}
 \addcontentsline{toc}{subsection}{References}
 
 \begin{itemize}

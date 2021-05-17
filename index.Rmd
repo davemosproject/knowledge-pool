@@ -103,7 +103,7 @@ format(Sys.time(),'%d %B %Y')
     - [Bus rapid transit](#brt)
     - [Light rail trans](#lrt)
     - [Passenger drones](#passenger_drones) **NEW**
-    - [Automatic train operations](#automatic_train)
+    - [Automatic train operations](#automatic_train) **NEW**
 12. [Big data](#big)
     - [Wireless communication systems](#wireless_com)
     - [Big data lifecycle](#bd_life)
