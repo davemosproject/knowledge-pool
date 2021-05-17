@@ -196,6 +196,185 @@ cat('|TRL| SRL|
 
 ## Light rail transit {#lrt}
 
+### Synonyms {-}
+*Light Rail Transit (LRT), Heavy Rail Transit (HRT)*
+
+### Definition {-}
+Light rail (also referred to as tram) has become a popular measure among urban planners to address the social and economic complexities associated with urban growth (Baker & Lee, 2019). Light rail developments go beyond improving access to public transport to surrounding neighbourhoods. Impacts can also address property values, neighbourhood demographics, employment opportunities and access to services (Hess, 2020). <br/>
+
+Proponents argue that the establishment of new LRT lines can promote environmental sustainability by reducing private car use and improve public health by increasing neighbourhood walkability and air quality (D. Knowles & Ferbrache, 2016). Other arguments are that LRTs address income inequality positively by encouraging business development and providing direct access to employment centres in a city or suburb (Hess, 2020). <br/>
+
+Many of these impacts have implications for the health and well-being of residents. These are assessed through the social determinants of health (SDOH). The World Health Organization (WHO) defines the social determinants of health (SDOH) as the "*conditions under which people are born, grow up, live, work and age*" (e.g. income, housing, employment) and "*the underlying drivers of these conditions*" (e.g. economic and social policies and political systems) (Braveman & Gottlieb, 2014). The SDOH framework asserts that the way political, social and economic resources are distributed within communities can have an impact on health and well-being (Solar & Irwin, 2010). <br/>
+
+LRT has become a popular form of transit due to low construction costs compared to underground systems and large perceived economic benefits. LRT systems are typically built along existing streets, eliminating the need for expensive tunnel or elevated rail infrastructure. While LRT shares road space with vehicles and pedestrians, portions of the routes are used with priority, allowing for higher speeds and fewer delays than buses. Unlike bus transit, the need for rails, an above-ground power source and platforms ensures that LRT is a long-term local investment (Tyndall, 2021). <br/>
+
+Laird (2019) defines the differences between light rail systems and commuter rail systems. They function differently, have different requirements and use different systems for operation:
+
+**Commuter rail systems**
+Commuter rail systems are passenger trains that run on diesel-electric or electrically powered engines. They operate on existing railway tracks on the same routes used by intercity goods trains. They are operated by state authorities or private companies on their own or third-party tracks. They typically have speeds of 80 to 130 km/h, shorter routes and are usually only found in larger conurbations. Commuter rail systems have fewer stops than light rail and typically run through suburbs and central cities. Because commuter rail systems are designed for commuters, the schedule frequency may be different than light rail and run less frequently throughout the day. Commuter rail systems often run most frequently during standard commuting hours for the average workday. 
+
+**Light rail systems**
+Light rail systems are passenger trains powered by overhead electric wires. They have lighter frames and smaller bodies than other trains due to the turning radius required. Because light rail systems operate in city streets and urban corridors with frequent stops, they have a larger turning radius to weave in and out of busy areas and can accelerate and decelerate faster than commuter rail. While commuter rail systems can run over existing goods train tracks, light rail systems generally require their own tracks.
+
+### Key stakeholders {-}
+
+- **Affected**: Pedestrians, Public transport users, Local residents, Drivers
+- **Responsible**: City governments, Private Transport Companies, Transport Authorities
+
+### Current state of art in research {-}
+Research mainly examines the social impacts (Baker & Kim, 2020; Baker & Lee, 2019; Deyas & Woldeamanuel, 2020; Hess, 2020; Tyndall, 2021) and the economic impacts (D. Knowles & Ferbrache, 2016) of light rail transit. <br/>
+
+Knowles & Ferbrache (2016) assess the wider economic impacts of light rail investment on cities. They focused on evidence from UK, European and North American case studies, as there is still a lack of light rail research from less developed cities around the world. They found that investments in light rail systems can have positive economic impacts on cities. However, similar light rail investments in different locations do not necessarily have the same impact, therefore the geography matters. Similar to other forms of transport infrastructure, light rail investments alone are unlikely to be a sufficient catalyst for economic change without additional supporting measures. <br/>
+
+Light rail can spur economic growth by improving accessibility to previously inaccessible areas, encouraging foreign investment, triggering new growth, expanding labour market catchment areas and influencing property prices. However, while many areas experience price increases following the construction of light rail, these are often not absorbed and the capital to fund the infrastructure has to be raised elsewhere. Therefore, as with other forms of public transport, the economic impact of light rail is enhanced when land use and transport planning policies are coordinated, and this is highly dependent on other contextual factors. <br/>
+
+Tyndall (2021) notes that LRT effectively increases overall public transport use because it attracts higher-skilled workers who would be unlikely to use other forms of public transport, while low-skilled workers continue to use public transport. <br/>
+
+**Automation of LRT**
+
+-  Level 2 automation refers to a system where trains run automatically from station to station, but there is a driver in the cab who is responsible for closing the doors, detecting obstacles on the track in front of the train and handling emergency situations. 
+- In automation level 3, trains run automatically from station to station, but there is always a staff member on the train who is responsible for handling emergency situations. 
+- In automation level 4, trains are able to run automatically at all times, including door closure, obstacle detection and emergency situations. On-board staff may be provided for other purposes, such as customer service, but are not required for safe operation. Controls are often provided to manually operate the train in the event of a computer failure. Examples so far are only Metros in Paris, Barcelona, Sydney and Copenhagen (UITP, n.d.). Trams have only been tested for autonomous driving since 2018.
+
+### Current state of art in practice {-}
+
+Trams and light rail systems exist in 389 cities worldwide, more than half (204) of them in Europe. Between 2015 and 2018, the light rail infrastructure in Europe grew by 3.9% from 8943 km to 9296 km, and passenger numbers increased by 6.9% from 9740 million to 10,422 million passengers. Light rail now carries as many passengers as metros and regional/suburban rail lines and ten times more passengers than air travel in Europe. 
+The average light rail journey in Europe is 3.27 km. The busiest light rail network in Europe is in Budapest, Hungary, with 411 million passengers, while Berlin has the longest light rail network in Europe with 193 km. Passenger growth varies from region to region, ranging from 17.5% in the British Isles to 1.5% in Poland. <br/>
+
+While the average European line is 7.3 km long, they tend to be longer on average in countries with newer systems and a limited number of lines, while older, more complex systems have a lower average line length. Europe's fleet consists of 20,750 trams and light rail vehicles, with 51% of this fleet consisting of partial or full low-floor vehicles, ranging from countries with almost 100% such as France, Spain, Ireland, the UK and Norway to countries with much lower proportions. The average annual mileage per vehicle in Europe is 52,000 km, ranging from 38,700 km to 77,500 km (this value is theoretical and based on the assumption that all vehicles are used equally). According to UITP, light rail will continue to receive support from decision-makers and the travelling public in Europe, given the ongoing pressure to reduce congestion, tackle poor air quality in cities and reduce greenhouse gas emissions contributing to climate change.However, much attention and resources will go into maintaining, upgrading and replacing facilities to keep ageing systems attractive and operational. For this reason, the growth of greenfield projects in Europe will continue to slow down (Burroughs, 2020; UITP, 2019)
+
+**Examples of recent investments**
+
+- The Jerusalem tram project which involves building 27 km of new tram lines, 53 stations and a number of depots (Railway-News, 2019).
+
+- Lisbon public transport company, and CAF signed a contract for a new LRT line. The low-floor tram will have a length of 28.5 metres and will be able to run at a speed of 70 km/h (Railwaypro, 2021b).
+
+-	Paris opens the new T9 LRT line between Paris and the city of Orly. The 40 km line has 19 stations and is expected to carry 70,000 to 80,000 passengers per day. The light rail vehicles have eight double doors per side and wider gangways to improve passenger flow and reduce boarding times (Burroughs, 2021).
+European cities will continue to invest in cleaner transport and logistics, including a boost for rail travel and clean mobility in cities and regions (European Commission, 2020). Also the World Bank, 2020 states that investing in reliable mass transit systems such as metro, LRT and Bus Rapid Transit can help keep cities moving while reducing the carbon footprint of urban transport. <br/>
+
+- US cities also have made significant investments in Light Rail Transit (LRT) in recent years. A common justification for LRT is that transit infrastructure improves urban commuter networks by creating spatial connections between workers and jobs. Between 2000 and 2015, the number of LRT stations in four metropolitan regions in the US grew by 56% (Tyndall, 2021). <br/>
+
+- Moscow announced that the tram network will be managed by the Moscow Metro. It is expected that the centralised management and consistent modernisation will increase tram speeds, improve track maintenance, halve the number of repairs and reduce maintenance costs. In 2019, the tram network carried 212 million passengers, which is 12 times more than the population of Moscow. By 2023, Moscow plans to replace its entire existing old tram fleet with low-floor trams. It is expected that by 2024 only low-floor trams will operate on all Moscow routes (Railwaypro, 2021a). <br/>
+
+Furthermore, the investments are also being made in tramtrains. A combination of Light rail and train. While as a train it has the travel advantages of a railway in the surrounding areas, such as speeds, safety standards, ride comfort, sanitary facilities and in the city centre it functions as a tram. These multi-system vehicles, with their equipment and operating characteristics, are ideally suited to the needs of passengers who travel longer distances by train, as well as for passengers who make only a few stops in the city centre. Above all, the tramtrain vehicles also enable direct connections from surrounding areas to the city without changing trains. From the region to the city limits, passengers, thus, have the advantage of fast travel times and high passenger comfort (Seyringer, 2020). In Karlsruhe there are some examples of tram trains existing since 1992 (Stadtwiki Karlsruhe, 2016). They already have continuous rail connections between the inner cities and the regions (Stadtwiki Karlsruhe, 2020). Further, the Badner Bahn is also a well-known tram-train example. The 30.4 km long Badner Bahn tram system runs between Vienna and Baden. Every year, Wiener Lokalbahnen transports around 12 million passengers between Vienna and Baden. Commuters from the south of Vienna are particularly prone to use the Badner Bahn every day (RailwayPro, 2020). <br/>
+
+**Automation**
+
+For several decades now, the tram has been experiencing a renaissance worldwide. Cars and buses are becoming increasingly intelligent and independent thanks to advanced sensor and automation technology. If the tram wants to keep up and secure its attractiveness and competitiveness in the long term, it must evolve into a smart and autonomous means of transport. The automation technology works by using lidar, radar and cameras (Siemens Mobility, 2019):
+
+*Lidar (Light detection and ranging)*
+
+-	Enables 3D environmental detection and positioning
+-	Scans objects vertically and horizontally with laser beams and horizontally; uses the reflected waves to perceive the surroundings
+-	Enables the tram to "see" at an angle of up to 270&deg;
+
+*Radar (Radio Detection and Ranging)*
+
+-	Measures distance and speed with high accuracy - especially of metallic objects
+-	Emits radio waves and uses the reflected waves to locate objects
+-	Covers a large area in front of the tram 
+
+*Cameras*
+
+-	Are trained in intelligent object and signal recognition
+-	Can detect and classify objects in thousands of contours and positions - e.g. as people, signals or infrastructure elements
+-	Cover a large optical area around the vehicle
+
+A few years before 2020, Siemens Mobility launched the driver assistance system "*Siemens Tram Assistant*" - a collision warning and protection system to support the driver. The system is already being used successfully in Siemens trams in Den Haag (Netherlands) and Ulm (Germany). The next commercially viable step planned is depot automation based on an autonomous tram. This will make it possible to automate time-consuming shunting operations in the depot, such as service runs through a car wash to a siding. The extensive isolation from public traffic simplifies technical control and approval (Hofmann, 2020; Zasiadko, 2019b).<br/>
+
+The three leading countries in the development of autonomous trams are Germany, Russia and China (Intelligent Transport, 2019). Siemens Mobility is testing the first autonomous tram in an automated depot in Germany since 2018 (Hofmann, 2020). PC Transport Systems and Cognitive Technologies have announced a joint project that will develop a fully autonomous tram for the Russian and foreign markets by 2021-2022 (Intelligent Transport, 2019; Zasiadko, 2019a). Following the successful tests of the autonomous tram in Moscow, the Russian company Cognitive Technologies is planning to develop an AI-based computer vision system for the Chinese market together with Fuxin Intelligent Transportation Solutions (FITSCO), one of the largest suppliers of signalling and communication solutions in China. This is needed for the testing and introduction of the self-driving trams in Shanghai. The project is to be implemented in 2021 (Zasiadko, 2020).<br/>
+
+Unlike similar solutions for self-driving cars, the system for rail has a number of simplifications that will allow trams to run on public roads sooner. But despite these simplifications, there are only a few countries in the world that are ready for the real deployment of autonomous trams. The developed autonomous driving system recognises vehicles and other trams, traffic lights, pedestrians, tram and bus stops, railway switches and various obstacles. The tram is also able to stop in front of the obstacles, maintain a safe distance from the vehicles ahead, accelerate and stop (Intelligent Transport, 2019).
+
+### Relevant initiatives in Austria {-}
+Vienna has a number of expansion plans for the tram network planned for the coming decade, including connecting the Lower Austrian surrounding area with three lines. Such routes are now becoming more realistic. This is because both provinces are examining the possibilities and framework conditions for implementation in spring 2020 (Wiener Linien, 2020).
+
+- [Tram network extension plans](https://wien.orf.at/stories/3068577/)
+
+"*In addition to the 1-2-3-Klimaticket itself, Upper Austrians will also get an improved, innovative public transport infrastructure with the Linz-Gallneukirchen-Pregarten regional light rail system in the coming years and thus further incentives for commuters to travel to Linz by 'tram-train' instead of standing in traffic jams on the S10 and A7*" explains Weratschnig (Transport spokesman of the Green Party) (Grüner Klub im Parlament, 2021).Further, Badner Bahn will receive new trams. These will gradually replace the old high-floor models starting in the second half of 2021 (RailwayPro, 2020).
+
+- [Badner Bahn](https://www.railwaypro.com/wp/interior-design-for-wiener-lokalbahnen-new-tram-unveiled/)
+
+TramTrains for Linz (Upper Austria) are expected in July 2026. The vehicles will have regional train seats, seating groups and luggage storage facilities in the middle section, while multi-purpose compartments for wheelchair, pram and bicycle transport are planned for the front and rear sections. The vehicles intended for use on the longer light rail routes will be equipped with toilets (Seyringer, 2020).In Salzburg, too, at least 20 new tram-trains are planned for Salzburg until 2026 (SALZBURG24, 2020). 
+
+- [Salzburg tram](https://www.salzburg24.at/news/salzburg/salzburger-lokalbahn-bekommt-neue-tram-trains-91192069)
+- [Linz tramtrain](https://www.ots.at/presseaussendung/OTS_20210312_OTS0128/grueneweratschnig-vom-muehlkreis-aus-bald-per-tram-train-nach-linz-statt-im-stau-auf-der-a7)
+- [Tramtrain in Austria](https://kommunal.at/eisenbahn-und-stadtbahn-einem)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table104, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Increase in neighbourhood walkability and air quality|**+**|Health & Wellbeing  (*3*)|D. Knowles & Ferbrache, 2016|
+|Systemic|Encouraged business development and provision of direct access to employment centres |**+**|Equality  (*5,10*)|Hess, 2020|
+|Systemic|Reduced car use|**+**|Environmental sustainability (*7,12,13,15*)|D. Knowles & Ferbrache, 2016|
+|Systemic|Low construction costs compared to underground systems and large perceived economic benefits|**+**|Sustainable economic development  (*8,11*)|Tyndall, 2021|
+|Systemic|Support from decision-makers in Europe but still a lack of significant LRT efforts in less developed cities around the world| **~**|Partnership & collaborations (*17*)|Burroughs, 2020; D. Knowles & Ferbrache, 2016; UITP, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table105, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|6-9|')
+```
+
+### Open questions {-}
+1. What is the social impact of light rail transit?
+2. What is the potential of LRT to influence residential choices?
+
+### Further links
+
+- [railjournal.com](https://www.railjournal.com/category/passenger/light-rail/)
+- [uitp.org](https://www.uitp.org/topics/light-rail/)
+- [railwaypro.com](https://www.railwaypro.com/wp/)
+- [railway-news.com](https://railway-news.com/)
+- [co2-emmisions](https://ourworldindata.org/co2-emissions-from-transport)
+- [lrta.org](http://www.lrta.org/) 
+- [mobility.siemens.com](https://www.mobility.siemens.com/global/en/portfolio/rail/rolling-stock/trams-and-light-rail/autonomous-tram.html)
+- [metroautomation.org](https://metroautomation.org/what-makes-automation-possible/)
+
+
+### References {-}
+
+- Baker, D. M., & Kim, S. (2020). What remains? The influence of light rail transit on discretionary income. Journal of Transport Geography, 85, 102709. https://doi.org/10.1016/j.jtrangeo.2020.102709
+-	Baker, D. M., & Lee, B. (2019). How Does Light Rail Transit (LRT) Impact Gentrification? Evidence from Fourteen US Urbanized Areas. Journal of Planning Education and Research, 39(1), 35–49. https://doi.org/10.1177/0739456X17713619
+-	Braveman, P., & Gottlieb, L. (2014). The social determinants of health: It’s time to consider the causes of the causes. Public Health Reports, 129(SUPPL. 2), 19–31. https://doi.org/10.1177/00333549141291s206
+-	Burroughs, D. (2020, January 16). Light rail growth strong in Europe, UITP says | International Railway Journal. Railjournal. https://www.railjournal.com/passenger/light-rail/light-rail-sees-strong-growth-in-europe-uitp-says/
+-	Burroughs, D. (2021, April 24). Paris T9 light rail line opens | International Railway Journal. https://www.railjournal.com/passenger/light-rail/paris-t9-light-rail-line-opens/
+-	D. Knowles, R., & Ferbrache, F. (2016). Evaluation of wider economic impacts of light rail investment on cities. Journal of Transport Geography, 54, 430–439. https://doi.org/10.1016/j.jtrangeo.2015.09.002
+-	Deyas, G. T., & Woldeamanuel, M. G. (2020). Social and economic impacts of public transportation on adjacent communities: The case of the Addis Ababa light rail transit. Research in Transportation Economics, 84, 100970. https://doi.org/10.1016/j.retrec.2020.100970
+-	European Commission. (2020, May 26). Europe’s moment: Repair and prepare for the next generation. https://ec.europa.eu/commission/presscorner/detail/en/ip_20_940
+-	Grüner Klub im Parlament. (2021, March 12). Grüne/Weratschnig: Vom Mühlkreis aus bald per Tram-Train nach Linz, statt im Stau auf der A7 | Grüner Klub im Parlament, 12.03.2021. https://www.ots.at/presseaussendung/OTS_20210312_OTS0128/grueneweratschnig-vom-muehlkreis-aus-bald-per-tram-train-nach-linz-statt-im-stau-auf-der-a7
+-	Hess, C. L. (2020). Light-Rail Investment in Seattle: Gentrification Pressures and Trends in Neighborhood Ethnoracial Composition. In Urban Affairs Review (Vol. 56, Issue 1). https://doi.org/10.1177/1078087418758959
+-	Hofmann, M. (2020). Siemens Mobility und VIP Potsdam auf dem Weg zur autonomen Tram. „bahn Manager Magazin“, Edition 02/2020.
+-	Intelligent Transport. (2019, February 13). Russia’s first autonomous tram will be launched in Moscow. https://www.intelligenttransport.com/transport-news/75915/autonomous-tram-development-russia/
+-	Laird, K. (2019, August 28). Spot the Difference: Commuter vs. Light Rail. https://hoponboardblog.com/2019/08/spot-the-difference-commuter-vs-light-rail/
+-	Railway-News. (2019, August 9). CAF Group Consortium Wins Jerusalem Tram Contract | Railway-News. https://railway-news.com/caf-group-consortium-wins-jerusalem-tram-contract/
+-	Railwaypro. (2021a, April 8). Additional Vityaz-M trams expected to enter operation in Moscow. https://www.railwaypro.com/wp/moscow-to-receive-100-low-floor-trams/
+-	Railwaypro. (2021b, April 22). Urbos tram contract signed by Lisbon transport company. https://www.railwaypro.com/wp/lisbon-signs-tram-contract/
+-	RailwayPro. (2020, May 20). The new trams for Badner Bahn have a comfort-oriented design. https://www.railwaypro.com/wp/interior-design-for-wiener-lokalbahnen-new-tram-unveiled/
+-	SALZBURG24. (2020, August 7). Salzburger Lokalbahn bekommt neue Tram-Trains - SALZBURG24. https://www.salzburg24.at/news/salzburg/salzburger-lokalbahn-bekommt-neue-tram-trains-91192069
+-	Seyringer, K. (2020, August 12). Das ist ein nie dagewesenes Projekt, von dem wir sehr profitieren werden. https://www.tips.at/nachrichten/linz/wirtschaft-politik/513716-das-ist-ein-nie-dagewesenes-projekt-von-dem-wir-sehr-profitieren-werden
+-	Siemens Mobility. (2019). Teaching trams to drive . Der Trend : Städte fahren autonom.
+-	Solar, O., & Irwin, A. (2010). A conceptual framework for action on the social determinants of health. 79. http://www.who.int/sdhconference/resources/ConceptualframeworkforactiononSDH_eng.pdf
+-	Stadtwiki Karlsruhe. (2016). Karlsruher Modell – Stadtwiki Karlsruhe. https://ka.stadtwiki.net/Karlsruher_Modell
+-	Stadtwiki Karlsruhe. (2020, December 21). Stadtbahn – Stadtwiki Karlsruhe. https://ka.stadtwiki.net/Stadtbahn
+-	The World Bank. (2020, April 23). Earth Day 2020: Could COVID-19 Be the Tipping Point for Transport Emissions? https://www.worldbank.org/en/news/feature/2020/04/22/earth-day-2020-could-covid-19-be-the-tipping-point-for-transport-emissions
+-	Tyndall, J. (2021). The local labour market effects of light rail transit. Journal of Urban Economics, 124, 103350. https://doi.org/10.1016/j.jue.2021.103350
+-	UITP. (n.d.). Automation Essentials | Automated Metros Observatory. Retrieved May 3, 2021, from https://metroautomation.org/automation-essentials/
+-	UITP. (2019). Light Rail and Tram : the European Outlook. November. https://www.uitp.org/publications/light-rail-and-tram-the-european-outlook/
+-	Wiener Linien. (2020, September 25). Pläne für Straßenbahn nach Niederösterreich - wien.ORF.at. https://wien.orf.at/stories/3068577/
+-	Zasiadko, M. (2019a, February 13). Russia tests its first self-driving tram | RailTech.com. RailTech.Com. https://www.railtech.com/digitalisation/2019/02/13/russia-tests-its-first-self-driving-tram/
+-	Zasiadko, M. (2019b, October 9). Germany will test first autonomous tram in automated depot | RailTech.com. RailTech.Com. https://www.railtech.com/rolling-stock/2019/10/09/germany-will-test-first-autonomous-tram-in-automated-depot/
+-	Zasiadko, M. (2020, April 23). Computer vision for self-driving trams in Shanghai | RailTech.com. RailTech.Com. https://www.railtech.com/digitalisation/2020/04/23/computer-vision-for-self-driving-trams-in-shanghai/
+
+
+
+
+
 ## Passenger drones {#passenger_drones}
 
 ### Synonyms {-}
@@ -425,7 +604,7 @@ cat('|TRL| SRL|
 2. How to increase social acceptance of top level automated trains in Europe?
 
 ### References {-}
-Briginshaw, D. (2019, December 12). DB appoints Nokia to develop 5G network for automatic operation | International Railway Journal. https://www.railjournal.com/infrastructure/db-appoints-nokia-to-develop-5g-network-for-automatic-operation/
+- Briginshaw, D. (2019, December 12). DB appoints Nokia to develop 5G network for automatic operation | International Railway Journal. https://www.railjournal.com/infrastructure/db-appoints-nokia-to-develop-5g-network-for-automatic-operation/
 -	Castagnetti, F., Toubol, A., & Rizzi, G. (2016). C4R Project Increases Rail Capacity without Laying Down New Tracks. Transportation Research Procedia, 14, 672–678. https://doi.org/10.1016/j.trpro.2016.05.329
 -	China Plus. (2019, January 4). China developing world’s first 350 km/h automated bullet trains - China Plus. http://chinaplus.cri.cn/news/china/9/20190103/231172.html
 -	Cuenca, O. (2021, February 22). JR East to introduce ATO on the Joban Line next month | International Railway Journal. https://www.railjournal.com/regions/asia/jr-east-to-introduce-ato-on-the-joban-line-next-month/

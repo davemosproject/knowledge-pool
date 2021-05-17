@@ -101,7 +101,7 @@ format(Sys.time(),'%d %B %Y')
     - [Demand responsive transit](#drt) **NEW**
     - [Personal rapid transit](#prt) **NEW**
     - [Bus rapid transit](#brt)
-    - [Light rail trans](#lrt)
+    - [Light rail transit](#lrt) **NEW**
     - [Passenger drones](#passenger_drones) **NEW**
     - [Automatic train operations](#automatic_train) **NEW**
 12. [Big data](#big)
