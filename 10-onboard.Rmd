@@ -16,11 +16,41 @@ Importantly, there are different level of ADAS support depending on the level of
 knitr::include_graphics("image/adas_level.png")
 ```
 
+### Key stakeholders {-}
+- **Affected**: Car Drivers, Traffic participants, Insurers
+- **Responsible**: Car manufacturers
+
+### Current state of art in research {-}
+
+
+### Current state of art in practice {-}
+
+### Relevant initiatives in Austria {-}
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table108, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Increases driving safety and comfort|**+**|Health & Wellbeing (*3*)||
+|Individual||**-**|Sustainable economic development (*8,11*)||
+|Systemic||          **+**|Innovation & Infrastructure  (*9*)||')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table109, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|||')
+```
+
+### Open questions {-}
+
 
 ### References {-}
-- Samsara.com (2020). Advanced Driver Assistance Systems (ADAS) for Commercial Fleets. Available at:< https://www.samsara.com/guides/adas> Accessed: 28/04/2021 
 
-- Shuttleworth, J. (2019). SAE Standards News: J3016 automated-driving graphic update
+- Samsara.com (2020). Advanced Driver Assistance Systems (ADAS) for Commercial Fleets. Available at:< https://www.samsara.com/guides/adas> Accessed: 28/04/2021 - Shuttleworth, J. (2019). SAE Standards News: J3016 automated-driving graphic update
 Available at: <https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic> Accessed: 28/04/2021
 
 
