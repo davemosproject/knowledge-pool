@@ -26,14 +26,14 @@ knitr::include_graphics("image/DSRC.png")
 
 The term "*cellular*" in C-V2X can cause some confusion. "*Cellular*" in this context does not refer to the use of cellular networks, but to the use of the underlying electronics in cellular radios that are adapted to communicate directly from one radio to another. According to (Gettman, 2020), the following are the main similarities and differences between DSRC and C-V2X technology:
 
-*Similarities*
+**Similarities**
 
 -	Both DSRC and C-V2X use the 5.9Ghz band to communicate directly from one radio to another.
 -	Both technologies use the same message sets (SAE J2735 and J2945) and use cases.
 -	Both technologies use digital signatures to ensure security and trust in message providers.
 -	In both cases, there is no link between radios. Each radio broadcasts the vehicle's location, speed, acceleration and other status elements while listening to other radios.
 
-*Differences*
+**Differences**
 
 -	DSRC uses a radio standard called WAVE, while C-V2X uses Long-Term Evolution (LTE) - the chip technology that almost all mobile phones use. A DSRC radio cannot talk to a C-V2X radio, and vice versa.
 -	The range of DSRC is typically 300 m, and many installations have shown that a much higher range is possible. Initial tests of C-V2X show that the range is 20-30% greater than DSRC and that performance in obstacles can be significantly improved. While C-V2X appears to have better performance initially, the range and reliability of DSRC is more than sufficient for the most important security applications.
