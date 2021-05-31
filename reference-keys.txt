@@ -48,15 +48,17 @@ rail_telematics
 connected
 av
 parking_av
+automated_road_freight
 onboard
 adas
+synonyms-20
+further-links-20
 parking_assistance
 lane_keeping
 digital_maps
 ehorizon
 ecall
 freight
-automated_road_freight
 dangerous_goods
 intermodal_freight
 disruption_management
@@ -72,7 +74,7 @@ drt
 prt
 brt
 lrt
-further-links-30
+further-links-32
 passenger_drones
 automatic_train
 big
