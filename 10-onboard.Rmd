@@ -2,6 +2,10 @@
 
 ## Advanced driver assistance system (ADAS) {#adas}
 
+### Synonyms 
+
+*Fahrerassistenzsystem, Adas*
+
 ### Definition {-}
 
 Advanced driver assistance system is a broad spectrum of technologies that enhance the safety of vehicle and comfort of driving by helping driver prevent or avoid accidents (samsara.com, 2020). They can be divided into four categories depending on their functions:
@@ -21,20 +25,46 @@ knitr::include_graphics("image/adas_level.png")
 - **Responsible**: Car manufacturers
 
 ### Current state of art in research {-}
+Important strands of research regarding ADAS include *(1)* technical improvement of efficiency, reliability and functionality of the system (eg. Storsæter et al., 2021; Capodieci et al., 2021; Tsai et al., 2021; Tian e al., 2021) and *(2)* human aspect of the system use which looks at *(a)* how to convey information about the capabilities as well as limitations of ADAS in order not to offset the advantages stemming from its employment in the vehicles and *(b)* how the performance of the system in a specific context influences the driver’s perception of the system. <br/>
+
+This human-centred research focuses mainly on exploration of the awareness of drivers and vehicle buyers to encourage safe use of ADAS. It is crucial because a study by Harms et al. (2020) showed that many business drivers were unaware of which ADAS their car was equipped with and the reported ownership of ADAS (as measured in self-reported questionnaire) did not match the actual ownership of ADAS, demonstrating the lack of knowledge among drivers. This, in turn, may result in low social acceptance and useability of these safety systems in practice. Further, a Dutch study showed that sellers and consumers lack centralised database of ADAS functions. Consequently, many consumers do not receive information about ADAS and/or cannot try them out at the sale point. It was also showed that independent car dealers struggle to obtain information about ADAS (Boelhouwer et al., 2020). <br/>
+
+Moreover, with respect to impact of context on driver’s perception of ADAS, the study by Orlovska (2020) showed that the driving context strongly influences ADAS usage based on its performance which consequently may have impact on driver’s trust and propensity to use the system in the long-run. Furthermore, it was showed that decisions of the driver regarding the engagement of ADAS while driving are affected by current driving conditions at the time when the decision is made. These results show an interconnection between the context, driver and the ADAS system usage. Beyond, the main findings of literature on driver distraction and behavioural adaptation in the context of ADAS are that *(1)* drivers increase their engagement in secondary tasks (as well as their performance in these tasks) when driving with ADAS, *(2)* drivers’ situational awareness is lower when using ADAS *(3)* the use of ADAS results in longer reaction times, more lane keeping variability and decrease in mental workload. Moreover, it is claimed that when drivers are exposed to automation systems which exceed their expectations, they tend to trust the systems and may not be aware of its limitations. The over-confidence in ADAS, in turn, increases the risk of collision (Hungund et al., 2021). <br/>
+
+Beyond, a particular case of ADAS research focuses on older drivers (Chalkiadakis et al., 2020) and looks at the potential of ADAS in alleviating typical impairments such as reduced peripheral vision, night-time visual problems, longer reaction times, misjudgements of distance and speed and selective attention. As a result, the following functionalities are relevant:
+
+-	Blind spot detection
+-	Obstacle detection system
+-	Collision warning system
+-	Navigation/Route guidance
+-	Lane-keeping system
+-	Night vision system
+-	In-vehicle signage system
+-	Driver condition monitoring system
+-	Congestion and weather warning
+
+Furthermore, study by Zahabi et al. (2021) showed that demonstration-based training for ADAS is more effective for older male while video-based one for older female. 
 
 
 ### Current state of art in practice {-}
+It is generally claimed that, in practice, we have currently reached level 2 automation (in SAE classification, see table above) where vehicle can steer and accelerate, however it still does not drive itself and the driver is fully responsible for the car. A recent survey conducted by [Roland Berger]( https://www.rolandberger.com/en/Insights/Publications/Advanced-Driver-Assistance-Systems-A-ubiquitous-technology-for-the-future-of.html) on 80 global producers, automotive experts, industry suppliers and three thousand drivers shows that 85% of vehicles produced globally in 2025 will be equipped with at least level 1 driving automation features. At the same time, it is not anticipated that level 4 or 5 automation will be present in more than 1% of the vehicles by then (Shirokinskiy et al., 2021). <br/>
+
+Moreover, current pandemic has been showed to slow down the overall development in ADAS systems, reaching in some cases -17% (Shirokinskiy et al., 2021). Further challenge faced by the industry is lack of standardized nomenclature for ADAS features which, on one hand makes the tracking of these features difficult, on the other hand, it creates barriers for understanding of functionalities among drivers. For example, the adaptive cruise control (ACC) feature is known as Adaptive Cruise Control in Fiat, Ford, Volkswagen and Peugeot vehicles, as Intelligent Cruise Control in Citroen and BMW and DISTRONIC in Mercedes (Helman & Carsten, 2019). In May 2020, SAE issued a [generic ADAS terminology recommendations]( https://www.repairerdrivennews.com/2020/05/15/sae-international-endorses-generic-adas-terminology-recommendations/) to tackle standardization issues (Huetter, 2020).  
 
 ### Relevant initiatives in Austria {-}
+
+- [Alp-lab](https://www.alp-lab.at/)
+- [Smartmicro.com](https://www.smartmicro.com/press-media/detail/smartmicro-sensors-deployed-in-austria)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
 ```{r table108, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|Increases driving safety and comfort|**+**|Health & Wellbeing (*3*)||
-|Individual||**-**|Sustainable economic development (*8,11*)||
-|Systemic||          **+**|Innovation & Infrastructure  (*9*)||')
+|Individual|ADAS alleviates impact of aging-related impairments|**+**|Health & Wellbeing (*3*)|Chalkiadakis et al., 2020|
+|Individual|Facilitates mobility for elderly drivers|**+**|Equality (*5,10*)|Chalkiadakis et al., 2020|
+|Systemic|Increases driving comfort but scarce unambiguous evidence of impact on safety|**~**|Health & Wellbeing (*3*)|Sullivan et al., 2016|
+|Systemic|Global trends in ADAS R&D|          **+**|Innovation & Infrastructure  (*9*)|Yochman, 2020|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -42,16 +72,38 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 ```{r table109, echo=FALSE, results='asis'}
 cat('|TRL| SRL|
 |:----:|:----:|
-|||')
+|7-9|6-8|')
 ```
 
 ### Open questions {-}
+1. How can ADAS nomenclature standardization be encouraged and achieved?
+2. How to incorporate the impact of behavioural adaptation into ADAS design to a larger degree?
+
+### Further links
+
+- [ec.europa.eu](https://ec.europa.eu/transport/road_safety/sites/default/files/pdf/ersosynthesis2018-adas.pdf)
+- [aaafoundation.org](https://aaafoundation.org/wp-content/uploads/2017/12/BehavioralAdaptationADAS.pdf) 
 
 
 ### References {-}
+-	Boelhouwer, A., Van den Beukel, A. P., Van der Voort, M. C., Hottentot, C., De Wit, R. Q., & Martens, M. H. (2020). How are car buyers and car sellers currently informed about ADAS? An investigation among drivers and car sellers in the Netherlands. Transportation Research Interdisciplinary Perspectives, 4, 100103.
+-	Capodieci, N., Cavicchioli, R., Muzzini, F., & Montagna, L. (2021). Improving emergency response in the era of ADAS vehicles in the Smart City. ICT Express.
+-	Chalkiadakis, C., Mitsakis, E., & Tzanis, D. (2020, September). Requirements for the development and implementation of ADAS and C-ITS services for older drivers. In 2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC) (pp. 1-6). IEEE.
+-	Harms, I. M., Bingen, L., & Steffens, J. (2020). Addressing the awareness gap: A combined survey and vehicle registration analysis to assess car owners’ usage of ADAS in fleets. Transportation Research Part A: Policy and Practice, 134, 65-77.
+-	Helman, S. & Carsten, O. (2019) What does my car do? Available at: <https://www.pacts.org.uk/wp-content/uploads/What-does-my-car-do-2.1_.pdf> Accessed: 31/05/2021
+-	Huetter, J. (2020) SAE International endorses generic ADAS terminology recommendations. Available at < https://www.repairerdrivennews.com/2020/05/15/sae-international-endorses-generic-adas-terminology-recommendations/> Accessed: 31/05/2021
+-	Hungund, A. P., Pai, G., & Pradhan, A. K. (2021). Systematic Review of Research on Driver Distraction in the Context of Advanced Driver Assistance Systems. Transportation Research Record, 03611981211004129.
+-	Orlovska, J., Novakazi, F., Lars-Ola, B., Karlsson, M., Wickman, C., & Söderberg, R. (2020). Effects of the driving context on the usage of Automated Driver Assistance Systems (ADAS)-Naturalistic Driving Study for ADAS evaluation. Transportation research interdisciplinary perspectives, 4, 100093.
+-	Samsara.com (2020). Advanced Driver Assistance Systems (ADAS) for Commercial Fleets. Available at:< https://www.samsara.com/guides/adas> Accessed: 28/04/2021 
+-	Shirokinskiy, K., Bernhart, W. and Keese, S., 2021. Advanced Driver-Assistance Systems: A ubiquitous technology for the future of vehicles. [online] Roland Berger. Available at: <https://www.rolandberger.com/en/Insights/Publications/Advanced-Driver-Assistance-Systems-A-ubiquitous-technology-for-the-future-of.html> [Accessed 31 May 2021].
+-	Shuttleworth, J. (2019). SAE Standards News: J3016 automated-driving graphic update. Available at: <https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic> Accessed: 28/04/2021
+-	Storsæter, A. D., Pitera, K., & McCormack, E. (2021). Using ADAS to Future-Proof Roads—Comparison of Fog Line Detection from an In-Vehicle Camera and Mobile Retroreflectometer. Sensors, 21(5), 1737.
+-	Sullivan, J. M., Flannagan, M. J., Pradhan, A. K., & Bao, S. (2016). Literature review of behavioral adaptations to advanced driver assistance systems.
+-	Tian, J., Liu, S., Zhong, X., & Zeng, J. (2021). LSD-based adaptive lane detection and tracking for ADAS in structured road environment. Soft Computing, 25(7), 5709-5722.
+-	Tsai, W. C., Lai, J. S., Chen, K. C., M Shivanna, V., & Guo, J. I. (2021). A lightweight motional object behavior prediction system harnessing deep learning technology for embedded adas applications. Electronics, 10(6), 692.
+-	Yochman, F. (2020) Top automakers with highest ADAS and autonomous vehicles R&D spending. Available at: < https://m14intelligence.com/public/index.php/blog/34> Accessed: 31/04/2021.
+-	Zahabi, M., Razak, A. M. A., Mehta, R. K., & Manser, M. (2021). Effect of advanced driver-assistance system trainings on driver workload, knowledge, and trust. Transportation research part F: traffic psychology and behaviour, 76, 309-320.
 
-- Samsara.com (2020). Advanced Driver Assistance Systems (ADAS) for Commercial Fleets. Available at:< https://www.samsara.com/guides/adas> Accessed: 28/04/2021 - Shuttleworth, J. (2019). SAE Standards News: J3016 automated-driving graphic update
-Available at: <https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic> Accessed: 28/04/2021
 
 
 

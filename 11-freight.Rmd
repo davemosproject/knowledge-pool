@@ -1,178 +1,5 @@
 # Freight and commercial transport {#freight}
 
-## Automated road freight {#automated_road_freight}
-
-### Synonyms {-}
-*automated driving systems (ADS), combustion-powered heavy vehicles (CHV), battery electric heavy vehicles (BEHVs), cooperative and automated vehicles (CAVs)* 
-
-### Definition {-}
-The transport sector will soon experience a revolution in automated driving systems (ADS), as reported by Wadud et al. (2016) and Flämig (2016). Some benefits in terms of user experience, efficiency, safety, mobility, productivity, energy, environment and economy have been reported with ADS by many studies (Alessandrini et al., 2015; Anderson et al., 2016; Brown et al., 2014; Chan, 2017; Harper et al., 2016; Wadud, 2017; Kopelias et al., 2020 and Khan et al., 2019), although significant increases in road safety from highly or fully automated vehicles are not certain, as shown by Kalra & Paddock (2016).<br/>
-
-The goals and motivations of automated driving for passenger cars and freight transport differ greatly (Wadud, 2017; Nowakowski et al., 2015). For passenger cars, the main motivations are user experience and the environment, while for freight, the main drivers are productivity and profitability. For example, the increase in the cost of a vehicle related to automation hardware is less important in freight transport due to the lower share of automation hardware costs in the total acquisition costs compared to those of passenger cars. In addition, ADS enable higher profitability in freight transport, mainly due to a reduction in labour costs as well as facilitated logistics and increased utilisation and efficiency (Wadud et al., 2016). In addition, driver costs decrease significantly with high or full automation of driving, leading to early adoption of ADS in the freight sector (Ghandriz et al., 2020a).<br/>
-
-The levels of automation are currently divided into 5 levels (Paulsen, 2018):
-
-**First level: assisted driving**
-
-Individual assistance systems provide support for specific driving tasks. Assisted driving is already a reality in many cars today. (see automatic adaptive cruise control and automatic lane departure warning).
-
-**Second level: partially automated driving**
-
-With semi-automated driving, the car/truck can temporarily perform some tasks itself - without any human intervention. For this purpose, various individual systems are combined with each other - in this case, the automatic adaptive cruise control with the emergency braking and lane departure warning systems. Further level 2 functions (overtaking assistant, automatic parking)
-
-**Third level: highly automated driving**
-
-Highly automated cars/trucks (Level 3) can perform certain driving tasks autonomously and without human intervention, but only for a limited period of time and under suitable conditions specified by the manufacturer. Level 3 cars will probably be on the road on motorways first: There is no oncoming traffic there, the lane markings are usually in order, and the roads are continuously recorded as digital maps. Since 2017, there has also been a legal framework for Level 3 cars in Germany: as soon as the driver puts his car into highly automated mode, he is allowed to turn his attention away from the road traffic. This means that the driver is allowed to read the newspaper. 
-However, if the system detects a problem and sends a signal, the driver must take over the wheel immediately. 
-
-**Level four: fully automated driving**
-
-In the development departments of the large car companies, but also at Apple, Google or Uber, engineers and computer scientists are working flat out on the full automation of the car, i.e. level 4 on the way to autonomous driving. In this level, the technical systems carry out all driving tasks automatically, and the car can also cover longer distances without intervention.
-So far, however, there is no legal framework for fully automated vehicles.
-
-**Fifth level: autonomous driving**
-
-The fifth is the final level of autonomous driving. The car is now completely guided by the system and performs all the necessary tasks automatically. Even complex situations - such as crossing an intersection, driving through a roundabout or the correct behaviour at a zebra crossing - can be handled by the autonomous car. <br/>
-
-So far, however, there is no legal framework for autonomous vehicles. Therefore, the rights and obligations of the manufacturers of the cars/trucks, software developers and the insurance companies, in the automated mode of operation, are still completely unclear. The ADAC experts suggest only *3 operating modes* instead of 5 levels (Paulsen, 2018), where at the moment the car supports us (1st operating mode), soon it will drive itself (2nd operating mode) and in future driverless (3rd operating mode). They can be described as follows:
-
-**First mode: assisted driving**
-
-The driver is always and at all times responsible for driving. As far as possible, the vehicle keeps in lane, brakes and accelerates. But: feedback is not mandatory and a sudden stop is always possible. 
-
-**Second mode: automated driving**
-
-The vehicle only drives itself in the application case specified by the manufacturer (e.g. stop-and-go in a traffic jam). The driver may temporarily turn away from the driving task and the traffic situation. Outside employment is possible. The driver is only liable if he has not complied with the request to take over.
-
-**Third mode: autonomous driving**
-
-The driver becomes a passenger, or the vehicle can be operated without occupants. The autonomous mode can be limited to defined routes. An operator (not the driver) must constantly monitor the vehicle in order to be able to react to operational problems (flat tyres, etc.).<br/>
-
-For a regulatory framework, seamless and harmonised cross-border EU and national regulation of automated road transport is seen by the European Commission, 2019 as a key factor for market introduction. Common procedures for testing, validation and certification enable the standardisation of solutions. Standards should also apply to data exchange and communication solutions. Ethical, legal, environmental and safety aspects should be regulated. The liability and responsibility of each actor in the road system must be defined before the introduction of automated driving.
-
-
-### Key stakeholders {-}
-
-- **Affected**: Truck drivers, Freight forwarders, Delivery companies
-- **Responsible**: National Governments, City government, Freight forwarders, Delivery companies
-
-### Current state of art in research {-}
-The reduction in fuel consumption achieved with ADS due to improved vehicle use and controlled energy management is only up to 10% for passenger cars compared to when a human driver is involved, depending on the traffic scenario (Mersky & Samaras, 2016). The reduction in fuel consumption achieved with ADS is likely to be higher in freight transport, considering that heavy vehicles can form platoons, which theoretically reduce the energy intensity of the following vehicle by up to 25% when the distance between vehicles reaches zero, according to (Wadud et al., 2016); while measurements showed average fuel savings of 8% and 15% for 10 m and 4 m distance of the trucks in the platoon, respectively, according to (Tsugawa et al., 2016). However, as the European Commission (2016) points out, heavy-duty vehicles contribute to about 25 % of CO2 emissions from road transport in Europe, which are rising due to increasing road freight transport despite improved fuel efficiency. These figures suggest that the efficiency improvements offered by ADS, although a profitable business, cannot lead to a reduction in CO2 emissions in the long term; therefore, a further reduction of emissions in the transport sector is needed, motivating the development of greener solutions (Ghandriz et al., 2020a).<br/>
-
-In a slightly simplified study of ADS in heavy vehicles, a reduction in the total cost of ownership (TCO) of trucks of between 27% and 46% for battery electric heavy vehicles (BEHVs) and between 11% and 41% for combustion-powered heavy vehicles (CHVs) makes BEHVs more profitable than BEHVs with human drivers by a factor of four over longer distances. It was observed that Level 4-5 automated BEHVs tend to have lower optimal speeds than vehicles with human drivers. Furthermore, it was shown that reducing speed for safety reasons is less costly to implement for Level 4-5 automated BEHVs than for Level 4-5 automated CHVs; in many scenarios, low speeds up to 60 km/h even reduced the TCO. The reduction in TCO in Level 4-5 automated trucks was mainly achieved by eliminating driver pay (35%-55%), increasing road travel time (0%-15%), increasing payload by eliminating the cab (1.2%-5%), and optimising the drive system (0%-20%) (Ghandriz et al., 2020a). All the data and figures obtained were made available in (Ghandriz et al., 2020b) and provide valuable information on the feasibility and profitability of a planned freight transport operation with automation and electrification for a specific use case.<br/>
-
-Pribyl et al., (2020) are investigating the effects of lower CAV penetrations. According to this, even with a low number of CAVs on the roads, the impact on transport and environmental performance indicators will be significant. However, this integration needs to be combined with other measures and policies such as the promotion of alternative powertrains if EU emission targets are to be met. However, results have also shown that CAVs can negatively affect other traffic parameters and lead, for example, to delays and other traffic flow phenomena.<br/>
-
-Shin et al., (2018) analyse some of the technical trends related to intermodal automated freight transport systems (ATFS) that aim to reduce greenhouse gases and particulate matter, minimise infrastructure costs and logistics costs, and alleviate traffic congestion. Countries such as the US, Germany, the Netherlands and Japan have been actively developing technologies for ATFS.
-Gan et al., 2021 capture the characteristics of the swarm intelligence of truck drivers as a solid basis for the design, control and management of the future driverless truck swarm robotics system. The detection of the short-term location of truck drivers in advance, especially for areas with high freight demand, and thus the optimal use of freight capacity on the motorway, is the key component of freight matching. For city-level forecasting, it can help to determine the city points that truckers will be driving to, making it easier to plan an optimal route for them from the city's perspective. It can also predict the internal transport capacity of the city, predict the bottleneck caused by the truck and provide decisions for inner-city traffic management.
-
-Mulholland et al., (2018) define a global assessment of the decarbonisation of road freight transport by 2050. Overall, global road freight transport in tonnes-kilometer (tkm) is projected to grow 2.4-fold over the period 2015-2050 in their Reference Technology Scenario (RTS), with developing countries accounting for most of the growth, in line with economic growth. Developing countries are projected to account for 75% of road freight transport in 2050. In order to reduce dependence on fossil fuels, three key requirements are proposed:
-
--	Fuel economy standards (minimum efficiency).
--	Support for comprehensive data collection and information exchange
--	Promoting the use of alternative fuels and the vehicles that use them
-
-### Current state of art in practice {-}
-The initial introduction of autonomous driving in closed traffic systems (e.g. traffic in a system network) and manageable scenarios (e.g. motorway, airport grounds, ports) helps to overcome the reluctance towards the technologies as well as the lack of standardisation. The gradual introduction of platooning, starting with manned lead and follow vehicles, could build up the necessary acceptance among the population. It should be examined whether the simultaneous introduction of overhead electric trucks and thus the creation of a dedicated lane would make sense in terms of capacity and safety requirements (Flämig, 2016).<br/>
-
-A European Commission, 2019 report presents many automated road projects, but only one that deals specifically with freight transport:
-
--	Ensemble (01/06/2018- 31/05/2021)
-
-The project aims to support the implementation of multi-brand truck platooning on European roads, so that a single truck can form a platoon with any other truck.
-
-Other projects may approach the issue in a different way, but the focus is on all vehicles. For example:
-
--	Headstart (01/01/2019- 31/12/2021)
-
-The project aims to define test and validation procedures for specific functionalities of Connected and Automated Driving (CAD), including key technologies such as communication, cyber security and positioning. The tests will take place both in simulation and in the real world to validate safety and security performance.
-
--	Levitate (01/12/2018- 30/11/2021)
-
-The project will develop a wide-ranging assessment framework to evaluate the impact of connected and automated transport (CAT) on all aspects of transport and individual mobility, as well as at a societal level. The project addresses the needs of local authorities, regional authorities and national governments to prepare for the increasing use of connected and automated systems, to understand the implications for mobility policy and to take the most effective measures to achieve broader societal goals.<br/>
-
-In the US four manufacturers that dominate the US long-haul truck market have all begun to look at a driverless future. In 2019-2021, each of them has signed contracts with one of the three leading developers of self-driving vehicles (Alphabet's Waymo, TuSimple Holdings and Aurora Innovation). Aurora plans to sell its driverless technology as a service, similar to the way jet engine makers charge airlines for hours spent on the throttle. TuSimple and Waymo Via have similar plans and are also operating cargo services while they test their technology. None of the partnerships with manufacturers are exclusive. The flurry of activity around trucking reflects a growing consensus that self-driving cars are still a long way from reaching most roads, and that 18-wheel trucks might be a better place to establish the technology. Long-haul trucks drive straight most of the time on highways without traffic lights, cyclists or pedestrians crossing the road (Boudway, 2021).
-
-Self-driving vehicles could have an immense impact on logistics and supply chain management. This is because autonomous trucks, last-mile delivery robots and other AVs fit into an increasingly automated distribution process. The automation of high-volume freight routes has the potential to deliver huge efficiency gains in terms of improved safety, increased capacity, lower operating costs and reduced environmental impact. An analyst at Gartner predicts that while self-driving trucks won't be commercially available until 2024 at the earliest, supply chain executives responsible for transportation should start preparing for an autonomous future now. After all, autonomous trucks are just one part to fully automating the entire supply chain, from autonomous inventory planning to autonomous shipping to autonomous distribution. In a report (March 2021), a market research firm predicted that autonomous trucks will be more widely deployed by 2030, accounting for more than 10% of new heavy-duty truck sales on the road. By 2028, one-fifth of the world's countries will have active regulations allowing the legal operation of production-ready autonomous vehicles, up from zero in 2019 (Eddy, 2021).
-
-**Societal aspect**
-
-Despite the imminent technical possibility of implementation, society may not be quite ready for it and political opposition because of the potential for large-scale unemployment among commercial drivers is expected (Wadud, 2017). Whereas, according to the IRU (International Road Transport Union), the European road transport sector is facing the biggest shortage of professional drivers in decades in 2019. According to a survey, the reasons are: the lack of attracting women to work in transport (female drivers make up only 2 per cent of employees in the European transport sector), attracting young people to work in the industry, the poor image of the profession, poor working conditions and being away from home and family for too long. In addition, there is the demographic ageing of the workforce. The average age of a truck driver in Europe is 44 (Kulikowska-Wielgus, 2019).<br/>
-
-In the US, federal agencies have filed plans with the Office of Management and Budget (OMB) for a survey study to assess public appetite for automated driving systems (ADS) in the trucking sector. However, the project, Trucking Fleet Concept of Operations (CONOPS) for Managing Mixed Fleets, has already received public pressure. While the Federal Motor Carrier Safety Administration (FMCSA) received only eight comments on the proposal when it was first requested in November, all opposed it. They cited the "potential loss of jobs for truck drivers and safety concerns arising from ADS testing in the real world" before enough simulator testing has been done. "People who rely on truck driving jobs will become unemployed and will no longer have a way to earn a living and provide for themselves and their families," one comment stated. If OMB approves the survey, a questionnaire will be completed before and after participants have the opportunity to have hands-on experience with ADS truck technology to assess a change in sentiment. The plan is to share these experiences at four "road shows" at existing trucking conferences around the country (Gallagher, 2021).<br/>
-
-Since 2019, a fully electric autonomous truck "T-Pod" from Einride has been driving on a public road in Sweden on behalf of logistics service provider DB Schenker. However, the approval, which was valid until the end of 2020, stipulated that the T-Pod, which weighs up to 26 tonnes, may only travel at 5 km/h, that the approval was only valid for a specific public road in an industrial area and that one employee was assigned to each vehicle as a supervisor who can intervene from a distance via joystick in the event of problems. The truck was highly technical did not have a driver's cab. According to Einride, the e-truck offers space for 15 Euro pallets instead. Its regular maximum speed is capped at 85 km/h. A 280 kWh battery on board is supposed to guarantee a range of 200 km (Of-Allinger et al., 2020; Werwitzke, 2019). <br/>
-
-In manageable, closed areas such as quarries or mines driverless vehicles are already being tested in practice. Volvo Trucks, for example, has six self-driving trucks in operation at a Norwegian limestone plant (Böhm, 2019).
-
-
-### Relevant initiatives in Austria {-}
-In Upper Austria (Gunskirchen), a driverless truck will soon also be on the road in public areas. Over the next three years, it will regularly cover the approximately 600-metre route between the logistics centre of DB Schenker Austria and the engine manufacturer BRP-Rotax. The route runs partly on factory premises and partly in public areas and is to be completed in all weathers. After completion of the test phase, the driverless electric transporter will then cover the route between DB Schenker's logistics centre and the BRP-Rotax company, which is mainly on the public road, completely autonomously from 2023. The electric vehicle is to complete the route in all weathers, whether wind, rain or snow. For freight transport, a classic diesel truck currently travels the same route several times a day (APA, 2021; DB, 2021).
-
-- [Land-oberoesterreich.gv.at](https://www.land-oberoesterreich.gv.at/248885.htm)
-
-### Impacts with respect to Sustainable Development Goals (SDGs) {-}
-
-```{r table111, echo=FALSE, results='asis'}
-cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
-|:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|ADS in heavy vehicles lead to a reduction in the total cost of ownership of trucks of between 11% and 46%|**+**|Sustainable economic development  (*8,11*)|Ghandriz et al., 2020a|
-|Systemic|Reduction in the environmental impact|**+**|Environmental sustainability (*7,12-13,15*)|Kopelias et al., 2020|
-|Systemic|ADS enable higher profitability in freight transport|**+**|Sustainable economic development  (*8,11*)|Wadud et al., 2016|
-|Systemic|The C-ROADS platform was established to harmonise the use of C-ITS activities across Europe|**+**|Partnership & collaborations (*17*)|European Commission, 2021|')
-```
-
-### Technology and societal readiness level {-}
-```{r table112, echo=FALSE, results='asis'}
-cat('|TRL| SRL|
-|:----:|:----:|
-|6-8|5-7|')
-```
-
-### Open questions {-}
-1. How significant will the rebound effect be that results from the improvement in freight efficiency?
-2. Who is responsible if the technology in semi-automated mode violates a speed limit or other traffic regulations?
-3. How should commercial CAVs best be integrated with conventional trucks?
-
-### Further links {-}
-
-- [ec.europa.eu](https://ec.europa.eu/inea/en/horizon-2020/automated-road-transport)
-
-### References {-}
-
--	Alessandrini, A., Campagna, A., Site, P. D., Filippi, F., & Persia, L. (2015). Automated vehicles and the rethinking of mobility and cities. Transportation Research Procedia, 5, 145–160. https://doi.org/10.1016/j.trpro.2015.01.002
--	Anderson, J., Kalra, N., Stanley, K., Sorensen, P., Samaras, C., & Oluwatola, O. (2016). Autonomous Vehicle Technology: A Guide for Policymakers. In Autonomous Vehicle Technology: A Guide for Policymakers. https://doi.org/10.7249/rr443-2
--	APA. (2021). Selbstfahrender Lkw in OÖ unterwegs | SN.at. Salzburger Nachrichten. https://www.sn.at/wirtschaft/oesterreich/selbstfahrender-lkw-in-ooe-unterwegs-99060673
--	Böhm, M. (2019, November 5). Selbstfahrende Lkws: Die Autonomen rollen an - Transport & Logistik - derStandard.at › Wirtschaft. https://www.derstandard.at/story/2000110697906/selbstfahrende-lkws-die-autonomen-rollen-an
--	Boudway, I. (2021, May 5). Supply Chains Latest: Driverless Trucks a Deal Closer to Freeway. - Bloomberg. Bloomberg. https://www.bloomberg.com/news/newsletters/2021-05-05/supply-chains-latest-driverless-trucks-a-deal-closer-to-freeway
--	Brown, A., Gonder, J., & Repac, B. (2014). An Analysis of Possible Energy Impacts of Automated Vehicles BT  - Road Vehicle Automation (G. Meyer & S. Beiker (eds.); pp. 137–153). Springer International Publishing. https://doi.org/10.1007/978-3-319-05990-7_13
--	Chan, C. Y. (2017). Advancements, prospects, and impacts of automated driving systems. International Journal of Transportation Science and Technology, 6(3), 208–216. https://doi.org/10.1016/j.ijtst.2017.07.008
--	DB. (2021, March 16). Autonomes Fahren: DB Schenker und BRP-Rotax starten Testbetrieb in Österreich. https://www.dbschenker.com/at-de/ueber-uns/presse/corporate-news/autonomes-fahren--db-schenker-und-brp-rotax-starten-testbetrieb-in-oesterreich-688986
--	Eddy, N. (2021, May 8). Driverless trucks worth the long-term investment – Urgent Comms. https://urgentcomm.com/2021/05/10/driverless-trucks-worth-the-long-term-investment/
--	European Commission. (2019). Automated road transport.
--	European Commission. (2021, April 30). Connected and automated mobility | Shaping Europe’s digital future. https://digital-strategy.ec.europa.eu/en/policies/connected-and-automated-mobility
--	Flämig, H. (2016). Autonomous vehicles and autonomous driving in freight transport. In Autonomous Driving: Technical, Legal and Social Aspects (pp. 365–385). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-48847-8_18
--	Gallagher, J. (2021, April 23). FMCSA automated trucks project headed to White House - FreightWaves. Freightwaves. https://www.freightwaves.com/news/fmcsa-automated-trucks-project-headed-to-white-house
--	Gan, M., Qian, Q., Li, D., Ai, Y., & Liu, X. (2021). Capturing the swarm intelligence in truckers: The foundation analysis for future swarm robotics in road freight. Swarm and Evolutionary Computation, 62, 100845. https://doi.org/10.1016/j.swevo.2021.100845
--	Ghandriz, T., Jacobson, B., Laine, L., & Hellgren, J. (2020a). Impact of automated driving systems on road freight transport and electrified propulsion of heavy vehicles. Transportation Research Part C: Emerging Technologies, 115, 102610. https://doi.org/10.1016/j.trc.2020.102610
--	Ghandriz, T., Jacobson, B., Laine, L., & Hellgren, J. (2020b). Optimization data on total cost of ownership for conventional and battery electric heavy vehicles driven by humans and by automated driving systems. Data in Brief, 30. https://doi.org/10.1016/j.dib.2020.105566
--	Harper, C. D., Hendrickson, C. T., & Samaras, C. (2016). Cost and benefit estimates of partially-automated vehicle collision avoidance technologies. Accident Analysis and Prevention, 95, 104–115. https://doi.org/10.1016/j.aap.2016.06.017
--	Kalra, N., & Paddock, S. M. (2016). Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability? Transportation Research Part A: Policy and Practice, 94, 182–193. https://doi.org/10.1016/j.tra.2016.09.010
--	Khan, A., Harper, C. D., Hendrickson, C. T., & Samaras, C. (2019). Net-societal and net-private benefits of some existing vehicle crash avoidance technologies. Accident Analysis and Prevention, 125, 207–216. https://doi.org/10.1016/j.aap.2019.02.003
--	Kopelias, P., Demiridi, E., Vogiatzis, K., Skabardonis, A., & Zafiropoulou, V. (2020). Connected & autonomous vehicles – Environmental impacts – A review. Science of the Total Environment, 712, 135237. https://doi.org/10.1016/j.scitotenv.2019.135237
--	Kulikowska-Wielgus, A. (2019, March 28). Every fifth truck driver position in Europe is vacant. Soon, there could be twice as many. - Trans.INFO. Trans.Info. https://trans.info/en/every-fifth-truck-driver-position-in-europe-is-vacant-soon-there-could-be-twice-as-many-131212
--	Mersky, A. C., & Samaras, C. (2016). Fuel economy testing of autonomous vehicles. Transportation Research Part C: Emerging Technologies, 65, 31–48. https://doi.org/10.1016/j.trc.2016.01.001
--	Mulholland, E., Teter, J., Cazzola, P., McDonald, Z., & Ó Gallachóir, B. P. (2018). The long haul towards decarbonising road freight – A global assessment to 2050. Applied Energy, 216, 678–693. https://doi.org/10.1016/j.apenergy.2018.01.058
--	Nowakowski, C., Shladover, S. E., & Tan, H. S. (2015). Heavy Vehicle Automation: Human Factors Lessons Learned. Procedia Manufacturing, 3, 2945–2952. https://doi.org/10.1016/j.promfg.2015.07.824
--	Of-Allinger, A., Knecht, J., & Conrad, B. (2020, April 30). Automomer Elektro-Lkw Einride T-Pod: Zulassung in Schweden | AUTO MOTOR UND SPORT. Auto Motr Sport. https://www.auto-motor-und-sport.de/elektroauto/automomer-elektro-lkw-einride-t-pod-strassenzulassung/
--	Paulsen, T. (2018, November 7). Autonomes Fahren: 5 Level zum selbstfahrenden Auto | ADAC. ADAC. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/grundlagen/autonomes-fahren-5-stufen/
--	Pribyl, O., Blokpoel, R., & Matowicki, M. (2020). Addressing EU climate targets: Reducing CO2 emissions using cooperative and automated vehicles. Transportation Research Part D: Transport and Environment, 86, 102437. https://doi.org/10.1016/j.trd.2020.102437
--	Shin, S., Roh, H. S., & Hur, S. H. (2018). Technical Trends Related to Intermodal Automated Freight Transport Systems (AFTS) *. Asian Journal of Shipping and Logistics, 34(2), 161–169. https://doi.org/10.1016/j.ajsl.2018.06.013
--	Tsugawa, S., Jeschke, S., & Shladovers, S. E. (2016). A review of truck platooning projects for energy savings. IEEE Transactions on Intelligent Vehicles, 1(1), 68–77. https://doi.org/10.1109/TIV.2016.2577499
--	Wadud, Z. (2017). Fully automated vehicles: A cost of ownership analysis to inform early adoption. Transportation Research Part A: Policy and Practice, 101, 163–176. https://doi.org/10.1016/j.tra.2017.05.005
--	Wadud, Z., MacKenzie, D., & Leiby, P. (2016). Help or hindrance? The travel, energy and carbon impacts of highly automated vehicles. Transportation Research Part A: Policy and Practice, 86, 1–18. https://doi.org/10.1016/j.tra.2015.12.001
--	Werwitzke, C. (2019, May 17). Schweden: T-Pod erhält Zulassung für öffentliche Straße - electrive.net. Electrive.Net. https://www.electrive.net/2019/05/17/schweden-t-pod-erhaelt-zulassung-fuer-oeffentliche-strasse/
-
 ## Tracking and tracing of goods {#dangerous_goods}
 
 ### Synonyms {-}
@@ -366,6 +193,103 @@ cat('|TRL| SRL|
 ## Real-time disruption management and route planning {#disruption_management}
 
 ## Urban Deliveries {#urban_delivery}
+
+### Synonyms {-}
+*city logistics, micro-hubs, "Grätzl"-hubs, City Distribution Centers, micro-depots*
+
+### Definition {-}
+Efficient and reliable goods delivery and collection services are essential for the functioning of businesses in the city centre area and the consumption of products and services by residents, visitors and employees (Aljohani & Thompson, 2020). However, limited space, increased traffic and, at the same time, continuously growing demand are increasingly challenging, especially in the urban areas. In addition, freight traffic wears out roads much more than passenger traffic due to the high axle loads and is, therefore, critical for road maintenance planning (Forschungs-Informations-System für Mobilität und Verkehr (FIS), 2003). The concept of city logistics, therefore, seeks to relieve the strain on urban infrastructure while improving the quality of supply in the city (Aljohani & Thompson, 2020). <br/>
+
+There are two primary areas that could provide practical and relevant solutions to address the challenges and efficiencies of last mile freight activity in the city center: *(1)* Freight Demand Management (FDM) measures and *(2)* improving parking and charging infrastructure. Recipients typically have more market power than freight forwarders or shippers, and can significantly influence the timing, size and frequency of deliveries, which typically occur during business hours and high traffic periods. One action would be to push deliveries outside business hours to change the delivery activities of carriers and shippers (Holguín-Veras and Sánchez-Díaz, 2016). Local authorities can oblige large recipients and building managers in the city centre to coordinate and consolidate their deliveries from multiple freight companies. Freight behaviour studies should be conducted to assess the interest of these receivers and determine what policy levers might influence their participation (Aljohani & Thompson, 2020).<br/>
+
+Research shows that both receiver pricing and incentives could play an important role in reducing freight transport, with receiver pricing likely to face significantly more political resistance than incentives. Policymakers must make pragmatic choices, balancing economic optimality with political feasibility. Careful selection of receiver fees and incentives will likely result in a situation where significant sustainability improvements can occur at minimal political cost. A further development of the Economic Order Quantity (EOQ) model shows that to maximize profits, receivers must allocate floor space appropriately between revenue-generating activities and storage areas. Pressure to maximize floor space for revenue-generating activities leads to smaller warehouse areas and greater reliance on small order sizes and frequent deliveries. Optimal space allocation and ordering leads to order sizes and cycle times that are 35% smaller than in the classic EOQ model. This would result in 50% more delivery trips. Applying an optimal receiver charge - to incentivize receivers to internalize the externalities generated - suggests that a reduction in Freight Trip Generation (FTG) of about 10% could be achieved (Holguín-Veras & Sánchez-Díaz, 2016). The results suggest that resorting to frequent small shipments is a rational decision in a profit-maximizing environment. A negative effect that should be noted is that mode choice strategies that require the adoption of large shipment sizes, such as the use of rail, may be rejected by recipients because they assume larger storage areas. In contrast, mode choice strategies that might work with smaller shipments, such as the use of electric bicycles, may be accepted by recipients as long as they do not unduly increase logistics costs.<br/>
+
+Aljohani & Thompson (2020) argue that road loading space regulations and allocations need to be updated to take into account the challenges faced by hauliers in the city centre. Local authorities might argue that there are enough loading spaces in the city centre. However, they are not managed and distributed efficiently as illegal users park in these loading spaces. An on-street loading zone (OLZ) policy should take into account the different parking requirements for the different classes of freight vehicles and the sub-industries of the recipients. In addition, it may be necessary to convert some OLZs in busy locations to serve as temporary staging areas for freight operators, especially in dense retail and commercial areas. Local authorities should also take advantage of advances in Internet-of-Things (IoT) technologies, number plate recognition and smart occupancy signs to enable booking of OLZs and display booking details (see [Delivery space booking](#space_book)). These adaptive displays could act as virtual on-street charging zones that only become active when a booking is made.<br/>
+
+Holguín-Veras & Sánchez-Díaz (2016) argue in their paper that their findings once again illustrate the potential of freight demand management. The authors believe that harnessing the power of recipients as agents of change offers a unique opportunity to improve the economic efficiency of urban freight transport systems, reduce the negative externalities caused by freight transport and improve both quality of life and environmental justice.
+
+### Key stakeholders {-}
+
+- **Affected**: Courier Express Parcel Services, package recipients, Freight Forwarder
+- **Responsible**: Courier Express Parcel Services, Logistics companies, City administration, Funding provider, District authorities, Chamber of Commerce, Private companies
+
+### Current state of art in research {-}
+Holguín-Veras & Sánchez-Díaz (2016) used survey data in a case study in New York City (NYC) to estimate the potential traffic reduction that could be achieved through a receiver-led consolidation (RLC) programme. The authors estimated a model to show that the main factors that determine this decision are industry sector, factory space (a measure of size) and the number of deliveries received. The industries that tend to participate are retail, accommodation and wholesale. Small businesses tend to be less interested in RLC. The model and freight trip generation (FTG) analyses show that RLC could result in reductions in the range of 3.0% to 8.8% of total delivery traffic in the NYC metropolitan area and between 3.5% and 11.2% in Manhattan. Applying a behavioural-based microsimulation to Manhattan showed that the total savings to carriers could range from $376 906 to $1 186 128 per day, due to 4740 to 15062 hours of operation saved. In terms of vehicle miles traveled (VMT), expected savings range from 33445 to 104255 VMT per day. These estimates equate to a savings of approximately $65 in operating costs, approximately 50 min in travel and processing time saved, and the avoidance of approximately 6 miles of travel per consolidated delivery. In addition to the savings to carriers participating in RLC, a reduction in truck traffic is expected to generate economic benefits. The magnitude of these savings suggests that public agencies should consider RLC programmes as a part of their sustainability efforts. The study also found that policies in the form of prizes and/or incentives are needed to encourage recipients to act. Otherwise, corporate inertia and the natural tendency to change only when circumstances force it will lead recipients to maintain the status quo.<br/>
+
+Beyond, the idea of using existing light rail and suburban rail networks for the distribution and delivery of goods in cities has also been and is increasingly discussed. Several case studies have also been conducted in European cities, such as Amsterdam, Dresden, Paris and Zurich. Marino et. al (2013) concluded that urban freight transport by rail is a feasible concept as it brings several benefits, essentially a reduction in congestion, emissions and traffic in cities. However, the concept has not really caught on so far. An example in Amsterdam showed that financing can be a challenge, as there was no clear consensus among the parties involved.
+
+### Current state of art in practice {-}
+To develop the [Logistics 2030+ Action Plan](https://www.logistik2030.at/?page_id=2769) (Popp, et al., 2019), the Province of Lower Austria, the City of Vienna and the Chambers of Commerce of Lower Austria and Vienna launched the "*Sustainable Logistics 2030+ Lower Austria-Vienna*" project. Over a period of three years, more than 300 stakeholders were involved in a multi-stage process to achieve the following project goals: *(1)* Resolution of conflicts of use in flowing and stationary freight traffic, *(2)* CO2 savings, *(3)* reduced traffic volume without loss of performance and quality, *(4)* development of logistics and traffic concepts and *(4)* initiation and implementation of pilot projects. Eight thematic clusters were worked on for this purpose: 
+
+-	Planning and securing logistics areas with foresight
+-	Driving forward freight consolidation with the help of new business models
+-	Developing and implementing efficient parcel delivery solutions
+-	Supporting sustainable logistics concepts at companies and large-scale projects
+-	Create incentives for accelerated fleet conversions
+-	Use digital information and services to increase efficiency and optimization
+-	Establish framework conditions for sustainable development
+-	Actively communicate logistics services and costs
+
+Finally, the action plan includes 35 measures with 133 actions (ARGE L2030+, n.d. a). <br/>
+
+In the topic cluster "*Solutions for parcel delivery*" , mentioned above, the measures are: *(1)* Avoid non-delivery: Fruitless first delivery attempts should be avoided by providing alternative addresses, *(2)* use P&R facilities and public transport stations as white label B2C nodes: Create better and cheaper offers for commuters, *(3)* "*Grätzelboxen*" and box/logistics rooms in new buildings and existing properties: Grätzelboxen are microhubs with additional functions and integration of box locations in properties, and due to the Covid 19 crisis also added *(4)* the increase of contactless delivery (Faast & Gregori, 2020).<br/>
+
+Furthermore, loading zones represent a central component of the public logistics infrastructure, which is essential for supplying the city with goods and services. In order to counteract the lack of this infrastructure, which was identified as a major problem for urban logistics by representatives of the Austrian business community during the preparation of the L2030+ work program, the "*Loading Zone Calculator*" project was launched. The loading zone calculator is to consist of a GIS tool and an empirical characteristic value determination for estimating the freight traffic volume for a loading zone management. Based on the preliminary study completed by the TU Wien in April 2020 on the topic of "*Estimation of freight traffic volume for a loading zone management*", the steps of the procedure are to be implemented in a digital GIS tool including a characteristic value matrix for Vienna. Within the scope of the preliminary study, it became apparent that with regard to characteristic values of freight traffic in the literature, there is often a missing or insufficient reference to the use/industry. For this reason, a standardized procedure for the empirical determination of characteristic values including an exemplary survey for one sector shall be implemented in this project.<br/>
+
+In 2017, a City Hub, specialising in e-commerce, was implemented with LogPOINT Logistics Services GmbH and the support of the Vienna Chamber of Commerce on one of the last efficient inner-city logistics sites in Vienna. The comprehensive service portfolio in the field of e-fulfilment offers customers a wide range of options, from full logistics services to the handling of parcels. Parcels are bundled at the location and from then on delivered CO~2~-free to both B2B and B2C addresses by means of cargo bikes and e-vehicles. On the one hand, the pilot project enables the flood of parcels addressed to the inner-city districts to be brought in, handled and delivered directly on the basis of swap body transshipment. On the other hand, the company's team, which is experienced in e-fulfilment, offers a full service product, whereby parcel volumes are produced directly at the location (ARGE L2030+, n.d. b).<br/>
+
+Parcel boxes have evolved from their singular use as a parcel delivery box. In addition to parking deliveries, they can also be used by retailers for "*Click & Collect*", by local service providers, by the administration for documents and ID cards, as C2C lockers, for X2B return shipments or by X2C for a wide variety of applications. X2C can be different users such as "Willhaben" buyers, sales representatives, delicatessen and wine merchants, craftspeople, Airbnb platform users, and so on (Faast & Gregori, 2020). Currently, each box operator has its own IT platform, which they connect with the IT systems of the CEP service providers and those of the suppliers/retailers. Likewise, each box operator has its own receiver interface, which usually enables access to the boxes via a corresponding app. In principle, all the necessary functionalities are mapped, but there are currently no standards and interoperability between the systems is not possible. In the medium term, therefore, appropriate standards or a superordinate platform must be developed which - analogous to mobile communications technology - enable problem-free switching/exchange between the various platforms (Faast & Gregori, 2020).
+
+### Relevant initiatives in Austria {-}
+
+- [logistik2030.at-1](https://www.logistik2030.at/?page_id=268) 
+- [infothek.bmk.gv.at](https://infothek.bmk.gv.at/gruene-stadtlogistik-post-testet-city-hubs-in-wien/) 
+- [logistik2030.at-2](https://www.logistik2030.at/?page_id=63) 
+- [remihub.at](https://www.remihub.at) 
+- [logpoint.at](https://logpoint.at/ueber-uns/gruene-logistikwelt-und-standorte/)
+- [wu.ac.at](https://www.wu.ac.at/scm/projekte/)
+- [post.at](https://www.post.at/p/c/vorzimmer-zustellung) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table113, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Cost savings through efficiency|**+**|Sustainable economic development (*8,11*)|Holguin-Veras & Sanchez-Diaz, 2016|
+|Systemic|Reduced negative externalities|**+**|Environmental sustainability (*7,12-13,15*)|Holguin-Veras & Sanchez-Diaz, 2016
+|Systemic|Economic benefits due to reduction in truck traffic|**+**|Sustainable economic development (*8,11*)|Holguin-Veras & Sanchez-Diaz, 2016|
+|Systemic|Less shipment by rail; more shipment by cargo bikes and electric cars|**~**|Innovation & Infrastructure (*9*)|Holguin-Veras & Sanchez-Diaz, 2016|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table114, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|4-7|4-6|')
+```
+
+### Open questions {-}
+1. How can the different IT platforms of the individual providers be combined?
+2. How can we ensure that facilities such as City Logisic Hubs, parcel boxes, etc. are open to all? 
+
+### Further links {-}
+
+- [railfreight.com](https://www.railfreight.com/railfreight/2017/08/03/light-rail-network-used-for-freight-transport/?gdpr=accept )
+
+### References {-}
+-	Aljohani, K., & Thompson, R. G. (2020). Last mile delivery activities in the city centre–Insights into current practices and characteristics of delivery trips. Transportation Research Procedia, 46, 261-268.
+-	ARGE L2030+. (n.d. a). Aktionsplan – Logistik 2030+. Retrieved April 29, 2021, from https://www.logistik2030.at/?page_id=63
+-	ARGE L2030+. (n.d. b). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Retrieved April 28, 2021, from https://www.logistik2030.at/?page_id=268
+-	Faast, A., & Gregori, G. (2020). NACHHALTIGE LOGISTIK 2030+ NIEDERÖSTERREICH WIEN Pilotprojekt Evaluierung von großteils betreiberunabhängigen Paketboxensystemen in Niederösterreich und Wien.
+-	Forschungs-Informations-System für Mobilität und Verkehr (FIS). (2003, April 8). Infrastrukturschäden durch den Straßengüterverkehr. https://www.forschungsinformationssystem.de/servlet/is/39816/
+-	Holguín-Veras, J., & Sánchez-Díaz, I. (2016). Freight demand management and the potential of receiver-led consolidation programs. Transportation Research Part A: Policy and Practice, 84, 109-130.
+-	Marinov, M., Giubilei, F., Gerhardt, M., Özkan, T., Stergiou, E., Papadopol, M., & Cabecinha, L. (2013). Urban freight movement by rail. Journal of Transport Literature, 7(3), 87-116.
+-	Popp, C., Winkler, A., Hahn, E., & Faast, A. (2019). Nachhaltige Logistik 2030+ Niederösterreich-Wien Aktionsplan.
+-	van Leijen, M. (2017, August 3). Light rail network used for freight transport | RailFreight.com. https://www.railfreight.com/railfreight/2017/08/03/light-rail-network-used-for-freight-transport/?gdpr=accept&gdpr=deny
+
+
 
 ## Intelligent truck parking {#intelligent_truck_park}
 

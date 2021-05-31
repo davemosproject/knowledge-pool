@@ -76,21 +76,21 @@ format(Sys.time(),'%d %B %Y')
     - [Mobility hubs](#mobility_hubs) **NEW**
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Autonomous driving](#connected)
-    - [Automated vehicles](#av)
+    - [Automated passenger cars](#av)
     - [Parking infrastructure for autonomous vehicles](#parking_av)
+    - [Automated road freight](#automated_road_freight) **NEW**
 9. [On-board technology for connected and automated vehicles](#onboard)
-    - [Advanced driver assistance system (ADAS)](#adas)
+    - [Advanced driver assistance system (ADAS)](#adas) **NEW**
     - [Parking assistance system](#parking_assistance) **NEW**
     - [Lane keeping](#lane_keeping) **NEW**
     - [Digital maps](#digital_maps)
     - [Electronic horizon](#ehorizon) **NEW**
     - [Emergency call](#ecall) **NEW**
 10. [Freight and commercial transport](#freight)
-    - [Automated road freight](#automated_road_freight) **NEW**
     - [Tracking and tracing of goods](#dangerous_goods) **NEW**
     - [Intermodal Freight](#intermodal_freight) **NEW**
     - [Real-time disruption management and route planning](#disruption_management)
-    - [Urban deliveries](#urban_delivery)
+    - [Urban deliveries](#urban_delivery) **NEW**
     - [Intelligent truck parking](#intelligent_truck_park) **NEW**
     - [Delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**

@@ -129,6 +129,7 @@ Across Austria the situation with rental bikes differs significantly, for exampl
 
 ### Relevant initiatives in Austria {-}
 
+- [firmenradl.at](https://firmenradl.at/cms/)
 - [citybikewien](https://www.citybikewien.at/de)
 - [citybikesalzburg](http://www.citybikesalzburg.at/)
 - [nextbike](https://www.nextbike.at/de/niederoesterreich/)
