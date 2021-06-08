@@ -57,7 +57,7 @@ format(Sys.time(),'%d %B %Y')
     - [Cooperative - intelligent transport system](#cits)
     - [Dynamic route guidance](#dynamic_route)
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
-    - [Adaptive traffic signal control](#adaptive_traffic_control) **NEW**
+    - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
     - [Passengers and goods fleet management](#p_g_fleet_management)
     - [Urban access management](#urban_access) **NEW**
 5. [Digital road infrastructure and connectivity](#digital)
@@ -89,14 +89,13 @@ format(Sys.time(),'%d %B %Y')
 10. [Freight and commercial transport](#freight)
     - [Tracking and tracing of goods](#dangerous_goods) **NEW**
     - [Intermodal Freight](#intermodal_freight) **NEW**
-    - [Real-time disruption management and route planning](#disruption_management)
     - [Urban deliveries](#urban_delivery) **NEW**
     - [Intelligent truck parking](#intelligent_truck_park) **NEW**
     - [Delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**
     - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
     - [Multimodal transport management systems](#mtms)
-    - [Freight hubs](#freight_hubs)
+    - [Freight hubs](#freight_hubs) **NEW**
 11. [Collective mobility vehicles](#collective)
     - [Demand responsive transit](#drt) **NEW**
     - [Personal rapid transit](#prt) **NEW**

@@ -190,8 +190,6 @@ cat('|TRL| SRL|
 -	Shin, S., Roh, H. S., & Hur, S. H. (2018). Technical Trends Related to Intermodal Automated Freight Transport Systems (AFTS) *. Asian Journal of Shipping and Logistics, 34(2), 161–169. https://doi.org/10.1016/j.ajsl.2018.06.013
 
 
-## Real-time disruption management and route planning {#disruption_management}
-
 ## Urban Deliveries {#urban_delivery}
 
 ### Synonyms {-}
@@ -688,3 +686,107 @@ cat('|TRL| SRL|
 ## Multimodal transport management systems {#mtms}
 
 ## Freight hubs {#freight_hubs}
+
+### Synonyms {-}
+*Logistics hubs, Logistic hubs, Multimodal transportation hubs*
+
+### Definition {-}
+In logistics networks, logistics hubs are generally defined as interconnection points and primarily serve as transshipment points for flows of goods. Thus, not only storage activities take place, but also processes of ordering, bundling and unbundling. The variety of logistics nodes makes it difficult to clearly assign nodes to a specific type and class. However, a simplifying differentiation is often made based on a spatial or functional analysis. An example would be a spatial differentiation e.g. according to the spatial level (micro, meso, macro) according to which a transport logistics node can be defined as a hub (micro level) or a seaport (macro level). Another example would be a functional differentiation, according to which logistics hubs can consist of single modules (e.g., single shipping facility) or multiple modules (intermodal terminal with rail freight center and forwarders). A very simple but basic differentiation of logistics hubs can be found in the subdivision into transportation logistics hubs and distribution logistics hubs, as they differ fundamentally in numerous characteristics (see table below (Clausen & Thaller, 2013)) (Huber et al., 2015). <br/>
+
+```{r , echo=FALSE, results='asis'}
+cat('|Characteristics| Distribution logistics hub|Transport logistics hub|
+|:----:|:----:|:----:|
+|Number of sources|few|many|
+|Number of sinks|many|many|
+|Main function|storage, consolidation, distribution, packaging, value adding services|transhipment, certain buffer function|
+|User|one or certain number of users|many different and changing customers|
+|Operator|own account or logistics service provider (3PL)|logistics service provider, forwarding agency|
+|Destination|sink is uncertain*|sink is certain**|
+|Examples|distribution and/or consolidation centres, warehouses|intermodal freight terminals, locations of forwarding companies, seaports, inland ports, airports|')
+```
+
+*At the moment the goods arrive at the distribution logistics hub and the final destination is not defined. The final destination will be defined during the picking process only.<br/>
+**Each shipment is labelled with an explicit destination before it reaches the transport logistics hub.<br/>
+
+Distribution logistics hubs have warehouses where goods can be stored for an extended period of time. As a rule, these types of hubs combine a few sources with many sinks. Central or regional warehouses are an example - there are a few companies that deliver goods to the warehouse (sources) and many individuals and companies that order from the warehouse (sinks). Transportation logistics hubs, in contrast, have no storage function. There may be some buffer capacity due to the transshipment process, but this buffer is a side effect of the actual main function - the transshipment of goods. Transportation logistics hubs typically connect many sources to many sinks. Examples of this type of hub can be found at freight forwarder locations, combined transport terminals, airports, and rail transfer stations. The subdivision of logistics hubs into transportation logistics hubs and distribution logistics hubs is essential for freight demand modeling because the goods attracted and shipments made at these hubs differ significantly (Huber et al., 2015).
+
+Intermodal logistics hubs (see [Intermodal Freight](#intermodal_freight)) attract significant volumes of different types of traffic. Trucks deliver and pick up goods, containers are moved, service and heavy-duty vehicles pass through, and sometimes public roads cross the site. The organic growth of these facilities and the multitude of parties involved often result in an inefficient and inadequate transportation infrastructure, unnecessary negative environmental impacts, and high costs for stakeholders. Many factors need to be known to optimize the infrastructure and operation of these nodes, but often are not. These factors include stakeholder requirements, hours of service at facilities, vehicle origins and destinations, and vehicle routes and speeds (Ehrler & Wolfermann, 2012).<br/>
+
+Essaadi et al. (2016) shows that the location selection of logistic hubs is a strategic decision that is made after a multi-criteria analysis and first, it requires the analysis of quantitative or qualitative criteria (e.g. availability and quality of infrastructure, connectivity, land price, political stability, pollution, etc.). These can be independent or partially contradictory. The study proposes a generic structuring of criteria by geographical level and by category for hub location selection, taking into account the particular structure of location selection that is rarely found in the literature: sequential evaluation (choice of a country, then a region of this country) or simultaneous evaluation (direct choice of a location among several regions belonging to different countries).
+
+
+### Key stakeholders {-}
+
+- **Affected**: Courier Express Parcel Services, Package Recipients, Carriers
+- **Responsible**: Courier Express Parcel Services, Logistics companies, Carriers, City administration, Funding provider, Ministries, Infrastructure managers, Chamber of Commerce 
+
+### Current state of art in research {-}
+The main research in the area of freight hubs focuses on the analysis of environmental impact of freight and proposal of sustainable solution as well as the investigation of the potential for improvement in efficiency considering freight hubs locations and demand patterns. <br/>
+
+For example, with zero-emission vehicles (ZEVs) considered key technologies for reducing freight-related air pollution and greenhouse gas emissions, California's 2016 Sustainable Freight Action Plan calls for 100,000 zero-emission, renewable-fuel freight vehicles by 2030. However, as the current hydrogen infrastructure in California is sparse with about 25 stations installed, new infrastructure strategies will be crucial for the implementation of hydrogen freight applications. Li et al. (2021) analyzed the hydrogen infrastructure requirements with a focus on hydrogen fuel cells in freight applications. Using a California-specific EXCEL-based scenario model, the adoption and demand of hydrogen vehicles for trucking, rail, shipping and aviation was estimated for a range of scenarios through 2050. Findings show that ZEVs will need to grow very aggressively to meet state ZEV targets for freight. Moreover, the battery electric trucks (see sections on [Electric vehicle delivery fleets](#electric_delivery_fleets) and [Battery electric](#bev)) appear to have a head start on commercialization, and FCEVs (see section on [Hydrogen fuel cell](#FCEV)) on the other hand, have advantages that put them in a better position in certain markets, for example, long-haul trucking. By 2030, hundreds of tons of hydrogen will be needed per day to power the local hydrogen fleets projected in this study. For long-haul trucking, a nationwide "backbone" hydrogen refueling network could be developed with approximately 13 strategically located refueling stations. Further, there is potential for synergy between refueling infrastructure for local and long-range FCEVs. These synergies may be critical for the initial rollout of MD/HD truck hydrogen refueling stations, as many hydrogen refueling stations may be shared by fleets from more than one hub.<br/>
+
+Further, Markvica et al. (2019) investigated the feasibility of a "quattromodal freight hub", a new hub concept with four modes of transport, in the city of Vienna. In doing so, they highlighted the strengths, weaknesses, opportunities, and threats of the concept from a theoretical and practical perspective and identified four options for creating a quattromodal freight hub in Vienna. They argue that cost and efficiency related decision criteria are crucial for the implementation and that it is attractive in terms of prestige and unique selling point for the region, and that at the same time, however, further research is required regarding legal aspects and impacts on the region.<br/>
+
+Moreover, it has been showed that in the areas surrounding large freight hubs such as seaports, the truck flows can have a major impact on the motorways and their traffic management. Nadi et al. (2021) have therefore developed a model that predicts short-term changes in truck volumes generated by large container terminals in seaports. The model was developed, tested and demonstrated during a case study for the port of Rotterdam. It can predict the outgoing truck volume for the next hour with a high degree of accuracy.<br/>
+
+On the other hand, COVID-19 outbreak had a significant impact on freight globally, where diverse adjustments along the logistic chains were required. Therefore, Huang et al. (2021) aimed to investigate the spatial patterns of freight demand network in six provinces of Central China since the beginning of the COVID-19 pandemic. For this purpose, the Big Data of "Cart Search" demand information provided by small and medium-sized freight companies on a freight information platform was analysed. The results show: 
+
+- the choke point of the unbalanced freight demand network and the secondary choke points
+- a chain reaction circle of unbalanced freight traffic
+- a long-tail distribution with a wide range and unbalanced distribution
+- that the import and export of freight varied significantly in different cities
+- that the distribution was unbalanced 
+
+Building on these findings, Huang et al. (2021) propose solutions in case of outbreaks in the freight market in six provinces of central China in the post-epidemic period. They argue that a "freight alliance" can be used to address the hidden dangers of freight imbalance and enable small and medium-sized freight enterprises in peripheral cities to break through and develop in the post-epidemic era.
+
+
+### Current state of art in practice {-}
+Due to the rapid population growth and the loss of business areas in the urban centres in favour of residential areas, the safeguarding and the increase of the utilisation efficiency of the remaining areas for activities related to logistics needs to be actively supported. Therefore, the project "Screening Logistics Areas", which was successfully carried out and completed under the auspices of the City of Vienna and the Province of Lower Austria. It focused on determining the location and area offers for the logistics sector in these two provinces. Areas starting at around 1 ha (Vienna) and 5 ha (Lower Austria) were considered. The available land concepts were used as a basis for the work, hence business parks and industrial zones were examined in detail. All relevant aspects in the area under consideration were examined, categorised and given concrete recommendations. It was determined that there are currently sufficient areas available, both quantitatively and qualitatively, although it is now necessary to find mechanisms to effectively secure the areas for business purposes. On the part of the provinces, the results flow into the examination of possible control instruments as well as various regional planning programmes (ARGE L2030+, n.d.).<br/>
+
+In 2019, DHL Global Forwarding and DHL Freight combined their three previous locations at the new DHL Campus Vienna International Airport, bringing land, air and sea freight together in one location. This allows higher throughput rates for freight volumes and even better service. In addition to office space with around 3,500 square meters, the DHL Campus Vienna Airport includes two freight terminals with a total of around 12,000 square meters, divided into 5,000 square meters of storage and handling space for air and sea freight and around 7,000 square meters for land transport. Given its size, it acts as a strategically important logistics hub for Austria and Eastern Europe. In order to meet the constantly growing demand for logistics and transport services from the life science and healthcare sectors, the new building also created larger capacities for temperature-controlled goods (DHL International GmbH, n.d.). 
+
+
+### Relevant initiatives in Austria {-}
+
+
+- [Infrastruktur.oebb.at](https://infrastruktur.oebb.at/en/partners/terminals/locations/terminal-wien-sued) 
+- [DHL-freight-connections.com](https://dhl-freight-connections.com/de/unternehmen/dhl-eroffnet-hochmodernes-logistikdrehkreuz-am-flughafen-wien/) 
+- [Logistik2030.at](https://www.logistik2030.at/?page_id=63) 
+- [Thinkportvienna.at](https://www.thinkportvienna.at/ueber-uns/projekte/) 
+- [Hafen-wien.com](https://www.hafen-wien.com/de/home) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Changes in land use, increase density, and generation of more intensive local and cross-town traffic|          **-**|Sustainable economic development (*8,11*)|Rondinelli & Berry, 2000|
+|Systemic|New developments due to novel vehicle technologies used|**+**|Innovation & Infrastructure (*9*)|Li et al., 2021|
+|Systemic|Collaboration among stakeholders and states to achieve the greatest benefit for the region|          **+**|Partnership & collaborations (*17*)|ARGE L2030+, n.d.|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-8|6-9|')
+```
+
+### Open questions {-}
+1. What are the additional requirements for freight hubs in Europe with regard to electromobility and hydrogen-powered truck fleets?
+2. How can efficiency be increased by combining different modes? 
+3. How can the negative externalities of freight hubs - such as light and noise emissions or increased land consumption - be minimized and internalized?
+
+### References {-}
+-	ARGE L2030+. (n.d.). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Retrieved April 28, 2021, from https://www.logistik2030.at/?page_id=268
+-	Clausen, U., & Thaller, C. (Eds.). (2013). Wirtschaftsverkehr 2013: Datenerfassung und verkehrsträgerübergreifende Modellierung des Güterverkehrs als Entscheidungsgrundlage für die Verkehrspolitik. Springer-Verlag.
+-	DHL International GmbH. (n.d.). DHL eröffnet hochmodernen Logistik-Hub am Flughafen Wien - DHL Freight Connections. Retrieved May 4, 2021, from https://dhl-freight-connections.com/de/unternehmen/dhl-eroffnet-hochmodernes-logistikdrehkreuz-am-flughafen-wien/
+-	Ehrler, V., & Wolfermann, A. (2012). Traffic at intermodal logistic hubs: shedding light on the blind spot. Transportation research record, 2288(1), 1-8.
+-	Essaadi, I., Grabot, B., & Fénies, P. (2016). Location of logistics hubs at national and subnational level with consideration of the structure of the location choice. IFAC-PapersOnLine, 49(31), 155-160.
+-	Huang, Y., Liu, R., Huang, S., Yang, G., Zhang, X., Qin, Y., ... & Huang, B. (2021). Imbalance and breakout in the post-epidemic era: Research into the spatial patterns of freight demand network in six provinces of central China. Plos one, 16(4), e0250375.
+-	Huber, S., Klauenberg, J., & Thaller, C. (2015). Consideration of transport logistics hubs in freight transport demand models. European Transport Research Review, 7(4), 1-14.
+-	Li, G., Ogden, J., & Miller, M. (2021). Hydrogen Infrastructure Requirements for Zero-Emission Freight Applications in California.
+-	Nadi, A., Sharma, S., Snelder, M., Bakri, T., van Lint, H., & Tavasszy, L. (2021). Short-term prediction of outbound truck traffic from the exchange of information in logistics hubs: A case study for the port of Rotterdam. Transportation Research Part C: Emerging Technologies, 127, 103111.
+-	Markvica, K., Prandtstetter, M., Zajicek, J., Heilmann, B., Lenz, G., Hauger, G., ... & Eitler, S. (2019). Implementing a quattromodal freight hub: an approach for the city of Vienna. European Transport Research Review, 11(1), 1-16.
+-	Rondinelli, D., & Berry, M. (2000). Multimodal transportation, logistics, and the environment: managing interactions in a global economy. European Management Journal, 18(4), 398-410.
