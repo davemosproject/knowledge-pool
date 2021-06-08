@@ -5,9 +5,9 @@ fig:unnamed-chunk-6
 fig:unnamed-chunk-7
 fig:unnamed-chunk-8
 fig:unnamed-chunk-9
-fig:unnamed-chunk-10
-fig:unnamed-chunk-11
-fig:unnamed-chunk-12
+fig:unnamed-chunk-13
+fig:unnamed-chunk-14
+fig:unnamed-chunk-15
 intro
 infrastructure
 dedicated_lanes
@@ -61,7 +61,6 @@ ecall
 freight
 dangerous_goods
 intermodal_freight
-disruption_management
 urban_delivery
 intelligent_truck_park
 space_book
