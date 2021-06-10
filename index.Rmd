@@ -42,7 +42,7 @@ format(Sys.time(),'%d %B %Y')
 2. [Physical road infrastructure](#infrastructure)
     - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
     - [Operational design domains](#ODD)
-    - [Rail crossing information system](#rail_crossing_info_system)
+    - [Rail crossing information system](#rail_crossing_info_system) **NEW**
     - [Electric road system](#ers) **NEW**
     - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
     - [Public transport priority systems](#public_trans_priority) **NEW**

@@ -90,6 +90,170 @@ Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary v
 
 ## Rail crossing information system {#rail_crossing_info_system}
 
+### Synonyms {-}
+*rail level crossings (RLX), raised level crossings (RC), Level Crossing Obstacle Detection (LOD), level crossing (LC)*
+
+### Definition {-}
+A persistent problem in surface transportation are the collisions at rail level crossings (RLX). RLX are grade-separated crossings where rail vehicles (and their infrastructure) cross the infrastructure of another mode of transport (usually roads). In most cases, the train has priority and other traffic is stopped until the train has passed. Technically, achieving this unbundling is a simple problem (Salmon et al., 2016). Nevertheless, a number of accidents still happen every year. <br/>
+
+Collisions at level crossings are a safety risk worldwide (European Railway Agency, 2020). Accidents cause human, social and economic costs. In addition, near-collisions have a negative impact on the mental health and well-being of the people involved - car drivers, train drivers and bystanders (Read et al., 2021). The best way to minimise these types of accidents would be to eliminate the level crossings and/or replace them with tunnels or bridges. As these options are very expensive, the cheaper alternative of signage, flashing lights and barriers is used for most level crossings, in the expectation that drivers of road vehicles will obey the rules. However, data from Australia shows that the largest proportion of collisions are at barrier intersections, while the largest proportion of fatal accidents are at flashing light and stop sign intersections (ITSR, 2011). <br/>
+
+Radalj et al. (2011) have demonstrated, through an extensive field study in seven rural LCs, that 90% of the road users disobeyed the speed limits on the signals and that 90% of the crashes at railway level crossings could be attributed to vehicle driver errors, fatigue, speed or risk taking due to low frequency of trains. In Austria, too, there is already data indicating that practically all accidents at level crossings are caused by road users who do not respect red lights, stop signs, barriers and basic traffic rules. Very often, people who live near a railway crossing or cross it regularly are involved in these accidents because they become more careless and overconfident over time (bmvit, 2011).<br/>
+
+According to European Union (2014), level crossings are divided into active and passive:
+
+-	**Passive level crossing** is a level crossing without any form of warning system or protection that is activated when it is unsafe for the user to cross
+-	**Active level crossing** is a level crossing where the users of the level crossing are protected or warned against the approaching train. Protection is provided by half or full barriers. The warning is given by the use of visible devices (e.g. lights) and acoustic devices (e.g. bells, horns, sound signals).
+
+Active level crossings are classified as:
+
+-	**Manual**: a level crossing where the user-side protection or warning is activated manually by a railway employee.
+-	**Automatic with user-side warning**: a level crossing where the user-side warning is activated by the approaching train.
+-	**Automatic with user-side protection**: a level crossing where the user-side protection is activated by the approaching train. This includes a level crossing that has both user-side protection and a warning.
+-	**Track-side protection**: a level crossing where a signal or other train protection system allows a train to proceed only if the level crossing is clear of obstructions.
+
+Trackside protection enables obstacle detection at level crossings by one or more detection units, depending on the size of the level crossing. A track side control unit collects the information received from the detection units and generates alarms based on high thresholds (e.g. minimum dimensions of the obstacle). The control unit is able to integrate the level crossing obstacle detection (LOD) into the conventional level crossing protection system with complete barriers and drives and to communicate with the interlocking system via secured interfaces. The systems are characterised by high reliability and high accuracy, even in harsh weather conditions such as rain, snow and fog. Several trials are currently underway with European railways (mermecgroup, n.d.).<br/>
+
+According to Darlington (2017) an ideal obstacle detection system must:
+
+-	provide safety integrity that is no worse and ideally better than a manually operated level crossing
+-	cause no or minimal delays to trains due to equipment failures or false detections
+- be affordable in terms of life cycle costs
+-	operate in all weather conditions and temperatures
+-	be practical to use and maintain 
+
+Beyond, separate technology systems must confirm that the level crossing is closed by barriers or gates, and only when the detection system has reconfirmed that the level crossing is clear, the train is allowed to pass. This could be achieved by clearing the protection signals or, on some rail networks, by a direct communication link to the train. Some systems may offer good safety benefits, but only at the cost of significant operational delays. The obstacle detection system must also fit into the existing railway infrastructure and not interfere with rolling stock or operations. <br/>
+
+The following technologies are available for obstacle detection , however, all have advantages and disadvantages (Darlington, 2017):
+
+**Video imaging technology**<br/>
+The disadvantage of using video technology is that it is more difficult for the system to detect anything at night or in fog. The level crossing may therefore need the same or higher illuminance than a manual level crossing, although even this would be of little help in foggy conditions. Furthermore, the mass or material properties of an object may not be so easily distinguished. Therefore, a cardboard box or newspaper, for example, could be mistaken for a small child. <br/>
+
+**Thermal imaging**<br/>
+Thermal imaging cameras can overcome some of these limitations because they produce a sharp image based on subtle temperature differences and are not affected by environmental conditions such as total darkness, smoke or fog. They do not require any light and cannot be blinded by direct sunlight. However, objects without a heat source could be left at an intersection (for example, an unbraked trailer) and thus not be detected. Thermal imaging, in combination with other detection technologies, can provide a solution.<br/>
+
+**Millimetre wavelength beam interruption**<br/>
+Beam interruption is an obstacle detection technique based on microwaves. When an object enters the beam path, the signal to the transceiver is attenuated, indicating its presence. One of the world's first Safety Integrity Level (SIL) 4 systems was installed in Italy. Although the system was safe, it was very sensitive to temperature changes, rain and condensation on the transmitter and receiver sensors. Regular calibration and maintenance had to be carried out. Furthermore, the narrow beam width and limited field of view meant that even more sensors were needed for tall objects.<br/>
+
+**LiDAR**<br/>
+LiDAR detects the crossing area with pulses of near-infrared light that are reflected from the surface of an object on the level crossing. The reflected pulses can then be analysed to determine its position, direction and speed. Because light has shorter wavelengths than radio waves, LiDAR has the potential for greater accuracy than radar. Network Rail used LiDAR on its first generation of OD crossings as a complement to radar to improve low-level object detection. However, the improved sensitivity also means it is vulnerable to small objects, such as water vapour droplets that make up fog, although this can be mitigated by software algorithms. Furthermore, light is required for operation and the devices must be housed in a transparent enclosure resulting in increased susceptibility to water, dirt and dust on the glass.<br/>
+
+**Induction loops**<br/>
+An induction loop is used to detect metal objects, so is not suitable for pedestrian detection. Unfortunately, there are an increasing number of road vehicles made of composite materials and aluminium, which provide a lower induced current than steel, and problems have been reported in detecting trucks with high axles/ground clearance. Another difficulty is the installation and maintenance of induction loops in the surface of the crossing or road.<br/>
+
+**Strain gauges** <br/>
+A strain gauge or piezometer can be used to measure the deformation (strain) of a material (the deformation of the crossing surface when an object crosses the level crossing). A strain gauge should be able to be calibrated for both vehicles and pedestrians, but may not be able to detect small children. Piezometers and strain gauges have the potential to be more reliable than inductive loops, but the placement of the detectors in the crossing pavement makes them just as difficult to maintain.<br/>
+
+**Ultrasonic sensors** <br/>
+These emit ultrasonic sound pulses that cannot be detected by the human ear. When the pulse reaches an object, the sound is reflected off the surface. Multiple sensors would be required to avoid black spots, and on electrified lines the devices would be in close proximity to parts of the overhead lines. The devices would be more susceptible to vandalism and damage by the public as they are much more conspicuous at a level crossing than other forms of detection. However, it is reported that successful obstacle detection trials have been carried out in the USA using an array of ultrasonic sensors suspended above a level crossing.<br/>
+
+**Radar** <br/>
+This uses radio waves to detect objects. The distance, position and speed of an object can be determined. Reflectors can be installed at the boundaries of the level crossing to provide a reference echo signal and use this to monitor the condition of the area and the sensor itself. Radar-based systems are able to reliably detect objects through rain, fog, snow and hail. OD radar systems with SIL 4 integrity have been developed and systems with a wide beam width so that multiple sensors are not required for high and low obstacles. An advantage of radar over other detection methods is that some low-density material objects, such as an empty paper box, are ignored. As it is a radio-based system, a radar OD system normally requires a radio licence, but this means that the railway infrastructure manager has exclusive use of the frequency and is able to manage any interference. The sensor is capable of operating in all weather conditions and has a predicted Mean Time Between Failures MTBF of more than 10 years. <br/>
+
+An OD system may use one or more of the different detection types, e.g. Network Rail's first-generation OD crossings use both radar and Laser Image Detection and Ranging (LiDAR).
+
+### Key stakeholders {-}
+
+- **Affected**: Drivers, Cyclists, Pedestrians, Train Passengers, Train Operators, Train Drivers
+- **Responsible**: National Governments, City Governments, Transport Agencies, Railway companies, Rail Equipment and Infrastructure Producers and Manufacturers
+
+### Current state of art in research {-}
+A driving simulation study (Larue et al., 2015) showed that driver behaviour changed with assistive ITS interventions at passive crossings, while no differences were observed at active crossings, even with limited visibility. The audio intervention resulted in higher compliance compared to the visual intervention. The results of road-based ITS technology suggest that this is unlikely to lead to positive safety outcomes at passive level crossings if drivers are still required to stop at the level crossing under all conditions (due to the stop sign at the level crossing). In-vehicle audio intervention is most likely to provide safety benefits becuase humans are able to hear sound regardless of the direction from which the sound is coming. This makes sound a particularly useful medium for the transmission of safety-critical messages.<br/>
+
+Many authors investigate driver behaviour at railway crossings (Beanland et al., 2017; Hao et al., 2015; Larue et al., 2015; Tey et al., 2013). A systematic study by Read et al. (2021) categorises factors that influence risk at rail level crossings according to 3 issues:<br/>
+
+-	accident rate and severity 
+-	unsafe and non-compliant road user behaviour
+-	road user risk perceptions, attitudes and beliefs
+
+Most studies focused on unsafe and/or non-compliant road user behaviour.<br/>
+
+Results from Beanland et al. (2017) suggest that while significant slowing at passive RLXs is necessary to give drivers time to visually check for trains, stop signs are not necessary as drivers who stopped rolling and those who stopped fully spent equal amounts of time visually checking for trains and showed similar situational awareness. Similarly, a full stop is problematic for some vehicles (e.g. heavy vehicles that lose momentum and require more time and energy to regain speed). Years ago some researchers have also argued against the use of stop signs at RLXs, fearing that the high rates of observed non-compliance will generalise this behaviour and lead to non-compliance at stop-controlled highway and road intersections (Austin & Carson, 2002; Raub, 2009). Zhang et al. (2019) investigated raised level crossings (RC) as an alternative to the current form of level crossings to mitigate the severity of accidents at road-rail crossings. Further, Larue et al. (2015) categorized 3 ITS applications for railway crossings:
+
+-	**In-vehicle visual system**: A warning system with GPS (as a smartphone application). In particular, such a system should improve the driver's awareness of the crossing condition while approaching a crossing with limited visibility (curves, gradients, fog or sun glare).
+-	**In-vehicle audio warning (radio interference)**: When a train approached the level crossing, the loudspeakers gave a verbal warning while the flashing lights of active level crossings were activated. For passive crossings, the warning was given 20 s before the train arrived.
+-	**Roadside flashing ITS beacons**: This road-based ITS used flashing warning beacons on the road. They were activated when a train approached the level crossing. These beacons marked the place where the driver should stop his vehicle, similar to illuminated runways of aeroplanes. This system was intended to increase the visibility of the crossing status at all times of the day, leading drivers to notice the crossing status earlier, even when visibility was limited (no further information could be found, about which systems are still in development and at which status).<br/>
+
+Fayyaz & Johnson (2020) suggest to use deep learning technology in radar and video monitoring systems to better classify objects or locate their exact position in the given frame, as the environment of level crossings is dynamic (growing vegetation and frequently harmless objects). Thus, the technology is not intended to rely on raw pixel values, but rather on the features and actual representation of the object.
+
+### Current state of art in practice {-}
+According to the European Railway Agency (2020) safety at level crossings has improved over the last ten years. With 1,721 significant accidents, the lowest number since 2010 was recorded in 2018. The decrease is mainly due to 'external' accidents involving third parties (unauthorised persons and level crossing users). Between 2006 and 2018, rail fatalities decreased by 60% (an average of 4.6% p.a.). Level crossing accidents and fatalities account for more than a quarter of all rail accidents on EU railways. Every year, almost 300 people die in LC accidents (EU-28), with an estimated economic loss of €1 billion. <br/>
+
+There are about 105 000 level crossings in the EU-28 countries. Passive level crossings account for 49% of all level crossings. These level crossings are usually equipped with a St Andrew's cross but do not provide active warning to road users. Level crossings with user protection (arm barriers and flashing lights) are the most common type of active level crossing (45 %). Level crossings combining full roadside protection with rail protection account for 16 % (17 277) of all level crossings. Passive level crossings and level crossings in general are disappearing at a slow pace. If the current trend continues, there will still be around 35 000 level crossings on the EU rail network by the end of the century, of which 5 000 will be passive. The last report assessing the achievement of the safety targets showed acceptable safety performance in all Member States in the categories of passengers, level crossing users and societal risks. For the category of level crossing users, it was the first time since the 2013 assessment that no country showed a possible deterioration (European Railway Agency, 2019). Network Rail (2019) has set the following priorities for level crossing information systems:
+
+-	Unsecured automatic level crossings - the automatic half-barrier crossing.
+-	Automatic level crossings that inform the driver whether the level crossing is clear before a train can pass the crossing.
+-	Improvement and installation of visual and acoustic warnings
+
+To further improve safety at level crossings, obstacle detection systems are used at level crossings. Systems are classified into a safety integrity level (SIL), which has a four-level scale, with SIL 1 being the minimum safety requirement and SIL 4 being the most stringent. These levels are used to specify the safety integrity requirements for the safety functions performed by safety systems (Gabriel et al., 2018).<br/>
+
+Traditional (intrusive) sensors installed on or in the railway tracks (e.g. inductive loops and strain gauges) interfere with the rail tracks during their installation and maintenance, making the system costly and unsuitable for its applicability at level crossings. Non-intrusive sensors (e.g. radar and CCTV) are installed outside the tracks and do not disturb the tracks during installation and maintenance periods. The low cost and long product life cycle of these sensors make radar and CCTV the preferred choice for level crossing applications (Fayyaz & Johnson, 2020).<br/>
+
+The L.B. Foster company in the US already has several LODs in use for red light violation monitoring, number plate recognition, video analysis and data recording. The red light violation camera system has led to thousands of prosecutions for dangerous driving. The requirement to detect a 9-year-old child while lying on the level crossing proved challenging. This meant detecting any object with a size of 115mm height. The technology chosen to meet this specification was a LIDAR detector, which after 3 months of ground testing proved that it was possible to detect an object of this size after modifications. Integrating the system into typical signalling circuits also proved challenging as there were many relay circuits to consider, not only for obstacle detection but for all fault modes etc (Roberts, 2018).
+
+### Relevant initiatives in Austria {-}
+In 2016, 40 level crossings in Austria were equipped with cameras to film red light offenders and issue penalty notices.
+
+- [Österreich.at](https://www.österreich.at/chronik/oebb-ueberwachen-bahnuebergaenge-mit-kameras/251039735) 
+- [Derstandard.at](https://www.derstandard.at/story/2000038658674/im-vorjahr-124-unfaelle-bei-eisenbahnkreuzungen-mit-21-toten) 
+- [Bmk.gv.at](https://www.bmk.gv.at/themen/verkehr/eisenbahn/sicherheit/bahnuebergaenge/sicherhandeln.html) 
+- [Tips.at](https://www.tips.at/nachrichten/urfahr-umgebung/land-leute/519686-neuer-bahnschranken-fuer-mehr-sicherheit) 
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Fewer accidents, better rail crossing information systems reduce human, social, economic costs |**+**|Health & Wellbeing (*3*)|Read et al., 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+
+1.Based on the cost-benefits analysis, is it worth to invest in safer level crossings?
+2.How much would be the additional costs of the different LODs?
+3.At how many level crossings are rail crossing information systems already in use?
+
+### Further links {-}
+
+- [Mobility.siemens.com](https://www.mobility.siemens.com/global/en/portfolio/rail/automation/signaling-on-board-and-crossing-products/crossings-overview/crossings-protection.html)
+- [Networkrail.co.uk-1](https://www.networkrail.co.uk/communities/safety-in-the-community/railway-safety-campaigns/)
+- [Networkrail.co.uk-2](https://www.networkrail.co.uk/communities/safety-in-the-community/level-crossing-safety/)
+- [Ihi.co.jp](https://www.ihi.co.jp/3DLaserRadar/en/products/01.html)
+- [Lbfoster.eu](https://lbfoster.eu/en/control-and-display/solutions/remote-condition-monitoring/lidar-level-crossing-obstacle-detection/)
+
+### References {-}
+- Austin, R. D., & Carson, J. L. (2002). An alternative accident prediction model for highway-rail interfaces. Accident Analysis and Prevention, 34(1), 31–42. https://doi.org/10.1016/S0001-4575(00)00100-7
+-	Beanland, V., Salmon, P. M., Filtness, A. J., Lenné, M. G., & Stanton, N. A. (2017). To stop or not to stop: Contrasting compliant and non-compliant driver behaviour at rural rail level crossings. Accident Analysis and Prevention, 108, 209–219. https://doi.org/10.1016/j.aap.2017.09.004
+-	bmvit. (2011). Sicher Handeln an Eisenbahnkreuzungen. https://www.bmk.gv.at/themen/verkehr/eisenbahn/sicherheit/bahnuebergaenge/sicherhandeln.html
+-	Darlington, P. (2017, May 30). Obstacle detection for level crossings. Rail News. https://www.railengineer.co.uk/obstacle-detection-for-level-crossings/
+-	European Railway Agency. (2019). Assessment of achievement of safety targets - 2019.
+-	European Railway Agency. (2020). Report on Railway Safety and Interoperability in the EU. European Union Agency for Railways. https://doi.org/10.2821/30980
+-	European Union. (2014). Level crossings - European Union common safety indicators ( ref . Directive 2014 / 88 / EU ).
+-	Fayyaz, M. A. B., & Johnson, C. (2020). Object detection at level crossing using deep learning. Micromachines, 11(12), 1–16. https://doi.org/10.3390/mi11121055
+-	Gabriel, A., Ozansoy, C., & Shi, J. (2018). Developments in SIL determination and calculation. In Reliability Engineering and System Safety (Vol. 177, pp. 148–161). Elsevier Ltd. https://doi.org/10.1016/j.ress.2018.04.028
+-	Hao, W., Kamga, C., & Daniel, J. (2015). The effect of age and gender on motor vehicle driver injury severity at highway-rail grade crossings in the United States. Journal of Safety Research, 55, 105–113. https://doi.org/10.1016/j.jsr.2015.08.006
+-	ITSR. (2011). Transport safety bulletins: Level crossing accidents in Australia (Issue August).
+-	Larue, G. S., Kim, I., Rakotonirainy, A., Haworth, N. L., & Ferreira, L. (2015). Driver’s behavioural changes with new intelligent transport system interventions at railway level crossings - A driving simulator study. Accident Analysis and Prevention, 81, 74–85. https://doi.org/10.1016/j.aap.2015.04.026
+-	mermecgroup. (n.d.). Level Crossing Obstacle Detection System. Retrieved May 31, 2021, from https://www.mermecgroup.com/protect/level-crossing/1033/level-crossing-obstacle-detection.php
+-	Network Rail. (2019). Enhancing level crossing safety 2019-2029. 1–35.
+-	Radalj, T., Kidd, B., & Sultana, S. (2011). Reduction of Speed Limit at Approaches to Railway Level Crossings in Western Australia. ACRS, September, 1–10. https://acrs.org.au/article/reduction-of-speed-limit-at-approaches-to-railway-level-crossings-in-wa/
+-	Raub, R. A. (2009). Examination of Highway–Rail Grade Crossing Collisions Nationally from 1998 to 2007. Transportation Research Record, 2122(1), 63–71. https://doi.org/10.3141/2122-08
+-	Read, G. J. M., Cox, J. A., Hulme, A., Naweed, A., & Salmon, P. M. (2021). What factors influence risk at rail level crossings? A systematic review and synthesis of findings using systems thinking. Safety Science, 138, 105207. https://doi.org/10.1016/j.ssci.2021.105207
+-	Roberts, N. (2018, July). Network Rail - Level crossing obstacle detection systems - L.B. Foster. https://lbfoster.eu/en/case-studies/control-and-display/network-rail-level-crossing-obstacle-detection-systems/
+-	Salmon, P. M., Lenné, M. G., Read, G. J. M., Mulvihill, C. M., Cornelissen, M., Walker, G. H., Young, K. L., Stevens, N., & Stanton, N. A. (2016). More than meets the eye: Using cognitive work analysis to identify design requirements for future rail level crossing systems. Applied Ergonomics, 53, 312–322. https://doi.org/10.1016/j.apergo.2015.06.021
+-	Tey, L. S., Wallis, G., Cloete, S., & Ferreira, L. (2013). Modelling driver behaviour towards innovative warning devices at railway level crossings. Accident Analysis and Prevention, 51, 104–111. https://doi.org/10.1016/j.aap.2012.11.002
+-	Zhang, Z., Dhanasekar, M., Ling, L., & Thambiratnam, D. P. (2019). Effectiveness of a raised road: rail crossing for the safety of road vehicle occupants. Engineering Failure Analysis, 97, 258–273. https://doi.org/10.1016/j.engfailanal.2019.01.046
+
+
 ## Electric road system {#ers}
 
 ### Synonyms {-}
