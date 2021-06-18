@@ -204,11 +204,11 @@ At the core of C-ITS is a database known as the Local Dynamic Map (LDM). This ma
 
 ### Key stakeholders {-}
 
-- **Affected**: Drivers, Vehicle manufacturers
-- **Responsible**: Motorway Infrastructure Agencies, National Governments, Transport Agencies, Vehicle manufacturers
+- **Affected**: Drivers
+- **Responsible**: Motorway Infrastructure Agencies, National Governments, Transport Agencies, Vehicle manufacturers, Road infrastructure providers
 
 ### Current state of art in research {-}
-Javed et al. (2019) investigated potential future use cases of data analysis in C-IST. Three concrete examples were mentioned:
+Javed et al. (2019) investigated potential future use cases of data analysis in C-ITS. Three concrete examples were mentioned:
 
 - Traffic management in smart cities
 
