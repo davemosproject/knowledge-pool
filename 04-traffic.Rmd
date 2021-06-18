@@ -171,6 +171,134 @@ cat('|TRL| SRL|
 
 ## Cooperative - intelligent transport system {#cits}
 
+### Synonyms {-}
+*C-ITS*
+
+### Definition {-}
+Through Intelligent Transportation Systems (ITS), various Connected Vehicle (CV) technologies have been developed in recent years. Two main types of communication have been proposed: vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication (Outay et al., 2019). 
+[C2X/V2X](#v2x) is the new technology that enables both communication between vehicles (car-to-car) and information exchange with infrastructure (car-to-infrastructure) (ADAC, 2021).<br/>
+
+Cooperative Intelligent Transport Systems (C-ITS) are intended to improve road safety and comfort by exchanging safety-related information between vehicles and the transport infrastructure via wireless communication channels (AustriaTech, 2018). It will be an integral part in the future development of smart cities. The concept behind C-ITS is the ubiquitous connectivity of vehicles to provide them with a good knowledge of traffic conditions on the road. Centralised Traffic Command Centres (TCCs) should help manage traffic at the city level, ensure efficient emergency alerts and analyse traffic-related data for efficient route evaluation. Moreover, they should support vehicles with important information for congestion control and help in the selection of safety algorithms (Javed et al., 2019). The technologies used largely involve [wireless communication]( #wireless_com) in the high-frequency range (5.9 GHz) and are standardised within the ITS-G5 standard (AustriaTech, 2018).<br/>
+
+Within this communication between infrastructure and vehicles, there are several distinctions - depending on the direction in which the data exchange takes place (Erhart, 2019):
+
+- Infrastructure-to-Vehicle (I2V)
+
+This communication between infrastructure roadside units (RSU) and vehicles works like a radio signal (The RSU sends out information and each vehicle can receive the information without a direct connection between receiver and sender. As a result, the infrastructure does not store any data of the receiving vehicles. The reception remains completely anonymous). 
+
+- Vehicle-to-Infrastructure (V2I)
+
+The information is sent from vehicles to infrastructure RSUs. In this case, however, registration and certificates must ensure that the Data Protection Regulation (DSGVO) is complied with and that it is not possible to draw conclusions about personal data.
+
+- Vehicle-to-Vehicle (V2V)
+
+Vehicles exchange important information with each other. However, anyone who wants to send C-ITS information must register and each message sent contains a certificate from the sender. This is to ensure that you always know who is sending the information and that you can trust the content of the messages.<br/>
+
+A distinction is made between static and dynamic traffic data. In cooperative systems and C-ITS services, dynamic data is particularly important due to its safety relevance. Here, up-to-date information on road status, such as accident reports or congestion information, is transmitted to drivers in real time. Static road data, on the other hand, contains information that does not change frequently and also cannot provide real-time information (AustriaTech, 2018).<br/>
+
+In the near future, vehicles will be equipped with organised computing, communication and sensing capabilities to create vehicle-based communication networks. This concept, known as vehicle ad hoc network (VANET), is considered as a special type of mobile ad hoc network (MANET) that uses vehicles as nodes and infrastructure elements as complementary devices to increase coverage and communication capabilities (Contreras-Castillo et al., 2016).<br/>
+
+At the core of C-ITS is a database known as the Local Dynamic Map (LDM). This map is central to the operation of C-ITS applications as it provides an updated view of traffic movements and information about road conditions. LDM is embedded in each C-ITS unit to accept input from various sources such as vehicles, RSUs and TCC (Javed et al., 2019).
+
+
+
+### Key stakeholders {-}
+
+- **Affected**: Drivers, Vehicle manufacturers
+- **Responsible**: Motorway Infrastructure Agencies, National Governments, Transport Agencies, Vehicle manufacturers
+
+### Current state of art in research {-}
+Javed et al. (2019) investigated potential future use cases of data analysis in C-IST. Three concrete examples were mentioned:
+
+- Traffic management in smart cities
+
+A data analytics module in TCC could use variables such as vehicle density, road conditions, weather, departure time and more to make an intelligent routing decision. Instead of optimising the route for just one vehicle, a complex data analytics function can make decisions to reduce the overall traffic load on the road. Deep learning is a promising machine learning technique that can be used to identify features and structures in a large data set.
+
+-	Increasing vehicle safety through network security analysis
+
+As C-ITS applications affect vehicle safety, it is important to ensure the safety of vehicles so that they can make correct driving decisions. Network security also plays an important role in C-ITS by ensuring that no intruder can inject false messages. 
+
+-	Data outlier detection
+
+Detecting data outliers due to faulty sensors is important for data analysis. Any error caused by the malfunctioning of such sensors could prove fatal in the context of C-ITS. Therefore, efficient data outlier detection techniques are needed to analyse real-time data and detect faulty or corrupted data as it is injected into the data stream.<br/>
+
+Aramrattana et al., (2019) investigated a connected C-ITS simulation framework using existing simulators to evaluate the variety of technologies in current and future transport systems (driving, network, traffic and vehicle simulators). The initial results showed that the simulation framework could create feasible scenarios with high fidelity for testing and evaluating C-ITS. The framework allows testing of complex vehicle functions (such as autonomy) and traffic situations (e.g. overtaking with limited line of sight) without compromising the fidelity of the various simulation options. There are other numerous ways to further test and use the C-ITS simulator.
+
+
+### Current state of art in practice {-}
+
+Currently in operation are C-ITS Day-1 services, defined as services to be tested and implemented first in pilot projects. These are mainly security-relevant services such as:
+
+-	weather warnings
+-	road works information
+-	traffic jam reports
+-	approaching emergency vehicles
+-	slow or stationary vehicles
+-	Speed display in the vehicle
+-	optimal speed for green wave
+
+Their aim is to warn drivers in real time of upcoming dangers (AustriaTech, 2018). <br/>
+
+At the European level, a community of road operators, vehicle and agricultural machinery manufacturers, cities, industrial and telecom companies have come together to form an interest group called the "C-ITS Deployment Group". The members of this group are committed to a coordinated C-ITS deployment in Europe meaning that C-ITS services should be identical across Europe and understood by all vehicles (Erhart, 2019).<br/>
+
+The [Cooperative ITS Corridor project](http://eco-at.info/c-its-corridor-video.html) focuses on [vehicle and infrastructure networking] (#v2x) systems and applications. The main objectives are to develop a European standard for V2X communication, to establish a system that can be extended to other cooperative services in the future and to provide a cross-border frequency range for V2X applications. The corridor extends from the Netherlands via Germany to Austria (Rotterdam - Frankfurt/Main - Vienna). On the part of the vehicle manufacturers, vehicles and telematic infrastructure are to be brought to market that enable cooperative services. In a first step, two cooperative applications will be used:
+
+-	Work site warning: vehicles approaching a mobile work site will be warned in good time via the vehicle's own display systems
+-	Traffic situation detection: the integration of vehicle data into traffic management could contribute to avoiding congestion by optimising routes and network control, and to improving incident management
+
+In principle, the aspect of [automated driving]( #connected) is only partly the focus of the project. Nevertheless, important aspects for the future use of the technologies employed can be derived from the applications (Heinrich, 2019). Since 2016, roads across Europe have been equipped with smart infrastructure. Starting with hotspots along motorways and cities, road sections have been equipped with ITS-G5 units for a total length of 20,000 km, while around 100,000 km are covered with mobile/long-range technologies. The technology has already been tested for 3,000 hours in extensive trials of vehicles and services across Europe (Schüller, 2021).
+
+### Relevant initiatives in Austria {-}
+- [Bmk.gv.at](https://www.bmk.gv.at/dam/jcr:805487b2-3563-4bd0-8fc6-e392970a42ec/citsstategy.pdf)
+- [Ots.at](https://www.ots.at/presseaussendung/OTS_20201020_OTS0067/asfinag-startet-als-erster-autobahnbetreiber-europas-vernetzung-von-strasse-und-fahrzeug-bild) 
+- [Mobility.siemens.at](https://www.mobility.siemens.com/at/de/unternehmen/newsroom/pressemitteilungen/basis-fur-autonomes-fahren-auf-osterreichs-autobahnen.html)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r  echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Increased safety |**+**|Health & Wellbeing (*3*)|Outay et al., 2019|
+|Systemic|Reduced carbon dioxide emissions|**+**|Environmental sustainability (*7,12-13,15*)|Outay et al., 2019|
+|Systemic|Fatal collisions reduced|**+**|Innovation & Infrastructure  (*9*)|Erhart, 2019; Schuller, 2021|
+|Systemic|Collaborations between European states|**+**|Partnership & collaborations (*17*)|Erhart, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r  echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+1.	How can creation of common overall system architecture for independent C-ITS applications and projects be supported and enhanced?
+
+### Further links
+
+
+- [C-its-deployment-group.eu](https://c-its-deployment-group.eu/knowledge-base/publications/)
+- [C-roads.eu](https://www.c-roads.eu/platform/documents.html)
+- [Ec.europa.eu](https://ec.europa.eu/transport/themes/its/c-its_en)
+- [Ec.europa.eu-report](https://ec.europa.eu/transport/sites/default/files/2016-c-its-deployment-study-final-report.pdf)
+
+
+### References {-}
+
+-	ADAC. (2021). Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen.
+-	Aramrattana, M., Andersson, A., Reichenberg, F., Mellegård, N., & Burden, H. (2019). Testing cooperative intelligent transport systems in distributed simulators. Transportation Research Part F: Traffic Psychology and Behaviour, 65, 206–216. https://doi.org/10.1016/j.trf.2019.07.020
+-	AustriaTech. (2018). C-ITS und kooperative Systeme.
+-	Contreras-Castillo, J., Zeadally, S., & Ibañez, J. A. G. (2016). Solving vehicular ad hoc network challenges with big data solutions. IET Networks, 5(4), 81–84. https://doi.org/10.1049/iet-net.2016.0001
+-	Erhart, J. (2019, November 28). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/
+-	Heinrich, T. (2019). Infrastrukturbedarf automatisierten Fahrens – Grundlagenprojekt.
+-	Javed, M. A., Zeadally, S., & Hamida, E. Ben. (2019). Data analytics for Cooperative Intelligent Transport Systems. Vehicular Communications, 15, 63–72. https://doi.org/10.1016/j.vehcom.2018.10.004
+-	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
+-	Schüller, K. (2021, June 7). AustriaTech: Mehr Sicherheit auf Europas Straßen durch C-ITS | AustriaTech - Gesellschaft des Bundes für technologiepolitische Maßnahmen GmbH, 07.06.2021. https://www.ots.at/presseaussendung/OTS_20210607_OTS0022/austriatech-mehr-sicherheit-auf-europas-strassen-durch-c-its
+
+
+
+
 ## Dynamic route guidance {#dynamic_route}
 
 ## Variable speed limits and dynamic signage system {#variable_speed}

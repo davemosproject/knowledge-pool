@@ -24,7 +24,7 @@ This is a continuously developing database, which is a part of the [DAVeMoS](htt
 This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
 - Univ. Prof. Dr. Yusak Susilo
-- MA (Hons), Msc. Martyna Bogacz
+- Dr. Msc. MA (Hons) Martyna Bogacz
 - B.Sc. Veronika Hebenstreit
 - B.Sc. Gregor Husner
 
@@ -54,7 +54,7 @@ format(Sys.time(),'%d %B %Y')
     - [Congestion charging](#congestion_charging) **NEW**
     - [Platooning](#platooning) **NEW**
     - [Real-time traffic information and monitoring](#traffic_info_monitoring)
-    - [Cooperative - intelligent transport system](#cits)
+    - [Cooperative - intelligent transport system](#cits) **NEW**
     - [Dynamic route guidance](#dynamic_route)
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
     - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
