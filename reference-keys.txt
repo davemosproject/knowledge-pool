@@ -1,13 +1,13 @@
 fig:unnamed-chunk-3
 fig:unnamed-chunk-4
 fig:unnamed-chunk-7
-fig:unnamed-chunk-8
-fig:unnamed-chunk-9
 fig:unnamed-chunk-10
 fig:unnamed-chunk-11
-fig:unnamed-chunk-15
-fig:unnamed-chunk-16
+fig:unnamed-chunk-12
+fig:unnamed-chunk-13
 fig:unnamed-chunk-17
+fig:unnamed-chunk-18
+fig:unnamed-chunk-19
 intro
 infrastructure
 dedicated_lanes
@@ -25,6 +25,7 @@ congestion_charging
 platooning
 traffic_info_monitoring
 cits
+further-links-9
 dynamic_route
 variable_speed
 adaptive_traffic_control
@@ -51,8 +52,8 @@ parking_av
 automated_road_freight
 onboard
 adas
-synonyms-21
-further-links-21
+synonyms-22
+further-links-22
 parking_assistance
 lane_keeping
 digital_maps
@@ -73,7 +74,7 @@ drt
 prt
 brt
 lrt
-further-links-33
+further-links-34
 passenger_drones
 automatic_train
 big
