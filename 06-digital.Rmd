@@ -110,3 +110,154 @@ cat('|TRL| SRL|
 -	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
 
 ## Infrastructure support levels for automated driving {#infrast_support_level}
+### Synonyms {-}
+*Connected Vehicle (CV), Connected Vehicle technologies (CVT), Vehicle-to-x (car and infrastructure) (C2x/V2x), Cooperative Intelligent Transport Systems (C-ITS), Cellular-V2X technology (C-V2X)*
+
+### Definition {-}
+Automated driving means that the control of a vehicle gradually transitions from human to computer systems, including perception of the environment. Automated driving requires certain prerequisites, which can be grouped into the following domains (Erhart et al., 2020):
+
+-	the domain of driver-machine interaction,
+-	the domain of vehicle capability,
+-	the domain of the road operator, 
+-	the domain of laws and regulations.
+
+These domains have been described in more detail in recent years (Erhart et al., 2020):
+
+-	the SAE levels [SAE J3016_201806], describe the degree of automation and the associated division of decision-making and control responsibility between human and machine. 
+-	the Operational Design Domains (ODDs), deal with the environmental conditions under which the machine functions operate 
+-	the ISAD classification describes the ability of the road infrastructure to provide additional sensor information to vehicles (Carreras et al., 2018).<br/>
+
+The classification of ISAD levels:<br/>
+
+-	ISAD E
+
+For most of today's "conventional" infrastructure, digital infrastructure data is generally not available. The vehicle must rely solely on the on-board sensor system and has no redundant second source of information. In addition, road geometry and traffic signs must be independently recognised by the automated vehicle.<br/>
+
+-	ISAD D
+
+At this level, static digital information is available in the form of map support of this road section. Map support means that the infrastructure provider, road authority or other relevant body provides digital map data (including static road signs) supplemented by physical reference points. However, automated vehicles must still independently recognise traffic lights, short-term road works and variable message signs (VMS). The data provided must be requested and downloaded in advance from the relevant map service provider.<br/>
+
+-	ISAD C
+
+At level C, "dynamic digital information" must be available on the network concerned. This means that information from dynamic traffic signs (e.g. variable speed limits) and dynamic information on warnings, incidents and weather alerts are available. A relevant message format, widely used in Europe, for such dynamic information is DATEXII.<br/>
+
+-	ISAD B
+
+The ISAD B classification requires the capability of "cooperative perception", which means that the infrastructure is able to perceive microscopic traffic situations and also to communicate with the vehicles. Microscopic traffic data can be collected by different types of sensors. The infrastructure can react in real time and inform the vehicles about traffic situations, e.g. via I2V communication with C-ITS messages.
+
+-	ISAD A
+
+For the highest classification ISAD A, the infrastructure shall be able to detect vehicle trajectories and guide individual AVs or AV groups. When travelling on an ISAD A classified road, automated vehicles are guided by the infrastructure to optimise traffic flow. The corresponding messages sent by the infrastructure include, for example, gap and lane change advisories to guide the automated traffic. These enhanced messages are referred to as C-ITS day 2 for automated driving.<br/>
+
+However, ISAD classifications are intended to describe road or motorway sections, not entire road networks. This is common practice, however, as traffic monitoring systems such as sensors and variable message signs (VMS) are usually used on motorway sections where traffic frequently reaches capacity (e.g. in congested areas), while other motorway sections do not require fixed installations of traffic monitoring systems as traffic flow is rarely disrupted (Inframix, n.d.).<br/>
+
+Depending on the degree of automated driving, it will be possible to further reduce the number of accidents, because human error is the cause of as many as 90 percent of all road accidents. However, this process will be lengthy because conventional and automated vehicles will continue to drive in mixed traffic for many years to come. It must be prevented that the technical systems fail or simply misjudge traffic situations (Rudschies & Kroher, 2021).
+
+### Key stakeholders {-}
+
+- **Affected**: "Drivers" of Automated Vehicle
+- **Responsible**: National Governments, Private Companies, Car Manufacturers, Infrastructure operators, 
+
+### Current state of art in research {-}
+
+*Signs readability*<br/>
+There is a need for research on the machine readability of traffic signs and road markings. It is not yet clear how such signs should be designed, where they can be placed and under which boundary conditions (weather, speed) they can be recognised. Furthermore, there is a need for additional research on delineators with regard to the problem of locating the automated vehicle through modified delineators, e.g. in the case of invisible lane markings. <br/>
+
+*Digital maps*<br/>
+Further research is needed on the implementation of a digital map with consistent, correct and reliable map data. A uniform process must be developed to ensure the quality of the content of a digital map for use in automated driving. In particular, the necessary interfaces and standards of a digital map, its costs, operator models, etc. are currently completely open. When implementing a highly accurate, layered digital reference map, special attention should be paid to its functional reliability, as it is used in the safety-relevant area of automated vehicle control and is thus an integral part of the functional reliability of the automated driving vehicle. <br/>
+
+Furthermore, it should be investigated to what extent, if any, the information from the sensors of automated vehicles can be used for this purpose and whether it can be made usable for the road authorities. There is also a need for research into the implementation of regular roadside inspections. Because how these roadside checks can be carried out and which data can be reliably collected and automatically evaluated has not yet been researched (Heinrich, 2019).<br/>
+
+There are several research projects on specific use cases with some assumptions on infrastructure. They aim to define infrastructure requirements and impacts for different types of CAVs (Ulrich et al., 2020). <br/>
+
+For example, the Austrian research project *"via-AUTONOM"* aims to create a road infrastructure that meets the requirements of autonomous vehicles and all other road users in terms of safety, efficiency and comfort. In other words, the transition period where both, automated vehicles and non-automated road users are present on the roads, will be investigated. Furthermore, it will be determined where these measures need to be implemented. To this end, via-AUTONOM is developing a risk model that identifies critical locations and road sections (e.g. intersections, construction zones, curves with limited visibility) for future penetration of automated vehicles. Based on this, the effectiveness of a predefined set of infrastructure measures and the effects of varying availability and quality of different data sources are investigated using simulation methods. In this way, traffic safety and traffic flow can be evaluated. The project focuses primarily on non-urban roads, i.e. motorways, main roads and rural roads. The results of via-AUTONOM include a set of recommendations for infrastructure measures to support automated driving, a procedure to identify critical road sections in the Austrian road network and a conceptual architecture for the efficient use of data from vehicles, infrastructure and digital maps (Saleh, n.d.).<br/>
+
+The infrastructure has the potential to support automated driving at selected points or in special situations, but the implementation of some measures is very complex. At the level of technical design-related infrastructure measures, one fundamental measure is the early announcement of special traffic situations, which gives the automated driving vehicle a greater reaction time. For scenarios that occur at short notice (e.g. sudden obstacle on the road), however, design-related measures cannot provide any support. <br/>
+
+Traffic and information technology measures can be attributed a certain degree of flexibility in relation to dynamic initial situations. For the commuter driver, only information technology measures such as [V2V](#v2x) or V2I communication are suitable. On the one hand, this would allow short- to medium-term changes in the traffic situation to be transmitted to the vehicle, and on the other hand, it could create redundancy in the transmission of information. For the motorway driver, additional measures at the level of the traffic infrastructure are possible using existing technology (e.g. route control systems, camera detection). 
+
+### Current state of art in practice {-}
+All current traffic regulations have been designed according to the requirements of human road users and are therefore oriented towards the possibilities of a human-controlled vehicle. Deviating infrastructure requirements due to automated driving have hardly been considered so far. Adapting the infrastructure to automated driving can bring some advantages. The integration of automated driving into the existing mobility system can only be successful if the existing road infrastructure is further developed and does not take too long or cost too much. Furthermore, it is important to introduce a European or global standard so that the compatibility of the C-ITS also functions across countries. This is already being strived for, at least in Europe (Heinrich, 2019). Fundamentally possible or conceivable measures can be differentiated with the following classification (Heinrich, 2019):
+
+-	Technical design infrastructure
+    -	line management
+    -	structural elements
+  
+-	Traffic management infrastructure
+    -	ground markings
+    -	signage
+    -	traffic control systems
+    -	traffic signal systems
+  
+-	Information technology infrastructure
+    -	digital maps
+    -	vehicle-to-X communication
+
+
+(Heinrich, 2019) has compiled a list of scenarios and their infrastructure-related measures. The scenarios mentioned there are:
+
+-	Infrastructure measures for the Highway
+    -	Obstacle in own lane
+    -	Missing hard shoulder
+    -	Temporary hard shoulder clearance
+    -	Work site on directional lane
+  
+-	Infrastructure measures for the commuter driver
+    -	Driving on a one-lane rural road with missing or obscured lane markings
+    -	Mixed traffic with high speed differences
+    -	Overtaking on a one-lane road
+    -	Workplace on one-lane road
+
+
+Moreover, a highly accurate, layered digital reference map has emerged as a central and promising measure that can support automated driving in most scenarios. [Digital maps](#digital_maps) are the foundation of all navigation and the location of all conceivable traffic-related facilities. Although a geodetic reference system, the World Geodetic System 1984 (WGS 84), has been available for some time as a uniform basis for position information on the earth, a uniform map standard based on it is not yet available. This is mainly the result of the various requirements and applications on the part of road construction authorities or the automotive industry. The NDS standard should provide a solution here in the future. 
+By means of an accurate map, both long-term situations and medium- and short-term changes in the traffic situation can be mapped. The basic prerequisite for such a reference map is the availability, topicality and quality of the temporary information. This means, on the one hand, that the events can be localised on the map immediately after they occur and, on the other hand, that an automated vehicle can receive and process this information without delay (Heinrich, 2019).
+
+### Relevant initiatives in Austria {-}
+The government programme 2017-2022 in Austria has set the goal of becoming a pioneering country and thus also a research, development and production location for automated driving in close cooperation with the automotive industry and research. In particular, the ministry will continue to promote test tracks and related research projects.
+
+- [Bmk.at](https://www.bmk.gv.at/themen/mobilitaet/alternative_verkehrskonzepte/automatisiertesFahren/aktionsplan.html)
+
+Since the beginning of 2018, ASFINAG has been able to transmit standardised, harmonised C-ITS Day 1 messages on the test route. In May 2019, selected Day 2 messages for automated driving were sent for the first time. These messages aimed to assist vehicles in specific traffic situations by providing speed, lane and vehicle gap recommendations as well as cooperative perception.
+
+- [ISAD](https://www.researchgate.net/publication/339339109_Infrastructure_support_for_automated_driving_Further_enhancements_on_the_ISAD_classes_in_Austria)
+
+Austrian road operator ASFINAG is testing mixed traffic scenarios to cope with the development of automated driving. On the A2 motorway near the city of Graz a twenty-kilometre test site called "ALP.Lab" was set up. The aim of this test site is to provide a complete package of physical and digital infrastructure for the validation of automated driving functions and to test new traffic management strategies for cooperative and networked automated vehicles.  
+
+- [C-ITS](https://www.researchgate.net/publication/339353309_Road_infrastructure_support_levels_for_automated_driving)
+
+ASFINAG was the first motorway operator in Europe to launch the networking of road and vehicle. This includes the installation of 525 WLAN road units (RSU) and a control centre.
+
+- [Asfinag.at](https://www.asfinag.at/ueber-uns/newsroom/pressemeldungen/2020/wlan-ausbau-cooperative-intelligent-transport-systems/)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Potential to increase road safety|**+**|Health & Wellbeing (*3*)|Rudschies & Kroher, 2021|
+|Systemic|Continuous technological development|**+**|Innovation & Infrastructure  (*9*)|Saleh, P. (n.d.)|
+|Systemic|Goals to standardise compatibility of systems on international level|**+**|Partnership & collaborations (*17*)|Heinrich, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|6-7|4-6|')
+```
+
+### Open questions {-}
+1. How should traffic signs and road markings be designed in order to be recognised as well as possible by an automated car?
+2. How to tackle the recognition of certain lane markings ortraffic signs that are worn out or have been covered with graffiti or dirt and are therefore no longer readable by an automated car?
+
+### References {-}
+
+-	Carreras, A., Daura, X., Erhart, J., & Ruehrup, S. (2018). Road infrastructure support levels for automated driving.
+-	Erhart, J., Harrer, M., Rührup, S., Seebacher, S., & Wimmer, Y. (2020). Infrastructure support for automated driving: Further enhancements on the ISAD classes in Austria. Proceedings of 8th Transport Research Arena TRA 2020, 43(0). https://www.researchgate.net/publication/339339109
+-	Heinrich, T. (2019). Infrastrukturbedarf automatisierten Fahrens – Grundlagenprojekt.
+-	Inframix. (n.d.). Infrastructure Categorization – Inframix EU Project. Retrieved June 21, 2021, from https://www.inframix.eu/infrastructure-categorization/
+-	Rudschies, W., & Kroher, T. (2021, May 21). Autonomes Fahren: Der aktuelle Stand der Technik | ADAC. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/technik-vernetzung/aktuelle-technik/
+-	Saleh, P. (n.d.). via-AUTONOM Verkehrsinfrastruktur und Anforderungen für autonome Fahrzeuge - AIT Austrian Institute Of Technology. Retrieved June 21, 2021, from https://www.ait.ac.at/themen/verkehrssicherheit-und-unfallforschung/projects/via-autonom
+-	Ulrich, S., Kulmala, R., Appel, K., Aiger, W., Tenttinen, M., Laitinen, J., & Deliverable, D. (2020). MANTRA: Making full use of Automation for National Transport and Road Authorities - NRA Core Business. D4.2 Consequences of automation functions to infrastructure. April.
+

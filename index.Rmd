@@ -62,7 +62,7 @@ format(Sys.time(),'%d %B %Y')
     - [Urban access management](#urban_access) **NEW**
 5. [Digital road infrastructure and connectivity](#digital)
     - [Vehicle to everything communication](#v2x) **NEW**
-    - [Infrastructure support levels for automated driving](#infrast_support_level)
+    - [Infrastructure support levels for automated driving](#infrast_support_level) **NEW**
 6. [Passenger information system](#passenger)
     - [Digital journey planner](#djp) **NEW**
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
