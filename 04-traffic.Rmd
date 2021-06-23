@@ -275,7 +275,7 @@ cat('|TRL| SRL|
 ### Open questions {-}
 1.	How can creation of common overall system architecture for independent C-ITS applications and projects be supported and enhanced?
 
-### Further links
+### Further links {-}
 
 
 - [C-its-deployment-group.eu](https://c-its-deployment-group.eu/knowledge-base/publications/)
@@ -286,7 +286,7 @@ cat('|TRL| SRL|
 
 ### References {-}
 
--	ADAC. (2021). Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen.
+-	ADAC. (2021). Welche Hersteller bieten bereits C2X an? Datenquelle Original-Rückmeldungen.
 -	Aramrattana, M., Andersson, A., Reichenberg, F., Mellegård, N., & Burden, H. (2019). Testing cooperative intelligent transport systems in distributed simulators. Transportation Research Part F: Traffic Psychology and Behaviour, 65, 206–216. https://doi.org/10.1016/j.trf.2019.07.020
 -	AustriaTech. (2018). C-ITS und kooperative Systeme.
 -	Contreras-Castillo, J., Zeadally, S., & Ibañez, J. A. G. (2016). Solving vehicular ad hoc network challenges with big data solutions. IET Networks, 5(4), 81–84. https://doi.org/10.1049/iet-net.2016.0001

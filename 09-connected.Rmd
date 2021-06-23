@@ -38,20 +38,6 @@ So far, however, there is no legal framework for fully automated vehicles.
 
 The fifth is the final level of autonomous driving. The car is now completely guided by the system and performs all the necessary tasks automatically. Even complex situations - such as crossing an intersection, driving through a roundabout or the correct behaviour at a zebra crossing - can be handled by the autonomous car. <br/>
 
-So far, however, there is no legal framework for autonomous vehicles. Therefore, the rights and obligations of the manufacturers of the cars/trucks, software developers and the insurance companies, in the automated mode of operation, are still completely unclear. The ADAC experts suggest only *3 operating modes* instead of 5 levels (Paulsen, 2018), where at the moment the car supports us (1st operating mode), soon it will drive itself (2nd operating mode) and in future driverless (3rd operating mode). They can be described as follows:
-
-**First mode: assisted driving**
-
-The driver is always and at all times responsible for driving. As far as possible, the vehicle keeps in lane, brakes and accelerates. But: feedback is not mandatory and a sudden stop is always possible. 
-
-**Second mode: automated driving**
-
-The vehicle only drives itself in the application case specified by the manufacturer (e.g. stop-and-go in a traffic jam). The driver may temporarily turn away from the driving task and the traffic situation. Outside employment is possible. The driver is only liable if he has not complied with the request to take over.
-
-**Third mode: autonomous driving**
-
-The driver becomes a passenger, or the vehicle can be operated without occupants. The autonomous mode can be limited to defined routes. An operator (not the driver) must constantly monitor the vehicle in order to be able to react to operational problems (flat tyres, etc.).<br/>
-
 For a regulatory framework, seamless and harmonised cross-border EU and national regulation of automated road transport is seen by the European Commission, 2019 as a key factor for market introduction. Common procedures for testing, validation and certification enable the standardisation of solutions. Standards should also apply to data exchange and communication solutions. Ethical, legal, environmental and safety aspects should be regulated. The liability and responsibility of each actor in the road system must be defined before the introduction of automated driving.
 
 
