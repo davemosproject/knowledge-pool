@@ -169,6 +169,95 @@ cat('|TRL| SRL|
 
 ## Real-time traffic information and monitoring {#traffic_info_monitoring}
 
+### Synonyms {-}
+*Intelligent Transport Systems (ITS)*
+
+### Definition {-}
+More than half of the population now lives in cities which gives rise to growing emissions and congestion problems and improve safety and to tackle them Intelligent Transport Systems (ITS) are essential. They can make transport safer, more efficient and more sustainable by applying various information and communication technologies to all types of passenger as well as freight transport. Real-time traffic information and monitoring play an essential role. These enable traffic to be monitored and managed on an event-driven basis to make it safer, more efficient, and more sustainable. They also form the basis for intelligent traffic management and road maintenance, as well as the use of technologies such as [dynamic route guidance](#dynamic_route), [variable speed limits and dynamic signage system](#variable_speed), [smart traffic signal control](#adaptive_traffic_control) and [urban access management](#urban_access).
+
+In the early 1990s, the need to exchange information between the European traffic centers of freeway operators initiated the development of DATEX I - an electronic language for the exchange of traffic information and traffic data. Soon the need arose to open this information to service providers as well, for which DATEX I was somewhat too limited and used outdated technical concepts. Therefore, DATEX II was developed in the first years of this millennium. It distributes traffic information and traffic management information independent of language and presentation format. Thus, there is no room for misunderstanding and/or translation errors by the recipient. The recipient can choose whether he wants spoken text, an image on a map or integration into a navigation calculation. New digitalization requirements due to self-driving cars as well as the increasing scope of ITS services, require an increased use of standards and thus also challenge the DATEX II community accordingly (DATEX II, nd. b).
+
+The age of "Big Data" offers new opportunities in traffic management. The use of big data makes it possible to analyze not only traffic, but also overall mobility behavior. One important task area is the collection of data and the provision of information by networked vehicles. The [vehicle to everything](#v2x) principle is driving the growth of data-driven business models enormously (Kapsch Aktiengesellschaft, nd. b).
+
+
+### Key stakeholders {-}
+
+- **Affected**: All agents in the traffic
+- **Responsible**: Road maintenance, state authorities, industry, traffic consultant, traffic centers
+
+### Current state of art in research {-}
+Ye et al. (2020) argue that conventional approaches to traffic monitoring are inefficient due to their high energy consumption and high cost. Therefore, they propose a new approach to obtain traffic information by processing raw roadway vibration data. By using a vibration-based road monitoring system, a large amount of raw data was collected, which was subsequently processed with an efficient algorithm to obtain monitoring of vehicle speed, axle distance, driving direction, vehicle location, and traffic volume. Reasonable accuracy was confirmed by means of verification. For example, the algorithm was able to identify vehicles with abnormal weight which is useful for law enforcement agencies to determine an overweight penalty.<br/>
+
+Nguyen et al. (2016) argue that social media has become a valuable source of real-time information. In collaboration with the Transport Management Centre (TMC) of the Australian state of New South Wales, they developed TrafficWatch. This is a system that uses Twitter as a channel for monitoring the traffic network and managing incidents and events. Using advanced web technologies and advanced machine learning algorithms, the crawled tweets are first filtered to show incidents in Australia, and then classified into different groups through online clustering algorithms. The results of the study showed that the system has great potential to report incidents earlier than other data sources and also identify unreported incidents. The TrafficWatch system also shows its advantages in improving TMC's network monitoring capabilities.
+
+### Current state of art in practice {-}
+
+Semertzidis et al. (2010) presented a flexible, scalable, real-time vision system for automatic traffic monitoring based on a network of autonomous tracking units (ATUs) that captures and processes images from one or more pre-calibrated cameras. It is suitable for a wide range of applications, such as traffic monitoring of tunnels on highways and aircraft parking lots at the airports. In the course of their work, they tested and evaluated various image processing and data fusion techniques to achieve the best results. The output is a set of information for each moving object in the image capture, such as target ID, position, speed, and classification. These are transmitted to a remote traffic control center with remarkably low bandwidth requirements. There they are analyzed and used to provide real-time outputs (e.g., alerts, electronic traffic signs, ramp meters, etc.) as well as extract useful statistical information (traffic load, lane changes, average speed etc.).<br/>
+
+Further, *Kapsch TrafficCom* is working on intelligent traffic management solutions based on a standardized, cloud-based technology platform, addressing three different areas: *(1)* traffic optimization (schedule analysis and optimization, based on data analytics), *(2)* decision intelligence (traffic analytics, decision support through traffic simulations and predictions) and *(3)* mobility (open data hub, coordinated accident management of different authorities, as-a-service traffic management systems) (Kapsch Aktiengesellschaft, nd. b). In Panama City, for example, they have implemented Urban Mobility Management, which uses EcoTrafiX™ as an integrated platform for traffic management and includes incident management, multi-agency collaboration, mobility information publishing, travel time management, and traffic modeling and simulation. In Buenos Aires, among other things, also data from multimodal transit was integrated and a web portal for travel information was implemented (Kapsch Aktiengesellschaft, nd. a).<br/>
+
+Among other cities, Colorado, Kansas City and Toronto use TrafficVision software. It transforms traffic surveillance cameras into intelligent sensors. Designed specifically for intelligent transportation systems (ITS), TrafficVision monitors digitally encoded video streams from traffic cameras on highways to continuously collect real-time traffic data and immediately detect incidents. It does so using existing camera infrastructure. This helps organizations better leverage their ITS investments and make traffic safer and more efficient for the public (Omnibond Systems, nd.). 
+
+
+### Relevant initiatives in Austria {-}
+In Austria, ASFINAG collects all traffic data from the entire Austrian freeway network by means of the Traffic Management and Information System (VMIS) and provides various services. In order to collect real-time information, traffic sensors and induction loops installed in the carriageway are used on the one hand, and overhead sensors using radar, infrared and ultrasonic signals on the other. VMIS delivers all measured values from the sensors to the central processing unit (Central Processing System) where the data is analyzed and processed for various purposes. In addition, operators at traffic management centers can react to the processed data and make quick decisions. They can switch all variable message displays in time to ensure optimal traffic flows. The information is also available to the public. Currently, around 2500 weather sensors, 2000 sensors in the field and 200 sensors in the tunnel area are used. In addition, the ASFINAG traffic camera system includes 6,100 stationary cameras that are managed and operated using the ASFINAG wide operational monitoring system (BüS). 1,267 of the cameras are designated as "webcams" and are publicly accessible via the corresponding DATA_ITEM (ASFINAG, nd.). Currently, VMIS 2.0 is being developed and implemented, which, analogous to the existing system, consists of several regional traffic management centers as well as a superordinate traffic computer center and provides the following additional functions (EBP, 2018):
+
+-	Monitoring, control, configuration and parameterization of TLS external systems (technical delivery conditions for line stations)
+-	Largely automated system control based on a new control model
+-	Data source for various customers within (VMIS 2.0 central data management and reporting) and outside (e.g. traffic information services) the VMIS 2.0 context
+-	Provision of interfaces for external systems, in particular to open up system control to external systems (e.g. cooperative services) and for direct communication between sub-centers and tunnel systems
+-	System-wide cross-sectional functionalities such as message management, user and rights management, geo-manager
+-	Traffic engineer workstation for processing and optimizing traffic engineering configuration and parameterization
+
+Links to other initatives:
+
+- [Asfinag](http://services.asfinag.at/web/trafficdata/asfinag-content)
+- [Trafficon](https://www.trafficon.eu) 
+- [Prisma-solutions](https://www.prisma-solutions.com)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r  echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Decrease in travel time|**+**|Environmental sustainability (*7,12-13,15*)|Omnibond Systems (nd.)|
+|Systemic|Decrease in incident response time|**+**|Health & Wellbeing (*3*)|Omnibond Systems (nd.)|
+|Systemic|Cooperation of several authorities|**+**|Partnership & collaborations (*17*)|Kapsch Aktiengesellschaft (nd. a)|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r  echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-9|7-8|')
+```
+
+### Open questions {-}
+1.	What are the potential solution that can be jointly used by traditional and automated vehicles (eg. during transistion period when both types of vehicles will still be present)?
+
+### Further links {-}
+
+- [Citilog.fr](https://www.citilog.fr) 
+- [Iteris.com](https://www.iteris.com) 
+- [Tomtom.com](https://www.tomtom.com/products/real-time-traffic/) 
+- [Flightaware.com](https://de.flightaware.com/live/) 
+- [Marinetraffic.com](https://www.marinetraffic.com/en/ais/home/centerx:12.3/centery:45.7/zoom:5) 
+- [Velocidata.com](https://velocidata.com/technical-summary/) 
+
+### References {-}
+-	ASFINAG. (nd.). ASFINAG Services: ASFINAG Verkehrsdaten. Abgerufen 9. Juni 2021, von http://services.asfinag.at/web/trafficdata/asfinag-content
+-	DATEX II. (nd.). About | DATEX II. Abgerufen 24. Juni 2021, von https://www.datex2.eu/datex2/about
+-	EBP. (2018). Im Auftrag der ASFINAG wird das neue Kernsystem für das Verkehrsmanagement des hochrangigen Straßenverkehrsnetzes in Österreich (VMIS 2.0) errichtet. | EBP | Deutschland. https://www.ebp.de/de/projekte/im-auftrag-der-asfinag-wird-das-neue-kernsystem-fuer-das-verkehrsmanagement-des
+-	Nguyen, H., Liu, W., Rivera, P., & Chen, F. (2016, April). Trafficwatch: real-time traffic incident detection and monitoring using social media. In Pacific-asia conference on knowledge discovery and data mining (pp. 540-551). Springer, Cham.
+-	Kapsch Aktiengesellschaft. (nd. a). Verkehrsmanagement | Kapsch TrafficCom. Abgerufen 9. Juni 2021, von https://www.kapsch.net/ktc/loesungen/traffic-management
+-	Kapsch Aktiengesellschaft. (nd. b). Verkehrsmanagement | Kapsch TrafficCom. Abgerufen 9. Juni 2021, von https://www.kapsch.net/ktc/loesungen/traffic-management
+-	Omnibond Systems. (nd.). Case Studies — TrafficVision. Abgerufen 23. Juni 2021, von http://www.trafficvision.com/case-studies
+-	Semertzidis, T., Dimitropoulos, K., Koutsia, A., & Grammalidis, N. (2010). Video sensor network for real-time traffic monitoring and surveillance. IET intelligent transport systems, 4(2), 103-112.
+-	Ye, Z., Xiong, H., & Wang, L. (2020). Collecting comprehensive traffic information using pavement vibration monitoring data. Computer‐Aided Civil and Infrastructure Engineering, 35(2), 134-149.
+
+
+
 ## Cooperative - intelligent transport system {#cits}
 
 ### Synonyms {-}

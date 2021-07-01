@@ -1,6 +1,137 @@
 # Autonomous driving {#connected}
 
 ## Automated passenger cars {#av}
+### Synonyms {-}
+*Automated Vehicle (AV), Shared Automated Vehicles (SAVs)* 
+
+### Definition {-}
+The potential of automated cars is great - for society, for safety and for Europe as a business location. For society, the opportunity lies in better integrating elderly or disabled people and offering people the possibility to use the time during the journey productively or for recreation. Automated taxis or buses may run so cheaply that rural areas can also be made more accessible. Traffic runs more smoothly and goods can be transported in a more rational and environmentally friendly way. Depending on the degree of automation, the number of accidents could also be further reduced, because human error is the cause of 90 % of all accidents. However, this process will take a long time because conventional and automated vehicles will still be driving in mixed traffic for many years to come. Failures of technical systems or misjudgement of traffic situations must be avoided, henceforth, the development of the best technology for autonomous driving is immensely important. According to surveys in Germany, however, 45 % of drivers currently do not believe in the reliability of vehicle technology or are afraid of hackers (Rudschies & Kroher, 2020).<br/>
+
+The levels of automation are currently divided into 5 levels (Paulsen, 2018):
+
+**First level: assisted driving**<br/>
+Individual assistance systems provide support for specific driving tasks. Assisted driving is already a reality in many cars today. (automatic adaptive cruise control and automatic lane departure warning).
+
+**Second level: partially automated driving**<br/>
+With semi-automated driving, the car/truck can temporarily perform some tasks itself - without any human intervention. For this purpose, various individual systems are combined with each other - in this case, the automatic adaptive cruise control with the emergency braking and lane departure warning systems. Further level 2 functions (overtaking assistant, automatic parking)
+
+**Third level: highly automated driving**<br/>
+Highly automated cars/trucks (Level 3) can perform certain driving tasks autonomously and without human intervention, but only for a limited period of time and under suitable conditions specified by the manufacturer. Level 3 cars will probably be on the road on motorways first: There is no oncoming traffic there, the lane markings are usually in order, and the roads are continuously recorded as digital maps. Since 2017, there has also been a legal framework for Level 3 cars in Germany: as soon as the driver puts his car into highly automated mode, he is allowed to turn his attention away from the road traffic. This means that the driver is allowed to read the newspaper. 
+However, if the system detects a problem and sends a signal, the driver must take over the wheel immediately. 
+
+**Fourth level: fully automated driving**<br/>
+In the development departments of the large car companies, but also at Apple, Google or Uber, engineers and computer scientists are working flat out on the full automation of the car, i.e. level 4 on the way to autonomous driving. In this level, the technical systems carry out all driving tasks automatically, and the car can also cover longer distances without intervention.
+So far, however, there is no legal framework for fully automated vehicles.
+
+**Fifth level: autonomous driving**<br/>
+The fifth is the final level of autonomous driving. The car is now completely guided by the system and performs all the necessary tasks automatically. Even complex situations - such as crossing an intersection, driving through a roundabout or the correct behaviour at a zebra crossing - can be handled by the autonomous car. 
+
+So far, however, there is no legal framework for autonomous vehicles. Therefore, the rights and obligations of the manufacturers of the cars/trucks, software developers and the insurance companies, in the automated mode of operation, are still completely unclear. The ADAC experts suggest only *3 operating modes* instead of 5 levels (Paulsen, 2018), where at the moment the car supports us (1st operating mode), soon it will drive itself (2nd operating mode) and in future driverless (3rd operating mode). They can be described as follows:
+
+**First mode: assisted driving**<br/>
+The driver is always and at all times responsible for driving. As far as possible, the vehicle keeps in lane, brakes and accelerates. But: feedback is not mandatory and a sudden stop is always possible. 
+
+**Second mode: automated driving**<br/>
+The vehicle only drives itself in the application case specified by the manufacturer (e.g. stop-and-go in a traffic jam). The driver may temporarily turn away from the driving task and the traffic situation. Outside employment is possible. The driver is only liable if he has not complied with the request to take over.
+
+**Third mode: autonomous driving**<br/>
+The driver becomes a passenger, or the vehicle can be operated without occupants. The autonomous mode can be limited to defined routes. An operator (not the driver) must constantly monitor the vehicle in order to be able to react to operational problems (flat tyres, etc.).<br/>
+In a forecast of the introduction of automation functions in the passenger car fleet by 2050 in Germany, 3 different automation functions are considered that build on each other (Altenburg et al., 2018):
+
+-	Motorway pilot: The motorway pilot enables level 4 highly automated driving on all motorways. This automation level enables the vehicle to move on this type of road completely without monitoring or even intervention by the driver. When leaving the motorway, the vehicle hands control back to the human driver.
+-	City Pilot: The City Pilot can take control not only on motorways, but also in the entire urban environment up to a speed of 50 km/h. On rural roads that do not have a structural separation of the directional lanes and that are not subject to the urban speed limit, the driving task must be taken over by a human.
+-	Door-to-door pilot: This most far-reaching automation function allows vehicles to drive the entire road network in automated mode without driver intervention. Here, too, automation will encompass level 4.
+
+
+### Key stakeholders {-}
+
+- **Affected**: Citizens, drivers, cyclists, public transport users and drivers, pedestrians
+- **Responsible**: National governments, City government, Car manufacturers
+
+### Current state of art in research {-}
+The main focus in research is currently concentrated on safety, social acceptance and external effects. Much of the ongoing research is considered to be privately owned by car manufacturers regarding safety and efficiency.<br/>
+
+Although fully automated cars are seen as a means of improving network capacity and network reliability, making car use more accessible to a wider range of people and reducing accidents, several researchers warn that the rebound effect is that they could lead to a significant increase in car use, with a simultaneous decrease in pedestrians, cyclists and public transport, and that this could more than offset the benefits of increased capacity and lead to urban sprawl. May et al. (2020), following a review of the literature and qualitative analysis using causality diagrams, suggest that the key triggers of such change will be the market share of automated vehicles, whether private or shared, the extent to which capacity is increased, the potential to reduce time spent on parking and access, the potential reduction in the value of time spent in vehicles, and the expansion of the number of people who can drive. Their findings indicate that the introduction of automated cars is likely to have negative impacts on the environment, accessibility, health, urban sprawl and overall sustainability. They also suggest that these negative impacts can be mitigated by requiring that automated vehicles are provided in cities as shared vehicles rather than private vehicles. However, it seems that the fee needs to be higher than the one currently charged by car sharing companies to effectively avoid these negative impacts.<br/>
+
+Zhou et al. (2020) investigates preference heterogeneity in mode choice for car-sharing and shared automated vehicles. They show that the use of AVs in car-sharing schemes does not currently receive much research focus, mainly due to the novelty of these technologies. Although the emergence of AVs could help drive car-sharing adoption by removing various barriers such as lack of parking and undesirable access costs. Proponents argue that the combination of carsharing and AVs (shared automated vehicles [SAVs]) offers unique opportunities for policy makers to positively influence and shape outcomes for society, for example SAVs could provide safe and accessible mobility services for the elderly, non-drivers, disabled and children (Howard, 2014; Yang & Coughlin, 2014).<br/>
+
+Nordhoff et al. (2020) investigated the public acceptance of partially automated (SAE Level 3) passenger cars by means of a questionnaire among 9,118 drivers in eight European countries within the European L3Pilot project. Respondents considered partially automated cars easy to use, but were less likely to consider buying one. Slightly less than the majority could imagine engaging in off-road activities, such as talking to fellow drivers, surfing the Internet, watching videos or TV shows, observing the landscape or working. The positive effects of hedonic motivation, social influence and performance expectancy on the behavioural intention to use conditionally automated cars suggest that the benefits of conditionally automated cars need to be clearly demonstrated and promoted by public (e.g. media, policy) and private decision makers (e.g. manufacturers) through established communication channels and in social networks. Car dealers could be trained as real experts on automated driving functions to explain the strengths and limitations of the systems and to show the systems to customers, e.g. by offering test drives. Social networks (both online and offline) could play a more important role in promoting the benefits of conditionally automated cars, as friends, family and colleagues are an important and trusted source of information. Public authorities could form alliances with private organisations (e.g. automobile clubs, road construction companies) to launch joint awareness campaigns on the benefits of automated cars and to conduct test drives to familiarise the general public with automated cars.<br/>
+
+Kaye et al. (2020) also examines the a priori acceptance of highly automated cars through the Theory of Planned Behaviour (TPB) and the Unified Theory of Acceptance and Use of Technology (UTAUT) in Australia, France and Sweden. For France and Sweden, participants who had prior knowledge of AVs reported significantly higher intentions to use automated cars in the future than those who had no prior knowledge. However, it is important to note that the majority of individuals in each country (i.e. over 80% of participants in Australia and France and 99% of participants in Sweden) reported pre-existing knowledge about AVs. In addition, individuals residing in France indicated a significantly greater intention to use highly automated vehicles if they were publicly available than individuals residing in Australia and Sweden. While it is not known why participants in France indicated significantly greater intentions to use automated cars when they are publicly available than participants in Australia and Sweden, these results support previous research that has shown that perceptions of AVs can vary across countries (e.g. Schoettle & Sivak, 2014) and highlight the need to consider country of residence when assessing AV uptake.<br/>
+
+Vlakveld et al. (2020) investigates cyclists' intentions to yield to automated cars at intersections when they have the right of way using an experiment with high-quality video animations. The results indicate that when cyclists have the right of way at intersections, they still sometimes swerve for cars. They swerve more often when the approaching car is an automated car than when the approaching car is a conventional car. However, when automated cars communicate to cyclists that the system has noticed them and that the car will act in accordance with traffic rules, cyclists tend to swerve less often than in similar conflict situations with a traditional car. It is important to note that the fact that cyclists are more inclined to continue when the automated car can indicate its intention to swerve does not necessarily improve road safety. It is beneficial for road safety if road users always correctly predict what other road users will do. Since the driving behaviour of automated cars can differ from the driving behaviour of cars driven by humans, indicating their intentions can help other road users to make the correct predictions because they know what to expect. However, this will only improve road safety if the displayed intentions are always correct.<br/>
+
+Galich & Stark (2021) investigated the impact of the introduction of automated vehicles in private car ownership. The results show that a reduction or increase in private car ownership, depends to a large extent on the actual implementation of automated vehicles in terms of pricing structures, legal regulations, mobility services, etc. Despite the significantly higher waiting times and operating costs that other studies predict for less densely populated areas, the results showed that residents of rural areas are quite willing to accept higher costs and longer waiting times than their urban counterparts if they are offered reliable mobility alternatives to their own car. Rural residents were even willing to book automated ride-sharing services up to a day in advance for certain trips, such as commuting to work. Interviewed participants stated that they are willing to send their children to kindergarten or school alone in an automated vehicle, but that there should be kindergarten staff or school teachers to pick up the children from the vehicle and accompany them for the last few metres. Another very important point of the study is that automated vehicles could be a very attractive option for older people or people with mobility impairments and thus create a new social group of car owners. This could be socially desirable, as the mobility needs of this group often cannot be met by the currently available means of transport. However, this new social group of car owners can have a negative impact on land use, hence, it is still more favourable that public transport operators and car and ridesharing providers consider offering special services that address the specific needs of this user group. In this way, the mobility needs of this group could be met without leading to an increase in car ownership.
+
+
+### Current state of art in practice {-}
+Successes in research and development of automated vehicles differ from practical developments and reality on the roads. A recent study by the Prognos Research Institute on autonomous driving for the ADAC shows that automated driving will only slowly become established. This is mainly due to the fact that cars are in use for up to twenty years on average, and new technologies increase their presence very gradually in the overall stock. According to the forecast, the share of new vehicles in which the driver can completely turn away from the driving task on all motorways will increase in the "optimistic" case from 2.4 % in 2020 to as much as 70 % in 2050. From 2030 onwards, cars with Citypilot, i.e. the ability to drive alone both on the motorway and in the city, will gradually appear on the roads. And only after 2040 will a larger number of cars be available that can go from door to door fully autonomously, i.e. that no longer need a driver even on country roads. This means that for a long time to come, completely normal vehicles will be on the road alongside fully automated ones. This also puts the hope of rapid safety gains through autonomous cars in the next few decades. The fact that fewer and fewer people will die or be injured in road traffic will be due to the spread of efficient assistance systems, such as the emergency brake assistant (Rudschies & Kroher, 2020).<br/>
+
+At the forecast horizon of 2050, about half of the vehicles will already have an automation function, but in most cases this will only be usable on motorways. Significant penetration of vehicles capable of automated driving throughout the network is not expected until after 2050. Vehicles with automation features are likely to account for significant shares of driving by 2050, but the limitations of the driving features delivered, mean that only a fraction of this will take place on road types for which suitable automation is also available. In addition, it cannot be assumed that the functions will be fully deployed immediately. Consequently, by 2050 a maximum of one in five vehicle km could be provided by automation. This value varies greatly between the different types of roads: while on motorways a good 40% of the mileage could be automated, on rural roads it is still less than 4%. The low proportion of automated driving also influences the safety effects. Automated driving can only make significant contributions slowly towards the end of the forecasted horizon. Since serious consequences of accidents occur particularly strongly on rural roads, where automation will hardly have any effect by 2050, the effect of automation on traffic fatalities will still be marginal by that time (Altenburg et al., 2018).<br/>
+
+Driverless cars are to be able to participate in road traffic in Germany as early as 2022. Autonomous motor vehicles of the so-called "level four" will then be allowed to travel on certain defined routes on public roads. In fully automated driving, the computer can take complete control of the car in certain applications without being monitored by a human driver. In emergencies, the system should also bring the vehicle to a halt at the side of the road. According to the German Ministry of Transport, this technology could be used for shuttle services or freight transport, for example (Rudschies & Kroher, 2020).<br/>
+
+The competition for the best technology for autonomous driving is currently ongoing worldwide. According to VW boss Herbert Diess, however, German car manufacturers are "one to two years behind" in developing the technology for autonomous driving. At the forefront of know-how, almost all experts locate companies in the USA - especially the US company Waymo, which belongs to Google. In the US state of Arizona, Waymo has been running robot cars as taxis for a while now - but still with a safety driver behind the wheel. Customers can order their ride via app and are picked up wherever they happen to be. On average in the vehicles run by Waymo the security guard only has to intervene 0.09 times per 1000 miles driven.<br/>
+
+The development gap between Germany and the Americans could be due to the fact that German car manufacturers work with a higher degree of thoroughness. Christian Weiß, system developer at Daimler, emphasises: "Basically, safety comes before speed for us." For him, the Tesla accidents are a good example of what can happen when immature technology is used in production vehicles. Daimler expert Timo Winterling adds: "To understand a scene, we have to get the last out of the sensors."<br/>
+
+BMW is currently heavily involved in collecting and analysing data in real traffic. At the BMW Campus in Unterschleissheim near Munich, which was founded specifically for this purpose, around 1700 specialists are now working on developing the necessary software algorithms for highly automated driving. As test vehicles, 40 BMWs are on the road collecting huge amounts of data and images in road traffic. For storage, BMW has built two data centres with a capacity of 500 petabytes (PB), a storage size that would hold all the words ever written and printed in human history about five times over (Rudschies & Kroher, 2020).
+
+
+### Relevant initiatives in Austria {-}
+In December 2016, a legal framework for automated vehicles and their systems was created in Austria. According to this, test drives by research institutions and vehicle manufacturers were allowed to assign certain driving tasks, such as keeping a distance, accelerating, braking or keeping in lane, to an assistance system or automated or connected driving system present in the vehicle, in compliance with the other legal regulations.
+
+- [Oesterreich.gv.at](https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/kfz/Seite.061910.html)
+
+Since 11 March 2019, hands-free driving on motorways and with 'motorway assistant with automatic lane guidance' and automatic parking with parking assistant have been permitted. "However, one must be able to intervene immediately if an unexpected situation arises. Therefore, distracting activities, such as operating a mobile phone, remain prohibited. The system may also not be used in construction areas.
+
+- [Öamtc.at](https://www.oeamtc.at/thema/vorschriften-strafen/automatisiertes-fahren-30601779)
+
+Truly autonomous driving is currently only allowed in Austria in test operation on certain stretches of road and requires a separate permit. This is primarily to allow companies to test self-driving cars.
+
+- [Unterkaerntner.at](https://unterkaerntner.at/index.php?id=5488)
+
+With the action package Automated Mobility (2019-2022), the government programme 2017-2022 has set out to develop Austria into a pioneering country and thus also into a research, development and production location for automated driving in close cooperation with the automotive industry and research. In particular, the ministry will continue to promote test tracks and related research projects.
+
+- [Bmk.gv.at](https://www.bmk.gv.at/themen/mobilitaet/alternative_verkehrskonzepte/automatisiertesFahren/aktionsplan.html)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Potential for increasing (access to) mobility in elderly and other disadvantaged groups|**+**|Equality (*5,10*)|Howard, 2014; Yang & Coughlin, 2014|
+|Systemic|Potential for reduction in accidents |**+**|Health & Wellbeing (*3*)|Rudschies & Kroher, 2020|
+|Systemic|Potential for increase in car ownership|**-**|Environmental sustainability (*7,12-13,15*)|May et al., 2020|')
+```
+
+### Technology and societal readiness level {-}
+```{r echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|6-8|5-7|')
+```
+
+### Open questions {-}
+1. Can ownership of automated cars satisfy the mobility needs of a multi-person household that currently relies on two, three or even more cars?
+
+### References {-}
+-	Altenburg, S., Kienzler, H.-P., & Maur, A. A. der. (2018). Einführung von Automatisierungsfunktionen in der Pkw-Flotte.
+-	European Commission. (2019). Automated road transport.
+-	Galich, A., & Stark, K. (2021). How will the introduction of automated vehicles impact private car ownership? Case Studies on Transport Policy, 9(2), 578–589. https://doi.org/10.1016/j.cstp.2021.02.012
+-	Howard, D. (2014). Public Perceptions of Self-driving Cars: The Case of Berkeley, California. MS Transportation Engineering, 2014(1), 21.
+-	Kaye, S. A., Lewis, I., Forward, S., & Delhomme, P. (2020). A priori acceptance of highly automated cars in Australia, France, and Sweden: A theoretically-informed investigation guided by the TPB and UTAUT. Accident Analysis and Prevention, 137, 105441. https://doi.org/10.1016/j.aap.2020.105441
+-	May, A. D., Shepherd, S., Pfaffenbichler, P., & Emberger, G. (2020). The potential impacts of automated cars on urban transport: An exploratory analysis. Transport Policy, 98, 127–138. https://doi.org/10.1016/j.tranpol.2020.05.007
+-	Nordhoff, S., Louw, T., Innamaa, S., Lehtonen, E., Beuster, A., Torrao, G., Bjorvatn, A., Kessel, T., Malin, F., Happee, R., & Merat, N. (2020). Using the UTAUT2 model to explain public acceptance of conditionally automated (L3) cars: A questionnaire study among 9,118 car drivers from eight European countries. Transportation Research Part F: Traffic Psychology and Behaviour, 74, 280–297. https://doi.org/10.1016/j.trf.2020.07.015
+-	Paulsen, T. (2018, November 7). Autonomes Fahren: 5 Level zum selbstfahrenden Auto | ADAC. ADAC. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/grundlagen/autonomes-fahren-5-stufen/
+-	Rudschies, W., & Kroher, T. (2020, May 21). Autonomes Fahren: Der aktuelle Stand der Technik | ADAC. 20.11.2020. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/technik-vernetzung/aktuelle-technik/
+-	Schoettle, B., & Sivak, M. (2014). A survey of public opinion about autonomous and self-driving vehicles in the US, UK and Australia. UMTRI, Transportation Research Institute, July, 1–38.
+-	Vlakveld, W., van der Kint, S., & Hagenzieker, M. P. (2020). Cyclists’ intentions to yield for automated cars at intersections when they have right of way: Results of an experiment using high-quality video animations. Transportation Research Part F: Traffic Psychology and Behaviour, 71, 288–307. https://doi.org/10.1016/j.trf.2020.04.012
+-	Yang, J., & Coughlin, J. F. (2014). IN-VEHICLE TECHNOLOGY FOR SELF-DRIVING CARS: ADVANTAGES AND CHALLENGES FOR AGING DRIVERS J. International Journal of Automotive Technology, 15(2), 333−340.
+-	Zhou, F., Zheng, Z., Whitehead, J., Washington, S., Perrons, R. K., & Page, L. (2020). Preference heterogeneity in mode choice for car-sharing and shared automated vehicles. Transportation Research Part A: Policy and Practice, 132, 633–650. https://doi.org/10.1016/j.tra.2019.12.004
+
+
 
 ## Parking infrastructure for autonomous vehicles {#parking_av}
 

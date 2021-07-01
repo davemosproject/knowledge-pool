@@ -53,7 +53,7 @@ format(Sys.time(),'%d %B %Y')
 4. [Traffic management](#traffic)
     - [Congestion charging](#congestion_charging) **NEW**
     - [Platooning](#platooning) **NEW**
-    - [Real-time traffic information and monitoring](#traffic_info_monitoring)
+    - [Real-time traffic information and monitoring](#traffic_info_monitoring) **NEW**
     - [Cooperative - intelligent transport system](#cits) **NEW**
     - [Dynamic route guidance](#dynamic_route)
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
@@ -76,7 +76,7 @@ format(Sys.time(),'%d %B %Y')
     - [Mobility hubs](#mobility_hubs) **NEW**
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Autonomous driving](#connected)
-    - [Automated passenger cars](#av)
+    - [Automated passenger cars](#av) **NEW**
     - [Parking infrastructure for autonomous vehicles](#parking_av)
     - [Automated road freight](#automated_road_freight) **NEW**
 9. [On-board technology for connected and automated vehicles](#onboard)
