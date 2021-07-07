@@ -99,7 +99,7 @@ format(Sys.time(),'%d %B %Y')
 11. [Collective mobility vehicles](#collective)
     - [Demand responsive transit](#drt) **NEW**
     - [Personal rapid transit](#prt) **NEW**
-    - [Bus rapid transit](#brt)
+    - [Bus rapid transit](#brt) **NEW**
     - [Light rail transit](#lrt) **NEW**
     - [Passenger drones](#passenger_drones) **NEW**
     - [Automatic train operations](#automatic_train) **NEW**

@@ -514,138 +514,149 @@
 \contentsline {subsection}{Further links}{263}{section*.452}%
 \contentsline {subsection}{References}{264}{section*.453}%
 \contentsline {section}{\numberline {11.3}Bus rapid transit}{264}{section.11.3}%
-\contentsline {section}{\numberline {11.4}Light rail transit}{264}{section.11.4}%
 \contentsline {subsection}{Synonyms}{264}{section*.454}%
 \contentsline {subsection}{Definition}{264}{section*.455}%
-\contentsline {subsection}{Key stakeholders}{265}{section*.456}%
-\contentsline {subsection}{Current state of art in research}{266}{section*.457}%
-\contentsline {subsection}{Current state of art in practice}{267}{section*.458}%
+\contentsline {subsection}{Key stakeholders}{267}{section*.456}%
+\contentsline {subsection}{Current state of art in research}{267}{section*.457}%
+\contentsline {subsection}{Current state of art in practice}{269}{section*.458}%
 \contentsline {subsection}{Relevant initiatives in Austria}{270}{section*.459}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{270}{section*.460}%
-\contentsline {subsection}{Technology and societal readiness level}{272}{section*.461}%
-\contentsline {subsection}{Open questions}{272}{section*.462}%
-\contentsline {subsection}{\numberline {11.4.1}Further links}{272}{subsection.11.4.1}%
-\contentsline {subsection}{References}{273}{section*.463}%
-\contentsline {section}{\numberline {11.5}Passenger drones}{275}{section.11.5}%
-\contentsline {subsection}{Synonyms}{275}{section*.464}%
-\contentsline {subsection}{Definition}{275}{section*.465}%
-\contentsline {subsection}{Key stakeholders}{276}{section*.466}%
-\contentsline {subsection}{Current state of art in research}{276}{section*.467}%
-\contentsline {subsection}{Current state of art in practice}{277}{section*.468}%
-\contentsline {subsection}{Relevant initiatives in Austria}{278}{section*.469}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{278}{section*.470}%
-\contentsline {subsection}{Technology and societal readiness level}{279}{section*.471}%
-\contentsline {subsection}{Open questions}{279}{section*.472}%
-\contentsline {subsection}{References}{279}{section*.473}%
-\contentsline {section}{\numberline {11.6}Automatic train operations}{280}{section.11.6}%
-\contentsline {subsection}{Synonyms}{280}{section*.474}%
-\contentsline {subsection}{Definition}{280}{section*.475}%
-\contentsline {subsection}{Key stakeholders}{284}{section*.476}%
-\contentsline {subsection}{Current state of art in research}{284}{section*.477}%
-\contentsline {subsection}{Current state of art in practice}{285}{section*.478}%
+\contentsline {subsection}{Technology and societal readiness level}{271}{section*.461}%
+\contentsline {subsection}{Open questions}{271}{section*.462}%
+\contentsline {subsection}{\numberline {11.3.1}Further links}{271}{subsection.11.3.1}%
+\contentsline {subsection}{References}{271}{section*.463}%
+\contentsline {section}{\numberline {11.4}Light rail transit}{273}{section.11.4}%
+\contentsline {subsection}{Synonyms}{273}{section*.464}%
+\contentsline {subsection}{Definition}{273}{section*.465}%
+\contentsline {subsection}{Key stakeholders}{275}{section*.466}%
+\contentsline {subsection}{Current state of art in research}{275}{section*.467}%
+\contentsline {subsection}{Current state of art in practice}{276}{section*.468}%
+\contentsline {subsection}{Relevant initiatives in Austria}{279}{section*.469}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{280}{section*.470}%
+\contentsline {subsection}{Technology and societal readiness level}{281}{section*.471}%
+\contentsline {subsection}{Open questions}{281}{section*.472}%
+\contentsline {subsection}{\numberline {11.4.1}Further links}{281}{subsection.11.4.1}%
+\contentsline {subsection}{References}{282}{section*.473}%
+\contentsline {section}{\numberline {11.5}Passenger drones}{284}{section.11.5}%
+\contentsline {subsection}{Synonyms}{284}{section*.474}%
+\contentsline {subsection}{Definition}{284}{section*.475}%
+\contentsline {subsection}{Key stakeholders}{285}{section*.476}%
+\contentsline {subsection}{Current state of art in research}{285}{section*.477}%
+\contentsline {subsection}{Current state of art in practice}{286}{section*.478}%
 \contentsline {subsection}{Relevant initiatives in Austria}{287}{section*.479}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{288}{section*.480}%
-\contentsline {subsection}{Technology and societal readiness level}{289}{section*.481}%
-\contentsline {subsection}{Open questions}{289}{section*.482}%
-\contentsline {subsection}{References}{289}{section*.483}%
-\contentsline {chapter}{\numberline {12}Big data}{293}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Wireless communication systems}{293}{section.12.1}%
-\contentsline {subsection}{Synonyms}{293}{section*.484}%
-\contentsline {subsection}{Definition}{293}{section*.485}%
-\contentsline {subsection}{Key stakeholders}{295}{section*.486}%
-\contentsline {subsection}{Current state of art in research}{296}{section*.487}%
-\contentsline {subsection}{Current state of art in practice}{297}{section*.488}%
-\contentsline {subsection}{Relevant initiatives in Austria}{298}{section*.489}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{299}{section*.490}%
-\contentsline {subsection}{Technology and societal readiness level}{299}{section*.491}%
-\contentsline {subsection}{Open questions}{299}{section*.492}%
-\contentsline {subsection}{Further links}{299}{section*.493}%
-\contentsline {subsection}{References}{299}{section*.494}%
-\contentsline {section}{\numberline {12.2}Big data lifecycle}{301}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Big data tools for maping and forecasting travel behaviour}{301}{section.12.3}%
-\contentsline {chapter}{\numberline {13}Shared mobility}{303}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Car sharing}{303}{section.13.1}%
-\contentsline {subsection}{Synonyms}{303}{section*.495}%
-\contentsline {subsection}{Definition}{303}{section*.496}%
-\contentsline {subsection}{Key stakeholders}{304}{section*.497}%
-\contentsline {subsection}{Current state of art in research}{304}{section*.498}%
-\contentsline {subsection}{Current state of art in practice}{305}{section*.499}%
-\contentsline {subsection}{Relevant initiatives in Austria}{306}{section*.500}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{306}{section*.501}%
-\contentsline {subsection}{Technology and societal readiness level}{306}{section*.502}%
-\contentsline {subsection}{Open questions}{307}{section*.503}%
-\contentsline {subsection}{Further links}{307}{section*.504}%
-\contentsline {subsection}{References}{307}{section*.505}%
-\contentsline {section}{\numberline {13.2}Bicycle and e-bicycle hire}{308}{section.13.2}%
-\contentsline {subsection}{Synonyms}{308}{section*.506}%
-\contentsline {subsection}{Definition}{308}{section*.507}%
-\contentsline {subsection}{Key stakeholders}{309}{section*.508}%
-\contentsline {subsection}{Current state of art in research}{309}{section*.509}%
-\contentsline {subsection}{Current state of art in practice}{309}{section*.510}%
-\contentsline {subsection}{Relevant initiatives in Austria}{311}{section*.511}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{311}{section*.512}%
-\contentsline {subsection}{Technology and societal readiness level}{312}{section*.513}%
-\contentsline {subsection}{Open questions}{312}{section*.514}%
-\contentsline {subsection}{Further links}{313}{section*.515}%
-\contentsline {subsection}{References}{313}{section*.516}%
-\contentsline {section}{\numberline {13.3}E-scooters}{315}{section.13.3}%
-\contentsline {subsection}{Synonyms}{315}{section*.517}%
-\contentsline {subsection}{Definition}{315}{section*.518}%
-\contentsline {subsection}{Key stakeholders}{316}{section*.519}%
-\contentsline {subsection}{Current state of art in research}{316}{section*.520}%
-\contentsline {subsection}{Current state of art in practice}{316}{section*.521}%
-\contentsline {subsection}{Relevant initiatives in Austria}{317}{section*.522}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{317}{section*.523}%
-\contentsline {subsection}{Technology and societal readiness level}{318}{section*.524}%
-\contentsline {subsection}{Open questions}{318}{section*.525}%
-\contentsline {subsection}{References}{318}{section*.526}%
-\contentsline {section}{\numberline {13.4}Ride-hailing \& Ride-sharing}{319}{section.13.4}%
-\contentsline {subsection}{Synonyms}{319}{section*.527}%
-\contentsline {subsection}{Definition}{320}{section*.528}%
-\contentsline {subsection}{Key stakeholders}{320}{section*.529}%
-\contentsline {subsection}{Current state of art in research}{320}{section*.530}%
-\contentsline {subsection}{Current state of art in practice}{321}{section*.531}%
-\contentsline {subsection}{Relevant initiatives in Austria}{322}{section*.532}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{322}{section*.533}%
-\contentsline {subsection}{Technology and societal readiness level}{323}{section*.534}%
-\contentsline {subsection}{Open questions}{323}{section*.535}%
-\contentsline {subsection}{Further links}{323}{section*.536}%
-\contentsline {subsection}{References}{324}{section*.537}%
-\contentsline {chapter}{\numberline {14}Alternative power sources}{327}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Hydrogen fuel cell}{327}{section.14.1}%
-\contentsline {subsection}{Synonyms}{327}{section*.538}%
-\contentsline {subsection}{Definition}{327}{section*.539}%
-\contentsline {subsection}{Key stakeholders}{328}{section*.540}%
-\contentsline {subsection}{Current state of art in research}{328}{section*.541}%
-\contentsline {subsection}{Current state of art in practice}{328}{section*.542}%
-\contentsline {subsection}{Relevant initiatives in Austria}{329}{section*.543}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{329}{section*.544}%
-\contentsline {subsection}{Technology and societal readiness level}{330}{section*.545}%
-\contentsline {subsection}{Open questions}{331}{section*.546}%
-\contentsline {subsection}{Further links}{331}{section*.547}%
-\contentsline {subsection}{References}{331}{section*.548}%
-\contentsline {section}{\numberline {14.2}Battery electric}{332}{section.14.2}%
-\contentsline {subsection}{Synonyms}{332}{section*.549}%
-\contentsline {subsection}{Definition}{332}{section*.550}%
-\contentsline {subsection}{Key stakeholders}{334}{section*.551}%
-\contentsline {subsection}{Current state of art in research}{335}{section*.552}%
-\contentsline {subsection}{Current state of art in practice}{336}{section*.553}%
-\contentsline {subsection}{Relevant initiatives in Austria}{337}{section*.554}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{337}{section*.555}%
-\contentsline {subsection}{Technology and societal readiness level}{338}{section*.556}%
-\contentsline {subsection}{Open questions}{338}{section*.557}%
-\contentsline {subsection}{Further links}{338}{section*.558}%
-\contentsline {subsection}{References}{339}{section*.559}%
-\contentsline {section}{\numberline {14.3}Plugin hybrid vehicles}{340}{section.14.3}%
-\contentsline {subsection}{Synonyms}{340}{section*.560}%
-\contentsline {subsection}{Definition}{340}{section*.561}%
-\contentsline {subsection}{Key stakeholders}{341}{section*.562}%
-\contentsline {subsection}{Current state of art in research}{341}{section*.563}%
-\contentsline {subsection}{Current state of art in practice}{342}{section*.564}%
-\contentsline {subsection}{Relevant initiatives in Austria}{342}{section*.565}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{343}{section*.566}%
-\contentsline {subsection}{Technology and societal readiness level}{343}{section*.567}%
-\contentsline {subsection}{Open questions}{343}{section*.568}%
-\contentsline {subsection}{Further links}{343}{section*.569}%
-\contentsline {subsection}{References}{344}{section*.570}%
-\contentsline {chapter}{\numberline {15}References}{347}{chapter.15}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{287}{section*.480}%
+\contentsline {subsection}{Technology and societal readiness level}{288}{section*.481}%
+\contentsline {subsection}{Open questions}{288}{section*.482}%
+\contentsline {subsection}{References}{288}{section*.483}%
+\contentsline {section}{\numberline {11.6}Automatic train operations}{289}{section.11.6}%
+\contentsline {subsection}{Synonyms}{289}{section*.484}%
+\contentsline {subsection}{Definition}{289}{section*.485}%
+\contentsline {subsection}{Key stakeholders}{293}{section*.486}%
+\contentsline {subsection}{Current state of art in research}{293}{section*.487}%
+\contentsline {subsection}{Current state of art in practice}{294}{section*.488}%
+\contentsline {subsection}{Relevant initiatives in Austria}{296}{section*.489}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{297}{section*.490}%
+\contentsline {subsection}{Technology and societal readiness level}{298}{section*.491}%
+\contentsline {subsection}{Open questions}{298}{section*.492}%
+\contentsline {subsection}{References}{298}{section*.493}%
+\contentsline {chapter}{\numberline {12}Big data}{301}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Wireless communication systems}{301}{section.12.1}%
+\contentsline {subsection}{Synonyms}{301}{section*.494}%
+\contentsline {subsection}{Definition}{301}{section*.495}%
+\contentsline {subsection}{Key stakeholders}{303}{section*.496}%
+\contentsline {subsection}{Current state of art in research}{304}{section*.497}%
+\contentsline {subsection}{Current state of art in practice}{305}{section*.498}%
+\contentsline {subsection}{Relevant initiatives in Austria}{306}{section*.499}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{307}{section*.500}%
+\contentsline {subsection}{Technology and societal readiness level}{307}{section*.501}%
+\contentsline {subsection}{Open questions}{307}{section*.502}%
+\contentsline {subsection}{Further links}{307}{section*.503}%
+\contentsline {subsection}{References}{307}{section*.504}%
+\contentsline {section}{\numberline {12.2}Big data lifecycle}{309}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Big data tools for maping and forecasting travel behaviour}{309}{section.12.3}%
+\contentsline {chapter}{\numberline {13}Shared mobility}{311}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Car sharing}{311}{section.13.1}%
+\contentsline {subsection}{Synonyms}{311}{section*.505}%
+\contentsline {subsection}{Definition}{311}{section*.506}%
+\contentsline {subsection}{Key stakeholders}{312}{section*.507}%
+\contentsline {subsection}{Current state of art in research}{312}{section*.508}%
+\contentsline {subsection}{Current state of art in practice}{313}{section*.509}%
+\contentsline {subsection}{Relevant initiatives in Austria}{314}{section*.510}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{314}{section*.511}%
+\contentsline {subsection}{Technology and societal readiness level}{314}{section*.512}%
+\contentsline {subsection}{Open questions}{315}{section*.513}%
+\contentsline {subsection}{Further links}{315}{section*.514}%
+\contentsline {subsection}{References}{315}{section*.515}%
+\contentsline {section}{\numberline {13.2}Bicycle and e-bicycle hire}{316}{section.13.2}%
+\contentsline {subsection}{Synonyms}{316}{section*.516}%
+\contentsline {subsection}{Definition}{316}{section*.517}%
+\contentsline {subsection}{Key stakeholders}{317}{section*.518}%
+\contentsline {subsection}{Current state of art in research}{317}{section*.519}%
+\contentsline {subsection}{Current state of art in practice}{317}{section*.520}%
+\contentsline {subsection}{Relevant initiatives in Austria}{319}{section*.521}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{319}{section*.522}%
+\contentsline {subsection}{Technology and societal readiness level}{320}{section*.523}%
+\contentsline {subsection}{Open questions}{320}{section*.524}%
+\contentsline {subsection}{Further links}{321}{section*.525}%
+\contentsline {subsection}{References}{321}{section*.526}%
+\contentsline {section}{\numberline {13.3}E-scooters}{323}{section.13.3}%
+\contentsline {subsection}{Synonyms}{323}{section*.527}%
+\contentsline {subsection}{Definition}{323}{section*.528}%
+\contentsline {subsection}{Key stakeholders}{324}{section*.529}%
+\contentsline {subsection}{Current state of art in research}{324}{section*.530}%
+\contentsline {subsection}{Current state of art in practice}{324}{section*.531}%
+\contentsline {subsection}{Relevant initiatives in Austria}{325}{section*.532}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{325}{section*.533}%
+\contentsline {subsection}{Technology and societal readiness level}{326}{section*.534}%
+\contentsline {subsection}{Open questions}{326}{section*.535}%
+\contentsline {subsection}{References}{326}{section*.536}%
+\contentsline {section}{\numberline {13.4}Ride-hailing \& Ride-sharing}{327}{section.13.4}%
+\contentsline {subsection}{Synonyms}{327}{section*.537}%
+\contentsline {subsection}{Definition}{328}{section*.538}%
+\contentsline {subsection}{Key stakeholders}{328}{section*.539}%
+\contentsline {subsection}{Current state of art in research}{328}{section*.540}%
+\contentsline {subsection}{Current state of art in practice}{329}{section*.541}%
+\contentsline {subsection}{Relevant initiatives in Austria}{330}{section*.542}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{330}{section*.543}%
+\contentsline {subsection}{Technology and societal readiness level}{331}{section*.544}%
+\contentsline {subsection}{Open questions}{331}{section*.545}%
+\contentsline {subsection}{Further links}{331}{section*.546}%
+\contentsline {subsection}{References}{332}{section*.547}%
+\contentsline {chapter}{\numberline {14}Alternative power sources}{335}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Hydrogen fuel cell}{335}{section.14.1}%
+\contentsline {subsection}{Synonyms}{335}{section*.548}%
+\contentsline {subsection}{Definition}{335}{section*.549}%
+\contentsline {subsection}{Key stakeholders}{336}{section*.550}%
+\contentsline {subsection}{Current state of art in research}{336}{section*.551}%
+\contentsline {subsection}{Current state of art in practice}{336}{section*.552}%
+\contentsline {subsection}{Relevant initiatives in Austria}{337}{section*.553}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{337}{section*.554}%
+\contentsline {subsection}{Technology and societal readiness level}{338}{section*.555}%
+\contentsline {subsection}{Open questions}{339}{section*.556}%
+\contentsline {subsection}{Further links}{339}{section*.557}%
+\contentsline {subsection}{References}{339}{section*.558}%
+\contentsline {section}{\numberline {14.2}Battery electric}{340}{section.14.2}%
+\contentsline {subsection}{Synonyms}{340}{section*.559}%
+\contentsline {subsection}{Definition}{340}{section*.560}%
+\contentsline {subsection}{Key stakeholders}{342}{section*.561}%
+\contentsline {subsection}{Current state of art in research}{343}{section*.562}%
+\contentsline {subsection}{Current state of art in practice}{344}{section*.563}%
+\contentsline {subsection}{Relevant initiatives in Austria}{345}{section*.564}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{345}{section*.565}%
+\contentsline {subsection}{Technology and societal readiness level}{346}{section*.566}%
+\contentsline {subsection}{Open questions}{346}{section*.567}%
+\contentsline {subsection}{Further links}{346}{section*.568}%
+\contentsline {subsection}{References}{347}{section*.569}%
+\contentsline {section}{\numberline {14.3}Plugin hybrid vehicles}{348}{section.14.3}%
+\contentsline {subsection}{Synonyms}{348}{section*.570}%
+\contentsline {subsection}{Definition}{348}{section*.571}%
+\contentsline {subsection}{Key stakeholders}{349}{section*.572}%
+\contentsline {subsection}{Current state of art in research}{349}{section*.573}%
+\contentsline {subsection}{Current state of art in practice}{350}{section*.574}%
+\contentsline {subsection}{Relevant initiatives in Austria}{350}{section*.575}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{351}{section*.576}%
+\contentsline {subsection}{Technology and societal readiness level}{351}{section*.577}%
+\contentsline {subsection}{Open questions}{351}{section*.578}%
+\contentsline {subsection}{Further links}{351}{section*.579}%
+\contentsline {subsection}{References}{352}{section*.580}%
+\contentsline {chapter}{\numberline {15}References}{355}{chapter.15}%

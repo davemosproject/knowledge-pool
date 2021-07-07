@@ -193,6 +193,170 @@ cat('|TRL| SRL|
 
 
 ## Bus rapid transit {#brt}
+### Synonyms {-}
+*High-level bus transport (HLBT)*
+
+### Definition {-}
+Cities worldwide are looking for expanding the capacity of their public transport system while considering budget limitations (Ishaq & Cats, 2020). Bus Rapid Transit (BRT) systems are increasingly being considered as alternatives for designing mass public transport in medium-sized cities in developed countries to reduce traffic congestion with its harmful effects on public health, the economy and the environment. Bus Rapid Transit (BRT) systems are high-quality bus-based transport systems that provide fast and efficient service (Abbasi et al., 2020). This is achieved by providing dedicated lanes, with busways and stations typically aligned with the centre of the street, off-board fare collection, and fast and frequent operations. Because BRT has similar features to a [light rail]( #lrt) or metro system, it is much more reliable, convenient and faster than a regular bus service. With the right features, BRT is able to avoid the causes of delays that typically slow down regular bus services, such as being caught in traffic and waiting in line to pay on board (ITDP, 2021b).<br/>
+
+The term Bus Rapid Transit (BRT) originated in North America and is increasingly used elsewhere. The same concept is expressed by different names in different places (Deng & Nelson, 2010):
+
+-	High-capacity bus systems
+-	High value bus systems
+-	Metro bus
+-	Surface metro
+-	Rapid bus systems
+-	Busway systems
+-	High-level bus transport
+
+BRT systems offer a high-capacity alternative to rail-based systems, which require significantly higher investment and a longer implementation time (Deng & Nelson, 2010; Fageda, 2021). In large cities in emerging economies, particularly in Latin America and South Asia, BRT is an integral part of, or forms the main part of, the mass public transport network. In contrast, BRT implementation in developed economies is mainly limited to medium-sized cities where demand levels do not justify large investments in urban rail infrastructure. In the European context, these projects are sometimes referred to as high service buses (BHLS) (Ishaq & Cats, 2020).
+
+**BRT basics**<br/>
+There are five essential features that define BRT. These features primarily result in a faster journey for passengers and make local travel more reliable and convenient (ITDP, 2021b). They are:
+Dedicated right-of-way: Bus-only dedicated lanes provide a faster journey and ensure that buses are not delayed due to congestion in a mixed traffic.
+
+-	Bus lane alignment: The centre of the lane or bus-only corridor keeps buses away from busy kerbs where cars park, stand and turn.
+-	Fare collection on board: Paying the fare at the bus stop, rather than on the bus, eliminates the delay caused by passengers waiting on board.
+-	Treatment of intersections: Prohibiting traffic from turning across the bus lane reduces bus delays caused by turning traffic. Prohibiting such turns is the most important measure to move buses through intersections - even more important than [signal priority](#public_trans_priority).
+-	Platform level boarding: The bus stop should be level with the bus for quick and easy boarding. This makes it accessible to wheelchairs, disabled passengers, prams and walkers with minimal delays.
+
+To be considered a BRT, a corridor must (ITDP, 2021b, 2021a):
+
+-	Be at least 3 km long;
+-	Score 4 or more points in the dedicated right-of-way element;
+    -	8 points: Physically separated, dedicated lanes (e.g. fences, curbs, bus stations)	
+    -	6 points: Color-differentiated, dedicated lanes with no physical separation 
+    -	4 points: Dedicated lanes separated by a painted line 
+    -	0 points: No dedicated lanes 
+-	Score 4 or more points in the bus alignment element;
+    -	8 points: Two-way bus lane with median in the middle strip of a two-way road 
+    -	8 points: Bus-only corridor in which there is a fully exclusive right-of-way and no parallel mixed traffic or converted corridor
+    -	8 points: Busway that runs along a boundary condition such as a boardwalk or park where there are few intersections that cause conflicts
+-	Score 20 or more points in all five basic BRT elements
+    -	Dedicated right of way (up to 8 points)
+        -	Best practice: The Rainbow BRT Sangamwadi-Vishrantwadi corridor (Pune/Pimpri-Chinchwad, India), which uses fencing to create dedicated, physically separated bus lanes.
+    -	Busway alignment (up to 8 points)
+        -	Best practice: The Metrobus Green Line (Lahore, Pakistan), which includes a two-way median-aligned busway in the median of an roadway.
+    -	Off-board fare collection (up to 8 points)
+        -	Best practice: The TransJakarta Koridor 1 (Jakarta, Indonesia) offers off-board ticketing with turnstile-controlled access to stations
+    -	Intersection treatments (up to 7 points)
+        -	Best practice: Corredor Metropolitano ABD (São Paulo, Brazil) that prioritizes pedestrians and bans left-turns at intersections.
+    -	Boarding at platform level (up to 7 points)
+        -	Best practice: Ahmedabad BRTS (Ahmedabad, India) that, through well-designed infrastructure and driver training, has been able to reduce the boarding distance to less than 10 centimetres.
+
+For more information on scoring system see [scorecard](https://www.itdp.org/library/standards-and-guides/the-bus-rapid-transit-standard/the-scorecard/).
+
+**Open vs. closed**<br/>
+BRT combines stations, vehicles and technology into a high-quality, rail-like and can help improve urban mobility. The resurgence of bus-based transport in recent years has attracted great interest from transport and urban planners as it offers flexible, high-quality services at a lower cost than a rail-based transport system. With many successful systems around the world, investment in BRT has skyrocketed. One of the advantages of BRT is the flexibility of system design of corridors and stations. BRT can use buses operating in a variety of traffic conditions, such as mixed traffic, dedicated lanes on rural roads, and busways (highways or lanes of a highway reserved for the exclusive use of BRT). In North America, most BRT systems use separate or segregated lanes, while in South America BRT systems use the centre lanes. Another advantage of BRT is the operational flexibility to integrate with existing conventional bus services. <br/>
+
+BRT can operate as either an open or closed system. A closed system means that BRT buses can only operate on the BRT corridor and non-BRT buses cannot operate on the BRT corridor (Zhang et al., 2020b). Users typically view a closed BRT system as a frequent and on-time rail-like service that eliminates most of the typical causes of delay that occur with conventional bus services (Zhang et al., 2020a). Some newer BRT systems (Seoul in South Korea, Guangzhou in China and Sydney, Adelaide and Brisbane in Australia) have adopted an open system approach where conventional buses enter and exit the BRT corridor. These open BRT services allow passengers to reach the BRT corridor without changing buses. In an open BRT system, they can effectively improve BRT accessibility for passengers away from the BRT corridor by eliminating the disadvantages associated with transferring, as well as additional walking and waiting time (Yen et al., 2018). However, local traffic may affect these feeder services that use the BRT corridor for part of their routes, reducing the overall performance of the BRT service. On the other hand, since bus-based systems are flexible, sometimes a hybrid mode of operation could also be suitable. Transport planners can review bus routes to identify high ridership routes and operate an open BRT for these routes and add additional services operating as a closed system for other low ridership routes and design a network of feeder buses for these services. This concept can be applied to different times of the day, with the BRT corridor being an open system during off-peak hours to allow for single occupancy trips and closed during peak hours to relieve overcrowding and congestion (Zhang et al., 2020b).
+
+### Key stakeholders {-}
+
+- **Affected**: Mobile citizen, Public transport users
+- **Responsible**: National governments, City government,  Private Companies, Transport agencies, Infrastructure providers, Bus manufacturers
+
+### Current state of art in research {-}
+Many researchers focus on local BRT systems with different emphases such as Malik et al. (2021) investigates user travel behaviour in Lahore, Kiani. Mavi et al. (2018) evaluates and optimises a BRT line in Tehran (Iran) using a simulation and multi-criteria decision-making approach. Ishaq & Cats (2020) report empirical findings from the implementation of a BRT system in Haifa (Israel). Finally,  Mallqui & Pojani (2017) compares Bus Rapid Transit (BRT) issues in Brisbane (Australia) with Lima (Peru). Citizen participation has taken place in both cities. Regardless of competition from other modes of transport, both BRT systems have been positively received by the local population. In particular, people who live close to the stations and can use the BRTs for their commute to work are very positive about this mode of transport. <br/>
+Schwanen & Ferbrache (2017) from the Transport Studies Unit at the University of Oxford have compiled a list of literature on the wider economic and social impacts of Bus Rapid Transit (BRT). The following topics are covered by the literature:
+
+-	BRT impact studies, which examine wider economic and social impacts of BRT. 
+-	Land development, land use change and/or transport-oriented development. 
+-	change in land/property values 
+-	new economic development 
+-	accessibility of jobs/workplaces 
+-	improvement of the urban environment 
+-	prestige/reputation of the city 
+-	physical displacement of poorer households
+Several researchers have investigated the effect of Bus Rapid Transit (BRT) on property values (Zhang et al., 2020a; Zhang & Yen, 2020)). Zhang & Yen (2020) compared 23 other studies on this topic and the two main conclusions are:
+-	The estimated increase in value for land is much higher than for real estate (i.e. 27.5% higher).
+-	In general, land and real estate within 50 m of a BRT station have a price premium of 13.0% compared to land and real estate 1,2 km away.
+
+These results can help to better understand the accessibility benefits of BRT systems, especially where empirical evidence is lacking. However, evidence from European BRT systems is lacking and few studies have examined how BRT systems affect land and property values over time.<br/>
+
+Basso et al. (2019) proposed a dynamic congestion approach that endogenously models queues both on the road and at BRT stations. Some of the key findings are:
+
+-	The optimal BRT is efficient in terms of total cost, and even with imperfectly divisible capacity, BRT is still the better choice for many demand levels (starting with demands between 8000 and 8500 commuters).
+-	Without BRT, there is a large demand cut interval where it is optimal to offer no public transport (up to 10,000 commuters). However, if part of the road capacity were dedicated exclusively to buses, then optimally buses would have to run very frequently. Therefore, planners should introduce BRT systems from the beginning instead of gradually incorporating public transport when demand and congestion increase and bus frequencies become more frequent that dedicated bus lanes become "necessary".
+-	The operating times of buses and cars are much shorter with BRT than under mixed traffic conditions. Therefore, although BRT takes capacity away from car traffic, it will reduce the peak time of car traffic.
+
+Abbasi et al. (2020) studied different aspects of BRT in Tehran (Iran). In their simulations, exclusive bus lanes had good effects on reducing pollutant emissions and fuel consumption. On average, the exclusive bus lanes scenarios would reduce CO emissions from buses by 40.6% and increase CO emissions from cars by 3.1%, NOx (buses reduced by 15.1%; cars increased by 6.7%), PM (buses reduced by 6.7%; cars increased by 4.4%) and fuel consumption (buses reduced by 5.6%; cars increased by 3.2%). In the scenarios of efficient use and standardisation of the number of stations, not only the pollutant emissions of the buses are reduced, but also those of the passenger cars. One possible reason for this is the reduction of conflicts between buses and cars on shared lanes. In the scenario of implementing switched traffic lights and bus priority, pollutant emissions and fuel consumption of buses decrease by 10.2% on average, while they increase by 1.3% for passenger cars. From an economic point of view, the full exclusive bus lane had the highest reduction in annual costs.
+
+### Current state of art in practice {-}
+BRT systems initially thrived in Latin American cities (Dario Hidalgo & Graftieaux, 2008), before spreading to South and East Asia and then across the world (Darío Hidalgo & Gutiérrez, 2013). However, although the number of BRT systems is increasing worldwide, only ~10% of BRT systems are currently located in low- and middle-income countries (Malik et al., 2021). <br/>
+
+According to (Global BRTData, 2021), the distribution of BRT systems worldwide (as of 2021) in terms of number of passengers (worldwide daily 33,684,575) is divided into Africa with 491,578 passengers (1.45%), Asia 9,238,060 (27.42%), Europe 1,613,580 (4.79%), Latin America 20,916,474 (62.09%), Northern America 988,683 (2.93%) and Oceania 436,200 (1.29%). <br/>
+
+Three new BRT systems established in Australia (Busway in Adelaide, Brisbane and Sydney) are open systems. This could be due to the characteristics of Australian urban areas, which tend to have low population density and high car use. Since passengers have to transfer, it is more difficult for a closed system to take advantage of the network effect, and an open BRT system might be more attractive in this car-dominated environment. However, Brisbane is considering switching to a closed BRT operating system due to serious congestion issues, particularly during peak hours (Zhang et al., 2020b).<br/>
+
+Daimler says that more and more Europeans are recognising the advantages of effective and attractive urban bus transport systems. France is cited as a pioneer, where the government is supporting the expansion of BRT systems with large sums of money (Daimler (EvoBus GmbH), n.d.). This is implemented by the world's first hydrogen-powered express bus system that has gone into operation under the name Fébus in the French city of Pau. Eight ExquiCity18 Fuel Cell van-hool buses in tram design are used. The 18-metre-long articulated buses offer space for 125 passengers and can cover more than 300 kilometres per hydrogen filling (Schaal, 2019). <br/>
+
+Further, two BRT lines will be introduced for the public transport system in Florence. The two lines will complete the network of public transport on the road to relieve the buses that currently operate on these routes. This innovation is made possible by the Metrocittà Sustainable Mobility Plan (autobusweb.com, 2021).<br/>
+
+In Istanbul, the BRT lane already stretches over a total of 52 kilometres and transports 750,000 passengers daily. Cities like Amsterdam, Strasbourg and Paris already operate their own BRT system. In Germany, BRT has not yet been implemented, as rail is still the first resort. According to Richard Mejía (head of the BRT team at Daimler Buses), the investment and operating costs are lower compared to rail systems. About the future development of BRT, it is mentioned that the previous concept is constantly being developed and adapted to new technologies or current urban planning. The course is currently being set for emission-free driving with electric mobility. Also, partially autonomous driving of buses (for example, the Future Bus from Mercedes-Benz, which was presented in mid-2016) could reduce fuel consumption through constant acceleration and braking behaviour. Extended and intelligent networking, for example between vehicles, signalling systems and the roadway, will also make BRT systems even more attractive in the future (Daimler AG, n.d.).
+
+### Relevant initiatives in Austria {-}
+Carinthia could get a rapid bus system for local transport.
+
+- [Kaernten.orf.at](https://kaernten.orf.at/stories/3029225/)
+
+Currently, eleven rapid bus transit lines, so-called *Schnellbussystem* (without dedicated lines), connect the centres of the 3 surrounding districts with the provincial capital of St. Pölten. The fleet consists of 47 vehicles in four different sizes in the uniform Wiesel design, which together offer a seating capacity for 2,449 passengers.
+
+- [Meinbezirk.at](https://www.meinbezirk.at/st-poelten/c-lokales/wieselbus-erfolgsstory-feiert-20-jahre_a1863287)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Reduction in pollutant emissions and fuel consumption|**+**|Environmental sustainability (*7,12,13,15*)|Abbasi et al., 2020|
+|Systemic|BRT requires significantly shorter investments and implementation time| **+**|Innovation & Infrastructure (*9*)|Deng & Nelson, 2010; Fageda, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+1. How can development of BRT systems be supported in a better way through national policies?
+
+### Further links
+
+- [BRT data](http://brtdata.org/)
+- [What is BRT?](https://www.itdp.org/library/standards-and-guides/the-bus-rapid-transit-standard/what-is-brt/)
+- [Scorecard](https://www.itdp.org/library/standards-and-guides/the-bus-rapid-transit-standard/the-scorecard/)
+- [BRT issues](https://www.transit.dot.gov/sites/fta.dot.gov/files/issues.pdf)
+
+### References {-}
+-	Abbasi, M. H., Hadji Hosseinlou, M., & JafarzadehFadaki, S. M. (2020). An investigation of Bus Rapid Transit System (BRT) based on economic and air pollution analysis (Tehran, Iran). Case Studies on Transport Policy, 8(2), 553–563. https://doi.org/10.1016/j.cstp.2019.11.008
+-	autobusweb.com. (2021, March 2). Trasporto pubblico Firenze, in arrivo due linee Bus Rapid Transit. https://www.autobusweb.com/tpl-firenze-in-arrivo-due-linee-bus-rapid-transit/
+-	Basso, L. J., Feres, F., & Silva, H. E. (2019). The efficiency of bus rapid transit (BRT) systems: A dynamic congestion approach. Transportation Research Part B: Methodological, 127, 47–71. https://doi.org/10.1016/j.trb.2019.06.012
+-	Daimler (EvoBus GmbH). (n.d.). Bus Rapid Transit (BRT) in Europe – Impressions of a sustainable mobility concept in Strasbourg - EvoBus GmbH. Retrieved June 24, 2021, from https://www.evobus.com/de-en/layer/bus-rapid-transit-brt-in-europe-impressions-of-a-sustainable-mobility-concept-in-strasbourg/
+-	Daimler AG. (n.d.). Bus Rapid Transit – Neue Unabhängigkeit im Stadtverkehr | Daimler. Retrieved June 24, 2021, from https://www.daimler.com/nachhaltigkeit/staedte/bus-rapid-transit.html
+-	Deng, T., & Nelson, J. D. (2010). Transport Reviews Recent Developments in Bus Rapid Transit: A Review of the Literature. https://doi.org/10.1080/01441647.2010.492455
+-	Fageda, X. (2021). Do light rail systems reduce traffic externalities? Empirical evidence from mid-size european cities. Transportation Research Part D: Transport and Environment, 92, 102731. https://doi.org/10.1016/j.trd.2021.102731
+-	Global BRTData. (2021). Global BRTData. Brtdata.Org. http://brtdata.org/
+-	Hidalgo, Dario, & Graftieaux, P. (2008). Bus Rapid Transit Systems in Latin America and Asia: Results and Difficulties in 11 Cities. Transportation Research Record, 2072(1), 77–88. https://doi.org/10.3141/2072-09
+-	Hidalgo, Darío, & Gutiérrez, L. (2013). BRT and BHLS around the world: Explosive growth, large positive impacts and many issues outstanding. Research in Transportation Economics, 39(1), 8–13. https://doi.org/10.1016/j.retrec.2012.05.018
+-	Ishaq, R., & Cats, O. (2020). Designing bus rapid transit systems: Lessons on service reliability and operations. Case Studies on Transport Policy, 8(3), 946–953. https://doi.org/10.1016/j.cstp.2020.05.001
+-	ITDP. (2021a). The Scorecard - Institute for Transportation and Development Policy. https://www.itdp.org/library/standards-and-guides/the-bus-rapid-transit-standard/the-scorecard/
+-	ITDP. (2021b). What is BRT? - Institute for Transportation and Development Policy. https://www.itdp.org/library/standards-and-guides/the-bus-rapid-transit-standard/what-is-brt/
+-	Kiani Mavi, R., Zarbakhshnia, N., & Khazraei, A. (2018). Bus rapid transit (BRT): A simulation and multi criteria decision making (MCDM) approach. Transport Policy, 72, 187–197. https://doi.org/10.1016/j.tranpol.2018.03.010
+-	Malik, B. Z., Rehman, Z. ur, Khan, A. H., & Akram, W. (2021). Investigating users’ travel behaviours and perceptions of single-corridor BRT: Lessons from Lahore. Journal of Transport Geography, 91, 102942. https://doi.org/10.1016/j.jtrangeo.2020.102942
+-	Mallqui, Y. Y. C., & Pojani, D. (2017). Barriers to successful Bus Rapid Transit expansion: Developed cities versus developing megacities. Case Studies on Transport Policy, 5(2), 254–266. https://doi.org/10.1016/j.cstp.2017.01.004
+-	Schaal, S. (2019, December 18). Fébus: Erstes H2-Schnellbussystem in Betrieb - electrive.net. https://www.electrive.net/2019/12/18/febus-erstes-h2-schnellbussystem-in-betrieb/
+-	Schwanen, T., & Ferbrache, F. (2017). Bibliography of Research on Bus Rapid Transit. 1068. https://www.tsu.ox.ac.uk/pubs/1068-schwanen-ferbrache.pdf
+-	Yen, B. T. H., Mulley, C., Tseng, W. C., & Chiou, Y. C. (2018). Assessing interchange effects in public transport: A case study of South East Queensland, Australia. Case Studies on Transport Policy, 6(3), 364–375. https://doi.org/10.1016/j.cstp.2018.01.005
+-	Zhang, M., & Yen, B. T. H. (2020). The impact of Bus Rapid Transit (BRT) on land and property values: A meta-analysis. Land Use Policy, 96, 104684. https://doi.org/10.1016/j.landusepol.2020.104684
+-	Zhang, M., Yen, B. T. H., Mulley, C., & Sipe, N. (2020a). An investigation of the open-system Bus Rapid Transit (BRT) network and property values: The case of Brisbane, Australia. Transportation Research Part A: Policy and Practice, 134, 16–34. https://doi.org/10.1016/j.tra.2020.01.021
+-	Zhang, M., Yen, B. T. H., Mulley, C., & Sipe, N. (2020b). How does an open system bus rapid transit (BRT) facilitate inter and intra-modal mobility? A visual analytic analysis of Brisbane, Australia. Research in Transportation Economics, 83, 100906. https://doi.org/10.1016/j.retrec.2020.100906
+
+
 
 ## Light rail transit {#lrt}
 
