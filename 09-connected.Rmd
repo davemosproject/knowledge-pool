@@ -1,4 +1,4 @@
-# Autonomous driving {#connected}
+# Automated driving {#connected}
 
 ## Automated passenger cars {#av}
 ### Synonyms {-}

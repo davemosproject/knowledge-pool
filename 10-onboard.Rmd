@@ -253,6 +253,78 @@ cat('|TRL| SRL|
 
 ## Digital maps {#digital_maps} 
 
+### Synonyms {-}
+*High definition maps (HD maps), High precision maps*
+
+### Definition {-}
+Digital Maps are electronic maps that gather and integrate data from Global Positioning System (GPS), Light Detection and Ranging System (LiDAR), radars and vehicle sensor in order to increase safety of autonomous and driverless cars, through the implementation of Artificial Intelligence (AI) and Internet of Things (IoT) (Kulkarni, 2021). They are highly precise and detailed lane-level maps which have an ultimate goal to provide virtual assistance on the extreme high safety standards while traveling in AVs (Zang et al., 2018). In particular, they increase vehicle’s sensors information for contextual environment analysis to help performing maneuvers beyond vehicle's sensing range by providing very accurate vehicle positioning and orientation in map coordinates. The digital maps used in AVs are frequently called High Definition (HD) maps, which have extremely high (centimeter-level) accuracy and are designed to tackle one of the biggest problems of autonomous driving, the determination of the exact position of a vehicle in real-time (Haydin, 2020). Currently, the global digital map market is estimated to reach around 12.7% of Compound Annual Growth Rate (CAGR) in 2023, following the increase in demand for autonomous vehicles (Kulkarni, 2021). Consequently, global development of driverless cars and digital maps brings the potential for further implementation and development of smart solutions in cities infrastructure. 
+
+
+### Key stakeholders {-}
+- **Affected**: Users of AVs, Drivers of conventional vehciles, Pedestrians, Cyclists
+- **Responsible**: National and local governments, Private developers of digital mapping systems, Automotive companies, Car manufacturers
+
+### Current state of art in research {-}
+The main trend in research regarding digital maps for AV purposes includes the improvement in their accuracy (espacially in dense urban areas) and development of approaches to update the changes in physical environment on the road.<br/>
+
+For example, the research conducted by Jo et al. (2018) proposes two methods of updating HD maps with recent changes in the physical features of the real world. The first option relies on implementing ground-mapping technology, which assesses all the roads in the database in terms of feature changes and then detects them. However, this technology is not only expensive but also it works on a limited area. Second method makes use of perception and localization functions of driverless vehicles, through the created algorithm called Simultaneous Localization and Map Change Update (SLAMCU). Consequently, the update of data can be performed in many vehciles at the same time, which is a considerable advantage of this method. Additionally, there is no extra software, which makes this method much cheaper in comparison to the first one.<br/>
+
+Further, Hartmann et al. (2018) focuses on the improvement of the accuracy of digital maps, if they were to be used more broadly.  The online verification approach is proposed, which detects changes in front of the car, based on the large databases and sensors. The database collects information about the road geometry and speed limits in the standard interface Advanced Driver Assistance Systems Interface Specifications (ADASIS). This approach provides higher accuracy (96.64%) in comparison to the other systems and concluded that there is needed further research to fully examine possibilities and function of this system. 
+
+
+### Current state of art in practice {-}
+Currently, there are number of navigation technology companies on the market that produce the HD maps for the purpose of automated driving such as [TomTom](https://www.tomtom.com/blog/automated-driving/how-we-make-our-hd-maps/), [Nvidia](https://www.nvidia.com/en-us/self-driving-cars/hd-mapping/), [DeepMap](https://www.deepmap.ai/), [Navinfo](https://www.navinfo.com/en), [Sanbord](https://www.sanborn.com/highly-automated-driving-maps-for-autonomous-vehicles/) and others. 
+
+Nonetheless, they still face certain challenges, these include (Haydin, 2020):
+
+- **Loss of data quality**:  Geospatial data often has proprietary formats, therefore it is challenging for automobile companies to collect it in its original format without quality loss.
+- **Legal constraints**: The uniform, international approach to data collection, storage, sharing and safeguarding is lacking, which undermines possibilities to disseminate and use the data more widely.
+- **Data streaming issue**: The advantage of HD maps is based on the provision of the latest available information, where the lag between dynamic road changes and the time they appear on the map should be minimal. Therefore, they require high-speed bandwidth and support for high vehicle density, which is beyond the capabilities of current [V2X](#v2x). The [5G technology](#wireless_com) is expected to address this issue.
+- **Lack of standarisation**: Car manufacturers (eg. [BMW](https://www.bmw.com/en/automotive-life/autonomous-driving.html) or [Ford](https://www.cnet.com/roadshow/news/argo-ai-argoverse-hd-maps-data-free-research/)) and navigation technology companies produce their own maps with their own data formats which hinders significantly popularisation of HD maps.
+- **High costs of mapping**: Nowadays, car manufacturers face a very high costs when producing HD maps, mainly due to machine power and labour cost. They are particularly difficult to reduce without the loss in technology quality and efficiency. 
+ 
+### Relevant initiatives in Austria {-}
+
+- [zf.com](https://www.zf.com/austria/de/home/home.html)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Increase in road safety of AVs|**+**|Health & Wellbeing (*3*)|Infosysbpm.com, 2020|
+|Systemic|Contributes to the development and implementation of smart solutions|**+**|Innovation & Infrastructure (*9*) | Kulkarni, 2021|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-7|5-7|')
+```
+
+### Open questions {-}
+1. How can HD mapping in automated cars influence smart infrastructure in cities?
+2. How and when could HD mapping be implemented into public transportation accessible for a wider range of inhabitants?  
+3. How to encourage standardisation of HD maps and data formats across car manufacturers and navigation technology companies?
+
+### Further links {-}
+
+- [Infosys](https://www.infosysbpm.com/offerings/functions/digital-business-services/insights/documents/mapping-autonomous-driving-future.pdf)
+- [Atlatec.de](https://atlatec.de/en/)
+
+
+### References {-}
+- Hartmann, O., Gabb, M., Schweiger, R., & Dietmayer, K. (2014, June). Towards autonomous self-assessment of digital maps. In 2014 IEEE Intelligent Vehicles Symposium Proceedings (pp. 89-95). IEEE.
+- Haydin, V. (2020). Solving the Challenges of HD Mapping for Smart Navigation in Autonomous Cars. [online] Available at: <https://www.intellias.com/solving-the-challenges-of-hd-mapping-for-smart-navigation-in-autonomous-cars/> [Accessed 24 June 2021].
+- Infosysbpm.com (2020). Mapping the autonomous future. [pdf] Available at: <https://www.infosysbpm.com/offerings/functions/digital-business-services/insights/documents/mapping-autonomous-driving-future.pdf> [Accessed 7 June 2021].
+- Jo, K., Kim, C., & Sunwoo, M. (2018). Simultaneous localization and map change update for the high definition map-based autonomous driving car. Sensors, 18(9), 3145.
+- Kulkarni, S., (2021). Digital Maps to hold the future of smart cities, autonomous cars, and much more. [online] Geospatial World. Available at: <https://www.geospatialworld.net/blogs/digital-maps-to-hold-the-future-of-smart-cities-autonomous-cars-and-much-more/> [Accessed 7 July 2021].
+- Zang, A., Chen, X., & Trajcevski, G. (2018). High definition maps in urban context. Sigspatial Special, 10(1), 15-20.
+
+
 ## Electronic horizon {#ehorizon}
 
 ### Synonyms {-}

@@ -75,7 +75,7 @@ format(Sys.time(),'%d %B %Y')
     - [Information and assistance for people with special needs](#special_needs) **NEW**
     - [Mobility hubs](#mobility_hubs) **NEW**
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
-8. [Autonomous driving](#connected)
+8. [Automated driving](#connected)
     - [Automated passenger cars](#av) **NEW**
     - [Parking infrastructure for autonomous vehicles](#parking_av)
     - [Automated road freight](#automated_road_freight) **NEW**
@@ -83,7 +83,7 @@ format(Sys.time(),'%d %B %Y')
     - [Advanced driver assistance system (ADAS)](#adas) **NEW**
     - [Parking assistance system](#parking_assistance) **NEW**
     - [Lane keeping](#lane_keeping) **NEW**
-    - [Digital maps](#digital_maps)
+    - [Digital maps](#digital_maps) **NEW**
     - [Electronic horizon](#ehorizon) **NEW**
     - [Emergency call](#ecall) **NEW**
 10. [Freight and commercial transport](#freight)
