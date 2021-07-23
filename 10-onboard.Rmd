@@ -302,7 +302,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 ```{r , echo=FALSE, results='asis'}
 cat('|TRL| SRL|
 |:----:|:----:|
-|5-7|5-7|')
+|5-9|5-9|')
 ```
 
 ### Open questions {-}

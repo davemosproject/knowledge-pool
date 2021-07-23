@@ -2,6 +2,274 @@
 
 ## First-last mile solutions {#flms}
 
+### Synonyms
+*first/last/only mile (F/L/O mile), first-last mile (FLM)*
+
+### Definition {-}
+The ever-increasing demand for freight and passenger transport in recent years has exacerbated the negative impacts of mobility (congestion, traffic accidents, air pollution, noise and climate change costs). Urban settlements are particularly affected due to higher population density. The term "first-last mile" (FLM) refers to the first and last stages of any transport movement, both passenger and freight which have the most negative effects and highest costs. However, from a planning perspective, the simple identification of the FLM is not easy, as it is not easy to understand where the FLM physically begins and where it ends. The FLM problem originated in the field of telecommunications, defined as the first-last stage to the consumer. For example, in the 1970s and 1980s, cable TV companies had to connect and wire each household individually when the technology was introduced in North America and Europe (Nocera et al., 2020).<br/>
+
+In the transport literature, there are different definitions for such a construct. Arvidsson et al. (2016) defines the FLM in the context of freight transport as the first-last part of the transport chain where goods are transported from a professional party to the customer's location, be it a house, a retail shop, a drop-off point or a factory. In the context of passenger transport, it is defined as the first-last stage of a journey by public transport and often the journey from a transport hub to home.<br/>
+
+In the context of passenger transport, air quality and traffic congestion have been the catalysts for new thinking in urban design. Terms like "liveable", " pedestrianisation" and "green streets" represent the transformation that many European cities are undergoing. Some of the measures being taken are investments in cycling infrastructure, more pedestrian zones, new green spaces and street furniture, and restrictions on the use of private vehicles. Many cities are formalising their plans for more sustainable urban transport systems - as shown by the number of cities across Europe implementing a Sustainable Urban Mobility Plan (SUMP). The *City Database | Eltis* (2021) now contains details of over 1,000 cities involved in ongoing or completed urban mobility projects and initiatives. Micromobility has emerged as a possible solution to some of the problems cities face. It is a mode of transport advocated by the younger generation, who have different travel habits than older generations (Twisse, 2020). <br/>
+
+These new FLM solutions also aim to help improve accessibility to public transport. As public transport is an affordable and sustainable mobility option, improving it through a wide range of transport-based options helps to promote a more equitable society. People who lack mobility to reach places such as jobs, education and childcare are at a transport disadvantage. Access to public transport at both ends of a transit trip has been identified as one of the biggest barriers to improving accessibility to public transport. Minimising the deficit at the first and last mile can make communities more inclusive by increasing the supply of accessible options (Zuo et al., 2020a). The speed advantage of cycling over walking can mitigate the first and last mile problem and provides better point-to-point transit mobility (Zuo et al., 2018). However, heavy car traffic and consequently high congestion make roads less attractive and unsuitable for cyclists (Winters et al., 2011) and lead to fragmented cycling routes (Furth et al., 2016). Meanwhile, the poorly connected cycling network makes cycling less accessible and hinders the accessibility of cycling as a mode of transport (Zuo et al., 2020a).<br/>
+
+Traditional F/L/O mile options are walking and cycling. However, with the development of new technologies, new F/L/O-mile options for personal transport have become available and they are becoming more convenient to use. The new technologies also allow a better integration of different transport modes and tariffs. The merging of different means of transport into a service that meets the mobility needs of individual customers is now an established business model called [Mobility-as-a-Service](#maas) (EEA, 2019).<br/>
+
+Micromobility is the term used to describe the new, exponentially growing trend in urban mobility to improve F/L/O options. The term includes all human-powered micro-vehicles such as bicycles and scooters, but also new micro-vehicles such as e-scooters, e-bikes and some other small, electrically powered vehicles (Oeschger et al., 2020). In the ITF report “Safe Micromobility” (OECD/ITF, 2020), micromobility is defined as: *“[…] the use of micro-vehicles: vehicles with a mass of no more than 350 kg (771 lb) and a design speed no higher than 45 km/h. This definition limits the vehicle’s kinetic energy to 27 kJ, which is one hundred times less than the kinetic energy reached by a compact car at top speed.”* <br/>
+
+The ITF report differentiates between several different micromobility alternatives (OECD/ITF, 2020):
+
+-	Powered two-wheeler
+    -	Motorcycle (Powered street vehicle, with two to three wheels and a seat, designed to reach speeds greater than 45 km/h.)
+    -	Moped (Powered road vehicle, with two to three wheels and a seat, sometimes equipped with pedals. The maximum speed of the vehicle depends on national regulations, but is usually limited to 45 km/h.)
+-	Bicycle
+    -	Bicycle (A vehicle with two or more wheels that is generally propelled by the muscular power of the persons on that vehicle, through a pedal system, lever or handle.)
+    -	Pedal assisted bicycle or E-Bike (Pedelec <25 km/h, Speed-pedelec >25 km/h)
+-	Mobility scooter (specifically designed for people with restricted mobility, mostly elderly or disabled) 
+-	Scooter
+    -	Standing scooter, Kick scooter or push scooter (A vehicle with a handlebar, deck and wheels that is propelled by pushing off the ground. There are models with two, three or four wheels. Stand-up scooters differ from skateboards in the presence of a central steering column and a set of handlebars.)
+    -	E-scooter and standing or with a seat (A standing or sitting scooter that can be propelled by the electric motor itself.) 
+-	Skateboard
+    -	Skateboard (Board with four wheels on two axles, propelled by the user kicking against the ground.) 
+    -	Electric skateboard (Skateboard with electric battery, motor, and wireless remote controller.) 
+-	Self-balancing
+    -	Hoverboard (Self-balancing micro-vehicle consisting of two motorised wheels connected to a pair of articulated pads on which the rider places his feet. The rider controls the speed by leaning forward or backward and the direction of travel by twisting the pads.)
+    -	Onewheel (Self-balancing electric wheel with a platform on which the user stands. The feet are at a 90° angle to the direction of travel.)
+    -	Electric unicycle (Self-balancing, single-axle, personal transport device operated with the feet in the direction of travel with a single wheel or with two wheels. The rider controls the speed by leaning forward or backward and steers by turning the device with the feet).
+    -	Electric skates (Skates with electric battery and motor, controlled by the user leaning forward or backward or using a remote controller.) 
+    -	Skates (Pair of boots with a set of wheels fixed to the bottom.)
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Micromobility (adapted from OECD/ITF (2020)."}
+knitr::include_graphics("image/micromobility.jpg")
+```
+
+Definitions, classifications and regulatory frameworks for micromobility vary around the world. Bicycles are the smallest vehicle in most countries' classifications. Consequently, a number of micro-vehicles - such as standing e-scooters, e-skateboards and self-balancing vehicles - are excluded from classifications. In some cases, they are classified as toys and are therefore not allowed on public roads. As a temporary solution, Korea has classified these devices as cars. The authorities in Singapore decided to create a new vehicle category called "Personal Mobility Device" (PMD). Given the obvious international importance of micro-vehicles and the difficulty in defining and categorising them, it might be useful to develop an internationally recognised classification system for them (OECD/ITF, 2020).<br/>
+
+In the [European Union Regulation No. 168/2013](https://unece.org/resolutions), micromobility vehicles are in class L (UNECE, 2017). Class L vehicles are motorised two-, three- and four-wheeled vehicles. The category uses power, energy source, speed, length, width and height as classification criteria. However, only "powered electric bicycles with a maximum speed of 25 km/h and a net power of between 250 watts and 1 000 watts" and "any two-wheeled vehicle with a maximum design speed of more than 25 km/h and up to 45 km/h and a net power of up to 4 000 watts" can be classified in the L1e category of "light two-wheeled motor vehicles". Other micro-vehicles do not fit into any category. OECD/ITF (2020) proposes to classify micromobility as follows:
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Proposed classification of micro-mobility devices (OECD/ITF (2020)."}
+knitr::include_graphics("image/micromobility_classes.jpg")
+```
+
+In terms of freight transport, [intermodal freight](#intermodal_freight) transport is crucial as a feeder to cities to reduce emissions. In the city centre (see [urban deliveries](#urban_delivery)) there are two main areas that could provide practical and relevant solutions to address the challenges and efficiency of last mile freight transport: (1) freight demand management (FDM) measures and (2) improving parking and charging infrastructure. One FDM measure would be to push for out-of-hours deliveries in order to change the delivery activities of freight forwarders and shippers. Furthermore, receiver prices as well as incentives could play an important role in reducing freight transport. (Holguín-Veras & Sánchez-Díaz, 2016). In European cities (especially in France), a significant proportion of double-parked delivery vehicles (delivery vehicles parked on the street parallel to parked cars) is observed (Patier et al., 2014). In this context, [Smart delivery space booking](#space_book) could reduce the effects. [Passenger drones](#passenger_drones) and [Electric vehicle delivery fleets](#electric_delivery_fleets) could also reduce some of the externalities of freight transport in cities, but they might also create some new negative externalities. 
+
+### Key stakeholders {-}
+- **Affected**: All citizens
+- **Responsible**: Transport service providers and public transport operators, MaaS operators and integrators, city councils, local, regional and national authorities 
+
+### Current state of art in research {-}
+EEA (2019) concludes that better F/L/O-mile connectivity in cities can significantly improve environmental and health outcomes. However, realising this potential requires a deep understanding of the different options, their strengths and weaknesses and their impacts on the mobility system as a whole. This is not always easy, as the environmental and health impacts of F/L/O mileage options depend on how they are used and what they replace. This highlights the fact that the increasing availability of e-scooters and digital ride-sharing platforms is changing mobility behaviour in cities, but does not always favour the more climate-friendly choice. A simple example would be a short trip with an e-scooter. If this trip replaces a motorbike or car ride, the environmental and health effects are positive. If it replaces a trip on foot or by bicycle, the situation worsens. More transport options can also lead to people making additional or longer trips, which in turn could worsen the situation. Furthermore, public transport will remain an essential part of any sustainable urban transport system. Good F/L/O-mile options can make public transport more attractive and increase its use, but not replace it completely  (EEA, 2019). Laa & Leth (2020) also notes that e-scooter trips mostly replace trips that would otherwise have been made by a more sustainable mode of transport. <br/>
+
+In terms of Environmental sustainability Severengiz et al. (2020) compares the g CO~2~ eq/passenger km (pkm) of different modes of transport (Figure 7.3). Whereby Moreau et al. (2020) compared dockless and private e-scooter and calculated 131g CO~2~ eq/pkm for the shared vehicle and 67g CO~2~ eq/pkm for the private vehicle.
+
+```{r, echo=FALSE, out.width="50%", fig.cap="Comparison of the CO~2~  equivalent emissions per passenger-km of different modes of transport (Severengiz et al., 2020)"}
+knitr::include_graphics("image/flms_emissions.jpg")
+```
+
+Accessibility is an indicator of the ability to reach frequently visited places efficiently. This is gaining increasing attention as a complement to the more traditional mobility-based performance measures in transport planning, such as 'average delays' and 'level of service'. Assessing performance from an accessibility perspective provides a balanced, more holistic approach to transport analysis and planning. In particular, it considers alternative strategies to reduce congestion and mitigate environmental problems, such as promoting efficient, resource-efficient land use policies. Accessibility is a product of mobility and proximity, improved either by increasing the speed of getting between point A and point B (mobility), or by bringing points A and B closer together (proximity), or by a combination of these. In this sense, an accessibility-based approach lends legitimacy to land use initiatives and urban management tools (Cervero, 2005).
+However, accessibility is defined differently in the literature. Shin et al., 2007) measured accessibility using proximity indices (distance and walking time to the nearest metro station). Martínez & Viegas, 2009) defined accessibility by proximity to public transport nodes and the road network. In gravity-like measures, the accessibility of a zone is determined by the destinations that can be reached from that zone, negatively weighted by the travel time, distance or cost between these two zones (Grengs et al., 2010). In the isochronous approach, accessibility is measured as the number of destinations that can be reached within a given travel time (Cervero, 2005). Fan et al., 2012) examined the impact of introducing light rail on transport equity using the cumulative 30-minute accessibility of jobs by public transport. The first and last mile is an important component of a transit trip and determines whether the transit service is accessible or not. Cycling (or other FLM options) reduce transport inequality by increasing the catchment area of public transport so that people can reach more jobs by public transport (Zuo et al., 2020). <br/> 
+
+However, accessibility is defined differently in the literature. Shin et al. (2007) measured accessibility using proximity indices (distance and walking time to the nearest metro station). Martínez & Viegas (2009) defined accessibility by proximity to public transport nodes and the road network. In gravity-like measures, the accessibility of a zone is determined by the destinations that can be reached from that zone, negatively weighted by the travel time, distance or cost between these two zones (Grengs et al., 2010). In the isochronous approach, accessibility is measured as the number of destinations that can be reached within a given travel time (Cervero, 2005). Fan et al. (2012) examined the impact of introducing light rail on transport equity using the cumulative 30-minute accessibility of jobs by public transport. The first and last mile is an important component of a transit trip and determines whether the transit service is accessible or not. Cycling (or other FLM options) reduce transport inequality by increasing the catchment area of public transport so that people can reach more jobs by public transport (Zuo et al., 2020). <br/>
+
+EEA (2019) summarises the lessons learned for systemic change through the use of First/Last/L only mileage options as follows:
+
+-	Make the impacts of mobility choices clear and offer alternatives
+    -	Confront road users with the costs incurred by their mobility choices (internalise the external costs of each mode of transport)
+    -	Offer sufficient and convenient alternatives
+-	Promote active transport as the first/last/only option for the mile
+-	Align technology with sustainable mobility goals
+
+Bruzzone et al. (2021) and Nocera et al. (2020) explore the combination of passenger and freight flows with a focus on the last mile. Such a model is an integrated system in which passengers and goods share vehicles, infrastructure, urban space or more than one of these simultaneously. For example, Fatnassi et al. (2015) show the potential sustainability gains of sharing goods and passengers in a network with a focus on improving service time and energy waste.<br/>
+
+In terms of safety [OECD/ITF](https://www.itf-oecd.org/safe-micromobility) 2020 find out that a trip by car or motorbike in a dense urban area is much more likely to cause fatalities of road users than a trip by a type A micro vehicle. A modal shift from motor vehicles to Type A micro-vehicles can, therefore, make a city safer. A shift from pedestrians to Type A micro-vehicles would have the opposite effect. The safety of e-scooters is likely to improve over the next few years as users learn to navigate urban traffic and drivers get used to the new forms of mobility. Safety will also improve as governments introduce safe cycling infrastructure and targeted safety regulations for micro-vehicles and shared mobility services. There are significant regulatory challenges due to the rapid pace of innovation in micro-vehicle development. They suggest the following measures to improve the safety of micromobility:
+
+-	Provide protected space for micromobility and keep pedestrians safe (Where pedestrians do not feel safe on pavements, the number of people walking will decrease).
+-	Low speeds of e-scooters and e-bikes should be regulated as bicycles, higher speeds of micromobiles as mopeds
+-	Collect data on micro-vehicle trips and accidents (in order to proactively manage the safety performance of road networks)
+-	Incorporate micromobility into road user education
+-	Combat drunk driving and speeding for all types of vehicles
+-	Remove incentives for micromobile drivers to speed (Minute-by-minute rental can be an incentive to speed or ignore traffic rules. Alternatives include a fixed driving fee, a distance-based fee or a membership fee).
+-	Improve micro-vehicle design (Micro-vehicle manufacturers should try to improve stability and road grip. Solutions could be found in pneumatic tyres, larger wheels and frame geometry, but also in areas that still need to be explored).
+-	Reduce general risks associated with micromobility sharing (minimise vehicle kilometres driven by escort vehicles for moving or charging micromobility devices, use removable or higher capacity batteries and plug-in docks, allocate space for on-street parking of micro-vehicles).
+
+### Current state of art in practice {-}
+
+To combat the traffic collapse threatening cities - the so-called last mile is proving to be particularly problematic, discouraging many from leaving their cars at home. To change this, Haas, 2018) identifies four challenges that need to be addressed.<br/>
+
+**Challenge 1: Accessibility** <br/>
+It happens quite often that no sharing transport can be offered in the vicinity. *"On average, our customers are willing to walk 300 metres to a car."* says Olivier Reppert, (head of the car-sharing market leader Car2go). *"If that doesn't work several times, they jump off."* The company is, therefore , working hard to bring the vehicles as close as possible to the customers. *"We know very precisely where which car should be at which time."* says Reppert. This can be determined precisely through anonymous data collection. But: *"Today, we are not yet in a position to always target exactly these points."* Reppert has high expectations for the future use of autonomous vehicles that move themselves to carsharing hotspots: *"Then we would only need 50 per cent of the current fleet to serve the same demand."* he says.<br/>
+
+**Challenge two: The combination**<br/>
+To enable the perfect combination of the different offers, an app is needed that includes all options and coordinates them with each other. So far, there are only a few such apps with as many means of transport as possible in the cities. This could improve if the cities, which should have the best overview of the available means in their area, take the lead themselves.<br/>
+
+**Challenge three: The legal situation**<br/>
+*"If various small vehicles simply share the footpaths, cycle paths or roads, this will lead to more accidents"* says Markus Friedrich (professor of traffic planning and traffic control technology at the University of Stuttgart). However, there is not enough space to offer a separate lane for each type. He, therefore, sees the solution in a change to the current speed limits in the road traffic regulations: *"With a standard speed of 30km/h, vehicles can share the road space better."* says the professor. *"And as soon as many vehicles have electric drives, a limit of 20km/h is conceivable in the current 30km/h speed zones."* On main urban roads, higher speeds could still be allowed.<br/>
+
+**Challenge four: The public transport upgrade**<br/>
+The numerous additional services could not only complement but replace bus and rail. Demand could increase significantly if the advantages of the gained efficiency unfold - from higher availability to cheaper prices. Therefore, public transport must be made faster so that it offers a travel time advantage. What is needed, Friedrich says, are express buses and express trains that are given their own routes and do not stop as often as before. Many cities would need a much denser frequency or additional express trains. <br/>
+
+A new coalition, Micromobility for Europe (MMfE), has come together in Europe in 2021. Eight e-scooter operators (Bird, Bolt, Dott, FreeNow, Lime, TIER, Voi and Wind) want to contribute to the development of a coherent policy framework in Europe through this coalition (Intelligent Transport, 2021).<br/>
+
+Research and Markets (2021) names bike sharing, kick scooter sharing and scooter sharing as the dominant micromobility sharing modes. By 2020, the global fleet is estimated to be around 20.5 million vehicles. Globally, bike sharing is currently estimated to account for almost 98% of the fleet size of the micromobility market. The most important factor cited is the advancement of technologies. Innovations mentioned are infrastructure solutions (e.g. smart docking stations, solar-powered charging stations and mobility hubs), hardware solutions (e.g. smart locks and sensors) and high-end software solutions (e.g. mapping and navigation, fleet security, real-time fleet data and analytics, and smart fleet management), driven by AI engines and IoT sensors. It also mentions that micro-mobility business models are evolving. For example, there are already public-private partnerships, private bike-sharing schemes and non-profit programmes. It is expected that micromobility systems will continue to be embedded in municipal transport and become an integral part of the emerging Mobility-as-a-Service (MaaS) ecosystem.<br/> 
+
+In 2018, the first full year after the launch of e-scooter sharing, Americans have already taken 38.5 million trips on shared e-scooters (compared to station-based bike sharing with 36.5 million trips, which has been on the market for almost ten years). However, the existing demand for other micro-mobility has not decreased. Which indicates that it makes sense to support different models/vehicles. Considering the high demand and rapid adoption of micromobility options, the expected global market potential is over $500 billion by 2030 (Eliasen, 2021). In comparison, the micromobility market in Europe is estimated to be worth over 100 billion euros in 2030 (Twisse, 2020).
+Most new micromobility platform startups (mainly e-scooters) were initially unprofitable because the operational costs of running e-scooters (charging, repair/maintenance, insurance and payment fees) were so high that the payback period for the initial scooter purchase was shorter than the lifetime of the scooter, resulting in a negative return on investment per scooter. According to Travis VanderZanden, CEO of Bird, the profitability of the units has improved significantly in recent years due to improvements in the durability of the scooters and price increases for customers (Eliasen, 2021).
+
+### Relevant initiatives in Austria {-}
+
+**Passenger FLM**
+
+- E-scooters
+    - [Autorevue.at](https://autorevue.at/ratgeber/e-scooter-wien-vergleich)
+    - [Stadt-wien.at](https://www.stadt-wien.at/wien/news/e-scooter-sharing-system-in-wien.html)
+    - [Wien.gv.at](https://www.wien.gv.at/verkehr/scooter-roller/index.html)
+    - [Öamtc.at](https://www.oeamtc.at/thema/fahrrad/e-kleintretroller-e-scooter-in-oesterreich-31721872)
+    - [Österreich.gv.at](https://www.oesterreich.gv.at/themen/freizeit_und_strassenverkehr/Elektro-Scooter,-Quads-und-Co/Seite.610110.html)
+
+
+- Bicycle and E-Bicycle hire
+    - [Firmenradl.at](https://firmenradl.at/cms/)
+    - [Citybikewien](https://www.citybikewien.at/de)
+    - [Citybikesalzburg](http://www.citybikesalzburg.at/)
+    - [Nextbike](https://www.nextbike.at/de/niederoesterreich/)
+    - [Tpis.at](https://www.tips.at/nachrichten/linz/land-leute/523512-linzer-radverleih-startet-im-fruehjahr-an-40-standorten)
+
+
+- Car sharing
+    - [VCÖ](https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018)
+    - [ÖBB](https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive)
+
+
+- Ride-hailing & Ride-sharing
+    - [Ots.at](https://www.ots.at/presseaussendung/OTS_20210113_OTS0026/free-now-will-als-erste-mobilitaetsplattform-in-europa-bis-2030-null-emissionen-erreichen)
+    - [Umweltberatung.at](https://www.umweltberatung.at/carsharing-mitfahrboersen)
+    - [Greendrive.at](https://greendrive.at/premium/#benefits)
+    - [Carployee.com](https://www.carployee.com/#start-section)
+    - [Ummadum.com](https://ummadum.com/)
+
+
+- Mobility-as-a-Service
+    - [Blog.railcargo.com](https://blog.railcargo.com/en/artikel/smart-cargo-erstmontage)
+    - [Statistik.at](https://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/verkehr/schiene/gueterverkehr/index.html)
+    - [Railcargo.com](https://www.railcargo.com/de/unternehmen/international/oesterreich)
+
+- Passenger drones
+    - [Derbrutkasten.com](https://brutkasten.com/autonome-lufttaxis-linz-ag-facc-ehang/)
+    - [Derstandard.at-1](https://www.derstandard.at/consent/tcf/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz)
+    - [Derstandard.at-2](https://www.derstandard.at/consent/tcf/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte)
+
+
+- Demand responsive transit
+    - [Bedarfsverkehr.at](https://www.bedarfsverkehr.at/content/Literatur)
+    - [Repositum.tuwien.at](https://repositum.tuwien.at/handle/20.500.12708/1312)
+    - [Projekte.ffg.at](https://projekte.ffg.at/projekt/2929323)
+
+
+
+- Mobility hubs
+    - [Wienmobil-stationen](https://www.wienerlinien.at/web/wiener-linien/wienmobil-stationen)
+    - [Tim-oesterreich](https://www.tim-oesterreich.at/)
+    - [Wien.gv.at](https://www.wien.gv.at/stadtentwicklung/studien/pdf/b008521.pdf)
+
+
+**Freight FLM**
+
+- Urban Deliveries
+    - [Logistik2030.at-1](https://www.logistik2030.at/?page_id=268)
+    - [Infothek.bmk.gv.at](https://infothek.bmk.gv.at/gruene-stadtlogistik-post-testet-city-hubs-in-wien/)
+    - [Logistik2030.at-2](https://www.logistik2030.at/?page_id=63)
+    - [Remihub.at](https://www.remihub.at/)
+    - [Logpoint.at](https://logpoint.at/ueber-uns/gruene-logistikwelt-und-standorte/)
+    - [Wu.ac.at](https://www.wu.ac.at/scm/projekte/)
+    - [Post.at](https://www.post.at/p/c/vorzimmer-zustellung)
+
+
+- Smart delivery space booking
+    - [Ots.at](https://www.ots.at/presseaussendung/OTS_20150123_OTS0044/simple-stressfreie-ladezonensuche-wk-wien-praesentiert-neue-app)
+    - [WKO1](https://www.wko.at/service/verkehr-betriebsstandort/Ladezonen-Nutzung.html)
+    - [WKO2](https://www.wko.at/service/w/verkehr-betriebsstandort/ladezone-wien-app.html)
+    - [FFG](https://www2.ffg.at/verkehr/projekte.php?id=805&lang=de&browse=programm)
+
+- Delivery drones
+    - [Öamtc.at](https://www.oeamtc.at/thema/drohnen/drohnen-info-app-26853120)
+
+- Freight hubs
+    - [Infrastruktur.oebb.at](https://infrastruktur.oebb.at/en/partners/terminals/locations/terminal-wien-sued)
+    - [DHL-freight-connections.com](https://dhl-freight-connections.com/de/unternehmen/dhl-eroffnet-hochmodernes-logistikdrehkreuz-am-flughafen-wien/)
+    - [Logistik2030.at](https://www.logistik2030.at/?page_id=63)
+    - [Thinkportvienna.at](https://www.thinkportvienna.at/ueber-uns/projekte/)
+    - [Hafen-wien.com](https://www.hafen-wien.com/de/home)
+
+
+
+
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Reduction in transit service inequality|          **+**|Equality (*5,10*)|Zuo et al., 2020b|
+|Systemic|Reduction in negative externalities but substitution of more environmentally friendly modes eg. walking|         **~**|Environmental sustainability (*7,12,13,15*)|Twisse, 2020|
+|Systemic|Profits from growth in micromobility sector (F/L/O options)|          **+**|Sustainable economic development (*8,11*)|Goessling, 2020|
+|Systemic|Improvement in technology of micro-mobility equipment |**+**|Innovation & Infrastructure (*9*)|Eliasen, 2021|
+')
+```
+
+### Technology and societal readiness level {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|6-7|')
+```
+
+### Further links {-}
+
+- [UNECE.org](https://unece.org/resolutions)
+- [ELTIS.org](https://www.eltis.org/resources/case-studies/rise-micromobility)
+
+
+### References {-}
+
+-	Arvidsson, N., Givoni, M., & Woxenius, J. (2016). Exploring last mile synergies in passenger and freight transport. Built Environment, 42(4), 523–538. https://doi.org/10.2148/benv.42.4.523
+-	Bruzzone, F., Cavallaro, F., & Nocera, S. (2021). The integration of passenger and freight transport for first-last mile operations. Transport Policy, 100, 31–48. https://doi.org/10.1016/j.tranpol.2020.10.009
+-	Cervero, R. (2005). Accessible Cities and Regions: A Framework for Sustainable Transport and Urbanism in the 21st Century. https://doi.org/10.11436/mssj.15.250
+-	City database | Eltis. (2021, July 19). https://www.eltis.org/mobility-plans/city-database
+-	EEA, E. E. A. (2019). The first and last mile — the key to sustainable urban transport (Issue 18).
+-	Eliasen, J. (2021, January 15). The Future of Micromobility. How VCs and E-Scooters kicked off the… | by Jason Eliasen | The Startup | Medium. https://medium.com/swlh/the-future-of-micromobility-2d4d96d4e2dd
+-	Fan, Y., Guthrie, A., & Levinson, D. (2012). Impact of light-rail implementation on labor market accessibility. Journal of Transport and Land Use, 5(3), 28–39.
+-	Fatnassi, E., Chaouachi, J., & Klibi, W. (2015). Planning and operating a shared goods and passengers on-demand rapid transit system for sustainable city-logistics. Transportation Research Part B: Methodological, 81, 440–460. https://doi.org/10.1016/j.trb.2015.07.016
+-	Furth, P. G., Mekuria, M. C., & Nixon, H. (2016). Network Connectivity for Low-Stress Bicycling. Transportation Research Record, 2587(1), 41–49. https://doi.org/10.3141/2587-06
+-	Gössling, S. (2020). Integrating e-scooters in urban transportation: Problems, policies, and the prospect of system change. Transportation Research Part D: Transport and Environment, 79(January), 102230. https://doi.org/10.1016/j.trd.2020.102230
+-	Grengs, J., Levine, J., Shen, Q., & Shen, Q. (2010). Intermetropolitan Comparison of Transportation Accessibility: Sorting Out Mobility and Proximity in San Francisco and Washington, D.C. Journal of Planning Education and Research, 29(4), 427–443. https://doi.org/10.1177/0739456X10363278
+-	Haas, C. (2018, November 13). Nahverkehr: So lässt sich die letzte Meile nach Hause bequem zurücklegen - WELT. https://www.welt.de/wirtschaft/article183688842/Nahverkehr-So-laesst-sich-die-letzte-Meile-nach-Hause-bequem-zuruecklegen.html
+-	Holguín-Veras, J., & Sánchez-Díaz, I. (2016). Freight Demand Management and the Potential of Receiver-Led Consolidation programs. Transportation Research Part A: Policy and Practice, 84, 109–130. https://doi.org/10.1016/j.tra.2015.06.013
+-	Intelligent Transport. (2021, February 2). Big names across micromobility sector form European coalition. https://www.intelligenttransport.com/transport-news/116405/micromobility-for-europe/
+-	Laa, B., & Leth, U. (2020). Survey of E-scooter users in Vienna: Who they are and how they ride. Journal of Transport Geography, 89(October), 102874. https://doi.org/10.1016/j.jtrangeo.2020.102874
+-	Martínez, L. M., & Viegas, J. M. (2009). Effects of Transportation Accessibility on Residential Property Values: Hedonic Price Model in the Lisbon, Portugal, Metropolitan Area. Transportation Research Record, 2115(1), 127–137. https://doi.org/10.3141/2115-16
+-	Moreau, H., de Meux, L. J., Zeller, V., D’Ans, P., Ruwet, C., & Achten, W. M. J. (2020). Dockless e-scooter: A green solution for mobility? Comparative case study between dockless e-scooters, displaced transport, and personal e-scooters. Sustainability (Switzerland), 12(5). https://doi.org/10.3390/su12051803
+-	Nocera, S., Pungillo, G., & Bruzzone, F. (2020). How to evaluate and plan the freight-passengers first-last mile. Transport Policy. https://doi.org/10.1016/j.tranpol.2020.01.007
+-	OECD/ITF. (2020). Safe Micromobility. 98.
+-	Oeschger, G., Carroll, P., & Caulfield, B. (2020). Micromobility and public transport integration: The current state of knowledge. Transportation Research Part D: Transport and Environment, 89, 102628. https://doi.org/10.1016/j.trd.2020.102628
+-	Patier, D., David, B., Chalon, R., & Deslandres, V. (2014). A New Concept for Urban Logistics Delivery Area Booking. Procedia - Social and Behavioral Sciences, 125, 99–110. https://doi.org/10.1016/j.sbspro.2014.01.1459
+-	Research and Markets. (2021, June 15). Global Micromobility (Bikes, Scooters, Kick-scooters) Markets Report 2021-2025 - Future Growth Potential Enhanced by Opportunities Due to Government Push, Regulatory Reforms and Advancement in Technologies. https://www.prnewswire.com/news-releases/global-micromobility-bikes-scooters-kick-scooters-markets-report-2021-2025---future-growth-potential-enhanced-by-opportunities-due-to-government-push-regulatory-reforms-and-advancement-in-technologies-301312406.html
+-	Severengiz, S., Finke, S., Schelte, N., & Wendt, N. (2020). Life Cycle Assessment on the Mobility Service E-Scooter Sharing. 2020 IEEE European Technology and Engineering Management Summit, E-TEMS 2020, September. https://doi.org/10.1109/E-TEMS46250.2020.9111817
+-	Shin, K., Washington, S., & Choi, K. (2007). Effects of Transportation Accessibility on Residential Property Values: Application of Spatial Hedonic Price Model in Seoul, South Korea, Metropolitan Area. Transportation Research Record, 1994(1), 66–73. https://doi.org/10.3141/1994-09
+-	Twisse, F. (2020, August 12). The rise of micromobility | Eltis. https://www.eltis.org/resources/case-studies/rise-micromobility
+-	UNECE. (2017). ECE R78 - Consolidated Resolution on the Construction of Vehicles. United Nations Economic and Social Council, July. Available at: https://unece.org/resolutions (Accessed: 22/07/2021)
+-	Winters, M., Davidson, G., Kao, D., & Teschke, K. (2011). Motivators and deterrents of bicycling: Comparing influences on decisions to ride. Transportation, 38(1), 153–168. https://doi.org/10.1007/s11116-010-9284-y
+-	Zuo, T., Wei, H., Chen, N., & Zhang, C. (2020a). First-and-last mile solution via bicycling to improving transit accessibility and advancing transportation equity. Cities, 99, 102614. https://doi.org/10.1016/j.cities.2020.102614
+-	Zuo, T., Wei, H., Chen, N., & Zhang, C. (2020b). First-and-last mile solution via bicycling to improving transit accessibility and advancing transportation equity. Cities, 99, 102614. https://doi.org/10.1016/j.cities.2020.102614
+-	Zuo, T., Wei, H., & Rohne, A. (2018). Determining transit service coverage by non-motorized accessibility to transit: Case study of applying GPS data in Cincinnati metropolitan area. Journal of Transport Geography, 67, 1–11. https://doi.org/10.1016/j.jtrangeo.2018.01.002
+
+
+
+
+
+
 ## Distance or time-based fares {#dist_time_fares}
 
 ## Mobility as a service (Maas) {#maas}

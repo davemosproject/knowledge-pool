@@ -67,7 +67,7 @@ format(Sys.time(),'%d %B %Y')
     - [Digital journey planner](#djp) **NEW**
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
 7. [Multimodal integrated system](#multimodal)
-    - [First-last mile solutions](#flms)
+    - [First-last mile solutions](#flms) **NEW**
     - [Distance or time-based fares](#dist_time_fares)
     - [Mobility as a service (MaaS)](#maas) **NEW**
     - [Park and ride](#p_r) **NEW**
@@ -91,7 +91,7 @@ format(Sys.time(),'%d %B %Y')
     - [Intermodal Freight](#intermodal_freight) **NEW**
     - [Urban deliveries](#urban_delivery) **NEW**
     - [Intelligent truck parking](#intelligent_truck_park) **NEW**
-    - [Delivery space booking](#space_book) **NEW**
+    - [Smart delivery space booking](#space_book) **NEW**
     - [Delivery drones](#delivery_drone) **NEW**
     - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
     - [Multimodal transport management systems](#mtms)

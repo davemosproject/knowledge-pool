@@ -386,7 +386,7 @@ cat('|TRL| SRL|
 -	Truck Parking Europe. (n.d.). Audit reports on secure truck parking locations - Truck Parking Europe. Retrieved 3 March 2021, from https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/
 -	van Weenen, R. de L., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I., & Ruschin, P. P. (2019). Study on Safe and Secure Parking Places for Trucks (Issue February).
 
-## Delivery space booking {#space_book} 
+## Smart delivery space booking {#space_book} 
 
 ### Synonyms {-}
 *on-street loading zones (OLZ), Freight Trip Generation (FTG), loading/unloading zones (L/U) *
