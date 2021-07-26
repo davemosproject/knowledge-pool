@@ -77,7 +77,7 @@ format(Sys.time(),'%d %B %Y')
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Automated driving](#connected)
     - [Automated passenger cars](#av) **NEW**
-    - [Parking infrastructure for autonomous vehicles](#parking_av)
+    - [Parking infrastructure for autonomous vehicles](#parking_av) **NEW**
     - [Automated road freight](#automated_road_freight) **NEW**
 9. [On-board technology for connected and automated vehicles](#onboard)
     - [Advanced driver assistance system (ADAS)](#adas) **NEW**

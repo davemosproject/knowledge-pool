@@ -7,10 +7,10 @@ fig:unnamed-chunk-16
 fig:unnamed-chunk-17
 fig:unnamed-chunk-20
 fig:unnamed-chunk-21
-fig:unnamed-chunk-24
-fig:unnamed-chunk-32
-fig:unnamed-chunk-33
+fig:unnamed-chunk-26
 fig:unnamed-chunk-34
+fig:unnamed-chunk-35
+fig:unnamed-chunk-36
 intro
 infrastructure
 dedicated_lanes
@@ -55,8 +55,8 @@ parking_av
 automated_road_freight
 onboard
 adas
-synonyms-26
-further-links-24
+synonyms-27
+further-links-25
 parking_assistance
 lane_keeping
 digital_maps
@@ -76,9 +76,9 @@ collective
 drt
 prt
 brt
-further-links-37
-lrt
 further-links-38
+lrt
+further-links-39
 passenger_drones
 automatic_train
 big
