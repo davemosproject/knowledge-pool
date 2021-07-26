@@ -250,7 +250,7 @@
 \contentsline {subsection}{Definition}{142}{section*.218}%
 \contentsline {subsection}{Key stakeholders}{143}{section*.219}%
 \contentsline {subsection}{Current state of art in research}{143}{section*.220}%
-\contentsline {subsection}{Current state of art in practice}{144}{section*.221}%
+\contentsline {subsection}{Current state of art in practice}{143}{section*.221}%
 \contentsline {subsection}{Relevant initiatives in Austria}{144}{section*.222}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{144}{section*.223}%
 \contentsline {subsection}{Technology and societal readiness level}{145}{section*.224}%
