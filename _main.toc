@@ -311,11 +311,11 @@
 \contentsline {subsection}{Key stakeholders}{168}{section*.274}%
 \contentsline {subsection}{Current state of art in research}{168}{section*.275}%
 \contentsline {subsection}{Current state of art in practice}{169}{section*.276}%
-\contentsline {subsection}{Relevant initiatives in Austria}{170}{section*.277}%
+\contentsline {subsection}{Relevant initiatives in Austria}{171}{section*.277}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{171}{section*.278}%
 \contentsline {subsection}{Technology and societal readiness level}{171}{section*.279}%
 \contentsline {subsection}{Open questions}{171}{section*.280}%
-\contentsline {subsection}{Further links}{171}{section*.281}%
+\contentsline {subsection}{Further links}{172}{section*.281}%
 \contentsline {subsection}{References}{172}{section*.282}%
 \contentsline {chapter}{\numberline {8}Automated driving}{173}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Automated passenger cars}{173}{section.8.1}%
