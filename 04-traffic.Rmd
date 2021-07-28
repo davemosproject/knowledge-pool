@@ -390,6 +390,88 @@ cat('|TRL| SRL|
 
 ## Dynamic route guidance {#dynamic_route}
 
+### Synonyms {-}
+*Dynamic routing, Dynamic guidance system*
+
+### Definition {-}
+Dynamic Route Guidance (DRG) is a system which offers route planning and guidance to the driver based on current road and traffic conditions (Dynamic Route Guidance - Car Terms | SEAT, 2021). It presents the most appropriate route for the driver in the exact moment considering estimated road traffic (Chatterjee and McDonald, 1999). DRG can typically divided into infrastructure-based and Infrastructure-less, as seen in Figure 4.1. 
+```{r, echo=FALSE, , out.width="55%", fig.cap="Classification of route guidance systems (Khanjary and Hashemi, 2012)"}
+knitr::include_graphics("image/DRS.jpg")
+```
+**Infrastructure-based architecture** <br/>
+In both *centralised-infrastructure based systems* and *decentralised-infrastructure based systems* the data is, firstly, detected by traffic detection systems and then, collected and extracted by Traffic Message Channel (TMC). The difference is that, in *centralised system* the optimal route information is calculated for the whole traffic network. On the other hand, in *dependent decentralised system* the optimal route is calculated for each vehicle depending on its current location and destination. Further, in *autonomous decentralised system* the data is collected by street nodes deployed over traffic network which then extract useful information for all surrounding streets and exchange the traffic information between one another. This allows each node to calculate the optimal routes for different destinations. The information about optimal routes can be received by vehicles, mobile phones or variable message signs (Khanjary and Hashemi, 2012).
+
+**Infrastructure-less architecture**<br/>
+*Infrastructure-less decentralised static system* is one of the earliest developments. The database with traffic network map is available on mobile phone or as an in-vehicle unit where the optimal route is calculated based on a static information such as the shortest path. Further, in *decentralised dynamic system*, vehicles (or mobile phones) are used to detect traffic data. They exchange the information with one another via infrastructureless protocol such as the inter-vehicle communication or peer to peer. This results in vehicles having a real-time traffic information about the whole traffic network which enables them to calculate the optimal route based on a destination and current position of the vehicle. Importantly, the accuracy of the dynamic system depends on the volume of vehicles (or mobile devices) that serve as a traffic data sensors. The more vehicles is present, more information can be exchanged and the data is more reliable (Khanjary and Hashemi, 2012). 
+
+### Key stakeholders {-}
+- **Affected**: Drivers
+- **Responsible**: Local governments, Local or national road infrastructure provides, car manufacturers
+
+### Current state of art in research {-} 
+DRG is already a mature technology, hence the majority of the research focuses on the improvement of different aspects or its application in novel contexts. For example, a study conducted by Liang and Wakahara (2014) presents urban traffic predictions models in order to create a centralized proactive Route Guidance System. Results showed that models decreased the prediction error and reduced the travel time. Moreover, Wang and Niu (2019) in their research proposed simulation-based Distributed Dynamic Route Guidance (DDRGS) based on the usage of data collection and communication techniques in Cooperative Vehicle-Infrastructure Systems (CVIS) and they stated that created DDRGS might be used in the CVIS. Lastly, Deflorio (2003) assessed the performance of strategy, which controls DRG systems during experiments in condition of quick growth of traffic. Eventually, Deflorio stated, among other conclusions, that the average travel time of DRG users was shorter than non-user ones in every examined case.  Furthermore, a large body of research focuses on the use of DRG in the context of automated vehicles. For example, a study by Lazar et al. (2019) employs deep reinforcement learning approach to decrease the congestion in mixed autonomous traffic. Furthermore, Kaminski et al. (2020) investigates the effect of change in penetration level of smart cars on system characteristics including travel time in the environment where smart cars as well as human driven cars are both present. Importantly, smart cars are assumed to respond to changes in currently observed traffic by rerouting while traditional cars rely on historical information only. The results show that smart car rerouting algorithm reduced the total travel time by up to 30 %.
+
+
+### Current state of art in practice {-}
+Nowadays, drivers of different brands of cars are using the Dynamic Route Guidance System already within the dynamic navigation in the car setup. Seat (2012) provides this function within the Navi satellite navigation software. Seat states in its manual for cars’ owners that dynamic route guide is based on the TMC report and broadcasting channels are responsible for this feature (Media System Plus/ Navi System Owner’s manual, 2012). Similar technology is used by Volkswagen (Volkswagen, 2021). Nonetheless, one of the most popular route guiding tools is Google Maps, which provides dynamic mapping, using real-time data from diverse channels to keep maps as updated as possible (Custom Maps  |  Google Maps Platform  |  Google Cloud, 2021). The range of features offered by Google Maps grows continuously. Recently, a 'Finding a parking space' functionality was introduced, beyond plain dynamic route guidance (Vielmeier, 2019). Moreover, dynamic route planning plays an important role in commercial transport and urban deliveries (PTVGroup.com, 2021)
+
+
+### Relevant initiatives in Austria {-}
+
+- [Volkswagen](https://www.volkswagen.at/technik-lexikon/navigationssystem)
+- [PTVGroup](https://blog.ptvgroup.com/de/stadt-und-mobilitaet/routing-engine-hyperpath/)
+- [Capterra.at](https://www.capterra.at/directory/30944/route-planning/software)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Reduced travel time|**+**|Sustainable economic development (*8,11*)|Deflorio, 2003|
+|Systemic|Reduced accident risk due to route switching|**+**|Health & Wellbeing (*3*)|Chatterjee and McDonald, 1999|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|8-9|')
+```
+
+### Open questions {-}
+
+1. How to increase time accuracy and generally, to improve performance of Dynamic Route Guidance through Traffic Message Channels? 
+2. Does and if yes, then to what degree Dynamic Route Guidance has an impact on the safety of drivers’? 
+3. What are the limitations and what risks could be possibly done through Dynamic Route Guidance? 
+4. What is the applicability of DRG for automated vehicles?
+
+### Further links {-}
+
+- [Verizonconnect.com](https://www.verizonconnect.com/at/industrie/vertriebsroutenplaner/)
+
+
+### References {-}
+-	Chatterjee, K. and McDonald, M., (1999). THE NETWORK SAFETY EFFECTS OF DYNAMIC ROUTE GUIDANCE. ITS Journal - Intelligent Transportation Systems Journal, 4(3-4), pp.258-260.
+-	Blischke, F., & Hessing, B. (1998). Dynamic Route Guidance - Different Approaches to the System Concepts. SAE Transactions, 107, 1107-1111. Retrieved July 22, 2021, from http://www.jstor.org/stable/44741041
+-	Deflorio, F., (2003). Evaluation of a reactive dynamic route guidance strategy. Transportation Research Part C: Emerging Technologies, 11(5), pp.375-388.
+-	European Commission. (2021). Traveller Information - Mobility and Transport - European Commission. [online] Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 23 July 2021].
+-	Fan, Y., Lu, D., Li, Y. and Jiang, F., (2010). Design scheme of Distributed Dynamic Route Guidance System. 2010 2nd International Conference on Education Technology and Computer.
+-	Google Cloud. (2021). Custom Maps  |  Google Maps Platform  |  Google Cloud. [online] Available at: <https://cloud.google.com/maps-platform/maps> [Accessed: 23 July 2021].
+-	Kamiński, B., Kraiński, Ł., Mashatan, A., Prałat, P., & Szufel, P. (2020). Multiagent Routing Simulation with Partial Smart Vehicles Penetration. Journal of Advanced Transportation, 2020.
+- Khanjary, M., & Hashemi, S. M. (2012, May). Route guidance systems: Review and classification. In 2012 6th Euro American Conference on Telematics and Information Systems (EATIS) (pp. 1-7). IEEE.
+-	Lazar, D. A., Bıyık, E., Sadigh, D., & Pedarsani, R. (2021). Learning how to dynamically route autonomous vehicles on shared roads. Transportation Research Part C: Emerging Technologies, 130, 103258.
+-	Liang, Z. and Wakahara, Y., (2014). Real-time urban traffic amount prediction models for dynamic route guidance systems. EURASIP Journal on Wireless Communications and Networking, 2014(1).
+-	Media System Plus.  (2012). Media System Plus/ Navi System Owner’s manual. [online] Available at: <https://www.firstforseatcars.com/downloads/multimedia/media-system-plus-navi-system-owners-manual.pdf> [Accessed: 22 July 2021].
+-	Mobility and transport. (2021). Intelligent transport systems Traveller Information. [online] Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 22 July 2021].
+-	Park, D., Kim, H., Lee, C. and Lee, K., (2009). Location-based dynamic route guidance system of Korea: System design, algorithms and initial results. KSCE Journal of Civil Engineering, 14(1), pp.51-59.
+- PTVGroup.com (2021). PTV Map&Guide - der weltweit führende Lkw Routenplaner mit Transportkosten- und Mautrechner. Available at: https://www.ptvgroup.com/de/loesungen/produkte/ptv-mapandguide/ [Accessed: 28 JUly 2021]
+-	Seat.com. (2021). Dynamic Route Guidance - Car Terms | SEAT. [online] Available at: <https://www.seat.com/car-terms/d/dynaminc-route-guidance.html> [Accessed: 23 July 2021].
+-	Wang, J. and Niu, H., (2019). A distributed dynamic route guidance approach based on short-term forecasts in cooperative infrastructure-vehicle systems. Transportation Research Part D: Transport and Environment, 66, pp.23-34.
+- Vielmeier J. (2019). Google Maps als Navi verwenden: Das müsst ihr beachten. Available at: https://trendblog.euronics.de/mobile-web/google-maps-als-navi-verwenden-das-muesst-ihr-beachten-61614/. [Accessed: 28 July 2021]
+- Volkswagen.at (2021) Navigation. Volkswagen Technik-Highlights. Available at: https://www.volkswagen.at/technik-lexikon/navigationssystem [Accessed: 28 July 2021] 
+
 ## Variable speed limits and dynamic signage system {#variable_speed}
 
 ### Synonyms {-}

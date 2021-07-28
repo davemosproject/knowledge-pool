@@ -55,7 +55,7 @@ format(Sys.time(),'%d %B %Y')
     - [Platooning](#platooning) **NEW**
     - [Real-time traffic information and monitoring](#traffic_info_monitoring) **NEW**
     - [Cooperative - intelligent transport system](#cits) **NEW**
-    - [Dynamic route guidance](#dynamic_route)
+    - [Dynamic route guidance](#dynamic_route) **NEW**
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
     - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
     - [Passengers and goods fleet management](#p_g_fleet_management)
@@ -68,7 +68,7 @@ format(Sys.time(),'%d %B %Y')
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
 7. [Multimodal integrated system](#multimodal)
     - [First-last mile solutions](#flms) **NEW**
-    - [Distance or time-based fares](#dist_time_fares)
+    - [Transit fares](#dist_time_fares)
     - [Mobility as a service (MaaS)](#maas) **NEW**
     - [Park and ride](#p_r) **NEW**
     - [Contactless public transport cards](#contactless_cards) **NEW**
@@ -77,7 +77,6 @@ format(Sys.time(),'%d %B %Y')
     - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
 8. [Automated driving](#connected)
     - [Automated passenger cars](#av) **NEW**
-    - [Parking infrastructure for autonomous vehicles](#parking_av) **NEW**
     - [Automated road freight](#automated_road_freight) **NEW**
 9. [On-board technology for connected and automated vehicles](#onboard)
     - [Advanced driver assistance system (ADAS)](#adas) **NEW**

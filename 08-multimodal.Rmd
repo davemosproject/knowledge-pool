@@ -269,7 +269,7 @@ cat('|TRL| SRL|
 
 
 
-## Distance or time-based fares {#dist_time_fares}
+## Transit fares {#dist_time_fares}
 
 ## Mobility as a service (Maas) {#maas}
 
