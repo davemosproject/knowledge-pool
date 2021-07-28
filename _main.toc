@@ -256,7 +256,7 @@
 \contentsline {subsection}{Technology and societal readiness level}{143}{section*.226}%
 \contentsline {subsection}{Further links}{143}{section*.227}%
 \contentsline {subsection}{References}{143}{section*.228}%
-\contentsline {section}{\numberline {7.2}Distance or time-based fares}{146}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Transit fares}{146}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Mobility as a service (Maas)}{146}{section.7.3}%
 \contentsline {subsection}{Definition}{146}{section*.229}%
 \contentsline {subsection}{Key stakeholders}{147}{section*.230}%
