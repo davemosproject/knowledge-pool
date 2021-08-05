@@ -17,18 +17,96 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 knitr::include_graphics("image/davemos_logo.png")
 ```
 
-This is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. The authors of this work welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/>
-
-**Acknowledgements**
-
-This knowledge pool is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
+Knowledge pool is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. It is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
 - Univ. Prof. Dr. Yusak Susilo
 - Dr. Msc. MA (Hons) Martyna Bogacz
 - B.Sc. Veronika Hebenstreit
 - B.Sc. Gregor Husner
 
-<br/>
+
+The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/>
+
+**Table of content**
+
+1. [Introduction to the knowledge pool](#intro)
+2. [Physical road infrastructure](#infrastructure)
+    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
+    - [Operational design domains](#ODD)
+    - [Rail crossing information system](#rail_crossing_info_system) **NEW**
+    - [Electric road system](#ers) **NEW**
+    - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
+    - [Public transport priority systems](#public_trans_priority) **NEW**
+    - [Transformation of public space and digital solutions](#transformation_public_space) **NEW**
+3. [Highway infrastructure management](#highway)
+    - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
+    - [Electric charging stations](#charging_station) **NEW**
+4. [Traffic management](#traffic)
+    - [Congestion charging](#congestion_charging) **NEW**
+    - [Platooning](#platooning) **NEW**
+    - [Real-time traffic information and monitoring](#traffic_info_monitoring) **NEW**
+    - [Cooperative - intelligent transport system](#cits) **NEW**
+    - [Dynamic route guidance](#dynamic_route) **NEW**
+    - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
+    - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
+    - [Passengers and goods fleet management](#p_g_fleet_management)
+    - [Urban access management](#urban_access) **NEW**
+5. [Digital road infrastructure and connectivity](#digital)
+    - [Vehicle to everything communication](#v2x) **NEW**
+    - [Infrastructure support levels for automated driving](#infrast_support_level) **NEW**
+6. [Passenger information system](#passenger)
+    - [Digital journey planner](#djp) **NEW**
+    - [Multimodal information and route planning](#info_and_route_planning) **NEW**
+7. [Multimodal integrated system](#multimodal)
+    - [First-last mile solutions](#flms) **NEW**
+    - [Transit fares](#dist_time_fares)
+    - [Mobility as a service (MaaS)](#maas) **NEW**
+    - [Park and ride](#p_r) **NEW**
+    - [Contactless public transport cards](#contactless_cards) **NEW**
+    - [Information and assistance for people with special needs](#special_needs) **NEW**
+    - [Mobility hubs](#mobility_hubs) **NEW**
+    - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
+8. [Automated driving](#connected)
+    - [Automated passenger cars](#av) **NEW**
+    - [Automated road freight](#automated_road_freight) **NEW**
+9. [On-board technology for connected and automated vehicles](#onboard)
+    - [Advanced driver assistance system (ADAS)](#adas) **NEW**
+    - [Parking assistance system](#parking_assistance) **NEW**
+    - [Lane keeping](#lane_keeping) **NEW**
+    - [Digital maps](#digital_maps) **NEW**
+    - [Electronic horizon](#ehorizon) **NEW**
+    - [Emergency call](#ecall) **NEW**
+10. [Freight and commercial transport](#freight)
+    - [Tracking and tracing of goods](#dangerous_goods) **NEW**
+    - [Intermodal Freight](#intermodal_freight) **NEW**
+    - [Urban deliveries](#urban_delivery) **NEW**
+    - [Intelligent truck parking](#intelligent_truck_park) **NEW**
+    - [Smart delivery space booking](#space_book) **NEW**
+    - [Delivery drones](#delivery_drone) **NEW**
+    - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
+    - [Multimodal transport management systems](#mtms)
+    - [Freight hubs](#freight_hubs) **NEW**
+11. [Collective mobility vehicles](#collective)
+    - [Demand responsive transit](#drt) **NEW**
+    - [Personal rapid transit](#prt) **NEW**
+    - [Bus rapid transit](#brt) **NEW**
+    - [Light rail transit](#lrt) **NEW**
+    - [Passenger drones](#passenger_drones) **NEW**
+    - [Automatic train operations](#automatic_train) **NEW**
+12. [Big data](#big)
+    - [Wireless communication systems](#wireless_com) **NEW**
+    - [Big data lifecycle](#bd_life)
+    - [Big data tools for maping and forecasting travel behaviour](#bd_tool_maping)
+13. [Shared mobility](#shared)
+    - [Car sharing](#car_sharing) **NEW**
+    - [Bicycle and e-bicycle hire](#bike_sharing) **NEW**
+    - [E-scooters](#scooters) **NEW**
+    - [Ride-hailing & Ride-sharing](#ride_hailing) **NEW**
+14. [Alternative power sources](#alternative)
+    - [Hydrogen fuel cell](#FCEV) **NEW**
+    - [Battery electric](#bev) **NEW**
+    - [Plugin hybrid vehicles](#plugin_hybrid) **NEW**
+15. [References](#reference)
 
 The knowledge pool was last compiled on:
 

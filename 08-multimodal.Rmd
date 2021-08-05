@@ -40,7 +40,7 @@ The ITF report differentiates between several different micromobility alternativ
     -	Electric skates (Skates with electric battery and motor, controlled by the user leaning forward or backward or using a remote controller.) 
     -	Skates (Pair of boots with a set of wheels fixed to the bottom.)
 
-```{r, echo=FALSE, out.width="50%", fig.cap="Micromobility (adapted from OECD/ITF (2020)."}
+```{r, echo=FALSE, out.width="50%", fig.cap="Micromobility (adapted from OECD/ITF (2020))."}
 knitr::include_graphics("image/micromobility.jpg")
 ```
 
