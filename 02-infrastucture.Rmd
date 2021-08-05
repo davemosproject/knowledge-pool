@@ -87,6 +87,93 @@ Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary v
 - Zhong, Z. (2018). Assessing the effectiveness of managed lane strategies for the rapid deployment of cooperative adaptive cruise control technology.
 
 ## Operational design domains {#ODD}
+### Synonyms {-}
+*ODD*
+
+### Definition {-}
+Operational design domain is a system to assess the conditions in which automated driving system (ADS) is designed to work safely based on roadway features or amount of traffic (Czarnecki, 2018). It is a key to the safety of automated vehicles and ODD is in place to define the limitations for driving at different automation level of a vehicle (Eliot, 2019). For example, level 5 automation has an unconstrained ODD which means that it is equivalent of human driver controlling the vehicle. In terms of levels 1-4 the ODD puts constraints with respect to (Czarnecki, 2018):
+
+-	Road environment: including but not limited to urban and rural roads, motorways, roundabouts, tunnels, traffic volumes, construction areas, or different weather or visibility conditions
+-	State of the vehicle: for instance, load limits or minimum tire inflation level 
+-	Behaviour of the vehicle equipped with ADS: for example, speed limits or constraints on possible manoeuvres 
+
+In general, ODD assesses the conditions if the car is able to drive autonomously on the chosen route and given automation level. If at some stage it finds that conditions are not appropriate for autonomous driving, ODD will simply find a spot to stop the vehicle and the driver will be required to take over and start driving by himself. <br/>
+The ODD works based on the operational world model (OWM) that consist of *operational road environment model (OREM)*, *the subject vehicle(s) model (SVM)* and *subject ADS*. OREM represents all the relevant assumptions about the road environment in which an ADS will operate, while ignoring the irrelevant ones. SMV represents a vehicle operated by the developed ADS. The OMW may include single subject vehicle or multiple subject vehicles equipped with the same or different ADS. Inclusion of distinct ADSs may be necessary to represent the interaction between different types of vehicles such as buses and passenger vehicles or the same types of vehicles under different ADS development level. <br/>
+Further, Koopman and Fratrik (2019) provide list of factors which are found to be relevant for the validation and operation of automated vehicles and consequently for the development of ODD. These include:
+
+-	Operational terrain
+-	Weather conditions
+-	Operational infrastructure
+-	Rules of engagement and interaction with environment and other road other users
+-	Considerations for deployment to multiple regions
+-	Data availability and recency (eg. Regarding temporary changes in traffic rules)
+-	Expected elements of operational space state (eg. What should be included in the scope of ODD)
+
+Moreover, Object and Event Detection and Response (OEDR) refers to the operation within the scope of a defined ODD with respect to objects and events. *Object factors* include:
+
+-	Ability to detect and classify relevant objects in the environment
+-	Processing and thresholding of sensors data
+-	Characterising possible operational parameters of other road users
+-	Permanent (Trees, curbs etc.) and temporary (eg. People, floods) obstacles
+-	At risk population
+-	All types of other road users including human-driven and autonomous vehicles as well as special purpose vehicles and aircrafts
+
+Moreover, the *Events factors* refer to:
+
+-	Determination of behaviour of other objects
+-	‘Normal’ movement of objects 
+-	‘Abnormal’ movement of objects
+-	Failure to move of other objects
+-	Drivers’ interactions before, during and after the autonomous system engagement
+-	Human and non-human interactions
+
+
+### Key stakeholders {-}
+
+- **Affected**: Conventional Cars’ Drivers, Car Manufacturers, Users of AVs
+- **Responsible**: Council authorities, Car manufacturers, Insurance providers
+
+
+### Current state of art in research {-}
+Current research focuses on the validation, extension of capabilities and an improvement in accuracy of current ODD systems. For example, Lee et al. (2020) proposes an approach to identify an ODD for the ADS using statistical data and risk tolerance. The identified ODD is based on the geographical mapping of risk level associated with ADS operation that is below the risk threshold predefined for a given environmental conditions. Therefore, this method allows for addressing safety concerns through the provision of geographical and environmental constrains to ADS operation. Further, Farah et al. (2020) looked at understanding of ODD (with respect to lane keeping) by human drivers, where they are expected to control the vehicle in situation outside of ODD specified by the manufacturer. A difference between driver’s understanding of the AV’s capabilities and manufacturers manual can lead to severe safety issues. They conducted a field test using Tesla Model S based on the situation within and beyond ODD specified by the manufacturer. Farah et al. (2020) found a mismatch between manufacturer’s specified ODD and driver’s perception of what ODD includes. In particular, often situation out of scope of the ODD were classified by the human driver as that within ODD domain. This study demonstrated the need for clearer description and specification of ODD to diminish the discrepancy between driver’s awareness and actual vehicle abilities. 
+
+### Current state of art in practice {-}
+California is one of the pioneering states that makes attempts at testing of ODD. One of the examples is current Google’s project of [Waymo’s](https://www.losaltoshills.ca.gov/DocumentCenter/View/2315/Waymo_Driverless_Autonomous_Vehicle_Tester_Program) driverless testing car.  It uses a 4th stage of automated driving system and shows the usage of ODD in real life. Waymo’s ODD works on the certain geographic area (part of California) 24 hours a day. Waymo’s ODD allows reach up to 105 km/h, however it does not operate when is snowy or rainy. Otherwise, in the USA there is not any nationwide policy regarding use of ODD because these are highly location-specific. Other world regions are working their own regulation with respect to ODDs such as MLIT-Guidline in Japan, Transport Canada in Canada, NHTSA FAVP 3.0 in the USA or EC Guidelines in Europe. Furthermore, the UN Informal Working Group on Functional Requirements for AVs (FRAV) put forward a [report](https://unece.org/fileadmin/DAM/trans/doc/2020/wp29grva/GRVA-05-40e.pdf) to regulate the functional performance requirements for Automated Driving Systems and vehicles equipped with such systems.  
+
+### Relevant initiatives in Austria {-}
+
+-	[AustriaTech](https://austriatech.at/de/das-konzept-der-isad-klassen/)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Systemic|Aim at increasing safety in autonomous cars|**+**|Health & Wellbeing (*3*)|Koopman and Fratrik, 2019|
+|Systemic|Developing fully autonomous cars|**+**|Innovation & Infrastructure (*9*)|Waymo, 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-6|4-6|')
+```
+
+### Open questions {-}
+
+1. How does the development of ODD influence the autonomous cars market toward to the average driver?   
+
+### References {-}
+-	Berman, B., 2019. Autonomous vehicle operation design domain is key to safety. [online] Sae.org. Available at: <https://www.sae.org/news/2019/11/odds-for-av-testing> [Accessed 2 August 2021].
+-	Czarnecki, K. (2018). Operational Design Domain for Automated Driving Systems - Taxonomy of Basic Terms. 10.13140/RG.2.2.18037.88803.
+-	Eliot, L., 2019. Key To Driverless Cars, Operational Design Domains (ODD), Here’s What They Are, Woes Too. [online] Medium. Available at: <https://lance-eliot.medium.com/key-to-driverless-cars-operational-design-domains-odd-heres-what-they-are-woes-too-a0f1059e0bdb> [Accessed 2 August 2021].
+-	Farah, H., Bhusari, S., Van Gent, P., Babu, F. A. M., Morsink, P., Happee, R., & van Arem, B. (2020). An empirical analysis to assess the operational design domain of lane keeping system equipped vehicles combining objective and subjective risk measures. IEEE Transactions on Intelligent Transportation Systems, 22(5), 2589-2598.
+-	Koopman, P. and Fratrik, F., (2019). How Many Operational Design Domains, Objects, and Events?. [online] Ceur-ws.org. Available at: <http://ceur-ws.org/Vol-2301/paper_6.pdf> [Accessed 2 August 2021].
+-	Law Insider. (2021). Operational design domain Definition | Law Insider. [online] Available at: <https://www.lawinsider.com/dictionary/operational-design-domain> [Accessed 2 August 2021].
+-	Lee, C., Nayeer, N., Garcia, D., Agrawal, A. and Liu, B., 2020. Identifying the Operational Design Domain for an Automated Driving System through Assessed Risk. 2020 IEEE Intelligent Vehicles Symposium (IV).
+-	Waymo. 2019. Waymo. [online] Available at: <https://waymo.com/> [Accessed 2 August 2021].
 
 ## Rail crossing information system {#rail_crossing_info_system}
 

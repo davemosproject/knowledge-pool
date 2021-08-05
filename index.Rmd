@@ -32,7 +32,7 @@ The authors welcome any feedback, questions and contributions that the readers m
 1. [Introduction to the knowledge pool](#intro)
 2. [Physical road infrastructure](#infrastructure)
     - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
-    - [Operational design domains](#ODD)
+    - [Operational design domains](#ODD) **NEW**
     - [Rail crossing information system](#rail_crossing_info_system) **NEW**
     - [Electric road system](#ers) **NEW**
     - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
@@ -59,7 +59,7 @@ The authors welcome any feedback, questions and contributions that the readers m
     - [Multimodal information and route planning](#info_and_route_planning) **NEW**
 7. [Multimodal integrated system](#multimodal)
     - [First-last mile solutions](#flms) **NEW**
-    - [Transit fares](#dist_time_fares)
+    - [Transit fares](#dist_time_fares) **NEW**
     - [Mobility as a service (MaaS)](#maas) **NEW**
     - [Park and ride](#p_r) **NEW**
     - [Contactless public transport cards](#contactless_cards) **NEW**

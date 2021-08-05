@@ -271,6 +271,120 @@ cat('|TRL| SRL|
 
 ## Transit fares {#dist_time_fares}
 
+### Definition {-}
+Fares are fundamental element of transit operations, they have an important impact on ridership dynamics and the financial vitality of transit agencies (El-Geneidy et al., 2016; Zhao & Zhang, 2019). The way fares are set and subsequently adjusted is inherently complex. On the one hand, there is an attempt to ensure equity for the population and, on the other hand, to generate sufficient revenue for the transit agency (Brown, 2018; Yoh et al., 2016). In current transportation research, fares and especially fare structures (such as zone-based or distance-based fares) are argued to have negative effects on equity, although there is also evidence that it depends on where one lives and how this affects the degree of accessibility (Martens, 2012). <br/>
+
+There is no universally accepted definition of equity in the context of public transport, but different ways of measuring equity from different perspectives, such as travel distance, time, comfort, and monetary costs. A necessary condition for the scientific measurement of equity in public transport is to focus on a specific dimension, such as monetary costs (fares) (Wang et al., 2021). <br/>
+
+Three defining dimensions for assessing fairness can be identified in the literature on distributive justice (Rubensson et al., 2020):
+
+-	A normative dimension - the foundations of the fairness principle: e.g., should all outcomes be as similar as possible, or should all participants have as similar opportunities as possible, or should well-regulated markets be trusted to produce the fairest outcome?
+-	Authors choose what to measure - equity of inputs (fares, taxes), outputs (accessibility, geographic coverage, or consumption (trips made) of public transportation.
+-	Distributional differences - assessing horizontal equity (equity among members of the same group, such as all public transport users or all citizens) or vertical equity (equity among members of different groups, such as different income, age, or occupational groups).
+
+A fare system typically contains four basic components (Streeting & Charles, 2006): 
+
+-	Fare media - Paper tickets or smart cards
+-	Fare product - Range of available ticket types, such as frequency-based discounts and off-peak discounts, fare limitation to a fixed maximum amount on weekends (Chalabianlou et al., 2015; Guzman et al., 2014)
+-	Fare structure
+-	Fare level - Fares can be set at a flat rate or differentiated. Differentiation is usually proposed to achieve a fare system that lowers demand for trips with high production costs and increases demand for trips with low production costs, thus increasing revenues on the one hand and lowering prices for some users on the other (Rubensson et al., 2020). The different fare structures are (Wang et al., 2021):
+
+-	**Flat fares** (a single fare for the entire fare system)
+- **Distance-based fares** (fares calculated by distance) <br/>
+A distanced-based system charges higher fares for passengers that cover longer distances. The fares are typically calculated on a route-by-route basis where it is based on the distance between origin and destination (OD) (eg. Washington, DC). Distance-based fares are typically complicated to develop and enforce because they require a card to be swiped, tapped or punched for bus or rail, or they require a barrier that enforces additional payment. Furthermore, distance-based pricing is not frequently used in on-express routes and rail and it is more common for express routes and systems that radiate from a central area (McKone, 2010).
+-	**Time-based fares** (fares calculated by travel time) <br/>
+The time-based system allows passengers to use public transport and make free transfers in a set period of time. The validity period can be as short as 20 min (Krakow.pl, 2021) or an unlimited weekly, monthly or yearly pass (Wiener Linien, 2021). Importantly, this pricing system requires some sort of card (paper, magnetic or smart card) to issue the transfer. It is often used for within-city public transport solutions.
+-	**Zone-based fares** (fares calculated by travel zone) <br/>
+The fares are typically calculated based on the zones that establish increasing fares in certain regions of the city (eg. in Paris commuter rail system or London Underground) (McKone, 2010).
+Moreover, Brown (2018) mentions five types of fare structuring: flat, adjusted to distance travelled, variable by time of day, variable by mode, and/or discounted based on rider characteristics.
+
+### Key stakeholders {-}
+- **Affected**: Public Transport Passengers, Public Transport Operators
+- **Responsible**: Local and National Governments, Transport Agencies authorities 
+
+### Current state of art in research {-}
+The main issue currently being studied is equity under different fare systems (Brown, 2018; El-Geneidy et al., 2016; Rubensson et al., 2020; Wang et al., 2021; Zhao & Zhang, 2019). <br/>
+
+Rubensson et al. (2020) find that in terms of horizontal equity (between public transport users and the public in general), distance fares offer the highest level of equality (0.04), followed by zone fares (0.07) and then flat fares (0.1) as measured by the [Gini coefficient]( https://www.univie.ac.at/sowi-online/esowi/cp/einfsoz/einfsoz-55.html). However, in terms of vertical equity (across income groups), travellers from low-income areas pay a larger share of fares than higher-income travellers in all fare systems. They further conclude that as the distance-dependence of fares decreases, vertical equity increases and that an increasing distance-dependent fare system leads to increasing horizontal equity. <br/>
+
+Brown (2018) concludes in a study of the effects of pricing on the equity in mass transit in Los Angeles that any type of fare variation improves equity compared to flat fares when the three criteria of equity (benefits received, ability to pay, and cost) are considered. In particular, a fare structure that includes both a per-mile fare and discounts for off-peak trips produces the most equitable results, as low-income passengers travel significantly shorter distances, ride more local buses, and make a smaller share of trips during peak hours. This also better reflects the marginal cost of providing the service. A slightly lower per-mile fare for low-income riders usually does not truly reflect the relative ability of those riders to pay if the fares are not cheap enough (e.g., LA Metro Rider Relief coupons to reduce the cost to riders by 10 percent (Los Angeles County Metropolitan Transportation Authority, 2021)). For example, if low-income riders are to be encouraged, households earning 50 percent of the area-wide median income should receive a 50 percent discount on the per-mile fare. This option is available in San Francisco right now (San Francisco Municipal Transportation Agency, 2021). The author concludes that income-based discounts on flat fares would improve equity (as measured by the ability-to-pay criterion), but would likely not always reflect equity as measured by mileage or time-based cost variation. Instead, a distance-based and discounted off-peak fare structure is the best solution for all three equity criteria. Smart card technology has made the introduction and enforcement of variable fares much easier than in the past, and new transportation and financial innovations have made passengers more comfortable with variable fares on mass transit. <br/>
+
+Wang et al. (2021) propose new fare equity evaluation measures using [smart card](#contactless_cards) data. These systems generate large volumes of transaction records from individual passenger trips and contain the information needed to map, measure, and monitor fare equity. In their study they conclude that adopting a more coarsely zoned structure, reducing variation in fare levels, and changing fare incentives will increase ridership, improve revenue, and offset fare disparities and improve fare equity across ridership types and urban area.
+
+### Current state of art in practice {-}
+According to Brown (2018) flat fares are the most common around the world and prevalent in the U.S., but these do not necessarily lead to equitable outcomes for passengers. Although equity is an important goal for most transit agencies, fare discussions are often influenced by budgetary concerns, rising operating costs, and aversion to public backlash. This creates a paradox between desired goals and current practices. <br/>
+
+The prices of public transport for users vary greatly as a statistic of public transport single tickets worldwide shows (Figure 1). Also within a country the prices vary greatly as a report of the ADAC (2019) demonstrates. At 109.20 euros, the monthly ticket in Hamburg is almost twice as expensive as in Munich. However, in Hamburg you can still travel far beyond the city limits. The average monthly ticket in Germany costs 77.50 euros. Day tickets cost an average of 7.02 euros. In some cities it is valid for 24 hours from the time of validation and in others it is only valid for the day of validation, but often until well after midnight. <br/>
+
+```{r, echo=FALSE, , out.width="100%", fig.cap="Prices for standard single tickets for local public transport in selected cities around the world  (statista.at, 2017)"}
+knitr::include_graphics("image/tickets_prices.jpg")
+```
+
+More and more cities nowadays offer public transport completely free of charge. The first experiments were already carried out in the 1960s. In the meantime, around 100 cities and towns around the world have introduced [free public transportation](https://freepublictransport.info/city/) in one way or another. In some cities, only part of the public network is free, and in others, certain groups of the population, such as registered residents or pensioners, are allowed to ride for free. In Tallinn, the capital of Estonia, for example, residents have been able to ride the public transport system without a ticket since 2013. According to a study, this led to an increase in the proportion of people using public transport in the city from 55 to 63 percent (Cats et al., 2017). In 2018, they expanded the model to other parts of the country. Luxembourg, with a population of 626,000, is the first country to offer completely free public transport since 2020 (Yeung, 2021). In Dunkirk, France, public transportation has been free since 2018. A government-commissioned study concluded that eight months after the model was introduced, trips by bus increased by 65 percent during the week and 125 percent on weekends. Now some larger French cities are also experimenting with the idea. In Paris, free public transport for under-18s was introduced in 2020. In Strasbourg, the same policy will be implemented in September 2021. According to the Strasbourg government, this is a climate protection measure, as many of the 80,000 or so schoolchildren are currently taken to school by their parents. It is also intended to help socially disadvantaged families (who will save around 550 euros a year with two children) (Pallinger, 2021). In the Occitanie region of southern France (population around six million), a scheme has been introduced whereby 18- to 26-year-olds who travel by train at least 30 times a month will pay nothing, with the dual aim of helping young workers and reducing carbon emissions (Yeung, 2021). <br/>
+
+The criticism of free public transportation is, on the one hand, that it would then be financed by higher taxes. Audrey Pulvar, the deputy mayor of Paris, wants to balance the financing with higher taxes on emission-intensive cars and large corporations like Amazon (Pallinger, 2021). Pulvar's proposals would first provide free transportation to youths under 18, students and job seekers in a phased rollout before expanding to all residents on weekends and then daily by 2026 (Yeung, 2021). <br/>
+However, some people are sceptical about this idea. One of them is Kay Axhausen (professor for traffic planning at ETH Zurich). He argues that it can lead to an overload of the public transport and this leads to overcrowded and unreliable public transportation, and that customers are likely to be gone two days later. Prof. Axhausen argues for better connections, easier transfers, prioritization at traffic signals, more bus lanes and changes to the route network to make public transport more attractive (Raaflaub, 2020). <br/>
+
+However, the costs incurred by traffic accidents, air pollution and congestion can be saved. According to Pulvar, these sums up to ten billion euros each year in the Paris region. Other criticisms include the rebound effect, which could lead to people traveling excessively by bus or tram, ultimately increasing traffic, emissions and urban sprawl, and fears that the quality of public transportation could deteriorate (more pollution from overcrowded buses and streetcars). Another point of criticism is that studies conclude that only a few people who previously travelled by car subsequently switched to free public transport. Most of the additional public transport users were mainly pedestrians, cyclists, and people who generally travelled less before, according to another study. The same is true in Tallinn where, although public transport has increased from 55 to 63 percent, the car share of traffic has only been reduced from 31 to 28 percent, while walking has fallen from 12 to 7 percent. According to the study, free public transportation would hardly change the mobility behaviour of car and motorcycle drivers (Pallinger, 2021). Another study in France concludes that while the measure would increase ridership by 6 to 10 percent, it would cost between €2.2 billion and €3.3 billion, the quality of service of the network would be compromised, car use would decrease by only 2 percent, and the impact on social equity would be limited because more than one million people in the region studied already benefit from free or reduced fares (Mabill & Dugue, 2018). A greater change, according to some experts, could be brought about by measures such as higher parking fees or fuel prices. Instead of a general ticket exemption, poorer population groups could also be helped directly, for example by cheaper tickets for low income households. This would leave the government or the public transport company with most of the revenue from ticket sales (Pallinger, 2021). However, proponents of free public transport in France believe that the costs are overestimated and point to a tax (a so-called mobility tax) that is levied on all companies in France. This subsidizes collective transport and results in ticket sales accounting for only about 10-15% of revenue in most cities. In the case of Dunkirk, this tax covered the cost of eliminating ticket prices, which represented 10% of revenue (Yeung, 2021). <br/>
+
+### Relevant initiatives in Austria {-}
+The government in Austria is committed to the implementation of the so-called 1-2-3 ticket, which should make ticket prices cheaper in the future. 
+
+- [BMK.gv.at](https://www.bmk.gv.at/themen/mobilitaet/1-2-3-ticket.html)
+
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Higher societal equity and public transport accessibility|**+**|Equality (*5,10*)|Brown, 2018; Pallinger, 2021|
+|Individual|Reduction in sustainable transport modes (eg. walking) due to increased use of free public transport|          **-**|Environmental sustainability (*7,12,13,15*)|Pallinger, 2021|
+|Systemic|Reduced carbon emissions|         **+**|Environmental sustainability (*7,12,13,15*)|Yeung, 2021|
+|Systemic|Potentially excessive trips by public transport  may decrease its quality|          **-**|Sustainable economic development (*8,11*)|Raaflaub, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|7-9|')
+```
+
+### Further links {-}
+
+-	[Freepublictransport.info](https://freepublictransport.info/city/) 
+-	[Orf.at](https://orf.at/stories/3113027/) 
+
+
+### References {-}
+
+-	Krakow.pl (2021). Rodzaje biletów. Available at: https://www.krakow.pl/14904,artykul,rodzaje_biletow.html. [Accessed: 1st June 2021]
+-	McKone, J. (2010). Time-Based Versus Distance-Based Fares. Available at: https://thecityfix.com/blog/time-based-versus-distance-based-fares/#:~:text=Time%2Dbased%20systems%20allow%20passengers,a%20set%20amount%20of%20time.&text=Distance%2Dbased%20systems%20charge%20higher,rides%20that%20cover%20greater%20distances. [Accessed: 1st June 2021]
+-	Wiener Linien.at (2021). Ticket guide. Available at: https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66533/channelId/-47643 [Accessed: 1st June 2021]
+-	ADAC. (2019, June 19). ÖPNV-Preisvergleich 2019: Wo Tickets teuer und wo sie günstig sind | ADAC. https://www.adac.de/reise-freizeit/ratgeber/tests/oepnv-preise-vergleich/
+-	Brown, A. E. (2018). Fair fares? How flat and variable fares affect transit equity in Los Angeles. Case Studies on Transport Policy, 6(4), 765–773. https://doi.org/10.1016/J.CSTP.2018.09.011
+-	Cats, O., Susilo, Y. O., & Reimal, T. (2017). The prospects of fare-free public transport: evidence from Tallinn. Transportation, 44(5), 1083–1104. https://doi.org/10.1007/s11116-016-9695-5
+-	Chalabianlou, R., Lawrence, A., & Baxter, B. (2015). A review and assessment of fare capping as a passenger incentive mechanism for Australia and New Zealand. ATRF 2015 - Australasian Transport Research Forum 2015, Proceedings, October, 1–15.
+-	El-Geneidy, A., Levinson, D., Diab, E., Boisjoly, G., Verbich, D., & Loong, C. (2016). The cost of equity: Assessing transit accessibility and social disparity using total travel cost. Transportation Research Part A: Policy and Practice, 91, 302–316. https://doi.org/10.1016/j.tra.2016.07.003
+-	Guzman, L. A., de la Hoz, D., & Monzón, A. (2014). Optimal and Long-Term Dynamic Transport Policy Design: Seeking Maximum Social Welfare through a Pricing Scheme. International Journal of Sustainable Transportation, 8(4), 297–316. https://doi.org/10.1080/15568318.2012.696772
+-	Los Angeles County Metropolitan Transportation Authority. (2021). LA Metro Rider Relief. https://www.metro.net/projects/rider_relief/
+-	Mabill, S., & Dugue, H. (2018). Rapport du Comité sur la faisabilité de la gratuité des transports en commun en Île-de-France, leur financement et la politique de tarification. 2018–2019. https://www.iledefrance-mobilites.fr/wp-content/uploads/2018/10/Rapport-Comité-sur-la-faisabilité-de-la-gratuité-des-transports-en-commun-en-Île-de-France-leur-financement-et-la-politique-de-tarification.pdf
+-	Martens, K. (2012). Justice in transport as justice in accessibility: Applying Walzer’s “Spheres of Justice” to the transport sector. Transportation, 39(6), 1035–1053. https://doi.org/10.1007/s11116-012-9388-7
+-	Pallinger, J. (2021, June 5). Was kostenlose Öffis bringen sollen - Zukunft - derStandard.de › Wissen und Gesellschaft. https://www.derstandard.de/story/2000127046621/was-kostenlose-oeffis-bringen-sollen
+-	Raaflaub, C. (2020, February 27). Warum die Idee vom Gratis-ÖV in der Schweiz nicht ankommt - SWI swissinfo.ch. https://www.swissinfo.ch/ger/verkehr-und-umweltschutz_warum-die-idee-vom-gratis-oev-in-der-schweiz-nicht-ankommt/45578796
+-	Rubensson, I., Susilo, Y., & Cats, O. (2020). Is flat fare fair? Equity impact of fare scheme change. Transport Policy, 91, 48–58. https://doi.org/10.1016/J.TRANPOL.2020.03.013
+-	San Francisco Municipal Transportation Agency. (2021, January). Lifeline Pass | SFMTA. https://www.sfmta.com/fares/lifeline-pass
+-	statista.at. (2017, April). ÖPNV - Preise für Standard-Einzeltickets weltweit 2017 | Statista. https://de.statista.com/statistik/daten/studie/168444/umfrage/preise-fuer-standard-einzeltickets-des-oepnv-in-ausgewaehlten-staedten/
+-	Streeting, M., & Charles, P. (2006). Developments in transit fare policy reform. 29th Australasian Transport Research Forum, ATRF 06, 1–13.
+-	Wang, S., Liu, Y., & Corcoran, J. (2021). Equity of public transport costs before and after a fare policy reform: An empirical evaluation using smartcard data. Transportation Research Part A: Policy and Practice, 144, 104–118. https://doi.org/10.1016/J.TRA.2020.12.010
+-	Yeung, P. (2021, May 24). How France is testing free public transport - BBC Worklife. https://www.bbc.com/worklife/article/20210519-how-france-is-testing-free-public-transport
+-	Yoh, A. C., Taylor, B. D., & Gahbauer, J. (2016). Does Transit Mean Business? Reconciling Economic, Organizational, and Political Perspectives on Variable Transit Fares. Public Works Management and Policy, 21(2), 157–172. https://doi.org/10.1177/1087724X15616816
+-	Zhao, P., & Zhang, Y. (2019). The effects of metro fare increase on transport equity: New evidence from Beijing. Transport Policy, 74, 73–83. https://doi.org/10.1016/J.TRANPOL.2018.11.009
+
+
+
 ## Mobility as a service (Maas) {#maas}
 
 ### Definition {-}
@@ -357,8 +471,7 @@ cat('|TRL| SRL|
 -	[maas4eu.eu](http://www.maas4eu.eu) 
 
 ### References {-}
-- Gudonavičius, M. (2020). Unjamming Urban Mobility: How Mobility-as-a-Service Can Replace Personal Cars. https://www.trafi.com/wp-content/uploads/2020/08/unjamming-urban-mobility.pdf 
-- Maas Alliance. (2015). White Paper: Guidelines & Recommendations to create the foundation for a thriving MaaS Ecosystem. 32(2), 1–27. https://maas-alliance.eu/wp-content/uploads/sites/7/2017/09/MaaS-WhitePaper_final_040917-2.pdf
+- Gudonavičius, M. (2020). Unjamming Urban Mobility: How Mobility-as-a-Service Can Replace Personal Cars. https://www.trafi.com/wp-content/uploads/2020/08/unjamming-urban-mobility.pdf - Maas Alliance. (2015). White Paper: Guidelines & Recommendations to create the foundation for a thriving MaaS Ecosystem. 32(2), 1–27. https://maas-alliance.eu/wp-content/uploads/sites/7/2017/09/MaaS-WhitePaper_final_040917-2.pdf
 - MaaS4EU. (2017, October). Launch of MaaS4EU project. http://www.maas4eu.eu/wp-content/uploads/2017/10/MaaS4EU-Launch-Press-Release.pdf 
 - Marinelli, G., Nordfjærn, Ö. S., Aarseth, W., & Pitera, K. (2020). Introducing TrønderMaaS: investigating business models, sustainability and users' acceptance of a MaaS system in Stjørdal and Trondheim region, Norway.
 - Neumann, A., & Rauch, A. (2021). Maas Ready. https://maas-ready.at/allgemein#Grundidee
