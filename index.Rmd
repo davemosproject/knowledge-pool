@@ -49,7 +49,7 @@ The authors welcome any feedback, questions and contributions that the readers m
     - [Dynamic route guidance](#dynamic_route) **NEW**
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
     - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
-    - [Passengers and goods fleet management](#p_g_fleet_management)
+    - [Passengers and goods fleet management](#p_g_fleet_management) **NEW**
     - [Urban access management](#urban_access) **NEW**
 5. [Digital road infrastructure and connectivity](#digital)
     - [Vehicle to everything communication](#v2x) **NEW**
@@ -119,7 +119,7 @@ format(Sys.time(),'%d %B %Y')
 1. [Introduction to the knowledge pool](#intro)
 2. [Physical road infrastructure](#infrastructure)
     - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
-    - [Operational design domains](#ODD)
+    - [Operational design domains](#ODD) **NEW**
     - [Rail crossing information system](#rail_crossing_info_system) **NEW**
     - [Electric road system](#ers) **NEW**
     - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
@@ -136,7 +136,7 @@ format(Sys.time(),'%d %B %Y')
     - [Dynamic route guidance](#dynamic_route) **NEW**
     - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
     - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
-    - [Passengers and goods fleet management](#p_g_fleet_management)
+    - [Passengers and goods fleet management](#p_g_fleet_management) **NEW**
     - [Urban access management](#urban_access) **NEW**
 5. [Digital road infrastructure and connectivity](#digital)
     - [Vehicle to everything communication](#v2x) **NEW**

@@ -97,8 +97,10 @@ Operational design domain is a system to assess the conditions in which automate
 -	State of the vehicle: for instance, load limits or minimum tire inflation level 
 -	Behaviour of the vehicle equipped with ADS: for example, speed limits or constraints on possible manoeuvres 
 
-In general, ODD assesses the conditions if the car is able to drive autonomously on the chosen route and given automation level. If at some stage it finds that conditions are not appropriate for autonomous driving, ODD will simply find a spot to stop the vehicle and the driver will be required to take over and start driving by himself. <br/>
+In general, ODD assesses if the conditions are appropriate for a vehicle to drive autonomously on the chosen route and given automation level. If at some stage ODD finds that conditions are not appropriate for autonomous driving, it will find a spot to stop the vehicle and the driver will be required to take over and start driving by himself. <br/>
+
 The ODD works based on the operational world model (OWM) that consist of *operational road environment model (OREM)*, *the subject vehicle(s) model (SVM)* and *subject ADS*. OREM represents all the relevant assumptions about the road environment in which an ADS will operate, while ignoring the irrelevant ones. SMV represents a vehicle operated by the developed ADS. The OMW may include single subject vehicle or multiple subject vehicles equipped with the same or different ADS. Inclusion of distinct ADSs may be necessary to represent the interaction between different types of vehicles such as buses and passenger vehicles or the same types of vehicles under different ADS development level. <br/>
+
 Further, Koopman and Fratrik (2019) provide list of factors which are found to be relevant for the validation and operation of automated vehicles and consequently for the development of ODD. These include:
 
 -	Operational terrain

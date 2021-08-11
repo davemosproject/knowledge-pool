@@ -639,6 +639,89 @@ cat('|TRL| SRL|
 
 ## Passengers and goods fleet management {#p_g_fleet_management}
 
+### Definition {-}
+According to Mixtelematics.com (2021) *“Fleet management refers to the overall actions that take place to keep a fleet running efficiently, on time, and within budget. It can be defined as the processes used by fleet managers to monitor fleet activities and make decisions from asset management, dispatch, scheduling, routing, vehicle acquisition and disposal. It helps companies ensure compliance, improve efficiency, and reduce costs.”* It is claimed to apply to organisations and firms that use more than five vehicles. The main responsibilities of fleet managers are reducing costs,vehicle tracking and safety, driver's safety and retention, vehicle acquisition and electronic Logging Device (ELD) compliance (in case of the USA). On the other hand, the benefits of fleet management include the automation of manual tasks, increase in profitability, an improvement in fleet safety and customer service. Further, the major challenges that fleet managers face are fuel management, vehicle acquisition, optimisation of Vehicle performance, meeting compliance requirements, control of costs and health and safety (Mixtelematics.com, 2021).
+
+Fleet management is present in a range of industries including public transport, emergency services, transport and distribution or rental and leasing of vehicles. <br/>
+
+**Public transport**<br/>
+Fleet management with respect to public transport focuses on the monitoring and management of drivers and vehicles to help public transport operators to improve performance and system capabilities. It can be achieved by real-time tracking of vehicles location and robust data collection. The passenger fleet management features include (Nec.com,2021):
+
+- Real time passenger information system, where the key is an estimated arrival time (ETA) based on day, time, route type, schedule type, dwell time, travel time, etc (For more information see [Multimodal information and route planning](#info_and_route_planning))
+- In-vehicle visual and audio passenger announcement system is defined for each route and stop providing real time information about the progress of the vehicle, any route disruptions and deviations
+- Real time data analysis and management monitors transit services including on route adherence and schedule monitoring as well as wait time monitoring
+- Routing and trip assignment schedules trips but also allows for dynamic trip assignment 
+
+**Transport and distribution**<br/>
+In transportation industry implementation of fleet management through an on-board mobile technology can help in route optimisation, improved communication with drivers, management of fuel consumption and more efficient jobs assignment and scheduling. Furthermore, a special case of fleet management involves future fleets of AVs as described by Hyland & Mahmassani (2017) who provide a comprehensive taxonomy for shared autonomous vehicle fleet management. 
+
+### Key stakeholders {-}
+
+- **Affected**: Commercial drivers, public transport drivers and managers, public transport passengers
+- **Responsible**: Public transport operators, Transportation companies, Vehicles manufacturers
+
+### Current state of art in research {-}
+Research with respect to fleet management focuses on development and implementation of modern and holistic solutions using, for example, the Internet of Things (IoT). For instance, Killeen et al. (2019) proposed the use of data produced by the IoT in fleet management context to improve predictive maintenance of fleets. Further, Nuhic et al. (2018) developed a new battery health monitoring algorithm to increase the accuracy of battery degradation prediction. Next, Stancel & Surugiu (2017) developed a system that monitors truck platoon in a real-time and provides information about the length of the route, travel time and fuel consumption. The system allows for computation of optimal routes with respect to fuel consumption.
+
+### Current state of art in practice {-}
+ Currently, multiple technology-focused companies offer fleet management software all over the world such as [Fleetio](https://www.fleetio.com/), [Sesmara](https://www.samsara.com/at/), [GSMtasks](https://gsmtasks.com/) or [Avrios](https://www.avrios.com/?utm_source=capterra&utm_medium=cpc&utm_campaign=software-comparison). There are also companies such as [Urbantz](https://www.urbantz.com/) or [OnFleet](https://onfleet.com/) that specialise in particular cases of the management of local, last mile green deliveries. Further, [Go Urban](https://gourban.co/) offers technological solution for shared mobility fleets. <br/>
+ 
+Moreover, between 2001 and 2004 the EU project F-MAN took place in several countries (Portugal, Spain, France, Italy, Austria, Czech Republic, Slovakia, Hungary, Slovenia and Romania) that aimed at exploration of advantages of the development of innovative tools that would allow taking a new approach to management of internationally operated fleets of freight wagons. The developed system consisted of three components (Cosulich et al., 2006):
+
+- Tracking System Module (TSM), consists of on-board terminals which are located in the wagons and in the ground station
+- Data Processing Module (DPM), is a software app responsible for data exchange and maintenance
+- Asset Management Module (AMM), links the remaining modules, processes orders, selects and books wagons, organises trips and logs data   for asset management purposes 
+ 
+The field tests showed that compared to other management systems, current system is between 40% and 80% more efficient.
+
+The previous European projects were, among others, [CHINO](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5a7b1dc79&appId=PPGMS) (2006-2009) that looked at the containers handling in intermodal nodes, [SAIL](https://cordis.europa.eu/project/id/251589/reporting) (2011-2014) which explored ICT tools for logistics and business operations in the port and dry port areas or [MIT](http://www.mitproject.eu/) (2004-2009) that was concerned with fully automated system for the distributed intermodal transport (Harris et al., 2006).
+
+Finally, a technology company [Nec.com](https://www.nec.com/en/global/solutions/transportation/task/fms_pis.html) provides smart fleet management system for 1700 buses in Hong-Kong as well as bus fleets in Singapore and India showing that these system can be applied in dense and complex urban networks and offer smart solutions that improve the performance of public transport.
+
+### Relevant initiatives in Austria {-}
+- [AIT](https://www.ait.ac.at/en/solutions/plan)
+- [Sesmara](https://www.samsara.com/at/)
+- [Frotcom](https://www.frotcom.com/de)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Drivers safety increases|**+**|Health & Wellbeing (*3*)| Salazar-Cabrera et al., 2019|
+|          Systemic|Optimised fuel consumption|          **+**|Sustainable economic development (*8,11*)|Stancel & Surugiu, 2017|
+|          Systemic|Continuous development of technologies for fleet management|          **+**|Innovation & Infrastructure (*9*)|Xu et al., 2019|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|7-9|7-9|')
+```
+
+### Open questions {-}
+1. How new technologies can alleviate the problem of managing geographically dispersed team?
+2. How can an integration of fleet data into existing software systems be conducted smoothly?
+
+### Further links {-}
+
+- [Nec.com](https://www.nec.com/en/global/solutions/transportation/task/fms_pis.html)
+- [Fleet.randmcnally.com](https://fleet.randmcnally.com/field-service/passenger-transit)
+
+### References {-}
+- Cosulich, G., Derito, A., Giannettoni, M., & Savio, S. (2006). RESULTS OF THE EVALUATION OF F-MAN–AN INNOVATIVE SOLUTION FOR THE MANAGEMENT OF RAILWAY CARGO FLEETS. IFAC Proceedings Volumes, 39(12), 331-336.
+- Harris, I., Wang, Y., & Wang, H. (2015). ICT in multimodal transport and technological trends: Unleashing potential for the future. International Journal of Production Economics, 159, 88-103.
+- Hyland, M. F., & Mahmassani, H. S. (2017). Taxonomy of shared autonomous vehicle fleet management problems to inform future transportation mobility. Transportation Research Record, 2653(1), 26-34.
+- Killeen, P., Ding, B., Kiringa, I., & Yeap, T. (2019). IoT-based predictive maintenance for fleet management. Procedia Computer Science, 151, 607-613.
+- Mixtelematics.com (2021). What Is Fleet Management? Available at: https://www.mixtelematics.com/resources/what-is-fleet-management [Accessed: 05/08/2021]
+- Nec.com (2021). What are Fleet Management Systems? Available at: https://www.nec.com/en/global/solutions/transportation/task/fms_pis.html [Accessed: 09/08/2021]
+- Nuhic, A., Bergdolt, J., Spier, B., Buchholz, M., & Dietmayer, K. (2018). Battery health monitoring and degradation prognosis in fleet management systems. World Electric Vehicle Journal, 9(3), 39.
+- Salazar-Cabrera, R., De La Cruz, Á. P., & Molina, J. M. M. (2019, March). Fleet management and control system from intelligent transportation systems perspective. In 2019 2nd Latin American Conference on Intelligent Transportation Systems (ITS LATAM) (pp. 1-7). IEEE.
+- Stancel, I. N., & Surugiu, M. C. (2017). Fleet Management System for Truck Platoons-Generating an Optimum Route in Terms of Fuel Consumption. Procedia Engineering, 181, 861-867.
+- Xu, G., Li, M., Luo, L., Chen, C. H., & Huang, G. Q. (2019). Cloud-based fleet management for prefabrication transportation. Enterprise Information Systems, 13(1), 87-106.
+
 ## Urban access management {#urban_access}
 
 ### Synonyms {-}
