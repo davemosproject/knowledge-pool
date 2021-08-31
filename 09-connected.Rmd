@@ -153,7 +153,7 @@ cat('|TRL| SRL|
 
 
 
-## Parking infrastructure for autonomous vehicles {#parking_av}
+## Parking infrastructure for automated vehicles {#parking_av}
 
 ### Synonyms {-}
 *Automated vehicles (AVs), Shared AV (SAV), Private ownership AV (PAVs), Smart Parking (SP), Automated Valet Parking (AVP), Short-range Automated Valet Parking (SAVP), Long-range Automated Valet Parking (LAVP)* 

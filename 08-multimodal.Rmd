@@ -287,7 +287,9 @@ A fare system typically contains four basic components (Streeting & Charles, 200
 -	Fare media - Paper tickets or smart cards
 -	Fare product - Range of available ticket types, such as frequency-based discounts and off-peak discounts, fare limitation to a fixed maximum amount on weekends (Chalabianlou et al., 2015; Guzman et al., 2014)
 -	Fare structure
--	Fare level - Fares can be set at a flat rate or differentiated. Differentiation is usually proposed to achieve a fare system that lowers demand for trips with high production costs and increases demand for trips with low production costs, thus increasing revenues on the one hand and lowering prices for some users on the other (Rubensson et al., 2020). The different fare structures are (Wang et al., 2021):
+-	Fare level - Fares can be set at a flat rate or differentiated. Differentiation is usually proposed to achieve a fare system that lowers demand for trips with high production costs and increases demand for trips with low production costs, thus increasing revenues on the one hand and lowering prices for some users on the other (Rubensson et al., 2020).<br/>
+
+The different fare structures are (Wang et al., 2021):
 
 -	**Flat fares** (a single fare for the entire fare system)
 - **Distance-based fares** (fares calculated by distance) <br/>

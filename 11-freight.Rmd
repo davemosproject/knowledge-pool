@@ -684,6 +684,95 @@ cat('|TRL| SRL|
 
 
 ## Multimodal transport management systems {#mtms}
+### Synonyms {-}
+*TMS, MTMS*
+
+### Definition {-}
+With the globalisation of production and trade, the demand for physical movement of goods increased exponentially together with the need for transfer of information (Beresford et al., 2021; Ding, 2020). On one hand, we observe fast development of multimodal transport that involves transportation of goods by two or more different modes of transport as a part of the contract. In such cases, frequently multimodal transport operator (MTO) is held accountable for the performance of the entire shipment from the origin to the destination (Harris et al., 2015). The aim of the multimodal transportation is to provide a continuous flow of goods through the whole transport chain to increase its efficiency from financial and environmental standpoint (Harris et al., 2015; SteadieSeifi et al., 2014). It is a key concept with respect to topics such as [intermodal freight](#intermodal_freight), [transpot hubs](#freight_hubs) or [delivery fleets](#electric_delivery_fleets). Typically, transportation chain can be devided into three types/phases:
+
+- Pre-haul: First mile for the pick up 
+- Long-haul: Door to door trasit of containers
+- End-haul: Last mile for the delivery
+
+Traditionally, the first and the third phase were carried out through inland road network, while the long haul transportation combines different modes such as road, rail, water and airways. Nowadays, this situation changes where increasingly more multimodality is observed in the first and third phase.<br/>
+
+Consequently, along the complex supply networks, logistics and supply chain management systems so called multimodal transport management systems (MTMS) have been developed to support them. They can be defined as the software that deals with the planning and execution of the physical movement of goods across the supply chain (King, 2018). Such integrated systems require the following (Batarlienė 2011; Jarašūnienė et al., 2016):
+
+- Integrity to connect all service positions of logistics
+- Multifunctionality and compatibility to prevent partition of the language, text and video communication
+- Fexibility to provide opportunities for solution implementation of central and individual
+computers
+- Operational efficiency to provide economic benefits
+- Portability
+- High rate of transmission 
+
+The aforementioned features allow the system to serve several crucial functions such as planning of the terminal and logistics centre, planning of equipment applications and loading works processing. Further, it can be used in container and automated equipment management, control and performance of necessary changes, reception of information and statistical data on equipment operations (Jarašūnienė et al., 2016).<br/>
+
+Importantly, the literature also shows that the notion of multimodal transport management system can encompass transport management with respect to passenger trips. In particular, the multimodal transportation hubs (MMTH) offer space for coordination and integration of different modes of transport for passenger purposes that help in reducing the congestion, shorten travel time, enhances environment and make travelling faster and more convenient (Chuahan et al. 2020). For more information on the passenger transport management see [mobility hubs](#mobility_hubs) and [passenger information and route planning](#info_and_route_planning).
+
+### Key stakeholders {-}
+
+- **Affected**: Truck drivers, Freight companies, Rail companies, Freight terminals, Carriers, Passengers
+- **Responsible**: Logistics companies, Couriers, Delivery companies, National governments, International authorities, Public transport authorities
+
+### Current state of art in research {-}
+Research with respect to MTMS aims at the development of new information sharing platforms and management systems or an improvement of the existing ones. Study by Ding (2020) proposed a joint information sharing platform for port and railway to promote collaborative operation between them. The developed approach aimed at an improvement of matching among the system services of multimodal transport and an achievement of the integrated service of the whole transport chain. Further, Niculescu and Minea (2016) developed a single window platform to integrate inland and maritime transport with other modes. The platform, so-called National Single Window (NSW) is based on a national system that works as a single point of contact to electronically submit and exchange freight related information between different types of stakeholders from various modes of transport. The paper concludes that, although the implementation of such a platform could bring major benefits in the field of European trade and transport, it is a very complex task for any European country <br/>
+
+Another branch of research focuses on the investigation of factors that influence the performance of the MTMS. For instance, Chauhan et al. (2021) looked at the quality of multimodal transportation hubs through measuring users' satisfaction of public transport. The identified features that have impact on the quality of MMTH were transfer environment and facilities, safety and security, accessibility and signposting, comfort, convenience and environmental quality, transport modes and travel information as well as staff management and ticketing.
+
+Finally, a study by Harris et al. (2015) identified main challenges associated with an implementation of information and communication technology (ICT) in transport management. These are:
+
+- *Financial*: Including implementation and maintenance costs
+- *Operation related*: Including lack of ICT specialists, personnel skill shortage to operate new applications, insufficient ICT-oriented training and educational activities
+- *Technology related*: Which prevent operators making full utilisation of ICT applications, including the issues such as interoperability of systems, ICT integration, standardisation, security and data protection
+- *Policy related*: For example, lacking standardised interfaces and open communications mechanisms for the adoption of ICT in multimodal transport to promote and support related policies both on a national and EU level
+
+### Current state of art in practice {-}
+There are several companies offering Transportation Management System (TMS) Software Packages, which provide wide range of services depending on the market segment they focus on. For example, [3Gtms](https://www.3gtms.com/), [Cloud Logistics](https://www.gocloudlogistics.com/) or [Kuebix](https://www.kuebix.com/) are companies located in the USA that are mainly focused on small and medium companies and third party logistics. Due to their size they do not yet offer services for international rail, air or maritime transport. On the other hand, [JDA](https://jda.com/) is the largest independent provider of supply chain management software that offers solutions for global supply chain. Further, a UK-based [BluJay](https://www.blujaysolutions.com/) offers TMS and TM services to mid- and large-size shippers on a national and international level. Further, Canadian [Descartes](https://www.descartes.com/) offers TMS services for all freight modes, nationally and internationally. Moreover, [Oracle](https://www.oracle.com) offers a management platform for large shippers and third party logistics, while German [SAP](https://www.sap.com) developed a platform for supply chain management and integrated Enterprise Research Planning (ERP) that meets the requirements of global supply chain (LaGore, 2020).
+
+### Relevant initiatives in Austria {-}
+
+- [Europa.eu](https://trimis.ec.europa.eu/project/operationalization-multimodality-passenger-transport-austria)
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r , echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|Faster and more convenient passenger trasport|          **+**|Health & Wellbeing (*3*)|Chuahan et al. 2020|
+|Systemic|More sustainable transport|**+**|Environmental sustainability (*7,12-13,15*)|Harris et al., 2015|
+|Systemic|Continuous improvement in TMS solutions|**+**|Innovation & Infrastructure (*9*)|LaGore, 2020|
+|Systemic|Collaboration among different modes|          **+**|Partnership & collaborations (*17*)|SteadieSeifi et al., 2014|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|8-9|7-9|')
+```
+
+### Open questions {-}
+
+1. What are the biggest challenges faced by the freight companies with respect to implementation of MTMS?
+2. To what degree lacking standardised interface on the European level hinders implementation of MTMS and how it can be addressed?
+
+### Further links {-}
+- [Ecotransit.org](https://www.ecotransit.org/de/)
+
+
+### References {-}
+- Batarlienė, N. (2011). Informacinės transporto sistemos. Vilnius, Technika.
+- Beresford, A. K., Banomyong, R., & Pettit, S. (2021). A Critical Review of a Holistic Model Used for Assessing Multimodal Transport Systems. Logistics, 5(1), 11.
+- Chauhan, V., Gupta, A., & Parida, M. (2021). Demystifying service quality of Multimodal Transportation Hub (MMTH) through measuring users’ satisfaction of public transport. Transport Policy, 102, 47-60.
+- Ding, L. Multimodal transport information sharing platform with mixed time window constraints based on big data. J Cloud Comp 9, 11 (2020). https://doi.org/10.1186/s13677-020-0153-8
+- Harris, I., Wang, Y., & Wang, H. (2015). ICT in multimodal transport and technological trends: Unleashing potential for the future. International Journal of Production Economics, 159, 88-103.
+- Jarašūnienė, A., Batarlienė, N., & Vaičiūtė, K. (2016). Application and management of information technologies in multimodal transportation. Procedia Engineering, 134, 309-315.
+- King, A. (2018). Defining “Multimodal TMS”. Available at: https://www.3gtms.com/resources/blog/defining-multimodal-tms [Accessed: 11/08/2021]
+- LaGore, R. (2020) 2021 Best Transportation Management System (TMS) Software Packages. Available at: https://blog.intekfreight-logistics.com/best-transportation-management-software-tms [Accessed: 11/08/2021]
+- Niculescu, M. C., & Minea, M. (2016). Developing a single window integrated platform for multimodal transport management and logistics. Transportation Research Procedia, 14, 1453-1462.
+- SteadieSeifi, M., Dellaert, N. P., Nuijten, W., Van Woensel, T., & Raoufi, R. (2014). Multimodal freight transportation planning: A literature review. European journal of operational research, 233(1), 1-15.
 
 ## Freight hubs {#freight_hubs}
 

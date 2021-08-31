@@ -31,81 +31,82 @@ The authors welcome any feedback, questions and contributions that the readers m
 
 1. [Introduction to the knowledge pool](#intro)
 2. [Physical road infrastructure](#infrastructure)
-    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
-    - [Operational design domains](#ODD) **NEW**
-    - [Rail crossing information system](#rail_crossing_info_system) **NEW**
-    - [Electric road system](#ers) **NEW**
-    - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
-    - [Public transport priority systems](#public_trans_priority) **NEW**
-    - [Transformation of public space and digital solutions](#transformation_public_space) **NEW**
+    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes)  
+    - [Operational design domains](#ODD)  
+    - [Rail crossing information system](#rail_crossing_info_system)  
+    - [Electric road system](#ers)  
+    - [High occupancy vehicle and toll lanes](#high_occupancy)  
+    - [Public transport priority systems](#public_trans_priority)  
+    - [Transformation of public space and digital solutions](#transformation_public_space)  
 3. [Highway infrastructure management](#highway)
-    - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
-    - [Electric charging stations](#charging_station) **NEW**
+    - [Unmanned aerial vehicles for infrastructure maintenance](#uav)  
+    - [Electric charging stations](#charging_station)  
 4. [Traffic management](#traffic)
-    - [Congestion charging](#congestion_charging) **NEW**
-    - [Platooning](#platooning) **NEW**
-    - [Real-time traffic information and monitoring](#traffic_info_monitoring) **NEW**
-    - [Cooperative - intelligent transport system](#cits) **NEW**
-    - [Dynamic route guidance](#dynamic_route) **NEW**
-    - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
-    - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
-    - [Passengers and goods fleet management](#p_g_fleet_management) **NEW**
-    - [Urban access management](#urban_access) **NEW**
+    - [Congestion charging](#congestion_charging)  
+    - [Platooning](#platooning)  
+    - [Real-time traffic information and monitoring](#traffic_info_monitoring)  
+    - [Cooperative - intelligent transport system](#cits)  
+    - [Dynamic route guidance](#dynamic_route)  
+    - [Variable speed limits and dynamic signage system](#variable_speed)  
+    - [Smart traffic signal control](#adaptive_traffic_control)  
+    - [Passengers and goods fleet management](#p_g_fleet_management)  
+    - [Urban access management](#urban_access)  
 5. [Digital road infrastructure and connectivity](#digital)
-    - [Vehicle to everything communication](#v2x) **NEW**
-    - [Infrastructure support levels for automated driving](#infrast_support_level) **NEW**
+    - [Vehicle to everything communication](#v2x)  
+    - [Infrastructure support levels for automated driving](#infrast_support_level)  
 6. [Passenger information system](#passenger)
-    - [Digital journey planner](#djp) **NEW**
-    - [Multimodal information and route planning](#info_and_route_planning) **NEW**
+    - [Digital journey planner](#djp)  
+    - [Multimodal information and route planning](#info_and_route_planning)  
 7. [Multimodal integrated system](#multimodal)
-    - [First-last mile solutions](#flms) **NEW**
-    - [Transit fares](#dist_time_fares) **NEW**
-    - [Mobility as a service (MaaS)](#maas) **NEW**
-    - [Park and ride](#p_r) **NEW**
-    - [Contactless public transport cards](#contactless_cards) **NEW**
-    - [Information and assistance for people with special needs](#special_needs) **NEW**
-    - [Mobility hubs](#mobility_hubs) **NEW**
-    - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
+    - [First-last mile solutions](#flms)  
+    - [Transit fares](#dist_time_fares)  
+    - [Mobility as a service (MaaS)](#maas)  
+    - [Park and ride](#p_r)  
+    - [Contactless public transport cards](#contactless_cards)  
+    - [Information and assistance for people with special needs](#special_needs)  
+    - [Mobility hubs](#mobility_hubs)  
+    - [Rail telematics for passengers and freight](#rail_telematics)  
 8. [Automated driving](#connected)
-    - [Automated passenger cars](#av) **NEW**
-    - [Automated road freight](#automated_road_freight) **NEW**
+    - [Automated passenger cars](#av) 
+    - [Parking infrastructure for automated vehicles](#parking_av)
+    - [Automated road freight](#automated_road_freight)  
 9. [On-board technology for connected and automated vehicles](#onboard)
-    - [Advanced driver assistance system (ADAS)](#adas) **NEW**
-    - [Parking assistance system](#parking_assistance) **NEW**
-    - [Lane keeping](#lane_keeping) **NEW**
-    - [Digital maps](#digital_maps) **NEW**
-    - [Electronic horizon](#ehorizon) **NEW**
-    - [Emergency call](#ecall) **NEW**
+    - [Advanced driver assistance system (ADAS)](#adas)  
+    - [Parking assistance system](#parking_assistance)  
+    - [Lane keeping](#lane_keeping)  
+    - [Digital maps](#digital_maps)  
+    - [Electronic horizon](#ehorizon)  
+    - [Emergency call](#ecall)  
 10. [Freight and commercial transport](#freight)
-    - [Tracking and tracing of goods](#dangerous_goods) **NEW**
-    - [Intermodal Freight](#intermodal_freight) **NEW**
-    - [Urban deliveries](#urban_delivery) **NEW**
-    - [Intelligent truck parking](#intelligent_truck_park) **NEW**
-    - [Smart delivery space booking](#space_book) **NEW**
-    - [Delivery drones](#delivery_drone) **NEW**
-    - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
-    - [Multimodal transport management systems](#mtms)
-    - [Freight hubs](#freight_hubs) **NEW**
+    - [Tracking and tracing of goods](#dangerous_goods)  
+    - [Intermodal Freight](#intermodal_freight)  
+    - [Urban deliveries](#urban_delivery)  
+    - [Intelligent truck parking](#intelligent_truck_park)  
+    - [Smart delivery space booking](#space_book)  
+    - [Delivery drones](#delivery_drone)  
+    - [Electric vehicle delivery fleets](#electric_delivery_fleets)  
+    - [Multimodal transport management systems](#mtms)  
+    - [Freight hubs](#freight_hubs)  
 11. [Collective mobility vehicles](#collective)
-    - [Demand responsive transit](#drt) **NEW**
-    - [Personal rapid transit](#prt) **NEW**
-    - [Bus rapid transit](#brt) **NEW**
-    - [Light rail transit](#lrt) **NEW**
-    - [Passenger drones](#passenger_drones) **NEW**
-    - [Automatic train operations](#automatic_train) **NEW**
+    - [Demand responsive transit](#drt)  
+    - [Personal rapid transit](#prt)  
+    - [Bus rapid transit](#brt)  
+    - [Light rail transit](#lrt)  
+    - [Passenger drones](#passenger_drones)  
+    - [Automatic train operations](#automatic_train)  
 12. [Big data](#big)
-    - [Wireless communication systems](#wireless_com) **NEW**
+    - [Wireless communication systems](#wireless_com)  
     - [Big data lifecycle](#bd_life)
-    - [Big data tools for maping and forecasting travel behaviour](#bd_tool_maping)
+    - [Big data tools for mapping and forecasting travel behaviour](#bd_tool_maping)  
 13. [Shared mobility](#shared)
-    - [Car sharing](#car_sharing) **NEW**
-    - [Bicycle and e-bicycle hire](#bike_sharing) **NEW**
-    - [E-scooters](#scooters) **NEW**
-    - [Ride-hailing & Ride-sharing](#ride_hailing) **NEW**
+    - [Car sharing](#car_sharing)  
+    - [Bicycle and e-bicycle hire](#bike_sharing)  
+    - [E-scooters](#scooters)  
+    - [Ride-hailing & Ride-sharing](#ride_hailing)  
 14. [Alternative power sources](#alternative)
-    - [Hydrogen fuel cell](#FCEV) **NEW**
-    - [Battery electric](#bev) **NEW**
-    - [Plugin hybrid vehicles](#plugin_hybrid) **NEW**
+    - [Hydrogen fuel cell](#FCEV)  
+    - [Battery electric](#bev)  
+    - [Plugin hybrid vehicles](#plugin_hybrid)  
 15. [References](#reference)
 
 The knowledge pool was last compiled on:
@@ -118,81 +119,82 @@ format(Sys.time(),'%d %B %Y')
 
 1. [Introduction to the knowledge pool](#intro)
 2. [Physical road infrastructure](#infrastructure)
-    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes) **NEW**
-    - [Operational design domains](#ODD) **NEW**
-    - [Rail crossing information system](#rail_crossing_info_system) **NEW**
-    - [Electric road system](#ers) **NEW**
-    - [High occupancy vehicle and toll lanes](#high_occupancy) **NEW**
-    - [Public transport priority systems](#public_trans_priority) **NEW**
-    - [Transformation of public space and digital solutions](#transformation_public_space) **NEW**
+    - [Dedicated lanes for connected and automated vehicles (CAV)](#dedicated_lanes)  
+    - [Operational design domains](#ODD)  
+    - [Rail crossing information system](#rail_crossing_info_system)  
+    - [Electric road system](#ers)  
+    - [High occupancy vehicle and toll lanes](#high_occupancy)  
+    - [Public transport priority systems](#public_trans_priority)  
+    - [Transformation of public space and digital solutions](#transformation_public_space)  
 3. [Highway infrastructure management](#highway)
-    - [Unmanned aerial vehicles for infrastructure maintenance](#uav) **NEW**
-    - [Electric charging stations](#charging_station) **NEW**
+    - [Unmanned aerial vehicles for infrastructure maintenance](#uav)  
+    - [Electric charging stations](#charging_station)  
 4. [Traffic management](#traffic)
-    - [Congestion charging](#congestion_charging) **NEW**
-    - [Platooning](#platooning) **NEW**
-    - [Real-time traffic information and monitoring](#traffic_info_monitoring) **NEW**
-    - [Cooperative - intelligent transport system](#cits) **NEW**
-    - [Dynamic route guidance](#dynamic_route) **NEW**
-    - [Variable speed limits and dynamic signage system](#variable_speed) **NEW**
-    - [Smart traffic signal control](#adaptive_traffic_control) **NEW**
-    - [Passengers and goods fleet management](#p_g_fleet_management) **NEW**
-    - [Urban access management](#urban_access) **NEW**
+    - [Congestion charging](#congestion_charging)  
+    - [Platooning](#platooning)  
+    - [Real-time traffic information and monitoring](#traffic_info_monitoring)  
+    - [Cooperative - intelligent transport system](#cits)  
+    - [Dynamic route guidance](#dynamic_route)  
+    - [Variable speed limits and dynamic signage system](#variable_speed)  
+    - [Smart traffic signal control](#adaptive_traffic_control)  
+    - [Passengers and goods fleet management](#p_g_fleet_management)  
+    - [Urban access management](#urban_access)  
 5. [Digital road infrastructure and connectivity](#digital)
-    - [Vehicle to everything communication](#v2x) **NEW**
-    - [Infrastructure support levels for automated driving](#infrast_support_level) **NEW**
+    - [Vehicle to everything communication](#v2x)  
+    - [Infrastructure support levels for automated driving](#infrast_support_level)  
 6. [Passenger information system](#passenger)
-    - [Digital journey planner](#djp) **NEW**
-    - [Multimodal information and route planning](#info_and_route_planning) **NEW**
+    - [Digital journey planner](#djp)  
+    - [Multimodal information and route planning](#info_and_route_planning)  
 7. [Multimodal integrated system](#multimodal)
-    - [First-last mile solutions](#flms) **NEW**
+    - [First-last mile solutions](#flms)  
     - [Transit fares](#dist_time_fares)
-    - [Mobility as a service (MaaS)](#maas) **NEW**
-    - [Park and ride](#p_r) **NEW**
-    - [Contactless public transport cards](#contactless_cards) **NEW**
-    - [Information and assistance for people with special needs](#special_needs) **NEW**
-    - [Mobility hubs](#mobility_hubs) **NEW**
-    - [Rail telematics for passengers and freight](#rail_telematics) **NEW**
+    - [Mobility as a service (MaaS)](#maas)  
+    - [Park and ride](#p_r)  
+    - [Contactless public transport cards](#contactless_cards)  
+    - [Information and assistance for people with special needs](#special_needs)  
+    - [Mobility hubs](#mobility_hubs)  
+    - [Rail telematics for passengers and freight](#rail_telematics)  
 8. [Automated driving](#connected)
-    - [Automated passenger cars](#av) **NEW**
-    - [Automated road freight](#automated_road_freight) **NEW**
+    - [Automated passenger cars](#av)
+    - [Parking infrastructure for automated vehicles](#parking_av)
+    - [Automated road freight](#automated_road_freight)  
 9. [On-board technology for connected and automated vehicles](#onboard)
-    - [Advanced driver assistance system (ADAS)](#adas) **NEW**
-    - [Parking assistance system](#parking_assistance) **NEW**
-    - [Lane keeping](#lane_keeping) **NEW**
-    - [Digital maps](#digital_maps) **NEW**
-    - [Electronic horizon](#ehorizon) **NEW**
-    - [Emergency call](#ecall) **NEW**
+    - [Advanced driver assistance system (ADAS)](#adas)  
+    - [Parking assistance system](#parking_assistance)  
+    - [Lane keeping](#lane_keeping)  
+    - [Digital maps](#digital_maps)  
+    - [Electronic horizon](#ehorizon)  
+    - [Emergency call](#ecall)  
 10. [Freight and commercial transport](#freight)
-    - [Tracking and tracing of goods](#dangerous_goods) **NEW**
-    - [Intermodal Freight](#intermodal_freight) **NEW**
-    - [Urban deliveries](#urban_delivery) **NEW**
-    - [Intelligent truck parking](#intelligent_truck_park) **NEW**
-    - [Smart delivery space booking](#space_book) **NEW**
-    - [Delivery drones](#delivery_drone) **NEW**
-    - [Electric vehicle delivery fleets](#electric_delivery_fleets) **NEW**
-    - [Multimodal transport management systems](#mtms)
-    - [Freight hubs](#freight_hubs) **NEW**
+    - [Tracking and tracing of goods](#dangerous_goods)  
+    - [Intermodal Freight](#intermodal_freight)  
+    - [Urban deliveries](#urban_delivery)  
+    - [Intelligent truck parking](#intelligent_truck_park)  
+    - [Smart delivery space booking](#space_book)  
+    - [Delivery drones](#delivery_drone)  
+    - [Electric vehicle delivery fleets](#electric_delivery_fleets)  
+    - [Multimodal transport management systems](#mtms)  
+    - [Freight hubs](#freight_hubs)  
 11. [Collective mobility vehicles](#collective)
-    - [Demand responsive transit](#drt) **NEW**
-    - [Personal rapid transit](#prt) **NEW**
-    - [Bus rapid transit](#brt) **NEW**
-    - [Light rail transit](#lrt) **NEW**
-    - [Passenger drones](#passenger_drones) **NEW**
-    - [Automatic train operations](#automatic_train) **NEW**
+    - [Demand responsive transit](#drt)  
+    - [Personal rapid transit](#prt)  
+    - [Bus rapid transit](#brt)  
+    - [Light rail transit](#lrt)  
+    - [Passenger drones](#passenger_drones)  
+    - [Automatic train operations](#automatic_train)  
 12. [Big data](#big)
-    - [Wireless communication systems](#wireless_com) **NEW**
+    - [Wireless communication systems](#wireless_com)  
     - [Big data lifecycle](#bd_life)
-    - [Big data tools for maping and forecasting travel behaviour](#bd_tool_maping)
+    - [Big data tools for mapping and forecasting travel behaviour](#bd_tool_maping)  
 13. [Shared mobility](#shared)
-    - [Car sharing](#car_sharing) **NEW**
-    - [Bicycle and e-bicycle hire](#bike_sharing) **NEW**
-    - [E-scooters](#scooters) **NEW**
-    - [Ride-hailing & Ride-sharing](#ride_hailing) **NEW**
+    - [Car sharing](#car_sharing)  
+    - [Bicycle and e-bicycle hire](#bike_sharing)  
+    - [E-scooters](#scooters)  
+    - [Ride-hailing & Ride-sharing](#ride_hailing)  
 14. [Alternative power sources](#alternative)
-    - [Hydrogen fuel cell](#FCEV) **NEW**
-    - [Battery electric](#bev) **NEW**
-    - [Plugin hybrid vehicles](#plugin_hybrid) **NEW**
+    - [Hydrogen fuel cell](#FCEV)  
+    - [Battery electric](#bev)  
+    - [Plugin hybrid vehicles](#plugin_hybrid) 
 15. [References](#reference)
 
 

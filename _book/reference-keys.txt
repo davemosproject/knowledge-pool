@@ -10,9 +10,10 @@ fig:unnamed-chunk-27
 fig:unnamed-chunk-30
 fig:unnamed-chunk-31
 fig:unnamed-chunk-36
-fig:unnamed-chunk-44
-fig:unnamed-chunk-45
 fig:unnamed-chunk-46
+fig:unnamed-chunk-48
+fig:unnamed-chunk-53
+fig:unnamed-chunk-54
 intro
 infrastructure
 dedicated_lanes
@@ -78,9 +79,9 @@ collective
 drt
 prt
 brt
-further-links-41
-lrt
 further-links-42
+lrt
+further-links-43
 passenger_drones
 automatic_train
 big
