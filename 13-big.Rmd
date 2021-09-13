@@ -1,6 +1,6 @@
 # Big data {#big}
 
-## Wireless communication systems {#wireless_com}
+## Wireless communication systems in transport {#wireless_com}
 
 ### Synonyms {-}
 *Floating Car Data (FCD), Dedicated Short-Range Communications (DSRC/ITS-G5 in Europe), Vehicle-to-x (car and infrastructure) (C2x/V2x), Cellular-V2X technology (C-V2X), Vehicular ad hoc network (VANET)*
@@ -28,7 +28,7 @@ The term "*cellular*" in C-V2X can cause some confusion. "*Cellular*" in this co
 
 **Similarities**
 
--	Both DSRC and C-V2X use the 5.9Ghz band to communicate directly from one radio to another.
+-	Both DSRC and C-V2X use the 5.9 Ghz band to communicate directly from one radio to another.
 -	Both technologies use the same message sets (SAE J2735 and J2945) and use cases.
 -	Both technologies use digital signatures to ensure security and trust in message providers.
 -	In both cases, there is no link between radios. Each radio broadcasts the vehicle's location, speed, acceleration and other status elements while listening to other radios.
@@ -47,7 +47,7 @@ Also relevant for wireless communications in the transport sector is VANET, a ve
 ### Current state of art in research {-}
 Long before the creation of 5G, V2X communication was studied. Many analysts and people in the industry expect 5G to be the future technology for V2X communication due to the new speeds and other technical advances in 5G. Consequently, the security of 5G and how it can be integrated into the current ITS model needs to be studied extensively (Annu et al., 2021).<br/>
 
-Some research investigates different materials and their properties for wireless communication (Nitika et al., 2021). There is also already some research being done on 6G antenna specifications for the next generation. The terahertz (THz) frequency band (0.1-10 THz) will be used in the 6G wireless communications system to support user demand for higher data rates and ultra-high-speed communications for many future applications (Hajiyat et al., 2021). Further, Zhao et al. (2019) are testing a DSRC-based collision warning system because the accuracy of GPS is slightly affected by the driving environment, especially when shielded. Multi-sensor fusion positioning technology is a promising method to improve the accuracy of safety distance calculation and achieve lane-accurate positioning.<br/>
+Some research investigates different materials and their properties for wireless communication (Nitika et al., 2021). There is also already some research being done on 6G antenna specifications for the next generation. The terahertz (THz) frequency band (0.1 - 10 THz) will be used in the 6G wireless communications system to support user demand for higher data rates and ultra-high-speed communications for many future applications (Hajiyat et al., 2021). Further, Zhao et al. (2019) are testing a DSRC-based collision warning system because the accuracy of GPS is slightly affected by the driving environment, especially when shielded. Multi-sensor fusion positioning technology is a promising method to improve the accuracy of safety distance calculation and achieve lane-accurate positioning.<br/>
 
 Mannoni et al. (2019) compared TS-G5 and C-V2X for the V2X Communication Systems. C-V2X was showed to have better flexibility and performance than ITS-G5 at the same data rate. Based on the performance of the physical layer, the behaviour of both standards was evaluated in a network without mobile coverage and with multiple vehicles. Simulations showed that C-V2X performs better than ITS-G5 when the density of user is low. However, the performance of C-V2X deteriorates more than that of ITS-G5 when the level of congestion increases. The comparison of resource access time (latency) shows an advantage for ITS-G5, but the overall latency is not clearly better as it strongly depends on user density and coverage.<br/>
 
@@ -72,7 +72,7 @@ DSRC modules are already used for truck toll billing in Austria. Around 152000 v
 
 - [Toll-collect.de](https://www.toll-collect.de/de/toll_collect/unternehmen/presse/pressemitteilungen/detailseite_press_6241.html)
 
-Another current application of DSRC is the remote retrieval of tachograph data by control authorities. Since 15 June 2019, it has been mandatory to equip new trucks and buses over 3.5t hzGG with a "smart tacho" that enables this (WKÖ, 2019). There are currently two C-ITS test environments: one around Vienna and one near Graz. The plan is to expand from 2020 onwards. The first area to be covered will be the Salzburg - Vienna corridor, the A2 around Graz and selected border areas.<br/>
+Another current application of DSRC is the remote retrieval of tachograph data by control authorities. Since 15 June 2019, it has been mandatory to equip new trucks and buses over 3.5t MPTW (maximum permissible total weight) with a "smart tacho" that enables this (WKÖ, 2019). There are currently two C-ITS test environments: one around Vienna and one near Graz. The plan is to expand from 2020 onwards. The first area to be covered will be the Salzburg - Vienna corridor, the A2 around Graz and selected border areas.<br/>
 
 At the European level, a community of road operators, vehicle and agricultural machinery manufacturers, cities, as well as industrial and telecom companies have come together to form an interest group called the "*C-ITS Deployment Group*". The members of this group are committed to a coordinated C-ITS deployment in Europe, that is, C-ITS services should look the same across Europe and be understood by all vehicles (Erhart, 2019).
 

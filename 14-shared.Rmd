@@ -91,7 +91,7 @@ cat('|TRL| SRL|
 -	VCÖ - Mobilität mit Zukunft. (2018). Mehr als 100.000 Carsharing-Haushalte in Österreich – Potenzial um ein Vielfaches höher - Mobilität mit Zukunft. https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018
 
 
-## Bicycle and e-bicycle hire {#bike_sharing}
+## Bicycle and e-bicycle sharing {#bike_sharing}
 
 ### Synonyms {-}
 *bike-sharing schemes (BSS), station-based bike-sharing schemes (SBBSS), free-floating bike-sharing schemes (FFBSS)*
@@ -195,7 +195,7 @@ cat('|TRL| SRL|
 -	Zademach, H. M., & Musch, A. K. (2018). Bicycle-sharing systems in an alternative/diverse economy perspective: a sympathetic critique. Local Environment, 23(7), 734–746. https://doi.org/10.1080/13549839.2018.1434494
 -	Zhang, Y., Lin, D., & Mi, Z. (2019). Electric fence planning for dockless bike-sharing services. Journal of Cleaner Production, 206, 383–393. https://doi.org/10.1016/j.jclepro.2018.09.215
 
-## E-scooters {#scooters}
+## E-scooters sharing {#scooters}
 
 ### Synonyms {-}
 *electric scooter*
@@ -270,7 +270,7 @@ cat('|TRL| SRL|
 -	Wiener Linien. (n.d.). Übersicht Tickets | Tickets | Fahrgastinfo | Wiener Linien. Retrieved 20 January 2021, from https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648
 -	Zagorskas, J., & Burinskiene, M. (2020). Challenges caused by increased use of E-powered personal mobility vehicles in European cities. Sustainability (Switzerland), 12(1), 273. https://doi.org/10.3390/su12010273
 
-## Ride-hailing & Ride-sharing {#ride_hailing}
+## Ride hailing and ride sharing {#ride_hailing}
 
 ### Synonyms {-}
 
@@ -381,3 +381,103 @@ cat('|TRL| SRL|
 -	Uber Technologies Inc. (n.d.). Erhalte eine Konzession in Österreich. Retrieved March 30, 2021, from https://www.uber.com/at/de/drive/requirements/get-a-license/
 -	Uber, & Mothers Against Drunk Driving (MADD). (2015). MORE OPTIONS. SHIFTING MINDSETS. DRIVING BETTER CHOICES. #ThinkandRide.
 
+
+## Passenger drones {#passenger_drones}
+
+### Synonyms {-}
+*urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs)*
+
+### Definition {-}
+Drones or unmanned aerial vehicles (UAVs) could become the most iconic technology of the 21st century. Drones combine three key principles of technological modernity - computing, autonomy and limitless mobility. Capabilities that until now could only be used by the military are becoming accessible to most of the population. Potential use cases for drones range from surveillance and reconnaissance missions to novel forms of logistics and personal transport. The commercial use of drones is associated with enormous economic opportunities. However, even though drones are already common as surveillance/sensing devices in security services, geodesy or agriculture, their use as a means of transport is still at the beginning (Kellermann et al., 2020). <br/><br/>
+Delivery drones are currently able to lift weights of up to 2-3 kg and carry out flight missions in an urban space (Kellermann et al., 2020). However, passenger drones have also already demonstrated the technical ability to transport passengers within or between cities (LeBeau, 2016; Holt, 2018; Hawkins, 2018). It is not only a historic turning point in aviation, but the beginning of a new era in which flat airspace could become the "third dimension" of transport (Kellermann et al., 2020).<br/><br/>
+The name of the new type of vehicle is still far from being agreed internationally. There are several names to choose from, such as passenger drone, manned multicopter, Passenger Air Vehicle (PAV), Electric Vertical Take-off and Landing Aircraft (EVTOL), autonomous air taxis, unmanned aerial taxis, flying cars or even a new term (Pramer & Sommavilla, 2020). <br/><br/>
+The autonomous air taxis will be a mixture of helicopter and drone. But this also means that they will be vertical take-off and landing (VTOL) vehicles.
+There are several reasons why drone-related industries are being supported significantly. One of the reasons is that the airspace is still fairly free of traffic. The risk of collisions is (relatively) low and autopilots for aircraft have long been established. Industry experts therefore suspect that we could see self-flying air taxis even before self-driving cars. Being able to do without pilots would make an air taxi service even cheaper and make it possible for more people to afford it (UNIQA, 2019).<br/><br/>
+The European Commission estimates the economic impact at €10 billion annually until 2035 and foresees the creation of more than 100,000 direct jobs. Taking into account indirect macroeconomic effects in drone-related industries, the Commission even projects 250,000 to 400,000 additional jobs (SESAR, 2016).
+
+### Key stakeholders {-}
+
+- **Affected**: Citizen, Insurers
+- **Responsible**: National Governments, City government, Private Companies
+
+### Current state of art in research {-}
+Since all prototypes are owned by private companies and the technology is not really shared due to competition, there are few technical research papers.
+The media analysis about drones for parcel and passenger transportation shows that currently the research is focused in the following areas (see table below):  
+
+```{r table17, echo=FALSE, results='asis'}
+cat('| Topics| Percentage|Number of studies|
+|:------------:|:-----------:|:------------:|
+|General Surveys    |   18.9%  |  21   |
+|Logistics (general)  |  18.0%   |  20   |
+|Attitude and Acceptance Research    | 13.5%    |  15   |
+|Law and Regulations    | 11.7%    |   13  |
+|Ethics and Technology Assessment    | 10.8%    |  12   |
+|Sustainability Assessment    | 8.1%    |  9   |
+|Urban and Transportation Planning    |  7.2%   |  8   |
+|Political agenda/strategies    |  6.3%   |   7  |
+|Passenger Transportation   |  2.7%   |  3   |
+|Humanitarian Logistics    |2.7%     |   3  |') 
+```
+
+And although there are currently no autonomous air taxis, there is an initial research examining the factors of consumer willingness to fly in autonomous air taxis. This study identified four factors that turned out to be significantly positive: Familiarity, Value, Fun Factor, Sense of Happiness and two as significantly negative: Aversion to New Technology and Fear (Winter et al., 2020). <br/><br/>
+When comparing the GHG emissions of conventional cars with VTOL passenger drones, the passenger drone actually performs a little better than the ordinary car from 35 km onwards. The reasons for this break-even point are, on the one hand, the energy-intensive take-off and landing hover mode and, on the other hand, the enormous efficiency of flying from point A to point B. Given the expected significant time savings over flying, passengers may have an incentive to share VTOL journeys. Therefore, it seems likely that the average occupancy of VTOLs will be greater than that of conventional passenger cars (Kasliwal et al., 2019).
+
+### Current state of art in practice {-}
+There are quite a few providers working to develop the unmanned aerial taxis. Munich-based start-up *Lilium* successfully launched a one-and-a-half-ton prototype vertically into the air and hovered in place in early May 2019. It sounds like a helicopter, but it doesn't look like one: The Lilium Jet has wings and 36 all-electric jet motors. That makes it quieter and more energy efficient (and makes it look more futuristic) than a helicopter. Lilium expects to be able to start commercial everyday operation not before 2025.<br/><br/>
+But *Lilium* is far from the only manufacturer. *Joby Aviation, Volocopter, AeroMobil, Kittyhawk* and *Zee.Aero* are just a few of the companies hoping to place the most successful model on the market. Already established companies are also taking the concept very seriously. Mobility company *Uber*, aircraft manufacturers *Airbus* and *Boeing*, and car companies such as *Daimler* and *Porsche* are in the race (UNIQA, 2019).
+Some manufacturers such as Boeing (LeBeau, 2016), Airbus (Hawkins, 2018) and Volocopter (Holt, 2018) have already conducted the first flight tests of their prototypes.<br/><br/>
+The European Union proposes that support services such as flight planning, flight permits and clearances, and dynamic airspace information will be available for drone flight from 2022. From 2027, services such as collision avoidance and capacity management in congested areas will follow. From 2035, according to the European Commission's timetable, the full integration of unmanned aerial vehicles into controlled airspace with manned aviation should be completed (Wiener Zeitung, 2019).<br/><br/>
+The air taxi will not be shuttling crowds of tourists between Schwechat and Stephansplatz in the next ten years. But thanks to the decreasing noise levels of the rotors, which are no longer noticeable in the "normal city noise", as Volocopter claims, they will be used more and more often in one or the other metropolis with millions of inhabitants - possibly also in Vienna (Pramer & Sommavilla, 2020).
+
+The first approved test track in Austria for an unmanned aerial taxi is located in Linz. There is already a functioning prototype in Austria that was developed by *Ehang* in China and built by *FACC* in Innviertel. The aircraft costs around 300,000 euros, weighs 360 kilos, is equipped with 16 electric motors and 16 rotors and is designed to autonomously transport two people. The batteries of the eight-armed drone are sufficient for about 50 kilometres. In its own production line in Ried, 300 units are to be delivered by the end of next year. In order for them to be able to take off in Europe and also for Linz AG, they are working with Austro Control on the "approval regulations", explains FACC board member Robert Machtlinger. 
+In Linz it was once again said that this type of passenger transport is seen as a supplement to bus and train. The air enables the fastest connection from A to B in urban areas. However, before the first test route is set up in the Upper Austrian capital for this autonomous transport, 5G mobile radio must first be installed, which was planned for spring 2020 (DerStandard, 2019).
+
+### Relevant initiatives in Austria {-}
+
+- [derbrutkasten.com](https://www.derbrutkasten.com/autonome-lufttaxis-linz-ag-facc-ehang/) 
+- [derstandard.at-1](https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz) 
+- [derstandard.at-2](https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte) 
+
+### Impacts with respect to Sustainable Development Goals (SDGs) {-}
+
+```{r table18, echo=FALSE, results='asis'}
+cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
+|:------------:|:-----------:|:------------:|:------------:|:------------:|
+|Individual|It is expected to be too costly for general use|**-**|Equality (*5,10*)|Pramer & Sommavilla, 2020|
+|Individual|The flight price is expected to settle in the range of a very expensive taxi|          **-**|Sustainable economic development (*8,11*)|Pramer & Sommavilla, 2020|
+|Systemic|Slightly reduced GHG emissions compared to conventional cars from 35 km onwards|**~**|Environmental sustainability (*7,12,13,15*)|Kasliwal et al., 2019|
+|Systemic|Increased investment until 2035 and creation of job opportunities|          **+**|Sustainable economic development (*8,11*)|SESAR, 2016|
+|Systemic|Stationary areas for safety checks|          **~**|Innovation & Infrastructure (*9*)|Pramer & Sommavilla, 2020|')
+```
+
+### Technology and societal readiness level {-}
+
+```{r table19, echo=FALSE, results='asis'}
+cat('|TRL| SRL|
+|:----:|:----:|
+|5-6|1-3|')
+```
+
+### Open questions {-}
+
+1. Who will develop the regulations for passenger drones?
+2. How much space is needed for take-off and landing, and will this differ between the various providers?
+3. What types of routes will be replaced with flying taxis?
+4. Will some companies work together and share their technologies?
+5. What other areas of application will there be?
+6. What will be the thematic priorities for development in the coming years?
+7. What name will be agreed internationally for this type of vehicles?
+
+
+### References {-}
+-	DerStandard. (2019, May 14). Teststrecke: Erstes unbemanntes Lufttaxi hebt 2020 in Linz ab - Unternehmen - derStandard.at › Wirtschaft. https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz
+-	Holt, K. (2018, October 24). Volocopter will test its autonomous air taxis in Singapore next year | Engadget. https://www.engadget.com/2018-10-24-volocopter-air-taxi-test-singapore-autonomous-drone-helicopter.html
+-	J. Hawkins, A. (2018, February 1). Airbus’ autonomous ‘air taxi’ Vahana completes its first test flight - The Verge. https://www.theverge.com/2018/2/1/16961688/airbus-vahana-evtol-first-test-flight
+-	Kasliwal, A., Furbush, N. J., Gawron, J. H., McBride, J. R., Wallington, T. J., De Kleine, R. D., Kim, H. C., & Keoleian, G. A. (2019). Role of flying cars in sustainable mobility. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09426-0
+-	Kellermann, R., Biehle, T., & Fischer, L. (2020). Drones for parcel and passenger transportation: A literature review. Transportation Research Interdisciplinary Perspectives, 4, 100088. https://doi.org/10.1016/j.trip.2019.100088
+-	LeBeau, P. (2016, January 23). Boeing’s first test flight of air taxi a success as it works on Uber Air. https://www.cnbc.com/2019/01/23/boeing-takes-step-in-developing-uber-air--with-successful-test-flight.html
+-	Pramer, P., & Sommavilla, F. (2020, December 11). Flugtaxis: Wann kommt der Tesla der Lüfte? - PodcastEditionZukunft - derStandard.at › EditionZukunft. https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte
+-	SESAR. (2016). European Drones Outlook Study. In Single European Sky ATM Research (Issue November). https://doi.org/10.2829/219851
+-	UNIQA. (2019, October 24). Lufttaxis: Die Überflieger im Verkehr | UNIQA Österreich | UNIQA Österreich. https://www.uniqa.at/versicherung/mobilitaet/lufttaxis.html
+-	Wiener Zeitung. (2019, September 20). Regelwerk für autonome Lufttaxis noch offen - Wiener Zeitung Online. https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2030182-Fliegen-statt-fahren.html
+-	Winter, S. R., Rice, S., & Lamb, T. L. (2020). A prediction model of Consumer’s willingness to fly in autonomous air taxis. Journal of Air Transport Management, 89(August), 101926. https://doi.org/10.1016/j.jairtraman.2020.101926

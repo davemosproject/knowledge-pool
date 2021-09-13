@@ -56,9 +56,10 @@ connected
 av
 parking_av
 automated_road_freight
+automatic_train
 onboard
 adas
-synonyms-29
+synonyms-30
 further-links-28
 parking_assistance
 lane_keeping
@@ -82,8 +83,6 @@ brt
 further-links-42
 lrt
 further-links-43
-passenger_drones
-automatic_train
 big
 wireless_com
 bd_life
@@ -93,6 +92,7 @@ car_sharing
 bike_sharing
 scooters
 ride_hailing
+passenger_drones
 alternative
 FCEV
 bev
