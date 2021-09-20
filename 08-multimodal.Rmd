@@ -150,9 +150,13 @@ Most new micromobility platform startups (mainly e-scooters) were initially unpr
 
 
 - Mobility-as-a-Service
-    - [Blog.railcargo.com](https://blog.railcargo.com/en/artikel/smart-cargo-erstmontage)
-    - [Statistik.at](https://www.statistik.at/web_de/statistiken/energie_umwelt_innovation_mobilitaet/verkehr/schiene/gueterverkehr/index.html)
-    - [Railcargo.com](https://www.railcargo.com/de/unternehmen/international/oesterreich)
+    - [AustriaTech.at](https://www.austriatech.at/assets/Uploads/Publikationen/PDF-Dateien/29fc02ada2/MaaS-miA_english_102019_web.pdf)
+    - [maas-ready.at](https://maas-ready.at) 
+    - [ultimob.at](https://www.ultimob.at) 
+    - [tim-oesterreich.at](https://www.tim-oesterreich.at/graz/) 
+    - [wegfinder.at](https://wegfinder.at/) 
+    - [wienerlinien.at](https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-3600060) 
+    - [anachb.vor.at](https://anachb.vor.at/) 
 
 - Passenger drones
     - [Derbrutkasten.com](https://brutkasten.com/autonome-lufttaxis-linz-ag-facc-ehang/)
