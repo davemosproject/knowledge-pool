@@ -174,7 +174,7 @@ cat('|TRL| SRL|
 - Tsugawa, S. (2006). Trends and issues in safe driver assistance systems: Driver acceptance and assistance for elderly drivers. IATSS research, 30(2), 6-18.
 - ÖAMTC. (2019, May 14). ÖAMTC: Fünf Parkassistenten mit Notbremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019. https://www.ots.at/presseaussendung/OTS_20190514_OTS0021/oeamtc-fuenf-parkassistenten-mit-notbremssystem-im-test-fotos-grafik
 
-## Lane keeping {#lane_keeping}
+## Lane keeping assist system {#lane_keeping}
 
 ### Synonyms {-}
 *Lane Keeping Assist System (LKAS), Lane Keeping Assist (LKA)*
