@@ -462,10 +462,10 @@ cat('|TRL| SRL|
 ```
 
 ### Open questions {-}
-1.How can a sustainability transformation be reached through MaaS and what circumstances does it require? 
-2.How can data protection be ensured when using MaaS? 
-3.How fast is MaaS going to be implemented? 
-4.How can bureaucratic hurdles be overcome in a timely manner?
+1. How can a sustainability transformation be reached through MaaS and what circumstances does it require? 
+2. How can data protection be ensured when using MaaS? 
+3. How fast is MaaS going to be implemented? 
+4. How can bureaucratic hurdles be overcome in a timely manner?
 
 
 ### Further links {-}

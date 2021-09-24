@@ -144,8 +144,8 @@ cat('|TRL| SRL|
 
 1. How can bus and rail travel be made as convenient to book as flights? 
 2. Why Austria has not implemented the Transmodel? What's necessary for an implementation?
-3. What effect has Multimodal information & route planning on energy consumption? 
-4. What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for dthese specific groups?
+3. What effect has multimodal information & route planning on energy consumption? 
+4. What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for these specific groups?
  
 ### Further links {-}
 
