@@ -44,9 +44,9 @@
 \contentsline {subsection}{Current state of art in research}{41}{section*.39}%
 \contentsline {subsection}{Current state of art in practice}{42}{section*.40}%
 \contentsline {subsection}{Relevant initiatives in Austria}{42}{section*.41}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{42}{section*.42}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{43}{section*.42}%
 \contentsline {subsection}{Technology and societal readiness level}{43}{section*.43}%
-\contentsline {subsection}{Open questions}{43}{section*.44}%
+\contentsline {subsection}{Open questions}{44}{section*.44}%
 \contentsline {subsection}{Further links}{44}{section*.45}%
 \contentsline {subsection}{References}{44}{section*.46}%
 \contentsline {section}{\numberline {2.5}High occupancy vehicle and toll lanes}{45}{section.2.5}%
@@ -351,11 +351,11 @@
 \contentsline {subsection}{Key stakeholders}{195}{section*.314}%
 \contentsline {subsection}{Current state of art in research}{195}{section*.315}%
 \contentsline {subsection}{Current state of art in practice}{196}{section*.316}%
-\contentsline {subsection}{Relevant initiatives in Austria}{197}{section*.317}%
+\contentsline {subsection}{Relevant initiatives in Austria}{198}{section*.317}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{198}{section*.318}%
 \contentsline {subsection}{Technology and societal readiness level}{198}{section*.319}%
 \contentsline {subsection}{Open questions}{198}{section*.320}%
-\contentsline {subsection}{Further links}{198}{section*.321}%
+\contentsline {subsection}{Further links}{199}{section*.321}%
 \contentsline {subsection}{References}{199}{section*.322}%
 \contentsline {chapter}{\numberline {8}Automated driving}{201}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Automated passenger cars}{201}{section.8.1}%
@@ -645,22 +645,22 @@
 \contentsline {subsection}{Further links}{361}{section*.575}%
 \contentsline {subsection}{References}{361}{section*.576}%
 \contentsline {section}{\numberline {12.2}Big data lifecycle}{363}{section.12.2}%
-\contentsline {subsection}{Definition}{363}{section*.577}%
+\contentsline {subsection}{Definition}{364}{section*.577}%
 \contentsline {subsection}{Key stakeholders}{366}{section*.578}%
 \contentsline {subsection}{Current state of art in research}{366}{section*.579}%
 \contentsline {subsection}{Current state of art in practice}{367}{section*.580}%
 \contentsline {subsection}{Relevant initiatives in Austria}{367}{section*.581}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{367}{section*.582}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{368}{section*.582}%
 \contentsline {subsection}{Technology and societal readiness level}{368}{section*.583}%
 \contentsline {subsection}{Open questions}{368}{section*.584}%
 \contentsline {subsection}{References}{368}{section*.585}%
-\contentsline {section}{\numberline {12.3}Big data tools for mapping and forecasting travel behaviour}{369}{section.12.3}%
+\contentsline {section}{\numberline {12.3}Big data tools for mapping and forecasting travel behaviour}{370}{section.12.3}%
 \contentsline {subsection}{Synonyms}{370}{section*.586}%
 \contentsline {subsection}{Definition}{370}{section*.587}%
-\contentsline {subsection}{Key stakeholders}{374}{section*.588}%
+\contentsline {subsection}{Key stakeholders}{375}{section*.588}%
 \contentsline {subsection}{Current state of art in research}{375}{section*.589}%
 \contentsline {subsection}{Current state of art in practice}{376}{section*.590}%
-\contentsline {subsection}{Relevant initiatives in Austria}{377}{section*.591}%
+\contentsline {subsection}{Relevant initiatives in Austria}{378}{section*.591}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{378}{section*.592}%
 \contentsline {subsection}{Technology and societal readiness level}{378}{section*.593}%
 \contentsline {subsection}{Open questions}{378}{section*.594}%
@@ -688,22 +688,22 @@
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{389}{section*.613}%
 \contentsline {subsection}{Technology and societal readiness level}{390}{section*.614}%
 \contentsline {subsection}{Open questions}{390}{section*.615}%
-\contentsline {subsection}{Further links}{391}{section*.616}%
+\contentsline {subsection}{Further links}{390}{section*.616}%
 \contentsline {subsection}{References}{391}{section*.617}%
 \contentsline {section}{\numberline {13.3}E-scooters sharing}{393}{section.13.3}%
 \contentsline {subsection}{Synonyms}{393}{section*.618}%
 \contentsline {subsection}{Definition}{393}{section*.619}%
-\contentsline {subsection}{Key stakeholders}{394}{section*.620}%
+\contentsline {subsection}{Key stakeholders}{393}{section*.620}%
 \contentsline {subsection}{Current state of art in research}{394}{section*.621}%
 \contentsline {subsection}{Current state of art in practice}{394}{section*.622}%
-\contentsline {subsection}{Relevant initiatives in Austria}{395}{section*.623}%
+\contentsline {subsection}{Relevant initiatives in Austria}{394}{section*.623}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{395}{section*.624}%
-\contentsline {subsection}{Technology and societal readiness level}{396}{section*.625}%
+\contentsline {subsection}{Technology and societal readiness level}{395}{section*.625}%
 \contentsline {subsection}{Open questions}{396}{section*.626}%
 \contentsline {subsection}{References}{396}{section*.627}%
 \contentsline {section}{\numberline {13.4}Ride hailing and ride sharing}{397}{section.13.4}%
 \contentsline {subsection}{Synonyms}{397}{section*.628}%
-\contentsline {subsection}{Definition}{398}{section*.629}%
+\contentsline {subsection}{Definition}{397}{section*.629}%
 \contentsline {subsection}{Key stakeholders}{398}{section*.630}%
 \contentsline {subsection}{Current state of art in research}{398}{section*.631}%
 \contentsline {subsection}{Current state of art in practice}{399}{section*.632}%

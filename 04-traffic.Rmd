@@ -26,7 +26,7 @@ Next, a number of studies demonstrated the positive impact of congestion charges
 In terms of economic effects, it has been showed that implementation of congestion charges can increase house values within the zone (potentially due to additional exemptions for residents). For example, following the introduction of congestion charge in London residential property values rose by 5%. At the same time, congestion charging can lead to a reduction in retail property values. In Singapore after the implementation of road pricing scheme the retail real estate prices decreased in the targeted zone (Amelsfort & Swedish, 2015; Agarwal, 2015). Further, study by Percoco (2014) found that the introduction of road pricing system reduced house prices in the affected zone. In conclusion, literature shows a mixed effect of congestion charges on property values, depending on specific location and additional regulation and exceptions that are in place.
 
 ### Current state of art in practice {-}
-Nowadays there are different functioning models of congestion charging schemes around the world. One broadly used model is the *zone/cordon-based charges* which is based on the idea of geographic boundary so that charges are implemented when entering or leaving the zone (or both). Henceforth, travellers within the zone do not incur the cost. This contrasts with so-called *area charging* where the fees apply to all the drivers travelling or parking within the designated area. The first one may be thought of as a ‘per passage charge’ and the latter ‘once per 24h charge’ when the fees are charged daily. Cordon-based charging is currently used in multiple Norwegian cities (eg. Bergen and Oslo), Milan or Durham while area charging systems is present in London. <br/>
+Nowadays there are different functioning models of congestion charging schemes around the world. One broadly used model is the *zone/cordon-based charges* which is based on the idea of geographic boundary so that charges are implemented when entering or leaving the zone (or both). Henceforth, travellers within the zone do not incur the cost. This contrasts with so-called *area charging* where the fees apply to all the drivers travelling or parking within the designated area. The first one may be thought of as a ‘per passage charge’ and the latter ‘once per 24h charge’ when the fees are charged daily. Cordon-based charging is currently used in multiple Norwegian cities (e.g. Bergen and Oslo), Milan or Durham while area charging systems is present in London. <br/>
 
 What is more, initially a number of exemptions were available for low emission and alternative fuel vehicles such as all-electric cars and plug-in hybrids however local authorities gradually moved away from these discounts (Chris, 2016). For example, in Vienna there are several regulations for the entry of company vehicles with different levels of emissions into the city centre. These were first introduced in 2014 and they require all the business vehicles to have an environmental badge known as ‘Umwelt Pickerl’ to access the city. Moreover, there is an 'Emergency Scheme' in Vienna which becomes effective as soon as the certain pollution limits are exceeded. As a result, and depending on the severity of the event, either a recommendation to switch to public transport is announced or vehicles with internal combustion engines can be banned from driving (Sadler Consultants Ltd, 2021).
 
@@ -58,8 +58,8 @@ cat('|TRL| SRL|
 ### Open questions {-}
 1. What are the implications of congestion charges on overall welfare in the affected zone?
 2. What are the effects of different congestion charge designs such as exemptions of different nature?
-3. What effect the implementation of congestion charge zone will have on the traffic in neighbouring areas (due to eg. re-routing)?
-4. What is the potential for expansion of more sustainable transport mode within the targeted zone ?
+3. What effect the implementation of congestion charge zone will have on the traffic in neighbouring areas (due to e.g. re-routing)?
+4. What is the potential for expansion of more sustainable transport mode within the targeted zone?
       - What is the actual modal split?
       - What is the proportion of road space occupied by different modes?
       - What is the potential of future investment in public transport?
@@ -76,16 +76,16 @@ cat('|TRL| SRL|
 - Banister, D. (2003). Critical pragmatism and congestion charging in London. International Social Science Journal, 55(176), 249-264.
 - Beevers, S. D., & Carslaw, D. C. (2005). The impact of congestion charging on vehicle emissions in London. Atmospheric Environment, 39(1), 1-5.
 Lilly, Chris (2016). Congestion charge sunset period ends today. Next Green Car. Available at:
-https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-today/  [Accessed 3 February 2021]
+https://www.nextgreencar.com/news/7701/congestion-charge-sunset-period-ends-today/  [Accessed: 3 February 2021]
 - Gibson, M., and Carnovale, M. (2015). “The effects of road pricing on driver behaviour and air pollution” Journal of Urban Economics, 89, pp. 62-73.
 - Grisolía, J. M., López, F., & de Dios Ortúzar, J. (2015). Increasing the acceptability of a congestion charging scheme. Transport Policy, 39, 37-47.
 - Hamilton, C. J. (2011). Popular Acceptance of Congestion Charging.
 - Keat Tang, C. (2016). “The Cost of Traffic: Evidence from the London Congestion Charge” SERC discussion paper 205
 - Munford, L. A. (2017). The impact of congestion charging on social capital. Transportation Research Part A: Policy and Practice, 97, 192-208.
 - Percoco, M. (2014). “The impact of road pricing on housing prices: Preliminary evidence from Milan” Transportation Research Part A Policy and Practice, 67, pp. 188-194.
-- Sadler Consultants Ltd (2021). Wien (Vienna). [online] Urbanaccessregulations.eu. Available at: <https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna> [Accessed 3 February 2021].
+- Sadler Consultants Ltd (2021). Wien (Vienna).  Urbanaccessregulations.eu. Available at: <https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78/wien-vienna> [Accessed: 3 February 2021].
 - Santos, G. (2005). Urban congestion charging: a comparison between London and Singapore. Transport Reviews, 25(5), 511-534.
-- What Works Centre for Local Economic Growth (2020). Evidence Review: Congestion charging. [online] Available at: <https://whatworksgrowth.org/public/files/Evidence_reviewed_examples/Congestion_charging_-_Evidence_review.pdf> [Accessed 2 February 2021].
+- What Works Centre for Local Economic Growth (2020). Evidence Review: Congestion charging.  Available at: <https://whatworksgrowth.org/public/files/Evidence_reviewed_examples/Congestion_charging_-_Evidence_review.pdf> [Accessed: 2 February 2021].
 - Van Amelsfort, D., & Swedish, V. (2015). Introduction to congestion charging: A guide for practitioners in developing cities.
 - Valletta, M. (2015) Congestion charging in Europe.
 
@@ -135,7 +135,7 @@ However, in order to be able to test truck platooning under real conditions on A
 ```{r table60, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Systemic|Reduced emissision|**+**|Environmental sustainability (*7,12-13,15*)|Song et al., 2021|
+|Systemic|Reduced emission|**+**|Environmental sustainability (*7,12-13,15*)|Song et al., 2021|
 |Systemic|Fuel savings|**+**|Sustainable economic development (*8,11*)|Ghosal et al., 2021|
 |Systemic|Transnational platooning demonstrations|**+**|Partnership & collaborations *(17)*|Danzl et al., 2019|')
 ```
@@ -178,7 +178,7 @@ More than half of the population now lives in cities which gives rise to growing
 
 In the early 1990s, the need to exchange information between the European traffic centres of freeway operators initiated the development of DATEX I - an electronic language for the exchange of traffic information and traffic data. Soon the need arose to open this information to service providers as well, for which DATEX I was somewhat too limited and used outdated technical concepts. Therefore, DATEX II was developed in the first years of this millennium. It distributes traffic information and traffic management information independent of language and presentation format. Thus, there is no room for misunderstanding and/or translation errors by the recipient. The recipient can choose whether he wants spoken text, an image on a map or integration into a navigation calculation. New digitalization requirements due to self-driving cars as well as the increasing scope of ITS services, require an increased use of standards and thus also challenge the DATEX II community accordingly (DATEX II, nd. b).
 
-The age of [Big Data](#bd_tool_maping) offers new opportunities in traffic management. The use of big data makes it possible to analyze not only traffic, but also overall mobility behaviour. One important task area is the collection of data and the provision of information by networked vehicles. The [vehicle to everything](#v2x) principle is driving the growth of data-driven business models enormously (Kapsch Aktiengesellschaft, nd. b).
+The age of [Big Data](#bd_tool_maping) offers new opportunities in traffic management. The use of big data makes it possible to analyse not only traffic, but also overall mobility behaviour. One important task area is the collection of data and the provision of information by networked vehicles. The [vehicle to everything](#v2x) principle is driving the growth of data-driven business models enormously (Kapsch Aktiengesellschaft, nd. b).
 
 
 ### Key stakeholders {-}
@@ -241,7 +241,7 @@ cat('|TRL| SRL|
 ```
 
 ### Open questions {-}
-1.	What are the potential solutions that can be jointly used by traditional and automated vehicles (eg. during transition period when both types of vehicles will still be present)?
+1.	What are the potential solutions that can be jointly used by traditional and automated vehicles (e.g. during transition period when both types of vehicles will still be present)?
 
 ### Further links {-}
 
@@ -409,7 +409,7 @@ knitr::include_graphics("image/DRS.jpg")
 In both *centralised-infrastructure based systems* and *decentralised-infrastructure based systems* the data is, firstly, detected by traffic detection systems and then, collected and extracted by Traffic Message Channel (TMC). The difference is that, in *centralised system* the optimal route information is calculated for the whole traffic network. On the other hand, in *dependent decentralised system* the optimal route is calculated for each vehicle depending on its current location and destination. Further, in *autonomous decentralised system* the data is collected by street nodes deployed over traffic network which then extract useful information for all surrounding streets and exchange the traffic information between one another. This allows each node to calculate the optimal routes for different destinations. The information about optimal routes can be received by vehicles, mobile phones or variable message signs (Khanjary and Hashemi, 2012).
 
 **Infrastructure-less architecture**<br/>
-*Infrastructure-less decentralised static system* is one of the earliest developments. The database with traffic network map is available on mobile phone or as an in-vehicle unit where the optimal route is calculated based on a static information such as the shortest path. Further, in *decentralised dynamic system*, vehicles (or mobile phones) are used to detect traffic data. They exchange the information with one another via infrastructure-less protocol such as the inter-vehicle communication or peer to peer. This results in vehicles having a real-time traffic information about the whole traffic network which enables them to calculate the optimal route based on a destination and current position of the vehicle. Importantly, the accuracy of the dynamic system depends on the volume of vehicles (or mobile devices) that serve as a traffic data sensors. The more vehicles is present, more information can be exchanged and the data is more reliable (Khanjary and Hashemi, 2012). 
+*Infrastructure-less decentralised static system* is one of the earliest developments. The database with traffic network map is available on mobile phone or as an in-vehicle unit where the optimal route is calculated based on a static information such as the shortest path. Further, in *decentralised dynamic system*, vehicles (or mobile phones) are used to detect traffic data. They exchange the information with one another via infrastructure-less protocol such as the inter-vehicle communication or peer to peer. This results in vehicles having a real-time traffic information about the whole traffic network which enables them to calculate the optimal route based on a destination and current position of the vehicle. Importantly, the accuracy of the dynamic system depends on the volume of vehicles (or mobile devices) that serve as a traffic data sensors. The more vehicles are present, more information can be exchanged and the data is more reliable (Khanjary and Hashemi, 2012). 
 
 ### Key stakeholders {-}
 - **Affected**: Drivers
@@ -461,23 +461,23 @@ cat('|TRL| SRL|
 
 ### References {-}
 -	Chatterjee, K. and McDonald, M., (1999). THE NETWORK SAFETY EFFECTS OF DYNAMIC ROUTE GUIDANCE. ITS Journal - Intelligent Transportation Systems Journal, 4(3-4), pp.258-260.
--	Blischke, F., & Hessing, B. (1998). Dynamic Route Guidance - Different Approaches to the System Concepts. SAE Transactions, 107, 1107-1111. Retrieved July 22, 2021, from http://www.jstor.org/stable/44741041
+-	Blischke, F., & Hessing, B. (1998). Dynamic Route Guidance - Different Approaches to the System Concepts. SAE Transactions, 107, 1107-1111. Available at: http://www.jstor.org/stable/44741041 [Accessed: 22 July 2021]
 -	Deflorio, F., (2003). Evaluation of a reactive dynamic route guidance strategy. Transportation Research Part C: Emerging Technologies, 11(5), pp.375-388.
--	European Commission. (2021). Traveller Information - Mobility and Transport - European Commission. [online] Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 23 July 2021].
+-	European Commission. (2021). Traveller Information - Mobility and Transport - European Commission.  Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 23 July 2021].
 -	Fan, Y., Lu, D., Li, Y. and Jiang, F., (2010). Design scheme of Distributed Dynamic Route Guidance System. 2010 2nd International Conference on Education Technology and Computer.
--	Google Cloud. (2021). Custom Maps  |  Google Maps Platform  |  Google Cloud. [online] Available at: <https://cloud.google.com/maps-platform/maps> [Accessed: 23 July 2021].
+-	Google Cloud. (2021). Custom Maps  |  Google Maps Platform  |  Google Cloud.  Available at: <https://cloud.google.com/maps-platform/maps> [Accessed: 23 July 2021].
 -	Kamiński, B., Kraiński, Ł., Mashatan, A., Prałat, P., & Szufel, P. (2020). Multiagent Routing Simulation with Partial Smart Vehicles Penetration. Journal of Advanced Transportation, 2020.
 - Khanjary, M., & Hashemi, S. M. (2012, May). Route guidance systems: Review and classification. In 2012 6th Euro American Conference on Telematics and Information Systems (EATIS) (pp. 1-7). IEEE.
 -	Lazar, D. A., Bıyık, E., Sadigh, D., & Pedarsani, R. (2021). Learning how to dynamically route autonomous vehicles on shared roads. Transportation Research Part C: Emerging Technologies, 130, 103258.
 -	Liang, Z. and Wakahara, Y., (2014). Real-time urban traffic amount prediction models for dynamic route guidance systems. EURASIP Journal on Wireless Communications and Networking, 2014(1).
--	Media System Plus.  (2012). Media System Plus/ Navi System Owner’s manual. [online] Available at: <https://www.firstforseatcars.com/downloads/multimedia/media-system-plus-navi-system-owners-manual.pdf> [Accessed: 22 July 2021].
--	Mobility and transport. (2021). Intelligent transport systems Traveller Information. [online] Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 22 July 2021].
+-	Media System Plus.  (2012). Media System Plus/ Navi System Owner’s manual.  Available at: <https://www.firstforseatcars.com/downloads/multimedia/media-system-plus-navi-system-owners-manual.pdf> [Accessed: 22 July 2021].
+-	Mobility and transport. (2021). Intelligent transport systems Traveller Information.  Available at: <https://ec.europa.eu/transport/themes/its/road/application_areas/traveller_information_es> [Accessed: 22 July 2021].
 -	Park, D., Kim, H., Lee, C. and Lee, K., (2009). Location-based dynamic route guidance system of Korea: System design, algorithms and initial results. KSCE Journal of Civil Engineering, 14(1), pp.51-59.
 - PTVGroup.com (2021). PTV Map&Guide - der weltweit führende Lkw Routenplaner mit Transportkosten- und Mautrechner. Available at: https://www.ptvgroup.com/de/loesungen/produkte/ptv-mapandguide/ [Accessed: 28 JUly 2021]
--	Seat.com. (2021). Dynamic Route Guidance - Car Terms | SEAT. [online] Available at: <https://www.seat.com/car-terms/d/dynaminc-route-guidance.html> [Accessed: 23 July 2021].
+-	Seat.com. (2021). Dynamic Route Guidance - Car Terms | SEAT.  Available at: <https://www.seat.com/car-terms/d/dynaminc-route-guidance.html> [Accessed: 23 July 2021].
 -	Wang, J. and Niu, H., (2019). A distributed dynamic route guidance approach based on short-term forecasts in cooperative infrastructure-vehicle systems. Transportation Research Part D: Transport and Environment, 66, pp.23-34.
 - Vielmeier J. (2019). Google Maps als Navi verwenden: Das müsst ihr beachten. Available at: https://trendblog.euronics.de/mobile-web/google-maps-als-navi-verwenden-das-muesst-ihr-beachten-61614/. [Accessed: 28 July 2021]
-- Volkswagen.at (2021) Navigation. Volkswagen Technik-Highlights. Available at: https://www.volkswagen.at/technik-lexikon/navigationssystem [Accessed: 28 July 2021] 
+- Volkswagen.at (2021) Navigation. Volkswagen Technik-Highlights. Available at: https://www.volkswagen.at/technik-lexikon/navigationssystem [Accessed: 28 July 2021].
 
 ## Variable speed limits and dynamic signage system {#variable_speed}
 
@@ -539,18 +539,18 @@ cat('|TRL| SRL|
 4.	How can DSL be combined with C-ITS? 
 
 ### References {-}
-- ASFiNAG. (2019a). Handlungsfelder. Retrieved 17th December 2020, from http://verkehrssicherheit.asfinag.at/aktionsprogramme/handlungsfelder/
-- ASFiNAG. (2019b). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Arten von Verkehrsbeeinflussungsanlagen. Retrieved 11th December 2020, from https://asfinag.azureedge.net/media/1607/vba-fotomontage.jpg
-- ASFiNAG. (2019c). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Die VBA und der "Lufthunderter". Retrieved 3rd December 2020, from https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/ 
+- ASFiNAG. (2019a). Handlungsfelder. Available at: http://verkehrssicherheit.asfinag.at/aktionsprogramme/handlungsfelder/ [Accessed: 17 December 2020].
+- ASFiNAG. (2019b). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Arten von Verkehrsbeeinflussungsanlagen. Available at: https://asfinag.azureedge.net/media/1607/vba-fotomontage.jpg [Accessed: 11 December 2020].
+- ASFiNAG. (2019c). Verkehrsbeeinflussungsanlagen – Für mehr Sicherheit: Die VBA und der "Lufthunderter". Available at: https://www.asfinag.at/verkehrssicherheit/verkehrsmanagement/verkehrssteuerung/ [Accessed: 3 December 2020].
 - Carlson, R. C., Papamichail, I., Papageorgiou, M., & Messmer, A. (2010). Optimal motorway traffic flow control involving variable speed limits and ramp metering. Transportation Science, 44(2), 238-253.
 - De Pauw, E., Daniels, S., Franckx, L., & Mayeres, I. (2018). Safety effects of dynamic speed limits on motorways. Accident Analysis & Prevention, 114, 83-89.
-- Erhart, Jaqueline. (2019). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. Retrieved 17th December 2020, from https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/  
+- Erhart, Jaqueline. (2019). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. Available at: https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/ [Accessed: 17 December 2020].
 - Habtemichael, F. G., & de Picado Santos, L. (2013). Safety and Operational Benefits of Variable Speed Limits under Different Traffic Conditions and Driver Compliance Levels. Transportation Research Record, 2386(1), 7–15. https://doi.org/10.3141/2386-02
 - Hassan, H. M., Abdel-Aty, M. A., Choi, K., & Algadhi, S. A. (2012). Driver behavior and preferences for changeable message signs and variable speed limits in reduced visibility conditions. Journal of Intelligent Transportation Systems, 16(3), 132-146.
 - Hegyi, A., De Schutter, B., & Hellendoorn, J. (2005). Optimal coordination of variable speed limits to suppress shock waves. IEEE Transactions on intelligent transportation systems, 6(1), 102-112.
-- Kapsch TrefficCom. Verkehrsmanagement auf Autobahnen. Retrieved 8th January 2021, https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management
-- Lu, X.-Y., & Shladover, S. E. (2014). Review of Variable Speed Limits and Advisories: Theory, Algorithms, and Practice. Transportation Research Record, 2423(1), 15–23. https://doi.org/10.3141/2423-03
-- Mobility and Transport | European Commission. (2020). Dynamic speed limits. Retrieved 2nd December 2020, from https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/new_technologies_new_opportunities/dynamic_speed_limits_en 
+- Kapsch TrefficCom. Verkehrsmanagement auf Autobahnen. Available at: https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Highway-Traffic-Management
+- Lu, X.-Y., & Shladover, S. E. (2014). Review of Variable Speed Limits and Advisories: Theory, Algorithms, and Practice. Transportation Research Record, 2423(1), 15–23. https://doi.org/10.3141/2423-03 [Accessed: 8 January 2021]
+- Mobility and Transport | European Commission. (2020). Dynamic speed limits. Available at:  2nd December 2020, from https://ec.europa.eu/transport/road_safety/specialist/knowledge/speed/new_technologies_new_opportunities/dynamic_speed_limits_en [Accessed: 2 December 2020].
 - Schimany, H. K. (2011). Blue Globe Foresight.
 - Wu, Y., Abdel-Aty, M., Wang, L., & Rahman, M. S. (2020). Combined connected vehicles and variable speed limit strategies to reduce rear-end crash risk under fog conditions. Journal of Intelligent Transportation Systems, 24(5), 494-513.
 
@@ -657,7 +657,7 @@ Fleet management with respect to public transport focuses on the monitoring and 
 - Real time passenger information system, where the key is an estimated arrival time (ETA) based on day, time, route type, schedule type, dwell time, travel time, etc (For more information see [Multimodal information and route planning](#info_and_route_planning))
 - In-vehicle visual and audio passenger announcement system is defined for each route and stop providing real time information about the progress of the vehicle, any route disruptions and deviations
 - Real time data analysis and management monitors transit services including on route adherence and schedule monitoring as well as wait time monitoring
-- Routing and trip assignment schedules trips but also allows for dynamic trip assignment 
+- Routing and trip assignment schedules trips but it also allows for a dynamic trip assignment 
 
 **Transport and distribution**<br/>
 In transportation industry implementation of fleet management through an on-board mobile technology can help in route optimisation, improved communication with drivers, management of fuel consumption and more efficient jobs assignment and scheduling. Furthermore, a special case of fleet management involves future fleets of AVs as described by Hyland & Mahmassani (2017) who provide a comprehensive taxonomy for shared autonomous vehicle fleet management. 
@@ -815,13 +815,13 @@ cat('|TRL| SRL|
 ### References {-}
 - Arnesen, P., Seter, H., Foss, T., Dahl, E., Lillestøl, P. J., & Jenssen, G. (2020). Geofencing for smart urban mobility. Summarizing the main findings of work package 2: Pilot Design and work package 3: Piloting.
 - García Hernández, M., Ivars-Baidal, J., & Mendoza de Miguel, S. (2019). Overtourism in urban destinations: the myth of smart solutions.
-- Kapsch TrafficCom. (n.d. a). Access management | Kapsch. Retrieved January 27, 2021, from https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Access-Management
-- Kapsch TrafficCom. (n.d. b). Limited Access Zone | Kapsch. Retrieved January 27, 2021, from https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/ 
+- Kapsch TrafficCom. (n.d. a). Access management | Kapsch. Available at: https://www.kapsch.net/ktc/Portfolio/IMS/Smart-Urban-Mobility/Access-Management [Accessed: 27 January 2021]
+- Kapsch TrafficCom. (n.d. b). Limited Access Zone | Kapsch. Available at: https://www.kapsch.net/ktc/its-solutions/urban-access-management/access-restriction/ [Accessed: 27 January 2021]
 - Lopez, O. N. (2018). Urban vehicle access regulations. In Sustainable Freight Transport (pp. 139-163). Springer, Cham.
 - Nolasco‐Cirugeda, A., Martí, P., & Ponce, G. (2020). Keeping mass tourism destinations sustainable via urban design: The case of Benidorm. Sustainable Development, 28(5), 1289-1303.
-- Sandler Consultants Europe GmbH. (n.d. a). Austria. Retrieved February 1, 2021, from https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78 
-- Sandler Consultants Europe GmbH. (n.d. b). Overview of website. Retrieved February 1, 2021, from https://urbanaccessregulations.eu/userhome/general-overview#Why%20Access%20%20Regulations  
-- Sadler Consultants Europe GmbH. (n.d. c). Urban Access Regulations in Europe. Retrieved 26th January 2021, from https://urbanaccessregulations.eu/about-us 
-- Sandler Consultants Europe GmbH. (n.d. d). What are Access Regulations? Retrieved February 1, 2021, from https://urbanaccessregulations.eu/userhome/what-are-access-regulations-uvars-or-urban-vehicle-access-regulations
-- Stadt Wien. (2020). Smarte Mobilität - Die Fortschrittskoalition für Wien. Retrieved February 1, 2021, from https://www.wien.gv.at/regierungsabkommen2020/smart-city-wien/smarte-mobilitat/ 
+- Sandler Consultants Europe GmbH. (n.d. a). Austria. Available at: https://urbanaccessregulations.eu/countries-mainmenu-147/austria-mainmenu-78 [Accessed: 1 February 2021]
+- Sandler Consultants Europe GmbH. (n.d. b). Overview of website. Available at: https://urbanaccessregulations.eu/userhome/general-overview#Why%20Access%20%20Regulations  [Accessed: 1 February 2021]
+- Sadler Consultants Europe GmbH. (n.d. c). Urban Access Regulations in Europe. Available at: https://urbanaccessregulations.eu/about-us [Accessed: 26 January 2021]
+- Sandler Consultants Europe GmbH. (n.d. d). What are Access Regulations? Available at: https://urbanaccessregulations.eu/userhome/what-are-access-regulations-uvars-or-urban-vehicle-access-regulations [Accessed: 1 February 2021]
+- Stadt Wien. (2020). Smarte Mobilität - Die Fortschrittskoalition für Wien. Available at: https://www.wien.gv.at/regierungsabkommen2020/smart-city-wien/smarte-mobilitat/ [Accessed: 1 February 2021]
 

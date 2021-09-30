@@ -126,7 +126,7 @@ The components of the personal rapid transit system are:
 
 -	**Software**: integrates all elements of the systems and ensures its flawless functioning 
 -	**Hardware**: includes electric and electronic components along the rails and at the stations
--	**Vehicles**: are crucial for passenger experience. In some countries, eg. the USA, PRT vehicles must be suitable for use by disabled people
+-	**Vehicles**: are crucial for passenger experience. In some countries, e.g. the USA, PRT vehicles must be suitable for use by disabled people
 -	**Stations and guideways**: are the most important elements from the perspective of planners because they influence the urban architecture and invade significantly in the aesthetic of the urban environment. Guideways are physical structures that support and guide an AGT vehicle, consisting of rails and columns. This is the most expensive element of the PRT system
 -	**Power sources**: all PRT are powered electrically
 -	**Operations and maintenance facilities**: are necessary for control centre, vehicle and equipment storage and maintenance areas
@@ -336,8 +336,8 @@ cat('|TRL| SRL|
 -	Abbasi, M. H., Hadji Hosseinlou, M., & JafarzadehFadaki, S. M. (2020). An investigation of Bus Rapid Transit System (BRT) based on economic and air pollution analysis (Tehran, Iran). Case Studies on Transport Policy, 8(2), 553–563. https://doi.org/10.1016/j.cstp.2019.11.008
 -	autobusweb.com. (2021, March 2). Trasporto pubblico Firenze, in arrivo due linee Bus Rapid Transit. https://www.autobusweb.com/tpl-firenze-in-arrivo-due-linee-bus-rapid-transit/
 -	Basso, L. J., Feres, F., & Silva, H. E. (2019). The efficiency of bus rapid transit (BRT) systems: A dynamic congestion approach. Transportation Research Part B: Methodological, 127, 47–71. https://doi.org/10.1016/j.trb.2019.06.012
--	Daimler (EvoBus GmbH). (n.d.). Bus Rapid Transit (BRT) in Europe – Impressions of a sustainable mobility concept in Strasbourg - EvoBus GmbH. Retrieved June 24, 2021, from https://www.evobus.com/de-en/layer/bus-rapid-transit-brt-in-europe-impressions-of-a-sustainable-mobility-concept-in-strasbourg/
--	Daimler AG. (n.d.). Bus Rapid Transit – Neue Unabhängigkeit im Stadtverkehr | Daimler. Retrieved June 24, 2021, from https://www.daimler.com/nachhaltigkeit/staedte/bus-rapid-transit.html
+-	Daimler (EvoBus GmbH). (n.d.). Bus Rapid Transit (BRT) in Europe – Impressions of a sustainable mobility concept in Strasbourg - EvoBus GmbH. Available at:  https://www.evobus.com/de-en/layer/bus-rapid-transit-brt-in-europe-impressions-of-a-sustainable-mobility-concept-in-strasbourg/ [Accessed: 24 June 2021]
+-	Daimler AG. (n.d.). Bus Rapid Transit – Neue Unabhängigkeit im Stadtverkehr | Daimler. Available at: https://www.daimler.com/nachhaltigkeit/staedte/bus-rapid-transit.html [Accessed: 24 June 2021]
 -	Deng, T., & Nelson, J. D. (2010). Transport Reviews Recent Developments in Bus Rapid Transit: A Review of the Literature. https://doi.org/10.1080/01441647.2010.492455
 -	Fageda, X. (2021). Do light rail systems reduce traffic externalities? Empirical evidence from mid-size european cities. Transportation Research Part D: Transport and Environment, 92, 102731. https://doi.org/10.1016/j.trd.2021.102731
 -	Global BRTData. (2021). Global BRTData. Brtdata.Org. http://brtdata.org/
@@ -528,8 +528,8 @@ cat('|TRL| SRL|
 -	Stadtwiki Karlsruhe. (2020, December 21). Stadtbahn – Stadtwiki Karlsruhe. https://ka.stadtwiki.net/Stadtbahn
 -	The World Bank. (2020, April 23). Earth Day 2020: Could COVID-19 Be the Tipping Point for Transport Emissions? https://www.worldbank.org/en/news/feature/2020/04/22/earth-day-2020-could-covid-19-be-the-tipping-point-for-transport-emissions
 -	Tyndall, J. (2021). The local labour market effects of light rail transit. Journal of Urban Economics, 124, 103350. https://doi.org/10.1016/j.jue.2021.103350
--	UITP. (n.d.). Automation Essentials | Automated Metros Observatory. Retrieved May 3, 2021, from https://metroautomation.org/automation-essentials/
--	UITP. (2019). Light Rail and Tram : the European Outlook. November. https://www.uitp.org/publications/light-rail-and-tram-the-european-outlook/
+-	UITP. (n.d.). Automation Essentials | Automated Metros Observatory. Available at: https://metroautomation.org/automation-essentials/ [Accessed: 3 May 2021]
+-	UITP. (2019). Light Rail and Tram : the European Outlook. Available at:  https://www.uitp.org/publications/light-rail-and-tram-the-european-outlook/ [Accessed: 3 May 2021]
 -	Wiener Linien. (2020, September 25). Pläne für Straßenbahn nach Niederösterreich - wien.ORF.at. https://wien.orf.at/stories/3068577/
 -	Zasiadko, M. (2019a, February 13). Russia tests its first self-driving tram | RailTech.com. RailTech.Com. https://www.railtech.com/digitalisation/2019/02/13/russia-tests-its-first-self-driving-tram/
 -	Zasiadko, M. (2019b, October 9). Germany will test first autonomous tram in automated depot | RailTech.com. RailTech.Com. https://www.railtech.com/rolling-stock/2019/10/09/germany-will-test-first-autonomous-tram-in-automated-depot/

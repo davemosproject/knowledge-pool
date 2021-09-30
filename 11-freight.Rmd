@@ -45,7 +45,7 @@ The challenges with tracking and tracing technology encountered during the liter
 
 -	Colliding signal: One risk with these technologies is that signals may overlap.
 -	Environmental interference: Environmental factors and materials with high water content affect the performance of tracing technologies (Kumari et al., 2015). These characteristics are critical in food supply chains where food is often affected by high water content, exposed to extreme temperatures, and have dielectric properties that can interfere with signals. 
--	Suboptimal reading:On one hand, errors can occur and on the other hand, the packaging of the product and not the product itself is registered.  
+-	Suboptimal reading: On one hand, errors can occur and on the other hand, the packaging of the product and not the product itself is registered.  
 -	Data acquisition: The industry is lagging in comparison to the research that has been done to digitise supply chains. The reality is that manual and paper-based operations are still common practice, the data collected is unstructured and the masses of data generated are difficult to handle as current collection systems are limited and unable to handle large volumes of data (Høyer et al., 2019).
 
 **Convenience challenges**<br/>
@@ -65,7 +65,7 @@ Executives from the world's leading shipping companies MSC, ONE, CMA CGM, Yang M
 
 "*We are very pleased to see the increasing adoption among shipping companies*" said Thomas Bagge, the CEO of DCSA. "*But the digital transformation of the container shipping industry and the resulting improvements in efficiency and customer experience simply cannot happen without even wider adoption of digital standards. DCSA's focus for 2021 is to drive adoption by all stakeholders. Without acceptance, the industry will not benefit from the digital foundation that is being created.*" (Avery, 2021). <br/>
 
-What is now already perceived as live tracking by the customer is tracking based on the position of the delivery driver. The vehicle is equipped with GPS, which means that the driver's position can be tracked but not the parcels themselves. DPD has been using this system for several years. When a shipment is moved, the barcode on the parcel, which is linked to the delivery address, is scanned. As a result, the current shipment data is loaded into a database.Amazon also offers real-time tracking with its own delivery service, Amazon Logistics. Amazon's map tracking service uses its own intelligent route planning for this - but technical details are not disclosed. However, not all parcels are sent via Amazon Logistics, especially since the transport service is not yet available in all regions. The tracking in the map view is, therefore, also not available everywhere. <br/>
+What is now already perceived as live tracking by the customer is tracking based on the position of the delivery driver. The vehicle is equipped with GPS, which means that the driver's position can be tracked but not the parcels themselves. DPD has been using this system for several years. When a shipment is moved, the barcode on the parcel, which is linked to the delivery address, is scanned. As a result, the current shipment data is loaded into a database. Amazon also offers real-time tracking with its own delivery service, Amazon Logistics. Amazon's map tracking service uses its own intelligent route planning for this - but technical details are not disclosed. However, not all parcels are sent via Amazon Logistics, especially since the transport service is not yet available in all regions. The tracking in the map view is, therefore, also not available everywhere. <br/>
 
 In contrast to Germany, DHL Austria does not yet offer live tracking. Here, parcels can still be tracked conventionally by means of physical scans of a barcode on a parcel-by-parcel basis at certain process points (Iosa, 2021).
 
@@ -80,7 +80,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Systemic|Improved planning, control and performance|**+**|Sustainable economic development  (*8,11*)|Kache & Seuring, 2017|
 |Systemic|Development in tagging technologies|**+**|Innovation & Infrastructure  (*9*)|cwi-logistics, 2020|
-|Systemic|Effort and initatives for global standardisation |**+**|Partnership & collaborations (*17*)|Avery, 2021|')
+|Systemic|Effort and initiatives for global standardisation |**+**|Partnership & collaborations (*17*)|Avery, 2021|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -158,7 +158,7 @@ Intermodal transport in Austria in 2016 was particularly important in the area o
 ```{r table76, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Systemic|Potential for reduction in emissions|**+**|Environmental sustainability  (*7,12-13,15*)|European Commission, no date|
+|Systemic|Potential for reduction in emissions|**+**|Environmental sustainability  (*7,12-13,15*)|European Commission, n.d.|
 |Systemic|Lack of standarisation in information on intermodal transport across EU|**~**|Partnership & collaborations (*17*)|Rudlof et al., 2018|')
 ```
 
@@ -182,7 +182,7 @@ cat('|TRL| SRL|
 - [transportgeography.org](https://transportgeography.org/contents/chapter5/intermodal-transportation-containerization/)
 
 ### References {-}
--	European Commission. (n.d.). Transport emissions | Climate Action. Retrieved 11 March 2021, from https://ec.europa.eu/clima/policies/transport_en
+-	European Commission. (n.d.). Transport emissions | Climate Action. Available at: https://ec.europa.eu/clima/policies/transport_en [Accessed: 11 March 2021]
 -	European Court of Auditors. (2016). Rail freight transport in the EU: still not on the right track (Issue 08). https://doi.org/10.2865/53961
 -	Heinold, A., & Meisel, F. (2020). Emission limits and emission allocation schemes in intermodal freight transportation. Transportation Research Part E: Logistics and Transportation Review, 141, 101963. https://doi.org/10.1016/j.tre.2020.101963
 -	Rudlof, M., Karner, T., & Fleck, S. (2018). Intermodaler Verkehr in Österreich. 87–95.
@@ -278,16 +278,14 @@ cat('|TRL| SRL|
 
 ### References {-}
 -	Aljohani, K., & Thompson, R. G. (2020). Last mile delivery activities in the city centre–Insights into current practices and characteristics of delivery trips. Transportation Research Procedia, 46, 261-268.
--	ARGE L2030+. (n.d. a). Aktionsplan – Logistik 2030+. Retrieved April 29, 2021, from https://www.logistik2030.at/?page_id=63
--	ARGE L2030+. (n.d. b). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Retrieved April 28, 2021, from https://www.logistik2030.at/?page_id=268
+-	ARGE L2030+. (n.d. a). Aktionsplan – Logistik 2030+. Available at: https://www.logistik2030.at/?page_id=63 [Accessed: 29 April 2021]
+-	ARGE L2030+. (n.d. b). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Available at: https://www.logistik2030.at/?page_id=268 [Accessed: 29 April 2021]
 -	Faast, A., & Gregori, G. (2020). NACHHALTIGE LOGISTIK 2030+ NIEDERÖSTERREICH WIEN Pilotprojekt Evaluierung von großteils betreiberunabhängigen Paketboxensystemen in Niederösterreich und Wien.
 -	Forschungs-Informations-System für Mobilität und Verkehr (FIS). (2003, April 8). Infrastrukturschäden durch den Straßengüterverkehr. https://www.forschungsinformationssystem.de/servlet/is/39816/
 -	Holguín-Veras, J., & Sánchez-Díaz, I. (2016). Freight demand management and the potential of receiver-led consolidation programs. Transportation Research Part A: Policy and Practice, 84, 109-130.
 -	Marinov, M., Giubilei, F., Gerhardt, M., Özkan, T., Stergiou, E., Papadopol, M., & Cabecinha, L. (2013). Urban freight movement by rail. Journal of Transport Literature, 7(3), 87-116.
 -	Popp, C., Winkler, A., Hahn, E., & Faast, A. (2019). Nachhaltige Logistik 2030+ Niederösterreich-Wien Aktionsplan.
--	van Leijen, M. (2017, August 3). Light rail network used for freight transport | RailFreight.com. https://www.railfreight.com/railfreight/2017/08/03/light-rail-network-used-for-freight-transport/?gdpr=accept&gdpr=deny
-
-
+-	van Leijen, M. (2017, August 3). Light rail network used for freight transport | RailFreight.com. Available at: https://www.railfreight.com/railfreight/2017/08/03/light-rail-network-used-for-freight-transport/?gdpr=accept&gdpr=deny [Accessed: 30 September 2021]
 
 ## Intelligent truck parking {#intelligent_truck_park}
 
@@ -303,7 +301,7 @@ Good examples of the efficient use of the information system can be found in Ger
 ### Key stakeholders {-}
 
 - **Affected**: Drivers, Transport companies, Freight forwarders, Shippers and Insurers
-- **Responsible**: National Governments, Fright Companies, International authorities (eg. EU)
+- **Responsible**: National Governments, Fright Companies, International authorities (e.g. EU)
 
 ### Current state of art in research {-}
 In the literature mostly, regional plans for specific areas in a certain country can be found. For example Carrese et al., (2014) for the Lazio Region in Italy and Gnap & Kubíková, (2020) for the Slovak Republic. However, safety aspects are also highlighted, such as a classification scheme of parking spaces for trucks in long-distance traffic. Again, the data is limited to a specific region (Peel Region in Ontario, Canada) but efforts have been made to develop a generally applicable scheme (Nevland et al., 2020).
@@ -337,7 +335,7 @@ A gap analysis to compare secure truck parking demand and supply at the European
 -	The deficit in certified secure parking spaces is much greater, as only 7,000 spaces are available in a few countries. In some countries and on certain corridors, motorists cannot rely on the availability of certified secure parking spaces;
 -	The current supply of non-secure parking spaces is more evenly distributed across the network. However, these spaces are not certified and do not offer guaranteed services to drivers.
 
-Truck Parking Europe helps transport companies ensure the safety of drivers and freight. Inspection reports provide information on the safety features in truck parking areas. These audit reports help safety and planning managers to approve safe parking areas across Europe (in line with the standardised safety framework created by the EU). They provide a detailed overview of the facilities that each truck parking area offers (Truck Parking Europe, no date).
+Truck Parking Europe helps transport companies ensure the safety of drivers and freight. Inspection reports provide information on the safety features in truck parking areas. These audit reports help safety and planning managers to approve safe parking areas across Europe (in line with the standardised safety framework created by the EU). They provide a detailed overview of the facilities that each truck parking area offers (Truck Parking Europe, n.d.).
 
 ### Relevant initiatives in Austria {-}
 
@@ -383,7 +381,7 @@ cat('|TRL| SRL|
 -	Lozia, Z., & Kulma, J. (2014). Simulation method of comparative evaluation of the agility of a passenger car when moving ‘forwards’ and ‘backwards’. Archiwum Motoryzacji, 64, 49–64, 149.
 -	Nevland, E. A., Gingerich, K., & Park, P. Y. (2020). A data-driven systematic approach for identifying and classifying long-haul truck parking locations. Transport Policy, 96, 48–59. https://doi.org/10.1016/j.tranpol.2020.04.003
 -	Sochor, J., & Mbiydzenyuy, G. (2013). Assessing the benefits of intelligent truck parking. International Journal of Intelligent Transportation Systems Research, 11(2), 43-53.
--	Truck Parking Europe. (n.d.). Audit reports on secure truck parking locations - Truck Parking Europe. Retrieved 3 March 2021, from https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/
+-	Truck Parking Europe. (n.d.). Audit reports on secure truck parking locations - Truck Parking Europe. Available at: https://www.truckparkingeurope.com/2020/03/11/audit-reports-on-secure-truck-parking-locations/ [Accessed: 3 March 2021]
 -	van Weenen, R. de L., Newton, S., Menist, M., Maas, F., Penasse, D., Nielsen, M., Halatsis, A., Männistö, T., Stamos, I., & Ruschin, P. P. (2019). Study on Safe and Secure Parking Places for Trucks (Issue February).
 
 ## Smart delivery space booking {#space_book} 
@@ -414,7 +412,7 @@ The management of L/U areas through a booking system would require the involveme
 Efforts are being made in various cities around the world to introduce a management system for L/U areas. For example, in Barcelona's *DUM programme1*, traders are asked to check in and out of any L/U operation using an SMS or an app in a smartphone, but in September 2020 no reservation could be made (Mor et al., 2020).
 Companies such as *Smart Parking Systems*, *Coord*, *ParkUnload* and *Cleverciti* offer solutions for delivery area booking. However, many different terms are still used, such as "curb management", "smart loading zones" or "digital loading zones". <br/><br/>
 In 2010, Treviso was awarded the title of "First European Smart City". Through Smart Parking Applications, the city has benefited from a significant increase in revenue from paid municipal parking, greater economic availability and a reduction in traffic and pollution within the historic centre. Parking management within Treviso Municipality was already in an excellent situation in 2009, monitored and supervised by an extremely attentive mobility department.
-The real problem of the municipality was, therefore, not the economic aspect, but mainly the excessive traffic and the scarce availability of parking spaces in some areas of the city. For this reason, it was considered appropriate to use smart parking technology to influence urban mobility in connection with parking. Since 2010, Treviso has, therefore, embarked on this technological path together with Intercomp, installing Smart Parking Systems® in the historic centre with the long-term goal of improving mobility, air quality and service for citizens (Smart Parking Systems®, no date).<br/><br/>
+The real problem of the municipality was, therefore, not the economic aspect, but mainly the excessive traffic and the scarce availability of parking spaces in some areas of the city. For this reason, it was considered appropriate to use smart parking technology to influence urban mobility in connection with parking. Since 2010, Treviso has, therefore, embarked on this technological path together with Intercomp, installing Smart Parking Systems® in the historic centre with the long-term goal of improving mobility, air quality and service for citizens (Smart Parking Systems®, n.d.).<br/><br/>
 In September 2020, the City of Omaha (US) launched its Smart Zone pilot project with *Coord* in five Smart Zones. Overall, the rollout has gone well, although the city and fleets still need to learn how to disseminate information. Fleets have embraced the concept well in particular that they do not pay to use the Smart Zones. It is expected that once more data is collected and the concept becomes more established the city will introduce the charge (Brown, 2020).
 
 ### Relevant initiatives in Austria {-}
@@ -431,7 +429,7 @@ In Vienna, more than 2600 loading zones were recorded and located via geodata as
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Systemic|Congestion, pollution and conflicts between road users can be reduced|**+**|Health & Wellbeing (*3*)|Patier et al., 2014; Alho et al., 2018; Mor et al., 2020|
-|Systemic|Digitalised solution for occupancy and availability status|**+**|Innovation & Infrastructure (*9*)|Smart Parking Systems, no date|
+|Systemic|Digitalised solution for occupancy and availability status|**+**|Innovation & Infrastructure (*9*)|Smart Parking Systems, n.d.|
 |Systemic|L/U booking systems requires engagement of all stakeholders|          **+**|Partnership & collaborations (*17*)|Mor et al., 2020|')
 ```
 
@@ -466,7 +464,7 @@ cat('|TRL| SRL|
 -	Nourinejad, M., Wenneman, A., Habib, K. N., & Roorda, M. J. (2014). Truck parking in urban areas: Application of choice modelling within traffic microsimulation. Transportation Research Part A: Policy and Practice, 64, 54–64. https://doi.org/10.1016/j.tra.2014.03.006
 -	Patier, D., David, B., Chalon, R., & Deslandres, V. (2014). A New Concept for Urban Logistics Delivery Area Booking. Procedia - Social and Behavioral Sciences, 125, 99–110. https://doi.org/10.1016/j.sbspro.2014.01.1459
 -	Pinto, R., Lagorio, A., & Golini, R. (2019). The location and sizing of urban freight loading/unloading lay-by areas. International Journal of Production Research, 57(1), 83–99. https://doi.org/10.1080/00207543.2018.1461269
--	Smart Parking Systems®. (n.d.). The economic benefits of Smart Parking Systems® > Smart Parking Systems - Intercomp Innovation. Retrieved 21 March 2021, from https://smartparkingsystems.com/en/the-economic-benefits-of-smart-parking-systems/
+-	Smart Parking Systems®. (n.d.). The economic benefits of Smart Parking Systems® > Smart Parking Systems - Intercomp Innovation. Available at: https://smartparkingsystems.com/en/the-economic-benefits-of-smart-parking-systems/ [Accessed: 21 March 2021]
 -	Stocker, G. (2012, November). Snizek+Partner Verkehrsplanungs GmbH - iLadezone - Intelligentes Ladezonenrouting und Management. https://www.snizek.at/go/de/projects/simulationen/94-iladezonen-intelligentes-ladezonenrouting-und-management
 -	VCÖ. (2016). Urban Loading - VCÖ Vorbildhafte Mobilitätsprojekte. https://mobilitaetsprojekte.vcoe.at/urban-loading
 
@@ -533,7 +531,7 @@ One of the European Amazon drone development centres is localised in Austria (Ma
 ```{r table30, echo=FALSE, results='asis'}
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
-|Individual|Faster provision of time-sensitive goods (eg. pharmaceuticals)|**+**|Health & Wellbeing (*3*)|Fox Rubin, 2019|
+|Individual|Faster provision of time-sensitive goods (e.g. pharmaceuticals)|**+**|Health & Wellbeing (*3*)|Fox Rubin, 2019|
 |Individual|Drone deliveries offered at no extra cost|          **+**|Sustainable economic development (*8,11*)|Amazon.com, 2021|
 |Individual|New delivery options available|          **+**|Innovation & Infrastructure (*9*)|Kim, 2020; Amazon.com, 2021|
 |Systemic|Reduced time of completion of logistics processes|          **+**|Sustainable economic development (*8,11*)|Wang et al., 2017|
@@ -559,7 +557,7 @@ cat('|TRL| SRL|
 -	[easa.europa.eu](https://www.easa.europa.eu/sites/default/files/dfu/Easy%20Access%20Rules%20for%20Unmanned%20Aircraft%20Systems%20(Regulations%20(EU)%202019-947%20and%20(EU)%202019-945).pdf) 
 
 ### References {-}
-- Amazon.com: Prime Air. (n.d.). Retrieved 27 January 2021, from https://www.amazon.com/Amazon-Prime-Air/b?ie=UTF8&node=8037720011
+- Amazon.com: Prime Air. (n.d.). Available at: https://www.amazon.com/Amazon-Prime-Air/b?ie=UTF8&node=8037720011 [Accessed: 27 January 2021]
 -	Bonnington, C. (2012, March 23). Tacocopter: The Coolest Airborne Taco Delivery System That’s Completely Fake | WIRED. https://www.wired.com/2012/03/qa-with-tacocopter/
 -	Boyle, A. (2020, May 6). Amazon and T-Mobile will take part in FAA’s Remote ID program for drones - GeekWire. https://www.geekwire.com/2020/amazon-t-mobile-will-take-part-faas-remote-id-drone-monitoring-program/
 -	Di Puglia Pugliese, L., & Guerriero, F. (2017). Last-Mile Deliveries by Using Drones and Classical Vehicles. In A. Sforza & C. Sterle (Eds.), Optimization and Decision Science: Methodologies and Applications (pp. 557–565). Springer International Publishing.
@@ -573,7 +571,7 @@ cat('|TRL| SRL|
 -	Kolodny, L., & Feiner, L. (2019, June 5). Amazon debuts its new delivery drone. https://www.cnbc.com/2019/06/05/amazon-debuts-its-new-delivery-drone.html
 -	Marshall, A. (2020, May 8). No, Amazon Won’t Deliver You a Burrito by Drone Anytime Soon | WIRED. https://www.wired.com/story/amazon-wont-deliver-burrito-drone-soon/
 -	SESAR. (2016). European Drones Outlook Study. In Single European Sky ATM Research (Issue November). https://doi.org/10.2829/219851
--	UPS. (n.d.). UPS Drone Delivery Service | UPS - United States. Retrieved 4 February 2021, from https://www.ups.com/us/en/services/shipping-services/flight-forward-drones.page
+-	UPS. (n.d.). UPS Drone Delivery Service | UPS - United States. Available at: https://www.ups.com/us/en/services/shipping-services/flight-forward-drones.page [Accessed: 4 February 2021]
 -	Wang, X., Poikonen, S., & Golden, B. (2017). The vehicle routing problem with drones: several worst-case results. Optimization Letters, 11(4), 679–697. https://doi.org/10.1007/s11590-016-1035-3
 
 ## Electric vehicle delivery fleets {#electric_delivery_fleets}
@@ -696,7 +694,7 @@ With the globalisation of production and trade, the demand for physical movement
 
 Traditionally, the first and the third phase were carried out through inland road network, while the long haul transportation combines different modes such as road, rail, water and airways. Nowadays, this situation changes where increasingly more multimodality is observed in the first and third phase.<br/>
 
-Consequently, along the complex supply networks, logistics and supply chain management systems so called multimodal transport management systems (MTMS) have been developed to support them. They can be defined as the software that deals with the planning and execution of the physical movement of goods across the supply chain (King, 2018). Such integrated systems require the following (Batarlienė 2011; Jarašūnienė et al., 2016):
+Consequently, along the complex supply networks, logistics and supply chain management systems so-called multimodal transport management systems (MTMS) have been developed to support them. They can be defined as the software that deals with the planning and execution of the physical movement of goods across the supply chain (King, 2018). Such integrated systems require the following (Batarlienė 2011; Jarašūnienė et al., 2016):
 
 - Integrity to connect all service positions of logistics
 - Multifunctionality and compatibility to prevent partition of the language, text and video communication
@@ -769,8 +767,8 @@ cat('|TRL| SRL|
 - Ding, L. Multimodal transport information sharing platform with mixed time window constraints based on big data. J Cloud Comp 9, 11 (2020). https://doi.org/10.1186/s13677-020-0153-8
 - Harris, I., Wang, Y., & Wang, H. (2015). ICT in multimodal transport and technological trends: Unleashing potential for the future. International Journal of Production Economics, 159, 88-103.
 - Jarašūnienė, A., Batarlienė, N., & Vaičiūtė, K. (2016). Application and management of information technologies in multimodal transportation. Procedia Engineering, 134, 309-315.
-- King, A. (2018). Defining “Multimodal TMS”. Available at: https://www.3gtms.com/resources/blog/defining-multimodal-tms [Accessed: 11/08/2021]
-- LaGore, R. (2020) 2021 Best Transportation Management System (TMS) Software Packages. Available at: https://blog.intekfreight-logistics.com/best-transportation-management-software-tms [Accessed: 11/08/2021]
+- King, A. (2018). Defining “Multimodal TMS”. Available at: https://www.3gtms.com/resources/blog/defining-multimodal-tms [Accessed: 11 August 2021]
+- LaGore, R. (2020) 2021 Best Transportation Management System (TMS) Software Packages. Available at: https://blog.intekfreight-logistics.com/best-transportation-management-software-tms [Accessed: 11 August 2021]
 - Niculescu, M. C., & Minea, M. (2016). Developing a single window integrated platform for multimodal transport management and logistics. Transportation Research Procedia, 14, 1453-1462.
 - SteadieSeifi, M., Dellaert, N. P., Nuijten, W., Van Woensel, T., & Raoufi, R. (2014). Multimodal freight transportation planning: A literature review. European journal of operational research, 233(1), 1-15.
 
@@ -868,9 +866,9 @@ cat('|TRL| SRL|
 3. How can the negative externalities of freight hubs - such as light and noise emissions or increased land consumption - be minimized and internalized?
 
 ### References {-}
--	ARGE L2030+. (n.d.). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Retrieved April 28, 2021, from https://www.logistik2030.at/?page_id=268
+-	ARGE L2030+. (n.d.). Pilotprojekte – Logistik 2030+. Central LogPOINT – DER Logistik HUB im Herzen von Wien. Available at: https://www.logistik2030.at/?page_id=268 [Accessed: 28 April 2021]
 -	Clausen, U., & Thaller, C. (Eds.). (2013). Wirtschaftsverkehr 2013: Datenerfassung und verkehrsträgerübergreifende Modellierung des Güterverkehrs als Entscheidungsgrundlage für die Verkehrspolitik. Springer-Verlag.
--	DHL International GmbH. (n.d.). DHL eröffnet hochmodernen Logistik-Hub am Flughafen Wien - DHL Freight Connections. Retrieved May 4, 2021, from https://dhl-freight-connections.com/de/unternehmen/dhl-eroffnet-hochmodernes-logistikdrehkreuz-am-flughafen-wien/
+-	DHL International GmbH. (n.d.). DHL eröffnet hochmodernen Logistik-Hub am Flughafen Wien - DHL Freight Connections. Available at: https://dhl-freight-connections.com/de/unternehmen/dhl-eroffnet-hochmodernes-logistikdrehkreuz-am-flughafen-wien/ [Accessed: 4 May 2021]
 -	Ehrler, V., & Wolfermann, A. (2012). Traffic at intermodal logistic hubs: shedding light on the blind spot. Transportation research record, 2288(1), 1-8.
 -	Essaadi, I., Grabot, B., & Fénies, P. (2016). Location of logistics hubs at national and subnational level with consideration of the structure of the location choice. IFAC-PapersOnLine, 49(31), 155-160.
 -	Huang, Y., Liu, R., Huang, S., Yang, G., Zhang, X., Qin, Y., ... & Huang, B. (2021). Imbalance and breakout in the post-epidemic era: Research into the spatial patterns of freight demand network in six provinces of central China. Plos one, 16(4), e0250375.

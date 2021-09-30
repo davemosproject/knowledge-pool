@@ -57,8 +57,8 @@ Moreover, the ADAC's recommendations to the manufacturers are the following (ADA
 
 A basis for cooperative systems is currently being established in Europe. The procedures for testing under real traffic conditions are being defined and coordinated among the partners involved. A large part of the technical solutions for data communication is standardised. The non-technical aspects (e.g. organisational structures, safety concept) are currently being worked out in preparation for the market launch in a public-private partnership.<br/><br/>
 On this basis, German, Dutch and Austrian road operators, together with partners from industry, are starting the step-by-step introduction of cooperative systems in Europe within the framework of the C-ITS corridor from Rotterdam to Frankfurt am Main and Vienna
-(Cooperative ITS Corridor, no date). <br/><br/>
-In Austria, with the award of a comprehensive framework contract, ASFINAG has now become the first infrastructure provider in Europe to reach a further milestone in networking vehicles and roads. The total volume of the framework contract is 14.5 million euros. This will make it possible to equip the entire motorway network in Austria with C-ITS in the coming years.The equipment, which will be installed step by step along the motorways starting in November, includes up to 525 so-called road units as well as a control centre. The first C-ITS services for hazard warning are expected to go into operation within the next 16 months. Further expansion will focus on the support of automated driving and networked traffic management. The C-ITS equipment is part of the digitalisation of the road infrastructure and is funded by the Climate and Energy Fund and the EU (Močnik, 2020).
+(Cooperative ITS Corridor, n.d.). <br/><br/>
+In Austria, with the award of a comprehensive framework contract, ASFINAG has now become the first infrastructure provider in Europe to reach a further milestone in networking vehicles and roads. The total volume of the framework contract is 14.5 million euros. This will make it possible to equip the entire motorway network in Austria with C-ITS in the coming years. The equipment, which will be installed step by step along the motorways starting in November, includes up to 525 so-called road units as well as a control centre. The first C-ITS services for hazard warning are expected to go into operation within the next 16 months. Further expansion will focus on the support of automated driving and networked traffic management. The C-ITS equipment is part of the digitalisation of the road infrastructure and is funded by the Climate and Energy Fund and the EU (Močnik, 2020).
 
 ### Relevant initiatives in Austria {-}
 
@@ -100,9 +100,9 @@ cat('|TRL| SRL|
 
 ### References {-}
 -	ADAC. (2021). Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen.
--	Cooperative ITS Corridor. (n.d.). Cooperative ITS Corridor. Retrieved 18 February 2021, from https://c-its-korridor.de/?menuId=1&sp=de
+-	Cooperative ITS Corridor. (n.d.). Cooperative ITS Corridor. Available at: https://c-its-korridor.de/?menuId=1&sp=de [Accessed: 18 February 2021]
 -	Dey, K. C., Rayamajhi, A., Chowdhury, M., Bhavsar, P., & Martin, J. (2016). Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication in a heterogeneous wireless network - Performance evaluation. Transportation Research Part C: Emerging Technologies, 68, 168–184. https://doi.org/10.1016/j.trc.2016.03.008
--	Filippi, A., Moerman, K., Daalderop, G., Alexander, P. D., Schober, F., & Pfliegl, W. (2016). Ready to roll: Why 802.11p beats LTE and 5G for V2x. 1–14. https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/mobility/road/connected-mobility-solutions/documents/its-g5-ready-to-roll-en.pdf
+-	Filippi, A., Moerman, K., Daalderop, G., Alexander, P. D., Schober, F., & Pfliegl, W. (2016). Ready to roll: Why 802.11p beats LTE and 5G for V2x. 1–14.Available at:  https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/mobility/road/connected-mobility-solutions/documents/its-g5-ready-to-roll-en.pdf [Accessed: 30 September 2021]
 -	Hainen, A., Mulligan, B., Deetlefs, J., Mulligan, I., & Ashley, P. (2019). Co-Deployment of DSRC Radio and Cellular Connected Vehicle Technology in Tuscaloosa, AL and Northport, AL. 1–9.
 -	Knecht, J. (2018). C-V2X Europapremiere: Wie Autos sprechen – mit wem auch immer | AUTO MOTOR UND SPORT. https://www.auto-motor-und-sport.de/technik/vernetzung-cv2x-car-to-car-europapremiere/
 -	Köllner, C. (2020, March 24). Car-to-X | Fahrzeugvernetzung per C-V2X oder pWLAN? | springerprofessional.de. https://www.springerprofessional.de/car-to-x/automatisiertes-fahren/fahrzeugvernetzung-per-c-v2x-oder-pwlan-/17822610
@@ -256,8 +256,8 @@ cat('|TRL| SRL|
 -	Carreras, A., Daura, X., Erhart, J., & Ruehrup, S. (2018). Road infrastructure support levels for automated driving.
 -	Erhart, J., Harrer, M., Rührup, S., Seebacher, S., & Wimmer, Y. (2020). Infrastructure support for automated driving: Further enhancements on the ISAD classes in Austria. Proceedings of 8th Transport Research Arena TRA 2020, 43(0). https://www.researchgate.net/publication/339339109
 -	Heinrich, T. (2019). Infrastrukturbedarf automatisierten Fahrens – Grundlagenprojekt.
--	Inframix. (n.d.). Infrastructure Categorization – Inframix EU Project. Retrieved June 21, 2021, from https://www.inframix.eu/infrastructure-categorization/
+-	Inframix. (n.d.). Infrastructure Categorization – Inframix EU Project. Available at: https://www.inframix.eu/infrastructure-categorization/ [Accessed: 21 June 2021]
 -	Rudschies, W., & Kroher, T. (2021, May 21). Autonomes Fahren: Der aktuelle Stand der Technik | ADAC. https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/technik-vernetzung/aktuelle-technik/
--	Saleh, P. (n.d.). via-AUTONOM Verkehrsinfrastruktur und Anforderungen für autonome Fahrzeuge - AIT Austrian Institute Of Technology. Retrieved June 21, 2021, from https://www.ait.ac.at/themen/verkehrssicherheit-und-unfallforschung/projects/via-autonom
--	Ulrich, S., Kulmala, R., Appel, K., Aiger, W., Tenttinen, M., Laitinen, J., & Deliverable, D. (2020). MANTRA: Making full use of Automation for National Transport and Road Authorities - NRA Core Business. D4.2 Consequences of automation functions to infrastructure. April.
+-	Saleh, P. (n.d.). via-AUTONOM Verkehrsinfrastruktur und Anforderungen für autonome Fahrzeuge - AIT Austrian Institute Of Technology. Available at: https://www.ait.ac.at/themen/verkehrssicherheit-und-unfallforschung/projects/via-autonom [Accessed: 21 June 2021]
+-	Ulrich, S., Kulmala, R., Appel, K., Aiger, W., Tenttinen, M., Laitinen, J., & Deliverable, D. (2020). MANTRA: Making full use of Automation for National Transport and Road Authorities - NRA Core Business. D4.2 Consequences of automation functions to infrastructure.
 

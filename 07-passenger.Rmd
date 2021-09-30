@@ -5,7 +5,7 @@
 *DJP, Personal travel planner*
 
 ### Definition {-}
-Digital Journey Planner (DJP) is an app, which based on the traveler’s preferences, recommends and offers the fastest and most convenient route to get from point A to point B including different means of transport such as public transport, cycling, walking or car-sharing. Digital Journey Planner provides diverse range of features such as individual or collective transport, scheduled time, availability, numbers of passengers or length of the route. Digital Journey Planner apps are developed and sponsored by public authorities as well as private stakeholders in order to increase sustainable urban mobility, intensify the model of “smart city” in metropolises with an ultimate aim to improve the quality of life in the cities. 
+Digital Journey Planner (DJP) is an app, which based on the travellers' preferences, recommends and offers the fastest and most convenient route to get from point A to point B including different means of transport such as public transport, cycling, walking or car-sharing. Digital Journey Planner provides diverse range of features such as individual or collective transport, scheduled time, availability, numbers of passengers or length of the route. Digital Journey Planner apps are developed and sponsored by public authorities as well as private stakeholders in order to increase sustainable urban mobility, intensify the model of “smart city” in metropolises with an ultimate aim to improve the quality of life in the cities. 
 There are some commonly used Digital Journey Planners available worldwide such as [*GoogleMaps.com*](https://www.google.com/maps) or [*mylike*](https://mylike.io/personal-travel-planner/). Furthermore, it is crucial to mention that all of these apps work on the basis of data importer and validator, which could be divided into two categories such as (Jakob et al., 2014): 
 
 -	Databases of roads, footpaths, cycle lanes, which are collected in order to plan routes in a safe and effective way, for both cyclist, car-users and passengers in general;
@@ -40,7 +40,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |Individual|Higher accessibility to public transport|**+**|Equality *(5,10)* |Stefanescu et al., 2014|
 |Individual|Increasing usage of public transport|**+**| Environmental sustainability (*7,12,13,15*)|Stefanescu et al., 2014|
 |Systemic|Decreased emissions, use of paper maps and tickets|**+**|Sustainable economic development (*8,11*)|Stefanescu et al., 2014|
-|Systemic|Digitalisation of trasnport facilities |**+**|Innovation & Infrastructure (*9*)|Liebig et al., 2017|
+|Systemic|Digitalisation of transport facilities |**+**|Innovation & Infrastructure (*9*)|Liebig et al., 2017|
 |Systemic|Collaboration between private app developers and public transport sector|**+**|Partnership & collaborations (*17*)|Jakob et al., 2014; Shoshany-Tavory et al., 2014|')
 ```
 
@@ -64,10 +64,10 @@ cat('|TRL| SRL|
 
 ### References {-}
 - Amrani, A., Pasini, K., & Khouadjia, M. (2020, November). Enhance Journey Planner with Predictive Travel Information for Smart City Routing Services. In 2020 Forum on Integrated and Sustainable Transportation Systems (FISTS) (pp. 304-308). IEEE.
--	Borole, N., Rout, D., Goel, N., Vedagiri, P. and Mathew, T., (2013). Multimodal Public Transit Trip Planner with Real-time Transit Data. Procedia - Social and Behavioral Sciences, [online] 104, pp.775-784. Available at: <https://reader.elsevier.com/reader/sd/pii/S1877042813045631?token=42DB6D6836ED2B503BB611823B60EDAC7087D7DA77A894C14E04BDBDE0AD81BAC6E335407F8059EC5DC8DC9DA0C7C345>.
--	Ştefănescu, P., Mocan, M., Ştefănescu, W. and Neculai, P., (2014). Trip Planners Used in Public Transportation. Case Study on the City of Timişoara. Procedia - Social and Behavioral Sciences, [online] 124, pp.142-148. Available at: <https://reader.elsevier.com/reader/sd/pii/S1877042814020187?token=4E35403DB645FDA2D21DC662D8ADD8BBEA08E3794B321355E3DE9478F87F219256238D04D8D6AAF89E2ABEBFE1FBBDB5>.
--	Liebig, T., Piatkowski, N., Bockermann, C. and Morik, K., (2017). Dynamic route planning with real-time traffic predictions. Information Systems, [online] 64, pp.258-265. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.687&rep=rep1&type=pdf>.
--	Jakob, M., Hrncir, J., Oliva, L., Ronzano, F., Zilecky, P. and Finnegan, J., 2014. Personalized Fully Multimodal Journey Planner. ECAI 2014, [online] Available at: <https://upcommons.upc.edu/bitstream/handle/2117/127282/FAIA263-1225%20%282%29.pdf?sequence=3&isAllowed=y> [Accessed 13 March 2021].
+-	Borole, N., Rout, D., Goel, N., Vedagiri, P. and Mathew, T., (2013). Multimodal Public Transit Trip Planner with Real-time Transit Data. Procedia - Social and Behavioral Sciences,  104, pp.775-784. Available at: <https://reader.elsevier.com/reader/sd/pii/S1877042813045631?token=42DB6D6836ED2B503BB611823B60EDAC7087D7DA77A894C14E04BDBDE0AD81BAC6E335407F8059EC5DC8DC9DA0C7C345>.
+-	Ştefănescu, P., Mocan, M., Ştefănescu, W. and Neculai, P., (2014). Trip Planners Used in Public Transportation. Case Study on the City of Timişoara. Procedia - Social and Behavioral Sciences,  124, pp.142-148. Available at: <https://reader.elsevier.com/reader/sd/pii/S1877042814020187?token=4E35403DB645FDA2D21DC662D8ADD8BBEA08E3794B321355E3DE9478F87F219256238D04D8D6AAF89E2ABEBFE1FBBDB5>.
+-	Liebig, T., Piatkowski, N., Bockermann, C. and Morik, K., (2017). Dynamic route planning with real-time traffic predictions. Information Systems,  64, pp.258-265. Available at: <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.687&rep=rep1&type=pdf> [Accessed: 13 March 2021].
+-	Jakob, M., Hrncir, J., Oliva, L., Ronzano, F., Zilecky, P. and Finnegan, J., 2014. Personalized Fully Multimodal Journey Planner. ECAI 2014,  Available at: <https://upcommons.upc.edu/bitstream/handle/2117/127282/FAIA263-1225%20%282%29.pdf?sequence=3&isAllowed=y> [Accessed: 13 March 2021].
 -	Shoshany-Tavory, S., Gal-Tzur, A. and Eden, N., (2014). Incorporating Systems Engineering Methodologies to Increase the Transferability of Journey Planners. Transportation Research Procedia, 3, pp.631-640.
 -	D. Puiu, S. Bischof, B. Serbanescu, S. Nechifor, J. Parreira and H. Schreiner, "A public transportation journey planner enabled by IoT data analytics," 2017 20th Conference on Innovations in Clouds, Internet and Networks (ICIN), Paris, France, 2017, pp. 355-359, doi: 10.1109/ICIN.2017.7899440.
 
@@ -125,7 +125,7 @@ Finally, in 2020 *Apple* launched a new online map, including the features of re
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Higher accessibility to mobility|**+**|Equality *(5,10)* |Dibbelt et al., 2017|
-|Individual|Facilitated use of public trasnport|**+**| Environmental sustainability (*7,12,13,15*)|European Commission, 2021a|
+|Individual|Facilitated use of public transport|**+**| Environmental sustainability (*7,12,13,15*)|European Commission, 2021a|
 |Systemic|Accessible data on a non-discriminatory basis| **+**|Equality *(5,10)* |European Commission, 2021b |
 |Systemic|More efficient transport system|**+**|Sustainable economic development (*8,11*)|European Commission, 2021a|
 |Systemic|Implementation of NAPs, framework for defining and agreeing data models |**+**|Innovation & Infrastructure (*9*)|European Commission, 2021b; European Commission, n.d. b|
@@ -143,7 +143,7 @@ cat('|TRL| SRL|
 ### Open questions {-}
 
 1. How can bus and rail travel be made as convenient to book as flights? 
-2. Why Austria has not implemented the Transmodel? What's necessary for an implementation?
+2. Why Austria has not implemented the Transmodel? What is necessary for an implementation?
 3. What effect has multimodal information & route planning on energy consumption? 
 4. What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for these specific groups?
  
@@ -158,18 +158,18 @@ cat('|TRL| SRL|
 -	[maps.google.com](http://maps.google.com/landing/transit/cities/index.html#Europe) 
 
 ### References {-}
-- Apple. (2020). Apple delivers a new redesigned Maps for all users in the United States - Apple. Retrieved February 15, 2021, from https://www.apple.com/newsroom/2020/01/apple-delivers-a-new-redesigned-maps-for-all-users-in-the-united-states/
+- Apple. (2020). Apple delivers a new redesigned Maps for all users in the United States - Apple. Available at: https://www.apple.com/newsroom/2020/01/apple-delivers-a-new-redesigned-maps-for-all-users-in-the-united-states/ [Accessed: 15 February 2021]
 - Chang, Y., Chen, J., Franklin, T., Zhang, L., Ruci, A., Tang, H., & Zhu, Z. (2020, August). Multimodal Information Integration for Indoor Navigation Using a Smartphone. In 2020 IEEE 21st International Conference on Information Reuse and Integration for Data Science (IRI) (pp. 59-66). IEEE. 
 - Dibbelt, J., Konstantopoulos, C., Wagner, D., Gavalas, D., Kontogiannis, S., Zaroliagis, C., ... & Pantziou, G. (2017, July). Multimodal route and tour planning in urban environments. In 2017 IEEE Symposium on Computers and Communications (ISCC) (pp. 214-219). IEEE.
 - Dinko, A., Yatskiv, I., & Budilovich, E. (2020, October). Trip Planner Challenges in the Era of Fast Changing Requirements. In International Conference on Reliability and Statistics in Transportation and Communication (pp. 485-496). Springer, Cham.
-- European Commission. (n.d. a). Applicability of Transmodel – Transmodel. Retrieved February 8, 2021, from http://www.transmodel-cen.eu/overview/applicability-of-the-transmodel/ 
-- European Commission. (n.d. b). Purpose of the Transmodel – Transmodel. Retrieved February 8, 2021, from http://www.transmodel-cen.eu/overview/purpose-of-the-transmodel/ 
-- European Commission. (n.d. c). Transmodel countries – Transmodel. Retrieved February 12, 2021, from http://www.transmodel-cen.eu/implementations/countries/ 
-- European Commission. (2021a). Multimodal Travel Information | Mobility and Transport. Retrieved February 12, 2021, from https://ec.europa.eu/transport/themes/its/road/action_plan/multimodal-travel-information_en 
-- European Commission. (2021b). National Access Points | Mobility and Transport. Retrieved February 12, 2021, from https://ec.europa.eu/transport/themes/its/road/action_plan/nap_en 
-- Google. (2021). Get started with Google Transit - Transit Partners Help. February 8, 2021, from https://support.google.com/transitpartners/answer/1111481?hl=en&ref_topic=3521043 
-- Google. (n.d.). Routes & Directions  |  Google Maps Platform  |  Google Cloud. Retrieved February 12, 2021, from https://cloud.google.com/maps-platform/routes 
+- European Commission. (n.d. a). Applicability of Transmodel – Transmodel. Available at: http://www.transmodel-cen.eu/overview/applicability-of-the-transmodel/ [Accessed: 8 February 2021]
+- European Commission. (n.d. b). Purpose of the Transmodel – Transmodel. Available at: http://www.transmodel-cen.eu/overview/purpose-of-the-transmodel/ [Accessed: 8 February 2021]
+- European Commission. (n.d. c). Transmodel countries – Transmodel. Available at: http://www.transmodel-cen.eu/implementations/countries/ [Accessed: 12 February 2021]
+- European Commission. (2021a). Multimodal Travel Information | Mobility and Transport. Available at: https://ec.europa.eu/transport/themes/its/road/action_plan/multimodal-travel-information_en [Accessed: 12 February 2021]
+- European Commission. (2021b). National Access Points | Mobility and Transport. Available at: https://ec.europa.eu/transport/themes/its/road/action_plan/nap_en [Accessed: 12 February 2021]
+- Google. (2021). Get started with Google Transit - Transit Partners Help. Available at: https://support.google.com/transitpartners/answer/1111481?hl=en&ref_topic=3521043 [Accessed: 8 February 2021]
+- Google. (n.d.). Routes & Directions  |  Google Maps Platform  |  Google Cloud. Available at: https://cloud.google.com/maps-platform/routes [Accessed: 12 February 2021]
 - Huang, H., Bucher, D., Kissling, J., Weibel, R., & Raubal, M. (2018). Multimodal route planning with public transport and carpooling. IEEE Transactions on Intelligent Transportation Systems, 20(9), 3513-3525.
-- Rome2rio Pty Ltd. (2021a). About Rome2rio - Rome2rio. Retreived February 12, 2021, from https://www.rome2rio.com/about/ 
-- Rome2rio Pty Ltd. (2021b). Rome2rio API - Rome2rio. Retreived February 12, 2021, from https://www.rome2rio.com/documentation/ 
-- Verkehrsauskunft Österreich. (n.d.). Verkehrsauskunft Österreich: VAO Heute. Retrieved February 8, 2021, from https://www.verkehrsauskunft.at/ 
+- Rome2rio Pty Ltd. (2021a). About Rome2rio - Rome2rio.Available at: https://www.rome2rio.com/about/ [Accessed: 12 February 2021]
+- Rome2rio Pty Ltd. (2021b). Rome2rio API - Rome2rio. Available at: https://www.rome2rio.com/documentation/ [Accessed: 12 February 2021]
+- Verkehrsauskunft Österreich. (n.d.). Verkehrsauskunft Österreich: VAO Heute. Available at: https://www.verkehrsauskunft.at/ [Accessed: 8 February 2021]

@@ -216,7 +216,7 @@ Most new micromobility platform startups (mainly e-scooters) were initially unpr
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Systemic|Reduction in transit service inequality|          **+**|Equality (*5,10*)|Zuo et al., 2020a|
-|Systemic|Reduction in negative externalities but substitution of more environmentally friendly modes eg. walking|         **~**|Environmental sustainability (*7,12,13,15*)|Twisse, 2020|
+|Systemic|Reduction in negative externalities but substitution of more environmentally friendly modes e.g. walking|         **~**|Environmental sustainability (*7,12,13,15*)|Twisse, 2020|
 |Systemic|Profits from growth in micromobility sector (F/L/O options)|          **+**|Sustainable economic development (*8,11*)|Goessling, 2020|
 |Systemic|Improvement in technology of micro-mobility equipment |**+**|Innovation & Infrastructure (*9*)|Eliasen, 2021|
 ')
@@ -297,11 +297,11 @@ The different fare structures are (Wang et al., 2021):
 
 -	**Flat fares** (a single fare for the entire fare system)
 - **Distance-based fares** (fares calculated by distance) <br/>
-A distanced-based system charges higher fares for passengers that cover longer distances. The fares are typically calculated on a route-by-route basis where it is based on the distance between origin and destination (OD) (eg. Washington, DC). Distance-based fares are typically complicated to develop and enforce because they require a card to be swiped, tapped or punched for bus or rail, or they require a barrier that enforces additional payment. Furthermore, distance-based pricing is not frequently used in on-express routes and rail and it is more common for express routes and systems that radiate from a central area (McKone, 2010).
+A distanced-based system charges higher fares for passengers that cover longer distances. The fares are typically calculated on a route-by-route basis where it is based on the distance between origin and destination (OD) (e.g. Washington, DC). Distance-based fares are typically complicated to develop and enforce because they require a card to be swiped, tapped or punched for bus or rail, or they require a barrier that enforces additional payment. Furthermore, distance-based pricing is not frequently used in on-express routes and rail and it is more common for express routes and systems that radiate from a central area (McKone, 2010).
 -	**Time-based fares** (fares calculated by travel time) <br/>
 The time-based system allows passengers to use public transport and make free transfers in a set period of time. The validity period can be as short as 20 min (Krakow.pl, 2021) or an unlimited weekly, monthly or yearly pass (Wiener Linien, 2021). Importantly, this pricing system requires some sort of card (paper, magnetic or smart card) to issue the transfer. It is often used for within-city public transport solutions.
 -	**Zone-based fares** (fares calculated by travel zone) <br/>
-The fares are typically calculated based on the zones that establish increasing fares in certain regions of the city (eg. in Paris commuter rail system or London Underground) (McKone, 2010).
+The fares are typically calculated based on the zones that establish increasing fares in certain regions of the city (e.g. in Paris commuter rail system or London Underground) (McKone, 2010).
 Moreover, Brown (2018) mentions five types of fare structuring: flat, adjusted to distance travelled, variable by time of day, variable by mode, and/or discounted based on rider characteristics.
 
 ### Key stakeholders {-}
@@ -345,7 +345,7 @@ The government in Austria is committed to the implementation of the so-called Cl
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Higher societal equity and public transport accessibility|**+**|Equality (*5,10*)|Brown, 2018; Pallinger, 2021|
-|Individual|Reduction in sustainable transport modes (eg. walking) due to increased use of free public transport|          **-**|Environmental sustainability (*7,12,13,15*)|Pallinger, 2021|
+|Individual|Reduction in sustainable transport modes (e.g. walking) due to increased use of free public transport|          **-**|Environmental sustainability (*7,12,13,15*)|Pallinger, 2021|
 |Systemic|Reduced carbon emissions|         **+**|Environmental sustainability (*7,12,13,15*)|Yeung, 2021|
 |Systemic|Potentially excessive trips by public transport  may decrease its quality|          **-**|Sustainable economic development (*8,11*)|Raaflaub, 2020|')
 ```
@@ -548,7 +548,7 @@ Recommendations for municipalities & public transport:
 -	Combine Bike+Ride and P&R facilities to make it possible for residents from the immediate vicinity to reach the facility by bicycle instead of by car (Luca and Dommnich, 2018).
 
 ### Relevant initiatives in Austria {-}
-ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region this year. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P&R facilities is free of charge for public transport passengers (VOR.at, no date).
+ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region this year. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P&R facilities is free of charge for public transport passengers (VOR.at, n.d.).
 
 - [wien.info](https://www.wien.info/de/reiseinfos/anreise/parkgaragen) 
 - [wien.gv.at](https://www.wien.gv.at/verkehr/parken/garagen/) 
@@ -564,9 +564,9 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Reduced initial congestion in city centres|**~**|Health & Wellbeing (*3*)|Dijk & Montalvo, 2011|
 |Individual|Increased access to public transport & multimodal travel|**+**|Equality (*5,10*)|Macioszek & Kurek, 2020|
-|Individual|Low cost or free of charge|**+**|Sustainable economic development (*8,11*)|VOR.at, no date|
+|Individual|Low cost or free of charge|**+**|Sustainable economic development (*8,11*)|VOR.at, n.d.|
 |Systemic|New infrastructure built|**+**|Innovation & Infrastructure (*9*)|Frey, 2021|
-|Systemic|Ambiguous impact on emissions|**~**|Environmental sustainability (*7,12-13,15*)|Moore et al., 2019; ITF, no date|')
+|Systemic|Ambiguous impact on emissions|**~**|Environmental sustainability (*7,12-13,15*)|Moore et al., 2019; ITF, n.d.|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -596,15 +596,12 @@ cat('|TRL| SRL|
 -	Frey, F. (2021, January 6). ÖBB: 700 Mio. Euro für Infrastrukturausbau - noe.ORF.at. https://noe.orf.at/stories/3083619/
 -	Gan, H., & Ye, X. (2018). Will commute drivers switch to park-and-ride under the influence of multimodal traveler information? A stated preference investigation. Transportation Research Part F: Traffic Psychology and Behaviour, 56, 354–361. https://doi.org/10.1016/j.trf.2018.05.015
 - Islam, S. T., Liu, Z., Sarvi, M., & Zhu, T. (2015). Exploring the mode change behavior of park-and-ride users. Mathematical Problems in Engineering, 2015.
-- ITF. (no date) Park and ride facilities. [online] Available at: <https://www.itf-oecd.org/policy/park-and-ride-facilities> [Accessed 3 March 2021].
+- ITF. (n.d.) Park and ride facilities.  Available at: <https://www.itf-oecd.org/policy/park-and-ride-facilities> [Accessed: 3 March 2021].
 -	Katoshevski-Cavari, R., Bak, N., & Shiftan, Y. (2018). Would free park-and-ride with a free shuttle service attract car drivers? Case Studies on Transport Policy, 6(2), 206–213. https://doi.org/10.1016/j.cstp.2018.05.001
 -	Luca, K., & Dommnich, B. (2018, August 6). 60 P+R-Anlagen im Test | ADAC. https://www.adac.de/reise-freizeit/ratgeber/tests/park-ride/
 - Macioszek, E., & Kurek, A. (2020). The use of a park and ride system—A case study based on the city of Cracow (Poland). Energies, 13(13), 3473.
 -	Moore, A. M., Curran, S. J., Lapsa, M. V., & Bittler, A. D. (2019). Geoanalysis of park-and-ride facilities for future laboratory-wide commuting program. Transportation Research Interdisciplinary Perspectives, 3, 100025. https://doi.org/10.1016/j.trip.2019.100025
--	VOR.at. (n.d.). Park/Bike+Ride - VOR. Retrieved 26 February 2021, from https://www.vor.at/mobil/parkbike-ride/
-
-
-
+-	VOR.at. (n.d.). Park/Bike+Ride - VOR. Available at: https://www.vor.at/mobil/parkbike-ride/ [Accessed: 26 February 2021]
 
 ## Contactless public transport cards {#contactless_cards}
 
@@ -673,13 +670,13 @@ cat('|TRL| SRL|
 - Kurauchi, F., & Schmöcker, J. D. (Eds.). (2017). Public transport planning with smart card data. CRC Press.
 - Mezghani, M. (2008). Study on electronic ticketing in public transport. European Metropolitan Transport Authorities (EMTA), 56, 38.
 - NFC Forum. (2016). NFC-enabled e-Ticketing in Public Transport : Clearing the Route to Interoperability. December. https://nfc-forum.org/wp-content/uploads/2016/12/NFC_enabled_eTicketing_in_Public_Transport_White_Paper.pdf
-- ÖBB. Ihr Weg zum Ticket. Retrieved 13th January 2021, from https://www.oebb.at/de/tickets-kundenkarten/weg-zum-ticket 
+- ÖBB. Ihr Weg zum Ticket. Available at: https://www.oebb.at/de/tickets-kundenkarten/weg-zum-ticket [Accessed: 13 January 2021]
 - Turner, M., & Wilson, R. (2010). Smart and integrated ticketing in the UK: Piecing together the jigsaw. Computer Law & Security Review, 26(2), 170-177.
-- Wels Linien. Tarife. Retrieved 13th January 2021, from https://www.welslinien.at/tarife/ 
+- Wels Linien. Tarife. Available at: https://www.welslinien.at/tarife/ [Accessed: 13 January 2021]
 - Wiener Linien. (2021a). Der richtige Fahrschein,
-der passende Tarif. Retrieved 13th January 2021, from https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648 
-- Wiener Linien. (2021b). Digital-Wettbewerb "Vienna Tickethon" gestartet. Retrieved 13th January 2021, from https://www.wienerlinien.at/eportal3/ep/contentView.do/pageTypeId/66526/programId/74577/contentTypeId/1001/channelId/-47186/contentId/5002360#:~:text=Im%20Rahmen%20eines%20internationalen%20Hackathon,Wettbewerb%20l%C3%A4uft%20bis%20Anfang%20M%C3%A4rz 
-- Wikipedia contributors. (2021, January 8). List of smart cards. In Wikipedia, The Free Encyclopedia. Retrieved 15:30, January 13, 2021, from https://en.wikipedia.org/w/index.php?title=List_of_smart_cards&oldid=999040130
+der passende Tarif. Available at: https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-46648 [Accessed: 13 January 2021]
+- Wiener Linien. (2021b). Digital-Wettbewerb "Vienna Tickethon" gestartet. Available at: https://www.wienerlinien.at/eportal3/ep/contentView.do/pageTypeId/66526/programId/74577/contentTypeId/1001/channelId/-47186/contentId/5002360#:~:text=Im%20Rahmen%20eines%20internationalen%20Hackathon,Wettbewerb%20l%C3%A4uft%20bis%20Anfang%20M%C3%A4rz [Accessed: 13 January 2021]
+- Wikipedia contributors. (2021, January 8). List of smart cards. In Wikipedia, The Free Encyclopedia. Available at: https://en.wikipedia.org/w/index.php?title=List_of_smart_cards&oldid=999040130 [Accessed: 13 January 2021]
 
 
 ## Information and assistance for people with special needs {#special_needs}
@@ -767,16 +764,16 @@ cat('|TRL| SRL|
 - [blindenverband.at](https://www.blindenverband.at/ )
  
 ### References {-}
--	BlindSquare. (n.d.). What is BlindSquare? Retrieved March 4, 2021, from https://www.blindsquare.com/about/
+-	BlindSquare. (n.d.). What is BlindSquare? Available at:  March 4, 2021, from https://www.blindsquare.com/about/ [Accessed: 4 March 2021]
 -	Fusco, G., & Coughlan, J. M. (2020, April). Indoor localization for visually impaired travelers using computer vision on a smartphone. In Proceedings of the 17th International Web for All Conference (pp. 1-11).
 -	Goldberg, M., Zhu, Z., & Zhang, Z. (2018). How do we aid visually impaired people safely manage unfamiliar environments?.
 -	Hounsell, N. B., Shrestha, B. P., McDonald, M., & Wong, A. (2016). Open data and the needs of older people for public transport information. Transportation research procedia, 14, 4334-4343.
 -	Low, W. Y., Cao, M., De Vos, J., & Hickman, R. (2020). The journey experience of visually impaired people on public transport in London. Transport Policy, 97, 137-148.
--	Smrt.com.sg. (2021). Accessibility. [online] Smrt.com.sg. Available at: <https://www.smrt.com.sg/Journey-with-Us/SMRT-Buses/Accessibility> [Accessed 12 March 2021].
+-	Smrt.com.sg. (2021). Accessibility.  Smrt.com.sg. Available at: <https://www.smrt.com.sg/Journey-with-Us/SMRT-Buses/Accessibility> [Accessed: 12 March 2021].
 -	Sturma, A. (2011). Höranlagen. https://www.oessh.or.at/hoerspuren/hoeranlagen
--	Transition Technologies S.A. (n.d.). Seeing Assistant Move - Features. Retrieved March 4, 2021, from http://seeingassistant.tt.com.pl/move/
+-	Transition Technologies S.A. (n.d.). Seeing Assistant Move - Features. Available at: http://seeingassistant.tt.com.pl/move/ [Accessed: 4 March 2021]
 -	Vehmas, S. (2010). Special needs: a philosophical analysis. International journal of inclusive education, 14(1), 87-96.
--	Wiener Linien. (n.d.). Barrierefreiheit bei den Wiener Linien - Wiener Linien. Retrieved March 16, 2021, from https://www.wienerlinien.at/web/wiener-linien/barrierefreiheit
+-	Wiener Linien. (n.d.). Barrierefreiheit bei den Wiener Linien - Wiener Linien. Available at: https://www.wienerlinien.at/web/wiener-linien/barrierefreiheit [Accessed: 16 March 2021]
 
 
 ## Mobility hubs {#mobility_hubs} 
@@ -785,7 +782,7 @@ cat('|TRL| SRL|
 *Mobility station or point, mobihub, (public) ride point, smart station, sharing zone, transportation center, public transit or transport hub, transport interchange, ride port, share point, intermodal hubs*
 
 ### Definition {-}
-There are many different definitions of mobility hubs. In general, mobility hubs are places to change transport mode. However, they can also be much more than that and are essential for the functioning of Mobility as a Service (See [MaaS](#maas)). Mobility hubs are expected to be convenient and safe for switching modes, but they could also close supply gaps, enhance traveler experience and the quality of life in a certain area (Clemens, 2020). Airports, train and subway stations usually include car park and car rental, bus stops and taxi stands as well as restaurants, shops, hotels or even conference centres, which benefit from passing trade and goods accessibility. They represent so-called "*naturally*" grown mega hubs (Clemens, 2020). In addition, municipalities around the world are systematically planning and implementing further mobility hubs that vary in size - from a small bus stop with an attached bike sharing station to a mega hub as described above. They are supposed to improve intermodal mobility and bring socio-economic benefits (Clemens, 2020). Specific names and strong visual branding are designed to help passengers recognize them quickly. <br/>
+There are many different definitions of mobility hubs. In general, mobility hubs are places to change transport mode. However, they can also be much more than that and are essential for the functioning of Mobility as a Service (See [MaaS](#maas)). Mobility hubs are expected to be convenient and safe for switching modes, but they could also close supply gaps, enhance traveller experience and the quality of life in a certain area (Clemens, 2020). Airports, train and subway stations usually include car park and car rental, bus stops and taxi stands as well as restaurants, shops, hotels or even conference centres, which benefit from passing trade and goods accessibility. They represent so-called "*naturally*" grown mega hubs (Clemens, 2020). In addition, municipalities around the world are systematically planning and implementing further mobility hubs that vary in size - from a small bus stop with an attached bike sharing station to a mega hub as described above. They are supposed to improve intermodal mobility and bring socio-economic benefits (Clemens, 2020). Specific names and strong visual branding are designed to help passengers recognize them quickly. <br/>
 
 Mobility as a Service or Mobility on Demand concepts are designed to make it possible to not own a car and still be mobile. Mobility hubs should offer the greatest possible variation of means of transport for individual route chains and thus, ensure that car journeys are not all replaced one-to-one by car sharing journeys, but that the transport routes are covered as sustainably as possible (Clemens, 2020). Since each additional transfer during a trip creates a barrier and tempts people to use private motorized transport instead, the goal of mobility hubs is to provide these transfers with a benefit and to ensure that the transfer runs smoothly. Examples include allowing people to work or relax, pick up a package, meet friends, or do necessary shopping during their commute home (Clemens, 2020). Mobility hubs could also be combined with quarter logistics hubs (See [Urban deliveries](#urban_delivery)) (Herrmann, n.d.). 
 
@@ -795,7 +792,7 @@ Mobility as a Service or Mobility on Demand concepts are designed to make it pos
 - **Responsible**: City administration, Public transport operators, Mobility service providers, Funding provider, District authorities, Private companies
 
 ### Current state of art in research {-}
-Bell (2019) has analyzed the user requirements of mobility hubs. He argues that mobility hubs or intermodal hubs differ depending on the area in which they are implemented, e.g. rural or urban areas, and that success and sustainability strongly depend on the particular design. An overview of his general conclusion is shown in Figure 7.2. 
+Bell (2019) has analysed the user requirements of mobility hubs. He argues that mobility hubs or intermodal hubs differ depending on the area in which they are implemented, e.g. rural or urban areas, and that success and sustainability strongly depend on the particular design. An overview of his general conclusion is shown in Figure 7.2. 
 
 ```{r, echo=FALSE, , out.width="65%", fig.cap=": User requirements at public transport stops (Bell, 2019)"}
 knitr::include_graphics("image/mobility_hubs.png")
@@ -866,16 +863,16 @@ cat('|TRL| SRL|
 - Bell, D. (2019). Intermodal Mobility Hubs and User Needs. Social Sciences, 8(2), 65.
 - Clemens. (2020, November 24). Mobility as a Service (MaaS) - Mobility Hubs. https://mobility-as-a-service.blog/mobility-hubs/
 - Franken, M. (2021). Effects of e-mobility hubs in residential areas on car use and ownership: Stated choice experiments in the context of Dutch cities.
-- Herrmann, F. (n.d.). Intermodal Urban Mobility Systems. Retrieved May 6, 2021, from https://www.morgenstadt.de/de/innovationsfelder/intermodal_urban_mobility_systems.html
+- Herrmann, F. (n.d.). Intermodal Urban Mobility Systems. Available at: https://www.morgenstadt.de/de/innovationsfelder/intermodal_urban_mobility_systems.html [Accessed: 6 May 2021]
 - Hochmair, H. H. (2015). Assessment of bicycle service areas around transit stations. International journal of sustainable transportation, 9(1), 15-29.
 - Interreg North-West Europe (NWE). (2019, October 3). eHUBS - Smart Shared Green Mobility Hubs | Interreg NWE. https://www.nweurope.eu/projects/project-search/ehubs-smart-shared-green-mobility-hubs/
 - Miramontes, M., Pfertner, M., Rayaprolu, H. S., Schreiner, M., & Wulfhorst, G. (2017). Impacts of a multimodal mobility service on travel behavior and preferences: user insights from Munich’s first Mobility Station. Transportation, 44(6), 1325-1342.
 - Mosshammer, L. (2020, October 27). Sharing and new forms of mobility: social, environmentally friendly, efficient. https://www.austriatech.at/en/sharing-and-new-forms-of-mobility/
-- Reisviahub.nl. (n.d.). Gieten (N33 / N34) . Retrieved May 6, 2021, from https://www.reisviahub.nl/hubs/gieten-ov-knooppunt-n33-n34/ 
+- Reisviahub.nl. (n.d.). Gieten (N33 / N34) . Available at: https://www.reisviahub.nl/hubs/gieten-ov-knooppunt-n33-n34/ [Accessed: 6 May 2021]
 - Stadt Wien - Stadtentwicklung und Stadtplanung (MA 18) und Stadtteilplanung und Flächennutzung (MA 21). (2018). Leitfaden Mobilitätsstationen: Die Umsetzung von Mobilitätsstationen in Stadtentwicklungsgebieten am Beispiel Zielgebiet Donaufeld, Wien.
 - Stein, T., & Bauer, U. (2019). Mobilitätsstationen in der kommunalen Praxis, Erkenntnisse und Erfahrungen aus dem BMU-Forschungsprojekt City2Share und weiteren kommunalen Praxisbeispielen. http://www.difu.de
 - Tran, M., & Draeger, C. (2021). A data-driven complex network approach for planning sustainable and inclusive urban mobility hubs and services. Environment and Planning B: Urban Analytics and City Science, 2399808320987093.
-- Wiener Linien. (2021). WienMobil Stationen - Wiener Linien. https://www.wienerlinien.at/web/wiener-linien/wienmobil-stationen
+- Wiener Linien. (2021). WienMobil Stationen - Wiener Linien. Available at: https://www.wienerlinien.at/web/wiener-linien/wienmobil-stationen [Accessed: 6 May 2021]
 
 
 
@@ -967,8 +964,8 @@ cat('|TRL| SRL|
 ### References {-}
 -	Behrends, V., Haunschild, M., & Galonske, N. (2016). Smart Telematics Enabling Efficient Rail Transport - Development of the ViWaS Research and Development Project. Transportation Research Procedia, 14, 4430–4439. https://doi.org/10.1016/j.trpro.2016.05.365
 -	Berman, J. (2020, October 22). Freight rail offering aims to boost GPS and telematics adoption across North American railcar fleet - Logistics Management. https://www.logisticsmgmt.com/article/freight_rail_offering_aims_to_boost_gps_and_telematics_adoption_across_nort
-- EIM (2019) Telematics application for Freight and Passengers - EIM. Available at: https://eimrail.org/document/telematics-application-for-freight-and-passengers/ (Accessed: 15 April 2021).
+- EIM (2019) Telematics application for Freight and Passengers - EIM. Available at: https://eimrail.org/document/telematics-application-for-freight-and-passengers/ [Accessed: 15 April 2021].
 -	European Commission. (2021). Telematic applications | Mobility and Transport. https://ec.europa.eu/transport/modes/rail/interoperability/interoperability/telematic_applications_de
-- Hendry, J. (2021) Victoria launches real-time crowding tool for trains - Hardware - Software - iTnews. Available at: https://www.itnews.com.au/news/victoria-launches-real-time-crowding-tool-for-trains-560504 (Accessed: 15 April 2021).
+- Hendry, J. (2021) Victoria launches real-time crowding tool for trains - Hardware - Software - iTnews. Available at: https://www.itnews.com.au/news/victoria-launches-real-time-crowding-tool-for-trains-560504 [Accessed: 15 April 2021].
 - Müller, S. A., Leich, G. and Nagel, K. (2020) ‘The effect of unexpected disruptions and information times on public transport passengers: A simulation study’, Procedia Computer Science. Elsevier B.V., 170, pp. 745–750. doi: 10.1016/j.procs.2020.03.161.
 -	Ußler, H., Michler, O., & Löffler, G. (2019). Validation of multiple sensor systems based on a telematics platform for intelligent freight wagons. Transportation Research Procedia, 37(September 2018), 187–194. https://doi.org/10.1016/j.trpro.2018.12.182

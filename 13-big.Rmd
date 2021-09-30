@@ -109,8 +109,8 @@ cat('|TRL| SRL|
 ### References {-}
 -	Annu, Kaushik, D., & Gupta, A. (2021). Ultra-secure transmissions for 5G-V2X communications. Materials Today: Proceedings. https://doi.org/10.1016/j.matpr.2020.12.130
 -	Autocrypt. (2021). AUTOCRYPT - DSRC vs. C-V2X: A Detailed Comparison of the 2 Types of V2X Technologies. https://www.autocrypt.io/blog-post/dsrc-vs-c-v2x-detailed-comparison
--	Autotalks Ltd. (n.d.). C-V2X vs DSRC | Get Your Facts Straight on Cellular V2X, LTE-V and LTE-V2X Autotalks. Retrieved May 4, 2021, from https://www.auto-talks.com/technology/dsrc-vs-c-v2x-2/
--	Erhart, J. (2019, November 28). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/
+-	Autotalks Ltd. (n.d.). C-V2X vs DSRC | Get Your Facts Straight on Cellular V2X, LTE-V and LTE-V2X Autotalks. Available at: https://www.auto-talks.com/technology/dsrc-vs-c-v2x-2/ [Accessed: 4 May 2021]
+-	Erhart, J. (2019, November 28). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt.Available at: https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/ [Accessed: 4 May 2021]
 -	Fillenberg, S. (2017, December 18). Cellular V2X: Continental Successfully Conducts Field Trials in China. Continental Press Release. https://www.continental.com/en/press/press-releases/2017-12-18-cellular-v2x-116994
 -	finanzen.net. (2021, May 5). Internet aus dem All: Internetsparte von SpaceX: Starlink bald in Wohnmobilen, Schiffen und Flugzeugen? | Nachricht | finanzen.net. https://www.finanzen.net/nachricht/geld-karriere-lifestyle/internet-aus-dem-all-internetsparte-von-spacex-starlink-bald-in-wohnmobilen-schiffen-und-flugzeugen-9905140
 -	Gettman, D. (2020, June 3). DSRC and C-V2X: The Future of Connected Vehicles | Kimley-Horn. https://www.kimley-horn.com/news-insights/dsrc-cv2x-comparison-future-connected-vehicles/
@@ -124,15 +124,12 @@ cat('|TRL| SRL|
 -	Rath, M., Pati, B., & Pattanayak, B. K. (2019). An Overview on Social Networking: Design, Issues, Emerging Trends, and Security. In Social Network Analytics (pp. 21–47). Elsevier. https://doi.org/10.1016/b978-0-12-815458-8.00002-5
 -	Salvo, P., Turcanu, I., Cuomo, F., Baiocchi, A., & Rubin, I. (2017). Heterogeneous cellular and DSRC networking for Floating Car Data collection in urban areas. Vehicular Communications, 8, 21–34. https://doi.org/10.1016/j.vehcom.2016.11.004
 -	Sattiraju, R., Wang, D., Weinand, A., & Schotten, H. D. (2020). Link level performance comparison of C-V2X and ITS-G5 for vehicular channel models. ArXiv, March.
--	Sheetz, M. (2021, May 4). SpaceX: Over 500,000 orders for Starlink satellite internet service. https://www.cnbc.com/2021/05/04/spacex-over-500000-orders-for-starlink-satellite-internet-service.html
--	Starlink. (n.d.). Starlink. Retrieved May 6, 2021, from https://www.starlink.com/
--	Techbook. (2020, November 16). LTE, 4G und 5G: Die Unterschiede zwischen den Mobilfunkstandards. https://www.techbook.de/mobile/lte-4g-unterschied-mobil-smartphone
--	Traxler, T., & Rennert, D. (2020, February 17). Starlink: Elon Musks Satellitenflotte in der Kritik - Raum - derStandard.at › Wissenschaft. https://www.derstandard.at/story/2000114681438/starlink-elon-musks-satellitenflotte-in-der-kritik
--	WKÖ. (2019). Ausrüstungspflicht von neuen lkw und omnibussen mit einem „smart tacho“ ab 15. Juni 2019. https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiyka_Xs7XwAhXytYsKHTq_AJ0QFjADegQIBBAD&url=https%3A%2F%2Fwww.wko.at%2Fbranchen%2Ftransport-verkehr%2Fausruestungspflicht-smart-tacho.pdf&usg=AOvVaw12-xLPvw33KN9gvYKy51tn
+-	Sheetz, M. (2021, May 4). SpaceX: Over 500,000 orders for Starlink satellite internet service. Available at:  https://www.cnbc.com/2021/05/04/spacex-over-500000-orders-for-starlink-satellite-internet-service.html [Accessed: 4 May 2021]
+-	Starlink. (n.d.). Starlink. Available at: https://www.starlink.com/ [Accessed: 6 May 2021]
+-	Techbook. (2020, November 16). LTE, 4G und 5G: Die Unterschiede zwischen den Mobilfunkstandards.Available at: https://www.techbook.de/mobile/lte-4g-unterschied-mobil-smartphone [Accessed: 4 May 2021]
+-	Traxler, T., & Rennert, D. (2020, February 17). Starlink: Elon Musks Satellitenflotte in der Kritik - Raum - derStandard.at › Wissenschaft.Available at: https://www.derstandard.at/story/2000114681438/starlink-elon-musks-satellitenflotte-in-der-kritik [Accessed: 4 May 2021]
+-	WKÖ. (2019). Ausrüstungspflicht von neuen lkw und omnibussen mit einem „smart tacho“ ab 15. Juni 2019. Available at:  https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiyka_Xs7XwAhXytYsKHTq_AJ0QFjADegQIBBAD&url=https%3A%2F%2Fwww.wko.at%2Fbranchen%2Ftransport-verkehr%2Fausruestungspflicht-smart-tacho.pdf&usg=AOvVaw12-xLPvw33KN9gvYKy51tn [Accessed: 4 May 2021]
 -	Zhao, X., Jing, S., Hui, F., Liu, R., & Khattak, A. J. (2019). DSRC-based rear-end collision warning system – An error-component safety distance model and field test. Transportation Research Part C: Emerging Technologies, 107, 92–104. https://doi.org/10.1016/j.trc.2019.08.002
-
-
-
 
 
 ## Big data lifecycle {#bd_life}
@@ -165,7 +162,7 @@ Further, an important part of Big Data is its life cycle, also called the inform
 heterogeneous sources of information so as to facilitate users accessing and querying such data as if they were accessing only one data source
 - *Filtering*: Consists in restricting the large data flow to remove irrelevant data or errors
 - *Enrichment*: Data enrichment involves making structural or hierarchical changes to received data. It allows adding information on collected data to improve their quality 
-- *Analysis*: In this phase, the data is exploited and analyzed to draw conclusions and interpretations of decision-making
+- *Analysis*: In this phase, the data is exploited and analysed to draw conclusions and interpretations of decision-making
 - *Access*: This phase is focused on the communication/interaction with the data consumer
 - *Visualisation*: It consists of displaying the results of the analysis in a concise way so that decision-makers can easily understand these results and make informed decisions
 - *Storage*: Concerns all the other phases of the cycle and makes it possible to store the data throughout its life cycle in order to
@@ -194,7 +191,7 @@ Arras & Souissi (2018). For example, according to Alshboul et al. (2015) the lif
 - *Data collection* <br/>
 Data from different sources comes with different formats: structured, semi-structured, and unstructured.
 - *Data storage* <br/>
-The collected data is stored and prepared for being used in the next phase. As the collected data may contain of sensitive information, it is essential to take sufficient precautions (eg. permutation, anonimisation) during data storing.
+The collected data is stored and prepared for being used in the next phase. As the collected data may contain of sensitive information, it is essential to take sufficient precautions (e.g. permutation, anonimisation) during data storing.
 - *Data analytics* <br/>
 Data is analysed to generate useful knowledge. In this phase, data mining methods such as clustering, classification, and
 association rule mining are used.
@@ -211,7 +208,7 @@ While Demchenko et al. (2014) proposes Big Data Lifecycle Management (BDLM) mode
 - Data analytics application
 
 ### Current state of art in practice {-}
-The typical management tools, techniques and software used to handle data are Google BigTable, Simple DB, Not Only SQL (NoSQL), Data Stream Management System (DSMS), MemcacheDB and Voldemort. However, new applications with higher capabilities are continuously developed to match Big Data requirements (Chen et al., 2014). For example, [Hadoop](https://hadoop.apache.org/) is specifically designed to manage Big Data at different stages of its life cycle. It is an open source software framework that allows for the processing of large data sets across clusters of computers using simple programming models such as Google MapReduce (Khan et al., 2014). Hadoop can process extremely large volumes of data with varying structures (or no structure at all). It is typically applied to large amounts of data, enabling to handle data that was previously difficult to manage and analyze.<br/>
+The typical management tools, techniques and software used to handle data are Google BigTable, Simple DB, Not Only SQL (NoSQL), Data Stream Management System (DSMS), MemcacheDB and Voldemort. However, new applications with higher capabilities are continuously developed to match Big Data requirements (Chen et al., 2014). For example, [Hadoop](https://hadoop.apache.org/) is specifically designed to manage Big Data at different stages of its life cycle. It is an open source software framework that allows for the processing of large data sets across clusters of computers using simple programming models such as Google MapReduce (Khan et al., 2014). Hadoop can process extremely large volumes of data with varying structures (or no structure at all). It is typically applied to large amounts of data, enabling to handle data that was previously difficult to manage and analyse.<br/>
 
 In terms of real-life examples, big data together with the Internet of Things (IoT) are used by Data Mill North's national public transport access nodes (NaPTAN) in the UK to provide real-time transport information to passengers. For instance, train operators have been already using Big Data to offer information on live seat availability (Rayner, 2017).
  
@@ -251,9 +248,9 @@ cat('|TRL| SRL|
 - Khan, N., Yaqoob, I., Hashem, I. A. T., Inayat, Z., Mahmoud Ali, W. K., Alam, M., ... & Gani, A. (2014). Big data: survey, technologies, opportunities, and challenges. The scientific world journal, 2014.
 - Neilson, A., Daniel, B., & Tjandra, S. (2019). Systematic review of the literature on big data in the transportation domain: Concepts and applications. Big Data Research, 17, 35-44.
 - Oussous, A., Benjelloun, F. Z., Lahcen, A. A., & Belfkih, S. (2018). Big Data technologies: A survey. Journal of King Saud University-Computer and Information Sciences, 30(4), 431-448.
-Rayner, T. (2017). Deriving Transport Benefits from Big Data and the Internet of Things in Smart Cities. Available at: https://www.womblebonddickinson.com/uk/insights/articles-and-briefings/deriving-transport-benefits-big-data-and-internet-things-smart [Accessed: 12/08/2021]
-- Robins, C. (2021). WHY BIG DATA IS SO IMPORTANT TO THE TRANSPORTATION INDUSTRY Available at: https://www.robinsconsulting.com/why-big-data-is-so-important/ [Accessed: 12/08/2021]
-- Talend.com (2021). Data Lifecycle Management (Definition and Framework). Available at: <https://www.talend.com/resources/data-lifecycle-management/> [Accessed: 12/08/2021].
+Rayner, T. (2017). Deriving Transport Benefits from Big Data and the Internet of Things in Smart Cities. Available at: https://www.womblebonddickinson.com/uk/insights/articles-and-briefings/deriving-transport-benefits-big-data-and-internet-things-smart [Accessed: 12 August 2021]
+- Robins, C. (2021). WHY BIG DATA IS SO IMPORTANT TO THE TRANSPORTATION INDUSTRY Available at: https://www.robinsconsulting.com/why-big-data-is-so-important/ [Accessed: 12 August 2021]
+- Talend.com (2021). Data Lifecycle Management (Definition and Framework). Available at: <https://www.talend.com/resources/data-lifecycle-management/> [Accessed: 12 August 2021].
 - Yuan, W., Deng, P., Taleb, T., Wan, J., & Bi, C. (2015). An unlicensed taxi identification model based on big data analysis. IEEE Transactions on Intelligent Transportation Systems, 17(6), 1703-1713.
 
 
@@ -301,7 +298,7 @@ A machine learning method.
 Activity-based forecasting methods are a type of disaggregated forecasting methods that focus on the reasons for individuals’ travel and the "activity-travel" model, using individuals as the research subjects. These methods also study the causal relationship between activities and travel. Examples include the multi-agent system (MAS) model and the multinomial logit (MNL) model. Activity-based forecasting requires a large amount of individual sample data (Zhao et al., 2018). Due to limited data processing capacity, they are primarily used for mode split and rarely used for traffic generation and distribution forecasting (P. Wang et al., 2013).
 
 **Big Data**<br/>
-Big Data refers to data that, at a certain stage of development, can no longer be collected, stored, analyzed, or processed using traditional database software tools (Manyika et al., 2011). Big Data has the "4V" properties Volume, Velocity, Variety and Veracity (Anagnostopoulos et al., 2016). There are some characteristics and features of Big Data that are referred to as the Vs of Big Data Management (Al Nuaimi et al., 2015). According to Fan & Bifet (2013), these include the 3 main Vs (1, 2 and 3) and two other Vs:
+Big Data refers to data that, at a certain stage of development, can no longer be collected, stored, analysed, or processed using traditional database software tools (Manyika et al., 2011). Big Data has the "4V" properties Volume, Velocity, Variety and Veracity (Anagnostopoulos et al., 2016). There are some characteristics and features of Big Data that are referred to as the Vs of Big Data Management (Al Nuaimi et al., 2015). According to Fan & Bifet (2013), these include the 3 main Vs (1, 2 and 3) and two other Vs:
 
 -	Volume: refers to the size of data created from all sources.
 -	Velocity: refers to the speed at which data is created, stored, analysed and processed. 
@@ -428,11 +425,11 @@ cat('|TRL| SRL|
 -	Lau, J. (2020, September 3). Google Maps 101: How AI helps predict traffic and determine routes. https://blog.google/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/
 -	Lian, Y., Zhang, G., Lee, J., & Huang, H. (2020). Review on big data applications in safety research of intelligent transportation systems and connected/automated vehicles. Accident Analysis and Prevention, 146(September), 105711. https://doi.org/10.1016/j.aap.2020.105711
 -	Liu, J., Li, J., Li, W., & Wu, J. (2016). Rethinking big data: A review on the data quality and usage issues. In ISPRS Journal of Photogrammetry and Remote Sensing (Vol. 115, pp. 134–142). Elsevier B.V. https://doi.org/10.1016/j.isprsjprs.2015.11.006
--	Lovell, A. (2018). Big data: A big energy challenge? Available at: https://www.energycouncil.com.au/analysis/big-data-a-big-energy-challenge/ [Accessed: 11/08/201]
--	Machay, J. (n.d.). How Does Google Detect Traffic Congestion? Retrieved August 10, 2021, from https://smallbusiness.chron.com/google-detect-traffic-congestion-49523.html
--	Manyika, J., Institute, M. G., Chui, M., Brown, B., Bughin, J., Dobbs, R., Roxburgh, C., & Hung Byers, A. (2011). Big Data : The next frontier for innovation, competition, and Productivity. McKinsey Global Institute. http://hdl.handle.net/2324/3144682
--	McAfee, A., Brynjolfsson, E., Davenport, T. H., Patil, D. J., & Barton, D. (2012). Huge data:The the executives transformation. Harvard Bus Rev, 90(10), 60 68.
--	NCTA. (2013, July 3). How Google Tracks Traffic | NCTA — The Internet & Television Association. https://www.ncta.com/whats-new/how-google-tracks-traffic
+-	Lovell, A. (2018). Big data: A big energy challenge? Available at: https://www.energycouncil.com.au/analysis/big-data-a-big-energy-challenge/ [Accessed: 11 August 2021]
+-	Machay, J. (n.d.). How Does Google Detect Traffic Congestion? Available at: https://smallbusiness.chron.com/google-detect-traffic-congestion-49523.html [Accessed: 10 August 2021]
+-	Manyika, J., Institute, M. G., Chui, M., Brown, B., Bughin, J., Dobbs, R., Roxburgh, C., & Hung Byers, A. (2011). Big Data: The next frontier for innovation, competition, and Productivity. McKinsey Global Institute. Available at: http://hdl.handle.net/2324/3144682 [Accessed: 4 August 2021]
+-	McAfee, A., Brynjolfsson, E., Davenport, T. H., Patil, D. J., & Barton, D. (2012). Huge data: The the executives transformation. Harvard Bus Rev, 90(10), 60 68.
+-	NCTA. (2013, July 3). How Google Tracks Traffic | NCTA — The Internet & Television Association. Available at: https://www.ncta.com/whats-new/how-google-tracks-traffic [Accessed: 4 May 2021]
 -	Qin, X., Zhen, F., Xiong, L. F., & Zhu, S. J. (2013). Methods in urban temporal and spatial behavior research in the big data era. Progress in Geography, 32(9), 1352–1361.
 -	Sagiroglu, S., & Sinanc, D. (2013). Big data: A review. 2013 International Conference on Collaboration Technologies and Systems (CTS), 42–47. https://doi.org/10.1109/CTS.2013.6567202
 -	Steenbruggen, J., Tranos, E., & Nijkamp, P. (2015). Data from mobile phone operators: A tool for smarter cities? Telecommunications Policy, 39(3–4), 335–346. https://doi.org/10.1016/j.telpol.2014.04.001

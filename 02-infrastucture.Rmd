@@ -70,17 +70,17 @@ vehicles, public transport, pedestrians and cyclists). (ERTRAC, 2019)
 ### References {-}
 
 - Al Alam, A., Gattami, A., & Johansson, K. H. (2010, September). An experimental study on the fuel reduction potential of heavy duty vehicle platooning. In 13th International IEEE Conference on Intelligent Transportation Systems (pp. 306-311). IEEE.
-Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary vehicle and infrastructure systems for automated driving. Retrieved January, 3, 2017.
+- Broek, S. M., van Nunen, E., & Zwijnenberg, H. (2011). Definition of necessary vehicle and infrastructure systems for automated driving. 
 - Chen, Z., He, F., Zhang, L., & Yin, Y. (2016). Optimal deployment of autonomous vehicle lanes with endogenous market penetration. Transportation Research Part C: Emerging Technologies, 72, 143-156.
-- CORDIS | European Commission. (20 Apr 2020). Retrieved 13 November 2020, from https://cordis.europa.eu/project/id/875530
+- CORDIS | European Commission. (20 Apr 2020). Available at: https://cordis.europa.eu/project/id/875530 [Accessed: 13 November 2020].
 - ERTRAC Working Group. (2019). Connected Automated Driving Roadmap. version, 8, 2019-08.
 - Guin, A., Hunter, M., & Guensler, R. (2008). Analysis of reduction in effective capacities of high-occupancy vehicle lanes related to traffic behavior. Transportation Research Record, 2065(1), 47-53.
 - Ivanchev, J., Knoll, A., Zehe, D., Nair, S., & Eckhoff, D. (2017). Potentials and implications of dedicated highway lanes for autonomous vehicles. arXiv preprint arXiv:1709.07658.
-- Krisher, T., & Eggert, D. (14 Aug 2020). Michigan plans dedicated road lanes for autonomous vehicles. Retrieved 12 November 2020, from https://abcnews.go.com/Technology/wireStory/michigan-plans-dedicated-road-lanes-autonomous-vehicles-72352758
+- Krisher, T., & Eggert, D. (14 Aug 2020). Michigan plans dedicated road lanes for autonomous vehicles. Available at:  https://abcnews.go.com/Technology/wireStory/michigan-plans-dedicated-road-lanes-autonomous-vehicles-72352758 [Accessed: 12 November 2020].
 - Kumar, A., Guhathakurta, S., & Venkatachalam, S. (2020). When and where should there be dedicated lanes under mixed traffic of automated and human-driven vehicles for system-level benefits?. Research in Transportation Business & Management, 100527.
 - Liu, Z., & Song, Z. (2019). Strategic planning of dedicated autonomous vehicle lanes and autonomous vehicle/toll lanes in transportation networks. Transportation Research Part C: Emerging Technologies, 106, 381-403.
 - Rad, S. R., Farah, H., Taale, H., van Arem, B., & Hoogendoorn, S. P. (2020). Design and operation of dedicated lanes for connected and automated vehicles on motorways: A conceptual framework and research agenda. Transportation Research Part C: Emerging Technologies, 117, 102664.
-- Syncedreview.com (31 Aug 2020). Beijing Builds 100km Highway Lanes for Self-Driving Cars with Unmanned Machineries. Retrieved 12 November 2020, from https://syncedreview.com/2020/08/31/beijing-builds-100km-highway-lanes-for-self-driving-cars-with-unmanned-machineries/
+- Syncedreview.com (31 Aug 2020). Beijing Builds 100km Highway Lanes for Self-Driving Cars with Unmanned Machineries. Available at:  https://syncedreview.com/2020/08/31/beijing-builds-100km-highway-lanes-for-self-driving-cars-with-unmanned-machineries/ [Accessed: 12 November 2020].
 - Yang, D., Farah, H., Schoenmakers, M. J., & Alkim, T. (2019). Human drivers behavioural adaptation when driving next to a platoon of automated vehicles on a dedicated lane and implications on traffic flow: a driving simulator and microscopic simulation study in the Netherlands. In 98th Annual Meeting of the Transportation Research Board (pp. 19-00582).
 - Ye, L., & Yamamoto, T. (2018). Impact of dedicated lanes for connected and autonomous vehicle on traffic flow throughput. Physica A: Statistical Mechanics and its Applications, 512, 588-597.
 - Zhang, J., Wu, K., Cheng, M., Yang, M., Cheng, Y., & Li, S. (2020). Safety Evaluation for Connected and Autonomous Vehicles’ Exclusive Lanes considering Penetrate Ratios and Impact of Trucks Using Surrogate Safety Measures. Journal of advanced transportation, 2020. 
@@ -108,15 +108,15 @@ Further, Koopman and Fratrik (2019) provide list of factors which are found to b
 -	Operational infrastructure
 -	Rules of engagement and interaction with environment and other road other users
 -	Considerations for deployment to multiple regions
--	Data availability and recency (eg. Regarding temporary changes in traffic rules)
--	Expected elements of operational space state (eg. What should be included in the scope of ODD)
+-	Data availability and recency (e.g. Regarding temporary changes in traffic rules)
+-	Expected elements of operational space state (e.g. What should be included in the scope of ODD)
 
 Moreover, Object and Event Detection and Response (OEDR) refers to the operation within the scope of a defined ODD with respect to objects and events. *Object factors* include:
 
 -	Ability to detect and classify relevant objects in the environment
 -	Processing and thresholding of sensors data
 -	Characterising possible operational parameters of other road users
--	Permanent (Trees, curbs etc.) and temporary (eg. People, floods) obstacles
+-	Permanent (Trees, curbs etc.) and temporary (e.g. People, floods) obstacles
 -	At risk population
 -	All types of other road users including human-driven and autonomous vehicles as well as special purpose vehicles and aircrafts
 
@@ -168,14 +168,14 @@ cat('|TRL| SRL|
 1. How does the development of ODD influence the autonomous cars market toward to the average driver?   
 
 ### References {-}
--	Berman, B., 2019. Autonomous vehicle operation design domain is key to safety. [online] Sae.org. Available at: <https://www.sae.org/news/2019/11/odds-for-av-testing> [Accessed 2 August 2021].
+-	Berman, B., 2019. Autonomous vehicle operation design domain is key to safety.  Sae.org. Available at: <https://www.sae.org/news/2019/11/odds-for-av-testing> [Accessed: 2 August 2021].
 -	Czarnecki, K. (2018). Operational Design Domain for Automated Driving Systems - Taxonomy of Basic Terms. 10.13140/RG.2.2.18037.88803.
--	Eliot, L., 2019. Key To Driverless Cars, Operational Design Domains (ODD), Here’s What They Are, Woes Too. [online] Medium. Available at: <https://lance-eliot.medium.com/key-to-driverless-cars-operational-design-domains-odd-heres-what-they-are-woes-too-a0f1059e0bdb> [Accessed 2 August 2021].
+-	Eliot, L., 2019. Key To Driverless Cars, Operational Design Domains (ODD), Here’s What They Are, Woes Too.  Medium. Available at: <https://lance-eliot.medium.com/key-to-driverless-cars-operational-design-domains-odd-heres-what-they-are-woes-too-a0f1059e0bdb> [Accessed: 2 August 2021].
 -	Farah, H., Bhusari, S., Van Gent, P., Babu, F. A. M., Morsink, P., Happee, R., & van Arem, B. (2020). An empirical analysis to assess the operational design domain of lane keeping system equipped vehicles combining objective and subjective risk measures. IEEE Transactions on Intelligent Transportation Systems, 22(5), 2589-2598.
--	Koopman, P. and Fratrik, F., (2019). How Many Operational Design Domains, Objects, and Events?. [online] Ceur-ws.org. Available at: <http://ceur-ws.org/Vol-2301/paper_6.pdf> [Accessed 2 August 2021].
--	Law Insider. (2021). Operational design domain Definition | Law Insider. [online] Available at: <https://www.lawinsider.com/dictionary/operational-design-domain> [Accessed 2 August 2021].
+-	Koopman, P. and Fratrik, F., (2019). How Many Operational Design Domains, Objects, and Events?.  Ceur-ws.org. Available at: <http://ceur-ws.org/Vol-2301/paper_6.pdf> [Accessed: 2 August 2021].
+-	Law Insider. (2021). Operational design domain Definition | Law Insider.  Available at: <https://www.lawinsider.com/dictionary/operational-design-domain> [Accessed: 2 August 2021].
 -	Lee, C., Nayeer, N., Garcia, D., Agrawal, A. and Liu, B., 2020. Identifying the Operational Design Domain for an Automated Driving System through Assessed Risk. 2020 IEEE Intelligent Vehicles Symposium (IV).
--	Waymo. 2019. Waymo. [online] Available at: <https://waymo.com/> [Accessed 2 August 2021].
+-	Waymo. 2019. Waymo.  Available at: <https://waymo.com/> [Accessed: 2 August 2021].
 
 ## Rail crossing information system {#rail_crossing_info_system}
 
@@ -247,7 +247,7 @@ An OD system may use one or more of the different detection types, e.g. Network 
 - **Responsible**: National Governments, City Governments, Transport Agencies, Railway companies, Rail Equipment and Infrastructure Producers and Manufacturers
 
 ### Current state of art in research {-}
-A driving simulation study (Larue et al., 2015) showed that driver behaviour changed with assistive ITS interventions at passive crossings, while no differences were observed at active crossings, even with limited visibility. The audio intervention resulted in higher compliance compared to the visual intervention. The results of road-based ITS technology suggest that this is unlikely to lead to positive safety outcomes at passive level crossings if drivers are still required to stop at the level crossing under all conditions (due to the stop sign at the level crossing). In-vehicle audio intervention is most likely to provide safety benefits becuase humans are able to hear sound regardless of the direction from which the sound is coming. This makes sound a particularly useful medium for the transmission of safety-critical messages.<br/>
+A driving simulation study (Larue et al., 2015) showed that driver behaviour changed with assistive ITS interventions at passive crossings, while no differences were observed at active crossings, even with limited visibility. The audio intervention resulted in higher compliance compared to the visual intervention. The results of road-based ITS technology suggest that this is unlikely to lead to positive safety outcomes at passive level crossings if drivers are still required to stop at the level crossing under all conditions (due to the stop sign at the level crossing). In-vehicle audio intervention is most likely to provide safety benefits because humans are able to hear sound regardless of the direction from which the sound is coming. This makes sound a particularly useful medium for the transmission of safety-critical messages.<br/>
 
 Many authors investigate driver behaviour at railway crossings (Beanland et al., 2017; Hao et al., 2015; Larue et al., 2015; Tey et al., 2013). A systematic study by Read et al. (2021) categorises factors that influence risk at rail level crossings according to 3 issues:<br/>
 
@@ -257,7 +257,7 @@ Many authors investigate driver behaviour at railway crossings (Beanland et al.,
 
 Most studies focused on unsafe and/or non-compliant road user behaviour.<br/>
 
-Results from Beanland et al. (2017) suggest that while significant slowing at passive RLXs is necessary to give drivers time to visually check for trains, stop signs are not necessary as drivers who stopped rolling and those who stopped fully spent equal amounts of time visually checking for trains and showed similar situational awareness. Similarly, a full stop is problematic for some vehicles (e.g. heavy vehicles that lose momentum and require more time and energy to regain speed). Years ago some researchers have also argued against the use of stop signs at RLXs, fearing that the high rates of observed non-compliance will generalise this behaviour and lead to non-compliance at stop-controlled highway and road intersections (Austin & Carson, 2002; Raub, 2009). Zhang et al. (2019) investigated raised level crossings (RC) as an alternative to the current form of level crossings to mitigate the severity of accidents at road-rail crossings. Further, Larue et al. (2015) categorized 3 ITS applications for railway crossings:
+Results from Beanland et al. (2017) suggest that while significant slowing at passive RLXs is necessary to give drivers time to visually check for trains, stop signs are not necessary as drivers who stopped rolling and those who stopped fully spent equal amounts of time visually checking for trains and showed similar situational awareness. Similarly, a full stop is problematic for some vehicles (e.g. heavy vehicles that lose momentum and require more time and energy to regain speed). Years ago, some researchers have also argued against the use of stop signs at RLXs, fearing that the high rates of observed non-compliance will generalise this behaviour and lead to non-compliance at stop-controlled highway and road intersections (Austin & Carson, 2002; Raub, 2009). Zhang et al. (2019) investigated raised level crossings (RC) as an alternative to the current form of level crossings to mitigate the severity of accidents at road-rail crossings. Further, Larue et al. (2015) categorized 3 ITS applications for railway crossings:
 
 -	**In-vehicle visual system**: A warning system with GPS (as a smartphone application). In particular, such a system should improve the driver's awareness of the crossing condition while approaching a crossing with limited visibility (curves, gradients, fog or sun glare).
 -	**In-vehicle audio warning (radio interference)**: When a train approached the level crossing, the loudspeakers gave a verbal warning while the flashing lights of active level crossings were activated. For passive crossings, the warning was given 20 s before the train arrived.
@@ -332,7 +332,7 @@ cat('|TRL| SRL|
 -	Hao, W., Kamga, C., & Daniel, J. (2015). The effect of age and gender on motor vehicle driver injury severity at highway-rail grade crossings in the United States. Journal of Safety Research, 55, 105–113. https://doi.org/10.1016/j.jsr.2015.08.006
 -	ITSR. (2011). Transport safety bulletins: Level crossing accidents in Australia (Issue August).
 -	Larue, G. S., Kim, I., Rakotonirainy, A., Haworth, N. L., & Ferreira, L. (2015). Driver’s behavioural changes with new intelligent transport system interventions at railway level crossings - A driving simulator study. Accident Analysis and Prevention, 81, 74–85. https://doi.org/10.1016/j.aap.2015.04.026
--	mermecgroup. (n.d.). Level Crossing Obstacle Detection System. Retrieved May 31, 2021, from https://www.mermecgroup.com/protect/level-crossing/1033/level-crossing-obstacle-detection.php
+-	mermecgroup. (n.d.). Level Crossing Obstacle Detection System. Available at: https://www.mermecgroup.com/protect/level-crossing/1033/level-crossing-obstacle-detection.php [Accessed: 31 May 2021]
 -	Network Rail. (2019). Enhancing level crossing safety 2019-2029. 1–35.
 -	Radalj, T., Kidd, B., & Sultana, S. (2011). Reduction of Speed Limit at Approaches to Railway Level Crossings in Western Australia. ACRS, September, 1–10. https://acrs.org.au/article/reduction-of-speed-limit-at-approaches-to-railway-level-crossings-in-wa/
 -	Raub, R. A. (2009). Examination of Highway–Rail Grade Crossing Collisions Nationally from 1998 to 2007. Transportation Research Record, 2122(1), 63–71. https://doi.org/10.3141/2122-08
@@ -368,7 +368,7 @@ Overall, the wider use of ERS would reduce the need for construction of costly c
 ### Current state of art in research {-}
 Current, research focuses on testing of the ERS solutions to enable deployment on a larger scale, extend applicability to a new type of vehicles, increase their efficiency and assess their transport decarbonization potential. <br/>
 
-Since 2008 the South Korean company [OLEV](https://www.kaist.ac.kr/en/html/kaist/01200103.html) (branch of KAIST University) has been working on inductive power transfer and since 2013 two electric buses have been in operation on public roads, inside university campus (Kelion, 2013). Nonetheless, this system is currently outdated and results as a low-speed system within local public transport. In 2016 an initial testing of the overhead lines has been conducted in Germany on Siemens’ 2 km test track in Berlin, at the same time in Sweden a full integration with Scania vehicle has been achieved. More example include Volvo and Alstom’s cooperation on testing of conductive tracks on the 400 m test side in Hällered, Sweden (Möller, 2017). Similarly, Swedish Transport Administration in collaboration with Elonroad under [EVolution Road](https://www.evolutionroad.se/en/) project constructed a 1 km of demonstration road in Lund to test the performance of an electric bus. <br/>
+Since 2008 the South Korean company [OLEV](https://www.kaist.ac.kr/en/html/kaist/01200103.html) (branch of KAIST University) has been working on inductive power transfer and since 2013 two electric buses have been in operation on public roads, inside university campus (Kelion, 2013). Nonetheless, this system is currently outdated and results as a low-speed system within local public transport. In 2016 an initial testing of the overhead lines has been conducted in Germany on Siemens’ 2 km test track in Berlin, at the same time in Sweden a full integration with Scania vehicle has been achieved. More examples include Volvo and Alstom’s cooperation on testing of conductive tracks on the 400 m test side in Hällered, Sweden (Möller, 2017). Similarly, Swedish Transport Administration in collaboration with Elonroad under [EVolution Road](https://www.evolutionroad.se/en/) project constructed a 1 km of demonstration road in Lund to test the performance of an electric bus. <br/>
 On the other hand, research on the efficiency of inductive tracks conducted in France and Italy showed that their performance depends on the precision of alignment between the track and the coil in the vehicle (Muelaner, 2020). Finally, a study by Börjesson et al. (2020) showed that use of electric road solution can decrease operational costs for freight operators due to a switch from diesel to electricity. Consequently, the social benefit of this technological solution outweighs its cost. Moreover, it has been concluded that use of ERS offers significant reduction in carbon emissions.
 
 
@@ -434,12 +434,12 @@ cat('|TRL| SRL|
 
 ### References {-}
 - Börjesson, M., Johansson, M., & Kågeson, P. (2020). The economics of electric roads.
-- Kelion, L., 2013. South Korean road wirelessly recharges OLEV buses. [online] BBC News. Available at: <https://www.bbc.com/news/technology-23603751> [Accessed 19 February 2021].
+- Kelion, L., 2013. South Korean road wirelessly recharges OLEV buses.  BBC News. Available at: <https://www.bbc.com/news/technology-23603751> [Accessed: 19 February 2021].
 - Möller, C. (2017). Carbon neutral road transportation: an assessment of the potential of electrified road systems.
-- Muelaner, J., 2020. Electric Road Systems. [online] Engineering.com. Available at: <https://www.engineering.com/story/electric-road-systems> [Accessed 18 February 2021].
+- Muelaner, J., 2020. Electric Road Systems.  Engineering.com. Available at: <https://www.engineering.com/story/electric-road-systems> [Accessed: 18 February 2021].
 - Tongur, S., & Sundelin, H. (2016, October). The electric road system transition from a system to a system-of-systems. In 2016 Asian Conference on Energy, Power and Transportation Electrification (ACEPT) (pp. 1-8). IEEE.
-- Traktuell.at. 2020. Ohne Akzeptanz kein eHighway in Deutschland. [online] Available at: <https://traktuell.at/a/ohne-akzeptanz-kein-ehighway-in-deutschland> [Accessed 19 February 2021].
-- Wettengel, J., 2019. Germany opens first overhead electricity test track for trucks on autobahn. [online] Clean Energy Wire. Available at: <https://www.cleanenergywire.org/news/germany-opens-first-overhead-electricity-test-track-trucks-autobahn> [Accessed 19 February 2021].
+- Traktuell.at. 2020. Ohne Akzeptanz kein eHighway in Deutschland.  Available at: <https://traktuell.at/a/ohne-akzeptanz-kein-ehighway-in-deutschland> [Accessed: 19 February 2021].
+- Wettengel, J., 2019. Germany opens first overhead electricity test track for trucks on autobahn.  Clean Energy Wire. Available at: <https://www.cleanenergywire.org/news/germany-opens-first-overhead-electricity-test-track-trucks-autobahn> [Accessed: 19 February 2021].
 
 
 ## High occupancy vehicle and toll lanes {#high_occupancy}
@@ -523,11 +523,11 @@ cat('|TRL| SRL|
 - Gihub.org. (2020). Dynamic Pricing for Roadways and Parking. Available at: <https://www.gihub.org/resources/showcase-projects/dynamic-pricing-for-roadways-and-parking/> [Accessed: 15 April 2021]
 -	Hosford, K., Firth, C., Brauer, M., & Winters, M. (2021). The effects of road pricing on transportation and health equity: a scoping review. Transport Reviews, 1-22.
 -	Nohekhan, A., Zahedian, S., & Sadabadi, K. F. (2021). Investigating the impacts of I-66 Inner Beltway dynamic tolling system. Transportation Engineering, 4, 100059.
--	Kapsch TrafficCom. (n.d.). Kapsch TrafficCom | Managed lanes. Available at: <https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes?lang=en-us> [Accessed: 13 April 2021] 
--	United States Department of Transportation - Federal Highway Administration. (n.d.). High-Occupancy Toll Lanes (Partial Facility Pricing) - Congestion Pricing - FHWA Office of Operations. Available at: <https://ops.fhwa.dot.gov/congestionpricing/strategies/involving_tolls/hot_lanes.htm> [Accessed: 12 April 2021] 
--	United States Department of Transportation - Federal Highway Administration. (2008). HOV Lane Compendium - Introduction - FHWA Office of Operations. Available at: <https://ops.fhwa.dot.gov/publications/fhwahop09029/sec1_introduction.htm> [Accessed: 12 April 2021] 
+-	Kapsch TrafficCom. (n.d.). Kapsch TrafficCom | Managed lanes. Available at: <https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes?lang=en-us> [Accessed: 13 April 2021].
+-	United States Department of Transportation - Federal Highway Administration. (n.d.). High-Occupancy Toll Lanes (Partial Facility Pricing) - Congestion Pricing - FHWA Office of Operations. Available at: <https://ops.fhwa.dot.gov/congestionpricing/strategies/involving_tolls/hot_lanes.htm> [Accessed: 12 April 2021].
+-	United States Department of Transportation - Federal Highway Administration. (2008). HOV Lane Compendium - Introduction - FHWA Office of Operations. Available at: <https://ops.fhwa.dot.gov/publications/fhwahop09029/sec1_introduction.htm> [Accessed: 12 April 2021].
 -	United States Department of Transportation - Federal Highway Administration. (2021, April 14). Pricing Kit: HOT Lanes. Available at: <https://www.fhwa.dot.gov/policy/otps/pricingkit.cfm#HOT> [Accessed: 14 April 2021]
--	University of Leeds - Institute for Transport Studies. (n.d.). High Occupancy Vehicle (HOV) Lanes: evidence on performance. Available at: <http://www.its.leeds.ac.uk/projects/konsult/private/level2/instruments/instrument029/l2_029c.htm> [Accessed: 14 April 2021] 
+-	University of Leeds - Institute for Transport Studies. (n.d.). High Occupancy Vehicle (HOV) Lanes: evidence on performance. Available at: <http://www.its.leeds.ac.uk/projects/konsult/private/level2/instruments/instrument029/l2_029c.htm> [Accessed: 14 April 2021].
 -	Wang, X., Jin, W. L., & Yin, Y. (2020). A Control Theoretic Approach to Simultaneously Estimate Average Value of Time and Determine Dynamic Price for High-Occupancy Toll Lanes. IEEE Transactions on Intelligent Transportation Systems.
 
 
@@ -587,7 +587,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |Systemic|Public transport becomes more competitive compared to other transport modes|**+**|Equality (*5,10*) |Schwendinger, 2019|
 |Systemic|Less fuel consumption|**+**|Environmental sustainability (*7,12,13,15*)|Gassel et al., 2012; Seredynski et al., 2015|
 |Systemic|Transit is often the most cost-effective mode| **+**|Sustainable economic development (*8,11*)|Litman, 2015 |
-|Systemic|More infrastructre for public transport|**+**|Innovation & Infrastructure (*9*)|Cuthill et al., 2019|')
+|Systemic|More infrastructure for public transport|**+**|Innovation & Infrastructure (*9*)|Cuthill et al., 2019|')
 ```
 
 ### Technology and societal readiness level {-}
@@ -621,8 +621,8 @@ cat('|TRL| SRL|
 - Seredynski, M., Ruiz, P., Szczypiorski, K., & Khadraoui, D. (2014, May). Improving bus ride comfort using GLOSA-based dynamic speed optimisation. In 2014 IEEE International Parallel & Distributed Processing Symposium Workshops (pp. 457-463). IEEE.
 - Seredynski, M., & Viti, F. (2017, October). Novel C-ITS support for electric buses with opportunity charging. In 2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC) (pp. 1-6). IEEE.
 - Stahlmann, R., Möller, M., Brauer, A., German, R., & Eckhoff, D. (2018). Exploring GLOSA systems in the field: Technical evaluation and results. Computer Communications, 120, 112-124.
-- SWARCO. (2021). Vorrang für den ÖPNV: Öffentliche Verkehrsmittel attraktiver machen. Retrieved 26th January 2021, from https://www.swarco.com/de/loesungen/oeffentlicher-nahverkehr/vorrang-fuer-den-oeffentlichen-nahverkehr 
-- WIENER STADTWERKE GmbH. (2018). Wiener Linien: Autos auf Busspuren halten Öffis auf. https://www.wienerstadtwerke.at/eportal3/ep/contentView.do?pageTypeId=71954&channelId=-51313&programId=72863&contentId=4202309&contentTypeId=1001 
+- SWARCO. (2021). Vorrang für den ÖPNV: Öffentliche Verkehrsmittel attraktiver machen. Available at:  https://www.swarco.com/de/loesungen/oeffentlicher-nahverkehr/vorrang-fuer-den-oeffentlichen-nahverkehr [Accessed: 26 January 2021]
+- WIENER STADTWERKE GmbH. (2018). Wiener Linien: Autos auf Busspuren halten Öffis auf. Available at:  https://www.wienerstadtwerke.at/eportal3/ep/contentView.do?pageTypeId=71954&channelId=-51313&programId=72863&contentId=4202309&contentTypeId=1001 [Accessed: 30 September 2021]
 
 
 ## Transformation of public space and digital solutions {#transformation_public_space}
@@ -630,7 +630,7 @@ cat('|TRL| SRL|
 ### Definition {-}
 The digitalisation of public (and urban) spaces has been developing, giving rise to concepts such as smart city, wise city, U-city, intelligent city etc. However, its real acceleration started in 2010s as a result of industrial initiatives focused on the collection, management, processing and near real-time analysis of big data through the wide-spread of sensors connecting urban spaces, known as Internet of Things (IoT) devices. In the recent years, especially since the outbreak of COVID-19 pandemic, the urban digitalisation reached a new level. For example, in China digital systems for mass surveillance based on facial recognition are being deployed and in other parts of the world legal basis (such as General Data Protection Regulation (GDPR)) have been developed to allow for recording of biometric data in public spaces (Languillon-Aussel, 2021). Beyond surveillance, digitalisation of public spaces is used in many different areas such as payments and pricing, participatory tools or law enforcement, where, for example, in 2020 Singapore initiated the satellite-based urban toll system which allows for tracking any vehicle at any time of the day to implement dynamic pricing for road use and zone access (Languillon-Aussel, 2021).
 
-Current approaches to the digitalisation of public spaces include mobiles apps, high resolution cameras, interactive stands and kiosks providing services and information, but also IoT devices such as sensors and beacons that automatically collect the data. These devices bring potential to improve the quality and coverage of service in public spaces, lower provision and delivery costs, increase safety and security. Nonetheless, they are not without challenges. Potential issues arise due to privacy and security concerns especially when private sector plays a key role (Warbis, 2018), potential technical difficulties such as unreliable Internet connection or unstable electricity supply (Haldrup, 2018) as well as low trust among society members and so called *digital exclusion* of certain social groups (Durand & Zijlstra, 2020).
+Current approaches to the digitalisation of public spaces include mobiles apps, high resolution cameras, interactive stands and kiosks providing services and information, but also IoT devices such as sensors and beacons that automatically collect the data. These devices bring potential to improve the quality and coverage of service in public spaces, lower provision and delivery costs, increase safety and security. Nonetheless, they are not without challenges. Potential issues arise due to privacy and security concerns especially when private sector plays a key role (Warbis, 2018), potential technical difficulties such as unreliable Internet connection or unstable electricity supply (Haldrup, 2018) as well as low trust among society members and so-called *digital exclusion* of certain social groups (Durand & Zijlstra, 2020).
 
 ### Key stakeholders {-}
 
@@ -653,9 +653,9 @@ Then, digitalisation brings the **transformation of public services** where non-
 
 Two of such examples are (*1*) [Borough Data Explorer](https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1&zoom=5.0&lng=-0.36613&lat=54.04187) that gathers data for the indicators that either contribute to borough’s so-called *Borough Manifesto targets* or feature within borough’s *social progress index* (Lbbd.emu-analytics.net, 2021). (*2*) The Australian city of Joondalup partnered with [Telstra]( https://www.lakesidejoondalup.com.au/store-directory/telstra-shop/) to test IoT technologies to better monitor environmental factors like temperature, humidity, pollution, light and noise levels in real time (Barns, 2017).<br/>
 
-Next, a **public-private partnership** is crucial for the strong and reliable digital public domain, where technology companies need to understand policy and strategy of local government to identify areas that may be supported through digital deployment. On the other hand, it is important for local government to understand the features of the technology for deployment. This tight cooperation enables the public sector to direct the digitisation of places in ways that work for public good, retaining the publicness of space and place, regardless of who owns, oversees or manages technologies being deployed (Warbis, 2018). The examples of such initatives are [ÖBB360 wegfinder](https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/), [Living Labs](https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/) and [Seestadt Wien]( https://www.aspern-seestadt.at/en).<br/>
+Next, a **public-private partnership** is crucial for the strong and reliable digital public domain, where technology companies need to understand policy and strategy of local government to identify areas that may be supported through digital deployment. On the other hand, it is important for local government to understand the features of the technology for deployment. This tight cooperation enables the public sector to direct the digitisation of places in ways that work for public good, retaining the publicness of space and place, regardless of who owns, oversees or manages technologies being deployed (Warbis, 2018). The examples of such initiatives are [ÖBB360 wegfinder](https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/), [Living Labs](https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/) and [Seestadt Wien]( https://www.aspern-seestadt.at/en).<br/>
 
-Within transport network the digitalisation brings benefits of improved customisation, efficiency and comfort. The examples of such efforts are real-time information on parking spaces availability such as [eParkomat](https://www.eparkomat.com/) in Czech Republic, digital ticketing and scheduling, for instance, [DV Ticketing]( https://www.dv-ticketing.com/)  or [Trainline](https://www.thetrainline.com/) in the UK, electronic system for car and bike sharing fleets such as [Share-now]( https://www.share-now.com/at/en/) or [Nextbike](https://www.nextbike.at/de/niederoesterreich/) etc. For more information on bike and car sharing see sections on [bicycle and e-bicycle hire](#bike_sharing) and [car shring]( #car_sharing) in this work.
+Within transport network the digitalisation brings benefits of improved customisation, efficiency and comfort. The examples of such efforts are real-time information on parking spaces availability such as [eParkomat](https://www.eparkomat.com/) in Czech Republic, digital ticketing and scheduling, for instance, [DV Ticketing]( https://www.dv-ticketing.com/)  or [Trainline](https://www.thetrainline.com/) in the UK, electronic system for car and bike sharing fleets such as [Share-now]( https://www.share-now.com/at/en/) or [Nextbike](https://www.nextbike.at/de/niederoesterreich/) etc. For more information on bike and car sharing see sections on [bicycle and e-bicycle hire](#bike_sharing) and [car sharing]( #car_sharing) in this work.
 
 Finally, public spaces are claimed to be political in nature. In Europe they support and condition the expression of the life in the city and play a role in participatory planning (Languillon-Aussel, 2021; Parkinson, 2012). For example, in 2013 Austrian railways ÖBB aimed at building a [new freight centre](https://www.partizipation.at/gueterzentrum_sued.html) in Vienna that would move freight traffic away from the roads and onto the railways. The new freight centre was meant to replace the one at north-west station (Nordwestbahnhof). From the beginning, the project was intended to actively involve the general public, and the stakeholders were also strongly integrated into the planning. Therefore, before the start of the project, the ÖBB held an information event, which was accompanied by great protests (from the public) against the project. ÖBB tried, probably for this very reason, to involve the stakeholders so intensively in the entire planning process and as a result successfully completed the project.<br/>
 
@@ -713,13 +713,13 @@ cat('|TRL| SRL|
 
 ### References {-}
 
--	Barns, S. (2017) Surprise! Digital space isn’t replacing public space, and might even help make it better. Available at: <https://theconversation.com/surprise-digital-space-isnt-replacing-public-space-and-might-even-help-make-it-better-87173> [Accessed 12 April 2021].
+-	Barns, S. (2017) Surprise! Digital space isn’t replacing public space, and might even help make it better. Available at: <https://theconversation.com/surprise-digital-space-isnt-replacing-public-space-and-might-even-help-make-it-better-87173> [Accessed: 12 April 2021].
 - Bouzguenda, I., Alalouch, C., & Fava, N. (2020). Examining digital participatory planning: maturity assessment in a small Dutch city. Journal of Cleaner Production, 264, 121706.
 -	Durand, A. & Zijlstra, T. (2020). The impact of digitalisation on the access to transport services: a literature review. 10.13140/RG.2.2.22686.97600.
--	Haldrup, S.,V. (2018). Digitising public service delivery: opportunities and limitations. Available at: <https://www.opml.co.uk/blog/digitising-public-service-delivery-opportunities-and-limitations> [Accessed 12 April 2021].
--	Harvey, J., Guo, W., & Edwards, S. (2019). Increasing mobility for older travellers through engagement with technology. Transportation Research Part F: Trafc Psychology and Behaviour, 60, 172-184. doi:10.1016/j.trf.2018.10.019
+-	Haldrup, S.,V. (2018). Digitising public service delivery: opportunities and limitations. Available at: <https://www.opml.co.uk/blog/digitising-public-service-delivery-opportunities-and-limitations> [Accessed: 12 April 2021].
+-	Harvey, J., Guo, W., & Edwards, S. (2019). Increasing mobility for older travellers through engagement with technology. Transportation Research Part F: Traffic Psychology and Behaviour, 60, 172-184. doi:10.1016/j.trf.2018.10.019
 -	Languillon-Aussel, R. (2021). Digitalisation of public spaces: the great urban change? Available at: <https://journals.openedition.org/articulo/4518> . [Accessed: 9 April 2021]
--	Lbbd.emu-analytics.net. (2021). Borough Data Explorer. [online] Available at: <https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1&zoom=4.7&lng=3.34490&lat=54.11363> [Accessed 12 April 2021].
+-	Lbbd.emu-analytics.net. (2021). Borough Data Explorer.  Available at: <https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1&zoom=4.7&lng=3.34490&lat=54.11363> [Accessed: 12 April 2021].
 -	Pangbourne, K. (2018). Mobility and Ageing: A Review of Interactions Between Transport and Technology from the Perspective of Older People In A. Curl & C. Musselwhite (Eds.), Geographies of Transport and Ageing (pp. 51-71). Cham: Springer International Publishing.
 -	Parkinson J., 2012, Democracy and Public Space: The Physical Sites of Democratic Performance, Oxford: Oxford University Press, 262 p.
 -	Warbis, M. (2018). Making the Spaces of Cities Smarter: Why cities (and their citizens) should embrace the digital public realm. <Available at: https://medium.com/@warbismichelle/making-the-spaces-of-cities-smarter-why-cities-should-embrace-the-digital-public-realm-c12afc810aaa>. [Accessed: 12 April 2021]
