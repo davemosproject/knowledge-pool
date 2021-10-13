@@ -389,7 +389,7 @@ cat('|TRL| SRL|
 -	Erhart, J. (2019, November 28). Vernetzte Autos, intelligenter Verkehr: Was C-ITS ist, was es kann und wem es nutzt. https://blog.asfinag.at/technik-innovation/c-its-vernetzte-autos-intelligenter-verkehr/
 -	Heinrich, T. (2019). Infrastrukturbedarf automatisierten Fahrens – Grundlagenprojekt.
 -	Javed, M. A., Zeadally, S., & Hamida, E. Ben. (2019). Data analytics for Cooperative Intelligent Transport Systems. Vehicular Communications, 15, 63–72. https://doi.org/10.1016/j.vehcom.2018.10.004
--	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO2 emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
+-	Outay, F., Kamoun, F., Kaisser, F., Alterri, D., & Yasar, A. (2019). V2V and V2I communications for traffic safety and CO~2~ emission reduction: A performance evaluation. Procedia Computer Science, 151(2018), 353–360. https://doi.org/10.1016/j.procs.2019.04.049
 -	Schüller, K. (2021, June 7). AustriaTech: Mehr Sicherheit auf Europas Straßen durch C-ITS | AustriaTech - Gesellschaft des Bundes für technologiepolitische Maßnahmen GmbH, 07.06.2021. https://www.ots.at/presseaussendung/OTS_20210607_OTS0022/austriatech-mehr-sicherheit-auf-europas-strassen-durch-c-its
 
 
@@ -398,7 +398,7 @@ cat('|TRL| SRL|
 ## Dynamic route guidance {#dynamic_route}
 
 ### Synonyms {-}
-*Dynamic routing, Dynamic guidance system*
+*Dynamic routing*, *Dynamic guidance system*, *Cooperative Vehicle-Infrastructure Systems (CVIS)*
 
 ### Definition {-}
 Dynamic Route Guidance (DRG) is a system which offers route planning and guidance to the driver based on current road and traffic conditions (Dynamic Route Guidance - Car Terms | SEAT, 2021). It presents the most appropriate route for the driver in the exact moment considering estimated road traffic (Chatterjee and McDonald, 1999). DRG can typically divided into infrastructure-based and Infrastructure-less, as seen in Figure 4.1. 
@@ -416,7 +416,7 @@ In both *centralised-infrastructure based systems* and *decentralised-infrastruc
 - **Responsible**: Local governments, Local or national road infrastructure provides, car manufacturers
 
 ### Current state of art in research {-} 
-DRG is already a mature technology, hence the majority of the research focuses on the improvement of different aspects or its application in novel contexts. For example, a study conducted by Liang and Wakahara (2014) presents urban traffic predictions models in order to create a centralized proactive Route Guidance System. Results showed that models decreased the prediction error and reduced the travel time. Moreover, Wang and Niu (2019) in their research proposed simulation-based Distributed Dynamic Route Guidance (DDRGS) based on the usage of data collection and communication techniques in Cooperative Vehicle-Infrastructure Systems (CVIS) and they stated that created DDRGS might be used in the CVIS. Lastly, Deflorio (2003) assessed the performance of strategy, which controls DRG systems during experiments in condition of quick growth of traffic. Eventually, Deflorio stated, among other conclusions, that the average travel time of DRG users was shorter than non-user ones in every examined case.  Furthermore, a large body of research focuses on the use of DRG in the context of automated vehicles. For example, a study by Lazar et al. (2019) employs deep reinforcement learning approach to decrease the congestion in mixed autonomous traffic. Furthermore, Kaminski et al. (2020) investigates the effect of change in penetration level of smart cars on system characteristics including travel time in the environment where smart cars as well as human driven cars are both present. Importantly, smart cars are assumed to respond to changes in currently observed traffic by rerouting while traditional cars rely on historical information only. The results show that smart car rerouting algorithm reduced the total travel time by up to 30 %.
+DRG is already a mature technology, hence the majority of the research focuses on the improvement of different aspects or its application in novel contexts. For example, a study conducted by Liang and Wakahara (2014) presents urban traffic predictions models in order to create a centralized proactive Route Guidance System. Results showed that models decreased the prediction error and reduced the travel time. Moreover, Wang and Niu (2019) in their research proposed simulation-based Distributed Dynamic Route Guidance System (DDRGS) based on the usage of data collection and communication techniques in Cooperative Vehicle-Infrastructure Systems (CVIS) and they stated that created DDRGS might be used in the CVIS. Lastly, Deflorio (2003) assessed the performance of strategy, which controls DRG systems during experiments in condition of quick growth of traffic. Eventually, Deflorio (2003) stated, among other conclusions, that the average travel time of DRG users was shorter than non-user ones in every examined case.  Furthermore, a large body of research focuses on the use of DRG in the context of automated vehicles. For example, a study by Lazar et al. (2019) employs deep reinforcement learning approach to decrease the congestion in mixed autonomous traffic. Furthermore, Kaminski et al. (2020) investigates the effect of change in penetration level of smart cars on system characteristics including travel time in the environment where smart cars as well as human driven cars are both present. Importantly, smart cars are assumed to respond to changes in currently observed traffic by rerouting while traditional cars rely on historical information only. The results show that smart car rerouting algorithm reduced the total travel time by up to 30 %.
 
 
 ### Current state of art in practice {-}
@@ -494,7 +494,7 @@ With respect to the impact on the societal level, a Belgian study, by E. De Pauw
 
 ### Key stakeholders {-}
 
-- **Affected**: Motorways users
+- **Affected**: Motorways users, Drivers
 - **Responsible**: Motorway Infrastructure Agencies, Technology Providers, Policymakers, State authorities
 
 ### Current state of art in research {-}
@@ -519,7 +519,7 @@ Austrian motorways are managed by the ASFiNAG - currently they have 17 DSL syste
 cat('| Impact level| Indicator|Impact direction| Goal description and number|Source|
 |:------------:|:-----------:|:------------:|:------------:|:------------:|
 |Individual|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
-|Individual|Travel time reduced|**+**|Environmental sustainability (*7,12,13,15*)|Habtemichael & de Picado Santos, 2013|
+|Individual|Travel time reduced|**+**|Sustainable economic development (*8,11*)|Habtemichael & de Picado Santos, 2013|
 |Systemic|Fatal collisions reduced|**+**|Health & Wellbeing (*3*)|Hegyi et al., 2005|
 |Systemic| Annual greenhouse gas emissions decrease|**+**|Environmental sustainability (*7,12-13,15*)|Schimany, 2011|')
 ```
