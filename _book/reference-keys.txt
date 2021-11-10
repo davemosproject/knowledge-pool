@@ -10,10 +10,11 @@ fig:unnamed-chunk-28
 fig:unnamed-chunk-31
 fig:unnamed-chunk-32
 fig:unnamed-chunk-37
-fig:unnamed-chunk-47
-fig:unnamed-chunk-49
-fig:unnamed-chunk-54
+fig:unnamed-chunk-45
+fig:unnamed-chunk-48
+fig:unnamed-chunk-50
 fig:unnamed-chunk-55
+fig:unnamed-chunk-56
 intro
 infrastructure
 dedicated_lanes
@@ -98,10 +99,3 @@ FCEV
 bev
 plugin_hybrid
 reference
-fig:unnamed-chunk-1
-fig:unnamed-chunk-2
-fig:unnamed-chunk-3
-fig:unnamed-chunk-8
-fig:unnamed-chunk-11
-fig:unnamed-chunk-12
-fig:unnamed-chunk-7

@@ -26,10 +26,16 @@ Knowledge pool is a continuously developing database, which is a part of the [DA
 
 The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/>
 
+**Legal disclaimers**
+
 ```{r, echo=FALSE, , out.width="10%"}
 knitr::include_graphics("image/cc.png")
 ```
+
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. <br/>
+
+
+The authors assume no responsibility or liability for any errors or omissions in the content of this work. The information contained in the knowledge pool is for general information purposes only.<br/>
 
 **Table of content**
 
