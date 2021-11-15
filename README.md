@@ -1,4 +1,4 @@
-# knowledge-pool
+# Knowledge Pool
 
 Sorry! We are currently updating our database, we will be back online soon.
 
