@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2 Physical road infrastructure | Knowledge Pool</title>
   <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2 Physical road infrastructure | Knowledge Pool" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
 
 
-<meta name="date" content="2021-11-12" />
+<meta name="date" content="2021-11-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="intro.html"/>
 <link rel="next" href="highway.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -1781,7 +1784,7 @@ On the other hand, research on the efficiency of inductive tracks conducted in F
 <p>A common measure in use is the positioning of stops before intersections, which combines the standing time at the traffic lights with the passenger change and thus leads to travel time reductions (Schwendinger, 2019).<br/></p>
 <p>All around the world <a href="collective.html#brt">Bus Rapid Transit (BRT)</a> systems have gained popularity. Cervero (2013) defines them as “bus-based system that mimics the high-capacity, high-performance characteristics of urban rail systems at a much lower price” that runs either on exclusive transit-ways, dedicated bus lanes or some grade of separation. <br/></p>
 <p>Regarding TSP, the cloud-based systems using GPS locations are standard technology (see Figure 1). However, there are still many outdated systems in use that are based on short-range radio. These systems require that all traffic lights are equipped with receivers. All buses in a fleet need special transmitters and an on-board system for positioning, which makes it an overall expensive system. At the same time, this technology is rather unreliable and maintenance intensive (SWARCO, 2021).</p>
-<div class="figure"><span id="fig:unnamed-chunk-10"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
 <img src="image/pt_priority_system.jpg" alt="Smart priority for public transport (SWARCO, 2021)" width="70%" />
 <p class="caption">
 Figure 2.1: Smart priority for public transport (SWARCO, 2021)
@@ -2077,7 +2080,6 @@ Figure 2.1: Smart priority for public transport (SWARCO, 2021)
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -2096,6 +2098,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -2113,12 +2116,15 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 },
 "toolbar": null,
 "position": "fixed",
-"search": true,
 "info": false
 });
 });

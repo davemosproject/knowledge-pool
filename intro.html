@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>1 Introduction | Knowledge Pool</title>
   <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="1 Introduction | Knowledge Pool" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
 
 
-<meta name="date" content="2021-11-12" />
+<meta name="date" content="2021-11-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="table-of-content.html"/>
 <link rel="next" href="infrastructure.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -935,14 +938,14 @@
 <h1><span class="header-section-number">1</span> Introduction</h1>
 <p>This work gathers and defines essential concepts related to automation and digitalisation of transport system together with the description of their impact, both negative and positive on <strong>individual</strong>, <strong>systemic</strong> and <strong>economy level</strong>. This knowledge pool is driven by the fact that automation and digitalisation are progressing quickly, although not uniformly across all areas within the transport context. Therefore, to understand the spectrum of possibilities that they bring, it is necessary to explain key concepts, demonstrate their level of maturity and current market penetration, and finally assess their impact on different levels. Given this approach, the page of each topic contains the following elements: <strong>definition</strong> of the phenomenon,
 <strong>key stakeholders</strong> who are the main parties responsible for and affected by the given technological development. Then, we include two subsections on the <strong>current state of the art in research and practice</strong>. The former summarizes the most recent research in a given topic while the latter explains the current stage of implementation of a given technology in the real world. Further, the section named <strong>relevant initiatives in Austria</strong> covers the leading initiatives within a given topic and potential for Austrian actors. Moreover, we provide a summary table of the impacts of the concept on selected <strong>sustainable development goals</strong> (SDGs). Beyond, to provide an objective measure of technology maturity within each topic we include the so-called <strong>technology readiness scale</strong> (Williamson &amp; Beasley, 2011) as described below:<br/></p>
-<div class="figure"><span id="fig:unnamed-chunk-4"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
 <img src="image/TRL_cropped.jpg" alt="Technology readiness scale" width="90%" />
 <p class="caption">
 Figure 1.1: Technology readiness scale
 </p>
 </div>
 <p>Furthermore, we evaluate the readiness of a given technology to be acceptable in the society and how well it contributes to the public good using <strong>societal readiness scale</strong> (McCulloch, 2019):</p>
-<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
 <img src="image/SRL_cropped.jpg" alt="Societal readiness scale" width="90%" />
 <p class="caption">
 Figure 1.2: Societal readiness scale
@@ -966,7 +969,6 @@ Figure 1.2: Societal readiness scale
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -985,6 +987,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -1002,12 +1005,15 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 },
 "toolbar": null,
 "position": "fixed",
-"search": true,
 "info": false
 });
 });

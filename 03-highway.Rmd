@@ -58,7 +58,7 @@ cat('|TRL| SRL|
 - Frederiksen, M. H., Mouridsen, O. A. V., & Knudsen, M. P. (2019). Drones for inspection of infrastructure: Barriers, opportunities and successful uses.
 - Jenkins, D., & Vasigh, B. (2013). The economic impact of unmanned aircraft systems integration in the United States. Association for Unmanned Vehicle Systems International (AUVSI).
 - Otero, L.D., Gagliardo, N., Dalli, D., Huang, W.-H., Cosentino, P. (2015). Proof of concept for using unmanned aerial vehicles for high mast pole and bridge inspections (No. BDV28-977-02). Florida. Dept. of Transportation. Research Center.
-- utay, F., Mengash, H. A., & Adnan, M. (2020). Applications of unmanned aerial vehicle (UAV) in road safety, traffic and highway infrastructure management: Recent advances and challenges. Transportation research. Part A, Policy and practice, 141, 116–129. https://doi.org/10.1016/j.tra.2020.09.018
+- Outay, F., Mengash, H. A., & Adnan, M. (2020). Applications of unmanned aerial vehicle (UAV) in road safety, traffic and highway infrastructure management: Recent advances and challenges. Transportation research. Part A, Policy and practice, 141, 116–129. https://doi.org/10.1016/j.tra.2020.09.018
 - Shaghlil, N., & Khalafallah, A. (2018). Automating highway infrastructure maintenance using unmanned aerial vehicles. In Construction Research Congress (2-4).
 - Undertaking, S. J. (2016). European drones outlook study. Unlocking the Value for Europe.
 - Wu, W., Qurishee, M. A., Owino, J., Fomunung, I., Onyango, M., Atolagbe, B. (2018). Coupling deep learning and UAV for infrastructure condition assessment automation. In: 2018 IEEE International Smart Cities Conference (ISC2). IEEE, pp. 1–7.

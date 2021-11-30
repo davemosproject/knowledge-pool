@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>9 On-board technology for connected and automated vehicles | Knowledge Pool</title>
   <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="9 On-board technology for connected and automated vehicles | Knowledge Pool" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
 
 
-<meta name="date" content="2021-11-12" />
+<meta name="date" content="2021-11-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="connected.html"/>
 <link rel="next" href="freight.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -949,7 +952,7 @@
 <li><strong>Warning</strong>: warning systems support the driver in anticipating potential hazards. These include, for example, wrong way driving warning, forward collision warning or lane departure warning.
 Importantly, there are different level of ADAS support depending on the level of automation of the vehicle. Currently, the Society of Automotive Engineers <a href="https://sae.org">(SAE)</a> distinguishes 5 levels of driving automation which together with ADAS functions have been depicted in Figure 9.1.</li>
 </ul>
-<div class="figure"><span id="fig:unnamed-chunk-37"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-37"></span>
 <img src="image/adas_level.png" alt="Levels of driving automation (Shuttleworth, 2019)" width="90%" />
 <p class="caption">
 Figure 9.1: Levels of driving automation (Shuttleworth, 2019)
@@ -1366,7 +1369,7 @@ Further, study by Weaver &amp; Gonzalez (2020) focused on the influence of LKAS 
 <div id="current-state-of-art-in-research-37" class="section level3 unnumbered">
 <h3>Current state of art in research</h3>
 <p>The main trend in research regarding digital maps for AV purposes includes the improvement in their accuracy (especially in dense urban areas) and development of approaches to update the changes in physical environment on the road.<br/></p>
-<p>For example, the research conducted by Jo et al. (2018) proposes two methods of updating HD maps with recent changes in the physical features of the real world. The first option relies on implementing ground-mapping technology, which assesses all the roads in the database in terms of feature changes and then detects them. However, this technology is not only expensive but also it works on a limited area. Second method makes use of perception and localization functions of driverless vehicles, through the created algorithm called Simultaneous Localization and Map Change Update (SLAMCU). Consequently, the update of data can be performed in many vehciles at the same time, which is a considerable advantage of this method. Additionally, there is no extra software, which makes this method much cheaper in comparison to the first one.<br/></p>
+<p>For example, the research conducted by Jo et al. (2018) proposes two methods of updating HD maps with recent changes in the physical features of the real world. The first option relies on implementing ground-mapping technology, which assesses all the roads in the database in terms of feature changes and then detects them. However, this technology is not only expensive but also it works on a limited area. Second method makes use of perception and localization functions of driverless vehicles, through the created algorithm called Simultaneous Localization and Map Change Update (SLAMCU). Consequently, the update of data can be performed in many vehicles at the same time, which is a considerable advantage of this method. Additionally, there is no extra software, which makes this method much cheaper in comparison to the first one.<br/></p>
 <p>Further, Hartmann et al. (2018) focuses on the improvement of the accuracy of digital maps, if they were to be used more broadly. The online verification approach is proposed, which detects changes in front of the car, based on the large databases and sensors. The database collects information about the road geometry and speed limits in the standard interface Advanced Driver Assistance Systems Interface Specifications (ADASIS). This approach provides higher accuracy (96.64%) in comparison to the other systems. The authors concluded that there is needed further research to fully examine possibilities and function of this system.</p>
 </div>
 <div id="current-state-of-art-in-practice-37" class="section level3 unnumbered">
@@ -1777,7 +1780,6 @@ In the project <em>E-Call Austria</em>, the E-Call system is to be implemented i
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -1796,6 +1798,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -1813,12 +1816,15 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 },
 "toolbar": null,
 "position": "fixed",
-"search": true,
 "info": false
 });
 });

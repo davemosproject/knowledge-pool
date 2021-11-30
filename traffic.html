@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Traffic management | Knowledge Pool</title>
   <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Traffic management | Knowledge Pool" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
 
 
-<meta name="date" content="2021-11-12" />
+<meta name="date" content="2021-11-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="highway.html"/>
 <link rel="next" href="digital.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -1565,7 +1568,7 @@ However, in order to be able to test truck platooning under real conditions on A
 <div id="definition-13" class="section level3 unnumbered">
 <h3>Definition</h3>
 Dynamic Route Guidance (DRG) is a system which offers route planning and guidance to the driver based on current road and traffic conditions (Dynamic Route Guidance - Car Terms | SEAT, 2021). It presents the most appropriate route for the driver in the exact moment considering estimated road traffic (Chatterjee and McDonald, 1999). DRG can typically divided into infrastructure-based and Infrastructure-less, as seen in Figure 4.1.
-<div class="figure"><span id="fig:unnamed-chunk-15"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-15"></span>
 <img src="image/DRS.jpg" alt="Classification of route guidance systems (Khanjary and Hashemi, 2012)" width="55%" />
 <p class="caption">
 Figure 4.1: Classification of route guidance systems (Khanjary and Hashemi, 2012)
@@ -1701,7 +1704,7 @@ In both <em>centralised-infrastructure based systems</em> and <em>decentralised-
 <div id="definition-14" class="section level3 unnumbered">
 <h3>Definition</h3>
 <p>Speed limits are based on safety, mobility and environmental considerations. While fixed speed limits represent the appropriate speed for average conditions, variable or dynamic speed limits (DSL) take account of the real time traffic, or the road and weather conditions. Therefore, the latter reflect the safe speed better (Mobility and Transport, 2020). The road users are typically informed of the current speed limit by electronic signs above or beside the lanes (De Pauw et al., 2018), as shown in figure 1. These can be supplemented with warning signs (dynamic signage system). For example, if the usual speed limit is 100 km/h, the DSL could change to 80 km/h and further to 60 km/h, to limit rear-end collisions, if there is e.g., a traffic jam ahead or weather conditions are difficult.</p>
-<div class="figure"><span id="fig:unnamed-chunk-18"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-18"></span>
 <img src="image/dynamic_signage.png" alt="Dynamic signage system in Austria (ASFiNAG, 2019b)" width="90%" />
 <p class="caption">
 Figure 4.2: Dynamic signage system in Austria (ASFiNAG, 2019b)
@@ -2303,7 +2306,6 @@ In transportation industry implementation of fleet management through an on-boar
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -2322,6 +2324,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -2339,12 +2342,15 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 },
 "toolbar": null,
 "position": "fixed",
-"search": true,
 "info": false
 });
 });

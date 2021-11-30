@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>12 Big data | Knowledge Pool</title>
   <meta name="description" content="This is a work-in-progress knowledge pool of the systemic impact of transport digitalisation and automation." />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="12 Big data | Knowledge Pool" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna" />
 
 
-<meta name="date" content="2021-11-12" />
+<meta name="date" content="2021-11-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +33,8 @@
   
 <link rel="prev" href="collective.html"/>
 <link rel="next" href="shared.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +50,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
 
 
 
@@ -954,7 +957,7 @@
 <li>5G (2020, up to 100 Gbit/s, but the fastest speed measured so far is 1.8 Gbit/s): The latest mobile radio standard with very low latency for real-time responses. But 5G is not so easy to retrofit to existing cell towers, as the waves are very compressed and are between 1 and 10 millimetres long (previous cellular waves are several centimetres long). Frequencies between 6 and 300 gigahertz (GHz) are used to relieve the current network. By comparison, today’s mobile phone network operates in the spectrum between 0.8 and 2.6 GHz. However, the higher frequencies and shorter waves have the disadvantage that walls and obstacles can no longer be penetrated as easily. The radio cells must therefore be arranged more closely meshed. For fast response times of less than a millisecond, more antennas per cell than subscribers are needed. In some countries, including Germany, coverage with 5G has already begun. Critics, however, fear higher radiation exposure from 5G and thus health effects that are not yet calculable.<br/></li>
 </ul>
 <p>Two major standards for vehicular communications, in the allocated 5.9 GHz frequency band, have developed in recent years (Figure 12.1). One is the Dedicated Short-Range Communications (DSRC) protocol developed in the USA, and another one is the Intelligent Transportation System (ITS) G5 protocol developed by the European Telecommunications Standards Institute (ETSI). These standards are based on the IEEE 802.11p access layer, which was developed for vehicular networks (Mannoni et al., 2019). DSCR (IEEE 802.11p) is referred to as ITS-G5 in Europe, which has been well researched for 20 years and has reached sufficient technical maturity for current use. Despite the 2011 recommendation to use the IEEE 802.11p protocol as the standard for vehicular communications (IEEE, 2014), in recent years many researchers and industrial companies have considered the use of the LTE cellular network as an alternative solution for vehicular networking applications, especially for the transport of Floating Car Data FCD message streams (Salvo et al., 2017). But even though Cellular vehicle to everything (C-V2X) is a rather new technology, it is based on the 3rd Generation Partnership Project (3GPP) family of standards that are successfully deployed in almost all parts of the world (Sattiraju et al., 2020) (first trials in late 2017 (Fillenberg, 2017)).</p>
-<div class="figure"><span id="fig:unnamed-chunk-48"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-48"></span>
 <img src="image/DSRC.png" alt="DSRC and C-V2X (Autocrypt, 2021)" width="60%" />
 <p class="caption">
 Figure 12.1: DSRC and C-V2X (Autocrypt, 2021)
@@ -1163,7 +1166,7 @@ have a continuous traceability of data in each phase of the cycle</li>
 <li><em>Archiving</em>: Consists of an implementation of data security and confidentiality</li>
 </ul>
 <p>Further, Djahel et al., (2014) proposed big data life cycle with respect to traffic management systems (TMS) as visualised in Figure 12.2.</p>
-<div class="figure"><span id="fig:unnamed-chunk-50"></span>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-50"></span>
 <img src="image/BDLC.png" alt="Big Data lifecycle in smart transportation (Djahel et al., 2014)" width="75%" />
 <p class="caption">
 Figure 12.2: Big Data lifecycle in smart transportation (Djahel et al., 2014)
@@ -1537,7 +1540,6 @@ The mobility changes caused by the outbreak of the COVID 19 pandemic have led to
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -1556,6 +1558,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": false
 },
 "fontsettings": {
@@ -1573,12 +1576,15 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "section"
 },
 "toolbar": null,
 "position": "fixed",
-"search": true,
 "info": false
 });
 });
