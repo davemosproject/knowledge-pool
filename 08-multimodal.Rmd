@@ -780,8 +780,8 @@ Mobility as a Service or Mobility on Demand concepts are designed to make it pos
 
 ### Key stakeholders {-}
 
-- **Affected**: All kinds of passengers 
-- **Responsible**: City administration, Public transport operators, Mobility service providers, Funding provider, District authorities, Private companies
+- **Affected**: Public and private transport users, Commuters  
+- **Responsible**: City administration, Public transport operators, Mobility service providers, District authorities, Private companies, Shared mobility providers
 
 ### Current state of art in research {-}
 Bell (2019) has analysed the user requirements of mobility hubs. He argues that mobility hubs or intermodal hubs differ depending on the area in which they are implemented, e.g. rural or urban areas, and that success and sustainability strongly depend on the particular design. An overview of his general conclusion is shown in Figure 7.2. 

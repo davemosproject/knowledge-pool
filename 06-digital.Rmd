@@ -99,7 +99,7 @@ cat('|TRL| SRL|
 -	[nhtsa.gov](https://www.nhtsa.gov/technology-innovation/vehicle-vehicle-communication) 
 
 ### References {-}
--	ADAC. (2021). Welche Hersteller bieten bereits C2X an ? Datenquelle Original-Rückmeldungen.
+-	ADAC. (2021). Welche Hersteller bieten bereits C2X an? Datenquelle Original-Rückmeldungen.
 -	Cooperative ITS Corridor. (n.d.). Cooperative ITS Corridor. Available at: https://c-its-korridor.de/?menuId=1&sp=de [Accessed: 18 February 2021]
 -	Dey, K. C., Rayamajhi, A., Chowdhury, M., Bhavsar, P., & Martin, J. (2016). Vehicle-to-vehicle (V2V) and vehicle-to-infrastructure (V2I) communication in a heterogeneous wireless network - Performance evaluation. Transportation Research Part C: Emerging Technologies, 68, 168–184. https://doi.org/10.1016/j.trc.2016.03.008
 -	Filippi, A., Moerman, K., Daalderop, G., Alexander, P. D., Schober, F., & Pfliegl, W. (2016). Ready to roll: Why 802.11p beats LTE and 5G for V2x. 1–14.Available at:  https://www.siemens.com/content/dam/webassetpool/mam/tag-siemens-com/smdb/mobility/road/connected-mobility-solutions/documents/its-g5-ready-to-roll-en.pdf [Accessed: 30 September 2021]
