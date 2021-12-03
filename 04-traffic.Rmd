@@ -748,12 +748,13 @@ Urban Access Management can be seen as regulations, restrictions or bans, for tr
 Solutions for ARS can be enforced by physical barriers or cameras, based on automatic number plate recognition (ANPR) systems and/or dedicated short-range communication (DSRC) technology, using on-board units (OBUs) (Kapsch TrafficCom., n.d. b) or by police or local authority officers (Sadler Consultants Europe GmbH, n.d. c). <br/>
 
 The impact of Urban Vehicle Access Regulations differs according the implemented schemes, but several common goals are addressed:
+
 -	Air quality improvement
 -	Traffic congestion reduction
 -	Urban landscape preservation (historical town centres)
 -	Climate change mitigation
 -	Quality of life
-- Noise mitigation
+-  Noise mitigation
 -	Road safety
 -	Raising revenues (Sandler Consultants Europe GmbH, n.d. d). 
 
@@ -762,7 +763,7 @@ In Austria, several cities and regions have implemented Low Emission Zones (LEZ)
 
 ### Key stakeholders {-}
 
-- **Affected**: Car Users – especially users of old or high polluting cars, truck drivers, Shippers/producers, Wholesalers, Logistics providers, Retailers, Consumers, Citizens, Authorities
+- **Affected**: Car Users – especially users of old or high polluting cars, Truck drivers, Shippers/producers, Wholesalers, Logistics providers, Retailers, Consumers, Citizens, Authorities
 - **Responsible**: Municipalities, Road Operators, Urban Traffic Management, Authorities
 
 ### Current state of art in research {-}
