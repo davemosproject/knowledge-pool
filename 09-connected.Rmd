@@ -153,8 +153,6 @@ cat('|TRL| SRL|
 -	Yang, J., & Coughlin, J. F. (2014). IN-VEHICLE TECHNOLOGY FOR SELF-DRIVING CARS: ADVANTAGES AND CHALLENGES FOR AGING DRIVERS J. International Journal of Automotive Technology, 15(2), 333−340.
 -	Zhou, F., Zheng, Z., Whitehead, J., Washington, S., Perrons, R. K., & Page, L. (2020). Preference heterogeneity in mode choice for car-sharing and shared automated vehicles. Transportation Research Part A: Policy and Practice, 132, 633–650. https://doi.org/10.1016/j.tra.2019.12.004
 
-
-
 ## Parking infrastructure for automated vehicles {#parking_av}
 
 ### Synonyms {-}

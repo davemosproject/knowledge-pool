@@ -37,6 +37,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-NoDeriv
 
 The authors assume no responsibility or liability for any errors or omissions in the content of this work. The information contained in the knowledge pool is for general information purposes only.<br/>
 
+The knowledge pool was last compiled on:
+
+```{r, echo=FALSE}
+format(Sys.time(),'%d %B %Y')
+```
+
 **Table of content**
 
 1. [Introduction to the knowledge pool](#intro)
@@ -118,12 +124,6 @@ The authors assume no responsibility or liability for any errors or omissions in
     - [Battery electric](#bev)  
     - [Plugin hybrid vehicles](#plugin_hybrid)  
 15. [References](#reference)
-
-The knowledge pool was last compiled on:
-
-```{r, echo=FALSE}
-format(Sys.time(),'%d %B %Y')
-```
 
 # Table of content {-}
 

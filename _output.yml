@@ -12,7 +12,7 @@ bookdown::gitbook:
     position: fixed
     edit: null
     download: no
-    search: yes
+    search: no
     sharing:
       facebook: no
       github: no
