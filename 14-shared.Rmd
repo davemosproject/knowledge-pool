@@ -242,7 +242,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 
 ### Technology and societal readiness level {-}
 
-  ```{r table16, echo=FALSE, results='asis'}
+```{r table16, echo=FALSE, results='asis'}
 cat('|TRL| SRL|
 |:----:|:----:|
 |7-9|7-9|')
@@ -342,7 +342,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 
 ### Technology and societal readiness level {-}
 
-  ```{r table89, echo=FALSE, results='asis'}
+```{r table89, echo=FALSE, results='asis'}
 cat('|TRL| SRL|
 |:----:|:----:|
 |7-9|6-9|')

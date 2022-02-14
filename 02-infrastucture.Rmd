@@ -2,6 +2,8 @@
 
 ## Dedicated lanes for connected and automated vehicles (CAV) {#dedicated_lanes}
 
+**Updated: 14th February 2022**
+
 ### Synonyms {-}
 *AV-dedicated lanes*, *dedicated corridors*
 
@@ -16,10 +18,14 @@ In contrast, study by Chen et al. (2016) showed that the implementation of CAV d
 - **Responsible**: Road Infrastructure Agencies, Local and National Governments
 
 ### Current state of art in research {-}
-Current research focuses on gathering the evidence of the impact of the introduction of dedicated lanes on traffic flow, driver behaviour adoption, safety and efficiency. Furthermore, it analyses the factors which influence them, by testing different design and operation configurations, road types and utilization policies (Rad et al., 2020). Both, field operational testing and driving simulator studies have been conducted to investigate the influence of different designs of dedicated lanes on drivers in conventional cars and those featuring some degree of automation (Guin et al., 2008, Zhong, 2018). In particular, a number of studies compared distinct access types of dedicated lanes (Zhong, 2018, Yang et al., 2019). They showed that dedicated lanes with limited access performed better in terms of travel time and throughput compared to dedicated lanes with continuous access. Moreover, the probability of vehicles platooning was significantly higher on dedicated lanes with limited access. On the other hand, it was showed that collision rates near the entry or exit of these limited access lanes are higher (Rad et al. 2020).
+Current research focuses on gathering the evidence of the impact of the introduction of dedicated lanes on traffic flow, driver behaviour adoption, safety and efficiency. Furthermore, it analyses the factors which influence them, by testing different design and operation configurations, road types and utilization policies (Rad et al., 2020). Both, field operational testing and driving simulator studies have been conducted to investigate the influence of different designs of dedicated lanes on drivers in conventional cars and those featuring some degree of automation (Guin et al., 2008, Zhong, 2018). In particular, a number of studies compared distinct access types of dedicated lanes (Zhong, 2018, Yang et al., 2019). They showed that dedicated lanes with limited access performed better in terms of travel time and throughput compared to dedicated lanes with continuous access. Moreover, the probability of vehicles platooning was significantly higher on dedicated lanes with limited access. On the other hand, it was showed that collision rates near the entry or exit of these limited access lanes are higher (Rad et al. 2020).<br/>
+
+Furthermore, the latest article by Fayyaz et al. (2022) considers the impact of AV-dedicated lanes on urban space, mobility and development of sustainable cities. It discusses that the introduction of AVs could decrease overall parking demand in cities, leading to 10% - 27% release of urban space. With respect to traffic space, both the number and width of lanes might be reduced due to reduction in circulating vehicles (more shared AVs), platooning and the implementation of reversible lanes. On the other hand, some authors indicate that AVs have potential to decrease walking and cycling space by 26% and 20%, respectively. Similarly, study by Lee et al. (2022) is concerned with street design strategies to implement AVs in large cities. The developed design allows for separation of AVs and regular vehicles through a connected zones allocated for AV usage. <br/>
+
+Further, study by Ma et al. (2022) proposes a shared-phase-dedicated-lane (SPDL)-based traffic control model at an isolated intersection with CAV dedicated lanes in the mixed traffic environment. The model aims at optimising the behaviour of vehicles and has been demonstrated to provide advantage in terms of average vehicle delay and intersection capacity. 
 
 ### Current state of art in practice {-}
-Currently state of Michigan together with several private partners including Ford and Alphabet Inc. are planning to dedicate 65 km of a highway between Detroit and Ann Arbor for the sole movement of autonomous vehicles including buses and shuttles (Krisher & Eggert, 2020). Similar initiatives are taking place in other countries, for instance, China set out to build nearly 100 km of 8-lane highway linking Beijing and the Xiongan New Area, from which 2 lanes will be allocated for the automated traffic. The completion of the construction phase is predicted by the end of 2020, while its opening is for traffic is expected in June 2021 (Syncedreview.com, 2020). In Europe, there is on-going SHOW (SHared automation Operating models for Worldwide adoption) project which aims to deploy about seventy automated vehicles in 21 European cities. To assess how they can best be integrated vehicles will be used in different settings in mixed traffic and dedicated lanes. However, for safety reasons the driver will be on-board (CORDIS, 2020). 
+Currently state of Michigan together with several private partners including Ford and Alphabet Inc. are planning to dedicate 65 km of a highway between Detroit and Ann Arbor for the sole movement of autonomous vehicles including buses and shuttles (Krisher & Eggert, 2020). Similar initiatives are taking place in other countries, for instance, China set out to build nearly 100 km of 8-lane highway linking Beijing and the Xiongan New Area, from which 2 lanes will be allocated for the automated traffic. The completion of the construction phase is predicted by the end of 2020, while its opening is for traffic is expected in June 2021 (Syncedreview.com, 2020). In Europe, there is on-going SHOW (SHared automation Operating models for Worldwide adoption) project which aims to deploy about seventy automated vehicles in 21 European cities. To assess how they can best be integrated vehicles will be used in different settings in mixed traffic and dedicated lanes. However, for safety reasons the driver will be on-board (CORDIS, 2020).
 
 ### Relevant initiatives in Austria {-}
 
@@ -61,11 +67,13 @@ borders?
 cities to assess the impact of automated vehicles on their physical road infrastructure and
 balance the needs of automated vehicles against the needs of existing modes (conventional
 vehicles, public transport, pedestrians and cyclists). (ERTRAC, 2019)
+7. Does the implementation of AVs support or hinder the concept of driverless cities?
 
 ### Further links {-}
 
--	[knowledge base](https://knowledge-base.connectedautomateddriving.eu/wp-content/uploads/2019/12/SMART_2010-0064-study-report-final_V1-2.pdf "knowledge base") 
--	[show project](https://show-project.eu/ "show project") 
+-	[Knowledge base](https://knowledge-base.connectedautomateddriving.eu/wp-content/uploads/2019/12/SMART_2010-0064-study-report-final_V1-2.pdf "knowledge base") 
+-	[SHOW project](https://show-project.eu/ "show project") 
+- [Automotive world](https://www.automotiveworld.com/articles/autonomous-only-should-avs-have-dedicated-lanes/)
 
 ### References {-}
 
@@ -74,11 +82,14 @@ vehicles, public transport, pedestrians and cyclists). (ERTRAC, 2019)
 - Chen, Z., He, F., Zhang, L., & Yin, Y. (2016). Optimal deployment of autonomous vehicle lanes with endogenous market penetration. Transportation Research Part C: Emerging Technologies, 72, 143-156.
 - CORDIS | European Commission. (20 Apr 2020). Available at: https://cordis.europa.eu/project/id/875530 [Accessed: 13 November 2020].
 - ERTRAC Working Group. (2019). Connected Automated Driving Roadmap. version, 8, 2019-08.
+- Fayyaz, M., González-González, E., & Nogués, S. (2022). Autonomous Mobility: A Potential Opportunity to Reclaim Public Spaces for People. Sustainability, 14(3), 1568.
 - Guin, A., Hunter, M., & Guensler, R. (2008). Analysis of reduction in effective capacities of high-occupancy vehicle lanes related to traffic behavior. Transportation Research Record, 2065(1), 47-53.
 - Ivanchev, J., Knoll, A., Zehe, D., Nair, S., & Eckhoff, D. (2017). Potentials and implications of dedicated highway lanes for autonomous vehicles. arXiv preprint arXiv:1709.07658.
 - Krisher, T., & Eggert, D. (14 Aug 2020). Michigan plans dedicated road lanes for autonomous vehicles. Available at:  https://abcnews.go.com/Technology/wireStory/michigan-plans-dedicated-road-lanes-autonomous-vehicles-72352758 [Accessed: 12 November 2020].
 - Kumar, A., Guhathakurta, S., & Venkatachalam, S. (2020). When and where should there be dedicated lanes under mixed traffic of automated and human-driven vehicles for system-level benefits?. Research in Transportation Business & Management, 100527.
+- Lee, S., Jang, K. M., Kang, N., Kim, J., Oh, M., & Kim, Y. (2022). Redesigning urban elements and structures considering autonomous vehicles: Preparing design strategies for wide implementation in cities. Cities, 123, 103595.
 - Liu, Z., & Song, Z. (2019). Strategic planning of dedicated autonomous vehicle lanes and autonomous vehicle/toll lanes in transportation networks. Transportation Research Part C: Emerging Technologies, 106, 381-403.
+- Ma, W., Li, J., & Yu, C. (2022). Shared-phase-dedicated-lane based intersection control with mixed traffic of human-driven vehicles and connected and automated vehicles. Transportation Research Part C: Emerging Technologies, 135, 103509.
 - Rad, S. R., Farah, H., Taale, H., van Arem, B., & Hoogendoorn, S. P. (2020). Design and operation of dedicated lanes for connected and automated vehicles on motorways: A conceptual framework and research agenda. Transportation Research Part C: Emerging Technologies, 117, 102664.
 - Syncedreview.com (31 Aug 2020). Beijing Builds 100km Highway Lanes for Self-Driving Cars with Unmanned Machineries. Available at:  https://syncedreview.com/2020/08/31/beijing-builds-100km-highway-lanes-for-self-driving-cars-with-unmanned-machineries/ [Accessed: 12 November 2020].
 - Yang, D., Farah, H., Schoenmakers, M. J., & Alkim, T. (2019). Human drivers behavioural adaptation when driving next to a platoon of automated vehicles on a dedicated lane and implications on traffic flow: a driving simulator and microscopic simulation study in the Netherlands. In 98th Annual Meeting of the Transportation Research Board (pp. 19-00582).
