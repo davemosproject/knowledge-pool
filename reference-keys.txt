@@ -99,3 +99,6 @@ FCEV
 bev
 plugin_hybrid
 reference
+fig:unnamed-chunk-1
+fig:unnamed-chunk-2
+fig:unnamed-chunk-8
