@@ -255,6 +255,8 @@ cat('|TRL| SRL|
 
 ## Digital maps {#digital_maps} 
 
+**Updated: 10th January 2022**
+
 ### Synonyms {-}
 *High definition maps (HD maps), High precision maps*
 
