@@ -319,7 +319,7 @@ Individual assistance systems provide support for specific driving tasks. Assist
 
 **Second level: partially automated driving**
 
-With semi-automated driving, the car/truck can temporarily perform some tasks itself - without any human intervention. For this purpose, various individual systems are combined with each other - in this case, the automatic adaptive cruise control with the emergency braking and lane departure warning systems. Further level 2 functions (overtaking assistant, automatic parking)
+With semi-automated driving, the car/truck can temporarily perform some tasks itself, without any human intervention. For this purpose, various individual systems are combined with each other, in this case, the automatic adaptive cruise control with the emergency braking and lane departure warning systems. Further level 2 functions include overtaking assistant, automatic parking.
 
 **Third level: highly automated driving**
 
