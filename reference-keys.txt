@@ -61,7 +61,7 @@ automatic_train
 onboard
 adas
 synonyms-30
-further-links-28
+further-links-29
 parking_assistance
 lane_keeping
 digital_maps
@@ -81,9 +81,9 @@ collective
 drt
 prt
 brt
-further-links-42
-lrt
 further-links-43
+lrt
+further-links-44
 big
 wireless_com
 bd_life

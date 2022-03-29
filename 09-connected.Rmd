@@ -1,6 +1,9 @@
 # Automated driving {#connected}
 
 ## Automated passenger cars {#av}
+
+**Updated: 29th March 2022**
+
 ### Synonyms {-}
 *Automated Vehicle (AV), Shared Automated Vehicles (SAVs)* 
 
@@ -95,7 +98,7 @@ The competition for the best technology for fully automated driving is currently
 
 The development gap between Germany and the Americans could be due to the fact that German car manufacturers work with a higher degree of thoroughness. Christian Weiß, system developer at Daimler, emphasises: "Basically, safety comes before speed for us." For him, the Tesla accidents are a good example of what can happen when immature technology is used in production vehicles. Daimler expert Timo Winterling adds: "To understand a scene, we have to get the last out of the sensors."<br/>
 
-BMW is currently heavily involved in collecting and analysing data in real traffic. At the BMW Campus in Unterschleissheim near Munich, which was founded specifically for this purpose, around 1700 specialists are now working on developing the necessary software algorithms for highly automated driving. As test vehicles, 40 BMWs are on the road collecting huge amounts of data and images in road traffic. For storage, BMW has built two data centres with a capacity of 500 petabytes (PB), a storage size that would hold all the words ever written and printed in human history about five times over (Rudschies & Kroher, 2020).
+In Europe, BMW is currently heavily involved in collecting and analysing data in real traffic. At the BMW Campus in Unterschleissheim near Munich, which was founded specifically for this purpose, around 1700 specialists are now working on developing the necessary software algorithms for highly automated driving. As test vehicles, 40 BMWs are on the road collecting huge amounts of data and images in road traffic. For storage, BMW has built two data centres with a capacity of 500 petabytes (PB), a storage size that would hold all the words ever written and printed in human history about five times over (Rudschies & Kroher, 2020). Moreover, currently operating test sites across Europe have been gathered under [connectedautomateddriving.eu](https://www.connectedautomateddriving.eu/test-sites/).
 
 
 ### Relevant initiatives in Austria {-}
@@ -137,6 +140,10 @@ cat('|TRL| SRL|
 ### Open questions {-}
 1. Can ownership of automated cars satisfy the mobility needs of a multi-person household that currently relies on two, three or even more cars?
 2. Who is responsible if the technology in semi-automated mode violates a speed limit or other traffic regulations?
+
+### Further links {-}
+
+- [connectedautomateddriving.eu](https://www.connectedautomateddriving.eu/test-sites/)
 
 ### References {-}
 -	Altenburg, S., Kienzler, H.-P., & Maur, A. A. der. (2018). Einführung von Automatisierungsfunktionen in der Pkw-Flotte.
