@@ -80,7 +80,7 @@
 
 \title{Knowledge Pool}
 \author{DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna}
-\date{2022-03-29}
+\date{2022-05-17}
 
 \begin{document}
 \maketitle
@@ -102,9 +102,11 @@ Knowledge pool is a continuously developing database, which is a part of the \hr
 \item
   Dr.~Msc. MA (Hons) Martyna Bogacz
 \item
+  B.Sc. Gregor Husner
+\item
   B.Sc. Veronika Hebenstreit
 \item
-  B.Sc. Gregor Husner
+  B.Sc. Eva-Maria Unger
 \item
   Univ. Prof.~Dr.~Yusak Susilo
 \end{itemize}
@@ -122,7 +124,7 @@ The authors assume no responsibility or liability for any errors or omissions in
 The knowledge pool was last compiled on:
 
 \begin{verbatim}
-## [1] "29 March 2022"
+## [1] "17 May 2022"
 \end{verbatim}
 
 \textbf{Table of content}
@@ -5387,6 +5389,8 @@ TRL & SRL\tabularnewline
 \hypertarget{djp}{%
 \section{Digital journey planner}\label{djp}}
 
+\textbf{Updated: 17th May 2022}
+
 \hypertarget{synonyms-18}{%
 \subsection*{Synonyms}\label{synonyms-18}}
 \addcontentsline{toc}{subsection}{Synonyms}
@@ -5408,6 +5412,18 @@ There are some commonly used Digital Journey Planners available worldwide such a
   Databases of schedules of public transport and public transport's stops, which are collected to implement journeys by means of public transport services.
 \end{itemize}
 
+The function phases of Digital Journey Planners can be categorized into the following phases:
+
+\begin{itemize}
+\tightlist
+\item
+  Pre-trip phase
+\item
+  On-trip phase
+\item
+  Post-trip phase
+\end{itemize}
+
 \hypertarget{key-stakeholders-20}{%
 \subsection*{Key stakeholders}\label{key-stakeholders-20}}
 \addcontentsline{toc}{subsection}{Key stakeholders}
@@ -5425,13 +5441,20 @@ There are some commonly used Digital Journey Planners available worldwide such a
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
 Firstly, Liebig et al.~(2014) conducted the research, which aimed at creating the system based on individual trip planning, considering the future traffic. The data was gathered based on the real-time sensors reading. The systems consist of three main elements: an interactive web-based user interface similar to OpenTripPlanner app, real-time back-end engine, which imports data and dynamic traffic model, which estimates the traffic flow. This trip planner was implemented in the real-life case in Dublin, Ireland.
+
 Furthermore, Shoshany-Tavory et al.~(2014) determined how to increase transferability of Journey Planners through Multi-Attribute Tradespace Exploration (MATE) methodology. The goal of the research was to show how the methodology could be used in order to design Journey Planner. The research concluded that MATE can be used to simplify the search of the solutions for different stakeholder's such as public authorities, private developers and passengers (Shoshany-Tavory et al., 2014).
+
+Solecka et al.~(2022) compared and ranked digital journey planners in Krakow, based on nine criteria, to adapt journey planners to the needs of their users. The findings showed that applications should be easily accessible and adaptable to all traffic users, including people with reduced mobility.
+
+Further, Esztergár-Kiss (2019) provided an overview of European Journey planners considering the perspective of the users, by scoring the planners first and weighting them after, to quantify the evaluation of DJP and support the choice of suitable DJP for the user.
+
+Mobility as a Service (MaaS) plays a key role within digital journey planners and is discussed in more detail \protect\hyperlink{maas}{here}.
 
 \hypertarget{current-state-of-art-in-practice-20}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-20}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
-Nowadays, the journey planners exist in majority of the European countries. They differ from each other based on the data they collect and services they provide. However, their main goal is the same, to provide passengers with reliable information to increase the efficiency and safety of the trip. The examples of trip planners around the world include Dutch \href{https://9292.nl/en}{\emph{9292}}, Portuguese \href{https://www.transporlis.pt/Default.aspx?tabid=36}{\emph{transporlis}} and Romanian \emph{tpltm}. They offer similar features to users, however they differ in specificity of the data. For instance, some of them work around the whole country and others trip planners are just regional facility (Ştefănescu, et al., 2014). For example in Austria, the AustriaTech is currently working on the \href{https://www.austriatech.at/en/projects//showprojekt/38/LinkingAlps}{\emph{LinkingAlps}} which is a transnational travel information service for a multimodal and environmentally-friendly mobility in the Alpine region.
+Nowadays, the journey planners exist in majority of the European countries. They differ from each other based on the data they collect and services they provide. However, their main goal is the same, to provide passengers with reliable information to increase the efficiency and safety of the trip. The examples of trip planners around the world include Dutch \href{https://9292.nl/en}{\emph{9292}}, Portuguese \href{https://www.transporlis.pt/Default.aspx?tabid=36}{\emph{transporlis}} and Romanian \emph{tpltm}. They offer similar features to users, however they differ in specificity of the data. For instance, some of them work around the whole country and others trip planners are just regional facility (Ştefănescu, et al., 2014). ). After completing the \href{https://www.interreg-danube.eu/approved-projects/linking-danube}{LinkingDanube Interreg project}, AustriaTech is currently working on the \href{https://www.alpine-space.eu/projects/linkingalps/en/home}{LinkingAlps} which is, similarily to the LinkingDanube project, a transnational travel information service for a multimodal and environmentally-friendly mobility in the Alpine region running until end of June 2022. Currently in practice, the VOR A to B routing service, which is a multimodal app, initiated by the ITS Vienna Region and VOR (Verkehrsverbund Ost-Region), comparing routes and travel times for various travel modes in the eastern regions of Austria.
 
 \hypertarget{relevant-initiatives-in-austria-20}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-20}}
@@ -5451,6 +5474,8 @@ Nowadays, the journey planners exist in majority of the European countries. They
   \href{https://transit.navitime.com/en/at/}{transit.navitime.com}
 \item
   \href{https://www.its-viennaregion.at/en/products.html}{its-viennaregion.at}
+\item
+  \href{https://www.interreg-danube.eu/approved-projects/linking-danube}{LinkingDanube Interreg project}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-20}{%
@@ -5579,25 +5604,31 @@ TRL & SRL\tabularnewline
 \item
   Borole, N., Rout, D., Goel, N., Vedagiri, P. and Mathew, T., (2013). Multimodal Public Transit Trip Planner with Real-time Transit Data. Procedia - Social and Behavioral Sciences, 104, pp.775-784. Available at: \url{https://reader.elsevier.com/reader/sd/pii/S1877042813045631?token=42DB6D6836ED2B503BB611823B60EDAC7087D7DA77A894C14E04BDBDE0AD81BAC6E335407F8059EC5DC8DC9DA0C7C345}.
 \item
-  Ştefănescu, P., Mocan, M., Ştefănescu, W. and Neculai, P., (2014). Trip Planners Used in Public Transportation. Case Study on the City of Timişoara. Procedia - Social and Behavioral Sciences, 124, pp.142-148. Available at: \url{https://reader.elsevier.com/reader/sd/pii/S1877042814020187?token=4E35403DB645FDA2D21DC662D8ADD8BBEA08E3794B321355E3DE9478F87F219256238D04D8D6AAF89E2ABEBFE1FBBDB5}.
+  Esztergár-Kiss, D., (2019). Framework of Aspects for the Evaluation of Multimodal Journey Planners. Sustainability, 11 (18), 4960.
 \item
-  Liebig, T., Piatkowski, N., Bockermann, C. and Morik, K., (2017). Dynamic route planning with real-time traffic predictions. Information Systems, 64, pp.258-265. Available at: \url{https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.687\&rep=rep1\&type=pdf} {[}Accessed: 13 March 2021{]}.
+  Ştefănescu, P., Mocan, M., Ştefănescu, W. and Neculai, P., (2014). Trip Planners Used in Public Transportation. Case Study on the City of Timişoara. Procedia - Social and Behavioral Sciences, 124, pp.142-148. Available at: \url{https://reader.elsevier.com/reader/sd/pii/S1877042814020187?token=4E35403DB645FDA2D21DC662D8ADD8BBEA08E3794B321355E3DE9478F87F219256238D04D8D6AAF89E2ABEBFE1FBBDB5}.
 \item
   Jakob, M., Hrncir, J., Oliva, L., Ronzano, F., Zilecky, P. and Finnegan, J., 2014. Personalized Fully Multimodal Journey Planner. ECAI 2014, Available at: \url{https://upcommons.upc.edu/bitstream/handle/2117/127282/FAIA263-1225\%20\%282\%29.pdf?sequence=3\&isAllowed=y} {[}Accessed: 13 March 2021{]}.
 \item
+  Liebig, T., Piatkowski, N., Bockermann, C. and Morik, K., (2017). Dynamic route planning with real-time traffic predictions. Information Systems, 64, pp.258-265. Available at: \url{https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.688.687\&rep=rep1\&type=pdf} {[}Accessed: 13 March 2021{]}.
+\item
+  Solecka, K., Kikinski, M., (2022). A Multi-Kriteria Analysis of Applications Supporting Public Transport Users. Energies, 15, 3493.
+\item
   Shoshany-Tavory, S., Gal-Tzur, A. and Eden, N., (2014). Incorporating Systems Engineering Methodologies to Increase the Transferability of Journey Planners. Transportation Research Procedia, 3, pp.631-640.
 \item
-  D. Puiu, S. Bischof, B. Serbanescu, S. Nechifor, J. Parreira and H. Schreiner, ``A public transportation journey planner enabled by IoT data analytics,'' 2017 20th Conference on Innovations in Clouds, Internet and Networks (ICIN), Paris, France, 2017, pp.~355-359, doi: 10.1109/ICIN.2017.7899440.
+  Puiu, D., Bischof, S., Serbanescu,B., Nechifor,S., Parreira, J. and Schreiner, H. (2017). A public transportation journey planner enabled by IoT data analytics. 20th Conference on Innovations in Clouds, Internet and Networks (ICIN), Paris, France, 2017, pp.~355-359, doi: 10.1109/ICIN.2017.7899440.
 \end{itemize}
 
 \hypertarget{info_and_route_planning}{%
 \section{Multimodal information and route planning}\label{info_and_route_planning}}
 
+\textbf{Updated: 17th May 2022}
+
 \hypertarget{synonyms-19}{%
 \subsection*{Synonyms}\label{synonyms-19}}
 \addcontentsline{toc}{subsection}{Synonyms}
 
-\emph{Multi-Modal Transport Information Services (MMTIS)}
+\emph{Multi-Modal Transport Information Services (MMTIS), Real Time Passanger Information (RTPI)}
 
 \hypertarget{definition-21}{%
 \subsection*{Definition}\label{definition-21}}
@@ -5622,7 +5653,7 @@ Since 2006 the Transmodel (European Standard Public Transport Reference Data Mod
   OpRa (Operating Raw Data and statistics exchange).
 \end{itemize}
 
-Belgium, Denmark, Finland, France, Germany, Hungary, Italy, Netherlands, Norway, Spain, Slovenia, Sweden Switzerland and the UK are involved in the implementation of Transmodel at a certain level -- Austria, so far, has not been (European Commission, n.d. c).
+Belgium, Denmark, Finland, France, Germany, Hungary, Italy, Netherlands, Norway, Spain, Slovenia, Sweden Switzerland and the UK are involved in the implementation of Transmodel at a certain level. The latest research shows that AustriaTech initiated action towards the implementation of the Transmodel in Austria with the project \href{https://www.austriatech.at/de/projekte//showprojekt/40/DATA4PT}{DATA4PT}, that is aimed at advancing data-sharing practices in the public transport sector by supporting the development of data exchange standards and models, to fulfil the needs of multimodal travel information service providers.
 
 The \emph{Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 supplementing Directive 2010/40/EU of the European Parliament and of the Council with regard to the provision of EU-wide multimodal travel information services} required each EU Member State, among other things, to establish the National Access Points (NAP) by 1st December 2019 (European Commission, 2021a). NAPs were aimed at facilitating the access, easy exchange and reuse of transport-related data to enable the provision of EU-wide interoperable travel and transport services to end-users (European Commission, 2021b). In Austria the NPA is managed by \href{https://www.mobilitydata.gv.at/}{AustriaTech}.
 
@@ -5642,7 +5673,7 @@ The \emph{Commission Delegated Regulation (EU) 2017/1926 of 31 May 2017 suppleme
 \subsection*{Current state of art in research}\label{current-state-of-art-in-research-21}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
-Presently, the research aims at improving compatibility, connectivity and flexibility of the system. For example, Dinko et al.~(2020) looked at what real-time information would be needed in the future to make the trip planner system resilient and easily adaptable to changing needs, considering the changes and challenges that will bring post-pandemic transportation requirements. Further Chang et al.~(2020) conducted research on the accessible indoor navigation application for smartphones, combining information of floor plans, Bluetooth beacons, Wi-Fi/cellular data connectivity, 2D/3D visual models, and user preferences. The aim was to provide visual, audio, and haptic feedback for targeted users to find the optimal route to their destination within a building. Moreover, Huang et al.~(2018) looked at the approaches to better connect static (e.g.~public transport) and dynamic (e.g.~carpooling) networks without limiting flexibility. They found that a merged network, based on the concept of drive-time areas and points of action, could enable multimodal route planning that can provide users with trips from a starting point to a destination using different combinations of modes.
+Presently, the research aims at improving compatibility, connectivity and flexibility of the system. For example, Dinko et al.~(2020) looked at what real-time information would be needed in the future to make the trip planner system resilient and easily adaptable to changing needs, considering the changes and challenges that will bring post-pandemic transportation requirements. Further Chang et al.~(2020) conducted research on the accessible indoor navigation application for smartphones, combining information of floor plans, Bluetooth beacons, Wi-Fi/cellular data connectivity, 2D/3D visual models, and user preferences. The aim was to provide visual, audio, and haptic feedback for targeted users to find the optimal route to their destination within a building. Moreover, Huang et al.~(2018) looked at the approaches to better connect static (e.g.~public transport) and dynamic (e.g.~carpooling) networks without limiting flexibility. They found that a merged network, based on the concept of drive-time areas and points of action, could enable multimodal route planning that can provide users with trips from a starting point to a destination using different combinations of modes. Namoun et al.~(2021), analysed a route guidance system connecting multiple data sources, such as life traffic data, which were collected from multiple data sources (e.g.~road sensors, SCOOT). Advantages of using different types of agents and the empowerment of management authorities to monitor traffic flow and conditions of the city in real time are once again highlighted.
 
 What is more, the additional research addresses Mobility as a Service (MaaS) solutions. For further information see section \protect\hyperlink{maas}{Mobility as a service (Maas)} of this work.
 
@@ -5657,6 +5688,8 @@ What is more, the additional research addresses Mobility as a Service (MaaS) sol
 With \emph{Google Routs}, integrated in \emph{Google Maps}, routes can also be called up for journeys by public transport, bicycle and car, as well as for journeys by foot. Based on real-time information on traffic conditions, current or future travel times are determined (Google, n.d.). Furthermore, the public transportation planning feature \emph{Google Transit} combines the latest agency data (provided with \emph{Google Routs}) with the power of \emph{Google Maps}. It integrates transit stop, route, schedule, and fare information to make trip planning quick and easy for users. For the integration public transit agencies need to meet a few basic requirements, as providing their static and real-time data in the general transit feed specification (GTFS) format (Google, 2021).
 
 Finally, in 2020 \emph{Apple} launched a new online map, including the features of real-time transit information and indoor maps for airports and malls, but not yet worldwide (Apple, 2020).
+
+Siemens Mobility, together with Wiener Linien, will launch an innovative digital passenger information and guidance system for the Vienna metro system. The dynamic and visual presentation of information through screens inside the metro provide passengers with real-time information about further routes and connections at the next station. The system will debut on the U1-U4 lines of the Vienna metro system along with the launch of the first new \href{https://press.siemens.com/global/en/pressrelease/wiener-linien-presents-innovative-digital-passenger-information-system-new-x-car}{X-car} in 2022.
 
 \hypertarget{relevant-initiatives-in-austria-21}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-21}}
@@ -5674,6 +5707,12 @@ Finally, in 2020 \emph{Apple} launched a new online map, including the features 
   \href{https://www.mobilitydata.gv.at/}{mobilitydata.gv.at}
 \item
   \href{http://maps.google.com/landing/transit/cities/index.html\#Europe}{maps.google.com}
+\item
+  \href{https://energyindustryreview.com/tech/worlds-first-digital-passenger-information-system-by-siemens-mobility/}{Siemens Mobility}
+\item
+  \href{https://data4pt-project.eu}{DATA4PT}
+\item
+  \href{https://press.siemens.com/global/en/pressrelease/wiener-linien-presents-innovative-digital-passenger-information-system-new-x-car}{X-car}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-21}{%
@@ -5787,8 +5826,6 @@ TRL & SRL\tabularnewline
 \item
   How can bus and rail travel be made as convenient to book as flights?
 \item
-  Why Austria has not implemented the Transmodel? What is necessary for an implementation?
-\item
   What effect has multimodal information \& route planning on energy consumption?
 \item
   What key features are needed in multimodal trip planning apps to be accessible for disabled or elderly and how can they be implemented to be inclusive for these specific groups?
@@ -5814,6 +5851,8 @@ TRL & SRL\tabularnewline
   \href{https://www.apple.com/maps/}{apple.com}
 \item
   \href{http://maps.google.com/landing/transit/cities/index.html\#Europe}{maps.google.com}
+\item
+  \href{https://www.railway-technology.com/news/the-real-time-passenger-information-systems-providing-reassurance-for-passengers/}{RTPI}
 \end{itemize}
 
 \hypertarget{references-21}{%
@@ -5845,11 +5884,15 @@ TRL & SRL\tabularnewline
 \item
   Google. (n.d.). Routes \& Directions \textbar{} Google Maps Platform \textbar{} Google Cloud. Available at: \url{https://cloud.google.com/maps-platform/routes} {[}Accessed: 12 February 2021{]}
 \item
+  Namoun, A., Tufail, A., Mehandjiev, N., Alrehaili, A., Akhalghinia, J., Peytchev, E., (2021). An Eco-Friendly Multimodal Route Guidance System for Urban Areas Using Multi-Agent Technology. Applied Sciences, 11, 2057.
+\item
   Huang, H., Bucher, D., Kissling, J., Weibel, R., \& Raubal, M. (2018). Multimodal route planning with public transport and carpooling. IEEE Transactions on Intelligent Transportation Systems, 20(9), 3513-3525.
 \item
   Rome2rio Pty Ltd.~(2021a). About Rome2rio - Rome2rio.Available at: \url{https://www.rome2rio.com/about/} {[}Accessed: 12 February 2021{]}
 \item
   Rome2rio Pty Ltd.~(2021b). Rome2rio API - Rome2rio. Available at: \url{https://www.rome2rio.com/documentation/} {[}Accessed: 12 February 2021{]}
+\item
+  Siemens. (2022). Worlds First Digital Passenger Information System by Siemens Mobility. Available at: \url{https://energyindustryreview.com/tech/worlds-first-digital-passenger-information-system-by-siemens-mobility/} {[}Accessed: 14 May 2022{]}
 \item
   Verkehrsauskunft Österreich. (n.d.). Verkehrsauskunft Österreich: VAO Heute. Available at: \url{https://www.verkehrsauskunft.at/} {[}Accessed: 8 February 2021{]}
 \end{itemize}
