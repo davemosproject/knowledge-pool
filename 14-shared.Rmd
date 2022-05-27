@@ -2,6 +2,8 @@
 
 ## Car sharing {#car_sharing}
 
+**Updated: 27th May 2022**
+
 ### Synonyms {-}
 *Car-Sharing scheme, CSS*
 
@@ -12,11 +14,11 @@ Nowadays, there are different variants of car sharing available on the market. T
 
 - Station based
 
-In station-based CarSharing, the cars are parked in fixed parking spaces as close to home as possible. Customers pick up the car there and return it after the journey. Only with this variant, the reservations are possible several days or weeks in advance, but the end time of the booking must also usually be planned in advance. This ensures a high degree of predictability in vehicle availability. Station-based CarSharing is also the cheapest CarSharing variant. The largest providers in Germany (by fleet size) are *stadtmobil, cambio, teilAuto* and *book-n-drive*.<br/>
+In station-based CarSharing, the cars are parked in fixed parking spaces as close to home as possible. Customers pick up the car there and return it after the journey. Only with this variant, the reservations are possible several days or weeks in advance, but the end time of the booking must also usually be planned in advance. This ensures a high degree of predictability in vehicle availability. Station-based CarSharing is also the cheapest CarSharing variant. Providers in Austria are *Wien Mobil, ÖBB Rail & Drive, MO.Point* and *sharetoo*.<br/>
 
 - Free-floating
 
-With free-floating CarSharing, the cars are randomly distributed within a defined business area. Users locate and book them via smartphone. The booking is only possible shortly before the start of the journey and until booking, availability and exact location of the vehicle are uncertain. After the journey, the cars can be parked within the business area. All bookings are open-ended. With this variant, reservations in advance are not possible. Both the availability and the location of the vehicle are therefore difficult to predict. Free-floating, however, allows one-way journeys within the business area. Prices are higher than those of station-based CarSharing. The largest providers in Germany are *ShareNow*, *Sixt share* and *We share*.<br/>
+With free-floating CarSharing, the cars are randomly distributed within a defined business area. Users locate and book them via smartphone. The booking is only possible shortly before the start of the journey and until booking, availability and exact location of the vehicle are uncertain. After the journey, the cars can be parked within the business area. All bookings are open-ended. With this variant, reservations in advance are not possible. Both the availability and the location of the vehicle are therefore difficult to predict. Free-floating, however, allows one-way journeys within the business area. Prices are higher than those of station-based CarSharing. Current providers in Austra are [SHARE NOW](https://www.share-now.com/at/https://www.share-now.com/at/de/vienna-ppc1/?gclid=CjwKCAjwyryUBhBSEiwAGN5OCBy9kmgk_nCFKdZ_PFnYXDgOa-7BPnCsJxPbUgz0QZ3rsherqIUGYxoCkQIQAvD_BwE) (the merged company for car2go and DriveNow) and [ELOOP](https://eloop.app/de/stattmenschen/?campaignid=15342397597&adgroupid=138601101028&adid=599250378157&gclid=CjwKCAjw7cGUBhA9EiwArBAvomUfGmLFvY9NslMIyoTm33Nu6LkjxhzFeWmSDjWqtF9nEbFoILutkxoCbCEQAvD_BwE) which is an electric car sharing company (Stadt Wien, 2022). Private suppliers are Caruso (e-carsharing) and [Getaround](https://at.getaround.com) (ex-Drivy) which is the global car sharing leader.<br/>
 
 - Combined sharing
 
@@ -40,15 +42,24 @@ In summary, accrding to Evers (2018) car sharing is profitable, if one: <br/>
 -	does not regularly drive longer distances over 100 kilometres
 -	drives a total of less than 10,000 kilometres a year
 
+A study conducted by Göddeke et al. (2021) analysed data from 80 major cities in Germany to understand the role of carsharing towards a more sustainable transport behavior and found, that increasing carsharing supply and being a carsharing member does not show an increase of the share of walking, cycling or public transport. Furthermore, it is suggested, that a more important predictor towards more sustainable transportation is the number of cars in households (as already mentioned earlier).<br/>
+
+Furthermore, Esfandabadi et al. (2022) analyzed more than 700 peer-reviewed journal articles to render a comprehensive map in the carsharing field. Other than the identified key literature fields in carsharing, the results show main lacks in the literature such as the vague analysis and assessment criteria to evaluate sustainable development goals, circular economy and mission effects of the COVID-19 pandemic on carsharing and its sustainability. Additionally, Golalikhani et al. (2021) proves the same, adding that research directions need to close gaps between descriptive and prescriptive research as well as business practices and academic literature.
+
+
 ### Current state of art in practice {-}
 
 Europe is currently the most important market for car sharing providers. In 2016, 5.8 million people used the 68,000 carsharing vehicles here. Recently, car manufacturers also started to enter the market directly, such as Daimler, BMW and the FCA Group, which are directly involved in car sharing activities, in order to find new channels to market the cars they produce. The market is growing fast and with this increasing demand comes the need for better understanding and control of the system. In fact, car sharing is not just a matter of business or fleet optimisation, but forms a complex system consisting of different actors, including citizens, authorities and municipalities, businesses. The system becomes complex because of the strong links between the actors as well as the impact on the governance of a city when a large car sharing service is introduced, such as the integration with the existing public transport network and the policies that allow different companies to compete in the same urban area (Ferrero et al., 2018).
+
+[WienMobil](https://www.wienerlinien.at/wienmobil/auto) is a platform from Wiener Linien, combining sustainable transportation options in the city of Vienna. New sharing facilities were introduced in early 2022 involving shared vehicles like e-cars and bikes (see also chapter [13.2](#bike_sharing)) provided by the city of Vienna. E-Carsharing via WienMobil currently offers 28 station-based E-Cars (Wiener Linien, 2022). Further information on all carsharing options in Vienna can be found [here](https://www.wien.gv.at/verkehr/kfz/carsharing/).
 
 
 ### Relevant initiatives in Austria {-}
 
 - [VCÖ](https://www.vcoe.at/presse/presseaussendungen/detail/carsharing-haushalte-potential-2018)
 - [ÖBB](https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive)
+- [WienMobil](https://www.wienerlinien.at/wienmobil/auto)
+- [Stadt Wien: Car Sharing](https://www.wien.gv.at/verkehr/kfz/carsharing/)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
@@ -59,7 +70,7 @@ cat('| Impact level| Indicator|Impact direction| Goal description and number|Sou
 |Individual|Cost reduced (for less than 10.000 km p.a. driven)|**+**|Sustainable economic development (*8,11*)|Evers, 2018|
 |Systemic|Reduced traffic and improved air quality|**+**|Health & Wellbeing (*3*)|Martin & Shaheen, 2011|
 |Systemic|Car-free households are no longer disadvantaged|         **+**|Equality (*5,10*)|VCOE - Mobiliteat mit Zukunft, 2018|
-|Systemic|Reduced emissions|          **+**|Environmental sustainability (*7,12,13,15*)|Martin & Shaheen, 2011|
+|Systemic|Reduced emissions|          **~**|Environmental sustainability (*7,12,13,15*)|Goeddeke, Kraus & Gnann, 2021|
 |Systemic|Car sharing fleet grows steadily|    **+** |Innovation & Infrastructure (*9*)|Stadt Wien, n.d.|')
 ```
 
@@ -72,7 +83,12 @@ cat('|TRL| SRL|
 ```
 
 ### Open questions {-}
+
 1. What is the role of policymakers and municipalities in supporting car sharing in addressing challenges associated with long-term strategic decisions such as operation area, parking locations or size and type of the fleet, considering specific characteristics of a given city?
+2. What effect does the COVID-19 pandemic have on carsharing?
+3. How could a holistic analysis of the role of carsharing in the achievement of Sustainable Development Goals look like?
+
+
 
 ### Further links {-}
 
@@ -82,7 +98,10 @@ cat('|TRL| SRL|
 -	Bundesverband CarSharing. (2020). CarSharing in Deutschland 2020.
 -	Bundesverband CarSharing e.V. (2020). Verkehrsentlastung durch CarSharing - Factsheet.
 -	Evers, H. (2018, March 20). Carsharing günstiger als eigenes Auto? Available at: https://www.computerbild.de/artikel/cb-Tipps-Connected-Car-Kostenvergleich-Ab-wann-lohnt-sich-Carsharing-20041131.html [Accessed: 17 January 2021]
+- Esfandabandi Z. S., Diana M., Zanetti M. C. (2022). Carsharing services in sustainable urban transport: An inclusive science map of the field. Cleaner Production, 357 Available at: https://doi.org/10.1016/j.jclepro.2022.131981 [Accessed: 27 May 2022]
 -	Ferrero, F., Perboli, G., Rosano, M., & Vesco, A. (2018). Car-sharing services: An annotated review. Sustainable Cities and Society, 37, 501–518. https://doi.org/https://doi.org/10.1016/j.scs.2017.09.020
+- Golalikhani M, Oliveira. B. B., Carravilla M. A., Oliveira J., Antunes A. P. (2021). Carsharing: A review of academic literature and business practices toward an integrated decision-support framework. Transportation Research Part E, 149. Available at: https://doi.org/10.1016/j.tre.2021.102280 [Accessed: 27 May 2022]
+- Göddeke, D., Krauss K., Gnann T. (2021). What is the role of carsharing toward a more sustainable transport behavior? Analysis of data from 80 major German cities. Sustainable Transportation, 1-14. Available at: https://doi.org/10.1080/15568318.2021.1949078 [Accessed: 27 May 2022]
 -	Hoyer, N. (2013, August 29). Mobilität: Lohnt sich Ihr Auto? Available at: https://www.wiwo.de/technologie/mobilitaet/mobilitaet-lohnt-sich-ihr-auto/8681062-all.html [Accessed: 17 January 2021]
 -	Martin, E. W., & Shaheen, S. A. (2011). Greenhouse Gas Emission Impacts of Carsharing in North America. IEEE Transactions on Intelligent Transportation Systems, 12(4), 1074–1086. https://doi.org/10.1109/TITS.2011.2158539
 -	ÖBB Rail & Drive. (n.d.). ÖBB Rail & Drive - Tarife, Vor- und Nachteile, die erste Fahrt. Available at: https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive [Accessed: 17 January 2021]
