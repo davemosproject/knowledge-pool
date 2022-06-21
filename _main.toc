@@ -734,32 +734,32 @@
 \contentsline {subsection}{Current state of art in practice}{424}{section*.654}%
 \contentsline {subsection}{Relevant initiatives in Austria}{425}{section*.655}%
 \contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{425}{section*.656}%
-\contentsline {subsection}{Technology and societal readiness level}{426}{section*.657}%
+\contentsline {subsection}{Technology and societal readiness level}{427}{section*.657}%
 \contentsline {subsection}{Open questions}{427}{section*.658}%
 \contentsline {subsection}{Further links}{427}{section*.659}%
 \contentsline {subsection}{References}{427}{section*.660}%
 \contentsline {section}{\numberline {14.2}Battery electric}{428}{section.14.2}%
 \contentsline {subsection}{Synonyms}{428}{section*.661}%
-\contentsline {subsection}{Definition}{428}{section*.662}%
-\contentsline {subsection}{Key stakeholders}{430}{section*.663}%
+\contentsline {subsection}{Definition}{429}{section*.662}%
+\contentsline {subsection}{Key stakeholders}{431}{section*.663}%
 \contentsline {subsection}{Current state of art in research}{431}{section*.664}%
-\contentsline {subsection}{Current state of art in practice}{432}{section*.665}%
-\contentsline {subsection}{Relevant initiatives in Austria}{433}{section*.666}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{433}{section*.667}%
-\contentsline {subsection}{Technology and societal readiness level}{434}{section*.668}%
-\contentsline {subsection}{Open questions}{434}{section*.669}%
-\contentsline {subsection}{Further links}{434}{section*.670}%
-\contentsline {subsection}{References}{435}{section*.671}%
-\contentsline {section}{\numberline {14.3}Plugin hybrid vehicles}{436}{section.14.3}%
-\contentsline {subsection}{Synonyms}{436}{section*.672}%
-\contentsline {subsection}{Definition}{436}{section*.673}%
-\contentsline {subsection}{Key stakeholders}{437}{section*.674}%
-\contentsline {subsection}{Current state of art in research}{437}{section*.675}%
-\contentsline {subsection}{Current state of art in practice}{438}{section*.676}%
-\contentsline {subsection}{Relevant initiatives in Austria}{438}{section*.677}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{439}{section*.678}%
-\contentsline {subsection}{Technology and societal readiness level}{439}{section*.679}%
-\contentsline {subsection}{Open questions}{439}{section*.680}%
-\contentsline {subsection}{Further links}{439}{section*.681}%
-\contentsline {subsection}{References}{440}{section*.682}%
-\contentsline {chapter}{\numberline {15}References}{443}{chapter.15}%
+\contentsline {subsection}{Current state of art in practice}{433}{section*.665}%
+\contentsline {subsection}{Relevant initiatives in Austria}{434}{section*.666}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{434}{section*.667}%
+\contentsline {subsection}{Technology and societal readiness level}{435}{section*.668}%
+\contentsline {subsection}{Open questions}{435}{section*.669}%
+\contentsline {subsection}{Further links}{435}{section*.670}%
+\contentsline {subsection}{References}{436}{section*.671}%
+\contentsline {section}{\numberline {14.3}Plugin hybrid vehicles}{437}{section.14.3}%
+\contentsline {subsection}{Synonyms}{437}{section*.672}%
+\contentsline {subsection}{Definition}{438}{section*.673}%
+\contentsline {subsection}{Key stakeholders}{439}{section*.674}%
+\contentsline {subsection}{Current state of art in research}{439}{section*.675}%
+\contentsline {subsection}{Current state of art in practice}{440}{section*.676}%
+\contentsline {subsection}{Relevant initiatives in Austria}{440}{section*.677}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{441}{section*.678}%
+\contentsline {subsection}{Technology and societal readiness level}{441}{section*.679}%
+\contentsline {subsection}{Open questions}{441}{section*.680}%
+\contentsline {subsection}{Further links}{441}{section*.681}%
+\contentsline {subsection}{References}{442}{section*.682}%
+\contentsline {chapter}{\numberline {15}References}{445}{chapter.15}%
