@@ -2,7 +2,7 @@
 
 ## Car sharing {#car_sharing}
 
-**Updated: 27th May 2022**
+**Updated: 11th July 2022**
 
 ### Synonyms {-}
 *Car-Sharing scheme, CSS*
@@ -60,6 +60,8 @@ Europe is currently the most important market for car sharing providers. In 2016
 - [ÖBB](https://www.carsharing-wien.com/anbieter/oebb-rail-and-drive)
 - [WienMobil](https://www.wienerlinien.at/wienmobil/auto)
 - [Stadt Wien: Car Sharing](https://www.wien.gv.at/verkehr/kfz/carsharing/)
+- [GoCar](https://gomore.at/?utm_source=google&utm_medium=cpc&utm_campaign=carsharing-search-cpa)
+- [Mobil-am-land](https://www.mobil-am-land.at/content/Carsharing)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
@@ -300,6 +302,8 @@ cat('|TRL| SRL|
 
 ## Ride hailing and ride sharing {#ride_hailing}
 
+**Updated: 11th July 2022**
+
 ### Synonyms {-}
 
 - Ride hailing: *Ridesourcing, app-based ride services, ride-booking, on-demand ride services, Transportation Network Companies (TNCs), mobility service providers (MSPs)*
@@ -321,7 +325,7 @@ Ride sharing, by contrast, describes the process in which a rider shares a vehic
 ### Current state of art in research {-}
 Even though ride hailing emerged from the sharing economy, it is controversial whether it has ultimately had a positive effect on the environment (Herzog, 2018).<br/>
 
-Jan et al. (2018) argue that ride hailing has a positive impact on economic efficiency. As it both complements and competes with public transport, its impact on congestion near city centres is still unclear. In terms of equity, ride hailing reinforces the problem of the digital gap and raises concerns about discrimination, privacy and security. It is also controversial whether prosumers (producers/consumers) are exploited by sharing economy platforms, whether ride hailing drivers are adequately compensated and how the rights of on-demand workers can be better protected. Even though ride hailing likes to present itself with a green image, the actual environmental impacts have not yet been thoroughly investigated. Further, Jin et al. (2018) pointed out the danger of conceptual confusion in ride hailing research. Based on evidences reported in the literature, they argue, that it is unlikely, that people stop owning cars due to ride hailing. <br/>
+Jan et al. (2018) argue that ride hailing has a positive impact on economic efficiency. As it both complements and competes with public transport, its impact on congestion near city centres is still unclear. In terms of equity, ride hailing reinforces the problem of the digital gap and raises concerns about discrimination, privacy and security. It is also controversial whether prosumers (producers/consumers) are exploited by sharing economy platforms, whether ride hailing drivers are adequately compensated and how the rights of on-demand workers can be better protected. Even though ride hailing likes to present itself with a green image, the actual environmental impacts have not yet been thoroughly investigated. Further, Jin et al. (2018) pointed out the danger of conceptual confusion in ride hailing research. Based on evidences reported in the literature, they argue, that it is unlikely, that people stop owning cars due to ride hailing. A recent study by Cats et al. (2021) suggests that the dichotomy of “competing with or complementing” is false, even if the vast majority of ride hailing trips have a viable public transport alternative, between 20-40% of them have not. Ride hailing patterns do not only depend on availability but also on accessibility, difference in travel times between public transport and ride hailing and must be assessed separately for each case. Yang et al. (2022), in turn, simulated the suspension of ride hailing trips and found a decrease of 50% vehicle emissions related to ride sourcing with a mode shift to public transport (50%), taxi (27%), active mode (11%) and private car trips (7%). <br/>
 
 Regarding ride sharing, Alisoltani et al. (2012) argue, that it can reduce traffic congestion, but only if the trip density is high, which is usually the case in large-scale networks. In smaller cities, with a small- or medium-scale network, the trip density is not high enough. Importantly, trip density is defined as the total number of trips ends (origins and destinations) within 24 h within a given area (Miller & Soberman, 2003).<br/>
 
@@ -353,6 +357,8 @@ The Austrian platforms *GREENDRIVE* and *Carployee* both connect drivers who wor
 -	[greendrive.a](https://greendrive.at/premium/#benefits) 
 -	[carployee.com](https://www.carployee.com/#start-section) 
 -	[ummadum.com](https://ummadum.com/) 
+- [CarpoolWorld](https://www.carpoolworld.com/carpool_AUSTRIA_favorites.html)
+- [Foahstmit.at](http://www.foahstmit.at)
 
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
@@ -380,6 +386,7 @@ cat('|TRL| SRL|
 2. Which impacts of ride-hailing on traffic congestion outweigh the others?
 3. How can the environmental impacts of ride hailing be reliably and holistically analysed?
 4. How can ride-hailing and ride-sharing discourage private car ownership?
+5. Do ride-sharing and ride-hailing compete and/or complement each other?
 
 ### Further links {-}
 -	[ots.at](https://www.ots.at/presseaussendung/OTS_20210113_OTS0026/free-now-will-als-erste-mobilitaetsplattform-in-europa-bis-2030-null-emissionen-erreichen)
@@ -397,6 +404,7 @@ cat('|TRL| SRL|
 -	Alisoltani, N., Leclercq, L., & Zargayouna, M. (2021). Can dynamic ride-sharing reduce traffic congestion?. Transportation research part B: methodological, 145, 212-246.
 -	BlaBlaCar. (2021). Über uns - BlaBlaCar. https://blog.blablacar.de/about-us 
 -	Carployee. (2020). Carployee | Für Unternehmen. https://www.carployee.com/
+- Cats, O., Kucharski, R., Danda, S.R., Yap, M. (2022) Beyond the dichotomy: How ride-hailing competes with and complements public transport. PLOS ONE 17(1): e0262496. https://doi.org/10.1371/journal.pone.0262496
 -	GREENDRIVE MOBILITY GMBH. (2020). Greendrive - Premiumpaket für Firmen - Fahrgemeinschaften und Mitfahrgelegenheiten. https://greendrive.at/premium/
 -	Herzog, W. (2018, October 18). Ecolane Blog: Ride-hailing vs. ride-sharing: The key difference and why it matters. https://www.ecolane.com/blog/ride-hailing-vs.-ride-sharing-the-key-difference-and-why-it-matters
 -	Jin, S. T., Kong, H., Wu, R., & Sui, D. Z. (2018). Ridesourcing, the sharing economy, and the future of cities. Cities, 76, 96-104.
@@ -407,10 +415,13 @@ cat('|TRL| SRL|
 -	Miller, E., & Soberman, R. (2003). Travel Demand.
 -	Tirachini, A. (2019). Ride-hailing, travel behaviour and sustainable mobility: an international review. Transportation, 1-37.
 -	Uber Technologies Inc. (n.d.). Erhalte eine Konzession in Österreich. Available at: https://www.uber.com/at/de/drive/requirements/get-a-license/ [Accessed: 30 March 2021]
--	Uber, & Mothers Against Drunk Driving (MADD). (2015). MORE OPTIONS. SHIFTING MINDSETS. DRIVING BETTER CHOICES. #ThinkandRide.
+-	Uber & Mothers Against Drunk Driving (MADD). (2015). MORE OPTIONS. SHIFTING MINDSETS. DRIVING BETTER CHOICES. #ThinkandRide.
+- Yang, H., Zhai, G., Yang, L., Xie, K. (2022). How does the suspension of ride-sourcing affect the transportation system and environment? Transportation Research Part D: Transport and Environment. 102, 103131. ISSN 1361-9209. https://doi.org/10.1016/j.trd.2021.103131.
 
 
 ## Passenger drones {#passenger_drones}
+
+**Updated: 11th July 2022**
 
 ### Synonyms {-}
 *urban air mobility (UAM), vertical take-off and landing (VTOL), unmanned aerial vehicles (UAVs)*
@@ -448,23 +459,25 @@ cat('| Topics| Percentage|Number of studies|
 ```
 
 And although there are currently no autonomous air taxis, there is an initial research examining the factors of consumer willingness to fly in autonomous air taxis. This study identified four factors that turned out to be significantly positive: Familiarity, Value, Fun Factor, Sense of Happiness and two as significantly negative: Aversion to New Technology and Fear (Winter et al., 2020). <br/><br/>
-When comparing the GHG emissions of conventional cars with VTOL passenger drones, the passenger drone actually performs a little better than the ordinary car from 35 km onwards. The reasons for this break-even point are, on the one hand, the energy-intensive take-off and landing hover mode and, on the other hand, the enormous efficiency of flying from point A to point B. Given the expected significant time savings over driving, passengers may have an incentive to share VTOL trips. Therefore, it seems likely that the average occupancy of VTOLs will be greater than that of conventional passenger cars (Kasliwal et al., 2019).
+When comparing the GHG emissions of conventional cars with VTOL passenger drones, the passenger drone actually performs a little better than the ordinary car from 35 km onwards. The reasons for this break-even point are, on the one hand, the energy-intensive take-off and landing hover mode and, on the other hand, the enormous efficiency of flying from point A to point B. Given the expected significant time savings over driving, passengers may have an incentive to share VTOL trips. Therefore, it seems likely that the average occupancy of VTOLs will be greater than that of conventional passenger cars (Kasliwal et al., 2019).<br/><br/>
+Further researchers (Goyal et al., 2021) analysed the demand and market potential of airport shuttles and air taxi markets and concluded a capture of 0.5% mode share, a replacement of non-discretionary trips greater than 45 minutes but a limitation on the customer willingness to pay. In the US that could mean a daily demand of 4.000 four- to five-seated aircrafts and an annual market valuation of 2.5 billion USD. 
 
 ### Current state of art in practice {-}
 There are quite a few providers working to develop the unmanned aerial taxis. Munich-based start-up *Lilium* successfully launched a one-and-a-half-ton prototype vertically into the air and hovered in place in early May 2019. It sounds like a helicopter, but it doesn't look like one: The Lilium Jet has wings and 36 all-electric jet motors. That makes it quieter and more energy efficient (and makes it look more futuristic) than a helicopter. Lilium expects to be able to start commercial everyday operation not before 2025.<br/><br/>
-But *Lilium* is far from the only manufacturer. *Joby Aviation, Volocopter, AeroMobil, Kittyhawk* and *Zee.Aero* are just a few of the companies hoping to place the most successful model on the market. Already established companies are also taking the concept very seriously. Mobility company *Uber*, aircraft manufacturers *Airbus* and *Boeing*, and car companies such as *Daimler* and *Porsche* are in the race (UNIQA, 2019).
-Some manufacturers such as Boeing (LeBeau, 2016), Airbus (Hawkins, 2018) and Volocopter (Holt, 2018) have already conducted the first flight tests of their prototypes.<br/><br/>
+But *Lilium* is far from the only manufacturer. *Joby Aviation, Volocopter, AeroMobil, Kittyhawk* and *Zee.Aero* are just a few of the companies hoping to place the most successful model on the market. Already established companies are also taking the concept very seriously. Mobility company *Uber*, aircraft manufacturers *Airbus* and *Boeing*, and car companies such as *Daimler* and *Porsche* are in the race (UNIQA, 2019). Some manufacturers such as Boeing (LeBeau, 2016), Airbus (Hawkins, 2018) and Volocopter (Holt, 2018) have already conducted the first flight tests of their prototypes.<br/><br/>
+According to a broadcast German DW (Deutsche Welle) from the end of 2021, aerial taxi developers like Lilium are mainly faced with problems of the electric power from batteries and to ensure a safe travel. Lilium for example could not yet proof their promising facts but had their stock market debut on the technological stock market NASDAQ in New York in September 2021. Investors nevertheless remain reluctant. <br/><br/>
 The European Union proposes that support services such as flight planning, flight permits and clearances, and dynamic airspace information will be available for drone flight from 2022. From 2027, services such as collision avoidance and capacity management in congested areas will follow. From 2035, according to the European Commission's timetable, the full integration of unmanned aerial vehicles into controlled airspace with manned aviation should be completed (Wiener Zeitung, 2019).<br/><br/>
 The air cab will not be shuttling crowds of tourists for the next decade, but thanks to the decreasing noise level of the rotors, which are no longer perceptible in "normal city noise" as Volocopter claims, they will be used more and more often in one metropolis or another with millions of inhabitants (Pramer & Sommavilla, 2020).
 
-The first approved test track in Austria for an unmanned aerial taxi is located in Linz. There is already a functioning prototype in Austria that was developed by *Ehang* in China and built by *FACC* in Innviertel. The aircraft costs around 300,000 euros, weighs 360 kilos, is equipped with 16 electric motors and 16 rotors and is designed to autonomously transport two people. The batteries of the eight-armed drone are sufficient for about 50 kilometres. In its own production line in Ried, 300 units are to be delivered by the end of next year. In order for them to be able to take off in Europe and also for Linz AG, they are working with Austro Control on the "approval regulations", explains FACC board member Robert Machtlinger. 
-In Linz it was once again said that this type of passenger transport is seen as a supplement to bus and train. The air enables the fastest connection from A to B in urban areas. However, before the first test route is set up in the Upper Austrian capital for this autonomous transport, 5G mobile radio must first be installed, which was planned for spring 2020 (DerStandard, 2019).
+The first approved test track in Austria for an unmanned aerial taxi is located in Linz. There is already a functioning prototype in Austria that was developed by *EHang* in China and built by *FACC* in Innviertel. The aircraft costs around 300,000 euros, weighs 360 kilos, is equipped with 16 electric motors and 16 rotors and is designed to autonomously transport two people. The batteries of the eight-armed drone are sufficient for about 50 kilometres. In its own production line in Ried, 300 units are to be delivered by the end of next year. In order for them to be able to take off in Europe and also for Linz AG, they are working with Austro Control on the "approval regulations", explains FACC board member Robert Machtlinger. 
+In Linz it was once again said that this type of passenger transport is seen as a supplement to bus and train. The air enables the fastest connection from A to B in urban areas. However, before the first test route is set up in the Upper Austrian capital for this autonomous transport, 5G mobile radio must first be installed, which was planned for spring 2020 (DerStandard, 2019). According to various newspaper articles (Wiesbauer, 2020; Kneidinger, 2022) in the past years, EHang launched its first test flight at the end of 2020 on the grounds of FACC in St. Martin (upper Austria). Nevertheless further tests remain unclear due to the ongoing certification and permit process of the areal safety of the European Union (EASA). Updates on the EASA regulations of the EU can currently be found [here](https://www.easa.europa.eu/domains/civil-drones) with an ongoing citizens consultation on integrating drones into society (DroneWatch, 2021). Still, the Urban-Air Port opened the world’s first hub for flying taxis and autonomous cargo drones, Air-One (UAP: Urban-Air Port) end of April 2022 in the UK with big plans for the future.
 
 ### Relevant initiatives in Austria {-}
 
 - [derbrutkasten.com](https://www.derbrutkasten.com/autonome-lufttaxis-linz-ag-facc-ehang/) 
 - [derstandard.at-1](https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz) 
 - [derstandard.at-2](https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte) 
+- [dronewatch.eu](https://www.dronewatch.eu)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
@@ -499,10 +512,15 @@ cat('|TRL| SRL|
 
 
 ### References {-}
+- AutoFutures (2022). Worlds first Hub for flying Taxis and Autonomous Cargo Drones, Air-One, opens in the UK. https://www.autofutures.tv/2022/04/25/world-first-hub-for-flying-taxis-and-autonomous-cargo-drones-air-one-opens-in-the-uk/ [Accessed 28th of June 2022]
 -	DerStandard. (2019, May 14). Teststrecke: Erstes unbemanntes Lufttaxi hebt 2020 in Linz ab - Unternehmen - derStandard.at › Wirtschaft. https://www.derstandard.at/story/2000103120464/erste-teststrecke-fuer-e-lufttaxis-2020-in-linz
+- DroneWatch (2021). EU ask citizens to share their thoughts about integrating drones into society. https://www.dronewatch.eu/eu-asks-citizens-to-share-their-thoughts-about-integrating-drones-into-society/ [Accessed: 28th of June 2022]
+-	DW: Deutsche Welle (2021). Münchner Luftfahrt-Startup Lilium geht in New York an die Börse | DW Nachrichten. https://www.youtube.com/watch?v=JYoMUIWy54M [Accessed: 25th of June 2022]
+-	Goyal, R., Reiche, C., Fernando, C., Chohen, A. (2021). Advanced Air Mobility: Demand Analysis and Market Potential of Airport Shuttle and Air Taxi Markets. Sustainability. 13 (13), 7421. https://doi.org/10.3390/su13137421
 -	Holt, K. (2018, October 24). Volocopter will test its autonomous air taxis in Singapore next year | Engadget. https://www.engadget.com/2018-10-24-volocopter-air-taxi-test-singapore-autonomous-drone-helicopter.html
 -	J. Hawkins, A. (2018, February 1). Airbus’ autonomous ‘air taxi’ Vahana completes its first test flight - The Verge. https://www.theverge.com/2018/2/1/16961688/airbus-vahana-evtol-first-test-flight
 -	Kasliwal, A., Furbush, N. J., Gawron, J. H., McBride, J. R., Wallington, T. J., De Kleine, R. D., Kim, H. C., & Keoleian, G. A. (2019). Role of flying cars in sustainable mobility. Nature Communications, 10(1). https://doi.org/10.1038/s41467-019-09426-0
+- Kneidinger, B. (2022). Kronen Zeitung: Taxi-Flug in Linz fehlen noch die Genehmigungen. https://www.krone.at/2614276 [Accessed: 27th of June 2022]
 -	Kellermann, R., Biehle, T., & Fischer, L. (2020). Drones for parcel and passenger transportation: A literature review. Transportation Research Interdisciplinary Perspectives, 4, 100088. https://doi.org/10.1016/j.trip.2019.100088
 -	LeBeau, P. (2016, January 23). Boeing’s first test flight of air taxi a success as it works on Uber Air. https://www.cnbc.com/2019/01/23/boeing-takes-step-in-developing-uber-air--with-successful-test-flight.html
 -	Pramer, P., & Sommavilla, F. (2020, December 11). Flugtaxis: Wann kommt der Tesla der Lüfte? - PodcastEditionZukunft - derStandard.at › EditionZukunft. https://www.derstandard.at/story/2000122402408/flugtaxis-wann-kommt-der-tesla-der-luefte
@@ -510,3 +528,4 @@ cat('|TRL| SRL|
 -	UNIQA. (2019, October 24). Lufttaxis: Die Überflieger im Verkehr | UNIQA Österreich | UNIQA Österreich. https://www.uniqa.at/versicherung/mobilitaet/lufttaxis.html
 -	Wiener Zeitung. (2019, September 20). Regelwerk für autonome Lufttaxis noch offen - Wiener Zeitung Online. https://www.wienerzeitung.at/nachrichten/wirtschaft/oesterreich/2030182-Fliegen-statt-fahren.html
 -	Winter, S. R., Rice, S., & Lamb, T. L. (2020). A prediction model of Consumer’s willingness to fly in autonomous air taxis. Journal of Air Transport Management, 89(August), 101926. https://doi.org/10.1016/j.jairtraman.2020.101926
+- Wiesbauer, B (2020). MeinBezirk.at: Testflüge mit Flugtaxis gestartet. https://www.meinbezirk.at/ried/c-motor/testfluege-mit-flugtaxi-gestartet_a4399929 [Accessed: 27th of June 2022]
