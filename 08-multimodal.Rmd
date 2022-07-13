@@ -2,6 +2,8 @@
 
 ## First-last mile solutions {#flms}
 
+**Updated: 13th July 2022**
+
 ### Synonyms
 *first/last/only mile (F/L/O mile), first-last mile (FLM)*
 
@@ -10,7 +12,7 @@ The ever-increasing demand for freight and passenger transport in recent years h
 
 In the transport literature, there are different definitions for such a construct. Arvidsson et al. (2016) defines the FLM in the context of freight transport as the first-last part of the transport chain where goods are transported from a professional party to the customer's location, be it a house, a retail shop, a drop-off point or a factory. In the context of passenger transport, it is defined as the first-last stage of a journey by public transport and often the journey from home to a transport hub or vice versa.<br/>
 
-In the context of passenger transport, air quality and traffic congestion have been the catalysts for new thinking in urban design. Terms like "liveable", " pedestrianisation" and "green streets" represent the transformation that many European cities are undergoing. Some of the measures being taken are investments in cycling infrastructure, more pedestrian zones, new green spaces and street furniture, and restrictions on the use of private vehicles. Many cities are formalising their plans for more sustainable urban transport systems - as shown by the number of cities across Europe implementing a Sustainable Urban Mobility Plan (SUMP). The *City Database | Eltis* (2021) now contains details of over 1,000 cities involved in ongoing or completed urban mobility projects and initiatives. Micromobility has emerged as a possible solution to some of the problems cities face. It is a mode of transport advocated by the younger generation, who have different travel habits than older generations (Twisse, 2020). <br/>
+In the context of passenger transport, air quality and traffic congestion have been the catalysts for new thinking in urban design. Terms like "liveable", " pedestrianisation" and "green streets" represent the transformation that many European cities are undergoing. Some of the measures being taken are investments in cycling infrastructure, more pedestrian zones, new green spaces and street furniture, and restrictions on the use of private vehicles. Many cities are formalising their plans for more sustainable urban transport systems - as shown by the number of cities across Europe implementing a Sustainable Urban Mobility Plan (SUMP). The *City Database | [Eltis](https://www.eltis.org/mobility-plans/city-database)* (2021) now contains details of over 1,000 cities involved in ongoing or completed urban mobility projects and initiatives. Micromobility has emerged as a possible solution to some of the problems cities face. It is a mode of transport advocated by the younger generation, who have different travel habits than older generations (Twisse, 2020). <br/>
 
 These new FLM solutions also aim to help improve accessibility to public transport. As public transport is an affordable and sustainable mobility option, improving it through a wide range of transport-based options helps to promote a more equitable society. People who lack mobility to reach places such as jobs, education and childcare are at a transport disadvantage. Access to public transport at both ends of a transit trip has been identified as one of the biggest barriers to improving accessibility to public transport. Minimising the deficit at the first and last mile can make communities more inclusive by increasing the supply of accessible options (Zuo et al., 2020a). The speed advantage of cycling over walking can mitigate the first and last mile problem and provides better point-to-point transit mobility (Zuo et al., 2018). However, heavy car traffic and consequently high congestion make roads less attractive and unsuitable for cyclists (Winters et al., 2011) and lead to fragmented cycling routes (Furth et al., 2016). Meanwhile, the poorly connected cycling network makes cycling less accessible and hinders the accessibility of cycling as a mode of transport (Zuo et al., 2020a).<br/>
 
@@ -59,7 +61,7 @@ In terms of freight transport, [intermodal freight](#intermodal_freight) transpo
 - **Responsible**: Transport service providers and public transport operators, MaaS operators and integrators, city councils, local, regional and national authorities 
 
 ### Current state of art in research {-}
-EEA (2019) concludes that better F/L/O-mile connectivity in cities can significantly improve environmental and health outcomes. However, realising this potential requires a deep understanding of the different options, their strengths and weaknesses and their impacts on the mobility system as a whole. This is not always easy, as the environmental and health impacts of F/L/O mileage options depend on how they are used and what they replace. This highlights the fact that the increasing availability of e-scooters and digital ride-sharing platforms is changing mobility behaviour in cities, but does not always favour the more climate-friendly choice. A simple example would be a short trip with an e-scooter. If this trip replaces a motorbike or car ride, the environmental and health effects are positive. If it replaces a trip on foot or by bicycle, the situation worsens. More transport options can also lead to people making additional or longer trips, which in turn could worsen the situation. Furthermore, public transport will remain an essential part of any sustainable urban transport system. Good F/L/O-mile options can make public transport more attractive and increase its use, but not replace it completely  (EEA, 2019). Laa & Leth (2020) also notes that e-scooter trips mostly replace trips that would otherwise have been made by a more sustainable mode of transport. <br/>
+EEA (2019) concludes that better F/L/O-mile connectivity in cities can significantly improve environmental and health outcomes. Similar outcome was found in a literature review by Abduljabbar et al. (2021) for micro-mobility solutions, which showed that micro-mobility solutions help to address a number of transportations challenges like alleviating congestion, addressing inequality and reducing emission. However, realising this potential requires a deep understanding of the different options, their strengths and weaknesses and their impacts on the mobility system as a whole. This is not always easy, as the environmental and health impacts of F/L/O mileage options depend on how they are used and what they replace. This highlights the fact that the increasing availability of e-scooters and digital ride-sharing platforms is changing mobility behaviour in cities, but does not always favour the more climate-friendly choice. A simple example would be a short trip with an e-scooter. If this trip replaces a motorbike or car ride, the environmental and health effects are positive. If it replaces a trip on foot or by bicycle, the situation worsens. More transport options can also lead to people making additional or longer trips, which in turn could worsen the situation. Furthermore, public transport will remain an essential part of any sustainable urban transport system. Good F/L/O-mile options can make public transport more attractive and increase its use, but not replace it completely  (EEA, 2019). Laa & Leth (2020) also notes that e-scooter trips mostly replace trips that would otherwise have been made by a more sustainable mode of transport. <br/>
 
 In terms of Environmental sustainability Severengiz et al. (2020) compares the g CO~2~ eq/passenger km (pkm) of different modes of transport (Figure 7.3). Whereby Moreau et al. (2020) compared shared and private e-scooter and calculated 131g CO~2~ eq/pkm for the shared vehicle and 67g CO~2~ eq/pkm for the private vehicle.
 
@@ -82,25 +84,27 @@ EEA (2019) summarises the lessons learned for systemic change through the use of
 
 Bruzzone et al. (2021) and Nocera et al. (2020) explore the combination of passenger and freight flows with a focus on the last mile. Such a model is an integrated system in which passengers and goods share vehicles, infrastructure, urban space or more than one of these simultaneously. For example, Fatnassi et al. (2015) show the potential sustainability gains of sharing goods and passengers in a network with a focus on improving service time and energy waste.<br/>
 
-In terms of safety [OECD/ITF](https://www.itf-oecd.org/safe-micromobility) 2020 find out that a trip by car or motorbike in a dense urban area is much more likely to cause fatalities of road users than a trip by a type A micro vehicle. A modal shift from motor vehicles to Type A micro-vehicles can, therefore, make a city safer. A shift from pedestrians to Type A micro-vehicles would have the opposite effect. The safety of e-scooters is likely to improve over the next few years as the users learn to navigate urban traffic and car drivers and pedestrians get used to the new forms of mobility. Safety will also improve as governments introduce safe cycling infrastructure and targeted safety regulations for micro-vehicles and shared mobility services. There are significant regulatory challenges due to the rapid pace of innovation in micro-vehicle development. They suggest the following measures to improve the safety of micromobility:
+In terms of safety [OECD/ITF](https://www.itf-oecd.org/safe-micromobility) 2020 find out that a trip by car or motorbike in a dense urban area is much more likely to cause fatalities of road users than a trip by a type A micro vehicle. A modal shift from motor vehicles to Type A micro-vehicles can, therefore, make a city safer. A shift from pedestrians to Type A micro-vehicles would have the opposite effect. The safety of e-scooters is likely to improve over the next few years as the users learn to navigate urban traffic and car drivers and pedestrians get used to the new forms of mobility. Safety will also improve as governments introduce safe cycling infrastructure and targeted safety regulations for micro-vehicles and shared mobility services. There are significant regulatory challenges due to the rapid pace of innovation in micro-vehicle development. They suggest the following measures to improve the safety of micro-mobility:
 
--	Provide protected space for micromobility and keep pedestrians safe (Where pedestrians do not feel safe on pavements, the number of people walking will decrease).
--	Low speeds of e-scooters and e-bikes should be regulated as bicycles, higher speeds of micromobiles as mopeds
--	Collect data on micro-vehicle trips and accidents (in order to proactively manage the safety performance of road networks)
--	Incorporate micromobility into road user education
+-	Provide protected space for micro-mobility and keep pedestrians safe (Where pedestrians do not feel safe on pavements, the number of people walking will decrease).
+-	Low speeds of e-scooters and e-bikes should be regulated as bicycles, higher speeds of micro-mobiles as mopeds
+-	Collect data on micro-vehicle trips and accidents (in order to pro-actively manage the safety performance of road networks)
+-	Incorporate micro-mobility into road user education
 -	Combat drunk driving and speeding for all types of vehicles
--	Remove incentives for micromobile drivers to speed (Minute-by-minute rental can be an incentive to speed or ignore traffic rules. Alternatives include a fixed driving fee, a distance-based fee or a membership fee).
+-	Remove incentives for micro-mobile drivers to speed (Minute-by-minute rental can be an incentive to speed or ignore traffic rules. Alternatives include a fixed driving fee, a distance-based fee or a membership fee).
 -	Improve micro-vehicle design (Micro-vehicle manufacturers should try to improve stability and road grip. Solutions could be found in pneumatic tyres, larger wheels and frame geometry, but also in areas that still need to be explored).
--	Reduce general risks associated with micromobility sharing (minimise vehicle kilometres driven by escort vehicles for moving or charging micromobility devices, use removable or higher capacity batteries and plug-in docks, allocate space for on-street parking of micro-vehicles).
+-	Reduce general risks associated with micro-mobility sharing (minimise vehicle kilometres driven by escort vehicles for moving or charging micro-mobility devices, use removable or higher capacity batteries and plug-in docks, allocate space for on-street parking of micro-vehicles).<br/>
+
+Reck et al. (2022) found that shared e-scooters and e-bikes emit more CO~2~ than the transport modes they replace. In contrast, private/personal e-scooters and e-bikes emit less than the transport modes they replace. This finding might be important for planners to test the effectiveness of policy interventions through transport simulations when it comes to micro-mobility and it’s variety of vehicle types.
 
 ### Current state of art in practice {-}
 
-A new coalition, Micromobility for Europe (MMfE), has come together in Europe in 2021. Eight e-scooter operators (Bird, Bolt, Dott, FreeNow, Lime, TIER, Voi and Wind) want to contribute to the development of a coherent policy framework in Europe through this coalition (Intelligent Transport, 2021).<br/>
+A new coalition, Micro-mobility for Europe (MMfE), has come together in Europe in 2021. Eight e-scooter operators (Bird, Bolt, Dott, FreeNow, Lime, TIER, Voi and Wind) want to contribute to the development of a coherent policy framework in Europe through this coalition (Intelligent Transport, 2021).<br/>
 
-Research and Markets (2021) names bike sharing, kick scooter sharing and scooter sharing as the dominant micromobility sharing modes. By 2020, the global fleet is estimated to be around 20.5 million vehicles. Globally, bike sharing is currently estimated to account for almost 98% of the fleet size of the micromobility market. The most important factor cited is the advancement of technologies. Innovations mentioned are infrastructure solutions (e.g. smart docking stations, solar-powered charging stations and mobility hubs), hardware solutions (e.g. smart locks and sensors) and high-end software solutions (e.g. mapping and navigation, fleet security, real-time fleet data and analytics, and smart fleet management), driven by AI engines and IoT sensors. It also mentions that micro-mobility business models are evolving. For example, there are already public-private partnerships, private bike-sharing schemes and non-profit programmes. It is expected that micromobility systems will continue to be embedded in municipal transport and become an integral part of the emerging Mobility-as-a-Service (MaaS) ecosystem.<br/> 
+Research and Markets (2021) names bike sharing, kick scooter sharing and scooter sharing as the dominant micro-mobility sharing modes. By 2020, the global fleet was around 20.5 million vehicles and the market value was at $44.12 billion while it is projected to reach $214.57 by 2030 (Yadav et al, 2022). Globally, bike sharing is currently estimated to account for almost 98% of the fleet size of the micro-mobility market. The most important factor cited is the advancement of technologies. Innovations mentioned are infrastructure solutions (e.g. smart docking stations, solar-powered charging stations and mobility hubs), hardware solutions (e.g. smart locks and sensors) and high-end software solutions (e.g. mapping and navigation, fleet security, real-time fleet data and analytics, and smart fleet management), driven by AI engines and IoT sensors. Micro-mobility business models such as public-private partnerships, private bike-sharing schemes and non-profit programmes are evolving and micro-mobility systems continue to be embedded in municipal transport and become an integral part of the emerging Mobility-as-a-Service (MaaS) ecosystem.<br/> 
 
-In 2018, the first full year after the launch of e-scooter sharing, Americans have already taken 38.5 million trips on shared e-scooters (compared to station-based bike sharing with 36.5 million trips, which has been on the market for almost ten years). However, the existing demand for other micro-mobility has not decreased. Which indicates that it makes sense to support different models/vehicles. Considering the high demand and rapid adoption of micromobility options, the expected global market potential is over $500 billion by 2030 (Eliasen, 2021). In comparison, the micromobility market in Europe is estimated to be worth over 100 billion euros in 2030 (Twisse, 2020).
-Most new micromobility platform startups (mainly e-scooters) were initially unprofitable because the operational costs of running e-scooters (charging, repair/maintenance, insurance and payment fees) were so high that the payback period for the initial scooter purchase was shorter than the lifetime of the scooter, resulting in a negative return on investment per scooter. According to Travis VanderZanden, CEO of Bird, the profitability of the units has improved significantly in recent years due to improvements in the durability of the scooters and price increases for customers (Eliasen, 2021).<br/>
+In 2018, the first full year after the launch of e-scooter sharing, Americans have already taken 38.5 million trips on shared e-scooters (compared to station-based bike sharing with 36.5 million trips, which has been on the market for almost ten years). Electrically powered micro-mobility is projected as the most lucrative in the propulsion type segment, while bicycles are the most profitable when it comes to vehicle types. However, existing demand for other micro-mobility are not predicted to decrease (Yadav et al., 2022). Which indicates that it makes sense to support different models/vehicles. Considering the high demand and rapid adoption of micro-mobility options, the expected global market potential is over $500 billion by 2030 (Eliasen, 2021). In comparison, the micro-mobility market in Europe is estimated to be worth over 100 billion euros in 2030 (Twisse, 2020).
+Most new micro-mobility platform start-ups (mainly e-scooters) were initially unprofitable because the operational costs of running e-scooters (charging, repair/maintenance, insurance and payment fees) were so high that the payback period for the initial scooter purchase was shorter than the lifetime of the scooter, resulting in a negative return on investment per scooter. According to Travis VanderZanden, CEO of Bird, the profitability of the units has improved significantly in recent years due to improvements in the durability of the scooters and price increases for customers (Eliasen, 2021). Reck et al. (2021) looked at the use of shared micro-mobility in Zurich and found that the adoption rate of e-scooters is the highest (28%), compared to docked (e-) bikes (16%) and dockless (e-) bikes (9%), although e-scooter ownership is uncommon (3%) compared to e-bike ownership (14%). Additionally they found, that micro-mobility users tend to be young, well-educated, affluent males and shared e-scooter users are the most representative of the larger population.<br/>
 
 Haas (2018) identifies four challenges that need to be addressed to make FLM attractive:<br/>
 
@@ -117,6 +121,7 @@ To enable the perfect combination of the different offers, an app is needed that
 The numerous additional services could not only complement but replace bus and rail. Demand could increase significantly if the advantages of the gained efficiency unfold - from higher availability to cheaper prices. Therefore, public transport must be made faster so that it offers a travel time advantage. What is needed, Friedrich says, are express buses and express trains that are given their own routes and do not stop as often as before. Many cities would need a much denser frequency or additional express trains. <br/>
 
 ### Relevant initiatives in Austria {-}
+
 
 **Passenger FLM**
 
@@ -204,6 +209,8 @@ The numerous additional services could not only complement but replace bus and r
     - [Logistik2030.at](https://www.logistik2030.at/?page_id=63)
     - [Thinkportvienna.at](https://www.thinkportvienna.at/ueber-uns/projekte/)
     - [Hafen-wien.com](https://www.hafen-wien.com/de/home)
+    
+See also [shared mobility section](#shared).
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
@@ -233,7 +240,8 @@ cat('|TRL| SRL|
 
 ### References {-}
 
--	Arvidsson, N., Givoni, M., & Woxenius, J. (2016). Exploring last mile synergies in passenger and freight transport. Built Environment, 42(4), 523–538. https://doi.org/10.2148/benv.42.4.523
+-	Abduljabbar, R. L., Liyanage, S., Dia, H. (2021). The role of mirco-mobility in shaping sustainable cities: A systematic literature review. Transportation Research Part D. 92, 102734. https://doi.org/10.1016/j.trd.2021.102734
+- Arvidsson, N., Givoni, M., & Woxenius, J. (2016). Exploring last mile synergies in passenger and freight transport. Built Environment, 42(4), 523–538. https://doi.org/10.2148/benv.42.4.523
 -	Bruzzone, F., Cavallaro, F., & Nocera, S. (2021). The integration of passenger and freight transport for first-last mile operations. Transport Policy, 100, 31–48. https://doi.org/10.1016/j.tranpol.2020.10.009
 -	Cervero, R. (2005). Accessible Cities and Regions: A Framework for Sustainable Transport and Urbanism in the 21st Century. https://doi.org/10.11436/mssj.15.250
 -	City database | Eltis. (2021, July 19). https://www.eltis.org/mobility-plans/city-database
@@ -254,16 +262,21 @@ cat('|TRL| SRL|
 -	OECD/ITF. (2020). Safe Micromobility. 98.
 -	Oeschger, G., Carroll, P., & Caulfield, B. (2020). Micromobility and public transport integration: The current state of knowledge. Transportation Research Part D: Transport and Environment, 89, 102628. https://doi.org/10.1016/j.trd.2020.102628
 -	Patier, D., David, B., Chalon, R., & Deslandres, V. (2014). A New Concept for Urban Logistics Delivery Area Booking. Procedia - Social and Behavioral Sciences, 125, 99–110. https://doi.org/10.1016/j.sbspro.2014.01.1459
+-	Reck, D. J., Axhausen, K.W. (2021). Who uses shared micro-mobility services? Empirical evidence from Zurich, Switzerland. Transportation Research Part D: Transportation and Environment. 94, 102803. https://doi.org/10.1016/j.trd.2021.102803
+-	Reck, D. J., Martin, H., Ayhausen, K. W. (2022). Mode choice, substitution patterns and environmental impacts of shared and personal micro-mobility. Transportation Research Part D. 102, 103134. 
 -	Research and Markets. (2021, June 15). Global Micromobility (Bikes, Scooters, Kick-scooters) Markets Report 2021-2025 - Future Growth Potential Enhanced by Opportunities Due to Government Push, Regulatory Reforms and Advancement in Technologies. https://www.prnewswire.com/news-releases/global-micromobility-bikes-scooters-kick-scooters-markets-report-2021-2025---future-growth-potential-enhanced-by-opportunities-due-to-government-push-regulatory-reforms-and-advancement-in-technologies-301312406.html
 -	Severengiz, S., Finke, S., Schelte, N., & Wendt, N. (2020). Life Cycle Assessment on the Mobility Service E-Scooter Sharing. 2020 IEEE European Technology and Engineering Management Summit, E-TEMS 2020, September. https://doi.org/10.1109/E-TEMS46250.2020.9111817
 -	Shin, K., Washington, S., & Choi, K. (2007). Effects of Transportation Accessibility on Residential Property Values: Application of Spatial Hedonic Price Model in Seoul, South Korea, Metropolitan Area. Transportation Research Record, 1994(1), 66–73. https://doi.org/10.3141/1994-09
 -	Twisse, F. (2020, August 12). The rise of micromobility | Eltis. https://www.eltis.org/resources/case-studies/rise-micromobility
 -	UNECE. (2017). ECE R78 - Consolidated Resolution on the Construction of Vehicles. United Nations Economic and Social Council, July. Available at: https://unece.org/resolutions (Accessed: 22/07/2021)
 -	Winters, M., Davidson, G., Kao, D., & Teschke, K. (2011). Motivators and deterrents of bicycling: Comparing influences on decisions to ride. Transportation, 38(1), 153–168. https://doi.org/10.1007/s11116-010-9284-y
+- Yadav, P., Mutreja, S. (2022). Micromobility Market by Propulsion Type, Vehicle Type, Sharing Type and Age Group: Global Opportunity Analysis and Industry Forecast, 2021-2030. Available at: https://www.alliedmarketresearch.com/micro-mobility-market-A11372 [Accessed: 09th of July 2022]
 -	Zuo, T., Wei, H., Chen, N., & Zhang, C. (2020a). First-and-last mile solution via bicycling to improving transit accessibility and advancing transportation equity. Cities, 99, 102614. https://doi.org/10.1016/j.cities.2020.102614
 -	Zuo, T., Wei, H., & Rohne, A. (2018). Determining transit service coverage by non-motorized accessibility to transit: Case study of applying GPS data in Cincinnati metropolitan area. Journal of Transport Geography, 67, 1–11. https://doi.org/10.1016/j.jtrangeo.2018.01.002
 
 ## Transit fares {#dist_time_fares}
+
+**Updated: 13th July 2022**
 
 ### Definition {-}
 Fares are fundamental element of transit operations, they have an important impact on ridership dynamics and the financial vitality of transit agencies (El-Geneidy et al., 2016; Zhao & Zhang, 2019). The way fares are set and subsequently adjusted is inherently complex. On the one hand, there is an attempt to ensure equity for the population and, on the other hand, to generate sufficient revenue for the transit agency (Brown, 2018; Yoh et al., 2016). In current transportation research, fares and especially fare structures (such as zone-based or distance-based fares) are argued to have negative effects on equity, although there is also evidence that it depends on where one lives and how this affects the degree of accessibility (Martens, 2012). <br/>
@@ -306,7 +319,9 @@ Rubensson et al. (2020) find that in terms of horizontal equity (between public 
 
 Brown (2018) concludes in a study of the effects of pricing on the equity in mass transit in Los Angeles that any type of fare variation improves equity compared to flat fares when the three criteria of equity (benefits received, ability to pay, and cost) are considered. In particular, a fare structure that includes both a per-mile fare and discounts for off-peak trips produces the most equitable results, as low-income passengers travel significantly shorter distances, ride more local buses, and make a smaller share of trips during peak hours. This also better reflects the marginal cost of providing the service. A slightly lower per-mile fare for low-income riders usually does not truly reflect the relative ability of those riders to pay if the fares are not cheap enough (e.g., LA Metro Rider Relief coupons to reduce the cost to riders by 10 percent (Los Angeles County Metropolitan Transportation Authority, 2021)). For example, if low-income riders are to be encouraged, households earning 50 percent of the area-wide median income should receive a 50 percent discount on the per-mile fare. This option is available in San Francisco right now (San Francisco Municipal Transportation Agency, 2021). Brown (2018) concludes that income-based discounts on flat fares would improve equity (as measured by the ability-to-pay criterion), but would likely not always reflect equity as measured by mileage or time-based cost variation. Instead, a distance-based and discounted off-peak fare structure is the best solution for all three equity criteria. Smart card technology has made the introduction and enforcement of variable fares much easier than in the past, and new transportation and financial innovations have made passengers more comfortable with variable fares on mass transit. <br/>
 
-Wang et al. (2021) propose new fare equity evaluation measures using [smart card](#contactless_cards) data. These systems generate large volumes of transaction records from individual passenger trips and contain the information needed to map, measure, and monitor fare equity. In their study they conclude that adopting a more coarsely zoned structure, reducing variation in fare levels, and changing fare incentives will increase ridership, improve revenue, and offset fare disparities and improve fare equity across ridership types and urban area.
+Wang et al. (2021) propose new fare equity evaluation measures using [smart card](#contactless_cards) data. These systems generate large volumes of transaction records from individual passenger trips and contain the information needed to map, measure, and monitor fare equity. In their study they conclude that adopting a more coarsely zoned structure, reducing variation in fare levels, and changing fare incentives will increase ridership, improve revenue, and offset fare disparities and improve fare equity across ridership types and urban area.<br/>
+
+In 2022, free public transport is still researched in various aspects. The increase in overall public transport travel is one of the most appealing factors nowadays and is seen in all papers. Highest rates of growth is mostly observed with young and elderly people, while elderly people respond more strongly to discount measures than students. Still, existing literature states, that free-fare discounts are expensive policies with quite low efficiency (Tomes et al., 2022; Bull et al., 2021). Other looked at fare systems involving e-ticketing/smart ticketing to improve customer management, planning and convenience (Hojski et al. 2022) and is also discussed more in the next chapter ([MaaS](#maas)).
 
 ### Current state of art in practice {-}
 According to Brown (2018) flat fares are the most common around the world and prevalent in the U.S., but these do not necessarily lead to equitable outcomes for passengers. Although equity is an important goal for most transit agencies, fare discussions are often influenced by budgetary concerns, rising operating costs, and aversion to public backlash. This creates a paradox between desired goals and current practices. <br/>
@@ -326,9 +341,11 @@ However, some people are sceptical about this idea. One of them is Kay Axhausen 
 Other criticisms include the rebound effect, which could lead to people traveling excessively by bus or tram, ultimately increasing traffic, emissions and urban sprawl, and fears that the quality of public transportation could deteriorate (more pollution from overcrowded buses and streetcars). Another point of criticism is that studies conclude that only a few people who previously travelled by car subsequently switched to free public transport. Most of the additional public transport users were mainly pedestrians, cyclists, and people who generally travelled less before, according to another study. The same is true in Tallinn where, although public transport has increased from 55 to 63 percent, the car share of traffic has only been reduced from 31 to 28 percent, while walking has fallen from 12 to 7 percent. According to the study, free public transportation would hardly change the mobility behaviour of car and motorcycle drivers (Pallinger, 2021). Another study in France concludes that while the measure would increase ridership by 6 to 10 percent, it would cost between €2.2 billion and €3.3 billion, the quality of service of the network would be compromised, car use would decrease by only 2 percent, and the impact on social equity would be limited because more than one million people in the region studied already benefit from free or reduced fares (Mabill & Dugue, 2018). A greater change, according to some experts, could be brought about by measures such as higher parking fees or fuel prices. Instead of a general ticket exemption, poorer population groups could also be helped directly, for example by cheaper tickets for low income households. This would leave the government or the public transport company with most of the revenue from ticket sales (Pallinger, 2021). However, proponents of free public transport in France believe that the costs are overestimated and point to a tax (a so-called mobility tax) that is levied on all companies in France. This subsidizes collective transport and results in ticket sales accounting for only about 10-15% of revenue in most cities. In the case of Dunkirk, this tax covered the cost of eliminating ticket prices, which represented 10% of revenue (Yeung, 2021). <br/>
 
 ### Relevant initiatives in Austria {-}
-The government in Austria is committed to the implementation of the so-called Climate ticket, which should make ticket prices cheaper in the future. 
 
-- [BMK.gv.at](https://www.bmk.gv.at/themen/mobilitaet/1-2-3-ticket.html)
+Since 26th October 2021 in Austria “KlimaTicket” (climate ticket) is available for a standard price of €1.095 per year (€3 per day) giving access to all public transports in Austria.
+
+- [BMK.gv.at](https://www.klimaticket.at/en/)
+- [Annual Pass Vienna](https://www.wienerlinien.at/web/wl-en/annual-pass)
 
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
@@ -363,10 +380,12 @@ cat('|TRL| SRL|
 -	Wiener Linien.at (2021). Ticket guide. Available at: https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66533/channelId/-47643 [Accessed: 1st June 2021]
 -	ADAC. (2019, June 19). ÖPNV-Preisvergleich 2019: Wo Tickets teuer und wo sie günstig sind | ADAC. https://www.adac.de/reise-freizeit/ratgeber/tests/oepnv-preise-vergleich/
 -	Brown, A. E. (2018). Fair fares? How flat and variable fares affect transit equity in Los Angeles. Case Studies on Transport Policy, 6(4), 765–773. https://doi.org/10.1016/J.CSTP.2018.09.011
+- Bull, O., Munoz, J. C., Silva, H. E. (2021). Impact of fare-free public transport on travel behavior: Evidence from a randomized controlled trial. Regional Science and Urban Economics. 86, 103616. https://doi.org/10.1016/j.regsciurbeco.2020.103616
 -	Cats, O., Susilo, Y. O., & Reimal, T. (2017). The prospects of fare-free public transport: evidence from Tallinn. Transportation, 44(5), 1083–1104. https://doi.org/10.1007/s11116-016-9695-5
 -	Chalabianlou, R., Lawrence, A., & Baxter, B. (2015). A review and assessment of fare capping as a passenger incentive mechanism for Australia and New Zealand. ATRF 2015 - Australasian Transport Research Forum 2015, Proceedings, October, 1–15.
 -	El-Geneidy, A., Levinson, D., Diab, E., Boisjoly, G., Verbich, D., & Loong, C. (2016). The cost of equity: Assessing transit accessibility and social disparity using total travel cost. Transportation Research Part A: Policy and Practice, 91, 302–316. https://doi.org/10.1016/j.tra.2016.07.003
 -	Guzman, L. A., de la Hoz, D., & Monzón, A. (2014). Optimal and Long-Term Dynamic Transport Policy Design: Seeking Maximum Social Welfare through a Pricing Scheme. International Journal of Sustainable Transportation, 8(4), 297–316. https://doi.org/10.1080/15568318.2012.696772
+- Hojski, D., Hazemali, D., Lep, M. (2022). The Analysis of the Effects of a Fare Free Public Transport Travel Demand Based on E-Ticketing. Sustainability. 14 (10), 5878. https://doi.org/10.3390/su14105878
 -	Los Angeles County Metropolitan Transportation Authority. (2021). LA Metro Rider Relief. https://www.metro.net/projects/rider_relief/
 -	Mabill, S., & Dugue, H. (2018). Rapport du Comité sur la faisabilité de la gratuité des transports en commun en Île-de-France, leur financement et la politique de tarification. 2018–2019. https://www.iledefrance-mobilites.fr/wp-content/uploads/2018/10/Rapport-Comité-sur-la-faisabilité-de-la-gratuité-des-transports-en-commun-en-Île-de-France-leur-financement-et-la-politique-de-tarification.pdf
 -	Martens, K. (2012). Justice in transport as justice in accessibility: Applying Walzer’s “Spheres of Justice” to the transport sector. Transportation, 39(6), 1035–1053. https://doi.org/10.1007/s11116-012-9388-7
@@ -376,6 +395,7 @@ cat('|TRL| SRL|
 -	San Francisco Municipal Transportation Agency. (2021, January). Lifeline Pass | SFMTA. https://www.sfmta.com/fares/lifeline-pass
 -	statista.at. (2017, April). ÖPNV - Preise für Standard-Einzeltickets weltweit 2017 | Statista. https://de.statista.com/statistik/daten/studie/168444/umfrage/preise-fuer-standard-einzeltickets-des-oepnv-in-ausgewaehlten-staedten/
 -	Streeting, M., & Charles, P. (2006). Developments in transit fare policy reform. 29th Australasian Transport Research Forum, ATRF 06, 1–13.
+- Tomes, Z., Fitzova, H., Paril, V., Rederer, V., Kordova, Z., Kasa, M. (2022). Discounts and ree fares in long-dinstance public transport in central Europe. Case Studies on Transport Policy. 10, 507-517. https://doi.org/10.1016/j.cstp.2022.01.011
 -	Wang, S., Liu, Y., & Corcoran, J. (2021). Equity of public transport costs before and after a fare policy reform: An empirical evaluation using smartcard data. Transportation Research Part A: Policy and Practice, 144, 104–118. https://doi.org/10.1016/J.TRA.2020.12.010
 -	Yeung, P. (2021, May 24). How France is testing free public transport - BBC Worklife. https://www.bbc.com/worklife/article/20210519-how-france-is-testing-free-public-transport
 -	Yoh, A. C., Taylor, B. D., & Gahbauer, J. (2016). Does Transit Mean Business? Reconciling Economic, Organizational, and Political Perspectives on Variable Transit Fares. Public Works Management and Policy, 21(2), 157–172. https://doi.org/10.1177/1087724X15616816
@@ -384,6 +404,8 @@ cat('|TRL| SRL|
 
 
 ## Mobility as a service (Maas) {#maas}
+
+**Updated: 13th July 2022**
 
 ### Definition {-}
 In line with the principle of "*using instead of owning*", one goal of MaaS is to make mobility available as a service anytime and anywhere with a click on one or more online platforms or apps. These digital MaaS platforms or apps should link information, booking and payment of mobility offers from different service providers and thus enable the offer of integrated mobility packages. Users should have the freedom to choose between different physical forms of mobility (Neumann & Rauch, 2021):
@@ -412,12 +434,26 @@ The research and development project *MaaS4EU*, which is funded by the Horizon20
 (3) technology
 (4) policy
 
-Therefore, the holistic *MaaS4EU* solutions are demonstrated and validated in real life via Living Labs in Greater Manchester (UK), Luxembourg-Germany, and Budapest (Hungary) (MaaS4EU, 2017). In summmary, current research is mainly working on the development of different MaaS app/platform prototypes, that will offer a multimodal travel solution. One example is the project *TrønderMaaS* of Marinelli et al. (2020) who is operating a full-scale pilot test in the Trondheim-Stjørdal region, Norway. 
+Therefore, the holistic *MaaS4EU* solutions are demonstrated and validated in real life via Living Labs in Greater Manchester (UK), Luxembourg-Germany, and Budapest (Hungary) (MaaS4EU, 2017). In summmary, current research is mainly working on the development of different MaaS app/platform prototypes, that will offer a multimodal travel solution. One example is the project *TrønderMaaS* of Marinelli et al. (2020) who is operating a full-scale pilot test in the Trondheim-Stjørdal region, Norway. <br/>
+
+Literature reviews reveal a reduction in vehicle kilometres travelled, increased trip awareness, reduced parking, reduced vehicle ownership and improved social equity through implementation of MaaS. Barriers of MaaS supply are public private cooperation, business support, service coverage, shared vision and data/cyber security. On the demand side, barriers include its lack of appeal to older generations, public transport and private vehicle users, the attractiveness of the digital platform and the user willingness-to-pay (Buttler et al., 2021). Feneri et al. (2020) found, that it is not only the price but the combination of monthly fees and the discounts for various transportation modes within a specific MaaS bundle that increases or decreases its use. Hensher et al. (2021) provided similar findings that MaaS programs have the ability to increase or decrease the use of private cars, depending on the offered bundles. This suggests a reasoned approach, evaluated for each case separately, to be in compliance with the sustainability goals.<br/>
+
+ITS Austria presents three levels of readiness for MaaS miA (Mobility as a Service made in Austria) (ITS Austria, 2019):
+
+-	Level 0: no integration and coordination of mobility services/offers
+-	Level 1: 1a) integration of information, 1b) integration of offers
+-	Level 2: contractible offers (fusion of large parts of relevant mobility offers)
+-	Level 3: integration of agreements (mobility package and guarantee)
+
 
 ### Current state of art in practice {-}
+The first pilot trial in Sweden started in 2013 with the plattform Ubi-Go. In April 2019 the App was launched and is looking for franchise partners since 2020 while Finland started its first MaaS platform in 2015, named whim, being the first commercially used combined mobility platform. Whim is now available in countries like Switzerland, Japan, Austria, Belgium and the UK (Whim, 2022; Ubi-Go, 2022).<br/>
+
 In 2019 Berlin’s public transport authority *Berliner Verkehrsbetriebe (BVG)* invented and implemented together with the Lithuanian start-up and MaaS solution leader *Trafi* the mobility app called *Jelbi*, which counts as the world’s most extensive Mobility as a Service-solution (Rastenytė, 2020). The app covers assistance planning and routes discovery, real-time public transport information and shared mobility vehicle location and availability, a streamlined payment solution for any integrated mobility service, as well as the possibility to compare the duration and cost of each trip (Rastenytė, 2020). <br/>
 
-In 2020, Switzerland followed and integrated an app called *yumuv*. *Swiss Federal Railways SBB CFF FFS, PTOs of Verkehrsbetriebe Zürich, Basler Verkehrs-Betriebe (BVB)*, and *BERNMOBIL* cooperated also with the start-up *Trafi* and managed to create the first regional MaaS with subscriptions (Trafi Ltd., 2020).
+In 2020, Switzerland followed and integrated an app called *yumuv*. *Swiss Federal Railways SBB CFF FFS, PTOs of Verkehrsbetriebe Zürich, Basler Verkehrs-Betriebe (BVB)*, and *BERNMOBIL* cooperated also with the start-up *Trafi* and managed to create the first regional MaaS with subscriptions (Trafi Ltd., 2020).<br/>
+
+On national level there is [wegfinder](https://wegfinder.at/)  (in all of Austria), [Wien Mobil](https://www.wienerlinien.at/wienmobil-app) for the city of Vienna and [tim-App](https://www.tim-oesterreich.at/graz/) in Graz and Linz. 
 
 ### Relevant initiatives in Austria {-}
 
@@ -427,7 +463,9 @@ In 2020, Switzerland followed and integrated an app called *yumuv*. *Swiss Feder
 - [tim-oesterreich.at](https://www.tim-oesterreich.at/graz/) 
 - [wegfinder.at](https://wegfinder.at/) 
 - [wienerlinien.at](https://www.wienerlinien.at/eportal3/ep/channelView.do/pageTypeId/66526/channelId/-3600060) 
+- [wienmobil-app](https://www.wienerlinien.at/wienmobil-app)
 - [anachb.vor.at](https://anachb.vor.at/) 
+- [Interreg Europe: PriMaas](https://www.interregeurope.eu/find-policy-solutions/stories/primaas-enabling-mobility-as-a-service)
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
 
@@ -469,12 +507,18 @@ cat('|TRL| SRL|
 -	[maas4eu.eu](http://www.maas4eu.eu) 
 
 ### References {-}
-- Gudonavičius, M. (2020). Unjamming Urban Mobility: How Mobility-as-a-Service Can Replace Personal Cars. https://www.trafi.com/wp-content/uploads/2020/08/unjamming-urban-mobility.pdf - Maas Alliance. (2015). White Paper: Guidelines & Recommendations to create the foundation for a thriving MaaS Ecosystem. 32(2), 1–27. https://maas-alliance.eu/wp-content/uploads/sites/7/2017/09/MaaS-WhitePaper_final_040917-2.pdf
+-	Butler, L., Yigitcanlar, T., Paz, A. (2021). Barriers and risks of Mobility-as-a-Service (MaaS) adoption in cities: A systematic review of the literature. Cities. 109, 103036. https://doi.org/10.1016/j.cities.2020.103036
+-	Feneri, A-M., Rasouli, S., Timmermans, H.J.P. (2020). Modeling the effect of Mobility-as-a-Service on mode choice decisions. Transportation Letters. 14 (4), 324-331. https://doi.org/10.1080/19427867.2020.1730025
+-	Fluidtime (2022). Ubi-Go App. Available at: https://www.fluidtime.com/en/ubigo/ [Accessed: 11th July 2022]
+- Gudonavičius, M. (2020). Unjamming Urban Mobility: How Mobility-as-a-Service Can Replace Personal Cars. https://www.trafi.com/wp-content/uploads/2020/08/unjamming-urban-mobility.pdf
+- Maas Alliance. (2015). White Paper: Guidelines & Recommendations to create the foundation for a thriving MaaS Ecosystem. 32(2), 1–27. https://maas-alliance.eu/wp-content/uploads/sites/7/2017/09/MaaS-WhitePaper_final_040917-2.pdf
+- Hensher, D., Ho, C. Q., Reck, D. J. (2021). Mobility as a service and private car use: Evidence from the Sydney MaaS trial. Transportation Research Part A: Policy and Practice. 145, 17-33. https://doi.org/10.1016/j.tra.2020.12.015
 - MaaS4EU. (2017, October). Launch of MaaS4EU project. http://www.maas4eu.eu/wp-content/uploads/2017/10/MaaS4EU-Launch-Press-Release.pdf 
 - Marinelli, G., Nordfjærn, Ö. S., Aarseth, W., & Pitera, K. (2020). Introducing TrønderMaaS: investigating business models, sustainability and users' acceptance of a MaaS system in Stjørdal and Trondheim region, Norway.
 - Neumann, A., & Rauch, A. (2021). Maas Ready. https://maas-ready.at/allgemein#Grundidee
 - Rastenytė, J. (2020, April 24). BVG Jelbi – Case Study: World’s Most Extensive MaaS in Berlin – Trafi. https://www.trafi.com/bvg-jelbi-maas-berlin/
 - Trafi Ltd. (2020). yumuv – Regional MaaS with subscriptions in Switzerland – Trafi. https://www.trafi.com/yumuv/
+- Whim-App (2022). Available at: https://whimapp.com/ [Accessed: 11th July 2022]
 
 
 ## Park and ride {#p_r}
