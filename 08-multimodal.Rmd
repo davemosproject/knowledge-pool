@@ -523,6 +523,8 @@ cat('|TRL| SRL|
 
 ## Park and ride {#p_r}
 
+**Updated: 1st August 2022**
+
 ### Synonyms {-}
 *P&R, P and R, P+R*
 
@@ -538,7 +540,7 @@ Park-and-ride facilities are usually located in peri-urban areas in a proximity 
 ### Current state of art in research {-}
 In terms of P&R research, existing publications address topics such as the optimal location problem of P&R facilities, the relationship between private vehicle use patterns and the number and density of P&R facilities in a city, the empirical study of P&R facility use patterns, the study of P&R motives and air quality standards in Europe, the influence of P&R facilities on vehicle kilometres travelled, the analysis of travellers' stated intention to use parking and cycling facilities (P+R, B+R), empirical analysis of P&R facility choice behaviour, attitude surveys of P&R and non-P&R users and the influence of multimodal information on the use of P&R (Gan and Ye, 2018).<br/><br/>
 Studies show that some public transport users were attracted to switch to multiple modes of transport (i.e. park-and-ride), which increased the number of car trips. Nonetheless, additional car trips are made in non-congested areas, thus contributing to traffic relief (Katoshevski-Cavari, Bak and Shiftan, 2018).<br/><br/>
-The exact effects of P&R are controversial. Some studies have confirmed that P&R facilities can encourage the use of public transport, relieve urban traffic and reduce car emissions in city centres. Other studies pointed to possible counter-effects of P&R. The reduction of congestion in city centres might encourage motorists to use their cars in the city again, as accessibility has increased, and motorists travelling to the city centre via P&R facilities might travel some extra kilometres to reach the P&R facility. The exact weight of these negative externalities is still debatable (and will vary from place to place), as is the direct net benefit of P&R on car traffic in the city area as a whole. However, it is undisputed that well-used P&R facilities directly reduce car traffic in the city centre (Dijk and Montalvo, 2011).
+The exact effects of P&R are controversial. Some studies have confirmed that P&R facilities can encourage the use of public transport, relieve urban traffic and reduce car emissions in city centres. Other studies pointed to possible counter-effects of P&R. The reduction of congestion in city centres might encourage motorists to use their cars in the city again, as accessibility has increased, and motorists travelling to the city centre via P&R facilities might travel some extra kilometres to reach the P&R facility. The exact weight of these negative externalities is still debatable (and will vary from place to place), as is the direct net benefit of P&R on car traffic in the city area as a whole. However, it is undisputed that well-used P&R facilities directly reduce car traffic in the city centre (Dijk and Montalvo, 2011), especially if the travel behaviour in a certain area was well-researched which is a key element to be able to convince travellers to switch to a multi-modal travel (Memon et al., 2021). A recent study showed, based on an agent simulation system, that compared with reducing the public transport fares, reducing the waiting times can attract car travellers to choose park and ride while the co-existence of a reservation scheme can reduce cruising and improve traffic environment (Zhenyu et al., 2022). Further, Bruck and Soteropoulos (2021) stated, that under future circumstances of (shared) automated vehicles, Park and Ride facilities might need to be transformed to mobility hubs, to make it possible to accommodate future autonomous shuttle fleets.
 
 
 ### Current state of art in practice {-}
@@ -584,13 +586,14 @@ Recommendations for municipalities & public transport:
 -	Combine Bike+Ride and P&R facilities to make it possible for residents from the immediate vicinity to reach the facility by bicycle instead of by car (Luca and Dommnich, 2018).
 
 ### Relevant initiatives in Austria {-}
-ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region this year. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P&R facilities is free of charge for public transport passengers (VOR.at, n.d.).
+ÖBB is investing 700 million euros in the expansion of infrastructure in the eastern region in the next years, staring in 2021. Two thirds of rail passengers in Austria travel in Lower Austria, Vienna and Burgenland, where lines are being extended, stations renovated and new park-and-ride facilities built (Frey, 2021). In Vienna, Lower Austria and Burgenland, more than 40,000 parking spaces are available at over 200 Park/B+R facilities for easy transfers. In Vienna, most P&R facilities charge a small fee of € 3.60 per day. In Lower Austria and Burgenland, the use of P&R facilities is free of charge for public transport passengers (VOR.at, n.d.), while in Vienna, holders of a valid monthly or yearly public transport ticket get reduced monthly and yearly P&R tickets (WiPark.at, 2022). Further, in May 2022 a new access system at the P+R facility in St. Pölten was implemented, which allows easier access for all owners of permanent tickets due to number plate recognition at the entrance and exit (Schrefl, 2022).
 
 - [wien.info](https://www.wien.info/de/reiseinfos/anreise/parkgaragen) 
 - [wien.gv.at](https://www.wien.gv.at/verkehr/parken/garagen/) 
 - [derstandard.at](https://www.derstandard.at/story/2000106482985/volle-park-and-ride-plaetze-frustrieren-wien-pendler)
 - [orf.at](https://orf.at/stories/3151437/) 
 - [noe.orf.at](https://noe.orf.at/stories/3030525/) 
+- [parking in Austria](https://www.parken.at/)
 
 
 ### Impacts with respect to Sustainable Development Goals (SDGs) {-}
@@ -628,6 +631,7 @@ cat('|TRL| SRL|
 - [stadt-wien.at](https://www.stadt-wien.at/wien/parken-in-wien/park-ride-parkhaeuser-im-ueberblick.html)
 
 ### References {-}
+- Bruck, E. M., Soteropoulos, A. (2021). Traffic-land use compatibility and street design impacts of automated driving in Vienna, Austria. The Journal of Transport and Land Use. 15, 1. 137-163. http://dx.doi.org/10.5198/jtlu.2022.2089
 -	Dijk, M., & Montalvo, C. (2011). Policy frames of Park-and-Ride in Europe. Journal of Transport Geography, 19(6), 1106–1119. https://doi.org/10.1016/j.jtrangeo.2011.05.007
 -	Frey, F. (2021, January 6). ÖBB: 700 Mio. Euro für Infrastrukturausbau - noe.ORF.at. https://noe.orf.at/stories/3083619/
 -	Gan, H., & Ye, X. (2018). Will commute drivers switch to park-and-ride under the influence of multimodal traveler information? A stated preference investigation. Transportation Research Part F: Traffic Psychology and Behaviour, 56, 354–361. https://doi.org/10.1016/j.trf.2018.05.015
@@ -636,10 +640,16 @@ cat('|TRL| SRL|
 -	Katoshevski-Cavari, R., Bak, N., & Shiftan, Y. (2018). Would free park-and-ride with a free shuttle service attract car drivers? Case Studies on Transport Policy, 6(2), 206–213. https://doi.org/10.1016/j.cstp.2018.05.001
 -	Luca, K., & Dommnich, B. (2018, August 6). 60 P+R-Anlagen im Test | ADAC. https://www.adac.de/reise-freizeit/ratgeber/tests/park-ride/
 - Macioszek, E., & Kurek, A. (2020). The use of a park and ride system—A case study based on the city of Cracow (Poland). Energies, 13(13), 3473.
+- Memon, I. A., Kalwar, S., Sahito, N., Talpur, M. H., Chandio, I. A., Napiah, M., Tayyeb, H. (2021). Mode Choice Modeling to Shift Car Travellers towards Park and Ride Service in the City centre of Karachi. Sustainability. 13(10), 5638. https://doi.org/10.3390/su13105638
 -	Moore, A. M., Curran, S. J., Lapsa, M. V., & Bittler, A. D. (2019). Geoanalysis of park-and-ride facilities for future laboratory-wide commuting program. Transportation Research Interdisciplinary Perspectives, 3, 100025. https://doi.org/10.1016/j.trip.2019.100025
+- Schrefl, K. (2022). MeinBezirk.at: Park & Ride Anlagen bekommen ein neues Zufahrtssystem. Available at: https://www.meinbezirk.at/st-poelten/c-lokales/park-und-ride-anlagen-bekommen-ein-neues-zufahrtssystem_a5280277 [Accessed: 19 July 2022]
 -	VOR.at. (n.d.). Park/Bike+Ride - VOR. Available at: https://www.vor.at/mobil/parkbike-ride/ [Accessed: 26 February 2021]
+- WiPark.at. (2022). Park and Ride (P+R) – Ihr Parkplatz an der U-Bahn oder S-Bahn. Available at: https://www.wipark.at/parkprodukte/angebote/park-and-ride [Accessed: 19 July 2022]
+- Zhenyu, M., Daqin, W., Wenchao, D., Dianhai, W., Dongfang, M. (2022). Multi-Agent Simulation for Multi-Mode Travel Policy to Improve Park and Ride Efficiency. Available at SSRN: https://dx.doi.org/10.2139/ssrn.4151394
 
 ## Contactless public transport cards {#contactless_cards}
+
+**Updated: 1st August 2022**
 
 ### Synonyms {-}
 *Contactless smart card, smart card ticketing*
@@ -662,10 +672,10 @@ The latest research goes in the direction of using smart phones or other mobile 
 knitr::include_graphics("image/smart_cards.png")
 ```
 
-Furthermore current research addresses the issues of big data and how collected data through contactless smart cards can be best analysed (see Kurauchi & Schmöcker, 2017).
+Furthermore, current research addresses the issues of big data and how collected data through contactless smart cards can be best analysed (see Kurauchi & Schmöcker, 2017). Recent studies investigated a prototype of the BI/BO (be in/be out) system, working in the public transport system in Lodz, Poland. The Passenger BIBO and automation of the CICO (check-in/check-out) give rise to a new approach to an integrated passenger identification model by applying machine learning technologies and using Internet of Things (IoT), through beacons and smartphones. It enables wireless connection with the use of bluetooth and automatic detection of passengers (Hasimi et al., 2021; Mastalerz et al, 2020). Bieler et al. (2022) explored solutions for automated fare collection in public transportation and found significant positive impacts on consumer experiences and reduction of pollutant emissions in urban transportation due to a more seamless and efficient fare collection systems.
 
 ### Current state of art in practice {-}
-Many countries, regions or cities, have smart card ticketing systems in use, like the whole of Netherlands, Helsinki Region, Minsk, Berlin, Auckland, Sydney and many more (see Wikipedia contributors, 2021). The systems itself differ and depend on the local ticketing and fare systems. While London, for instance, is using an access control system, Helsinki's system is trust based. Furthermore, a distinction can be made between pre-paid (debit) and post-paid (credit) systems (Kurauchi & Schmöcker, 2017). 
+Many countries, regions or cities, have smart card ticketing systems in use, like the whole of Netherlands, Helsinki Region, Minsk, Berlin, Auckland, Sydney and many more (see Wikipedia contributors, 2021). The systems itself differ and depend on the local ticketing and fare systems. While London, for instance, is using an access control system, Helsinki's system is trust based. Furthermore, a distinction can be made between pre-paid (debit) and post-paid (credit) systems (Kurauchi & Schmöcker, 2017). Current CICO (check in/check out) systems are available as the Oyster Card in London, the EZ-Link Card in Singapur, OV-chipkaart in Amsterdam, LisboaViva Card in Lisbon, go card in Brisbane, Octopus in Hongkong, AltoAdige Pass in SüdTyrol (Eilmes et al., 2014), while BIBO systems (be in/be out) have only been tested, but not been implemented on a wide range (N.N., 2009). Furthermore, Biometric Ticketing (e.g. by facial recognition) is tested in various countries (China: Shenzhen Metro, Japan: Osaka Metro, London: Eurostar) and by Amazon (Singh, 2021).
 
 ### Relevant initiatives in Austria {-}
 
@@ -703,9 +713,15 @@ cat('|TRL| SRL|
 -	[itso](https://www.itso.org.uk/ ) 
 
 ### References {-}
+-	Bieler, M., Skretting, A., Büdinger, P., Gronli, T.-M. 2022. Survey of Automated Fare Collection Solutions in Public Transportation. IEEE Transactions on Intelligent Transport Systems. Doi: 10.1109/TITS.2022.3161606
+-	Eilmes, B., Zietz, A., Szombathely, M., Quast, F., Blanckmeister, C., Schmiede, A. 2014. CICO-, CIBO und BIBO-basierte ÖPNV-Vertriebssysteme in Ballungsräumen weltweit (Markterkundung). VRR: Verkehrsverbung Rhei-Ruhr AöR. Available at: https://docplayer.org/storage/18/893383/1658415222/cRaJu2SV6CLCYsoiVAwLEQ/893383.pdf [Accessed: 21 July 2022]
+- Hasimi, L., Poniszewska-Maranda, A., Krym, T. 2021. Smart City Concept Using BI/BO Model for the Ticket System in Urban Transport. IEEE Transactions on Intelligent Transport Systems. https://doi.org/10.23919/SoftCOM52868.2021.9559116
 - Kurauchi, F., & Schmöcker, J. D. (Eds.). (2017). Public transport planning with smart card data. CRC Press.
+- Mastalerz, M., Malinowski, A., Kwiatkowski, S., Sniegula, A., Wieczorek, B. 2020. Passenger BIBO detection with IoT support and machine learning techniques for intelligent transport systems. Procedia Computer Science. 176. 3780-3793. https://doi.org/10.1016/j.procs.2020.09.009
 - Mezghani, M. (2008). Study on electronic ticketing in public transport. European Metropolitan Transport Authorities (EMTA), 56, 38.
-- NFC Forum. (2016). NFC-enabled e-Ticketing in Public Transport : Clearing the Route to Interoperability. December. https://nfc-forum.org/wp-content/uploads/2016/12/NFC_enabled_eTicketing_in_Public_Transport_White_Paper.pdf
+- NFC Forum. (2016). NFC-enabled e-Ticketing in Public Transport: Clearing the Route to Interoperability. December. https://nfc-forum.org/wp-content/uploads/2016/12/NFC_enabled_eTicketing_in_Public_Transport_White_Paper.pdf
+-	N.N. (2009). Be-In-Be-Out Payment Systems for Public Transport: Final Report. Department for Transport (London). Available at: https://manualzz.com/download/2984265 [Accessed: 29 July 2022]
+-	Singh, J. (2021). Payment apps, CiBo, and biometricts: what’s next for mobile ticketing? Intelligent Transport. Available at: https://www.intelligenttransport.com/transport-articles/114876/future-of-mobile-ticketing/ [Accessed: 20 July 2022]
 - ÖBB. Ihr Weg zum Ticket. Available at: https://www.oebb.at/de/tickets-kundenkarten/weg-zum-ticket [Accessed: 13 January 2021]
 - Turner, M., & Wilson, R. (2010). Smart and integrated ticketing in the UK: Piecing together the jigsaw. Computer Law & Security Review, 26(2), 170-177.
 - Wels Linien. Tarife. Available at: https://www.welslinien.at/tarife/ [Accessed: 13 January 2021]

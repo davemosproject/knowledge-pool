@@ -1,8 +1,9 @@
 bookdown::gitbook:
+  toc_depth: 2
   css: style.css
   #split_by: chapter
   config:
-    toc:
+    toc: 
       collapse: section
       before: |
         <li><a href="./">Knowledge Pool</a></li>
