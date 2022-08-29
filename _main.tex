@@ -84,7 +84,7 @@
 
 \title{Knowledge Pool}
 \author{DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna}
-\date{2022-08-16}
+\date{2022-08-29}
 
 \begin{document}
 \maketitle
@@ -97,14 +97,14 @@
 \chapter*{Welcome}\label{welcome}}
 \addcontentsline{toc}{chapter}{Welcome}
 
-\includegraphics[width=0.4\linewidth]{image/davemos_logo}
+\includegraphics[width=0.25\linewidth]{image/davemos_logo}
 
 Knowledge pool is a continuously developing database, which is a part of the \href{https://www.davemos.online/}{DAVeMoS} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. It is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
 \begin{itemize}
 \tightlist
 \item
-  Dr.~Msc. MA (Hons) Martyna Bogacz
+  Dr.~Martyna Fidler
 \item
   B.Sc. Gregor Husner
 \item
@@ -115,7 +115,7 @@ Knowledge pool is a continuously developing database, which is a part of the \hr
   Univ. Prof.~Dr.~Yusak Susilo
 \end{itemize}
 
-The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: \href{mailto:davemos.library@boku.ac.at}{\nolinkurl{davemos.library@boku.ac.at}}.
+The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Fidler on the following email address: \href{mailto:davemos.library@boku.ac.at}{\nolinkurl{davemos.library@boku.ac.at}}.
 
 \textbf{Legal disclaimers}
 
@@ -128,7 +128,7 @@ The authors assume no responsibility or liability for any errors or omissions in
 The knowledge pool was last compiled on:
 
 \begin{verbatim}
-## [1] "16 August 2022"
+## [1] "29 August 2022"
 \end{verbatim}
 
 \textbf{Table of content}
@@ -7337,6 +7337,8 @@ TRL & SRL \\
 \hypertarget{parking_av}{%
 \section{Parking infrastructure for automated vehicles}\label{parking_av}}
 
+\textbf{Updated: 29th August 2022}
+
 \hypertarget{synonyms-27}{%
 \subsection*{Synonyms}\label{synonyms-27}}
 \addcontentsline{toc}{subsection}{Synonyms}
@@ -7410,7 +7412,13 @@ Similar to the levels of automation of cars, there are different levels of autom
 
 Milakis et al.~(2017) optimistically estimated that AVs could lead to a reduction in parking demand of between 67 and 90 \%. Zhang (2017) estimated a reduction of at least 20 parking spaces per SAV due to the reduction of vehicles and an increase in vehicle occupancy. Perhaps even more could be reduced by increasing the efficiency of parking automation. Car parks could increase their capacity by up to 60\% as aisles, ramps and doorways would no longer be needed (Heinrichs, 2016). On the one hand, the spatial distribution of parking spaces could be distributed in attractive parts of high-density city centres, or out-of-centre parking spaces could accommodate around 97\% of daily parking demand (Zakharenko, 2016), as AVs could pick up and drop off passengers at different points within the city and park far away when not needed (González-González et al., 2020). However, this would likely lead to an increase in travel distance and frequency due to changing travel costs and the value of passenger time. Fagnant \& Kockelman (2015) estimated an increase in vehicle kilometres travelled (VMT) of up to 26\% following a 90\% implementation of AVs. Milakis et al.~(2017) estimate an increase of between 1-23\% by 2030 and between 10-71\% by 2050 in VMT for the Netherlands. Furthermore, several regional transportation planning organisations in the US projected an increase of 5-20\% (Guerra, 2016). However, Soteropoulos et al.~(2019) point to a reduction in VMT of around 10-25 \% if a large proportion of travellers choose ridesharing.
 
-Levin et al.~(2020) conclude in their paper on parking infrastructure design for repositioning fully automated vehicles that empty AV repositioning trips (due to lower prices in more distant parking spaces) contribute to network congestion. They have developed a traffic assignment model with endogenous parking choice (where fuel consumption depends on traffic congestion). Since parking choice depends on fuel consumption and parking fees, urban planners can influence reallocation trips by adjusting parking fees. Analysis shows that the genetic algorithm was effective in finding parking options that reduce the impact of empty trips on congestion and reduce the cost of building parking infrastructure in zones with high land values.
+When talking about smart car parking as IoT Systems we can distinguish between different forms and architectures. The figure below gives an overview of different approaches to smart parking, starting with smart parking systems (grey), sensors used in smart parking systems (orange), networking technologies (blue), user interfaces (yellow), computational approaches (grey) and provided services (yellow) (Fahim et al., 2021; Winter, 2021). High priority in research has been given to parking supervision, while gate management receives least priority.
+
+\begin{figure}
+\includegraphics[width=0.9\linewidth]{image/SPS} \caption{Smart Parking (Fahim et al., 2021, p.2)}\label{fig:unnamed-chunk-35}
+\end{figure}
+
+Levin et al.~(2020) conclude in their paper on parking infrastructure design for repositioning fully automated vehicles that empty AV repositioning trips (due to lower prices in more distant parking spaces) contribute to network congestion. They have developed a traffic assignment model with endogenous parking choice (where fuel consumption depends on traffic congestion). Since parking choice depends on fuel consumption and parking fees, urban planners can influence reallocation trips by adjusting parking fees. Analysis shows that the genetic algorithm was effective in finding parking options that reduce the impact of empty trips on congestion and reduce the cost of building parking infrastructure in zones with high land values. A similar study by Jiménez et al.~(2022) on perception, positioning and decision-making algorithms for autonomous valet parking using the LiDAR sensor tested in a real parking lot showed promising results with accurate behaviour of the AV. Further studies analyse various autonomous parking systems in different areas (e.g.~urban space, on-street and off-street parking) and with different network positioning. They mostly demonstrate successful technological functionality, while further practicability still needs future testing (Plihal et al., 2022).
 
 Khalid et al.~(2021) summarises the future challenges of SP and AVP as follows:
 
@@ -7480,7 +7488,7 @@ Khalid et al.~(2021) summarises the future challenges of SP and AVP as follows:
 
 The world's first fully automated and driverless car park with SAE Level 4 parking function was officially approved in July 2019 at the Mercedes-Benz Museum in Stuttgart. This project was made possible by \href{https://www.bosch-mobility-solutions.com/en/solutions/parking/automated-valet-parking/}{Bosch} and \href{https://www.daimler.com/innovation/case/autonomous/driverless-parking.html}{Daimler}. The automated drive-up and parking service is accessed via smartphone app and does not require a driver at all. The necessary intelligent parking infrastructure, which supports the mixed traffic of AVP and manually controlled vehicles, comes from Bosch. The technically equipped vehicles come from Mercedes-Benz. Together, the two partners defined the interface between infrastructure and vehicle and adapted the sensor technology and vehicle software accordingly. Due to the sensor technology used in the infrastructure, the necessary equipment of a vehicle is essentially limited to an automatic transmission, ESP, electric parking brake and steering assistance, a start/stop function and the communication unit. The car park system is based on the interaction of intelligent infrastructure and vehicle technology. The necessary car park infrastructure includes the required sensor technology and IT technology to calculate the driving routes and to fulfil all requirements regarding safety. A technical unit that communicates with the vehicle and a cloud connection for interaction with the backend are also required (Robert Bosch GmbH, 2021a). Garages with AVP could have 20\% more capacity, as no space needs to be left for the occupants to exit (Ehrenfeuchter, 2020; Robert Bosch GmbH, 2021a).
 
-Further, AVP garages are planned at Stuttgart Airport and in Detroit (Robert Bosch GmbH, 2021b). Tests have already been carried out in Detroit with Ford Escape test cars (Of-Allinger, 2020). In contrast to earlier test projects, Bosch no longer uses expensive and prominent lidar sensors in the multi-storey car park at Stuttgart Airport, but low-cost cameras. Around 180 of them were mounted on the ceiling. They determine the position of the vehicle ten times per second. A server determines the data and the driving command for the car is calculated and transmitted to the car via Wifi. Thanks to a specially speckled coating, the system also detects possible objects on the floor. If a luggage trolley is in the way, the technology reports the incident and informs an employee.
+Further, AVP garages are planned at Stuttgart Airport and in Detroit (Robert Bosch GmbH, 2021b). Tests have already been carried out in Detroit with Ford Escape test cars (Of-Allinger, 2020). In contrast to earlier test projects, Bosch no longer uses expensive and prominent lidar sensors in the multi-storey car park at Stuttgart Airport, but low-cost cameras. Around 180 of them were mounted on the ceiling. They determine the position of the vehicle ten times per second. A server determines the data and the driving command for the car is calculated and transmitted to the car via Wifi. Thanks to a specially speckled coating, the system also detects possible objects on the floor. If a luggage trolley is in the way, the technology reports the incident and informs an employee. Additionally, in July 2021, Hong Kong revealed its first automated robotic parking system in which robots park vehicles on pallets that then transport the car to a vacant parking space (N. N., 2021).
 
 The Mercedes S-Class is the first series-produced vehicle in the world with AVP technology on board. No additional sensors are required compared to the existing standard technology, but only a special module is necessary to communicate with the car park computer. Potential buyers will be able to order the comfort function in future via the special equipment ``Intelligent Park Pilot''. According to the manufacturer, the costs for this function are in the low four-digit range.
 
@@ -7550,6 +7558,8 @@ TRL & SRL \\
   How well will the technology be adopted?
 \item
   How well will the mix work with AVs and manually driven cars in parking infrastructure?
+\item
+  How error-prone will such parking systems be?
 \end{enumerate}
 
 \hypertarget{further-links-27}{%
@@ -7587,6 +7597,8 @@ TRL & SRL \\
 \item
   Fagnant, D. J., \& Kockelman, K. M. (2015). Dynamic ride-sharing and optimal fleet sizing for a system of shared autonomous vehicles. Transportation, 1, 1--16.
 \item
+  Fahim, A., Hasan, M., Chowdhury, M. A. (2021). Smart parking systems: comprehensive review basen on various aspects. Heliyon. 7(5), e07050, 1-21. \url{https://doi.org/10.1016/j.heliyon.2021.e07050}
+\item
   González-González, E., Nogués, S., \& Stead, D. (2020). Parking futures: Preparing European cities for the advent of automated vehicles. Land Use Policy, 91, 104010. \url{https://doi.org/10.1016/j.landusepol.2019.05.029}
 \item
   Guerra, E. (2016). Planning for Cars That Drive Themselves: Metropolitan Planning Organizations, Regional Transportation Plans, and Autonomous Vehicles. Journal of Planning Education and Research, 36(2), 210--224. \url{https://doi.org/10.1177/0739456X15613591}
@@ -7594,6 +7606,8 @@ TRL & SRL \\
   Heinrichs, D. (2016). Autonomous Driving and Urban Land Use BT - Autonomous Driving: Technical, Legal and Social Aspects (M. Maurer, J. C. Gerdes, B. Lenz, \& H. Winner, Eds.; pp.~213--231). Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-48847-8_11}
 \item
   Huang, C., Lu, R., Lin, X., \& Shen, X. (2018). Secure automated valet parking: A privacy-preserving reservation scheme for autonomous vehicles. IEEE Transactions on Vehicular Technology, 67(11), 11169--11180. \url{https://doi.org/10.1109/TVT.2018.2870167}
+\item
+  Jiménez, F., Calvijo, M., Cerrato, A. (2022). Perception, Positioning and Decision-Making Algorithms Adaptation for an Autonomous Valet Parking System Based on Infrastructure Reverence Points Using One Single LiDAR. Sensors. 22(3), 979. \url{https://doi.org/10.3390/s22030979}
 \item
   Khalid, M., Cao, Y., Aslam, N., Raza, M., Moon, A., \& Zhou, H. (2019). AVPark: Reservation and cost optimization-based cyber-physical system for long-range autonomous valet parking (L-AVP). IEEE Access, 7, 114141--114153. \url{https://doi.org/10.1109/ACCESS.2019.2930564}
 \item
@@ -7617,11 +7631,15 @@ TRL & SRL \\
 \item
   Milakis, D., Van Arem, B., \& Van Wee, B. (2017). Policy and society related implications of automated driving: A review of literature and directions for future research. Journal of Intelligent Transportation Systems: Technology, Planning, and Operations, 21(4), 324--348. \url{https://doi.org/10.1080/15472450.2017.1291351}
 \item
+  N. N. (2021). HKSTP reveals Hong Kong's first automated robotic parking system at science park to advance smart city vision. HKSTP. Available at: \url{https://www.hkstp.org/press-room/hkstp-reveals-hong-kong-s-first-automated-robotic-parking-system-at-science-park-to-advance-smart-city-vision/} {[}Accessed: 24 August 2022{]}
+\item
   Ni, J., Lin, X., \& Shen, X. (2019). Toward Privacy-Preserving Valet Parking in Autonomous Driving Era. IEEE Transactions on Vehicular Technology, 68(3), 2893--2905. \url{https://doi.org/10.1109/TVT.2019.2894720}
 \item
   Of-Allinger, A. (2020, August 26). Automated Valet Parking von Ford, Bosch und Bedrock \textbar{} AUTO MOTOR UND SPORT. \url{https://www.auto-motor-und-sport.de/tech-zukunft/automated-valet-parking-bosch-ford-bedrock/}
 \item
   Pierce, G., \& Shoup, D. (2013). Getting the prices right. Journal of the American Planning Association, 79(1), 67--81. \url{https://doi.org/10.1080/01944363.2013.787307}
+\item
+  Plihal, J., Nedoma, P., Sestak, V., Herda, Z., Aksjonov, A. (2022). Transport Automation in Urban Mobility: A Case Study of an Autonomous Parking System. Vehicles. 4(2), 326-343. \url{https://doi.org/10.3390/vehicles4020020}
 \item
   Porter, L. (2018). The autonomous vehicle revolution: Implications for planning. Planning Theory and Practice, 19(5), 753--778. \url{https://doi.org/10.1080/14649357.2018.1537599}
 \item
@@ -7637,6 +7655,8 @@ TRL & SRL \\
 \item
   Williams, L. (2019). The whole story of parking: The world of parking is no longer stationary. Eng. Technol., 14(2), 56--61.
 \item
+  Winter, S., Salil, G. (2021). Smart Parking in Fast-Growing Cities. Challenges and Solutions. TU Wien Academic Press. ISBN: 978-3-85448-045-7. DOI: 10.34727/2021/isbn.978-3-85448-045-7. Available at: \url{https://repositum.tuwien.at/bitstream/20.500.12708/18055/1/Winter-2021-SMART\%20PARKING\%20IN\%20FAST-GROWING\%20CITIES-vor.pdf} {[}Accessed: 22 August 2022{]}
+\item
   Zakharenko, R. (2016). Self-driving cars will change cities. Regional Science and Urban Economics, 61, 26--37. \url{https://doi.org/10.1016/j.regsciurbeco.2016.09.003}
 \item
   Zhang, W. (2017). the Interaction Between Land Use and Transportation in the Era of Shared Autonomous Vehicles: a Simulation Model. August, 147.
@@ -7648,6 +7668,8 @@ TRL & SRL \\
 
 \hypertarget{automated_road_freight}{%
 \section{Automated road freight}\label{automated_road_freight}}
+
+\textbf{Updated: 26th August 2022}
 
 \hypertarget{synonyms-28}{%
 \subsection*{Synonyms}\label{synonyms-28}}
@@ -7719,12 +7741,14 @@ Mulholland et al., (2018) define a global assessment of the decarbonisation of r
 \begin{itemize}
 \tightlist
 \item
-  Fuel economy standards (minimum efficiency).
+  Fuel economy standards (minimum efficiency)
 \item
   Support for comprehensive data collection and information exchange
 \item
   Promoting the use of alternative fuels and the vehicles that use them
 \end{itemize}
+
+Recent research developed models to optimise the routing of freight (Sharma et al., 2022) as well as combining various modes of transport (Dekhtyaruk et al., 2021), simulations of mixed traffic (Chaudhry, 2022) and driver behaviour and experiences around automated freight vehicle platoons (Yang et al., 2022; Paddeu and Denby, 2022). Nonetheless, there is still uncertainty expected with most of the research, depending on the used model, area and implementation characteristics. Increasing research however, points towards awareness to use automation for freight to increase safety and decrease carbon use, while further optimising routes, platooning and mixed traffic solutions.
 
 \hypertarget{current-state-of-art-in-practice-32}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-32}}
@@ -7732,7 +7756,7 @@ Mulholland et al., (2018) define a global assessment of the decarbonisation of r
 
 The initial introduction of fully automated driving in closed traffic systems (e.g.~traffic in a system network) and manageable scenarios (e.g.~motorway, airport grounds, ports) helps to overcome the reluctance towards the technologies as well as the lack of standardisation. The gradual introduction of platooning, starting with manned lead and follow vehicles, could build up the necessary acceptance among the population. It should be examined whether the simultaneous introduction of overhead electric trucks and thus the creation of a dedicated lane would make sense in terms of capacity and safety requirements (Flämig, 2016).
 
-A European Commission, 2019 report presents many automated road projects, but only one that deals specifically with freight transport:
+A European Commission, 2019 report contained many automated road projects, but only one deals specifically with freight transport:
 
 \begin{itemize}
 \tightlist
@@ -7742,7 +7766,7 @@ A European Commission, 2019 report presents many automated road projects, but on
 
 The project aims to support the implementation of multi-brand truck platooning on European roads, so that a single truck can form a platoon with any other truck.
 
-Other projects may approach the issue in a different way, but the focus is on all vehicles. For example:
+Other projects may have approached the issue in a different way, but the focus was on all vehicles. For example:
 
 \begin{itemize}
 \tightlist
@@ -7760,6 +7784,8 @@ The project aims to define test and validation procedures for specific functiona
 
 The project will develop a wide-ranging assessment framework to evaluate the impact of connected and automated transport (CAT) on all aspects of transport and individual mobility, as well as at a societal level. The project addresses the needs of local authorities, regional authorities and national governments to prepare for the increasing use of connected and automated systems, to understand the implications for mobility policy and to take the most effective measures to achieve broader societal goals.
 
+Furthermore, the European Commission (2022) presents many automated road projects as well as urban freight transport policies and research funding within the Horizon 2020 (H2020) research program (Lozzi et al., 2018). Research and projects specifically addressing automated freight transport includes only a handful, mainly dealing with logistics planning and scheduling as well as \href{https://www.euspa.europa.eu/system/files/reports/galileoforautonomousdriving2017a.pdf}{Galileo-based} solutions while main research and projects deal with rail automation and automation in road transport in general (European Commission, 2022).
+
 In the US four manufacturers that dominate the US long-haul truck market have all begun to look at a driverless future. In 2019-2021, each of them has signed contracts with one of the three leading developers of self-driving vehicles (Alphabet's Waymo, TuSimple Holdings and Aurora Innovation). Aurora plans to sell its driverless technology as a service, similar to the way jet engine makers charge airlines for hours spent on the throttle. TuSimple and Waymo Via have similar plans and are also operating cargo services while they test their technology. None of the partnerships with manufacturers are exclusive. The flurry of activity around trucking reflects a growing consensus that self-driving cars are still a long way from reaching most roads, and that 18-wheel trucks might be a better application area to establish the technology. Long-haul trucks drive straight most of the time on highways without traffic lights, cyclists or pedestrians crossing the road (Boudway, 2021).
 
 Self-driving vehicles could have an immense impact on logistics and supply chain management. This is because fully automated trucks, last-mile delivery robots and other AVs fit into an increasingly automated distribution process. The automation of high-volume freight routes has the potential to deliver huge efficiency gains in terms of improved safety, increased capacity, lower operating costs and reduced environmental impact. An analyst at Gartner predicts that while self-driving trucks won't be commercially available until 2024 at the earliest, supply chain executives responsible for transportation should start preparing for a fully automated future now. After all, fully automated trucks are just one part to fully automating the entire supply chain, from fully automated inventory planning to fully automated shipping to fully automated distribution. In a report (March 2021), a market research firm predicted that fully automated trucks will be more widely deployed by 2030, accounting for more than 10\% of new heavy-duty truck sales on the road. By 2028, one-fifth of the world's countries will have active regulations allowing the legal operation of production-ready fully automated vehicles, up from zero in 2019 (Eddy, 2021).
@@ -7768,7 +7794,7 @@ Self-driving vehicles could have an immense impact on logistics and supply chain
 
 Despite the imminent technical possibility of implementation, society may not be quite ready for it and political opposition because of the potential for large-scale unemployment among commercial drivers is expected (Wadud, 2017). Whereas, according to the IRU (International Road Transport Union), the European road transport sector is facing the biggest shortage of professional drivers in decades in 2019. According to a survey, the reasons are: the lack of attracting women to work in transport (female drivers make up only 2 per cent of employees in the European transport sector), attracting young people to work in the industry, the poor image of the profession, poor working conditions and being away from home and family for too long. In addition, there is the demographic ageing of the workforce. The average age of a truck driver in Europe is 44 (Kulikowska-Wielgus, 2019).
 
-In the US, federal agencies have filed plans with the Office of Management and Budget (OMB) for a survey study to assess public appetite for automated driving systems (ADS) in the trucking sector. However, the project, Trucking Fleet Concept of Operations (CONOPS) for Managing Mixed Fleets, has already received public pressure. While the Federal Motor Carrier Safety Administration (FMCSA) received only eight comments on the proposal when it was first requested in November, all opposed it. They cited the ``potential loss of jobs for truck drivers and safety concerns arising from ADS testing in the real world'' before enough simulator testing has been done. ``People who rely on truck driving jobs will become unemployed and will no longer have a way to earn a living and provide for themselves and their families,'' one comment stated. If OMB approves the survey, a questionnaire will be completed before and after participants have the opportunity to have hands-on experience with ADS truck technology to assess a change in sentiment. The plan is to share these experiences at four ``road shows'' at existing trucking conferences around the country (Gallagher, 2021).
+In the US, federal agencies have filed plans with the Office of Management and Budget (OMB) for a survey study to assess public appetite for automated driving systems (ADS) in the trucking sector. However, the project, Trucking Fleet Concept of Operations (CONOPS) for Managing Mixed Fleets, has already received public pressure. While the Federal Motor Carrier Safety Administration (FMCSA) received only eight comments on the proposal when it was first requested in November, all opposed it. They cited the ``potential loss of jobs for truck drivers and safety concerns arising from ADS testing in the real world'' before enough simulator testing has been done. ``People who rely on truck driving jobs will become unemployed and will no longer have a way to earn a living and provide for themselves and their families,'' one comment stated. If OMB approves the survey, a questionnaire will be completed before and after participants have the opportunity to have hands-on experience with ADS truck technology to assess a change in sentiment. The plan is to share these experiences at four ``road shows'' at existing trucking conferences around the country (Gallagher, 2021). Recently, \href{https://www.tusimple.com/}{TuSimple}, a start-up building technology specifically designed for autonomous trucks signed their first contract with Union Pacific, to coordinate their freight shipments in Arizona, while they continue their test operations in Arizona and Texas, being ahead of most companies in this sector (Doll, 2022; Fisher, 2022).
 
 Since 2019, a fully electric fully automated truck ``T-Pod'' from Einride has been driving on a public road in Sweden on behalf of logistics service provider DB Schenker. However, the approval, which was valid until the end of 2020, stipulated that the T-Pod, which weighs up to 26 tonnes, may only travel at 5 km/h, that the approval was only valid for a specific public road in an industrial area and that one employee was assigned to each vehicle as a supervisor who can intervene from a distance via joystick in the event of problems. The truck was highly technical did not have a driver's cab. According to Einride, the e-truck offers space for 15 Euro pallets instead. Its regular maximum speed is capped at 85 km/h. A 280 kWh battery on board is supposed to guarantee a range of 200 km (Of-Allinger et al., 2020; Werwitzke, 2019).
 
@@ -7838,7 +7864,7 @@ TRL & SRL \\
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  How significant will the rebound effect be that results from the improvement in freight efficiency?
+  How significant will the rebound effect be that results from the improvement in freight efficiency? Should other technologies/modes of transport, therefore, be preferred?
 \item
   Who is responsible if the technology in semi-automated mode violates a speed limit or other traffic regulations?
 \item
@@ -7876,13 +7902,23 @@ TRL & SRL \\
 \item
   Chan, C. Y. (2017). Advancements, prospects, and impacts of automated driving systems. International Journal of Transportation Science and Technology, 6(3), 208--216. \url{https://doi.org/10.1016/j.ijtst.2017.07.008}
 \item
+  Chaudhry, A., Sha, H., Haouari, R., Quddus, M., Thomas, P., Boghani, H., Weigermars, W., Gebhard, S., Sigh, M. K., Morris, A. (2022). Evaluating the Network-Level Road Safety Impacts of Connected and Automated Vehicles in Mixed Traffic Using Traffic Microsimulation Methods. Transport Research Board. Conference: 101st Annual Meeting. Available at: \url{https://trid.trb.org/view/1909507} {[}Accessed: 24 August 2022{]}
+\item
   DB. (2021, March 16). Autonomes Fahren: DB Schenker und BRP-Rotax starten Testbetrieb in Österreich. \url{https://www.dbschenker.com/at-de/ueber-uns/presse/corporate-news/autonomes-fahren--db-schenker-und-brp-rotax-starten-testbetrieb-in-oesterreich-688986}
+\item
+  Dekhtyaruk, M. T., Shao, M., Yang, S., Kontrobayeva, Z. D., Vashchilina, E. (2021). Automated system of freight traffic optimisation in the interaction of various modes of transport. Periodicals of Engineering and Natural Sciences. 9(3). \url{http://dx.doi.org/10.21533/pen.v9i3.2320}
+\item
+  Doll, S. (2022). Union Pacific becomes TuSimple's first fully-autonomous truck customer, moving freight between rail and first/last mile without a driver. Electrek. Available at: \url{https://electrek.co/2022/02/02/union-pacific-becomes-tusimples-first-fully-autonomous-trucking-customer-moving-freight-between-rail-and-first-last-mile-without-a-driver/} {[}Accessed: 24 August 2022{]}
 \item
   Eddy, N. (2021, May 8). Driverless trucks worth the long-term investment -- Urgent Comms. \url{https://urgentcomm.com/2021/05/10/driverless-trucks-worth-the-long-term-investment/}
 \item
   European Commission. (2019). Automated road transport.
 \item
   European Commission. (2021, April 30). Connected and automated mobility \textbar{} Shaping Europe's digital future. \url{https://digital-strategy.ec.europa.eu/en/policies/connected-and-automated-mobility}
+\item
+  European Commission. (2022). European Climate Infrastructure and Environment Executive Agency (CINEA). Projects: Transport and Mobility (Horizon 2020). Available at: \url{https://cinea.ec.europa.eu/our-projects_en} {[}Accessed: 24 August 2022{]}
+\item
+  Fisher, J. (2022). As excitement of self-driving trucks grows, fleets will soon have products to choose from. FleetOwner: Technology. Available at: \url{https://www.fleetowner.com/technology/article/21213982/as-excitement-of-selfdriving-trucks-grows-fleets-will-soon-have-products-to-choose-from} {[}Accessed 24 August 2022{]}
 \item
   Flämig, H. (2016). Autonomous vehicles and autonomous driving in freight transport. In Autonomous Driving: Technical, Legal and Social Aspects (pp.~365--385). Springer Berlin Heidelberg. \url{https://doi.org/10.1007/978-3-662-48847-8_18}
 \item
@@ -7904,6 +7940,8 @@ TRL & SRL \\
 \item
   Kulikowska-Wielgus, A. (2019, March 28). Every fifth truck driver position in Europe is vacant. Soon, there could be twice as many. - Trans.INFO. Trans.Info. \url{https://trans.info/en/every-fifth-truck-driver-position-in-europe-is-vacant-soon-there-could-be-twice-as-many-131212}
 \item
+  Lozzi, G., Gatta, V. Marcucci, E. (2018). European urban freight transport policies and funding: Are priorities and Horizon 2020 calls aligned. Region. 5(1), 53-71. DOI: 10.18335/region.v5i1.168
+\item
   Mersky, A. C., \& Samaras, C. (2016). Fuel economy testing of autonomous vehicles. Transportation Research Part C: Emerging Technologies, 65, 31--48. \url{https://doi.org/10.1016/j.trc.2016.01.001}
 \item
   Mulholland, E., Teter, J., Cazzola, P., McDonald, Z., \& Ó Gallachóir, B. P. (2018). The long haul towards decarbonising road freight -- A global assessment to 2050. Applied Energy, 216, 678--693. \url{https://doi.org/10.1016/j.apenergy.2018.01.058}
@@ -7912,9 +7950,13 @@ TRL & SRL \\
 \item
   Of-Allinger, A., Knecht, J., \& Conrad, B. (2020, April 30). Automomer Elektro-Lkw Einride T-Pod: Zulassung in Schweden \textbar{} AUTO MOTOR UND SPORT. Auto Motr Sport. \url{https://www.auto-motor-und-sport.de/elektroauto/automomer-elektro-lkw-einride-t-pod-strassenzulassung/}
 \item
+  Paddeu, D., Denby, J. (2022). Decarbonising road freight: Is truck automation and platooning an opportunity?. Clean Technologies and Environmental Policy. 24, 2021-1035. \url{https://doi.org/10.1007/s10098-020-02020-9}
+\item
   Paulsen, T. (2018, November 7). Autonomes Fahren: 5 Level zum selbstfahrenden Auto \textbar{} ADAC. ADAC. \url{https://www.adac.de/rund-ums-fahrzeug/ausstattung-technik-zubehoer/autonomes-fahren/grundlagen/autonomes-fahren-5-stufen/}
 \item
   Pribyl, O., Blokpoel, R., \& Matowicki, M. (2020). Addressing EU climate targets: Reducing CO\textsubscript{2} emissions using cooperative and automated vehicles. Transportation Research Part D: Transport and Environment, 86, 102437. \url{https://doi.org/10.1016/j.trd.2020.102437}
+\item
+  Sharma, S., van Lint, H., Tavasszy, L., Snelder, M. (2022). Estimating Route Choice Characteristics of Truck Drivers from Sparse Automated Vehicle Identification Data through Data Fusion and Bi-Objective Optimization. Transportation Research Record: Journal of the Transportation Research Board. \url{https://doi.org/10.1177/03611981221095089}
 \item
   Shin, S., Roh, H. S., \& Hur, S. H. (2018). Technical Trends Related to Intermodal Automated Freight Transport Systems (AFTS) *. Asian Journal of Shipping and Logistics, 34(2), 161--169. \url{https://doi.org/10.1016/j.ajsl.2018.06.013}
 \item
@@ -7925,10 +7967,14 @@ TRL & SRL \\
   Wadud, Z., MacKenzie, D., \& Leiby, P. (2016). Help or hindrance? The travel, energy and carbon impacts of highly automated vehicles. Transportation Research Part A: Policy and Practice, 86, 1--18. \url{https://doi.org/10.1016/j.tra.2015.12.001}
 \item
   Werwitzke, C. (2019, May 17). Schweden: T-Pod erhält Zulassung für öffentliche Straße - electrive.net. Electrive.Net. \url{https://www.electrive.net/2019/05/17/schweden-t-pod-erhaelt-zulassung-fuer-oeffentliche-strasse/}
+\item
+  Yang, S., Park, J., Abdel-Aty, M. (2022). Driver behaviour and experiences around automated freight vehicle platoons. Transport. ICE Publishing. \url{https://doi.org/10.1680/jtran.22.00039}
 \end{itemize}
 
 \hypertarget{automatic_train}{%
 \section{Automatic train operations}\label{automatic_train}}
+
+\textbf{Updated: 29th August 2022}
 
 \hypertarget{synonyms-29}{%
 \subsection*{Synonyms}\label{synonyms-29}}
@@ -8050,15 +8096,15 @@ The train control system (ETCS), the train radio system (GSM-R) and parts of the
 
 Together with other partners, \emph{Siemens Mobility} has won two innovative research projects of the German Centre for Rail Transport Research (DZSF) to investigate the safety of automated rail operations at the end of 2020. The aim is to define the necessary criteria for the approval of fully automated regional and long-distance transport. The two projects are funded with 1.7 million euros and have a duration of 30 months. The studies will focus on the highest levels of automation (GoA 3 and GoA 4), which classify fully automated trains with and without attendants. It is expected that automated regional and long-distance rail transport will shape the future of mobility. In Hamburg, Siemens Mobility is conducting a pilot project on highly automated driving with the S-Bahn, which is scheduled to start passenger operations in 2021 for the ITS World Congress. In London, Siemens Mobility has combined a system for automated train operation (ATO) with the European Train Control System (ATCS) for the first time on the ThamesLink line (Global Railway Review, 2020).
 
-\emph{Alstom} has been awarded an innovation prize for a planned test project to implement Automatic Train Operation (ATO) in the daily operation of regional passenger transport. Alstom will launch this project in 2021 together with the Regional Association ``\emph{Großraum Braunschweig}'', the German Aerospace Centre (DLR) and the Technical University of Berlin (TU Berlin). It will run for three years. The test trains will run between Braunschweig and Wolfsburg (Sapién, 2020).
+\emph{Alstom} has been awarded an innovation prize for a planned test project to implement Automatic Train Operation (ATO) in the daily operation of regional passenger transport. Alstom will launch this project in 2021 together with the Regional Association ``\emph{Großraum Braunschweig}'', the German Aerospace Centre (DLR) and the Technical University of Berlin (TU Berlin). It will run for three years. The test trains will run between Braunschweig and Wolfsburg (Sapién, 2020). Another test by Alstom, testing obstacle detection system (ODS) took place in the Netherlands early 2022 and will be tested now in combination with ATO to pave the way for GoA4 in freight (Thibaut, 2022).
 
-\emph{Nokia} will work with Deutsche Bahn to develop 5G for ATO in 2021 on a 23-km section of Line 21 of the Hamburg S-Bahn from Berliner Tor to Bergedorf. Line 21 will initially demonstrate driverless shunting of empty trains in the Bergedorf station area based on the transmission of train control information via the 5G network. Siemens will install a similar system in Hamburg (Briginshaw, 2019).
+\emph{Nokia} will work with Deutsche Bahn to develop 5G for ATO in 2021 on a 23-km section of Line 21 of the Hamburg S-Bahn from Berliner Tor to Bergedorf. Line 21 will initially demonstrate driverless shunting of empty trains in the Bergedorf station area based on the transmission of train control information via the 5G network (which is still being developed globally, now, in a partnership with Atos, since beginning of 2022 (Atos, 2022)). Siemens will install a similar system in Hamburg (Briginshaw, 2019).
 
-\emph{EAST Japan Railway (JR East)} has announced plans to start automatic train operation (ATO) on an initial 30km section of the Tokyo Joban commuter line between Ayase and Toride in 2021 (Cuenca, 2021).
+\emph{EAST Japan Railway (JR East)} has announced plans to start automatic train operation (ATO) on an initial 30km section of the Tokyo Joban commuter line between Ayase and Toride in 2021 (Cuenca, 2021). In early 2022, on Tokyo's Yamanote loop, an automated commuter train (running through 34 stations) has been tested without passengers and showed an energy reduction of 12\%. Further two months of testing will start in October and are expected to conclude in 2023 before starting improvements on train cars in the same year. EAST Japan Railway plans to implement trains in 2028 (Augusteijn, 2022).
 
-\emph{China Railway Corporation} is developing a train control system that will allow Fuxing high-speed trains to run automatically at speeds of up to 350 km per hour. The automated trains are scheduled to enter service in 2022 ahead of the opening of the Winter Olympics (China Plus, 2019).
+\emph{China Railway Corporation} is developing a train control system that will allow Fuxing high-speed trains to run automatically at speeds of up to 350 km per hour. The automated trains are scheduled to enter service in 2022 ahead of the opening of the Winter Olympics (China Plus, 2019). On 24th April 2022 the train was operated for the first time with its new technology verification platform for high speed EMU (electric multiple units) and reached a new world record breaking a relative crossing speed of 870km/h (single-train speed of 435km/h) on an open track section in China (Zheng, 2022).
 
-With its smartrail 4.0, the \emph{Swiss railway SBB} is only aiming for the GoA2 automation level. The ATO assistance system developed and tested by SBB is based on the European safety standard ETCS (SBB, n.d.). The train manufacturer Bombardier wants to put the first autonomous trains on the rails in long-distance transport in 2025. On closed lines, self-driving rail vehicles have already existed since the 1980s, for example in suburban and underground trains. On open tracks, however, the demands on the technology are much higher because it has to detect signals and obstacles such as fallen trees or animals without any doubt. However, development is progressing. Oz Ural (head of digital at Bombardier Transportation in Berlin) says: ``\emph{Most of the technology is already there and tests are already being carried out. What is still missing for the use of autonomous trains on open tracks is the legal framework and public acceptance.}'' (Schwär, 2020).
+With its smartrail 4.0, the \emph{Swiss railway SBB} is only aiming for the GoA2 automation level. The ATO assistance system developed and tested by SBB is based on the European safety standard ETCS (SBB, n.d.). The train manufacturer Bombardier wants to put the first autonomous trains on the rails in long-distance transport in 2025. On closed lines, self-driving rail vehicles have already existed since the 1980s, for example in suburban and underground trains. On open tracks, however, the demands on the technology are much higher because it has to detect signals and obstacles such as fallen trees or animals without any doubt. However, development is progressing. Oz Ural (head of digital at Bombardier Transportation in Berlin) says: ``\emph{Most of the technology is already there and tests are already being carried out. What is still missing for the use of autonomous trains on open tracks is the legal framework and public acceptance.}'' (Schwär, 2020). Nevertheless, at the end of 2020, the BAV (federal office of transport in Switzerland) gave instruction to put projects like ATO (that run under the smartrail 4.0 program) on hold. The Swiss Railway SBB did not continue further steps towards ATO. The key factor for such decision is that European system, when compared to international ATO systems, is mostly run under ``mixed operations'', while other systems (e.g.~Japan) use separate rails for fast and slow trains (Fischer, 2020).
 
 The automated trains operated by the company Rio Tinto have already covered 1 million kilometres autonomously in Western Australia in 2018. The network is the world's first autonomous heavy haul transport over long distances by rail. Rio Tinto operates about 200 locomotives on more than 1,700 kilometres of track in the Pilbara, transporting ore from 16 mines to four port terminals. Locomotives with AutoHaul software are equipped with on-board cameras that enable constant monitoring by the operations centre. All public level crossings on the network are equipped with CCTV cameras and have been upgraded to the highest safety standards (Rio Tinto Group, 2018).
 
@@ -8066,7 +8112,7 @@ The automated trains operated by the company Rio Tinto have already covered 1 mi
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-33}}
 \addcontentsline{toc}{subsection}{Relevant initiatives in Austria}
 
-The Digital Automatic Coupling (DAK) is a pioneering innovation in European rail freight transport. It not only enables largely automated coupling for the first time, but also creates the conditions for the automation and digitalisation of rail freight transport in Europe and is, thus, regarded as an important step towards increasing its attractiveness and productivity.
+The Digital Automatic Coupling (DAK) is a pioneering innovation in European rail freight transport. It not only enables largely automated coupling for the first time, but also creates the conditions for the automation and digitalisation of rail freight transport in Europe and is, thus, regarded as an important step towards increasing its attractiveness and productivity. In February 2022, DAK was tested the first time in Austria by ÖBB (Austrian Federal Railways) (ÖBB, 2022).
 
 \begin{itemize}
 \tightlist
@@ -8074,7 +8120,7 @@ The Digital Automatic Coupling (DAK) is a pioneering innovation in European rail
   \href{https://presse.oebb.at/de/presseinformationen/20200908-oebb-fokus-auf-digitaler-automatischer-kupplung-im-gueterverkehr}{DAK}
 \end{itemize}
 
-Currently, about 300 km of ETCS Level 2 are in operation in Austria. In three implementation phases, the ETCS network is to be extended to 3,700 km of ETCS Level 2. From 2025, only railways that can operate with this standard will be allowed to use it.
+Currently, about 300 km of ETCS Level 2 are in operation in Austria. In three implementation phases, the ETCS network is to be extended to 3,700 km of ETCS Level 2. From 2025, only railways that can operate with this standard will be allowed to use it. The current national program runs until 2026 including all main routes, followed by more detailed programs running until 2030 and 2038.
 
 \begin{itemize}
 \tightlist
@@ -8082,7 +8128,7 @@ Currently, about 300 km of ETCS Level 2 are in operation in Austria. In three im
   \href{https://infrastruktur.oebb.at/de/geschaeftspartner/schienennetz/dokumente-und-daten/etcs-zugbeeinflussung/etcs-ausbau}{ETCS in Austria}
 \end{itemize}
 
-From 2025, driverless metro trains are to run on the new U5 line in Vienna.
+From 2025, driverless metro trains are to run on the new U5 line in Vienna. In 2022 the U2/U5 station Volkstheater was the first to be equipped with automatic platform doors, which is a mandatory safety measure to run a driverless train in Vienna (Krassay, 2022).
 
 \begin{itemize}
 \tightlist
@@ -8099,6 +8145,8 @@ In the climate fund project AutoBahn2020, researchers from the FH Upper Austria 
   \href{https://www.derstandard.at/story/2000106941938/es-faehrt-ein-zug-ganz-fahrerlos}{Derstandard.at}
 \item
   \href{https://www.unsereoebb.at/de/artikel/2019/automatisierter-bahnbetrieb}{Automatic trains}
+\item
+  \href{https://forschung.fh-ooe.at/bahnautomatisierung-und-verkehrstelematik/projekte/autobahn2020/}{FH Oberösterreich}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-33}{%
@@ -8166,6 +8214,10 @@ TRL & SRL \\
 \begin{itemize}
 \tightlist
 \item
+  AtoS (2022). Atos and Noia join forces to enhance businesses' ditital applications with full private 4/5G networks services. Available at: \url{https://atos.net/en/2022/press-release_2022_02_24/atos-and-nokia-join-forces-to-enhance-businesses-digital-applications-with-full-private-4-5g-networks-services} {[}Accessed: 27th August 2022{]}
+\item
+  Augusteijn, N. (2022). East Japan Railway plans trial runs with automated commuter train. Available at: \url{https://www.railtech.com/rolling-stock/2022/05/12/east-japan-railway-plans-trial-runs-with-automated-commuter-train/?gdpr=accept} {[}Accessed: 27th August 2022{]}
+\item
   Briginshaw, D. (2019, December 12). DB appoints Nokia to develop 5G network for automatic operation \textbar{} International Railway Journal. \url{https://www.railjournal.com/infrastructure/db-appoints-nokia-to-develop-5g-network-for-automatic-operation/}
 \item
   Castagnetti, F., Toubol, A., \& Rizzi, G. (2016). C4R Project Increases Rail Capacity without Laying Down New Tracks. Transportation Research Procedia, 14, 672--678. \url{https://doi.org/10.1016/j.trpro.2016.05.329}
@@ -8178,25 +8230,33 @@ TRL & SRL \\
 \item
   Dong, H., Ning, B., Cai, B., \& Hou, Z. (2010). Automatic Train Control System Development and Simulation for High-Speed Railways. IEEE Circuits and Systems Magazine, 10(2), 6--18. \url{https://doi.org/10.1109/MCAS.2010.936782}
 \item
+  Fischer, M. (2020). Smartrail 4.0: Utopie und Realität -- BAV pfeift Bahnen zurück. SEV. Available at: \url{https://sev-online.ch/de/aktuell/kontakt.sev/2020/utopie-und-realitt-202019-35343/} {[}Accessed: 28 August 2022{]}
+\item
   Fraszczyk, A., \& Mulley, C. (2017). Public Perception of and Attitude to Driverless Train: A Case Study of Sydney, Australia. Urban Rail Transit, 3(2), 100--111. \url{https://doi.org/10.1007/s40864-017-0052-6}
 \item
   Global Railway Review. (2020, November 24). Siemens Mobility and partners to study automated rail operations. \url{https://www.globalrailwayreview.com/news/114422/siemens-mobility-partners-automated-rail-operations/}
 \item
   He, D., Zou, Z., Chen, Y., Liu, B., Yao, X., \& Shan, S. (2021). Obstacle detection of rail transit based on deep learning. Measurement: Journal of the International Measurement Confederation, 176, 109241. \url{https://doi.org/10.1016/j.measurement.2021.109241}
 \item
+  Krassay, B. (2022). Wien rüstet für die fahrerlose U-Bahn. Die Presse. Available at: \url{https://www.diepresse.com/6176532/wien-ruestet-fuer-die-fahrerlose-u-bahn} {[}Accessed: 28th August 2022{]}
+\item
   Miyatake, M., \& Ko, H. (2010). Optimization of train speed profile for minimum energy consumption. IEEJ Transactions on Electrical and Electronic Engineering, 5(3), 263--269. \url{https://doi.org/10.1002/tee.20528}
 \item
   ÖBB. (n.d.). ETCS Zugbeeinflussung - ÖBB-Infrastruktur AG. Available at: \url{https://infrastruktur.oebb.at/de/geschaeftspartner/schienennetz/dokumente-und-daten/etcs-zugbeeinflussung} {[}Accessed: 14 May 2021{]}
 \item
+  ÖBB (2022). Die Digitale Automatische Kupplung. Available at: \url{https://www.unsereoebb.at/de/dak-22} {[}Accessed: 28 August 2022{]}
+\item
+  ÖBB (2022). Rückblick: Der DAC4EU Demonstratorzug in Österreich. Available at: \url{https://blog.railcargo.com/de/artikel/Der-DAC4EU-Demonstratorzug-in-Oesterreich} {[}Accessed: 28th August 2022{]}
+\item
   Rao, X. (2015). Holistic rail network operation by integration of train automation and traffic management. PhD Thesis, ETH Zurich, 22706.
 \item
-  Rieder, B. (2020). ÖBB: Fokus auf Digitaler Automatischer Kupplung (DAK) im Güterverkehr. Available at: \url{https://presse.oebb.at/de/presseinformationen/20200908-oebb-fokus-auf-digitaler-automatischer-kupplung-im-gueterverkehr} {[}Accessed: 20 Oct 2021{]}
+  Rieder, B. (2020). ÖBB: Fokus auf Digitaler Automatischer Kupplung (DAK) im Güterverkehr. Available at: \url{https://presse.oebb.at/de/presseinformationen/20200908-oebb-fokus-auf-digitaler-automatischer-kupplung-im-gueterverkehr} {[}Accessed: 20th October 2021{]}
 \item
   Rio Tinto Group. (2018, December 28). World-first autonomous trains deployed at Rio Tinto's iron ore operations. \url{https://www.riotinto.com/news/releases/World-first-autonomous-trains-deployed}
 \item
   Sapién, J. C. (2020, May 28). Alstom Wins Prize for World-First: ATO Testing for Regional Trains \textbar{} Railway-News. \url{https://railway-news.com/alstom-wins-german-innovation-prize-ato/}
 \item
-  SBB. (n.d.). Automatic Train Operation (ATO): die innovative Automatisierung \textbar{} SBB. Available at: \url{https://bahninfrastruktur.sbb.ch/de/digitale-bahn/ato.html} {[}Accessed: 5 May 2021{]}
+  SBB. (n.d.). Automatic Train Operation (ATO): die innovative Automatisierung \textbar{} SBB. Available at: \url{https://bahninfrastruktur.sbb.ch/de/digitale-bahn/ato.html} {[}Accessed: 5th May 2021{]}
 \item
   Schwär, H. (2020, July 24). Autonome Züge ab 2025: Wie sich Bombardier zukunftsfit machen will - Business Insider. \url{https://www.businessinsider.de/wirtschaft/mobility/autonome-zuege-ab-2025-und-schnelles-internet-im-abteil-wie-dieser-30-jaehrige-den-zughersteller-bombardier-fit-fuer-die-zukunft-machen-will/}
 \item
@@ -8204,7 +8264,11 @@ TRL & SRL \\
 \item
   Tasler, G., \& Knollmann, V. (2018). Einführung des hochautomatisierten Fahrens -- auf dem Weg zum vollautomatischen Bahnbetrieb. Signal + Draht, 110(6), 6--14.
 \item
+  Thibaut, S. (2022). Alstom takes another step towards Autonomous Train Operation in the Netherlands. Alstom. Available at: \url{https://www.alstom.com/press-releases-news/2022/4/alstom-takes-another-step-towards-autonomous-train-operation-netherlands} {[}Accessed 27th August 2022{]}
+\item
   Yin, J., Tang, T., Yang, L., Xun, J., Huang, Y., \& Gao, Z. (2017). Research and development of automatic train operation for railway transportation systems: A survey. In Transportation Research Part C: Emerging Technologies (Vol. 85, pp.~548--572). Elsevier Ltd.~\url{https://doi.org/10.1016/j.trc.2017.09.009}
+\item
+  Zhen, R. (2022). Running at 435km/h, China's New Fuxing High-speed Train Sets World Record. I Chong Qing. Available at: \url{https://www.ichongqing.info/2022/04/27/run-at-435km-h-chinas-new-fuxing-high-speed-train-sets-world-record/} {[}Accessed: 27th August 2022{]}
 \end{itemize}
 
 \hypertarget{onboard}{%
@@ -8238,7 +8302,7 @@ Advanced driver assistance system is a broad spectrum of technologies that enhan
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{image/adas_level} \caption{Levels of driving automation (Shuttleworth, 2019)}\label{fig:unnamed-chunk-37}
+\includegraphics[width=0.9\linewidth]{image/adas_level} \caption{Levels of driving automation (Shuttleworth, 2019)}\label{fig:unnamed-chunk-38}
 \end{figure}
 
 \hypertarget{key-stakeholders-34}{%
@@ -11361,7 +11425,7 @@ The concept of PRT is more than 50 years old, nevertheless, they are only availa
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.4\linewidth]{image/PRT} \caption{London Heathrow Airport Shuttle (Kraft, 2012)}\label{fig:unnamed-chunk-45}
+\includegraphics[width=0.4\linewidth]{image/PRT} \caption{London Heathrow Airport Shuttle (Kraft, 2012)}\label{fig:unnamed-chunk-46}
 \end{figure}
 
 The reasons for such a limited appearance are scare technical capabilities and scalability of PRT systems along with high capital and operating costs (Furman et al., 2014, p.~36).
@@ -12189,7 +12253,7 @@ From 1G to 5G, the meaning of the mobile radio standards (year of introduction, 
 Two major standards for vehicular communications, in the allocated 5.9 GHz frequency band, have developed in recent years (Figure 12.1). One is the Dedicated Short-Range Communications (DSRC) protocol developed in the USA, and another one is the Intelligent Transportation System (ITS) G5 protocol developed by the European Telecommunications Standards Institute (ETSI). These standards are based on the IEEE 802.11p access layer, which was developed for vehicular networks (Mannoni et al., 2019). DSCR (IEEE 802.11p) is referred to as ITS-G5 in Europe, which has been well researched for 20 years and has reached sufficient technical maturity for current use. Despite the 2011 recommendation to use the IEEE 802.11p protocol as the standard for vehicular communications (IEEE, 2014), in recent years many researchers and industrial companies have considered the use of the LTE cellular network as an alternative solution for vehicular networking applications, especially for the transport of Floating Car Data FCD message streams (Salvo et al., 2017). But even though Cellular vehicle to everything (C-V2X) is a rather new technology, it is based on the 3rd Generation Partnership Project (3GPP) family of standards that are successfully deployed in almost all parts of the world (Sattiraju et al., 2020) (first trials in late 2017 (Fillenberg, 2017)).
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/DSRC} \caption{DSRC and C-V2X (Autocrypt, 2021)}\label{fig:unnamed-chunk-48}
+\includegraphics[width=0.6\linewidth]{image/DSRC} \caption{DSRC and C-V2X (Autocrypt, 2021)}\label{fig:unnamed-chunk-49}
 \end{figure}
 
 The term ``\emph{cellular}'' in C-V2X can cause some confusion. ``\emph{Cellular}'' in this context does not refer to the use of cellular networks, but to the use of the underlying electronics in cellular radios that are adapted to communicate directly from one radio to another. According to (Gettman, 2020), the following are the main similarities and differences between DSRC and C-V2X technology:
@@ -12483,7 +12547,7 @@ Further, an important part of Big Data is its life cycle, also called the inform
 Further, Djahel et al., (2014) proposed big data life cycle with respect to traffic management systems (TMS) as visualised in Figure 12.2.
 
 \begin{figure}
-\includegraphics[width=0.75\linewidth]{image/BDLC} \caption{Big Data lifecycle in smart transportation (Djahel et al., 2014)}\label{fig:unnamed-chunk-50}
+\includegraphics[width=0.75\linewidth]{image/BDLC} \caption{Big Data lifecycle in smart transportation (Djahel et al., 2014)}\label{fig:unnamed-chunk-51}
 \end{figure}
 
 In the first phase \emph{Data Sensing and Gathering (DSG)} the traffic data is monitored and collected, providing information about traffic volumes, incidents, occupancy or speed. Gathered data later feeds into the second phase \emph{Data Fusion, Processing and Aggregation} where the relevant information is extracted from raw data. Next, in the third phase \emph{Data Exploitation} the processed data is used to compute optimal routes, provide forcasts and obtain traffic statistics. Lastly, in the \emph{Service Delivery} phase, the TMS shares the knowledge with the end users such as drivers, authorities or passengers through the variety of
@@ -13236,7 +13300,7 @@ In terms of general system functioning, a study by Fishman et al., (2014) shows 
 Public bike-share systems are one of the world's fastest growing public transport modes, with an average annual growth of 37\% since 2009. The fastest increase takes place in China, a country that is experiencing a rapid uptake of electric bicycles (e-bikes). Sales of e-bikes are outpacing all other motorized modes. The figure 14.1 shows the rapid growth of the two emerging technologies, e-bikes and bike-share systems (Campbell et al., 2016).
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/bike_sharing} \caption{Growth in personal e-bike and public bikeshare systems (Campbell et al., 2016)}\label{fig:unnamed-chunk-55}
+\includegraphics[width=0.6\linewidth]{image/bike_sharing} \caption{Growth in personal e-bike and public bikeshare systems (Campbell et al., 2016)}\label{fig:unnamed-chunk-56}
 \end{figure}
 
 Private BSS operators from China (\emph{Mobike, Ofo}) and Shanghai (\emph{oBike}) are currently introducing large fleets of station-less rental bikes in cities worldwide. The roll-out, especially in European cities, has encountered problems as city governments have not been able to coordinate the introduction (Zademach and Musch, 2018). Many bikes have been found abandoned around the cities. In addition, there are fears in some cases that the private companies introduced the BSS with the sole reason of tapping into private user data (Schöffel et al., 2017).
@@ -14050,7 +14114,7 @@ Hydrogen in transport is only at the beginning of its development (in 2013 the f
 In terms of the number of hydrogen refuelling stations (HRS) worldwide, just about 375 stations are in operation in 2018, compared to 320 in 2017. Most of these are publicly available, the rest are demonstration/research projects and are used to supply hydrogen to private fleets. At the end of 2018, Europe was the region with the most HRS in operation with more than 170 HRS, while Asia (mainly Japan) was second with about 130 HRS and America (mainly the US) third with more than 70 stations installed. Figure below shows the number of HRS by country at the end of 2018 (Apostolou and Xydis, 2019):
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/hydrogen_refuel} \caption{Number of hydrogen refuelling stations worldwide (Apostolou and Xydis, 2019)}\label{fig:unnamed-chunk-56}
+\includegraphics[width=0.6\linewidth]{image/hydrogen_refuel} \caption{Number of hydrogen refuelling stations worldwide (Apostolou and Xydis, 2019)}\label{fig:unnamed-chunk-57}
 \end{figure}
 
 The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H., 2019; Alvarez-Meaza et al., 2020). Hydrogen trucks are produced by Hyundai and Hyzon and have already been implemented in Switzerland and the Netherlands in 2021. The Xcient is the world's first mass-produced fuel cell electric truck with a range of 400 km and a charging of about 15 minutes. The American brand Hyzon Motors plans 100,000 trucks by 2030 for Europe.

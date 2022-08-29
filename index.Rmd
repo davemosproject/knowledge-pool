@@ -13,20 +13,20 @@ description: "This is a work-in-progress knowledge pool of the systemic impact o
 
 # Welcome {-}
 
-```{r, echo=FALSE, out.width="40%"}
+```{r, echo=FALSE, out.width="25%"}
 knitr::include_graphics("image/davemos_logo.png")
 ```
 
 Knowledge pool is a continuously developing database, which is a part of the [DAVeMoS](https://www.davemos.online/){target="_blank"} project. It aims at gathering concepts and evidence of the systemic impact of transport digitalisation and automation. It is a collaborative effort of DAVeMoS team members who contributed with their expertise, ideas and improvement suggestions regarding the content and design:
 
-- Dr. Msc. MA (Hons) Martyna Bogacz
+- Dr. Martyna Fidler
 - B.Sc. Gregor Husner
 - B.Sc. Veronika Hebenstreit
 - B.Sc. Eva-Maria Unger
 - Univ. Prof. Dr. Yusak Susilo
 
 
-The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Bogacz on the following email address: davemos.library@boku.ac.at. <br/>
+The authors welcome any feedback, questions and contributions that the readers may have. For further inputs please contact the corresponding author Martyna Fidler on the following email address: davemos.library@boku.ac.at. <br/>
 
 **Legal disclaimers**
 
