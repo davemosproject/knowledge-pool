@@ -8,4 +8,4 @@ This is a *continuously developing* database, which is a part of [DAVeMOS](https
 For further inputs please contact the corresponding author *Martyna Fidler* on the following email address: davemos.library@boku.ac.at <br/>
 
 
-This work was inspired by the Afrimap book: https://afrimapr.github.io/afrimapr-book/ and Bookdown: https://bookdown.org/ 
+This work uses bookdown package to build: https://bookdown.org/ 
