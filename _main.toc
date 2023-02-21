@@ -196,25 +196,25 @@
 \contentsline {subsection}{Definition}{112}{section*.176}%
 \contentsline {subsection}{Key stakeholders}{113}{section*.177}%
 \contentsline {subsection}{Current state of art in research}{113}{section*.178}%
-\contentsline {subsection}{Current state of art in practice}{113}{section*.179}%
-\contentsline {subsection}{Relevant initiatives in Austria}{114}{section*.180}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{114}{section*.181}%
+\contentsline {subsection}{Current state of art in practice}{114}{section*.179}%
+\contentsline {subsection}{Relevant initiatives in Austria}{115}{section*.180}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{115}{section*.181}%
 \contentsline {subsection}{Technology and societal readiness level}{115}{section*.182}%
-\contentsline {subsection}{Open questions}{115}{section*.183}%
-\contentsline {subsection}{Further links}{115}{section*.184}%
-\contentsline {subsection}{References}{115}{section*.185}%
-\contentsline {section}{\numberline {4.9}Urban access management}{116}{section.4.9}%
-\contentsline {subsection}{Synonyms}{116}{section*.186}%
-\contentsline {subsection}{Definition}{116}{section*.187}%
+\contentsline {subsection}{Open questions}{116}{section*.183}%
+\contentsline {subsection}{Further links}{116}{section*.184}%
+\contentsline {subsection}{References}{116}{section*.185}%
+\contentsline {section}{\numberline {4.9}Urban access management}{117}{section.4.9}%
+\contentsline {subsection}{Synonyms}{117}{section*.186}%
+\contentsline {subsection}{Definition}{117}{section*.187}%
 \contentsline {subsection}{Key stakeholders}{118}{section*.188}%
-\contentsline {subsection}{Current state of art in research}{118}{section*.189}%
-\contentsline {subsection}{Current state of art in practice}{118}{section*.190}%
-\contentsline {subsection}{Relevant initiatives in Austria}{118}{section*.191}%
-\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{118}{section*.192}%
-\contentsline {subsection}{Technology and societal readiness level}{119}{section*.193}%
-\contentsline {subsection}{Open questions}{120}{section*.194}%
-\contentsline {subsection}{Further links}{120}{section*.195}%
-\contentsline {subsection}{References}{120}{section*.196}%
+\contentsline {subsection}{Current state of art in research}{119}{section*.189}%
+\contentsline {subsection}{Current state of art in practice}{119}{section*.190}%
+\contentsline {subsection}{Relevant initiatives in Austria}{119}{section*.191}%
+\contentsline {subsection}{Impacts with respect to Sustainable Development Goals (SDGs)}{120}{section*.192}%
+\contentsline {subsection}{Technology and societal readiness level}{120}{section*.193}%
+\contentsline {subsection}{Open questions}{121}{section*.194}%
+\contentsline {subsection}{Further links}{121}{section*.195}%
+\contentsline {subsection}{References}{121}{section*.196}%
 \contentsline {chapter}{\numberline {5}Digital road infrastructure and connectivity}{123}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Vehicle to everything communication}{123}{section.5.1}%
 \contentsline {subsection}{Synonyms}{123}{section*.197}%
