@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.2.22)  21 FEB 2023 13:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.2.22)  24 MAR 2023 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1499,6 +1499,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 595--596
 ]
 Chapter 2.
 [21] [22]
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
+
+Overfull \hbox (54.37231pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.1.  DEDICATED LANES FOR CONNECTED AND AUTOMATED VEHICLES (CAV
+) \TU/lmr/m/n/10 23
+ []
+
+[23]
 Overfull \hbox (4.08986pt too wide) in paragraph at lines 684--684
  []|\TU/lmr/m/n/10 Environmental 
  []
@@ -1508,27 +1517,11 @@ Overfull \hbox (4.08986pt too wide) in paragraph at lines 687--687
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-
-Overfull \hbox (54.37231pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.1.  DEDICATED LANES FOR CONNECTED AND AUTOMATED VEHICLES (CAV
-) \TU/lmr/m/n/10 23
- []
-
-[23] [24]
-Underfull \hbox (badness 1122) in paragraph at lines 772--774
-[]\TU/lmr/m/n/10 Krisher, T., & Eggert, D. (14 Aug 2020). Michigan plans ded-
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 772--774
-\TU/lmr/m/n/10 icated road lanes for autonomous vehicles. Available at: []$[][]
-[][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 772--774
-[] [] [][][][][][][] [] [][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][
-][][] [] [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][] [][]
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 765--767
+[] [] [][][][][][][] [] [][][] [] [] [][] [][][][][][][] [][] [][][][][] [][] [
+][] [][] [][][][][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][] [][] 
+[][][][][][]$[]
  []
 
 
@@ -1538,239 +1531,266 @@ Overfull \hbox (54.37231pt too wide) has occurred while \output is active
  []
 
 [25]
-Underfull \hbox (badness 1092) in paragraph at lines 784--786
+Underfull \hbox (badness 1122) in paragraph at lines 775--777
+[]\TU/lmr/m/n/10 Krisher, T., & Eggert, D. (14 Aug 2020). Michigan plans ded-
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 775--777
+\TU/lmr/m/n/10 icated road lanes for autonomous vehicles. Available at: []$[][]
+[][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--777
+[] [] [][][][][][][] [] [][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][
+][][] [] [][][][][][][][] [][] [][][][][] [][] [][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 789--792
 []\TU/lmr/m/n/10 Syncedreview.com (31 Aug 2020). Beijing Builds 100km Highway
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 784--786
+Underfull \hbox (badness 10000) in paragraph at lines 789--792
 []$[][][][][] [] [] [] [][][][][][][][][][][][] [] [][][] [] [][][][] [] [][] [
 ] [][] [] [][][][][][][] [][] [][][][][][] [][] [][][][][] [][] [][][][][][][] 
 [][]
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 784--786
+Underfull \hbox (badness 2261) in paragraph at lines 789--792
 [][][][][] [][] [][][] [][] [][][][] [][] [][][][][][][] [][] [][][][] [][] [][
 ][][] [][] [][][][][][][][] [][] [][][][][][][][][][][][]$[] \TU/lmr/m/n/10 [Ac
 cessed: 12
  []
 
+[26]
+Underfull \hbox (badness 1259) in paragraph at lines 798--800
+\TU/lmr/m/n/10 icated lanes for connected and autonomous buses in urban trans-
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[26] [27]
-Underfull \hbox (badness 2941) in paragraph at lines 889--890
+Underfull \hbox (badness 1072) in paragraph at lines 798--800
+\TU/lmr/m/n/10 portation networks. Transportmetrica A: Transport Science, DOI:
+ []
+
+[27] [28]
+Underfull \hbox (badness 2941) in paragraph at lines 899--900
 []\TU/lmr/bx/n/10 Responsible\TU/lmr/m/n/10 : Council authorities, Car manufact
 urers, Insurance
  []
 
-[28] [29]
-Underfull \hbox (badness 2486) in paragraph at lines 978--980
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 992--994
+[][][][][][][][][][][] [] [][] [] [][][][][] [] [][][][][][][][][][][][][] [] [
+][][][][] [][] [][][][][][][] [][] [][][][][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 994--996
 \TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][][][] [][] [][][][][] [] [][][][
 ][][] [] [][][] [] [][][] [][] [][] [][] [][][][][][][][][][] [][] [][][][] [][
 ] [][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--980
+Underfull \hbox (badness 10000) in paragraph at lines 994--996
 [][][][][][] [][] [][][][][][][] [][] [][][] [][] [][][][][] [][] [][][][] [][]
  [][][][] [][] [][][] [][] [][][][] [][] [][][] [][] [][][][][][][][][][][][]$[
 ] \TU/lmr/m/n/10 [Ac-
  []
 
-[30] [31] [32] [33] [34]
-Underfull \hbox (badness 3029) in paragraph at lines 1091--1092
+[31] [32] [33] [34] [35]
+Underfull \hbox (badness 3029) in paragraph at lines 1113--1114
 \TU/lmr/m/n/10 Agencies, Railway companies, Rail Equipment and Infrastructure
  []
 
-[35] [36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1257
+[36] [37] [38] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1279
 [][][] [] [][] [] [][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][] 
 [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][] []
  []
 
-[39]
-Underfull \hbox (badness 2790) in paragraph at lines 1275--1277
+
+Underfull \hbox (badness 2790) in paragraph at lines 1297--1299
 []\TU/lmr/m/n/10 mermecgroup. (n.d.). Level Crossing Obstacle Detection Sys-
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 1275--1277
+Underfull \hbox (badness 3590) in paragraph at lines 1297--1299
 \TU/lmr/m/n/10 tem. Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][]
 [][][][][] [] [][][] [] [][][][][][][] [] [][][][][] [][]
  []
 
-
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
-[40] [41] [42]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 1392--1392
+[41] [42] [43] [44]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 1414--1414
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[44]
-Underfull \hbox (badness 1377) in paragraph at lines 1472--1474
+[45] [46]
+Underfull \hbox (badness 1377) in paragraph at lines 1494--1496
 \TU/lmr/m/n/10 BBC News. Available at: []$[][][][][] [] [] [] [][][] [] [][][] 
 [] [][][] [] [][][][] [] [][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1482--1483
+Underfull \hbox (badness 10000) in paragraph at lines 1504--1505
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] []
 [][][] [] [][][][][][][] [][] [][][][][] [][] [][][][][] [][] [][][][][][][][] 
 [][]
  []
 
-[45] [46] [47]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 1579--1579
+[47]
+Underfull \vbox (badness 2698) has occurred while \output is active []
+
+[48] [49]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 1601--1601
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[48] [49]
-Underfull \hbox (badness 1072) in paragraph at lines 1650--1652
+[50] [51]
+Underfull \hbox (badness 1072) in paragraph at lines 1672--1674
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1652--1654
+Underfull \hbox (badness 10000) in paragraph at lines 1674--1676
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][] [] [][][][][][][]
 [][][][][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][] [] [][][][][
 ] []
  []
 
-[50]
-Underfull \hbox (badness 5862) in paragraph at lines 1658--1660
+
+Underfull \hbox (badness 5862) in paragraph at lines 1680--1682
 \TU/lmr/m/n/10 able at: []$[][][][] [] [] [] [][][] [] [][][] [] [][][][][] [] 
 [][] [] [][] [] [][][][][][][][] [] [][][][][][][] [] [][][][][][][] [] [][][][
 ][][] []
  []
 
-[51] [52]
+
+Underfull \vbox (badness 2150) has occurred while \output is active []
+
+[52] [53] [54]
 File: image/pt_priority_system.jpg Graphic file (type bmp)
 <image/pt_priority_system.jpg>
-[53]
-Overfull \hbox (1.71985pt too wide) in paragraph at lines 1766--1767
+
+Overfull \hbox (1.71985pt too wide) in paragraph at lines 1788--1789
  []|\TU/lmr/m/n/10 Schwendinger, 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 1767--1767
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 1789--1789
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[54] [55]
-Underfull \hbox (badness 10000) in paragraph at lines 1838--1840
+[55] [56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1860--1862
 [][][][][][][][][][][][][] [][] [][][][][][][][][][] [] [][][][][][][] [][] [][
 ][][] [][] [][][] [][] [][][][][][][][][][][][][] [][] [][][][][][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
 [][] [] [][][][][][][][] [] [][] [] [][][][][][][][][][][] [] [][] [] [][][][][
 ][][][][][] [] [][][][][][][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1841
+Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
 [][][][][][][][][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][][][
 ][][][][][][][][][][][][][][][] [] [][][][]$[]
  []
 
-[56]
-Overfull \hbox (8.46344pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.7.  TRANSFORMATION OF PUBLIC SPACE AND DIGITAL SOLUTIONS \TU/
-lmr/m/n/10 57
- []
-
-[57] [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[58]
 Overfull \hbox (8.46344pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.7.  TRANSFORMATION OF PUBLIC SPACE AND DIGITAL SOLUTIONS \TU/
 lmr/m/n/10 59
  []
 
-[59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[60]
-Underfull \hbox (badness 3861) in paragraph at lines 2017--2019
-[]\TU/lmr/m/n/10 Barns, S. (2017) Surprise! Digital space isn’t replacing pub-
- []
-
-
-Underfull \hbox (badness 2600) in paragraph at lines 2017--2019
-\TU/lmr/m/n/10 lic space, and might even help make it better. Available at:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2017--2019
-[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][]
-[][] [][] [][][][][][][] [][] [][][][][] [][] [][][][] [][] [][][][][][][][][] 
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2017--2019
-[][][][][][] [][] [][][][][] [][] [][][] [][] [][][][][] [][] [][][][] [][] [][
-][][] [][] [][][][] [][] [][] [][] [][][][][][] [][] [][][][][]$[] \TU/lmr/m/n/
-10 [Accessed:
- []
-
-
+[59] [60]
 Overfull \hbox (8.46344pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.7.  TRANSFORMATION OF PUBLIC SPACE AND DIGITAL SOLUTIONS \TU/
 lmr/m/n/10 61
  []
 
 [61]
-Underfull \hbox (badness 3375) in paragraph at lines 2021--2023
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[62]
+Underfull \hbox (badness 3861) in paragraph at lines 2039--2041
+[]\TU/lmr/m/n/10 Barns, S. (2017) Surprise! Digital space isn’t replacing pub-
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 2039--2041
+\TU/lmr/m/n/10 lic space, and might even help make it better. Available at:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][]
+[][] [][] [][][][][][][] [][] [][][][][] [][] [][][][] [][] [][][][][][][][][] 
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2039--2041
+[][][][][][] [][] [][][][][] [][] [][][] [][] [][][][][] [][] [][][][] [][] [][
+][][] [][] [][][][] [][] [][] [][] [][][][][][] [][] [][][][][]$[] \TU/lmr/m/n/
+10 [Accessed:
+ []
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 2043--2045
 []\TU/lmr/m/n/10 Durand, A. & Zijlstra, T. (2020). The impact of digitalisa-
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 2021--2023
+Underfull \hbox (badness 4378) in paragraph at lines 2043--2045
 \TU/lmr/m/n/10 tion on the access to transport services: a literature review.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2031
+Overfull \hbox (8.46344pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 2.7.  TRANSFORMATION OF PUBLIC SPACE AND DIGITAL SOLUTIONS \TU/
+lmr/m/n/10 63
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 2051--2053
 []$[][][][][] [] [] [] [][][][] [] [][][] [][] [][][][][][][][][] [] [][][] [] 
 [][][][] [] [][][][][] [] [][][][][][][][] [][] [][][][] [][] [][][][] [][] [][
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2031
+Underfull \hbox (badness 10000) in paragraph at lines 2051--2053
 [][][][][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [] [][][][][][
 ][][][][][][][][] [] [][][][][][] [] [] [] [][][][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 \TU/lmr/m/n/10 able at: []$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][]
 [][][][][][][][][][][][] [] [][][][][][] [][] [][][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2035--2036
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 [][] [][] [][][][][][] [][] [][][][][][][] [][] [][][] [][] [][][][][][] [][] [
 ][][][][][] [][] [][][][][][][] [][] [][][] [][] [][][][][][][] [][] [][][][][]
 [] [][] [][][][][] [][]
  []
 
-[62]
+[64]
 Chapter 3.
-[63
+[65
 
-] [64]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 2116--2116
+] [66]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 2138--2138
  []|\TU/lmr/m/n/10 Environmental 
  []
 
@@ -1780,231 +1800,231 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \hbox (45.0545pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.1.  UNMANNED AERIAL VEHICLES FOR INFRASTRUCTURE MAINTENANCE \
-TU/lmr/m/n/10 65
+TU/lmr/m/n/10 67
  []
 
-[65] [66] [67] [68] [69]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 2301--2301
+[67] [68] [69] [70] [71]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 2323--2323
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[70] [71]
-Underfull \hbox (badness 10000) in paragraph at lines 2364--2366
+[72] [73]
+Underfull \hbox (badness 10000) in paragraph at lines 2386--2388
 [][][][][][] [] [][][][][][][][][][] [][] [][][][][][] [] [] [] [] [] [][][][] 
 [] [][][][][] [] [][][][][] [] [][][][][][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 2364--2366
+Underfull \hbox (badness 2828) in paragraph at lines 2386--2388
 [][][][][][][] [][] [][][][][][][][] [] [][][][] [] [][][][][][][][][][][] [] [
 ][][][][] [] []$[] \TU/lmr/m/n/10 [Accessed: 26 March
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2380--2382
+Underfull \hbox (badness 10000) in paragraph at lines 2402--2404
 [][] [] [][][][][] [][] [][][][][][][] [] [][][][] [][] [][][][][] [] [][][][][
 ] [][] [][][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][][][][][][] [][]
  []
 
-[72]
+[74]
 Chapter 4.
-[73
+[75
 
-] [74] [75]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 2486--2486
+] [76] [77]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 2508--2508
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[76] [77]
-Underfull \hbox (badness 1297) in paragraph at lines 2578--2580
+[78] [79]
+Underfull \hbox (badness 1297) in paragraph at lines 2600--2602
 \TU/lmr/m/n/10 tions.eu. Available at: []$[][][][][] [] [] [] [][][][][][][][][
 ][][][][][][][][][][][][][] [] [][] [] [][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2584--2586
+Underfull \hbox (badness 10000) in paragraph at lines 2606--2608
 [][][] [] [][][][][][] [] [][][][][] [] [][][][][][][][] [] [][][][][][][][] []
  [][][][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][] [][]
  []
 
-[78] [79] [80] [81]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 2698--2698
+[80] [81] [82] [83]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 2720--2720
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (4.42513pt too wide) in paragraph at lines 2700--2700
+Overfull \hbox (4.42513pt too wide) in paragraph at lines 2722--2722
  []|\TU/lmr/m/n/10 Transnational 
  []
 
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 2757--2759
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 2779--2781
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
 [][] [] [][] [] [][][][] [] [][][][][][][][][][] [][] [][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 2769--2771
+Underfull \hbox (badness 1406) in paragraph at lines 2791--2793
 []\TU/lmr/m/n/10 RIS (2022). Gesamte Rechtsvorschrift für Automatisiertes Fahre
 n
  []
 
-[83] [84]
+[85] [86]
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
-[85] [86] [87]
-Underfull \hbox (badness 1642) in paragraph at lines 2956--2958
+[87] [88] [89]
+Underfull \hbox (badness 1642) in paragraph at lines 2978--2980
 []\TU/lmr/m/n/10 ASFINAG. (nd.). ASFINAG Services: ASFINAG Verkehrsdaten.
  []
 
 
 Underfull \vbox (badness 2359) has occurred while \output is active []
 
-[88]
-Underfull \hbox (badness 2653) in paragraph at lines 2960--2962
+[90]
+Underfull \hbox (badness 2653) in paragraph at lines 2982--2984
 \TU/lmr/m/n/10 für das Verkehrsmanagement des hochrangigen Straßenverkehrsnet-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 2960--2962
+Underfull \hbox (badness 2547) in paragraph at lines 2982--2984
 \TU/lmr/m/n/10 zes in Österreich (VMIS 2.0) errichtet. | EBP | Deutschland.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2960--2962
+Underfull \hbox (badness 10000) in paragraph at lines 2982--2984
 []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][] [] [][][][][][][][] [] 
 [][] [][] [][][][][][][] [][] [][][] [][] [][][][][][][] [][] [][][][] [][] [][
 ][] [][]
  []
 
 
-Package natbib Warning: Citation `ASFINAG' on page 89 undefined on input line 2
-976.
+Package natbib Warning: Citation `ASFINAG' on page 91 undefined on input line 2
+998.
 
-[89] [90] [91] [92] [93]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 3162--3162
+[91] [92] [93] [94] [95]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 3184--3184
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (7.75513pt too wide) in paragraph at lines 3164--3164
+Overfull \hbox (7.75513pt too wide) in paragraph at lines 3186--3186
  []|\TU/lmr/m/n/10 Collaborations 
  []
 
-[94]
-Underfull \hbox (badness 5022) in paragraph at lines 3218--3220
+[96]
+Underfull \hbox (badness 5022) in paragraph at lines 3240--3242
 []\TU/lmr/m/n/10 ASFINAG (2022). ATTC-Mitglieder zeigten C-ITS Verkehrslö-
  []
 
 
-Underfull \hbox (badness 5460) in paragraph at lines 3218--3220
+Underfull \hbox (badness 5460) in paragraph at lines 3240--3242
 \TU/lmr/m/n/10 sungen in der Autobahnmeisterei Kaisermühlen. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3218--3220
+Underfull \hbox (badness 10000) in paragraph at lines 3240--3242
 []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][]
 [][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3218--3220
+Underfull \hbox (badness 10000) in paragraph at lines 3240--3242
 [][][][][][][][][][] [][] [][][][][][] [][] [] [][] [][][] [][] [][][][][][][][
 ][][][][][][][][][] [][] [][] [][] [][][] [][] [][][][][][][][][][][][][][][][]
 [] [][]
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 3226--3228
+Underfull \hbox (badness 3503) in paragraph at lines 3248--3250
 []\TU/lmr/m/n/10 Choosakun, A., Chaiittipornwong, Y., Yeom, C. (2021). De-
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 3226--3228
+Underfull \hbox (badness 7796) in paragraph at lines 3248--3250
 \TU/lmr/m/n/10 velopment of the Cooperative Intelligent Transport System in
  []
 
 
-Underfull \hbox (badness 3492) in paragraph at lines 3226--3228
+Underfull \hbox (badness 3492) in paragraph at lines 3248--3250
 \TU/lmr/m/n/10 Thailand: A Prospective Approach. Infrastructures, 6(3), 36.
  []
 
-[95]
-Underfull \hbox (badness 1655) in paragraph at lines 3238--3239
+[97]
+Underfull \hbox (badness 1655) in paragraph at lines 3260--3261
 []\TU/lmr/m/n/10 Schüller, K. (2021, June 7). AustriaTech: Mehr Sicherheit auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3238--3239
+Underfull \hbox (badness 10000) in paragraph at lines 3260--3261
 [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][] [] [][][] []
  [][][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][] [][]
  []
 
 File: image/DRS.jpg Graphic file (type bmp)
 <image/DRS.jpg>
-[96] [97] [98] [99]
-Underfull \hbox (badness 10000) in paragraph at lines 3388--3390
+[98] [99] [100] [101]
+Underfull \hbox (badness 10000) in paragraph at lines 3410--3412
 [][][][][][][][][] [] [][][][][][] [] [][][] [] [][][][] [] [][][][][][][][][][
 ][] [] [][][][][] [] [][][][][][][][][] [] [][][][][][][][][][][] [] [][]$[]
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 3406--3408
+Underfull \hbox (badness 1005) in paragraph at lines 3428--3430
 \TU/lmr/m/n/10 manual. Available at: []$[][][][][] [] [] [] [][][] [] [][][][][
 ][][][][][][][][][][][] [] [][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3406--3408
+Underfull \hbox (badness 10000) in paragraph at lines 3428--3430
 [][][][][][][][][][] [] [][][][][] [][] [][][][][][] [][] [][][][] [][] [][][][
 ] [][] [][][][][][] [][] [][][][][][] [][] [][][][][][] [] [][][]$[] \TU/lmr/m/
 n/10 [Ac-
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 3408--3410
+Underfull \hbox (badness 1910) in paragraph at lines 3430--3432
 [][][][] [] [][][][][][][][][][][] [] [][][][][] [] [][][][][][][][][] [] [][][
 ][][][][][][][][] [] [][]$[] \TU/lmr/m/n/10 [Accessed: 22 July
  []
 
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 3412--3414
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 3434--3436
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][] [] [][][][]
 [][][][][] [] [][][][][][][][] [] [][][] [][] [][][][][][][][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3414--3416
+Underfull \hbox (badness 10000) in paragraph at lines 3436--3438
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][
 ] [] [][][] [][] [][][][][] [] [] [] [][][][][][][][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 3418--3420
+Underfull \hbox (badness 2359) in paragraph at lines 3440--3442
 \TU/lmr/m/n/10 ihr beachten. Available at: []$[][][][][] [] [] [] [][][][][][][
 ][][] [] [][][][][][][][] [] [][] [] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3418--3420
+Underfull \hbox (badness 10000) in paragraph at lines 3440--3442
 [][][] [] [][][][][][] [][] [][][][] [][] [][][] [][] [][][][] [][] [][][][][][
 ][][][] [][] [][][] [][] [][][][][][] [][] [][][] [][] [][][][][][][][] [][] []
 [][][][][]$[]\TU/lmr/m/n/10 .
  []
 
-[101]
+[103]
 File: image/dynamic_signage.png Graphic file (type bmp)
 <image/dynamic_signage.png>
 
 Underfull \vbox (badness 7415) has occurred while \output is active []
 
-[102] [103]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 3518--3518
+[104] [105]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 3540--3540
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (12.29501pt too wide) in paragraph at lines 3559--3561
+Overfull \hbox (12.29501pt too wide) in paragraph at lines 3581--3583
 []\TU/lmr/m/n/10 ASFiNAG. (2022). Handlungsfelder. Available at: []$[][][][] []
  [] [] [][][][][][][][][][][][][][][][][][] []
  []
@@ -2012,277 +2032,318 @@ Overfull \hbox (12.29501pt too wide) in paragraph at lines 3559--3561
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[104]
-Overfull \hbox (17.29501pt too wide) in paragraph at lines 3561--3563
+[106]
+Overfull \hbox (17.29501pt too wide) in paragraph at lines 3583--3585
 []\TU/lmr/m/n/10 ASFiNAG. (2019a). Handlungsfelder. Available at: []$[][][][] [
 ] [] [] [][][][][][][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 3563--3565
+Underfull \hbox (badness 4673) in paragraph at lines 3585--3587
 []\TU/lmr/m/n/10 ASFiNAG. (2019b). Verkehrsbeeinflussungsanlagen – Für mehr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3563--3565
+Underfull \hbox (badness 10000) in paragraph at lines 3585--3587
 []$[][][][][] [] [] [] [][][][][][][] [] [][][][][][][][][] [] [][][] [] [][][]
 [][] [] [][][][] [] [][][] [][] [][][][][][][][][][][] [] [][][]$[] \TU/lmr/m/n
 /10 [Ac-
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 3569--3571
+Underfull \hbox (badness 1642) in paragraph at lines 3591--3593
 \TU/lmr/m/n/10 Was C-ITS ist, was es kann und wem es nutzt. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3569--3571
+Underfull \hbox (badness 10000) in paragraph at lines 3591--3593
 []$[][][][][] [] [] [] [][][][] [] [][][][][][][] [] [][] [] [][][][][][][] [][
 ] [][][][][][][][][][] [] [] [][] [][][] [][] [][][][][][][][][] [][] [][][][][
 ] [][]
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 3579--3581
+Underfull \hbox (badness 4254) in paragraph at lines 3601--3603
 \TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][][] [] [
 ][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][]
  [][]
  []
 
-[105]
-Underfull \hbox (badness 2096) in paragraph at lines 3585--3587
+[107]
+Underfull \hbox (badness 2096) in paragraph at lines 3607--3609
 []\TU/lmr/m/n/10 Mobility and Transport | European Commission. (2020). Dy-
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 3585--3587
+Underfull \hbox (badness 3281) in paragraph at lines 3607--3609
 \TU/lmr/m/n/10 namic speed limits. Available at: 2nd December 2020, from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3585--3587
+Underfull \hbox (badness 10000) in paragraph at lines 3607--3609
 []$[][][][][] [] [] [] [][] [] [][][][][][] [] [][] [] [][][][][][][][][] [] []
 [][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3585--3587
+Underfull \hbox (badness 10000) in paragraph at lines 3607--3609
 [][][][][] [] [][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][][
 ][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][] [] [][]$[]
  []
 
-[106] [107] [108]
-Underfull \hbox (badness 7047) in paragraph at lines 3653--3655
+[108] [109] [110]
+Underfull \hbox (badness 7047) in paragraph at lines 3675--3677
 []\TU/lmr/m/n/10 Real Time Hierarchical Optimised Distributed Effective System
  []
 
-[109] [110]
-Underfull \hbox (badness 6741) in paragraph at lines 3763--3765
+[111] [112]
+Underfull \hbox (badness 6741) in paragraph at lines 3785--3787
 \TU/lmr/m/n/10 stadt. Available at: []$[][][][][] [] [] [] [][][] [] [][][][][]
 [][][][][] [] [][] [] [][][][][][][][][][][][] [] [] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3763--3765
+Underfull \hbox (badness 10000) in paragraph at lines 3785--3787
 [][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][][][] [][] [][][][][
 ][] [][] [][] [][] [][][] [][] [][][][][][][][][][][][] [] [][][][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 3775--3777
+Underfull \hbox (badness 4621) in paragraph at lines 3797--3799
 \TU/lmr/m/n/10 paper. []$[][][][][] [] [] [] [][][][][][][][][][][] [] [][][] [
 ] [][][][] [] [][] [] [][] [] [][][][][][][][] [][] [][][][][][][] [][] [][][][
 ][][][] [][]
  []
 
-[111] [112] [113] [114]
+[113] [114] [115] [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[115]
-Underfull \hbox (badness 1845) in paragraph at lines 3971--3973
+[117]
+Underfull \hbox (badness 1845) in paragraph at lines 3993--3995
 []\TU/lmr/m/n/10 Haliem, M., Aggarwal, V., Bhargava, B. (2022). AdaPool: A
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 3971--3973
+Underfull \hbox (badness 3323) in paragraph at lines 3993--3995
 \TU/lmr/m/n/10 Diurnal-Adaptive Fleet Management Framework Using Model-Free
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 3971--3973
+Underfull \hbox (badness 2635) in paragraph at lines 3993--3995
 \TU/lmr/m/n/10 Transaction on Intelligent Transport Systems, 23 (3), 2471-2481.
 
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 3981--3983
+Underfull \hbox (badness 1924) in paragraph at lines 4003--4005
 \TU/lmr/m/n/10 GoodPool: Joint Passengers and Goods Fleet Management With
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3983--3985
+Underfull \hbox (badness 10000) in paragraph at lines 4005--4007
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][]
 [][][][][][] [] [][][][] [][] [][] [][] [][][][][] [][] [][][][][][][][][][]$[]
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3985--3987
+Underfull \hbox (badness 10000) in paragraph at lines 4007--4009
 []$[][][][][] [] [] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][][][] [] []
 [][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][][] [] [][][] [] [][][
 ] []
  []
 
-[116] [117] [118]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 4127--4127
+[118] [119] [120]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 4149--4149
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[119] [120]
-Underfull \hbox (badness 1087) in paragraph at lines 4184--4186
+[121] [122]
+Underfull \hbox (badness 1087) in paragraph at lines 4206--4208
 []\TU/lmr/m/n/10 EIT (2022). Urban Vehicle Access Regulations: From Design to
  []
 
 
-Overfull \hbox (23.53996pt too wide) in paragraph at lines 4184--4186
+Overfull \hbox (23.53996pt too wide) in paragraph at lines 4206--4208
 [][][][][][][][][][][][][][][][] [] [][] [] [][] [][] [][][][][][][] [] [][][][
 ][][][] [] [][][][] [] [][] [] [][][] [][] [][][][][][][][][][][][][][][][][][]
  []
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 4190--4192
+Underfull \hbox (badness 1152) in paragraph at lines 4212--4214
 []\TU/lmr/m/n/10 Kapsch TrafficCom. (n.d. b). Limited Access Zone | Kapsch.
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 4190--4192
+Underfull \hbox (badness 2035) in paragraph at lines 4212--4214
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [
 ][][] [] [][][] [] [][][] [][] [][][][][][][][][] [] [][][][][] [][] [][][][][]
 [] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4198--4200
+Underfull \hbox (badness 10000) in paragraph at lines 4220--4222
 []$[][][][][] [] [] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][] [] 
 [][][][][][][][][] [][] [][][][][][][][] [][] [][][] [] [][][][][][][] [][]
  []
 
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 4204--4206
+[123]
+Underfull \hbox (badness 10000) in paragraph at lines 4226--4228
 [][][] [][] [][][][][][] [][] [][][][][][][][][][][] [][] [][][][][] [][] [][] 
 [][] [][][][][] [][] [][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][]
 []$[] \TU/lmr/m/n/10 [Ac-
  []
 
-[122]
+[124]
 Chapter 5.
-[123
+[125
 
 ]
-Overfull \hbox (17.45563pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 124 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
-CONNECTIVITY
- []
-
-[124] [125]
 Overfull \hbox (17.45563pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 126 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
 CONNECTIVITY
  []
 
-[126]
-Overfull \hbox (1.56512pt too wide) in paragraph at lines 4360--4360
- []|\TU/lmr/m/n/10 Improvement 
- []
-
-
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 4362--4362
- []|\TU/lmr/m/n/10 Environmental 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[127]
-Underfull \hbox (badness 10000) in paragraph at lines 4420--4422
-[][][][][][][][][][][][] [] [][][] [] [][][] [][] [][][][][][][] [][] [][][] []
- [][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][] [][]
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 4424--4426
-[]\TU/lmr/m/n/10 Knecht, J. (2018). C-V2X Europapremiere: Wie Autos sprechen
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 4424--4426
-\TU/lmr/m/n/10 – mit wem auch immer | AUTO MOTOR UND SPORT. []$[][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4424--4426
-[] [] [][][] [] [][][][] [][] [][][][][] [][] [][][] [][] [][][][][] [] [][] []
- [][][][][][][] [] [][][][][][][][][][] [][] [][][][] [][] [][][] [][] [][] [][
-] [][][] [][]
- []
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 4426--4428
-[]\TU/lmr/m/n/10 Köllner, C. (2020, March 24). Car-to-X | Fahrzeugvernetzung
- []
-
-
-Overfull \hbox (16.13998pt too wide) in paragraph at lines 4426--4428
-[][][][][][][][][][][][][][][][][][][][] [] [][] [] [][][] [][] [][] [][] [] []
- [][][][][][][][][][][][][][][] [][] [][][][][][] [] [][][][][][][][][][][][][]
-[][][][][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4428--4430
-[]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][] [] [][][][][] [][] [][]
-[] [] [][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
- []
-
-
-Underfull \hbox (badness 2608) in paragraph at lines 4428--4430
-[][][][] [][] [][][][][][] [][] [][][][][][][][][][][] [][] [][][][][][][][][][
-][] [][] [][][][][][][][][] [][] [][][][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 
-20
- []
-
-
+[126] [127]
 Overfull \hbox (17.45563pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 128 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
 CONNECTIVITY
  []
 
 [128]
-Overfull \hbox (19.99455pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 5.2.  INFRASTRUCTURE SUPPORT LEVELS FOR AUTOMATED DRIVING \TU/l
-mr/m/n/10 129
+Overfull \hbox (1.56512pt too wide) in paragraph at lines 4391--4391
+ []|\TU/lmr/m/n/10 Improvement 
+ []
+
+
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 4393--4393
+ []|\TU/lmr/m/n/10 Environmental 
  []
 
 [129]
+Underfull \hbox (badness 4832) in paragraph at lines 4445--4447
+\TU/lmr/m/n/10 Original-Rückmeldungen.Available at: []$[][][][][] [] [] [] [][]
+[][][][] [] [][][][] [] [][] [] [][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4445--4447
+[][][][][][] [] [][][][][][][][][][][] [] [][][][] [][] [][] [] [][][] [] [][][
+][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
 Overfull \hbox (17.45563pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 130 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
 CONNECTIVITY
  []
 
 [130]
-Overfull \hbox (19.99455pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 5.2.  INFRASTRUCTURE SUPPORT LEVELS FOR AUTOMATED DRIVING \TU/l
-mr/m/n/10 131
+Underfull \hbox (badness 10000) in paragraph at lines 4455--4457
+[][][][][][][][][][][][] [] [][][] [] [][][] [][] [][][][][][][] [][] [][][] []
+ [][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4457--4459
+\TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][][] [] [][][][] [] [][
+][] [][] [][][] [] [][] [] [][][][][][] [][] [][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 4457--4459
+[][][][][][][] [] [][][][][] [] [][][][][] [] [][][][] [] [][][][] [] [][][][] 
+[] [][] [] [][][][][][][][][][][][][] [] [][][]$[] \TU/lmr/m/n/10 [Accessed:
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 4461--4463
+[]\TU/lmr/m/n/10 Knecht, J. (2018). C-V2X Europapremiere: Wie Autos sprechen
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 4461--4463
+\TU/lmr/m/n/10 – mit wem auch immer | AUTO MOTOR UND SPORT. []$[][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4461--4463
+[] [] [][][] [] [][][][] [][] [][][][][] [][] [][][] [][] [][][][][] [] [][] []
+ [][][][][][][] [] [][][][][][][][][][] [][] [][][][] [][] [][][] [][] [][] [][
+] [][][] [][]
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 4463--4465
+[]\TU/lmr/m/n/10 Köllner, C. (2020, March 24). Car-to-X | Fahrzeugvernetzung
+ []
+
+
+Overfull \hbox (16.13998pt too wide) in paragraph at lines 4463--4465
+[][][][][][][][][][][][][][][][][][][][] [] [][] [] [][][] [][] [][] [][] [] []
+ [][][][][][][][][][][][][][][] [][] [][][][][][] [] [][][][][][][][][][][][][]
+[][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4465--4467
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][] [] [][] [] [][][][][] [][] [][]
+[] [] [][][][][][][][] [] [][][][][][][][][][][][][][][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 4465--4467
+[][][][] [][] [][][][][][] [][] [][][][][][][][][][][] [][] [][][][][][][][][][
+][] [][] [][][][][][][][][] [][] [][][][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 
+20
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4467--4469
+[] [] [][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][
+][][] [][] [][][][][][] [] [][][][][][][][][][][] [] [][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4467--4469
+[][][][] [] [][] [] [][][][][][][][][][] [] [][][][][][][][][][][][] [] [][] []
+ [][][][][][][][][][] []
+ []
+
+
+Overfull \hbox (34.18999pt too wide) in paragraph at lines 4467--4469
+[][][][][][][] [] [][][] [] [][][] [] [][][][][][][][][][][][][] [] [][][][][] 
+[] [][][][][][][][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4467--4469
+[][][][] [][] [][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][] [][]
+ [][] [][] [][][][][][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 4467--4469
+[][][][][][][] [][] [][][] [][] [][][] [][] [][][][][][][][][][][][][] [] [][][
+]$[] \TU/lmr/m/n/10 [Accessed: 17 March
  []
 
 [131]
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+
 Overfull \hbox (17.45563pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 132 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
 CONNECTIVITY
  []
 
 [132]
+File: image/ISAD_2021.png Graphic file (type bmp)
+<image/ISAD_2021.png>
+File: image/SAE_2021.png Graphic file (type bmp)
+<image/SAE_2021.png>
+
 Overfull \hbox (19.99455pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 5.2.  INFRASTRUCTURE SUPPORT LEVELS FOR AUTOMATED DRIVING \TU/l
 mr/m/n/10 133
@@ -2295,10 +2356,7 @@ CONNECTIVITY
  []
 
 [134]
-Underfull \hbox (badness 3735) in paragraph at lines 4736--4738
-\TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][] 
-[] [][] [] [][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][][]$[]
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (19.99455pt too wide) has occurred while \output is active
@@ -2307,358 +2365,388 @@ mr/m/n/10 135
  []
 
 [135]
-Underfull \hbox (badness 10000) in paragraph at lines 4738--4740
-[][][] [][] [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][][][] [][]
- [][][][][][][][] [] [][][][][][][][][] [][] [][][][][][] [] [][][][][][][] [][
-]
- []
-
-
-Underfull \hbox (badness 6792) in paragraph at lines 4740--4742
-\TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][] [] [][] []
- [][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][] [][] [][][] [][]
- []
-
-
 Overfull \hbox (17.45563pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 136 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
 CONNECTIVITY
  []
 
 [136]
-Chapter 6.
-[137
+Overfull \hbox (19.99455pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 5.2.  INFRASTRUCTURE SUPPORT LEVELS FOR AUTOMATED DRIVING \TU/l
+mr/m/n/10 137
+ []
 
-] [138]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 4865--4865
+[137]
+Overfull \hbox (17.45563pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 138 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
+CONNECTIVITY
+ []
+
+[138]
+Underfull \hbox (badness 3735) in paragraph at lines 4751--4753
+\TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][] 
+[] [][] [] [][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][][]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4753--4755
+[][][] [][] [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][][][] [][]
+ [][][][][][][][] [] [][][][][][][][][] [][] [][][][][][] [] [][][][][][][] [][
+]
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 4755--4757
+\TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][] [] [][] []
+ [][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][][] [][] [][][] [][]
+ []
+
+
+Overfull \hbox (19.99455pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 5.2.  INFRASTRUCTURE SUPPORT LEVELS FOR AUTOMATED DRIVING \TU/l
+mr/m/n/10 139
+ []
+
+[139]
+Overfull \hbox (17.45563pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 140 \TU/lmr/m/sl/10 CHAPTER 5.  DIGITAL ROAD INFRASTRUCTURE AND 
+CONNECTIVITY
+ []
+
+[140
+
+]
+Chapter 6.
+[141] [142]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 4882--4882
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (2.86513pt too wide) in paragraph at lines 4867--4867
+Overfull \hbox (2.86513pt too wide) in paragraph at lines 4884--4884
  []|\TU/lmr/m/n/10 Digitalisation 
  []
 
 
-Overfull \hbox (3.81512pt too wide) in paragraph at lines 4868--4868
+Overfull \hbox (3.81512pt too wide) in paragraph at lines 4885--4885
  []|\TU/lmr/m/n/10 Collaboration 
  []
 
-[139]
+[143]
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
-[140]
-Underfull \hbox (badness 10000) in paragraph at lines 4919--4921
+[144]
+Underfull \hbox (badness 10000) in paragraph at lines 4936--4938
 []$[][][][][] [] [] [] [][][][][][] [] [][][][][][][][] [] [][][] [] [][][][][]
 [] [] [][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (256.25pt too wide) in paragraph at lines 4919--4921
+Overfull \hbox (256.25pt too wide) in paragraph at lines 4936--4938
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 . 
  []
 
 
-Overfull \hbox (286.00998pt too wide) in paragraph at lines 4923--4925
+Overfull \hbox (286.00998pt too wide) in paragraph at lines 4940--4942
 [][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][]$[]\TU/lmr/m/n/10 . 
  []
 
 
-Underfull \hbox (badness 4582) in paragraph at lines 4925--4927
+Underfull \hbox (badness 4582) in paragraph at lines 4942--4944
 \TU/lmr/m/n/10 2014, Available at: []$[][][][][] [] [] [] [][][][][][][][][] []
  [][][] [] [][][] [] [][][][][][][][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4925--4927
+Underfull \hbox (badness 10000) in paragraph at lines 4942--4944
 [][][][] [] [][][][][][] [] [][][][][][][] [][] [][][][] [] [][] [] [][][] [] [
 ][] [] [][][] [] [][][][][][][][] [] [][][][][][][][][][][] [] []$[]
  []
 
-[141] [142]
-Underfull \hbox (badness 1286) in paragraph at lines 4983--4984
+[145] [146]
+Underfull \hbox (badness 1286) in paragraph at lines 5000--5001
 \TU/lmr/m/n/10 and public transport operators, National Governments, IT System
  []
 
-[143] [144]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 5057--5057
+[147] [148]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 5074--5074
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (7.22513pt too wide) in paragraph at lines 5058--5058
+Overfull \hbox (7.22513pt too wide) in paragraph at lines 5075--5075
  \TU/lmr/m/n/10 discriminatory 
  []
 
 
-Overfull \hbox (12.93512pt too wide) in paragraph at lines 5060--5060
+Overfull \hbox (12.93512pt too wide) in paragraph at lines 5077--5077
  []|\TU/lmr/m/n/10 Implementation 
  []
 
 
-Overfull \hbox (7.75513pt too wide) in paragraph at lines 5061--5061
+Overfull \hbox (7.75513pt too wide) in paragraph at lines 5078--5078
  []|\TU/lmr/m/n/10 Collaborations 
  []
 
-[145]
-Underfull \hbox (badness 10000) in paragraph at lines 5124--5126
+[149]
+Underfull \hbox (badness 10000) in paragraph at lines 5141--5143
 [][][][][][][][] [] [][][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][] [
 ] [][] [][][] [][] [][][][][][][][][][] [][] [][][][] [][] [][][] [][] [][][] [
 ][] [][][][][] [][]
  []
 
-[146]
-Underfull \hbox (badness 3375) in paragraph at lines 5152--5154
+[150]
+Underfull \hbox (badness 3375) in paragraph at lines 5169--5171
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][][]
 [][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 12 February
  []
 
-[147]
-Underfull \hbox (badness 10000) in paragraph at lines 5154--5156
+[151]
+Underfull \hbox (badness 10000) in paragraph at lines 5171--5173
 [][][][][][] [][] [][][][][] [][] [][][][][][][] [][] [][][][][][][][][] [][] [
 ][][][][][][][][][][] [][] [][][][][][] [][] [][] [][] [][][][][][][] [][] [][]
 [][][][][][][]$[]
  []
 
-[148]
+[152]
 Chapter 7.
-[149
+[153
 
-] [150] [151]
+] [154] [155]
 File: image/micromobility.jpg Graphic file (type bmp)
 <image/micromobility.jpg>
-[152]
+[156]
 File: image/micromobility_classes.jpg Graphic file (type bmp)
 <image/micromobility_classes.jpg>
-[153]
+[157]
 File: image/flms_emissions.jpg Graphic file (type bmp)
 <image/flms_emissions.jpg>
-[154]
+[158]
 Underfull \vbox (badness 2698) has occurred while \output is active []
 
-[155] [156] [157] [158] [159]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 5581--5581
+[159] [160] [161] [162] [163]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 5598--5598
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (1.56512pt too wide) in paragraph at lines 5583--5583
+Overfull \hbox (1.56512pt too wide) in paragraph at lines 5600--5600
  []|\TU/lmr/m/n/10 Improvement 
  []
 
-[160] [161]
+[164] [165]
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
-[162]
-Underfull \hbox (badness 1762) in paragraph at lines 5643--5645
+[166]
+Underfull \hbox (badness 1762) in paragraph at lines 5660--5662
 []\TU/lmr/m/n/10 Haas, C. (2018, November 13). Nahverkehr: So lässt sich die
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 5643--5645
+Underfull \hbox (badness 6173) in paragraph at lines 5660--5662
 \TU/lmr/m/n/10 letzte Meile nach Hause bequem zurücklegen - WELT. []$[][][][][]
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5643--5645
+Underfull \hbox (badness 10000) in paragraph at lines 5660--5662
 [] [] [][][] [] [][][][] [] [][] [] [][][][][][][][][][] [] [][][][][][][][][][
 ][][][][][][] [] [][][][][][][][][][] [][] [][] [][] [][][][][][] [][]
  []
 
-[163]
-Underfull \hbox (badness 1163) in paragraph at lines 5667--5669
+[167]
+Underfull \hbox (badness 1163) in paragraph at lines 5684--5686
 \TU/lmr/m/n/10 ulatory Reforms and Advancement in Technologies. []$[][][][][] [
 ] [] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5667--5669
+Underfull \hbox (badness 10000) in paragraph at lines 5684--5686
 [][][][][][][][][][] [] [][][] [] [][][][] [][] [][][][][][][][] [] [][][][][][
 ] [][] [][][][][][][][][][][][][] [][] [][][][][] [][] [][][][][][][][] [][] []
 [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5667--5669
+Underfull \hbox (badness 10000) in paragraph at lines 5684--5686
 [][][][][][][][] [][] [][][][][][][] [][] [][][][][][] [][] [][][][] [][] [][][
 ][] [][][][][][] [][][][][][] [][] [][][][][][] [][] [][][][][][][][][] [][] []
 [][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5667--5669
+Underfull \hbox (badness 10000) in paragraph at lines 5684--5686
 [][] [][] [][][][][][][][][][][][][] [][] [][][] [][] [][] [][] [][][][][][][][
 ][][] [][] [][][][] [][] [][][][][][][][][][] [][] [][][][][][][] [][] [][][] [
 ][]
  []
 
-[164]
-Underfull \hbox (badness 1383) in paragraph at lines 5679--5681
+[168]
+Underfull \hbox (badness 1383) in paragraph at lines 5696--5698
 \TU/lmr/m/n/10 Type, Vehicle Type, Sharing Type and Age Group: Global Op-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5679--5681
+Underfull \hbox (badness 10000) in paragraph at lines 5696--5698
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][] [] []
 [][] [] [][][][][] [][] [][][][][][][][] [][] [][][][][][] [][] [][][][][][]$[]
 
  []
 
-[165] [166] [167] [168]
+[169] [170] [171] [172]
 File: image/tickets_prices.jpg Graphic file (type bmp)
 <image/tickets_prices.jpg>
-[169] [170]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 5829--5829
+[173] [174]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 5846--5846
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 5830--5830
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 5847--5847
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[171]
-Overfull \hbox (577.52pt too wide) in paragraph at lines 5869--5871
+[175]
+Overfull \hbox (577.52pt too wide) in paragraph at lines 5886--5888
 []$[]\TU/lmr/m/n/10 :~:text=Time%2Dbased%20systems%20allow%20passengers,a%20set
 %20amount%20of%20time.&text=Distance%2Dbased%20systems%20charge%20higher,rides%
 20that%20cover%20greater%20distances.
  []
 
-[172]
-Underfull \hbox (badness 2980) in paragraph at lines 5871--5873
+[176]
+Underfull \hbox (badness 2980) in paragraph at lines 5888--5890
 []\TU/lmr/m/n/10 Wiener Linien.at (2021). Ticket guide. Available at: []$[][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5871--5873
+Underfull \hbox (badness 10000) in paragraph at lines 5888--5890
 [] [] [][][] [] [][][][][][][][][][][][] [] [][] [] [][][][][][][][] [] [][] []
  [][][][][][][][][][][] [] [][] [] [][][][][][][][][][] [] [][][][][] []
  []
 
 
-Overfull \hbox (0.10501pt too wide) in paragraph at lines 5885--5887
+Overfull \hbox (0.10501pt too wide) in paragraph at lines 5902--5904
 \TU/lmr/m/n/10 Term Dynamic Transport Policy Design: Seeking Maximum Social Wel
 fare
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5891--5893
+Underfull \hbox (badness 10000) in paragraph at lines 5908--5910
 [][][][][][][][][] [] [][] [] [][] [][] [][][][][][][] [] [][][][][][][] [] [][
 ][][] [] [][] [] [][][][][][][] [][] [][][][][][] [][] [][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5891--5893
+Underfull \hbox (badness 10000) in paragraph at lines 5908--5910
 [][][][][][][][][][][] [][] [][] [][] [][] [][] [][][][][][][][] [][] [][][] []
 [] [][][][][][][][][][] [][] [][] [][] [][][][][][] [][] [][] [][] [][][] [][] 
 [][] [][] [][][][][][] [][]
  []
 
-[173]
-Underfull \hbox (badness 1072) in paragraph at lines 5897--5899
+[177]
+Underfull \hbox (badness 1072) in paragraph at lines 5914--5916
 []\TU/lmr/m/n/10 Raaflaub, C. (2020, February 27). Warum die Idee vom Gratis-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 5897--5899
+Underfull \hbox (badness 2512) in paragraph at lines 5914--5916
 \TU/lmr/m/n/10 ÖV in der Schweiz nicht ankommt - SWI swissinfo.ch. []$[][][][][
 ] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5897--5899
+Underfull \hbox (badness 10000) in paragraph at lines 5914--5916
 [] [] [][][] [] [][][][][][][][][] [] [][] [] [][][] [] [][][][][][][] [][] [][
 ][] [][] [][][][][][][][][][][][] [] [][][][][] [][] [][][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 5903--5905
+Underfull \hbox (badness 3977) in paragraph at lines 5920--5922
 \TU/lmr/m/n/10 weltweit 2017 | Statista. []$[][][][][] [] [] [] [][] [] [][][][
 ][][][][] [] [][][] [] [][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5903--5905
+Underfull \hbox (badness 10000) in paragraph at lines 5920--5922
 [][][][][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][] [][] [][][][] []
 [] [][][][][][][][] [][] [][][][][][][][][][][][][] [][] [][][] [][] [][][][][]
  [][] [][] [][]
  []
 
-[174] [175] [176] [177]
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6061--6062
+[178] [179] [180] [181]
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6078--6079
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 6062--6062
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 6079--6079
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6062--6063
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6079--6080
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6063--6064
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6080--6081
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6064--6065
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6081--6082
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (18.62512pt too wide) in paragraph at lines 6065--6065
+Overfull \hbox (18.62512pt too wide) in paragraph at lines 6082--6082
  \TU/lmr/m/n/10 creased/Collision 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6065--6066
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6082--6083
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 6066--6066
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 6083--6083
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6066--6067
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6083--6084
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6067--6068
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6084--6085
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
 
-Overfull \hbox (7.75513pt too wide) in paragraph at lines 6069--6069
+Overfull \hbox (7.75513pt too wide) in paragraph at lines 6086--6086
  []|\TU/lmr/m/n/10 Collaborations 
  []
 
 
-Overfull \hbox (1.54985pt too wide) in paragraph at lines 6069--6070
+Overfull \hbox (1.54985pt too wide) in paragraph at lines 6086--6087
  []|\TU/lmr/m/n/10 Gudonavicius, 
  []
 
-[178] [179]
-Underfull \hbox (badness 10000) in paragraph at lines 6136--6138
+[182] [183]
+Underfull \hbox (badness 10000) in paragraph at lines 6153--6155
 []$[][][][][] [] [] [] [][][][] [][] [][][][][][][][] [] [][] [] [][] [][] [][]
 [][][][][] [] [][][][][][][] [] [][][][][] [] [] [] [][][][] [] [][] [] [][][][
 ] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6140--6142
+Underfull \hbox (badness 10000) in paragraph at lines 6157--6159
 [] [] [][][] [] [][][][][][][] [] [][] [] [][] [][] [][][][][][][] [] [][][][][
 ][][] [] [][][][] [] [][] [] [][][][][][][] [][] [][][][][][] [][]
  []
@@ -2666,145 +2754,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 6140--6142
 
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
-[180] [181] [182] [183] [184]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 6321--6321
+[184] [185] [186] [187] [188]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 6338--6338
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[185] [186]
-Underfull \hbox (badness 1558) in paragraph at lines 6397--6399
+[189] [190]
+Underfull \hbox (badness 1558) in paragraph at lines 6414--6416
 \TU/lmr/m/n/10 ein neues Zufahrtssystem. Available at: []$[][][][][] [] [] [] [
 ][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6397--6399
+Underfull \hbox (badness 10000) in paragraph at lines 6414--6416
 [][] [] [][] [][] [][][][][][][] [] [] [][] [][][][][][][] [] [][][][] [][] [][
 ][] [][] [][][][] [][] [][][][][][][] [][] [][][][][][][][] [][] [][][] [][] []
 [][][][] [][]
  []
 
-[187]
+[191]
 File: image/smart_cards.png Graphic file (type bmp)
 <image/smart_cards.png>
-[188] [189]
-Underfull \hbox (badness 1210) in paragraph at lines 6544--6546
+[192] [193]
+Underfull \hbox (badness 1210) in paragraph at lines 6561--6563
 \TU/lmr/m/n/10 vey of Automated Fare Collection Solutions in Public Transporta-
 
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 6544--6546
+Underfull \hbox (badness 1077) in paragraph at lines 6561--6563
 \TU/lmr/m/n/10 tion. IEEE Transactions on Intelligent Transport Systems. Doi:
  []
 
-[190]
-Underfull \hbox (badness 10000) in paragraph at lines 6546--6548
+[194]
+Underfull \hbox (badness 10000) in paragraph at lines 6563--6565
 [][][][][][][] [] [][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][
 ][][][][][][][][][][][][][][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 6556--6558
+Underfull \hbox (badness 1776) in paragraph at lines 6573--6575
 \TU/lmr/m/n/10 Clearing the Route to Interoperability. December. []$[][][][][] 
 [] [] [] [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6556--6558
+Underfull \hbox (badness 10000) in paragraph at lines 6573--6575
 [][][][][] [] [][][] [] [][] [][] [][][][][][][] [] [][][][][][][] [] [][][][] 
 [] [][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 6560--6562
+Underfull \hbox (badness 1057) in paragraph at lines 6577--6579
 []\TU/lmr/m/n/10 Singh, J. (2021). Payment apps, CiBo, and biometricts: what’s
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 6560--6562
+Underfull \hbox (badness 2111) in paragraph at lines 6577--6579
 \TU/lmr/m/n/10 next for mobile ticketing? Intelligent Transport. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6560--6562
+Underfull \hbox (badness 10000) in paragraph at lines 6577--6579
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][] [] []
 [][] [] [][][][][][][][][] [][] [][][][][][][][] [] [][][][][][] [] [][][][][][
 ] [][]
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 6571--6573
+Underfull \hbox (badness 1117) in paragraph at lines 6588--6590
 []\TU/lmr/m/n/10 Wiener Linien. (2021b). Digital-Wettbewerb “Vienna Tickethon”
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 6571--6573
+Underfull \hbox (badness 2951) in paragraph at lines 6588--6590
 \TU/lmr/m/n/10 gestartet. Available at: []$[][][][][] [] [] [] [][][] [] [][][]
 [][][][][][][][][] [] [][] [] [][][][][][][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6571--6573
+Underfull \hbox (badness 10000) in paragraph at lines 6588--6590
 [][][][][][][][][][][] [] [][] [] [][][][][][][][][][] [] [][][][][] [] [][][][
 ][][][][][] [] [][][][][] [] [][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (456.96997pt too wide) in paragraph at lines 6571--6573
+Overfull \hbox (456.96997pt too wide) in paragraph at lines 6588--6590
 [][][][] [] [][][][][][][][][][] [][] [][][][][] [] [][][][][][][][][] [] [][][
 ][][][][][]$[]\TU/lmr/m/n/10 :~:text=Im%20Rahmen%20eines%20internationalen%20Ha
 ckathon,Wettbewerb%20l%C3%A4uft%20bis%20Anfang%20M%C3%A4rz
  []
 
-[191]
-Underfull \hbox (badness 10000) in paragraph at lines 6573--6574
+[195]
+Underfull \hbox (badness 10000) in paragraph at lines 6590--6591
 [][][] [] [] [] [][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][] [] [][][
 ][][] [] [][][][][][][][][][][] [] [][][][][][][][][]$[] \TU/lmr/m/n/10 [Ac-
  []
 
-[192]
-Overfull \hbox (0.16502pt too wide) in paragraph at lines 6612--6613
+[196]
+Overfull \hbox (0.16502pt too wide) in paragraph at lines 6629--6630
 []\TU/lmr/bx/n/10 Responsible\TU/lmr/m/n/10 : Transport service providers and p
 ublic transport operators,
- []
-
-
-Overfull \hbox (37.03233pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 7.6.  INFORMATION AND ASSISTANCE FOR PEOPLE WITH SPECIAL NEEDS 
-\TU/lmr/m/n/10 193
- []
-
-[193] [194]
-Overfull \hbox (37.03233pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 7.6.  INFORMATION AND ASSISTANCE FOR PEOPLE WITH SPECIAL NEEDS 
-\TU/lmr/m/n/10 195
- []
-
-[195]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 6679--6679
- []|\TU/lmr/m/n/10 Environmental 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[196]
-Underfull \hbox (badness 2057) in paragraph at lines 6755--6757
-[]\TU/lmr/m/n/10 Kassens-Noor, E., Cai M., Kotval-Karmchandani, Z., Decaminda,
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 6755--6757
-\TU/lmr/m/n/10 T. (2021). Autonomous vehicles and mobility for people with
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 6755--6757
-\TU/lmr/m/n/10 special needs. Transportation Research Part A. 150, 385-397.
  []
 
 
@@ -2813,292 +2866,327 @@ Overfull \hbox (37.03233pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 197
  []
 
-[197]
-Underfull \hbox (badness 1072) in paragraph at lines 6763--6765
+[197] [198]
+Overfull \hbox (37.03233pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 7.6.  INFORMATION AND ASSISTANCE FOR PEOPLE WITH SPECIAL NEEDS 
+\TU/lmr/m/n/10 199
+ []
+
+[199]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 6696--6696
+ []|\TU/lmr/m/n/10 Environmental 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[200]
+Underfull \hbox (badness 2057) in paragraph at lines 6772--6774
+[]\TU/lmr/m/n/10 Kassens-Noor, E., Cai M., Kotval-Karmchandani, Z., Decaminda,
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 6772--6774
+\TU/lmr/m/n/10 T. (2021). Autonomous vehicles and mobility for people with
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 6772--6774
+\TU/lmr/m/n/10 special needs. Transportation Research Part A. 150, 385-397.
+ []
+
+
+Overfull \hbox (37.03233pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 7.6.  INFORMATION AND ASSISTANCE FOR PEOPLE WITH SPECIAL NEEDS 
+\TU/lmr/m/n/10 201
+ []
+
+[201]
+Underfull \hbox (badness 1072) in paragraph at lines 6780--6782
 []\TU/lmr/m/n/10 Smrt.com.sg. (2021). Accessibility. Smrt.com.sg. Available at:
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6763--6765
+Underfull \hbox (badness 10000) in paragraph at lines 6780--6782
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][] [] [][][][][][][] [
 ][] [][][][] [][] [][] [] [][][][] [][] [][][][][] [] [][][][][][][][][][][][][
 ]$[]
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 6771--6772
+Underfull \hbox (badness 1158) in paragraph at lines 6788--6789
 []\TU/lmr/m/n/10 Wiener Linien. (n.d.). Barrierefreiheit bei den Wiener Linien 
 -
  []
 
-[198]
-Underfull \hbox (badness 10000) in paragraph at lines 6800--6802
+[202]
+Underfull \hbox (badness 10000) in paragraph at lines 6817--6819
 
  []
 
 File: image/mobility_hubs.png Graphic file (type bmp)
 <image/mobility_hubs.png>
-[199] [200] [201]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 6879--6879
+[203] [204] [205]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 6896--6896
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (1.61986pt too wide) in paragraph at lines 6880--6881
+Overfull \hbox (1.61986pt too wide) in paragraph at lines 6897--6898
  []|\TU/lmr/m/n/10 Reisviahub.nl, 
  []
 
-[202]
-Underfull \hbox (badness 2042) in paragraph at lines 6941--6943
+[206]
+Underfull \hbox (badness 2042) in paragraph at lines 6958--6960
 \TU/lmr/m/n/10 tential of areas for regional mobility hubs. Delft University of
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6941--6943
+Underfull \hbox (badness 10000) in paragraph at lines 6958--6960
 []$[][][][][] [] [] [] [][][][][][][][][][] [] [][][][][][][] [] [][] [] [][][]
 [][][][][][] [] [][][][][][] [] [][][][] [] [][][][][][][][][][] [][] [][][][] 
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6941--6943
+Underfull \hbox (badness 10000) in paragraph at lines 6958--6960
 [][][][] [][] [][][][] [][] [][][][][][][][][][][][]$[]\TU/lmr/m/n/10 . []$[][]
 [][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][][] [][] [] [][] [
 ][][][][][][][][]$[]
  []
 
-[203]
-Underfull \hbox (badness 10000) in paragraph at lines 6947--6949
+[207]
+Underfull \hbox (badness 10000) in paragraph at lines 6964--6966
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][] [] [][] [] [][]
 [][][][][][][][][][][][][][][] [] [][][][][][][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 6953--6955
+Underfull \hbox (badness 1515) in paragraph at lines 6970--6972
 []\TU/lmr/m/n/10 Interreg Central Europe (CE). (2022). Smart Mobility and Mo-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 6953--6955
+Underfull \hbox (badness 2368) in paragraph at lines 6970--6972
 \TU/lmr/m/n/10 bility Hubs – Good Practice in the Small City of Weiz. In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6953--6955
+Underfull \hbox (badness 10000) in paragraph at lines 6970--6972
 \TU/lmr/m/n/10 novationszentrumg W.E.I.Z. Available at: []$[][][][][] [] [] [] 
 [][][] [] [][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6953--6955
+Underfull \hbox (badness 10000) in paragraph at lines 6970--6972
 [][][][][][][] [] [][] [] [][][][][][][] [] [][][][] [] [][][][][][][][][][][][
 ] [] [][][][][] [][] [][][][][][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 6967--6969
+Underfull \hbox (badness 1194) in paragraph at lines 6984--6986
 \TU/lmr/m/n/10 Mobility Hubs (CCMH) – Ein transdisziplin#res Forschungsprojekt
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 6967--6969
+Underfull \hbox (badness 1062) in paragraph at lines 6984--6986
 \TU/lmr/m/n/10 Resultate der Umfrage zu gesellschaftlichen Anforderungen. Avail
 -
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 6967--6969
+Underfull \hbox (badness 1221) in paragraph at lines 6984--6986
 \TU/lmr/m/n/10 able at: []$[][][][][] [] [] [] [][][][] [] [][] [] [][][][][][]
 [] [] [][][] [] [][][][] [] [][][][][][][] [][] [][][][][][][][] [] [][][][] []
  [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6967--6969
+Underfull \hbox (badness 10000) in paragraph at lines 6984--6986
 [][][] [] [][][][][][][][][] [] [][][][] [] [][][][][][][][] [] [][] [][] [][][
 ][][][][][] [][] [][][][][][][][] [][] [][][][] [] [][][][][][] []
  []
 
-[204] [205] [206] [207] [208]
-Overfull \hbox (2.86513pt too wide) in paragraph at lines 7090--7090
+[208] [209] [210] [211] [212]
+Overfull \hbox (2.86513pt too wide) in paragraph at lines 7107--7107
  []|\TU/lmr/m/n/10 Digitalisation 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[209]
-Underfull \hbox (badness 10000) in paragraph at lines 7154--7156
+[213]
+Underfull \hbox (badness 10000) in paragraph at lines 7171--7173
 [][][] [] [][][] [][] [][][][] [][] [][][][][] [][] [][][][][] [][] [][][][][] 
 [][] [][][] [][] [][][][][][][] [][] [][][][][][][][][][][] [][] [][][][][][][]
  [][] [][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 7158--7160
+Underfull \hbox (badness 6978) in paragraph at lines 7175--7177
 \TU/lmr/m/n/10 Management. []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][
 ][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7164--7166
+Underfull \hbox (badness 10000) in paragraph at lines 7181--7183
 [][] [] [][][][] [] [][][][][][][][] [][] [][][][][][][][] [][] [][][][] [][] [
 ][][][] [][] [][][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][][] [][] 
 [][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 7166--7168
+Underfull \hbox (badness 2197) in paragraph at lines 7183--7185
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][
 ][] [] [][][] [] [][][][][][][][][] [] [][][][][][][][][] [][] [][][][][] [][]
  []
 
-[210]
-Underfull \hbox (badness 1509) in paragraph at lines 7170--7172
+[214]
+Underfull \hbox (badness 1509) in paragraph at lines 7187--7189
 []\TU/lmr/m/n/10 Siemens (2018). Siemens stattet güterwagenflotte von DB Cargo
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 7170--7172
+Underfull \hbox (badness 1331) in paragraph at lines 7187--7189
 \TU/lmr/m/n/10 mit Sensortechnik und Telematiksytem aus. Available at: []$[][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7170--7172
+Underfull \hbox (badness 10000) in paragraph at lines 7187--7189
 [] [] [][][][][][][][][][][][][][] [] [][][] [] [][][][][] [] [][][][][][][] []
 [] [][][][][][][] [][] [][][][][][][][][][][][][][][][][] [][] [][][] [][] [][]
  [][]
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 7172--7174
+Underfull \hbox (badness 2582) in paragraph at lines 7189--7191
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][] 
 [] [][][][][][][] [] [][][] [] [][][][][][] [] [][] [] [][][][][][][][][] []
  []
 
-[211] [212
+[215] [216
 
 ]
 Chapter 8.
-[213] [214] [215] [216] [217] [218] [219] [220]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 7381--7381
+[217] [218] [219] [220] [221] [222] [223] [224]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 7398--7398
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[221]
+[225]
 Underfull \vbox (badness 8019) has occurred while \output is active []
 
-[222]
-Underfull \hbox (badness 10000) in paragraph at lines 7442--7444
+[226]
+Underfull \hbox (badness 10000) in paragraph at lines 7459--7461
 [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][][][] [][] [][][][][][
 ][][] [] [][][][][][][][][] [][] [][][][][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7444--7446
+Underfull \hbox (badness 10000) in paragraph at lines 7461--7463
 [][][][] [] [][] [] [][][][] [][] [][][] [][] [][][][][][][][] [] [][][][][][][
 ][][][][] [][] [][][][][][][] [][] [][][][][][][][] [] [][][][][][][][][] [][]
  []
 
-[223] [224] [225] [226]
+[227] [228] [229] [230]
 File: image/SPS.png Graphic file (type bmp)
 <image/SPS.png>
-[227] [228] [229]
-Overfull \hbox (5.47513pt too wide) in paragraph at lines 7650--7650
+[231] [232] [233]
+Overfull \hbox (5.47513pt too wide) in paragraph at lines 7667--7667
  []|\TU/lmr/m/n/10 Unpredictable 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 7650--7650
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 7667--7667
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (3.55986pt too wide) in paragraph at lines 7651--7652
+Overfull \hbox (3.55986pt too wide) in paragraph at lines 7668--7669
  []|\TU/lmr/m/n/10 Ehrenfeuchter, 
  []
 
-[230]
-Underfull \hbox (badness 10000) in paragraph at lines 7714--7716
+[234]
+Underfull \hbox (badness 10000) in paragraph at lines 7731--7733
 [] [] [][][] [] [][][][] [][] [][][][][] [][] [][][] [][] [][][][][] [] [][] []
  [][][][] [][] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][] []
  []
 
-[231]
-Underfull \hbox (badness 3826) in paragraph at lines 7722--7724
+[235]
+Underfull \hbox (badness 3826) in paragraph at lines 7739--7741
 \TU/lmr/m/n/10 tan Planning Organizations, Regional Transportation Plans, and
  []
 
-[232]
-Underfull \hbox (badness 1303) in paragraph at lines 7752--7754
+[236]
+Underfull \hbox (badness 1303) in paragraph at lines 7769--7771
 \TU/lmr/m/n/10 STP. Available at: []$[][][][][] [] [] [] [][][] [] [][][][][] [
 ] [][][] [] [][][][][] [][] [][][][] [] [][][][][] [][] [][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7752--7754
+Underfull \hbox (badness 10000) in paragraph at lines 7769--7771
 [][][][] [][] [][][][] [][] [] [][] [][][][][] [][] [][][][][][][][][] [][] [][
 ][][][][][] [][] [][][][][][][] [][] [][][][][][] [][] [][] [][] [][][][][][][]
  [][] [][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 7756--7758
+Underfull \hbox (badness 3826) in paragraph at lines 7773--7775
 []\TU/lmr/m/n/10 Of-Allinger, A. (2020, August 26). Automated Valet Parking
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 7756--7758
+Underfull \hbox (badness 2057) in paragraph at lines 7773--7775
 \TU/lmr/m/n/10 von Ford, Bosch und Bedrock | AUTO MOTOR UND SPORT.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7756--7758
+Underfull \hbox (badness 10000) in paragraph at lines 7773--7775
 []$[][][][][] [] [] [] [][][] [] [][][][] [][] [][][][][] [][] [][][] [][] [][]
 [][][] [] [][] [] [][][][] [][] [][][][][][][] [] [][][][][][][][][] [][] [][][
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 7760--7762
+Underfull \hbox (badness 1975) in paragraph at lines 7777--7779
 \TU/lmr/m/n/10 Transport Automation in Urban Mobility: A Case Study of an
  []
 
 
-Underfull \hbox (badness 1769) in paragraph at lines 7760--7762
+Underfull \hbox (badness 1769) in paragraph at lines 7777--7779
 \TU/lmr/m/n/10 Autonomous Parking System. Vehicles. 4(2), 326-343. []$[][][][][
 ] []
  []
 
-[233]
-Underfull \hbox (badness 10000) in paragraph at lines 7768--7770
+[237]
+Underfull \hbox (badness 10000) in paragraph at lines 7785--7787
 [] [] [][][] [] [][][][][] [][] [][][][][][][][] [][] [][][][][][][][][] [] [][
 ][] [] [][] [] [][][][][][][][][] [] [][][][][][] [] [][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 7772--7774
+Underfull \hbox (badness 2310) in paragraph at lines 7789--7791
 \TU/lmr/m/n/10 tection and tracking of dynamic objects with 2D lidar. Inter-
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 7772--7774
+Underfull \hbox (badness 1635) in paragraph at lines 7789--7791
 \TU/lmr/m/n/10 national Journal of Robotics Research, 34(7), 1039–1063. []$[][]
 [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7776--7778
+Underfull \hbox (badness 10000) in paragraph at lines 7793--7795
 []$[][][][][] [] [] [] [][][][][][][][][] [] [][][][][][] [] [][] [] [][][][][]
 [][][][] [] [][] [] [][][] [] [][][][][] [] [][][][][] [] [] [] [][][][][][] []
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7776--7778
+Underfull \hbox (badness 10000) in paragraph at lines 7793--7795
 [][][][] [][] [][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][][] [][]
  [][][][][][][] [] [][][][][][][][] [][]
  []
@@ -3106,83 +3194,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 7776--7778
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[234] [235] [236] [237] [238] [239] [240] [241]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 7958--7958
+[238] [239] [240] [241] [242] [243] [244] [245]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 7975--7975
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[242]
-Underfull \hbox (badness 2418) in paragraph at lines 8015--8017
+[246]
+Underfull \hbox (badness 2418) in paragraph at lines 8032--8034
 \TU/lmr/m/n/10 rollen an - Transport & Logistik - derStandard.at › Wirtschaft.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8015--8017
+Underfull \hbox (badness 10000) in paragraph at lines 8032--8034
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][] [] [][][][][] [
 ] [][][][][][][][][][][][][] [] [][][][][][][][][][][][][][] [][] [][][][] [][]
 
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 8017--8019
+Underfull \hbox (badness 1975) in paragraph at lines 8034--8036
 []\TU/lmr/m/n/10 Boudway, I. (2021, May 5). Supply Chains Latest: Driverless
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 8017--8019
+Underfull \hbox (badness 2671) in paragraph at lines 8034--8036
 \TU/lmr/m/n/10 Trucks a Deal Closer to Freeway. - Bloomberg. Bloomberg.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8017--8019
+Underfull \hbox (badness 10000) in paragraph at lines 8034--8036
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
 [][][][][][][][][][] [] [][][][] [][] [][] [][] [][] [] [][][][][][] [][]
  []
 
-[243]
-Underfull \hbox (badness 1127) in paragraph at lines 8025--8027
+[247]
+Underfull \hbox (badness 1127) in paragraph at lines 8042--8044
 \TU/lmr/m/n/10 starten Testbetrieb in Österreich. []$[][][][][] [] [] [] [][][]
  [] [][][][][][][][][][] [] [][][] [] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8025--8027
+Underfull \hbox (badness 10000) in paragraph at lines 8042--8044
 [][] [] [][][][][] [][] [][][] [] [][][][][][] [] [][][][][][][][][] [][] [][][
 ][] [] [][][][][][][][][] [][] [][][][][][] [][][][] [][] [][] [][][][][][][][]
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8029--8031
+Underfull \hbox (badness 10000) in paragraph at lines 8046--8048
 [][][][][][][] [][] [][][][][][][] [][] [][][][][][][][][] [][] [][][][][] [][]
  [][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][]
 [] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8029--8031
+Underfull \hbox (badness 10000) in paragraph at lines 8046--8048
 [][][][][][] [][] [][][][][][][] [][] [][][][][][][] [][] [][][][] [][] [][][] 
 [][] [][][][][] [][] [][][][] [][] [][][][] [][] [][][][][][][] [][] [] [][] []
 [][][][][][]$[] \TU/lmr/m/n/10 [Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8039--8041
+Underfull \hbox (badness 10000) in paragraph at lines 8056--8058
 [][][][][][][][][][] [][] [][] [][] [][][][][][][][][][][] [][] [][][][][][] []
 [] [][][][][] [][] [][][][][][] [][] [][][][] [][] [][][][] [][] [][][][] [][] 
 [][][][][][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 8041--8043
+Underfull \hbox (badness 2213) in paragraph at lines 8058--8060
 []\TU/lmr/m/n/10 Flämig, H. (2016). Autonomous vehicles and autonomous driv-
  []
 
-[244] [245]
-Underfull \hbox (badness 10000) in paragraph at lines 8073--8075
+[248] [249]
+Underfull \hbox (badness 10000) in paragraph at lines 8090--8092
 [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][][][] [][] [][][][][][
 ][][] [] [][][][][][][][][] [][] [][][][][][] [] [][][][][][][][][][] []
  []
@@ -3190,225 +3278,173 @@ Underfull \hbox (badness 10000) in paragraph at lines 8073--8075
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[246] [247] [248] [249]
+[250] [251] [252] [253]
 Underfull \vbox (badness 2269) has occurred while \output is active []
 
-[250] [251] [252] [253] [254]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 8296--8296
+[254] [255] [256] [257] [258]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 8313--8313
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[255]
+[259]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[256]
-Underfull \hbox (badness 10000) in paragraph at lines 8335--8337
+[260]
+Underfull \hbox (badness 10000) in paragraph at lines 8352--8354
 []$[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][] [] [][][][][] [][
 ] [][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][] [][] [][][] [][] [][][
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8335--8337
+Underfull \hbox (badness 10000) in paragraph at lines 8352--8354
 [][][][] [][] [][][][][][] [][] [][] [][] [][][][][][][] [][] [][][][][][][][][
 ][] [][] [][][][][][][] [][] [][][][][][][][][][][][] [][] [][][][] [][] [][][]
 [] [][] [][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8337--8339
+Underfull \hbox (badness 10000) in paragraph at lines 8354--8356
 [][][][][] [] [][][][] [] [][] [] [][] [] [][][][] [][] [][][][][] [][] [][][][
 ][][][] [][] [][][][][] [][] [][][][][] [][] [][][][] [][] [][][][] [][] [][][]
 [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 8339--8341
+Underfull \hbox (badness 1275) in paragraph at lines 8356--8358
 \TU/lmr/m/n/10 5G network for automatic operation | International Railway Jour-
 
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 8345--8347
+Underfull \hbox (badness 2600) in paragraph at lines 8362--8364
 []\TU/lmr/m/n/10 Cuenca, O. (2021, February 22). JR East to introduce ATO
  []
 
 
-Underfull \hbox (badness 2351) in paragraph at lines 8345--8347
+Underfull \hbox (badness 2351) in paragraph at lines 8362--8364
 \TU/lmr/m/n/10 on the Joban Line next month | International Railway Journal.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8345--8347
+Underfull \hbox (badness 10000) in paragraph at lines 8362--8364
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][][][]
 [][] [] [][][][] [] [][] [][] [][][][] [][] [][] [][] [][][][][][][][][] [][] [
 ][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 8347--8349
+Underfull \hbox (badness 1688) in paragraph at lines 8364--8366
 \TU/lmr/m/n/10 tem | DB Inside Bahn. []$[][][][][] [] [] [] [][][][][][] [] [][
 ][][] [] [][] [] [][][][] [][] [][][][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 8355--8357
+Underfull \hbox (badness 2744) in paragraph at lines 8372--8374
 []\TU/lmr/m/n/10 Global Railway Review. (2020, November 24). Siemens Mo-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 8355--8357
+Underfull \hbox (badness 2556) in paragraph at lines 8372--8374
 \TU/lmr/m/n/10 bility and partners to study automated rail operations. []$[][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8355--8357
+Underfull \hbox (badness 10000) in paragraph at lines 8372--8374
 [] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][] []
  [][][][][][] [] [][][][][][][] [][] [][][][][][][][] [][]
  []
 
-[257]
-Underfull \hbox (badness 10000) in paragraph at lines 8363--8365
+[261]
+Underfull \hbox (badness 10000) in paragraph at lines 8380--8382
 \TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][
 ] [] [][] [] [][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 8371--8373
+Underfull \hbox (badness 1242) in paragraph at lines 8388--8390
 \TU/lmr/m/n/10 (DAK) im Güterverkehr. Available at: []$[][][][][] [] [] [] [][]
 [][][][] [] [][][][] [] [][] [] [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8371--8373
+Underfull \hbox (badness 10000) in paragraph at lines 8388--8390
 [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][] [][] [][][][] [][] [
 ][][][][] [][] [][][] [][] [][][][][][][][][] [][] [][][][][][][][][][][][][] [
 ][]
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 8379--8381
+Underfull \hbox (badness 3735) in paragraph at lines 8396--8398
 \TU/lmr/m/n/10 Bombardier zukunftsfit machen will - Business Insider. []$[][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8379--8381
+Underfull \hbox (badness 10000) in paragraph at lines 8396--8398
 [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][] [] [][][][][][][][][][] 
 [] [][][][][][][][] [] [][][][][][][][] [][] [][][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8379--8381
+Underfull \hbox (badness 10000) in paragraph at lines 8396--8398
 [][][][] [][] [][][] [][] [][][][][][][][][] [][] [][][][][][][][] [][] [][] []
 [] [][][][][][] [][] [][][] [][] [][][][][][] [][] [][] [][] [][][][][][][][] [
 ][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 8381--8383
+Underfull \hbox (badness 1082) in paragraph at lines 8398--8400
 []\TU/lmr/m/n/10 Schwerdfeger, S., Otto, A., & Boysen, N. (2021). Rail platoon-
 
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 8381--8383
+Underfull \hbox (badness 2495) in paragraph at lines 8398--8400
 \TU/lmr/m/n/10 ing: Scheduling trains along a rail corridor with rapid-shunting
 
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 8381--8383
+Underfull \hbox (badness 3954) in paragraph at lines 8398--8400
 \TU/lmr/m/n/10 facilities. European Journal of Operational Research. []$[][][][
 ][] []
  []
 
-[258]
-Underfull \hbox (badness 10000) in paragraph at lines 8385--8387
+[262]
+Underfull \hbox (badness 10000) in paragraph at lines 8402--8404
 [] [] [][][] [] [][][][][][] [] [][][] [] [][][][][] [][] [][][][][][][][] [][]
  [][][][] [] [][][][] [] [] [] [][][][][][] [][] [][][][][] [][] [][][][][][][]
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8385--8387
+Underfull \hbox (badness 10000) in paragraph at lines 8402--8404
 [][][][] [][] [][][][][][][] [][] [][][][][][][][][][] [][] [][][][][] [][] [][
 ][][][][][][][] [][] [][][][][][][][][][][]$[] \TU/lmr/m/n/10 [Accessed 27th
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 8389--8390
+Underfull \hbox (badness 1629) in paragraph at lines 8406--8407
 \TU/lmr/m/n/10 speed Train Sets World Record. I Chong Qing. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8389--8390
+Underfull \hbox (badness 10000) in paragraph at lines 8406--8407
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][][][] [] [][][][] [
 ] [][] [] [][] [] [][][] [][] [][] [][] [][][][][] [][] [] [][] [][][][][][] []
 [] [][][] [][]
  []
 
-[259] [260
+[263] [264
 
 ]
 Chapter 9.
-[261]
+[265]
 File: image/adas_level.png Graphic file (type bmp)
 <image/adas_level.png>
-
-Overfull \hbox (107.34343pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 262 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
-D AND AUTOMATED VEHICLES
- []
-
-[262] [263]
-Overfull \hbox (107.34343pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 264 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
-D AND AUTOMATED VEHICLES
- []
-
-[264]
-Underfull \hbox (badness 2103) in paragraph at lines 8546--8548
-[]\TU/lmr/m/n/10 How can ADAS nomenclature standardization be encouraged and
- []
-
-
-Underfull \vbox (badness 2591) has occurred while \output is active []
-
-[265]
-Underfull \hbox (badness 10000) in paragraph at lines 8577--8579
-[]$[][][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][] [] [][] [][] [][]
-[][][][][] [] [][][][][][][] [] [][][][] [][] [][][][] [][] [][] [][] [][][] []
-[] [][] [][]
- []
-
-
-Underfull \hbox (badness 1558) in paragraph at lines 8579--8581
-\TU/lmr/m/n/10 recommendations. Available at < []$[][][][][] [] [] [] [][][] []
- [][][][][][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8579--8581
-[][][] [] [][][][] [] [][] [] [][] [] [][][] [][] [][][][][][][][][][][][][] []
-[] [][][][][][][][] [][] [][][][][][][] [][] [][][][] [][] [][][][][][][][][][]
-[] [][]
- []
-
-
-Underfull \hbox (badness 1648) in paragraph at lines 8587--8589
-[]\TU/lmr/m/n/10 Shirokinskiy, K., Bernhart, W. and Keese, S., 2021. Advanced
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8587--8589
-[][][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][
-][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][] [][] [] [][
-]
- []
-
 
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 266 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
@@ -3421,18 +3457,44 @@ Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 D AND AUTOMATED VEHICLES
  []
 
-[268] [269]
-Underfull \hbox (badness 10000) in paragraph at lines 8724--8726
-\TU/lmr/m/n/10 ADAC. []$[][][][][] [] [] [] [][][] [] [][][][] [] [][] [] [][][
-][] [][] [][][] [][] [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][]
-[][] [][]
+[268]
+Underfull \hbox (badness 2103) in paragraph at lines 8563--8565
+[]\TU/lmr/m/n/10 How can ADAS nomenclature standardization be encouraged and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8728--8730
-[][][][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][] [][] [][][] [][] [
-][][][][][] [][] [][][][][][] [][] [][][][][][][][][][][][] [][] [][][][][] [][
-] [][][][][] [][]
+Underfull \vbox (badness 2591) has occurred while \output is active []
+
+[269]
+Underfull \hbox (badness 10000) in paragraph at lines 8594--8596
+[]$[][][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][] [] [][] [][] [][]
+[][][][][] [] [][][][][][][] [] [][][][] [][] [][][][] [][] [][] [][] [][][] []
+[] [][] [][]
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 8596--8598
+\TU/lmr/m/n/10 recommendations. Available at < []$[][][][][] [] [] [] [][][] []
+ [][][][][][][][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8596--8598
+[][][] [] [][][][] [] [][] [] [][] [] [][][] [][] [][][][][][][][][][][][][] []
+[] [][][][][][][][] [][] [][][][][][][] [][] [][][][] [][] [][][][][][][][][][]
+[] [][]
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 8604--8606
+[]\TU/lmr/m/n/10 Shirokinskiy, K., Bernhart, W. and Keese, S., 2021. Advanced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8604--8606
+[][][] [] [][] [] [][][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][
+][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][] [][] [] [][
+]
  []
 
 
@@ -3441,75 +3503,24 @@ Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 D AND AUTOMATED VEHICLES
  []
 
-[270]
-Underfull \hbox (badness 10000) in paragraph at lines 8732--8734
-[][][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][] [][] [][] [][] [
-][][][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][][][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8732--8734
-[][][][][][][][][] [][] [][][][][][][][][][][][][][][][][] [][] [][][][][][][][
-][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][] [] [][] [][]
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 8740--8742
-[]\TU/lmr/m/n/10 Mercedes-Benz. (n.d.). Mercedes-Benz X-Klasse: Park-Paket
- []
-
-
-Underfull \hbox (badness 3724) in paragraph at lines 8740--8742
-\TU/lmr/m/n/10 mit 360°-Kamera. Available at: []$[][][][][] [] [] [] [][][] [] 
-[][][][][][][][] [][] [][][][] [] [][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8740--8742
-[][][][][][][][][][][][][] [] [][][][][][][][] [][] [][][][] [][] [][][][] [] [
-][][][][][] [] [] [][] [][][][][] [] [] [][] [][][][][] [][] [][][][][][] [] []
-[][][][] [][]
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 8744--8745
-\TU/lmr/m/n/10 bremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8744--8745
-[]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][]
-[][] [] [][][] [] [][][][][][][][] [] [][][][][][][] []
- []
-
-
-Underfull \vbox (badness 7397) has occurred while \output is active []
-
-[271]
+[270] [271]
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 272 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
 [272] [273]
-Underfull \hbox (badness 10000) in paragraph at lines 8887--8889
-[][][] [] [][][][] [][] [][][][][][][][] [] [][][][][][] [][] [][][][] [][] [][
-][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][] [][] [][]
-[] [][] [][][][] [][]
+Underfull \hbox (badness 10000) in paragraph at lines 8741--8743
+\TU/lmr/m/n/10 ADAC. []$[][][][][] [] [] [] [][][] [] [][][][] [] [][] [] [][][
+][] [][] [][][] [][] [][][][][][][][] [] [][][][][][][][][][][] [][] [][][][][]
+[][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8889--8891
-[] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
- [][][][] [][] [][][][] [][] [][][][] [][] [][][][] [][] [][][][][][] [] [][][]
-$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8891--8893
-[][][][][][][][] [] [][][] [] [][][][][][][][][] [][] [][][][] [][] [][][][][][
-][] [][] [][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][][][][][][] [][
-]
+Underfull \hbox (badness 10000) in paragraph at lines 8745--8747
+[][][][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][] [][] [][][] [][] [
+][][][][][] [][] [][][][][][] [][] [][][][][][][][][][][][] [][] [][][][][] [][
+] [][][][][] [][]
  []
 
 
@@ -3519,17 +3530,48 @@ D AND AUTOMATED VEHICLES
  []
 
 [274]
-Underfull \hbox (badness 10000) in paragraph at lines 8897--8899
-\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][
-][] [] [][][] [] [][][][][] [] [][][][][][][][] [] [][][][][][][] [][] [][][] [
-][]
+Underfull \hbox (badness 10000) in paragraph at lines 8749--8751
+[][][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][] [][] [][] [][] [
+][][][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8899--8901
-[][][] [][] [][][][][][][][][] [] [][][][] [] [][][][] [][] [][][][][][][] [][]
- [][][][][][] [][] [][][][][][][] [] [][][][]$[] \TU/lmr/m/n/10 [Accessed: 30
+Underfull \hbox (badness 10000) in paragraph at lines 8749--8751
+[][][][][][][][][] [][] [][][][][][][][][][][][][][][][][] [][] [][][][][][][][
+][][][] [] [][][][][][][][] [] [][][][] [] [][][][][][] [] [][] [][]
  []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 8757--8759
+[]\TU/lmr/m/n/10 Mercedes-Benz. (n.d.). Mercedes-Benz X-Klasse: Park-Paket
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 8757--8759
+\TU/lmr/m/n/10 mit 360°-Kamera. Available at: []$[][][][][] [] [] [] [][][] [] 
+[][][][][][][][] [][] [][][][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8757--8759
+[][][][][][][][][][][][][] [] [][][][][][][][] [][] [][][][] [][] [][][][] [] [
+][][][][][] [] [] [][] [][][][][] [] [] [][] [][][][][] [][] [][][][][][] [] []
+[][][][] [][]
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 8761--8762
+\TU/lmr/m/n/10 bremssystem im Test (+ Fotos, + Grafik) | ÖAMTC, 14.05.2019.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8761--8762
+[]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][]
+[][] [] [][][] [] [][][][][][][][] [] [][][][][][][] []
+ []
+
+
+Underfull \vbox (badness 7397) has occurred while \output is active []
 
 [275]
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
@@ -3538,97 +3580,60 @@ D AND AUTOMATED VEHICLES
  []
 
 [276] [277]
+Underfull \hbox (badness 10000) in paragraph at lines 8904--8906
+[][][] [] [][][][] [][] [][][][][][][][] [] [][][][][][] [][] [][][][] [][] [][
+][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][] [][] [][]
+[] [][] [][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8906--8908
+[] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] []
+ [][][][] [][] [][][][] [][] [][][][] [][] [][][][] [][] [][][][][][] [] [][][]
+$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8908--8910
+[][][][][][][][] [] [][][] [] [][][][][][][][][] [][] [][][][] [][] [][][][][][
+][] [][] [][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][][][][][][] [][
+]
+ []
+
+
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 278 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
-[278] [279]
-Overfull \hbox (12.90985pt too wide) in paragraph at lines 9033--9034
- []|\TU/lmr/m/n/10 Infosysbpm.com, 
+[278]
+Underfull \hbox (badness 10000) in paragraph at lines 8914--8916
+\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][
+][] [] [][][] [] [][][][][] [] [][][][][][][][] [] [][][][][][][] [][] [][][] [
+][]
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 8916--8918
+[][][] [][] [][][][][][][][][] [] [][][][] [] [][][][] [][] [][][][][][][] [][]
+ [][][][][][] [][] [][][][][][][] [] [][][][]$[] \TU/lmr/m/n/10 [Accessed: 30
+ []
+
+[279]
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 280 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
-[280]
-Underfull \hbox (badness 10000) in paragraph at lines 9061--9063
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9087--9089
-[]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][] [] [][][] [] [][][][][][][][] [] [][][] [][] [][][][] [][] [][] 
-[][]
- []
-
-[281]
-Underfull \hbox (badness 1629) in paragraph at lines 9091--9093
-[]\TU/lmr/m/n/10 Haydin, V. (2020). Solving the Challenges of HD Mapping for
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 9091--9093
-\TU/lmr/m/n/10 Smart Navigation in Autonomous Cars. Available at: []$[][][][][]
- []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9091--9093
-[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][] [][] [][][] [][]
- [][][][][][][][][][] [][] [][] [][] [][] [][] [][][][][][][] [][] [][][] [][] 
-[][][][][] [][]
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 9093--9095
-\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][
-][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [][] [][][][]
-[][][][] [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9093--9095
-[][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
-[] [][][][][][][][][][] [][] [][][][][][][] [][] [][][][][][] [] [][][]$[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9097--9099
-[]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] []
-[][][][] [] [][][][][][][] [][] [][][][] [][] [][] [][] [][][][] [][] [][][] []
-[] [][][][][][] [][]
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 9097--9099
-[][] [][] [][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][] 
-[][] [][][] [][] [][][][] [][] [][][][][]$[] \TU/lmr/m/n/10 [Accessed: 7 July
- []
-
-
+[280] [281]
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 282 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
 [282] [283]
-Overfull \hbox (1.51985pt too wide) in paragraph at lines 9191--9192
- \TU/lmr/m/n/10 solutions.com, 
- []
-
-
-Overfull \hbox (1.51985pt too wide) in paragraph at lines 9193--9194
- \TU/lmr/m/n/10 solutions.com, 
- []
-
-
-Overfull \hbox (7.75513pt too wide) in paragraph at lines 9195--9195
- []|\TU/lmr/m/n/10 Collaborations 
+Overfull \hbox (12.90985pt too wide) in paragraph at lines 9050--9051
+ []|\TU/lmr/m/n/10 Infosysbpm.com, 
  []
 
 
@@ -3638,34 +3643,81 @@ D AND AUTOMATED VEHICLES
  []
 
 [284]
-Underfull \hbox (badness 1975) in paragraph at lines 9258--9260
-\TU/lmr/m/n/10 able at: []$[][][][][] [] [] [] [][][] [] [][][][][] [][] [][][]
-[][][][][] [][] [][][][][][][][][] [] [][][] [] [][] [] [][][][][][][][] [][] [
-][][] [][]
+Underfull \hbox (badness 10000) in paragraph at lines 9078--9080
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9258--9260
-[][][][][][][][] [] [][][][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][
-] [][] [][][][][][][][][][] [][] [][][][][][][][] [] [][][][][][][][][][][][] [
-][]
- []
-
-
-Underfull \hbox (badness 3919) in paragraph at lines 9260--9262
-\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [
-][][] [] [][] [] [][][][][] [] [][][][][] [][] [][][][][][][][] [] [][][][][][]
-[][][][][] [][]
+Underfull \hbox (badness 10000) in paragraph at lines 9104--9106
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][] [] [][][] [] [][][][][][][][] [] [][][] [][] [][][][] [][] [][] 
+[][]
  []
 
 [285]
+Underfull \hbox (badness 1629) in paragraph at lines 9108--9110
+[]\TU/lmr/m/n/10 Haydin, V. (2020). Solving the Challenges of HD Mapping for
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 9108--9110
+\TU/lmr/m/n/10 Smart Navigation in Autonomous Cars. Available at: []$[][][][][]
+ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9108--9110
+[] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][] [][] [][][] [][]
+ [][][][][][][][][][] [][] [][] [][] [][] [][] [][][][][][][] [][] [][][] [][] 
+[][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 9110--9112
+\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] [] [][
+][] [] [][][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] [][] [][][][]
+[][][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9110--9112
+[][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] [] [][][][][][][] []
+[] [][][][][][][][][][] [][] [][][][][][][] [][] [][][][][][] [] [][][]$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9114--9116
+[]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][] [] [][][] [] []
+[][][][] [] [][][][][][][] [][] [][][][] [][] [][] [][] [][][][] [][] [][][] []
+[] [][][][][][] [][]
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 9114--9116
+[][] [][] [][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][] 
+[][] [][][] [][] [][][][] [][] [][][][][]$[] \TU/lmr/m/n/10 [Accessed: 7 July
+ []
+
+
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
 \TU/lmr/m/n/10 286 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
 [286] [287]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (1.51985pt too wide) in paragraph at lines 9208--9209
+ \TU/lmr/m/n/10 solutions.com, 
+ []
+
+
+Overfull \hbox (1.51985pt too wide) in paragraph at lines 9210--9211
+ \TU/lmr/m/n/10 solutions.com, 
+ []
+
+
+Overfull \hbox (7.75513pt too wide) in paragraph at lines 9212--9212
+ []|\TU/lmr/m/n/10 Collaborations 
+ []
 
 
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
@@ -3674,27 +3726,63 @@ D AND AUTOMATED VEHICLES
  []
 
 [288]
-Overfull \hbox (20.71512pt too wide) in paragraph at lines 9403--9403
+Underfull \hbox (badness 1975) in paragraph at lines 9275--9277
+\TU/lmr/m/n/10 able at: []$[][][][][] [] [] [] [][][] [] [][][][][] [][] [][][]
+[][][][][] [][] [][][][][][][][][] [] [][][] [] [][] [] [][][][][][][][] [][] [
+][][] [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9275--9277
+[][][][][][][][] [] [][][][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][
+] [][] [][][][][][][][][][] [][] [][][][][][][][] [] [][][][][][][][][][][][] [
+][]
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 9277--9279
+\TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [
+][][] [] [][] [] [][][][][] [] [][][][][] [][] [][][][][][][][] [] [][][][][][]
+[][][][][] [][]
+ []
+
+[289]
+Overfull \hbox (107.34343pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 290 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
+D AND AUTOMATED VEHICLES
+ []
+
+[290] [291]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (107.34343pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 292 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
+D AND AUTOMATED VEHICLES
+ []
+
+[292]
+Overfull \hbox (20.71512pt too wide) in paragraph at lines 9420--9420
  []|\TU/lmr/m/n/10 Disproportionally 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[289]
-Underfull \hbox (badness 1735) in paragraph at lines 9431--9433
+[293]
+Underfull \hbox (badness 1735) in paragraph at lines 9448--9450
 []\TU/lmr/m/n/10 Are car buyers sufficiently informed about the difference betw
 een
  []
 
 
-Underfull \hbox (badness 4316) in paragraph at lines 9455--9457
+Underfull \hbox (badness 4316) in paragraph at lines 9472--9474
 \TU/lmr/m/n/10 Commission. []$[][][][][] [] [] [] [][] [] [][][][][][] [] [][] 
 [] [][][][][][][][][] [] [][][][] [] [][][][][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 9457--9459
+Underfull \hbox (badness 5533) in paragraph at lines 9474--9476
 \TU/lmr/m/n/10 Europe. []$[][][][][] [] [] [] [][][][][][] [] [][] [] [][][][][
 ][][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][][][] [][] [][][]
  [][]
@@ -3702,696 +3790,696 @@ Underfull \hbox (badness 5533) in paragraph at lines 9457--9459
 
 
 Overfull \hbox (107.34343pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 290 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
+\TU/lmr/m/n/10 294 \TU/lmr/m/sl/10 CHAPTER 9.  ON-BOARD TECHNOLOGY FOR CONNECTE
 D AND AUTOMATED VEHICLES
  []
 
-[290]
+[294]
 Chapter 10.
-[291
+[295
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[292]
-Underfull \hbox (badness 2600) in paragraph at lines 9524--9526
+[296]
+Underfull \hbox (badness 2600) in paragraph at lines 9541--9543
 []\TU/lmr/m/n/10 Implementation costs: High implementation costs remain one of
  []
 
-[293]
-Underfull \hbox (badness 10000) in paragraph at lines 9544--9546
+[297]
+Underfull \hbox (badness 10000) in paragraph at lines 9561--9563
 
  []
 
-[294] [295]
-Overfull \hbox (0.84512pt too wide) in paragraph at lines 9613--9613
+[298] [299]
+Overfull \hbox (0.84512pt too wide) in paragraph at lines 9630--9630
  []|\TU/lmr/m/n/10 Development 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[296]
-Underfull \hbox (badness 1694) in paragraph at lines 9667--9669
+[300]
+Underfull \hbox (badness 1694) in paragraph at lines 9684--9686
 []\TU/lmr/m/n/10 Avery, P. (2021, April 9). WorldCargo News - News - Major-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 9667--9669
+Underfull \hbox (badness 1158) in paragraph at lines 9684--9686
 \TU/lmr/m/n/10 ity of DCSA members adopt Track and Trace standards. []$[][][][]
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9667--9669
+Underfull \hbox (badness 10000) in paragraph at lines 9684--9686
 [] [] [][][] [] [][][][][][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][
 ][][][] [][] [][] [][] [][][][] [][] [][][][][][][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9675--9677
+Underfull \hbox (badness 10000) in paragraph at lines 9692--9694
 []$[][][][][] [] [] [] [][][][][][][][][][] [] [][] [] [][][][][][][] [][] [][]
 [][] [] [][][] [][] [][][][][][][][][][][][] [][] [][][][] [][] [][][][][][][][
 ] [][] [][][] [][]
  []
 
-[297] [298] [299] [300]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 9775--9775
+[301] [302] [303] [304]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 9792--9792
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
 Underfull \vbox (badness 3219) has occurred while \output is active []
 
-[301] [302] [303] [304] [305] [306]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 9966--9966
+[305] [306] [307] [308] [309] [310]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 9983--9983
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[307] [308]
-Underfull \hbox (badness 1902) in paragraph at lines 10031--10032
+[311] [312]
+Underfull \hbox (badness 1902) in paragraph at lines 10048--10049
 []\TU/lmr/m/n/10 van Leijen, M. (2017, August 3). Light rail network used for
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 10031--10032
+Underfull \hbox (badness 2237) in paragraph at lines 10048--10049
 \TU/lmr/m/n/10 freight transport | RailFreight.com. Available at: []$[][][][][]
  [] [] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10031--10032
+Underfull \hbox (badness 10000) in paragraph at lines 10048--10049
 [][][][][][][][][][][] [] [][][] [] [][][][][][][][][][][] [] [][][][] [] [][] 
 [] [][] [] [][][][][] [][] [][][][] [][] [][][][][][][] [][] [][][][] [][] [][]
 [] [][]
  []
 
-[309] [310] [311] [312] [313]
-Underfull \hbox (badness 1983) in paragraph at lines 10236--10238
+[313] [314] [315] [316] [317]
+Underfull \hbox (badness 1983) in paragraph at lines 10253--10255
 []\TU/lmr/m/n/10 Truck Parking Europe. (n.d.). Audit reports on secure truck
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 10236--10238
+Underfull \hbox (badness 1533) in paragraph at lines 10253--10255
 \TU/lmr/m/n/10 parking locations - Truck Parking Europe. Available at: []$[][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10236--10238
+Underfull \hbox (badness 10000) in paragraph at lines 10253--10255
 [] [] [][][] [] [][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][] [] [
 ][] [] [][] [] [][][][][] [][] [][][][][][][] [][] [][] [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 10248--10249
+Underfull \hbox (badness 2573) in paragraph at lines 10265--10266
 \TU/lmr/m/it/10 on-street loading zones (OLZ), Freight Trip Generation (FTG), l
 oad-
  []
 
-[314] [315] [316] [317]
-Underfull \hbox (badness 2478) in paragraph at lines 10388--10390
+[318] [319] [320] [321]
+Underfull \hbox (badness 2478) in paragraph at lines 10405--10407
 []\TU/lmr/m/n/10 Aiura, N., & Taniguchi, E. (2005). PLANNING ON-STREET
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10388--10390
+Underfull \hbox (badness 10000) in paragraph at lines 10405--10407
 \TU/lmr/m/n/10 LOADING-UNLOADING SPACES CONSIDERING THE BE-
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 10388--10390
+Underfull \hbox (badness 3735) in paragraph at lines 10405--10407
 \TU/lmr/m/n/10 HAVIOUR OF PICKUP-DELIVERY VEHICLES. Journal of the
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 10388--10390
+Underfull \hbox (badness 4608) in paragraph at lines 10405--10407
 \TU/lmr/m/n/10 Eastern Asia Society for Transportation Studies, 6, 2963–2974.
  []
 
-[318]
-Underfull \hbox (badness 1910) in paragraph at lines 10392--10394
+[322]
+Underfull \hbox (badness 1910) in paragraph at lines 10409--10411
 []\TU/lmr/m/n/10 Brown, C. (2020, October 13). Should Delivery Fleets Pay to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10392--10394
+Underfull \hbox (badness 10000) in paragraph at lines 10409--10411
 [] [] [][][] [] [][][][][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][
 ][][][] [][] [][][][][][][][] [][] [][][][][][] [][] [][][] [][] [][] [][] [][]
 [][] [][]
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 10412--10414
+Underfull \hbox (badness 1953) in paragraph at lines 10429--10431
 []\TU/lmr/m/n/10 Stocker, G. (2012, November). Snizek+Partner Verkehrsplanungs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10412--10414
+Underfull \hbox (badness 10000) in paragraph at lines 10429--10431
 []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [][] [] [][] [] [][] [] [][][]
 [][][][][] [] [][][][][][][][][][][][] [] [][] [][] [][][][][][][][][][] [][]
  []
 
-[319] [320] [321] [322]
-Overfull \hbox (0.81512pt too wide) in paragraph at lines 10542--10542
+[323] [324] [325] [326]
+Overfull \hbox (0.81512pt too wide) in paragraph at lines 10559--10559
  []|\TU/lmr/m/n/10 Standardised 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[323]
-Underfull \hbox (badness 1092) in paragraph at lines 10597--10599
+[327]
+Underfull \hbox (badness 1092) in paragraph at lines 10614--10616
 []\TU/lmr/m/n/10 Boyle, A. (2020, May 6). Amazon and T-Mobile will take part
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 10597--10599
+Underfull \hbox (badness 3049) in paragraph at lines 10614--10616
 \TU/lmr/m/n/10 in FAA’s Remote ID program for drones - GeekWire. []$[][][][][] 
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10597--10599
+Underfull \hbox (badness 10000) in paragraph at lines 10614--10616
 [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][] [] [][][][][][] [][] [] 
 [][] [][][][][][] [][] [][][][] [][] [][][][] [][] [][][][] [][] [][][][] [][] 
 [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 10603--10605
+Underfull \hbox (badness 2538) in paragraph at lines 10620--10622
 []\TU/lmr/m/n/10 EASA (2021). Easy Access Rules for Unmanned Aircraft Sys-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10603--10605
+Underfull \hbox (badness 10000) in paragraph at lines 10620--10622
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][][][][] [] [][] [] [][][][][]
  [] [][][][][][][] [] [][][][][] [] [][][] [] [][][][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10603--10605
+Underfull \hbox (badness 10000) in paragraph at lines 10620--10622
 [][][][][][][] [] [][][][][] [] [][][][][][][][][][] [] [][][][][][][][][][] []
  [][][][][][][][][] [] [][][][][][][][][][][][][][] []
  []
 
-[324] [325] [326] [327] [328]
-Overfull \hbox (24.18985pt too wide) in paragraph at lines 10757--10758
+[328] [329] [330] [331] [332]
+Overfull \hbox (24.18985pt too wide) in paragraph at lines 10774--10775
  []|\TU/lmr/m/n/10 Bundesministerium 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 10758--10758
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 10775--10775
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[329] [330]
-Underfull \hbox (badness 3568) in paragraph at lines 10811--10813
+[333] [334]
+Underfull \hbox (badness 3568) in paragraph at lines 10828--10830
 []\TU/lmr/m/n/10 Fritz, D., Heinfellner, H., Lichtblau, G., Pölz, W., & Stran-
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 10815--10817
+Underfull \hbox (badness 3417) in paragraph at lines 10832--10834
 \TU/lmr/m/n/10 partnerships - IEA. []$[][][][][] [] [] [] [][][] [] [][][] [] [
 ][][] [] [][][][][] [][] [][] [][] [][][][] [] [][][][][][][][][][] [][]
  []
 
-[331]
-Underfull \hbox (badness 2856) in paragraph at lines 10833--10835
+[335]
+Underfull \hbox (badness 2856) in paragraph at lines 10850--10852
 \TU/lmr/m/n/10 age 100% EV fleet for Austrian Post | Fleet Europe. []$[][][][][
 ] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10833--10835
+Underfull \hbox (badness 10000) in paragraph at lines 10850--10852
 [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][] [] [][][] [][] [][][][
 ][][][][] [] [][][][][][][] [] [][][][][][][][] [] [][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 10839--10839
+Underfull \hbox (badness 1394) in paragraph at lines 10856--10856
 []\TU/lmr/bx/n/14.4 Multimodal transport management sys-
  []
 
-[332] [333] [334]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 10963--10963
+[336] [337] [338]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 10980--10980
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (3.81512pt too wide) in paragraph at lines 10965--10965
+Overfull \hbox (3.81512pt too wide) in paragraph at lines 10982--10982
  []|\TU/lmr/m/n/10 Collaboration 
  []
 
-[335]
-Underfull \hbox (badness 1681) in paragraph at lines 11026--11028
+[339]
+Underfull \hbox (badness 1681) in paragraph at lines 11043--11045
 []\TU/lmr/m/n/10 LaGore, R. (2020) 2021 Best Transportation Management System
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 11026--11028
+Underfull \hbox (badness 1077) in paragraph at lines 11043--11045
 \TU/lmr/m/n/10 (TMS) Software Packages. Available at: []$[][][][][] [] [] [] []
 [][][] [] [][][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11026--11028
+Underfull \hbox (badness 10000) in paragraph at lines 11043--11045
 [][][][][][][][][] [] [][][] [] [][][][] [][] [][][][][][][][][][][][][][] [][]
  [][][][][][][][][][] [][] [][][][][][][][] [][] [][][]$[] \TU/lmr/m/n/10 [Acce
 ssed:
  []
 
-[336] [337] [338] [339] [340]
-Overfull \hbox (3.81512pt too wide) in paragraph at lines 11175--11175
+[340] [341] [342] [343] [344]
+Overfull \hbox (3.81512pt too wide) in paragraph at lines 11192--11192
  []|\TU/lmr/m/n/10 Collaboration 
  []
 
-[341]
+[345]
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
-[342]
-Underfull \hbox (badness 10000) in paragraph at lines 11218--11220
+[346]
+Underfull \hbox (badness 10000) in paragraph at lines 11235--11237
 []$[][][][][] [] [] [] [][][] [][] [][][][][][][] [][] [][][][][][][][][][][] [
 ] [][][] [] [][] [] [][][][][][][][][][][] [] [][][] [][] [][][][][][][][] [][]
 
  []
 
-[343] [344
+[347] [348
 
 ]
 Chapter 11.
-[345] [346] [347] [348] [349]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 11381--11381
+[349] [350] [351] [352] [353]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 11398--11398
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[350]
-Underfull \hbox (badness 1237) in paragraph at lines 11435--11437
+[354]
+Underfull \hbox (badness 1237) in paragraph at lines 11452--11454
 []\TU/lmr/m/n/10 BMVBS, & BBSR. (2009). Mobilitätskonzepte zur Sicherung der
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 11435--11437
+Underfull \hbox (badness 1067) in paragraph at lines 11452--11454
 \TU/lmr/m/n/10 Daseinsvorsorge in nachfrageschwachen Räumen - Evaluationsreport
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11435--11437
+Underfull \hbox (badness 10000) in paragraph at lines 11452--11454
 [][] [] [][][][][][][][][][][][][][][][][][][] [] [][][][][][][][][][] [] [][][
 ][] [] [][] [] [][][][][][][][] [] [][][] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11443--11445
+Underfull \hbox (badness 10000) in paragraph at lines 11460--11462
 [][][][][][][][][] [][] [][] [][] [][][][][][] [][] [][][][][][][][][] [][] [][
 ][][][] [][] [][] [][] [][][][][][][][] [][] [][][] [][] [][][][] [][] [][][][]
 []$[] \TU/lmr/m/n/10 [Ac-
  []
 
-[351]
-Underfull \hbox (badness 1102) in paragraph at lines 11447--11449
+[355]
+Underfull \hbox (badness 1102) in paragraph at lines 11464--11466
 []\TU/lmr/m/n/10 Harris, M. (2015, September 14). Uber Could Be First to Test
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 11447--11449
+Underfull \hbox (badness 2057) in paragraph at lines 11464--11466
 \TU/lmr/m/n/10 Completely Driverless Cars in Public - IEEE Spectrum. []$[][][][
 ][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11447--11449
+Underfull \hbox (badness 10000) in paragraph at lines 11464--11466
 [] [] [][][][][][][][] [] [][][][] [] [][][] [] [][][][] [][] [][][][] [][] [][
 ][][][] [] [][][][][][][][][][][][][][] [] [][][][] [][] [][][][][][][] [] [][]
 [][] [][]
  []
 
-[352] [353] [354]
+[356] [357] [358]
 File: image/PRT.jpg Graphic file (type bmp)
 <image/PRT.jpg>
-[355]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 11613--11613
+[359]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 11630--11630
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
 Underfull \vbox (badness 3219) has occurred while \output is active []
 
-[356]
-Underfull \hbox (badness 10000) in paragraph at lines 11673--11675
+[360]
+Underfull \hbox (badness 10000) in paragraph at lines 11690--11692
 []$[][][][][] [] [] [] [][][] [] [][][][][] [] [][][] [] [][][][][][][] [] [][]
 [] [][] [][][][][][][][][] [][] [][] [][] [][][][][][][][] [][] [][][][][] [][]
  [][][][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11681--11682
+Underfull \hbox (badness 10000) in paragraph at lines 11698--11699
 [] [] [][][][][][][][][][][][][][][][][][][] [] [][][][] [] [][][] [][] [][][][
 ][] [][] [][][][][][][][] [][] [][][][][] [][] [][][][][][][] [][] [][][][]$[] 
 \TU/lmr/m/n/10 [Ac-
  []
 
-[357] [358]
-Underfull \hbox (badness 10000) in paragraph at lines 11752--11754
+[361] [362]
+Underfull \hbox (badness 10000) in paragraph at lines 11769--11771
 
  []
 
-[359] [360] [361] [362] [363]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 11956--11956
+[363] [364] [365] [366] [367]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 11973--11973
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[364] [365]
-Underfull \hbox (badness 10000) in paragraph at lines 12013--12015
+[368] [369]
+Underfull \hbox (badness 10000) in paragraph at lines 12030--12032
 [][][][][][][] [][] [][][] [][] [][] [][] [][][][][][] [][] [][][][][][][][][][
 ][] [][] [][] [][] [] [][] [][][][][][][][][][][] [][] [][][][][][][][] [][] []
 [][][][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 12015--12017
+Underfull \hbox (badness 1803) in paragraph at lines 12032--12034
 \TU/lmr/m/n/10 Stadtverkehr | Daimler. Available at: []$[][][][][] [] [] [] [][
 ][] [] [][][][][][][] [] [][][] []
  []
 
-[366] [367]
-Overfull \hbox (0.27892pt too wide) in paragraph at lines 12085--12086
+[370] [371]
+Overfull \hbox (0.27892pt too wide) in paragraph at lines 12102--12103
 \TU/lmr/m/n/10 The World Health Organization (WHO) defines the social determina
 nts of health
  []
 
-[368] [369] [370] [371] [372] [373] [374]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 12268--12268
+[372] [373] [374] [375] [376] [377] [378]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 12285--12285
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[375] [376]
-Underfull \hbox (badness 1571) in paragraph at lines 12336--12338
+[379] [380]
+Underfull \hbox (badness 1571) in paragraph at lines 12353--12355
 []\TU/lmr/m/n/10 Burroughs, D. (2020, January 16). Light rail growth strong in
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 12336--12338
+Underfull \hbox (badness 1331) in paragraph at lines 12353--12355
 \TU/lmr/m/n/10 Europe, UITP says | International Railway Journal. Railjournal.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12336--12338
+Underfull \hbox (badness 10000) in paragraph at lines 12353--12355
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][][][][]
 [][][][] [] [][][][][] [][] [][][][] [] [][][][][] [][] [][][][] [][] [][][][] 
 [][] [][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12340--12342
+Underfull \hbox (badness 10000) in paragraph at lines 12357--12359
 [][][][][][][] [][] [][][][] [][] [][][][][][] [][] [][][] [][] [][][][][][][][
 ][][] [][] [][][][] [][] [][] [][] [][][][][] [][] [][][][][][][][][][][]$[] \T
 U/lmr/m/n/10 [Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12348--12350
+Underfull \hbox (badness 10000) in paragraph at lines 12365--12367
 [][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][][][
 ] [] [][][][][][][][][][][][][][][][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 12350--12352
+Underfull \hbox (badness 1701) in paragraph at lines 12367--12369
 []\TU/lmr/m/n/10 Hess, C. L. (2020). Light-Rail Investment in Seattle: Gentrifi
 -
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 12350--12352
+Underfull \hbox (badness 3679) in paragraph at lines 12367--12369
 \TU/lmr/m/n/10 cation Pressures and Trends in Neighborhood Ethnoracial Com-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 12350--12352
+Underfull \hbox (badness 1270) in paragraph at lines 12367--12369
 \TU/lmr/m/n/10 position. In Urban Affairs Review (Vol. 56, Issue 1). []$[][][][
 ][] []
  []
 
-[377]
-Underfull \hbox (badness 1275) in paragraph at lines 12358--12360
+[381]
+Underfull \hbox (badness 1275) in paragraph at lines 12375--12377
 []\TU/lmr/m/n/10 Kurier (2022). Bim zwischen Wien und Schwechat: Strecke fix-
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 12358--12360
+Underfull \hbox (badness 1755) in paragraph at lines 12375--12377
 \TU/lmr/m/n/10 iert, Finanzierung offen. Available at: []$[][][][][] [] [] [] [
 ][][][][][] [] [][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12358--12360
+Underfull \hbox (badness 10000) in paragraph at lines 12375--12377
 [][][][][][][][][][][] [] [][][][][] [][] [][] [][] [][][][][][][][][][][][] []
 [] [][][][][][][][] [][] [][][][] [][] [][][] [][] [][][][][][][][][][][][][][]
 [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12360--12362
+Underfull \hbox (badness 10000) in paragraph at lines 12377--12379
 \TU/lmr/m/n/10 Rail. []$[][][][][] [] [] [] [][][][][][][][][][][][][][] [] [][
 ][] [] [][][][] [] [][] [] [][][][] [][] [][][] [][] [][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12362--12364
+Underfull \hbox (badness 10000) in paragraph at lines 12379--12381
 [] [] [][][] [] [][][][] [] [][] [] [][][][][] [] [][][][][][][] [][] [][][][] 
 [][] [][][][][] [][] [][][][] [][] [][][] [][] [][][][][][] [][] [][][][] [][] 
 [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12376--12378
+Underfull \hbox (badness 10000) in paragraph at lines 12393--12395
 [][][][] [] [][][][][][][][][][] [][] [][][][][][][] [] [][][][][][] [][] [][][
 ] [][] [][][] [][] [][][] [][] [][][] [][] [][][][][][][][][][][] [][] [][][][]
 [][][] [][] [][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12386--12388
+Underfull \hbox (badness 10000) in paragraph at lines 12403--12405
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][] [] []
 [][][][][][][][] [] [][][][][][][][][] [] [][][][] [] [][][][][] [][] [][][][] 
 [][]
  []
 
-[378]
-Underfull \hbox (badness 1571) in paragraph at lines 12388--12390
+[382]
+Underfull \hbox (badness 1571) in paragraph at lines 12405--12407
 []\TU/lmr/m/n/10 The World Bank. (2020, April 23). Earth Day 2020: Could
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12388--12390
+Underfull \hbox (badness 10000) in paragraph at lines 12405--12407
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][] [] [][][][] [] [][][][][][
 ][] [] [][][][] [] [][] [] [][] [] [][][][][] [][] [][][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12394--12396
+Underfull \hbox (badness 10000) in paragraph at lines 12411--12413
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][][][][][][][][][]
  [] [][][][][] [][] [][][][] [][] [][][] [][] [][][][] [][] [][][] [][] [][][][
 ][][][][] [][]
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 12402--12404
+Underfull \hbox (badness 2181) in paragraph at lines 12419--12421
 []\TU/lmr/m/n/10 Zasiadko, M. (2019b, October 9). Germany will test first au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12402--12404
+Underfull \hbox (badness 10000) in paragraph at lines 12419--12421
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][] [] [][][] [] [][][][][][][] [
 ][] [][][][][] [] [][][][] [] [][] [] [][] [] [][][][][][][] [][] [][][][] [][]
  [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12404--12405
+Underfull \hbox (badness 10000) in paragraph at lines 12421--12422
 [][][] [] [][][][][][][][][][][][][][] [] [][][][] [] [][] [] [][] [] [][][][][
 ][][][] [][] [][][][][][] [][] [][][] [][] [][][][] [][] [][][][][][][] [][] []
 [][][][] [][]
  []
 
-[379] [380
+[383] [384
 
 ]
 Chapter 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12419--12420
+Underfull \hbox (badness 10000) in paragraph at lines 12436--12437
 \TU/lmr/m/it/10 Floating Car Data (FCD), Dedicated Short-Range Communications
  []
 
-[381]
+[385]
 File: image/DSRC.png Graphic file (type bmp)
 <image/DSRC.png>
-[382] [383] [384] [385] [386]
+[386] [387] [388] [389] [390]
 Overfull \vbox (15.28545pt too high) has occurred while \output is active []
 
-[387]
-Underfull \hbox (badness 1092) in paragraph at lines 12632--12634
+[391]
+Underfull \hbox (badness 1092) in paragraph at lines 12649--12651
 \TU/lmr/m/n/10 Fahrzeug und Straße die Verkehrssicherheit erhöht. Asfinag Blog.
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12632--12634
+Underfull \hbox (badness 10000) in paragraph at lines 12649--12651
 [][][][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][] [][] [][
 ][] [][] [][][][][][][] [][] [][][] [][] [][][][][][][][][][][][][][][][][][] [
 ][]
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 12634--12636
+Underfull \hbox (badness 2384) in paragraph at lines 12651--12653
 []\TU/lmr/m/n/10 Erhart, J. (2019, November 28). Vernetzte Autos, intelligenter
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12634--12636
+Underfull \hbox (badness 10000) in paragraph at lines 12651--12653
 \TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][][] [] [][][][][][][] [] [][] []
  [][][][][][][] [][] [][][][][][][][][][] [] [] [][] [][][] [][] [][][][][][][]
 [][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12636--12638
+Underfull \hbox (badness 10000) in paragraph at lines 12653--12655
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][][] [] [][] [] []
 [][][][] [] [][][][][] [][] [][][][][][][][] [] [][][][] [][] [][] [][] [][] []
 []
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 12638--12640
+Underfull \hbox (badness 1946) in paragraph at lines 12655--12657
 \TU/lmr/m/n/10 Nachricht | finanzen.net. []$[][][][][] [] [] [] [][][] [] [][][
 ][][][][][] [] [][][] [] [][][][][][][][][] [] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12638--12640
+Underfull \hbox (badness 10000) in paragraph at lines 12655--12657
 [][][][][][][][] [][] [][][][][][][][][] [] [][][][][][][][] [][] [][][] [][] [
 ][][] [][] [][][] [][] [][][][][][][][][][][][][][] [][] [][][] [][] [][][][][]
 [] [][]
  []
 
-[388]
-Underfull \hbox (badness 1400) in paragraph at lines 12640--12642
+[392]
+Underfull \hbox (badness 1400) in paragraph at lines 12657--12659
 []\TU/lmr/m/n/10 futurezone.at (2022, August 25). Starlink Satelliten-Internet 
 wird
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 12640--12642
+Underfull \hbox (badness 1286) in paragraph at lines 12657--12659
 \TU/lmr/m/n/10 um bis zu 50 Prozent billiger. Available at: []$[][][][][] [] []
  [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12640--12642
+Underfull \hbox (badness 10000) in paragraph at lines 12657--12659
 [][] [] [][][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][] [][] [][
 ][][][][][][] [][] [][][][][] [][] [][] [][] [][][][][][][] [][] [][][][][][][]
 [] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 12646--12648
+Underfull \hbox (badness 1237) in paragraph at lines 12663--12665
 []\TU/lmr/m/n/10 Holland, M. (2021, May 5). Starlink: Schon 500.000 Vorbestel-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 12646--12648
+Underfull \hbox (badness 1946) in paragraph at lines 12663--12665
 \TU/lmr/m/n/10 lungen für Satelliten-Internet von SpaceX | heise online. []$[][
 ][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12646--12648
+Underfull \hbox (badness 10000) in paragraph at lines 12663--12665
 [] [] [][][] [] [][][][][] [] [][] [] [][][][] [] [][][][][][][][] [][] [][][][
 ][] [][] [][][] [][] [][][] [][] [][][][][][][][][][][][][][][] [][] [][][][] [
 ][]
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 12654--12656
+Underfull \hbox (badness 1308) in paragraph at lines 12671--12673
 \TU/lmr/m/n/10 took a massive step forward. ScreenRant: Tech. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12654--12656
+Underfull \hbox (badness 10000) in paragraph at lines 12671--12673
 []$[][][][][] [] [] [] [][][][][][][][][][] [] [][][] [] [][][][][][][][] [][] 
 [][][][][][][][] [][] [][][][][][] [][] [][][][] [][] [][][][][] [][] [][][][][
 ][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12658--12660
+Underfull \hbox (badness 10000) in paragraph at lines 12675--12677
 [][][] [] [][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][
 ][][] [] [][][] [] [][][] [] [][][][][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12658--12660
+Underfull \hbox (badness 10000) in paragraph at lines 12675--12677
 [][][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][] [] [][][][][][
 ][][][][][][][][][][][][][][][] []
  []
 
-[389]
-Underfull \hbox (badness 3128) in paragraph at lines 12670--12672
+[393]
+Underfull \hbox (badness 3128) in paragraph at lines 12687--12689
 []\TU/lmr/m/n/10 Sheetz, M. (2022, May 25). SpaceX’s Starlink satellite inter-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 12670--12672
+Underfull \hbox (badness 2096) in paragraph at lines 12687--12689
 \TU/lmr/m/n/10 net surpasses 400.000 subscribers globally. CNBC. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12670--12672
+Underfull \hbox (badness 10000) in paragraph at lines 12687--12689
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][] [] [][][][] [] [][] [] [][]
  [] [][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][][] [][] [][][][][
 ][] [][]
  []
 
 
-Underfull \hbox (badness 6775) in paragraph at lines 12678--12680
+Underfull \hbox (badness 6775) in paragraph at lines 12695--12697
 \TU/lmr/m/n/10 Musks Satellitenflotte in der Kritik - Raum - derStandard.at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12678--12680
+Underfull \hbox (badness 10000) in paragraph at lines 12695--12697
 \TU/lmr/m/n/10 › Wissenschaft.Available at: []$[][][][][] [] [] [] [][][] [] []
 [][][][][][][][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12678--12680
+Underfull \hbox (badness 10000) in paragraph at lines 12695--12697
 [][][][][][][][][][][][][] [] [][][][][][][][] [][] [][][][] [][] [][][][][] []
 [] [][][][][][][][][][][][][][][][] [][] [][] [][] [][][] [][] [][][][][][]$[] 
 \TU/lmr/m/n/10 [Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12680--12682
+Underfull \hbox (badness 10000) in paragraph at lines 12697--12699
 [][][] [] [][][][][][] [] [][][] [] [][][] [] [][] [] [][][][][] [] [][][] [] [
 ][][][][] [] [][][][][][][][] [] [][][][][][] [] [][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12680--12682
+Underfull \hbox (badness 10000) in paragraph at lines 12697--12699
 [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][] [] [][][][][][][][][
 ][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12680--12682
+Underfull \hbox (badness 10000) in paragraph at lines 12697--12699
 [][][][][] [] [][] [] [][] [] [][][][][] [] [][][] [] [][] [] [][][][][][][][][
 ][] [] [][][][][][][][][][][] [][] [][][][][][][] []
  []
 
 
-Overfull \hbox (45.07997pt too wide) in paragraph at lines 12680--12682
+Overfull \hbox (45.07997pt too wide) in paragraph at lines 12697--12699
 [][][][][][][][][][][][][][][][][][][][][] [][] [][][][][] [][] [][][][][] [] [
 ][][][][][][] [] [][][][][][][][] [][] [][][][][][][][][][][][][][][][][][][]$[
 ]
@@ -4400,57 +4488,45 @@ Overfull \hbox (45.07997pt too wide) in paragraph at lines 12680--12682
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[390]
+[394]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[391]
+[395]
 File: image/BDLC.png Graphic file (type bmp)
 <image/BDLC.png>
-[392] [393] [394]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 12879--12879
+[396] [397] [398]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 12896--12896
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[395]
-Underfull \hbox (badness 10000) in paragraph at lines 12933--12935
+[399]
+Underfull \hbox (badness 10000) in paragraph at lines 12950--12952
 []$[][][][] [] [] [] [][] [] [][][][][][] [] [][][][][][][][][][][][][][] [] []
 [][][][][][][][] [] [][][] [] [][][][] [] [][] [] [][][][][][][] [] [][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12937--12940
+Underfull \hbox (badness 10000) in paragraph at lines 12954--12957
 [][][][][][][][] [] [][][][][][][][] [][] [][][] [][] [][][][][][][][][] [] [][
 ][][][][][][] [][] [][][][][][][][][] [][] [][][][][][][][] [][] [][][] [][] []
 [][][] [][] [][][] [][]
  []
 
-[396]
-Underfull \hbox (badness 1264) in paragraph at lines 12940--12942
+[400]
+Underfull \hbox (badness 1264) in paragraph at lines 12957--12959
 []\TU/lmr/m/n/10 Robins, C. (2021). WHY BIG DATA IS SO IMPORTANT TO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12940--12942
+Underfull \hbox (badness 10000) in paragraph at lines 12957--12959
 [][][][][][][][][][][][][][][][] [] [][][] [] [][][] [][] [][][] [][] [][][][] 
 [][] [][] [][] [][] [][] [][][][][][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 12
  []
 
 
-Overfull \hbox (66.65123pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
-OUR \TU/lmr/m/n/10 397
- []
-
-[397] [398]
-Overfull \hbox (66.65123pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
-OUR \TU/lmr/m/n/10 399
- []
-
-[399] [400]
 Overfull \hbox (66.65123pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
 OUR \TU/lmr/m/n/10 401
@@ -4463,50 +4539,62 @@ OUR \TU/lmr/m/n/10 403
  []
 
 [403] [404]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 13183--13183
- []|\TU/lmr/m/n/10 Environmental 
- []
-
-
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 13185--13185
- []|\TU/lmr/m/n/10 Environmental 
- []
-
-
 Overfull \hbox (66.65123pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
 OUR \TU/lmr/m/n/10 405
  []
 
 [405] [406]
-Underfull \hbox (badness 10000) in paragraph at lines 13232--13234
+Overfull \hbox (66.65123pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
+OUR \TU/lmr/m/n/10 407
+ []
+
+[407] [408]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 13200--13200
+ []|\TU/lmr/m/n/10 Environmental 
+ []
+
+
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 13202--13202
+ []|\TU/lmr/m/n/10 Environmental 
+ []
+
+
+Overfull \hbox (66.65123pt too wide) has occurred while \output is active
+\TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
+OUR \TU/lmr/m/n/10 409
+ []
+
+[409] [410]
+Underfull \hbox (badness 10000) in paragraph at lines 13249--13251
 [][][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][] [][] [][][][] [][]
  [][][] [][] [][][][][][][][][][][] [] [][][][] [] [][][][] [] [][][][][][]$[]
  []
 
 
-Overfull \hbox (717.37001pt too wide) in paragraph at lines 13232--13234
+Overfull \hbox (717.37001pt too wide) in paragraph at lines 13249--13251
 \TU/lmr/m/n/10 maps api&utm_campaign=Google+Maps+API+(Fokusmarkeder)&utm_source
 =adwords&utm_medium=ppc&hsa_acc=1756747029&hsa_cam=9568964808&hsa_grp=100103134
 522&hsa_ad=477511645844&hsa_src=g&hsa_tgt=aud-
  []
 
 
-Overfull \hbox (608.46002pt too wide) in paragraph at lines 13232--13234
+Overfull \hbox (608.46002pt too wide) in paragraph at lines 13249--13251
 \TU/lmr/m/n/10 1074199825348:kwd-336979256761&hsa_kw=google maps api&hsa_mt=p&h
 sa_net=adwords&hsa_ver=3&gclid=CjwKCAjwx8iIBhBwEiwA2quaq37WdAzuUTzEEynIONxqGOL7
 V_62jAgOvV_H2B6kB9kJtjva-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13246--13248
+Underfull \hbox (badness 10000) in paragraph at lines 13263--13265
 [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][] [] [][][][][][][][
 ] [] [][][] [][] [][][][] [][] [] [][] [][][] [][] [][][][][][] [][] [][][][][]
 [][][][][]$[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13248--13250
+Underfull \hbox (badness 10000) in paragraph at lines 13265--13267
 \TU/lmr/m/n/10 at: []$[][][][][] [] [] [] [][][][][][][][][][][][][] [] [][][][
 ][] [] [][][] [] [][][][][][] [][] [][][][][][] [][] [][][][][][][] [][] [][][]
 [][][][][][][] [][]
@@ -4515,334 +4603,334 @@ Underfull \hbox (badness 10000) in paragraph at lines 13248--13250
 
 Overfull \hbox (66.65123pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 12.3.  BIG DATA TOOLS FOR MAPPING AND FORECASTING TRAVEL BEHAVI
-OUR \TU/lmr/m/n/10 407
+OUR \TU/lmr/m/n/10 411
  []
 
-[407] [408]
+[411] [412]
 Chapter 13.
-[409
+[413
 
-] [410] [411]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 13415--13415
+] [414] [415]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 13432--13432
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[412] [413]
-Underfull \hbox (badness 1107) in paragraph at lines 13483--13485
+[416] [417]
+Underfull \hbox (badness 1107) in paragraph at lines 13500--13502
 \TU/lmr/m/n/10 Nachteile, die erste Fahrt. Available at: []$[][][][][] [] [] []
  [][][] [] [][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 13485--13487
+Underfull \hbox (badness 1331) in paragraph at lines 13502--13504
 \TU/lmr/m/n/10 wirklich lohnt - WELT. Available at: []$[][][][][] [] [] [] [][]
 [] [] [][][][] [] [][] [] [][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13485--13487
+Underfull \hbox (badness 10000) in paragraph at lines 13502--13504
 [][][][][][][][][][][][][][][][] [] [][][][] [][] [][][] [][] [][][][] [][] [][
 ][] [][] [][][][][][][][] [][] [][][][] [][] [][][][][][][][] [][] [][][][][] [
 ] [][][][]$[]
  []
 
-[414]
-Underfull \hbox (badness 3449) in paragraph at lines 13489--13490
+[418]
+Underfull \hbox (badness 3449) in paragraph at lines 13506--13507
 \TU/lmr/m/n/10 bilität mit Zukunft. Available at: []$[][][][][] [] [] [] [][][]
  [] [][][][] [] [][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13489--13490
+Underfull \hbox (badness 10000) in paragraph at lines 13506--13507
 [][][][][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] []
 [] [][][][][][][][][] [][] [][][][][][][][][] [][] [][][][]$[] \TU/lmr/m/n/10 [
 Ac-
  []
 
-[415] [416]
+[419] [420]
 File: image/bike_sharing.png Graphic file (type bmp)
 <image/bike_sharing.png>
-[417]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 13594--13594
+[421]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 13611--13611
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[418]
+[422]
 Underfull \vbox (badness 6526) has occurred while \output is active []
 
-[419]
-Underfull \hbox (badness 1092) in paragraph at lines 13659--13661
+[423]
+Underfull \hbox (badness 1092) in paragraph at lines 13676--13678
 \TU/lmr/m/n/10 able at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][]
 [] [] [][] [] [][] [] [][][][] [] [][][] [][] [][][][][] [][] [][][][][][][][][
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 13665--13667
+Underfull \hbox (badness 1248) in paragraph at lines 13682--13684
 []\TU/lmr/m/n/10 Eillie, A. (2016). Oxford Test Drives Peer-to-Peer Bike Sharin
 g.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13665--13667
+Underfull \hbox (badness 10000) in paragraph at lines 13682--13684
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] []
 [][][][][][][] [] [][][][] [][] [][] [][] [][] [] [][][][][] [][] [][][][] [][]
  [][] [][] [] [][]
  []
 
-[420]
-Underfull \hbox (badness 1968) in paragraph at lines 13685--13687
+[424]
+Underfull \hbox (badness 1968) in paragraph at lines 13702--13704
 \TU/lmr/m/n/10 der Überholspur | kurier.at. []$[][][][][] [] [] [] [][][][][][]
  [] [][] [] [][][][][][][] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13687--13689
+Underfull \hbox (badness 10000) in paragraph at lines 13704--13706
 \TU/lmr/m/n/10 Überholspur. []$[][][][][] [] [] [] [][][][][][] [] [][] [] [][]
 [][][][][] [] [][][][][][][][][][][] [] [][][][][][][][][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13689--13691
+Underfull \hbox (badness 10000) in paragraph at lines 13706--13708
 [] [] [][][][][][] [] [][] [] [][][][][][][] [] [][][][] [] [][][][][][][][][][
 ] [][] [][][][][][] [][] [][][][][][] [][] [][] [][] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 13693--13695
+Underfull \hbox (badness 2253) in paragraph at lines 13710--13712
 []\TU/lmr/m/n/10 Rachbauer, S. (2018d, July 17). Leihräder: Wiener wollen es
  []
 
-[421] [422] [423]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 13797--13797
+[425] [426] [427]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 13814--13814
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[424] [425]
-Underfull \hbox (badness 3471) in paragraph at lines 13845--13847
+[428] [429]
+Underfull \hbox (badness 3471) in paragraph at lines 13862--13864
 \TU/lmr/m/n/10 veut une réglementation nationale. []$[][][][][] [] [] [] [][][]
  [] [][][][][][][][] [] [][] [] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13845--13847
+Underfull \hbox (badness 10000) in paragraph at lines 13862--13864
 [][][] [] [][][][] [] [][] [] [][] [] [][][][][] [][] [][][][][][][][][][][][][
 ][][][][][][] [][] [][][][][][][][][][][][] [][] [][] [][] [][][][][][] [][]
  []
 
-[426] [427] [428] [429]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14005--14005
+[430] [431] [432] [433]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14022--14022
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[430] [431]
-Underfull \hbox (badness 1337) in paragraph at lines 14081--14083
+[434] [435]
+Underfull \hbox (badness 1337) in paragraph at lines 14098--14100
 []\TU/lmr/m/n/10 GREENDRIVE MOBILITY GMBH. (2020). Greendrive - Premi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14083--14085
+Underfull \hbox (badness 10000) in paragraph at lines 14100--14102
 [][][] [] [][][][] [] [][][][] [][] [][][][][][][] [][] [][][] [][] [][][][] []
 [] [][][][][][][] [][] [][][] [][] [][][] [][] [][][][][][][][][][] [][] [][][]
  [][] [][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 14089--14091
+Underfull \hbox (badness 1466) in paragraph at lines 14106--14108
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][][][][][][
 ] [] [][][] [] [][][][] [] [][][][] [][] [][][][][][][] [][] [] [][] [][][][][]
 [][] [][]
  []
 
-[432]
-Underfull \hbox (badness 1622) in paragraph at lines 14099--14101
+[436]
+Underfull \hbox (badness 1622) in paragraph at lines 14116--14118
 \TU/lmr/m/n/10 Available at: []$[][][][][] [] [] [] [][][] [] [][][][] [] [][][
 ] [] [][] [] [][] [] [][][][][] [] [][][][][][][][][][][][] [] [][][] [][] [] [
 ][]
  []
 
-[433] [434] [435]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14225--14225
+[437] [438] [439]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14242--14242
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[436]
+[440]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[437]
-Underfull \hbox (badness 10000) in paragraph at lines 14274--14276
+[441]
+Underfull \hbox (badness 10000) in paragraph at lines 14291--14293
 [][] [] [][][][] [] [][] [] [][] [] [][][][][] [][] [][][][][] [][] [][][] [][]
  [][][] [][] [][][][][][] [][] [][][][][] [][] [][][] [][] [][][][][][][][][][]
  [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14276--14278
+Underfull \hbox (badness 10000) in paragraph at lines 14293--14295
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [] [][] [] [][][][][] [
 ] [][][][][][][][][][][][][] [] [][][][][] [][] [][][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14278--14280
+Underfull \hbox (badness 10000) in paragraph at lines 14295--14297
 [][][][][][][][] [][] [][] [][] [][][][][] [][] [][][][][] [][] [][][][][][][][
 ] [][] [][][][][] [][] [][][][][][][][][][][] [][] [][][][][][] [][] [][][][] [
 ][] [][][][][][][][]$[]
  []
 
-[438]
-Underfull \hbox (badness 1412) in paragraph at lines 14300--14302
+[442]
+Underfull \hbox (badness 1412) in paragraph at lines 14317--14319
 \TU/lmr/m/n/10 | UNIQA Österreich | UNIQA Österreich. []$[][][][][] [] [] [] []
 [][] [] [][][][][] [] [][] []
  []
 
-[439] [440
+[443] [444
 
 ]
 Chapter 14.
-[441] [442]
+[445] [446]
 File: image/hydrogen_refuel.png Graphic file (type bmp)
 <image/hydrogen_refuel.png>
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14401--14401
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14418--14418
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[443] [444]
-Underfull \hbox (badness 2922) in paragraph at lines 14455--14457
+[447] [448]
+Underfull \hbox (badness 2922) in paragraph at lines 14472--14474
 []\TU/lmr/m/n/10 Alvarez-Meaza, I., Zarrabeitia-Bilbao, E., Rio-Belver, R. M., 
 &
  []
 
-[445] [446] [447] [448] [449]
-Overfull \hbox (132.17014pt too wide) in alignment at lines 14546--14550
+[449] [450] [451] [452] [453]
+Overfull \hbox (132.17014pt too wide) in alignment at lines 14563--14567
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (132.17014pt too wide) in alignment at lines 14550--14560
+Overfull \hbox (132.17014pt too wide) in alignment at lines 14567--14577
  [] [] [] [] [] [] [] 
  []
 
-[450] [451]
-Overfull \hbox (24.18985pt too wide) in paragraph at lines 14615--14616
+[454] [455]
+Overfull \hbox (24.18985pt too wide) in paragraph at lines 14632--14633
  []|\TU/lmr/m/n/10 Bundesministerium 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14616--14616
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14633--14633
  []|\TU/lmr/m/n/10 Environmental 
  []
 
 
-Overfull \hbox (24.18985pt too wide) in paragraph at lines 14616--14617
+Overfull \hbox (24.18985pt too wide) in paragraph at lines 14633--14634
  []|\TU/lmr/m/n/10 Bundesministerium 
  []
 
 
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14618--14618
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14635--14635
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[452] [453]
-Underfull \hbox (badness 1043) in paragraph at lines 14685--14687
+[456] [457]
+Underfull \hbox (badness 1043) in paragraph at lines 14702--14704
 [][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][
 ][][][][][][] [][] [][][] [][] [][][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 19
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 14693--14695
+Underfull \hbox (badness 1609) in paragraph at lines 14710--14712
 []\TU/lmr/m/n/10 E-Control (2022). Quartalsbericht zum Ladestellenverzeichnis (
 Q3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14693--14695
+Underfull \hbox (badness 10000) in paragraph at lines 14710--14712
 [][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][][][][][][][][][][
 ] [][] [][] [][] [][][][] [][] [][] [] [][][] [] [][][][][][][][] [][] [][][][]
  [][]
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 14695--14697
+Underfull \hbox (badness 3568) in paragraph at lines 14712--14714
 []\TU/lmr/m/n/10 Fritz, D., Heinfellner, H., Lichtblau, G., Pölz, W., & Stran-
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 14699--14701
+Underfull \hbox (badness 2617) in paragraph at lines 14716--14718
 \TU/lmr/m/n/10 E-Fahrzeuge aus dem Verkehr. []$[][][][][] [] [] [] [][][] [] []
 [][][] [] [][] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14699--14701
+Underfull \hbox (badness 10000) in paragraph at lines 14716--14718
 [][][][][][][][][][][][][][][][] [] [][][][][][][][][][] [][] [][][][][][] [][]
  [][][][][][][][][][] [][] [][][] [][] [][][][][][][][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14699--14701
+Underfull \hbox (badness 10000) in paragraph at lines 14716--14718
 [] [][] [][][][][][][][][] [][] [][][] [][] [][][] [][] [][][][][][][] [] [][][
 ][] [] [][][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][]$[
 ]
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 14701--14703
+Underfull \hbox (badness 2564) in paragraph at lines 14718--14720
 \TU/lmr/m/n/10 2022 steigen. []$[][][][][] [] [] [] [][][] [] [][][][][][] [] [
 ][][] [] [][][][][][][] [] [][] [] [][][] [] [][][][][][][][][][][][][][]$[]
  []
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 14703--14705
+Underfull \hbox (badness 3417) in paragraph at lines 14720--14722
 \TU/lmr/m/n/10 partnerships - IEA. []$[][][][][] [] [] [] [][][] [] [][][] [] [
 ][][] [] [][][][][] [][] [][] [][] [][][][] [] [][][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14705--14707
+Underfull \hbox (badness 10000) in paragraph at lines 14722--14724
 [][] [] [][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][
 ] [] [][][][][][] [] [][][][][][][][][][][][][] [][] [][][][][][] [][]
  []
 
-[454]
-Underfull \hbox (badness 3861) in paragraph at lines 14711--14713
+[458]
+Underfull \hbox (badness 3861) in paragraph at lines 14728--14730
 []\TU/lmr/m/n/10 Michael. (2020, January 26). Wasserstoff, E-Auto, E-Fuels:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14711--14713
+Underfull \hbox (badness 10000) in paragraph at lines 14728--14730
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][] [][] [][][][] [] [][][]
  [] [][][][] [] [][][][][][][][][][][] [][] [] [][] [][][][] [][] [] [][] [][][
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14713--14715
+Underfull \hbox (badness 10000) in paragraph at lines 14730--14732
 [][][][][][][] [][] [][][][][][] [][] [][][][][][] [][] [][][][] [][] [][][] []
 [] [] [][] [][][][][] [][] [][][][][][][][][] [][] [][][][][][] [][] [][][][][]
 [][][][][] [][] [][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 14723--14725
+Underfull \hbox (badness 1062) in paragraph at lines 14740--14742
 \TU/lmr/m/n/10 für Elektroautos steigt weiter an | Bundesverband Elektromobilit
 ät
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14723--14725
+Underfull \hbox (badness 10000) in paragraph at lines 14740--14742
 [][][] [] [][][][][][][][] [] [][][][][][][] [] [] [][] [][][][][][][][][][] []
 [] [][][][] [][] [][][] [][] [][][][][][][][][][][][][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14725--14727
+Underfull \hbox (badness 10000) in paragraph at lines 14742--14744
 [][] [] [][][] [] [][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][][][
 ][] [] [][][][][][][][][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 14725--14727
+Underfull \hbox (badness 5519) in paragraph at lines 14742--14744
 [][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][][] [][] [][][][
 ][][][][] [] [][][][][] [] [][][][]$[] \TU/lmr/m/n/10 [Accessed: 17
  []
@@ -4850,142 +4938,142 @@ Underfull \hbox (badness 5519) in paragraph at lines 14725--14727
 
 Underfull \vbox (badness 2617) has occurred while \output is active []
 
-[455] [456] [457]
-Overfull \hbox (4.08986pt too wide) in paragraph at lines 14846--14846
+[459] [460] [461]
+Overfull \hbox (4.08986pt too wide) in paragraph at lines 14863--14863
  []|\TU/lmr/m/n/10 Environmental 
  []
 
-[458] [459]
-Underfull \hbox (badness 10000) in paragraph at lines 14900--14902
+[462] [463]
+Underfull \hbox (badness 10000) in paragraph at lines 14917--14919
 []$[][][][][] [] [] [] [][][] [] [][][][] [] [][] [] [][][][][][][] [] [][][][]
 [][] [][] [][][][][][][][][][] [][] [][][][][][][] [] [][][][][][][][][][][] []
 []
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 14904--14906
+Underfull \hbox (badness 2376) in paragraph at lines 14921--14923
 []\TU/lmr/m/n/10 Bannon, E., (2020). Plug-In Hybrids In New Emissions Scan-
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 14904--14906
+Underfull \hbox (badness 2671) in paragraph at lines 14921--14923
 \TU/lmr/m/n/10 dal As Tests Show Higher Pollution Than Claimed | Transport
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 14904--14906
+Underfull \hbox (badness 1281) in paragraph at lines 14921--14923
 \TU/lmr/m/n/10 & Environment. Transportenvironment.org. Available at: []$[][][]
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14904--14906
+Underfull \hbox (badness 10000) in paragraph at lines 14921--14923
 [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][] [] [][][] [] [][][][][
 ] [] [][][][] [][] [][][][][][][] [][] [][][] [][] [][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 14904--14906
+Underfull \hbox (badness 6641) in paragraph at lines 14921--14923
 [][][][][][][] [][] [][][][][] [][] [][][][] [][] [][][][][][] [][] [][][][][][
 ][][][] [][] [][][][][][][]$[] \TU/lmr/m/n/10 [Accessed: 19 January
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 14906--14908
+Underfull \hbox (badness 1552) in paragraph at lines 14923--14925
 \TU/lmr/m/n/10 New Registrations Of Electric Vehicles In Europe. Available at:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14906--14908
+Underfull \hbox (badness 10000) in paragraph at lines 14923--14925
 []$[][][][][] [] [] [] [][][] [] [][][] [] [][][][][][] [] [][] [] [][][][] [][
 ] [][][] [][] [][][][] [] [][][][][][][][][][] [] [][][][][][][][][][] [][] [][
 ] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14908--14910
+Underfull \hbox (badness 10000) in paragraph at lines 14925--14927
 [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][][][] [] [][][] []
  [][][][][][][][] [] [][][][][][][] [] [][][][][][][][][] [][]
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 14910--14912
+Underfull \hbox (badness 1152) in paragraph at lines 14927--14929
 []\TU/lmr/m/n/10 Köllner, C. (2020). Das sollten Sie über Plug-in-Hybride wisse
 n.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14910--14912
+Underfull \hbox (badness 10000) in paragraph at lines 14927--14929
 []$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][] [] []
 [] [] [][][][] [][] [][] [][] [][][][][][] [] [][][][][][][][][][][][][][] [] [
 ][][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14912--14914
+Underfull \hbox (badness 10000) in paragraph at lines 14929--14931
 \TU/lmr/m/n/10 Ökobilanz. []$[][][][][] [] [] [] [][][] [] [][][][] [] [][] [] 
 [][][][] [][] [][][] [][] [][][][][][][][] [] [][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 14914--14916
+Underfull \hbox (badness 3058) in paragraph at lines 14931--14933
 []\TU/lmr/m/n/10 Ortner, M. (2020, December 9). Plug-in-Hybride sind nur so
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14914--14916
+Underfull \hbox (badness 10000) in paragraph at lines 14931--14933
 [] [] [][][] [] [][][][][][][][][][][][][] [] [][] [] [][][][][][][][][][][] []
  [][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][][][] [][]
  []
 
 Missing character: There is no ₂ in font [lmroman10-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 14918--14920
+Underfull \hbox (badness 10000) in paragraph at lines 14935--14937
 \TU/lmr/m/n/10 bridfahrzeuge. []$[][][][][] [] [] [] [][][] [] [][][][][][][][]
 [][][][][][][][][][][][] [] [][] [] [][][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14918--14920
+Underfull \hbox (badness 10000) in paragraph at lines 14935--14937
 [][][][][][][][][][][][][][][][][][][] [] [][][][] [][] [][][][][][][][][] [][]
  [][][][][] [][] [][][][][][][][][] [][] [][][][][][][][][] [][] [][][][] [][]
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 14920--14922
+Underfull \hbox (badness 1888) in paragraph at lines 14937--14939
 []\TU/lmr/m/n/10 Sitte, P. (2020a, June 29). BEÖ begrüßt E-Mobilitätsförderung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14920--14922
+Underfull \hbox (badness 10000) in paragraph at lines 14937--14939
 []$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][][][][][][][][][][]
 [][] [] [][][] [] [][][][][][][][] [] [][][][][][][] [] [][][][] [][]
  []
 
-[460]
-Underfull \hbox (badness 3396) in paragraph at lines 14922--14924
+[464]
+Underfull \hbox (badness 3396) in paragraph at lines 14939--14941
 \TU/lmr/m/n/10 Elektromobilität Österreich (BEÖ), 15.07.2020. []$[][][][][] [] 
 [] [] [][][] [] [][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14922--14924
+Underfull \hbox (badness 10000) in paragraph at lines 14939--14941
 [][] [] [][][][][][][][][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][
 ][][][][] [] [][][][] [][] [][][][][] [][] [][][][][] [][] [][] [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14926--14927
+Underfull \hbox (badness 10000) in paragraph at lines 14943--14944
 [][][][][][][][][][][][][][][][][][] [] [][][][][][] [] [][][][] [][] [][][][] 
 [][] [][][][][][] [][] [][][][][] [][] [][][][][][][][][] [][] [][][][][][][][]
 [][][] [][]
  []
 
-[461] [462
+[465] [466
 
 ]
 Chapter 15.
-(./_main.bbl [463] [464
+(./_main.bbl [467] [468
 
 ]
 
@@ -4995,17 +5083,17 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-[465] (./_main.aux)
+[469] (./_main.aux)
 Package rerunfilecheck Info: File `_main.out' has not changed.
 (rerunfilecheck)             Checksum: 59B7D2D4C03115F77BD09C09CC141471;16050.
  ) 
 Here is how much of TeX's memory you used:
- 17409 strings out of 478931
- 315406 string characters out of 5865316
- 840185 words of memory out of 5000000
- 37005 multiletter control sequences out of 15000+600000
+ 17433 strings out of 478931
+ 315857 string characters out of 5865316
+ 839388 words of memory out of 5000000
+ 37027 multiletter control sequences out of 15000+600000
  409897 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  98i,7n,122p,2391b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _main.pdf (465 pages).
+Output written on _main.pdf (469 pages).
