@@ -84,7 +84,7 @@
 
 \title{Knowledge Pool}
 \author{DAVeMoS team, Institute for Transport Studies (IVe), University of Natural Resources and Life Sciences in Vienna}
-\date{2023-03-24}
+\date{2023-04-19}
 
 \begin{document}
 \maketitle
@@ -128,7 +128,7 @@ The authors assume no responsibility or liability for any errors or omissions in
 The knowledge pool was last compiled on:
 
 \begin{verbatim}
-## [1] "24 March 2023"
+## [1] "19 April 2023"
 \end{verbatim}
 
 \textbf{Table of content}
@@ -1013,6 +1013,8 @@ TRL & SRL \\
 \hypertarget{rail_crossing_info_system}{%
 \section{Rail crossing information system}\label{rail_crossing_info_system}}
 
+\textbf{Updated: 19th April 2023}
+
 \hypertarget{synonyms-2}{%
 \subsection*{Synonyms}\label{synonyms-2}}
 \addcontentsline{toc}{subsection}{Synonyms}
@@ -1147,29 +1149,44 @@ Results from Beanland et al.~(2017) suggest that while significant slowing at pa
 
 Fayyaz \& Johnson (2020) suggest to use deep learning technology in radar and video monitoring systems to better classify objects or locate their exact position in the given frame, as the environment of level crossings is dynamic (growing vegetation and frequently harmless objects). Thus, the technology is not intended to rely on raw pixel values, but rather on the features and actual representation of the object.
 
+In the past years research focused on improving the method and sensors to send information on the approach of trains and simultaneously reduce delays at level crossings (Maratovic et al., 2022). On the one hand, controlling the trains speed and ITS systems like V2I and V2X technologies were researched and suggested (Maratovic et al., 2022). On the other hand, Boltayev et al.~(2022) proposed a methodology based on mathematical expressions (petri net mathematics) to calculate approaching road intersections for trains of different categories based on dynamic indicators.
+
 \hypertarget{current-state-of-art-in-practice-2}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-2}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
 
-According to the European Railway Agency (2020) safety at level crossings has improved over the last ten years. With 1,721 significant accidents, the lowest number since 2010 was recorded in 2018. The decrease is mainly due to `external' accidents involving third parties (unauthorised persons and level crossing users). Between 2006 and 2018, rail fatalities decreased by 60\% (an average of 4.6\% p.a.). Level crossing accidents and fatalities account for more than a quarter of all rail accidents on EU railways. Every year, almost 300 people die in LC accidents (EU-28), with an estimated economic loss of €1 billion.
+According to the European Railway Agency (2022) safety at level crossings has improved over the last ten years. With 1,721 significant accidents, the lowest number since 2010 was recorded in 2018. The decrease is mainly due to `external' accidents involving third parties (unauthorised persons and level crossing users). Between 2006 and 2018, rail fatalities decreased by 60\% (an average of 4.6\% p.a.). Level crossing accidents and fatalities account for more than a quarter of all rail accidents on EU railways. Every year, almost 300 people die in LC accidents (EU-27), with an estimated economic loss of €1 billion.
 
-There are about 105 000 level crossings in the EU-28 countries. Passive level crossings account for 49\% of all level crossings. These level crossings are usually equipped with a St Andrew's cross but do not provide active warning to road users. Level crossings with user protection (arm barriers and flashing lights) are the most common type of active level crossing (45 \%). Level crossings combining full roadside protection with rail protection account for 16 \% (17 277) of all level crossings. Passive level crossings and level crossings in general are disappearing at a slow pace. If the current trend continues, there will still be around 35 000 level crossings on the EU rail network by the end of the century, of which 5 000 will be passive. The last report assessing the achievement of the safety targets showed acceptable safety performance in all Member States in the categories of passengers, level crossing users and societal risks. For the category of level crossing users, it was the first time since the 2013 assessment that no country showed a possible deterioration (European Railway Agency, 2019). Network Rail (2019) has set the following priorities for level crossing information systems:
+There are more than 97000 level crossings in the EU-27 countries. Passive level crossings account for more than 42\% of the total all level crossings. These level crossings are usually equipped with a St Andrew's cross but do not provide active warning to road users. Level crossings with user protection (arm barriers and flashing lights) are the most common type of active level crossing (40 \%). Level crossings combining full roadside protection with rail protection account for 18 \% (17 320) of all level crossings. Passive level crossings and level crossings in general are disappearing at a slow pace. There is a possible relationship between the average number of passive level crossings between 2018 and 2020 among European countries and the average number of level crossing accidents. Figure 1 below illustrates, that in all but a few countries (e.g.~Finland, Norway, Sweden and the UK), where further analysis is merited, a higher number of passive level crossings is associated with a higher number of level crossing accidents (European Railway Agency, 2019).
 
-\begin{itemize}
+\begin{figure}
+\includegraphics[width=0.6\linewidth]{image/level_crossing} \caption{Number of level crossing accidents and number of passive level crossings per country (European Railway Agency, 2022)}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+As there is no standard for level crossing protective equipment, dozens of types with various combinations of features, exist in Europe. However, a basic classification has been agreed, featuring five main types, characterised by their main functional capacities and risk reduction potential (1-highest protection to 5-lowest protection) (European Railway Agency, 2022):
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Unsecured automatic level crossings - the automatic half-barrier crossing.
+  User-side protection and warning, and rail-side protection
 \item
-  Automatic level crossings that inform the driver whether the level crossing is clear before a train can pass the crossing.
+  Automatic user-side protection
 \item
-  Improvement and installation of visual and acoustic warnings
-\end{itemize}
+  Automatic user-side warning
+\item
+  Manual
+\item
+  Passive level crossings
+\end{enumerate}
 
 To further improve safety at level crossings, obstacle detection systems are used at level crossings. Systems are classified into a safety integrity level (SIL), which has a four-level scale, with SIL 1 being the minimum safety requirement and SIL 4 being the most stringent. These levels are used to specify the safety integrity requirements for the safety functions performed by safety systems (Gabriel et al., 2018).
 
 Traditional (intrusive) sensors installed on or in the railway tracks (e.g.~inductive loops and strain gauges) interfere with the rail tracks during their installation and maintenance, making the system costly and unsuitable for its applicability at level crossings. Non-intrusive sensors (e.g.~radar and CCTV) are installed outside the tracks and do not disturb the tracks during installation and maintenance periods. The low cost and long product life cycle of these sensors make radar and CCTV the preferred choice for level crossing applications (Fayyaz \& Johnson, 2020).
 
-The L.B. Foster company in the US already has several LODs in use for red light violation monitoring, number plate recognition, video analysis and data recording. The red light violation camera system has led to thousands of prosecutions for dangerous driving. The requirement to detect a 9-year-old child while lying on the level crossing proved challenging. This meant detecting any object with a size of 115mm height. The technology chosen to meet this specification was a LIDAR detector, which after 3 months of ground testing proved that it was possible to detect an object of this size after modifications. Integrating the system into typical signalling circuits also proved challenging as there were many relay circuits to consider, not only for obstacle detection but for all fault modes etc (Roberts, 2018).
+The L.B. Foster company in the US already has several LODs in use for red light violation monitoring, number plate recognition, video analysis and data recording. The red light violation camera system has led to thousands of prosecutions for dangerous driving. The requirement to detect a 9-year-old child while lying on the level crossing proved challenging. This meant detecting any object with a size of 115mm height. The technology chosen to meet this specification was a LIDAR detector, which after 3 months of ground testing proved that it was possible to detect an object of this size after modifications. Integrating the system into typical signalling circuits also proved challenging as there were many relay circuits to consider, not only for obstacle detection but for all fault modes etc. (Roberts, 2018).
+
+In Austria automatic user-side protection got more attention over the past years. A good example is the route between Graz and Spielfeld, where most rail crossings are protected. Still, in most communities, mainly passive rail crossings exist, which is mostly a question of budget. Communities mostly do not have the financial resources and railway companies are not ready to pay if there is no regulation to install active rail crossings (Reinisch, 2022).
 
 \hypertarget{relevant-initiatives-in-austria-2}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-2}}
@@ -1184,9 +1201,11 @@ In 2016, 40 level crossings in Austria were equipped with cameras to film red li
 \item
   \href{https://www.derstandard.at/story/2000038658674/im-vorjahr-124-unfaelle-bei-eisenbahnkreuzungen-mit-21-toten}{Derstandard.at}
 \item
-  \href{https://www.bmk.gv.at/themen/verkehr/eisenbahn/sicherheit/bahnuebergaenge/sicherhandeln.html}{Bmk.gv.at}
+  \href{https://www.bmk.gv.at/themen/verkehr/eisenbahn/sicherheit/bahnuebergaenge.html}{Bmk.gv.at}
 \item
   \href{https://www.tips.at/nachrichten/urfahr-umgebung/land-leute/519686-neuer-bahnschranken-fuer-mehr-sicherheit}{Tips.at}
+\item
+  \href{https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen\&Gesetzesnummer=20007888}{Regulation Austria}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-2}{%
@@ -1261,6 +1280,8 @@ TRL & SRL \\
   \href{https://www.ihi.co.jp/3DLaserRadar/en/products/01.html}{Ihi.co.jp}
 \item
   \href{https://lbfoster.eu/en/control-and-display/solutions/remote-condition-monitoring/lidar-level-crossing-obstacle-detection/}{Lbfoster.eu}
+\item
+  \href{https://projects.shift2rail.org/s2r_ip_TD_r.aspx?ip=3\&td=615ae1da-7add-453e-8b39-0b7b0ce89921}{Shift2Rail - Current EU project}
 \end{itemize}
 
 \hypertarget{references-2}{%
@@ -1276,11 +1297,11 @@ TRL & SRL \\
 \item
   bmvit. (2011). Sicher Handeln an Eisenbahnkreuzungen. \url{https://www.bmk.gv.at/themen/verkehr/eisenbahn/sicherheit/bahnuebergaenge/sicherhandeln.html}
 \item
+  Boltayev, S., Valiyev, S. I., Qosimova, A. Q. (2022). Improving the Method of Sending Information about the Approach of Trains to Railway Crossings. IEEE -- EIConRus. 558-565. 10.1109/ElConRus54750.2022.9755564
+\item
   Darlington, P. (2017, May 30). Obstacle detection for level crossings. Rail News. \url{https://www.railengineer.co.uk/obstacle-detection-for-level-crossings/}
 \item
-  European Railway Agency. (2019). Assessment of achievement of safety targets - 2019.
-\item
-  European Railway Agency. (2020). Report on Railway Safety and Interoperability in the EU. European Union Agency for Railways. \url{https://doi.org/10.2821/30980}
+  European Railway Agency (2022). Railway Safety and Interoperability in the EU. European Union -- Agency for Railways. Available at: \url{https://www.era.europa.eu/system/files/2022-10/Report\%20on\%20Railway\%20Safety\%20and\%20Interoperability\%20in\%20the\%20EU\%202022.pdf} {[}Accessed: 29. March 2023{]}
 \item
   European Union. (2014). Level crossings - European Union common safety indicators ( ref . Directive 2014 / 88 / EU ).
 \item
@@ -1294,6 +1315,8 @@ TRL & SRL \\
 \item
   Larue, G. S., Kim, I., Rakotonirainy, A., Haworth, N. L., \& Ferreira, L. (2015). Driver's behavioural changes with new intelligent transport system interventions at railway level crossings - A driving simulator study. Accident Analysis and Prevention, 81, 74--85. \url{https://doi.org/10.1016/j.aap.2015.04.026}
 \item
+  Maratovic, A. M., Mukhamedovic, A. M., Tursunalievich, T. E. (2022). Improvement sensors of system crossing signalization and reduction delays at level crossings. New Science. International Centre for Scientific Partnership. Available at: \url{https://api.scienceweb.uz/storage/publication_files/1151/7962/64119f04b81ee___28.2022.Монография-Tokhirov.pdf} {[}Accessed: 30. March 2023{]}
+\item
   mermecgroup. (n.d.). Level Crossing Obstacle Detection System. Available at: \url{https://www.mermecgroup.com/protect/level-crossing/1033/level-crossing-obstacle-detection.php} {[}Accessed: 31 May 2021{]}
 \item
   Network Rail. (2019). Enhancing level crossing safety 2019-2029. 1--35.
@@ -1303,6 +1326,8 @@ TRL & SRL \\
   Raub, R. A. (2009). Examination of Highway--Rail Grade Crossing Collisions Nationally from 1998 to 2007. Transportation Research Record, 2122(1), 63--71. \url{https://doi.org/10.3141/2122-08}
 \item
   Read, G. J. M., Cox, J. A., Hulme, A., Naweed, A., \& Salmon, P. M. (2021). What factors influence risk at rail level crossings? A systematic review and synthesis of findings using systems thinking. Safety Science, 138, 105207. \url{https://doi.org/10.1016/j.ssci.2021.105207}
+\item
+  Reinisch, K. (2022). Unbeschränkte Bahnübergänge werden sicherer. MeinBezirk.at. Available at: \url{https://www.meinbezirk.at/leibnitz/c-lokales/unbeschrankte-bahnuebergaenge-werden-sicherer_a5153482} {[}Accessed: 29. March 2023{]}
 \item
   Roberts, N. (2018, July). Network Rail - Level crossing obstacle detection systems - L.B. Foster. \url{https://lbfoster.eu/en/case-studies/control-and-display/network-rail-level-crossing-obstacle-detection-systems/}
 \item
@@ -1321,6 +1346,8 @@ TRL & SRL \\
 \addcontentsline{toc}{subsection}{Synonyms}
 
 \emph{ERS}
+
+\textbf{Updated: 17th April 2023}
 
 \hypertarget{definition-3}{%
 \subsection*{Definition}\label{definition-3}}
@@ -1360,6 +1387,10 @@ Current, research focuses on testing of the ERS solutions to enable deployment o
 Since 2008 the South Korean company \href{https://www.kaist.ac.kr/en/html/kaist/01200103.html}{OLEV} (branch of KAIST University) has been working on inductive power transfer and since 2013 two electric buses have been in operation on public roads, inside university campus (Kelion, 2013). Nonetheless, this system is currently outdated and results as a low-speed system within local public transport. In 2016 an initial testing of the overhead lines has been conducted in Germany on Siemens' 2 km test track in Berlin, at the same time in Sweden a full integration with Scania vehicle has been achieved. More examples include Volvo and Alstom's cooperation on testing of conductive tracks on the 400 m test side in Hällered, Sweden (Möller, 2017). Similarly, Swedish Transport Administration in collaboration with Elonroad under \href{https://www.evolutionroad.se/en/}{EVolution Road} project constructed a 1 km of demonstration road in Lund to test the performance of an electric bus.
 On the other hand, research on the efficiency of inductive tracks conducted in France and Italy showed that their performance depends on the precision of alignment between the track and the coil in the vehicle (Muelaner, 2020). Finally, a study by Börjesson et al.~(2020) showed that use of electric road solution can decrease operational costs for freight operators due to a switch from diesel to electricity. Consequently, the social benefit of this technological solution outweighs its cost. Moreover, it has been concluded that use of ERS offers significant reduction in carbon emissions.
 
+A study conducted at the Sweden's Chalmers University of Technology shows that a combination of electric roads on 25\% of the busiest national and European roads and home charging would be optimal while batteries (which account for a large part of the costs of an electric car) could become significantly smaller, reaching one-third of the current size (Shoman et al., 2022). Co-author Sten Karlsson said: ``We see that it is possible to reduce the required range of batteries by more than two-thirds if you combine charging in this way. This would reduce the need for raw materials for batteries, and an electric car could also become cheaper for the consumer'' (N. N., 2023). The fact, that building electric roads is cheaper than many other alternatives (due to a replaced smaller battery for each new vehicle sold) was also analysed by Coban et al.~(2022) which state that enough savings can be made to electrify all highways and main roads (in this case in Turkey) after three years.
+
+To improve the performance of dynamic wireless charging systems, the method of wireless power transfer is used and has long been a common practice with pure electric vehicles. Various authors focus on improving the technology by developing new algorithms and/or models. Mohamed et al.~(2022) provide a model with two receiver coils under the vehicle (instead of one), proving effectiveness of this model. While Rajamoorthy et al.~(2022) propose a charging scheduling algorithm that integrates Grey Wolf Optimizer (GWO) and Snail Fish Optimization (SFO). Soares and Wang (2022) critically reviewed conductive and wireless charging techniques and state, that wireless charging techniques for eRoad vary in efficiency, power, air gap, and technology readiness level which results in a lack of systematic design and construction of eRoad that enable its function in the most efficient state and life-cycle performance.
+
 \hypertarget{current-state-of-art-in-practice-3}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-3}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
@@ -1370,9 +1401,9 @@ Since 2016 overhead lines have been successfully deployed on public roads in Swe
 
 Further, between 2016-2017 project \href{https://www.fcirce.es/en/smart-mobility-en-en/victoria-2}{VICTORIA} led by Spanish energy company Endesa developed first dynamic inductive load systems for a bus line in Malaga, Spain. Similarly, EU project \href{https://trimis.ec.europa.eu/project/feasibility-analysis-and-development-road-charging-solutions-future-electric-vehicles}{FABRIC} has been conducted in Torino, Italy and Satory in France (Tongur \& Sundelin, 2016).
 
-In terms of cost analysis, an example from the UK shows that inductive tracks provide cost advantage, where the installation of 1 mile (1,6 km) of inductive tracks on a two-lane road costs around 1.4 million euros. If these were to be installed in all UK highways the costs would come up to around 13 billion euros. At the same time, the cost of additional electricity capacity required for hydrogen in \protect\hyperlink{FCEV}{FCEV} sums up to 140 billion euros. Additionally, cost-benefit analysis showed that if most vehicles used ERS, the savings resulting from smaller batteries in electric cars would outweigh the costs of ERS construction.
+In terms of cost analysis, an example from the UK shows that inductive tracks provide cost advantage, where the installation of 1 mile (1,6 km) of inductive tracks on a two-lane road costs around 1.4 million euros. If these were to be installed in all UK highways the costs would come up to around 13 billion euros. At the same time, the cost of additional electricity capacity required for hydrogen in \protect\hyperlink{FCEV}{FCEV} sums up to 140 billion euros. Additionally, cost-benefit analysis showed that if most vehicles used ERS, the savings resulting from smaller batteries in electric cars would outweigh the costs of ERS construction. Those results were also proven by a nationwide study by the Electric Road Consortium that shows that ERS is likely to be the fastest and most efficient way to decarbonise UK's freight sector. Compared with a hydrogen-powered HGV, an ERS-powered truck would require three times less energy. (N. N., 2022)
 
-Interestingly, ERS has not been particularly popular in Austria, potentially due to presence of well-developed railway network which, thus far, dominated freight. In particular, critics describe the construction of electric highways as \emph{a waste of money}, because it only benefits companies that equip their fleets with the necessary vehicles with overhead line system (Traktuell.at. 2020).
+In Austria, a project funded by the FFG (Austrian Redearch Funding Agency) for on-trip truck-charging started in March 2021 and ended after 19 months (end of September 2022) (FFG, 2022). On 21.09.2022, the final event of the EnergyRoads project took place at the ASFiNAG site in Vienna (Austrian Energy Agency, 2022). Still, ERS has not been particularly popular in Austria, potentially due to presence of well-developed railway network which, thus far, dominated freight. In particular, critics describe the construction of electric highways as \emph{a waste of money}, because it only benefits companies that equip their fleets with the necessary vehicles with overhead line system (Traktuell.at. 2020).
 
 \hypertarget{relevant-initiatives-in-austria-3}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-3}}
@@ -1384,6 +1415,8 @@ Interestingly, ERS has not been particularly popular in Austria, potentially due
   \href{https://www.scania.com/at/de/home/products-and-services/trucks/sustainability/elektro-mobilitaet/oberleitungs-lkw.html}{scania.com}
 \item
   \href{https://www.electrive.net/2019/07/24/auswertung-der-these-zu-lastkraftwagen-an-oberleitungen/}{electrive.net}
+\item
+  \href{https://www.energyagency.at/energyroads}{EnergyRoads}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-3}{%
@@ -1489,13 +1522,31 @@ TRL & SRL \\
 \begin{itemize}
 \tightlist
 \item
+  Austrian Energy Agency (2022). Energy Roads -- Der Weg in eine klimaneutrale Zukunft?. AEA - Austrian Energy Agency. Available at: \url{https://www.energyagency.at/energyroads} {[}Accessed: 30 March 2023{]}
+\item
   Börjesson, M., Johansson, M., \& Kågeson, P. (2020). The economics of electric roads.
+\item
+  Coban, H. H., Tehman, A., Mohamed, A. (2022). Analyzing the Social Cost of Electric Roads Compared to Batteries and Oil for All Forms of Road Transport. Energies. 15, 5, 1925. \url{https://doi.org/10.3390/en15051925}
+\item
+  FFG. (2022). Energy Roads -- put trucks on a leash: feasibility, meaningfulness, acceptance and implementation of on-trip truck charging in Austria. Available at: \url{https://projekte.ffg.at/projekt/4032443} {[}Accessed: 30 March 2023{]}
 \item
   Kelion, L., 2013. South Korean road wirelessly recharges OLEV buses. BBC News. Available at: \url{https://www.bbc.com/news/technology-23603751} {[}Accessed: 19 February 2021{]}.
 \item
   Möller, C. (2017). Carbon neutral road transportation: an assessment of the potential of electrified road systems.
 \item
   Muelaner, J., 2020. Electric Road Systems. Engineering.com. Available at: \url{https://www.engineering.com/story/electric-road-systems} {[}Accessed: 18 February 2021{]}.
+\item
+  Mohamed, N., Aymen, F., Alqarni, M., Turky, R. A., Almari, B., Ali, Z. M., Abdel Aleem, S. H. E. (2022). A new wireless charging system for electric vehicles using two receiver coils. Ain Shams Engineering Journal. 13, 2, 101569. \url{https://doi.org/10.1016/j.asej.2021.08.012}
+\item
+  N. N. 2022. New study shows nationwide Electric Road System likely the lowerst-carbon option for UK freight sector. Costain. Available at: \url{https://www.costain.com/news/news-releases/new-study-shows-nationwide-electric-road-system-likely-the-lowest-carbon-option-for-uk-freight-sector/} {[}Accessed: 5 April 2023{]}
+\item
+  N. N. 2023. Sweden takes serious look at pros and cons of electric road systems. Mining.com. Available at: \url{https://www.mining.com/sweden-takes-serious-look-at-pros-and-cons-of-electric-road-systems/} {[}Accessed: 30 March 2023{]}
+\item
+  Rajamoorthy, R., Arunachalam, G., Kasinathan, P., Devendiran, R., Ahmadi, P., Pandiyan, S., Muthusamy, S., Panchal, H., Kasem, H. A., Sharma, P. (2022). A novel intelligent transport system charging scheduling for electric vehicles using Grey Wolf Optimizer and Snail Fish Optimization algorithms. Energy Sources, Part A: Recorvery, Utilization, and Environmental Effects. 44, 2, 3555-3575. \url{https://doi.org/10.1080/15567036.2022.2067268}
+\item
+  Shoman, W., Karlsson, S., Yeh, S. (2022). Benefits of an Electric Road System for Battery Electric Vehicles. World Electric Vehicle Journal. 13(11), 197. \url{https://doi.org/10.3390/wevj13110197}
+\item
+  Plötz, P. (2022). Hydrogen technology is unlikely to pay major role in sustainable road transport. Nature Electronics. 5, 8-10. \url{https://doi.org/10.1038/s41928-021-00706-6}
 \item
   Tongur, S., \& Sundelin, H. (2016, October). The electric road system transition from a system to a system-of-systems. In 2016 Asian Conference on Energy, Power and Transportation Electrification (ACEPT) (pp.~1-8). IEEE.
 \item
@@ -1506,6 +1557,8 @@ TRL & SRL \\
 
 \hypertarget{high_occupancy}{%
 \section{High occupancy vehicle and toll lanes}\label{high_occupancy}}
+
+\textbf{Updated: 19th April 2023}
 
 \hypertarget{synonyms-4}{%
 \subsection*{Synonyms}\label{synonyms-4}}
@@ -1545,11 +1598,15 @@ Companies can benefit from reduced congestion-related labour and transportation 
 \subsection*{Current state of art in research}\label{current-state-of-art-in-research-4}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
+Cohen et al.~(2022) analysed the impact of HOV lanes on commuters' carpooling behaviour and found that HOV lanes have a positive impact on carpool adoption (especially with a round trip design) while they also have a broader impact by increasing carpooling on non-HOV routes and shifting travel behaviours of non-car-poolers. Further research by Himes et al.~(2022) analyses safety prediction methods on HOV lanes to predict total crash frequency and multiple-vehicles crash frequency.
+
 Nohekhan et al.~(2021) investigated the difference in travel time on I-66 Inner Beltway by changing an HOV lane to a HOT lane and found that the change reduced travel time. At the same time, the toll system provides a reliable cash flow that raises essential funds for the transportation sector. However, Burris et al.~(2014) argue that it appears that carpooling is often negatively impacted when an HOV lane is converted to a HOT lane.
 
 Wang et al.~(2020) have been addressing the fact that existing pricing strategies of HOT lanes cannot guarantee that the closed-loop system converges to the optimal state where the capacity of HOT lanes is fully utilized but there is no queue on HOT lanes. A well-functioning estimation and control method is quite challenging and still hard to find. In their paper, they try to fill the gap by (\emph{i}) presenting a simpler formulation of the point queueing model based on the new concept of residual capacity, (\emph{ii}) proposing a simple feedback control theory approach to estimate the average value of time and compute the dynamic price, and (\emph{iii}) proving analytically and numerically that the closed-loop system is stable and guaranteed to converge to the optimal state, either in a Gaussian or exponential manner. Further, Boysen et al.~(2021) conducted a case study on how carpooling could be optimized along HOT lanes in the North America region.
 
 Hosford et al.~(2021) looked at the impact of road pricing on transportation and health equity. They identified impacts on car travel, modal shift to public transport, destination accessibility, affordability, prosperity, social interactions, air pollution, traffic accidents and fatalities, acute asthma attacks, and life expectancy. In general, existing evidence suggests that road pricing has largely positive net effects in reducing car trips, air pollution, asthma attacks, and traffic collisions, and increasing life expectancy. However, the frequency and ease of social interactions were negatively affected. The populations that generally fared better in terms of transportation and health were those with higher incomes, men, and people between the ages of 35 and 55. Also, it turned out that there are few evaluations that include non-occupational trips, so there may be missing effects for the unemployed or women who are more likely to make non-occupational trips. They concluded that the limited evidence suggests that tolls are beneficial for a range of transportation and health outcomes, particularly for populations within the catchment area, but that there may be some degree of inequality in the distribution of benefits and burdens.
+
+A study on HOV lanes conducted for the metropolitan area of Austria concluded, that HOV-lanes prove a practical approach for improving the bad commuting traffic situation on a local level but also have to be seen as one of many measures that would be necessary to create a real sustainable solution for the whole metropolitan area (Berger, 2002).
 
 \hypertarget{current-state-of-art-in-practice-4}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-4}}
@@ -1557,7 +1614,7 @@ Hosford et al.~(2021) looked at the impact of road pricing on transportation and
 
 HOV lanes as well as HOT lanes are already widespread in North America. Several HOV lanes were also implemented in Europe as early as the 1990s, for example in Leeds, UK, Madrid or Trondheim in Norway. These examples have resulted in reduced travel time and increased occupancy levels (University of Leeds - Institute for Transport Studies, n.d.). HOT lanes, however, have not yet been realized.
 
-State-of-the-art technology for HOT lanes is the use of sensors that automatically detect the number of occupants in a vehicle. Simultaneously, tolls are calculated dynamically based on the traffic situation and the current prices are displayed in real time via electronic traffic signs (Kapsch TrafficCom, n.d.).
+State-of-the-art technology for HOT lanes is the use of sensors that automatically detect the number of occupants in a vehicle. Simultaneously, tolls are calculated dynamically based on the traffic situation and the current prices are displayed in real time via electronic traffic signs (Kapsch TrafficCom, n.d.). In the recent years, Kapsch TrafficCom implemented various new tolling systems in the US ranging from New York to Los Vegas. Those tolling systems include cashless, app-based tolling and cover e.g.~four bridges and two tunnels between New York and New Jersey, tolling and managed lane solutions in Texas or the interstate 15 and State Route 91 in the state of California (Kapsch TrafficCom, 2022; Salzburger Nachrichten, 2020).
 
 \hypertarget{relevant-initiatives-in-austria-4}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-4}}
@@ -1566,7 +1623,7 @@ State-of-the-art technology for HOT lanes is the use of sensors that automatical
 \begin{itemize}
 \tightlist
 \item
-  \href{https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes}{Kapsch.net}
+  \href{https://www.kapsch.net/presse/aussendungen/ktc-20220913-pr-de}{Kapsch.net}
 \item
   \href{https://www.sn.at/wirtschaft/oesterreich/kapsch-trafficcom-stellt-sich-breiter-auf-81617200}{sn.at}
 \end{itemize}
@@ -1632,6 +1689,8 @@ TRL & SRL \\
   How can HOT lanes be combined with the Austrian toll system?
 \item
   What social inequalities can HOT lanes create and can they be compensated for?
+\item
+  Do HOV and/or HOT lanes influence the safety on highways?
 \end{enumerate}
 
 \hypertarget{further-links-3}{%
@@ -1659,17 +1718,27 @@ TRL & SRL \\
 \begin{itemize}
 \tightlist
 \item
+  Berger, W. J. (2002). The Austrian HOV-lane experiences in implementation and operation. Journal of Civil Engineering and Management. 8, 4, 255-262. DOI: 10.1080/13923730.2002.10531285
+\item
   Boysen, N., Briskorn, D., Schwerdfeger, S., \& Stephan, K. (2021). Optimizing carpool formation along high-occupancy vehicle lanes. European Journal of Operational Research.
 \item
   Burris, M., Alemazkoor, N., Benz, R., \& Wood, N. S. (2014). The impact of HOT lanes on carpools. Research in Transportation Economics, 44, 43-51.
 \item
+  Cohen, M. C., Jacquillat, A., Ratzon, A., Sasson, R. (2022). The impact of high-occupancy vehicle lanes on carpooling, Transportation Research Part A: Policy and Practice. 165, 186-206. \url{https://doi.org/10.1016/j.tra.2022.08.021}
+\item
   Gihub.org. (2020). Dynamic Pricing for Roadways and Parking. Available at: \url{https://www.gihub.org/resources/showcase-projects/dynamic-pricing-for-roadways-and-parking/} {[}Accessed: 15 April 2021{]}
+\item
+  Himes, S., Bonneson, J. A., Liu, C. (2022). Safety Prediction Method for Freeways Facilities with High-Occupancy Lanes. Transportation Research Record: Journal of the Transportation Research Borad. 2676, 8. \url{https://doi.org/10.1177/03611981221083918}
 \item
   Hosford, K., Firth, C., Brauer, M., \& Winters, M. (2021). The effects of road pricing on transportation and health equity: a scoping review. Transport Reviews, 1-22.
 \item
   Nohekhan, A., Zahedian, S., \& Sadabadi, K. F. (2021). Investigating the impacts of I-66 Inner Beltway dynamic tolling system. Transportation Engineering, 4, 100059.
 \item
   Kapsch TrafficCom. (n.d.). Kapsch TrafficCom \textbar{} Managed lanes. Available at: \url{https://www.kapsch.net/ktc/Portfolio/IMS/Congestion/Managed-lanes?lang=en-us} {[}Accessed: 13 April 2021{]}.
+\item
+  Kapsch TrafficCom. (2022). Kapsch TrafficCom erhätlt volle Systemakzeptanz fü rExpress Lanes Mautsystem auf beliebter kalifornischen Autobahn. Available at: \url{https://www.kapsch.net/presse/aussendungen/ktc-20220913-pr-de} {[}Accessed: 31 March 2023{]}.
+\item
+  Salzburger Nachrichten (2020). Kapsch TrafficCom stellt sich breiter auf. Salzburger Nachrichten. Available at: \url{https://www.sn.at/wirtschaft/oesterreich/kapsch-trafficcom-stellt-sich-breiter-auf-81617200} {[}Accessed: 31 March 2023{]}
 \item
   United States Department of Transportation - Federal Highway Administration. (n.d.). High-Occupancy Toll Lanes (Partial Facility Pricing) - Congestion Pricing - FHWA Office of Operations. Available at: \url{https://ops.fhwa.dot.gov/congestionpricing/strategies/involving_tolls/hot_lanes.htm} {[}Accessed: 12 April 2021{]}.
 \item
@@ -1684,6 +1753,8 @@ TRL & SRL \\
 
 \hypertarget{public_trans_priority}{%
 \section{Public transport priority systems}\label{public_trans_priority}}
+
+\textbf{Updated: 17th April 2023}
 
 \hypertarget{synonyms-5}{%
 \subsection*{Synonyms}\label{synonyms-5}}
@@ -1717,7 +1788,7 @@ For Vienna priority of public transport vehicles is of high importance (WIENER S
 \subsection*{Current state of art in research}\label{current-state-of-art-in-research-5}}
 \addcontentsline{toc}{subsection}{Current state of art in research}
 
-Current research aims at building on the existing solutions such as TSP and proposes so-called Green Light Optimal Speed Advisory (GLOSA) driver assistance systems. A multi segment GLOSA can take several lights in a sequence on route of a bus into account and allows the driver to adjust the speed, so that the bus can arrive at the intersection when the light is green. By that, the comfort of passengers can be increased and the fuel consumption as well as the tailpipe emissions be decreased, without negatively affecting the general traffic (Seredynski et al., 2014). However, Stahlmann et al.~(2018) argue that so far, most GLOSA simulation studies are too optimistic in terms of communication performance and recommend further improvement of GLOSA systems.
+Current research aims at building on the existing solutions such as TSP and proposes so-called Green Light Optimal Speed Advisory (GLOSA) driver assistance systems. A multi segment GLOSA can take several lights in a sequence on route of a bus into account and allows the driver to adjust the speed, so that the bus can arrive at the intersection when the light is green. By that, the comfort of passengers can be increased and the fuel consumption as well as the tailpipe emissions be decreased, without negatively affecting the general traffic (Seredynski et al., 2014). However, Stahlmann et al.~(2018) argue that so far, most GLOSA simulation studies are too optimistic in terms of communication performance and recommend further improvement of GLOSA systems. A framework for urban C-ITS GLOSA developed by Otto et al.~(2023) presents how the effectiveness of GLOSA can be evaluated based on the access lanes of signalized intersections and shows at which intersection and under which circumstance GLOSA performs well. With this framework it can be estimated what level of service is achieved for GLOSA while evaluating the possibilities for connected and automated driving. In this case, \protect\hyperlink{v2x}{V2X} communication can be a supporting technology of GLOSA. Chochliouros et al.~(2021) researched intelligent intersection applications, in particular GLOSA, and how the combination can help in the realization of an enhanced traffic management in urban areas that contributes to road safety and reduction of fuel consumption.
 
 Moreover, the Green Light Optimal Dwell Time Advisory (GLODTA) systems look into exploiting additional dwell time at the near-side bus stop (Seredynski et al., 2014). According to Seredynski \& Viti (2017) they can support on-route battery charging of electrical buses and also replace existing holding strategies used to regulate punctuality of bus services.
 
@@ -1736,8 +1807,10 @@ All around the world \protect\hyperlink{brt}{Bus Rapid Transit (BRT)} systems ha
 Regarding TSP, the cloud-based systems using GPS locations are standard technology (see Figure 1). However, there are still many outdated systems in use that are based on short-range radio. These systems require that all traffic lights are equipped with receivers. All buses in a fleet need special transmitters and an on-board system for positioning, which makes it an overall expensive system. At the same time, this technology is rather unreliable and maintenance intensive (SWARCO, 2021).
 
 \begin{figure}
-\includegraphics[width=0.7\linewidth]{image/pt_priority_system} \caption{Smart priority for public transport (SWARCO, 2021)}\label{fig:unnamed-chunk-10}
+\includegraphics[width=0.7\linewidth]{image/pt_priority_system} \caption{Smart priority for public transport (SWARCO, 2021)}\label{fig:unnamed-chunk-11}
 \end{figure}
+
+In Wallonia, Belgium, Yunex Traffic, in collaboration with the IT services of the transport operator of Wallonia, will implement a digital prioritization system for public transport. The solution is based on the ICTraffic C-ITS framework to ensure continuous real time updates of the position of the approaching bus which ensures that the light automatically switches to green and limiting the impact for other road users. (N. N., 2023)
 
 \hypertarget{relevant-initiatives-in-austria-5}{%
 \subsection*{Relevant initiatives in Austria}\label{relevant-initiatives-in-austria-5}}
@@ -1837,6 +1910,8 @@ TRL & SRL \\
 \item
   Cuthill, N., Cao, M., Liu, Y., Gao, X., \& Zhang, Y. (2019). The association between urban public transport infrastructure and social equity and spatial accessibility within the urban environment: An investigation of Tramlink in London. Sustainability, 11(5), 1229.
 \item
+  Dhochliouros, I. P., Spiliopoulou, A. S., Lazaridis, P., Zaharis, Z., Kourtis, M.-A., Kuklinski, S., Tomaszewski, L., Arvanitozisis, D., Kostopoulos, A. (2021). V2X Communications for the Support of GLOSA and Intelligent Intersection Applications. Artificial Intelligence Applications and Innovations. 138-152. DOI: 10.1007/978-3-030-79157-5\_13
+\item
   Figenbaum, E., Fearnley, N., Pfaffenbichler, P., Hjorthol, R., Kolbenstvedt, M., Jellinek, R., \ldots{} \& Iversen, L. M. (2015). Increasing the competitiveness of e-vehicles in Europe. European transport research review, 7(3), 1-14.
 \item
   Gassel, C., Matschek, T., \& Krimmling, J. (2012). Cooperative traffic signals for energy efficient driving in tramway systems. Aspekte der Verkehrstelematik--ausgewählte Veröffentlichungen 2012, 1.
@@ -1846,6 +1921,10 @@ TRL & SRL \\
   Litman, T. (2015). Evaluating public transit benefits and costs. Victoria, BC, Canada: Victoria Transport Policy Institute.
 \item
   Litman, T. (2017). Evaluating Transportation Diversity. Victoria Transport Policy Institute.
+\item
+  N. N. (2023). Yunex Traffic gives priority to busses and trams in Wallonia, Belgium. Available at: \url{https://www.yunextraffic.com/priority-to-busses-and-trams-in-wallonia-belgium/} {[}Accessed: 6 April 2023{]}
+\item
+  Otto, T., Klöppel-Gersdorf, M., Partzsch, I. (2022). A Framework for Urban C-ITS GLOSA Evaluation. Conference on Sustainable Urban Mobility: Smart Energy for Smart Transport. 382-392. DOI: 10.1007/978-3-031-23721-8-33
 \item
   Schwendinger, M. (2019). Vorrang für Busse und Straßenbahnen in Städten. \url{https://vcoe.at/files/vcoe/uploads/Projekte/Factsheets} 2019 Neu/VCÖ-Factsheet ÖV-Bevorrangen.pdf
 \item
@@ -1865,6 +1944,8 @@ TRL & SRL \\
 \hypertarget{transformation_public_space}{%
 \section{Transformation of public space and digital solutions}\label{transformation_public_space}}
 
+\textbf{Updated: 19th April 2023}
+
 \hypertarget{definition-6}{%
 \subsection*{Definition}\label{definition-6}}
 \addcontentsline{toc}{subsection}{Definition}
@@ -1872,6 +1953,8 @@ TRL & SRL \\
 The digitalisation of public (and urban) spaces has been developing, giving rise to concepts such as smart city, wise city, U-city, intelligent city etc. However, its real acceleration started in 2010s as a result of industrial initiatives focused on the collection, management, processing and near real-time analysis of big data through the wide-spread of sensors connecting urban spaces, known as Internet of Things (IoT) devices. In the recent years, especially since the outbreak of COVID-19 pandemic, the urban digitalisation reached a new level. For example, in China digital systems for mass surveillance based on facial recognition are being deployed and in other parts of the world legal basis (such as General Data Protection Regulation (GDPR)) have been developed to allow for recording of biometric data in public spaces (Languillon-Aussel, 2021). Beyond surveillance, digitalisation of public spaces is used in many different areas such as payments and pricing, participatory tools or law enforcement, where, for example, in 2020 Singapore initiated the satellite-based urban toll system which allows for tracking any vehicle at any time of the day to implement dynamic pricing for road use and zone access (Languillon-Aussel, 2021).
 
 Current approaches to the digitalisation of public spaces include mobiles apps, high resolution cameras, interactive stands and kiosks providing services and information, but also IoT devices such as sensors and beacons that automatically collect the data. These devices bring potential to improve the quality and coverage of service in public spaces, lower provision and delivery costs, increase safety and security. Nonetheless, they are not without challenges. Potential issues arise due to privacy and security concerns especially when private sector plays a key role (Warbis, 2018), potential technical difficulties such as unreliable Internet connection or unstable electricity supply (Haldrup, 2018) as well as low trust among society members and so-called \emph{digital exclusion} of certain social groups (Durand \& Zijlstra, 2020).
+
+Additionally, in the context of future smart cities, the concept of Urban Digital Twin (UDT) plays a key role to understand the complex systems in a city and illustrate it digitally to increase the smartness of a city. A digital twin is a digitized copy of a smart city, a completely virtual scale model. It was first used in the construction of buildings and other infrastructures with BIM programs, which enable all the components of a building to be monitored. The aim of this system was to anticipate any potential faults in the material. It soon extended to other services, e.g.~sewage system, energy, roads, education. The digital twin is like a SimCity (the video game) with a virtual city identical to the physical city. (N. N., 2021; Rado, 2021)
 
 \hypertarget{key-stakeholders-6}{%
 \subsection*{Key stakeholders}\label{key-stakeholders-6}}
@@ -1901,6 +1984,10 @@ The research shows that as a result of higher digitalisation of public spaces an
   \textbf{Ethnicity}: The individuals from minorities tend to be more disadvantaged, however, this is frequently linked to other contributing factors such as cultural preferences or economic deprivation (Durand \& Zijlstra, 2020).
 \end{itemize}
 
+Moss et al.~(2021) researched digitalisation in smart cities and revealed that digital platforms and apps are creating new ways of seeing and experiencing nature in the city, but often cling to conventional, anthropocentric notions of urban nature, with sometimes has detrimental effects. More broadly, it suggests that exploring practices of digitalization beyond the remit of conventional smart city policy can enrich scholarship on digitally mediated human-nature relations in the city.
+
+A specific geospatial platform for UDT models, that can be built in and visualized was proposed by Lee et al.~(2021). Nevertheless, the concept and definition of UDT is not clear and its implications to improve urban planning and management to create secure and sustainable cities are not sufficiently tested. Bigorra et al.~(2022) state, that the present capability to act on the physical twin is limited and standardization is needed to achieve interoperability between.
+
 \hypertarget{current-state-of-art-in-practice-6}{%
 \subsection*{Current state of art in practice}\label{current-state-of-art-in-practice-6}}
 \addcontentsline{toc}{subsection}{Current state of art in practice}
@@ -1913,7 +2000,7 @@ Then, digitalisation brings the \textbf{transformation of public services} where
 
 Two of such examples are (\emph{1}) \href{https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1\&zoom=5.0\&lng=-0.36613\&lat=54.04187}{Borough Data Explorer} that gathers data for the indicators that either contribute to borough's so-called \emph{Borough Manifesto targets} or feature within borough's \emph{social progress index} (Lbbd.emu-analytics.net, 2021). (\emph{2}) The Australian city of Joondalup partnered with \href{https://www.lakesidejoondalup.com.au/store-directory/telstra-shop/}{Telstra} to test IoT technologies to better monitor environmental factors like temperature, humidity, pollution, light and noise levels in real time (Barns, 2017).
 
-Next, a \textbf{public-private partnership} is crucial for the strong and reliable digital public domain, where technology companies need to understand policy and strategy of local government to identify areas that may be supported through digital deployment. On the other hand, it is important for local government to understand the features of the technology for deployment. This tight cooperation enables the public sector to direct the digitisation of places in ways that work for public good, retaining the publicness of space and place, regardless of who owns, oversees or manages technologies being deployed (Warbis, 2018). The examples of such initiatives are \href{https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/}{ÖBB360 wegfinder}, \href{https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/}{Living Labs} and \href{https://www.aspern-seestadt.at/en}{Seestadt Wien}.
+Next, a \textbf{public-private partnership} is crucial for the strong and reliable digital public domain, where technology companies need to understand policy and strategy of local government to identify areas that may be supported through digital deployment. On the other hand, it is important for local government to understand the features of the technology for deployment. This tight cooperation enables the public sector to direct the digitisation of places in ways that work for public good, retaining the publicness of space and place, regardless of who owns, oversees or manages technologies being deployed (Warbis, 2018). The examples of such initiatives are \href{https://wegfinder.at/presse/2021/mit-wegfinder-ist-mobility-as-a-service-in-oesterreich-angekommen(1)/}{ÖBB360 wegfinder}, \href{https://austriatech.at/en/insight-into-the-work-of-the-urban-mobility-laboratories/}{Living Labs} and \href{https://www.aspern-seestadt.at/en}{Seestadt Wien}. Additionally, mobility hubs, which offer various means of transport in sharing mode, from e-car to e-scooter to cargo bike, can combine initiatives and offer a better user experience (N. N., 2021).
 
 Within transport network the digitalisation brings benefits of improved customisation, efficiency and comfort. The examples of such efforts are real-time information on parking spaces availability such as \href{https://www.eparkomat.com/}{eParkomat} in Czech Republic, digital ticketing and scheduling, for instance, \href{https://www.dv-ticketing.com/}{DV Ticketing} or \href{https://www.thetrainline.com/}{Trainline} in the UK, electronic system for car and bike sharing fleets such as \href{https://www.share-now.com/at/en/}{Share-now} or \href{https://www.nextbike.at/de/niederoesterreich/}{Nextbike} etc. For more information on bike and car sharing see sections on \protect\hyperlink{bike_sharing}{bicycle and e-bicycle hire} and \protect\hyperlink{car_sharing}{car sharing} in this work.
 
@@ -1935,6 +2022,8 @@ Therefore, the digitalisation of urban spaces can influence the innovation in pa
   \href{https://www.aspern-seestadt.at/en}{Seestadt Wien}
 \item
   \href{https://ec.europa.eu/regional_policy/en/projects/Austria/support-for-digital-transformation-in-lower-austria}{House of digitalisation}
+\item
+  \href{https://urbaninnovation.at/projekte/mo-hub/}{Mo.Hub}
 \end{itemize}
 
 \hypertarget{impacts-with-respect-to-sustainable-development-goals-sdgs-6}{%
@@ -2011,6 +2100,8 @@ TRL & SRL \\
 \item
   What roles has digital played in adapting public spaces to the health crisis of COVID-19?
   (Languillon-Aussel, 2021)
+\item
+  What about data safety in digital urban spaces?
 \end{enumerate}
 
 \hypertarget{further-links-4}{%
@@ -2038,6 +2129,8 @@ TRL & SRL \\
 \item
   Barns, S. (2017) Surprise! Digital space isn't replacing public space, and might even help make it better. Available at: \url{https://theconversation.com/surprise-digital-space-isnt-replacing-public-space-and-might-even-help-make-it-better-87173} {[}Accessed: 12 April 2021{]}.
 \item
+  Bigorra, J. F., Casals, M., Gangolells, M. (2022). The adoption of urban digital twins. Cities. 131, 103905. \url{https://doi.org/10.1016/j.cities.2022.103905}
+\item
   Bouzguenda, I., Alalouch, C., \& Fava, N. (2020). Examining digital participatory planning: maturity assessment in a small Dutch city. Journal of Cleaner Production, 264, 121706.
 \item
   Durand, A. \& Zijlstra, T. (2020). The impact of digitalisation on the access to transport services: a literature review. 10.13140/RG.2.2.22686.97600.
@@ -2050,9 +2143,19 @@ TRL & SRL \\
 \item
   Lbbd.emu-analytics.net. (2021). Borough Data Explorer. Available at: \url{https://lbbd.emu-analytics.net/main/(view/950db2c7-1a3b-448d-9b21-444a0ec7b5e0//rightBar:appinfo)?basemapDetail=1\&zoom=4.7\&lng=3.34490\&lat=54.11363} {[}Accessed: 12 April 2021{]}.
 \item
+  Lee, A., Lee, K.-W., Kim, K.-H., Shin, S.-W. (2022). A Geospatial Platform to Manage Large-Scale Individual Mobility for an Urban Digital Twin Platform. Remote Sensing. 14(3), 723. \url{https://doi.org/10.3390/rs14030723}
+\item
+  Moss, T., Voigt, F., Becker, S. (2021). Digital urban nature -- Probing a void in the smart city discourse. City -- Analysis of Urban Change, Theory, Action. 25, 3-4, 255-276. \url{https://doi.org/10.1080/13604813.2021.1935513}
+\item
+  N. N. (2021). Mobility Hubs -- The Multimodal Stations Centre of Everything. Intertraffic. Available at: \url{https://www.intertraffic.com/news/infrastructure/mobility-hubs-multimodal-stations-at-the-centre-of-everything/} {[}Accessed: 6 April 2023{]}
+\item
+  N. N. (2021). What is a digital twin?. Tomorrow City. Available at: \url{https://tomorrow.city/a/what-is-a-digital-twin} {[}Accessed: 6 April 2023{]}
+\item
   Pangbourne, K. (2018). Mobility and Ageing: A Review of Interactions Between Transport and Technology from the Perspective of Older People In A. Curl \& C. Musselwhite (Eds.), Geographies of Transport and Ageing (pp.~51-71). Cham: Springer International Publishing.
 \item
   Parkinson J., 2012, Democracy and Public Space: The Physical Sites of Democratic Performance, Oxford: Oxford University Press, 262 p.
+\item
+  Rado, N. (2021). Urban digital twins will shape the future of smart cities. InnovationsLab -- Central European University. Available at: \url{https://www.ilab.ceu.edu/blog-posts/urban-digital-twins-will-shape-the-future-of-smart-cities} {[}Accessed: 6 April 2023{]}
 \item
   Warbis, M. (2018). Making the Spaces of Cities Smarter: Why cities (and their citizens) should embrace the digital public realm. \textless Available at: \url{https://medium.com/@warbismichelle/making-the-spaces-of-cities-smarter-why-cities-should-embrace-the-digital-public-realm-c12afc810aaa}\textgreater. {[}Accessed: 12 April 2021{]}
 \end{itemize}
@@ -3278,7 +3381,7 @@ TRL & SRL \\
 Dynamic Route Guidance (DRG) is a system which offers route planning and guidance to the driver based on current road and traffic conditions (Dynamic Route Guidance - Car Terms \textbar{} SEAT, 2021). It presents the most appropriate route for the driver in the exact moment considering estimated road traffic (Chatterjee and McDonald, 1999). DRG can typically divided into infrastructure-based and Infrastructure-less, as seen in Figure 4.1.
 
 \begin{figure}
-\includegraphics[width=0.55\linewidth]{image/DRS} \caption{Classification of route guidance systems (Khanjary and Hashemi, 2012)}\label{fig:unnamed-chunk-15}
+\includegraphics[width=0.55\linewidth]{image/DRS} \caption{Classification of route guidance systems (Khanjary and Hashemi, 2012)}\label{fig:unnamed-chunk-16}
 \end{figure}
 
 \textbf{Infrastructure-based architecture}
@@ -3460,7 +3563,7 @@ TRL & SRL \\
 Speed limits are based on safety, mobility and environmental considerations. While fixed speed limits represent the appropriate speed for average conditions, variable or dynamic speed limits (DSL) take account of the real time traffic, or the road and weather conditions. Therefore, the latter reflect the safe speed better (Mobility and Transport, 2020). The road users are typically informed of the current speed limit by electronic signs above or beside the lanes (De Pauw et al., 2018), as shown in figure 1. These can be supplemented with warning signs (dynamic signage system). For example, if the usual speed limit is 100 km/h, the DSL could change to 80 km/h and further to 60 km/h, to limit rear-end collisions, if there is e.g., a traffic jam ahead or weather conditions are difficult.
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{image/dynamic_signage} \caption{Dynamic signage system in Austria (ASFiNAG, 2019b)}\label{fig:unnamed-chunk-18}
+\includegraphics[width=0.9\linewidth]{image/dynamic_signage} \caption{Dynamic signage system in Austria (ASFiNAG, 2019b)}\label{fig:unnamed-chunk-19}
 \end{figure}
 
 With respect to the impact on the societal level, a Belgian study, by E. De Pauw et al.~showed a significant decrease (-18 \%) in the number of injury crashes after the introduction of a DSL system (De Pauw et al., 2018). F.G. Habtemichael and L. de Picado Santos (2013) found that a DSL system has the highest safety benefit during highly congested traffic conditions. The operational benefit in turn was the highest during lightly congested traffic conditions. However, the success of DSL is highly dependent on the level of driver compliance (Habtemichael \& de Picado Santos, 2013). Besides the safety aspects, the goal of DSL is to harmonize the traffic flow. Heavy traffic can cause shock waves, which result in longer travel times and large variations in the speeds of the vehicles. The latter again may lead to unsafe situations. By using DSL this phenomenon could be reduced (Hegyi et al., 2005). Traffic flow efficiency can be improved more, when DSL is combined with coordinated ramp metering (Carlson, 2010). Speed limits can also be temporary lowered, due to high emission values. If the emission values combined with the amount of traffic, reach a specific level, the DSL-System responds automatically and lowers the speed limit for a certain time. How high that level is, depends on the local policies (ASFiNAG, 2022).
@@ -4521,11 +4624,11 @@ These domains have been described in more detail in recent years (Erhart et al.,
 The following two figures give an overview of the definition of the classifications of the ISAD levels and the SEA automations levels.
 
 \begin{figure}
-\includegraphics[width=0.7\linewidth]{image/ISAD_2021} \caption{Levels of the Infrastructure Support for Automated Driving (ISAD) (Inframix, n.d.)}\label{fig:unnamed-chunk-21}
+\includegraphics[width=0.7\linewidth]{image/ISAD_2021} \caption{Levels of the Infrastructure Support for Automated Driving (ISAD) (Inframix, n.d.)}\label{fig:unnamed-chunk-22}
 \end{figure}
 
 \begin{figure}
-\includegraphics[width=0.7\linewidth]{image/SAE_2021} \caption{SAE Levels of Driving Automation (SAE International, 2021)}\label{fig:unnamed-chunk-22}
+\includegraphics[width=0.7\linewidth]{image/SAE_2021} \caption{SAE Levels of Driving Automation (SAE International, 2021)}\label{fig:unnamed-chunk-23}
 \end{figure}
 
 Depending on the degree of automated driving, it will be possible to further reduce the number of accidents, because human error is the cause of as many as 90 percent of all road accidents. However, this process will be lengthy because conventional and automated vehicles will continue to drive in mixed traffic for many years to come. It must be prevented that the technical systems fail or simply misjudge traffic situations (Rudschies \& Kroher, 2021).
@@ -5267,7 +5370,7 @@ The ITF report differentiates between several different micromobility alternativ
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.5\linewidth]{image/micromobility} \caption{Micromobility (adapted from OECD/ITF (2020)).}\label{fig:unnamed-chunk-25}
+\includegraphics[width=0.5\linewidth]{image/micromobility} \caption{Micromobility (adapted from OECD/ITF (2020)).}\label{fig:unnamed-chunk-26}
 \end{figure}
 
 Definitions, classifications and regulatory frameworks for micromobility vary around the world. Bicycles are the smallest vehicle in most countries' classifications. Consequently, a number of micro-vehicles - such as standing e-scooters, e-skateboards and self-balancing vehicles - are excluded from classifications. In some cases, they are classified as toys and are therefore not allowed on public roads. As a temporary solution, Korea has classified these devices as cars. The authorities in Singapore decided to create a new vehicle category called ``Personal Mobility Device'' (PMD). Given the obvious international importance of micro-vehicles and the difficulty in defining and categorising them, it might be useful to develop an internationally recognised classification system for them (OECD/ITF, 2020).
@@ -5275,7 +5378,7 @@ Definitions, classifications and regulatory frameworks for micromobility vary ar
 In the \href{https://unece.org/resolutions}{European Union Regulation No.~168/2013}, micromobility vehicles are in class L (UNECE, 2017). Class L vehicles are motorised two-, three- and four-wheeled vehicles. The category uses power, energy source, speed, length, width and height as classification criteria. However, only ``powered electric bicycles with a maximum speed of 25 km/h and a net power of between 250 watts and 1 000 watts'' and ``any two-wheeled vehicle with a maximum design speed of more than 25 km/h and up to 45 km/h and a net power of up to 4 000 watts'' can be classified in the L1e category of ``light two-wheeled motor vehicles''. Other micro-vehicles do not fit into any category. OECD/ITF (2020) proposes to classify micromobility as follows:
 
 \begin{figure}
-\includegraphics[width=0.5\linewidth]{image/micromobility_classes} \caption{Proposed classification of micro-mobility devices (OECD/ITF (2020).}\label{fig:unnamed-chunk-26}
+\includegraphics[width=0.5\linewidth]{image/micromobility_classes} \caption{Proposed classification of micro-mobility devices (OECD/ITF (2020).}\label{fig:unnamed-chunk-27}
 \end{figure}
 
 In terms of freight transport, \protect\hyperlink{intermodal_freight}{intermodal freight} transport is crucial as a feeder to cities to reduce emissions. In the city centre (see \protect\hyperlink{urban_delivery}{urban deliveries}) there are two main areas that could provide practical and relevant solutions to address the challenges and efficiency of last mile freight transport: (1) freight demand management (FDM) measures and (2) improving parking and charging infrastructure. One FDM measure would be to push for out-of-hours deliveries in order to change the delivery activities of freight forwarders and shippers. Furthermore, receiver prices as well as incentives could play an important role in reducing freight transport. (Holguín-Veras \& Sánchez-Díaz, 2016). In European cities (especially in France), a significant proportion of double-parked delivery vehicles (delivery vehicles parked on the street parallel to parked cars) is observed (Patier et al., 2014). In this context, \protect\hyperlink{space_book}{Smart delivery space booking} could reduce the effects. \protect\hyperlink{passenger_drones}{Passenger drones} and \protect\hyperlink{electric_delivery_fleets}{Electric vehicle delivery fleets} could also reduce some of the externalities of freight transport in cities, but they might also create some new negative externalities.
@@ -5301,7 +5404,7 @@ EEA (2019) concludes that better F/L/O-mile connectivity in cities can significa
 In terms of Environmental sustainability Severengiz et al.~(2020) compares the g CO\textsubscript{2} eq/passenger km (pkm) of different modes of transport (Figure 7.3). Whereby Moreau et al.~(2020) compared shared and private e-scooter and calculated 131g CO\textsubscript{2} eq/pkm for the shared vehicle and 67g CO\textsubscript{2} eq/pkm for the private vehicle.
 
 \begin{figure}
-\includegraphics[width=0.5\linewidth]{image/flms_emissions} \caption{Comparison of the CO~2~  equivalent emissions per passenger-km of different modes of transport (Severengiz et al., 2020)}\label{fig:unnamed-chunk-27}
+\includegraphics[width=0.5\linewidth]{image/flms_emissions} \caption{Comparison of the CO~2~  equivalent emissions per passenger-km of different modes of transport (Severengiz et al., 2020)}\label{fig:unnamed-chunk-28}
 \end{figure}
 
 Accessibility is an indicator of the ability to reach frequently visited places efficiently. This is gaining increasing attention as a complement to the more traditional mobility-based performance measures in transport planning, such as `average delays' and `level of service'. Assessing performance from an accessibility perspective provides a balanced, more holistic approach to transport analysis and planning. In particular, it considers alternative strategies to reduce congestion and mitigate environmental problems, such as promoting efficient, resource-efficient land use policies. Accessibility is a product of mobility and proximity, improved either by increasing the speed of getting between point A and point B (mobility), or by bringing points A and B closer together (proximity), or by a combination of these. In this sense, an accessibility-based approach lends legitimacy to land use initiatives and urban management tools (Cervero, 2005).
@@ -5793,7 +5896,7 @@ According to Brown (2018) flat fares are the most common around the world and pr
 The prices of public transport for users vary greatly as a statistic of public transport single tickets worldwide shows (Figure 1). Also within a country the prices vary greatly as a report of the ADAC (2019) demonstrates. At 109.20 euros, the monthly ticket in Hamburg is almost twice as expensive as in Munich. However, in Hamburg you can still travel far beyond the city limits. The average monthly ticket in Germany costs 77.50 euros. Day tickets cost an average of 7.02 euros. In some cities it is valid for 24 hours from the time of validation and in others it is only valid for the day of validation, but often until well after midnight.
 
 \begin{figure}
-\includegraphics[width=1\linewidth]{image/tickets_prices} \caption{Prices for standard single tickets for local public transport in selected cities around the world  (statista.at, 2017)}\label{fig:unnamed-chunk-30}
+\includegraphics[width=1\linewidth]{image/tickets_prices} \caption{Prices for standard single tickets for local public transport in selected cities around the world  (statista.at, 2017)}\label{fig:unnamed-chunk-31}
 \end{figure}
 
 More and more cities nowadays offer public transport completely free of charge. The first experiments were already carried out in the 1960s. In the meantime, around 100 cities and towns around the world have introduced \href{https://freepublictransport.info/city/}{free public transportation} in one way or another. In some cities, only part of the public network is free, and in others, certain groups of the population, such as registered residents or pensioners, are allowed to ride for free. In Tallinn, the capital of Estonia, for example, residents have been able to ride the public transport system without a ticket since 2013. According to a study, this led to an increase in the proportion of people using public transport in the city from 55 to 63 percent (Cats et al., 2017). In 2018, they expanded the model to other parts of the country. Luxembourg, with a population of 626,000, is the first country to offer completely free public transport since 2020 (Yeung, 2021). In Dunkirk, France, public transportation has been free since 2018. A government-commissioned study concluded that eight months after the model was introduced, trips by bus increased by 65 percent during the week and 125 percent on weekends. Now some larger French cities are also experimenting with the idea. In Paris, free public transport for under-18s was introduced in 2020. In Strasbourg, the same policy will be implemented in September 2021. According to the Strasbourg government, this is a climate protection measure, as many of the 80,000 or so schoolchildren are currently taken to school by their parents. It is also intended to help socially disadvantaged families (who will save around 550 euros a year with two children) (Pallinger, 2021). In the Occitanie region of southern France (population around six million), a scheme has been introduced whereby 18- to 26-year-olds who travel by train at least 30 times a month will pay nothing, with the dual aim of helping young workers and reducing carbon emissions (Yeung, 2021).
@@ -6459,7 +6562,7 @@ Another advantage of using smart cards ticketing, is the large amount of data on
 The latest research goes in the direction of using smart phones or other mobile devices for smart ticketing. An initiative, led by NFC Forum and GSMA achieved in 2015 together with global public transport representatives, the Smart Ticketing Alliance and the JR East as well as standards bodies, including CEN and ISO, harmonizing the specifications of mobile device NFC interfaces and public transport readers and cards. Together they established standards for testing mobile devices and public transport equipment (NFC Forum, 2016).
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{image/smart_cards} \caption{The evolution of mobile ticketing (NFC Forum, 2016)}\label{fig:unnamed-chunk-33}
+\includegraphics[width=0.9\linewidth]{image/smart_cards} \caption{The evolution of mobile ticketing (NFC Forum, 2016)}\label{fig:unnamed-chunk-34}
 \end{figure}
 
 Furthermore, current research addresses the issues of big data and how collected data through contactless smart cards can be best analysed (see Kurauchi \& Schmöcker, 2017). Recent studies investigated a prototype of the BI/BO (be in/be out) system, working in the public transport system in Lodz, Poland. The Passenger BIBO and automation of the CICO (check-in/check-out) give rise to a new approach to an integrated passenger identification model by applying machine learning technologies and using Internet of Things (IoT), through beacons and smartphones. It enables wireless connection with the use of bluetooth and automatic detection of passengers (Hasimi et al., 2021; Mastalerz et al, 2020). Bieler et al.~(2022) explored solutions for automated fare collection in public transportation and found significant positive impacts on consumer experiences and reduction of pollutant emissions in urban transportation due to a more seamless and efficient fare collection systems.
@@ -6826,7 +6929,7 @@ Mobility as a Service or Mobility on Demand concepts are designed to make it pos
 Bell (2019) has analysed the user requirements of mobility hubs. He argues that mobility hubs or intermodal hubs differ depending on the area in which they are implemented, e.g.~rural or urban areas, and that success and sustainability strongly depend on the particular design. An overview of his general conclusion is shown in Figure 7.2.
 
 \begin{figure}
-\includegraphics[width=0.65\linewidth]{image/mobility_hubs} \caption{: User requirements at public transport stops (Bell, 2019)}\label{fig:unnamed-chunk-34}
+\includegraphics[width=0.65\linewidth]{image/mobility_hubs} \caption{: User requirements at public transport stops (Bell, 2019)}\label{fig:unnamed-chunk-35}
 \end{figure}
 
 Based on research conducted in American cities, Hochmair (2015) argues, that it is recommended to ensure improved cycling infrastructure, such as bike-sharing stations, within a 1-mile radius for bus-only stations and within 2 miles for train stations.
@@ -7550,7 +7653,7 @@ Milakis et al.~(2017) optimistically estimated that AVs could lead to a reductio
 When talking about smart car parking as IoT Systems we can distinguish between different forms and architectures. The figure below gives an overview of different approaches to smart parking, starting with smart parking systems (grey), sensors used in smart parking systems (orange), networking technologies (blue), user interfaces (yellow), computational approaches (grey) and provided services (yellow) (Fahim et al., 2021; Winter, 2021). High priority in research has been given to parking supervision, while gate management receives least priority.
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{image/SPS} \caption{Smart Parking (Fahim et al., 2021, p.2)}\label{fig:unnamed-chunk-37}
+\includegraphics[width=0.9\linewidth]{image/SPS} \caption{Smart Parking (Fahim et al., 2021, p.2)}\label{fig:unnamed-chunk-38}
 \end{figure}
 
 Levin et al.~(2020) conclude in their paper on parking infrastructure design for repositioning fully automated vehicles that empty AV repositioning trips (due to lower prices in more distant parking spaces) contribute to network congestion. They have developed a traffic assignment model with endogenous parking choice (where fuel consumption depends on traffic congestion). Since parking choice depends on fuel consumption and parking fees, urban planners can influence reallocation trips by adjusting parking fees. Analysis shows that the genetic algorithm was effective in finding parking options that reduce the impact of empty trips on congestion and reduce the cost of building parking infrastructure in zones with high land values. A similar study by Jiménez et al.~(2022) on perception, positioning and decision-making algorithms for autonomous valet parking using the LiDAR sensor tested in a real parking lot showed promising results with accurate behaviour of the AV. Further studies analyse various autonomous parking systems in different areas (e.g.~urban space, on-street and off-street parking) and with different network positioning. They mostly demonstrate successful technological functionality, while further practicability still needs future testing (Plihal et al., 2022).
@@ -8437,7 +8540,7 @@ Advanced driver assistance system is a broad spectrum of technologies that enhan
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.9\linewidth]{image/adas_level} \caption{Levels of driving automation (Shuttleworth, 2019)}\label{fig:unnamed-chunk-40}
+\includegraphics[width=0.9\linewidth]{image/adas_level} \caption{Levels of driving automation (Shuttleworth, 2019)}\label{fig:unnamed-chunk-41}
 \end{figure}
 
 \hypertarget{key-stakeholders-34}{%
@@ -11582,7 +11685,7 @@ The concept of PRT is more than 50 years old, nevertheless, they are only availa
 \end{itemize}
 
 \begin{figure}
-\includegraphics[width=0.4\linewidth]{image/PRT} \caption{London Heathrow Airport Shuttle (Kraft, 2012)}\label{fig:unnamed-chunk-48}
+\includegraphics[width=0.4\linewidth]{image/PRT} \caption{London Heathrow Airport Shuttle (Kraft, 2012)}\label{fig:unnamed-chunk-49}
 \end{figure}
 
 The reasons for such a limited appearance are scare technical capabilities and scalability of PRT systems along with high capital and operating costs (Furman et al., 2014, p.~36).
@@ -12468,7 +12571,7 @@ From 1G to 6G, the meaning of the mobile radio standards (year of introduction, 
 Two major standards for vehicular communications, in the allocated 5.9 GHz frequency band, have developed in recent years (Figure 12.1). One is the Dedicated Short-Range Communications (DSRC) protocol developed in the USA, and another one is the Intelligent Transportation System (ITS) G5 protocol developed by the European Telecommunications Standards Institute (ETSI). These standards are based on the IEEE 802.11p access layer, which was developed for vehicular networks (Mannoni et al., 2019). DSCR (IEEE 802.11p) is referred to as ITS-G5 in Europe, which has been well researched for 20 years and has reached sufficient technical maturity for current use. Despite the 2011 recommendation to use the IEEE 802.11p protocol as the standard for vehicular communications (IEEE, 2014), in recent years many researchers and industrial companies have considered the use of the LTE cellular network as an alternative solution for vehicular networking applications, especially for the transport of Floating Car Data FCD message streams (Salvo et al., 2017). But even though Cellular vehicle to everything (C-V2X) is a rather new technology, it is based on the 3rd Generation Partnership Project (3GPP) family of standards that are successfully deployed in almost all parts of the world (Sattiraju et al., 2020) (first trials in late 2017 (Fillenberg, 2017)).
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/DSRC} \caption{DSRC and C-V2X (Autocrypt, 2021)}\label{fig:unnamed-chunk-51}
+\includegraphics[width=0.6\linewidth]{image/DSRC} \caption{DSRC and C-V2X (Autocrypt, 2021)}\label{fig:unnamed-chunk-52}
 \end{figure}
 
 The term ``\emph{cellular}'' in C-V2X can cause some confusion. ``\emph{Cellular}'' in this context does not refer to the use of cellular networks, but to the use of the underlying electronics in cellular radios that are adapted to communicate directly from one radio to another. According to (Gettman, 2020), the following are the main similarities and differences between DSRC and C-V2X technology:
@@ -12784,7 +12887,7 @@ Further, an important part of Big Data is its life cycle, also called the inform
 Further, Djahel et al., (2014) proposed big data life cycle with respect to traffic management systems (TMS) as visualised in Figure 12.2.
 
 \begin{figure}
-\includegraphics[width=0.75\linewidth]{image/BDLC} \caption{Big Data lifecycle in smart transportation (Djahel et al., 2014)}\label{fig:unnamed-chunk-53}
+\includegraphics[width=0.75\linewidth]{image/BDLC} \caption{Big Data lifecycle in smart transportation (Djahel et al., 2014)}\label{fig:unnamed-chunk-54}
 \end{figure}
 
 In the first phase \emph{Data Sensing and Gathering (DSG)} the traffic data is monitored and collected, providing information about traffic volumes, incidents, occupancy or speed. Gathered data later feeds into the second phase \emph{Data Fusion, Processing and Aggregation} where the relevant information is extracted from raw data. Next, in the third phase \emph{Data Exploitation} the processed data is used to compute optimal routes, provide forcasts and obtain traffic statistics. Lastly, in the \emph{Service Delivery} phase, the TMS shares the knowledge with the end users such as drivers, authorities or passengers through the variety of
@@ -13555,7 +13658,7 @@ In terms of general system functioning, a study by Fishman et al., (2014) shows 
 Public bike-share systems are one of the world's fastest growing public transport modes, with an average annual growth of 37\% since 2009. The fastest increase takes place in China, a country that is experiencing a rapid uptake of electric bicycles (e-bikes). Sales of e-bikes are outpacing all other motorized modes. The figure 14.1 shows the rapid growth of the two emerging technologies, e-bikes and bike-share systems (Campbell et al., 2016).
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/bike_sharing} \caption{Growth in personal e-bike and public bikeshare systems (Campbell et al., 2016)}\label{fig:unnamed-chunk-58}
+\includegraphics[width=0.6\linewidth]{image/bike_sharing} \caption{Growth in personal e-bike and public bikeshare systems (Campbell et al., 2016)}\label{fig:unnamed-chunk-59}
 \end{figure}
 
 Private BSS operators from China (\emph{Mobike, Ofo}) and Shanghai (\emph{oBike}) are currently introducing large fleets of station-less rental bikes in cities worldwide. The roll-out, especially in European cities, has encountered problems as city governments have not been able to coordinate the introduction (Zademach and Musch, 2018). Many bikes have been found abandoned around the cities. In addition, there are fears in some cases that the private companies introduced the BSS with the sole reason of tapping into private user data (Schöffel et al., 2017).
@@ -14369,7 +14472,7 @@ Hydrogen in transport is only at the beginning of its development (in 2013 the f
 In terms of the number of hydrogen refuelling stations (HRS) worldwide, just about 375 stations are in operation in 2018, compared to 320 in 2017. Most of these are publicly available, the rest are demonstration/research projects and are used to supply hydrogen to private fleets. At the end of 2018, Europe was the region with the most HRS in operation with more than 170 HRS, while Asia (mainly Japan) was second with about 130 HRS and America (mainly the US) third with more than 70 stations installed. Figure below shows the number of HRS by country at the end of 2018 (Apostolou and Xydis, 2019):
 
 \begin{figure}
-\includegraphics[width=0.6\linewidth]{image/hydrogen_refuel} \caption{Number of hydrogen refuelling stations worldwide (Apostolou and Xydis, 2019)}\label{fig:unnamed-chunk-59}
+\includegraphics[width=0.6\linewidth]{image/hydrogen_refuel} \caption{Number of hydrogen refuelling stations worldwide (Apostolou and Xydis, 2019)}\label{fig:unnamed-chunk-60}
 \end{figure}
 
 The European Strategic Energy Technology Plan proposes hydrogen and fuel-cell technologies as crucial for obtaining green-house gases reduction goals by 2050 (Roadmap Europe H., 2019; Alvarez-Meaza et al., 2020). Hydrogen trucks are produced by Hyundai and Hyzon and have already been implemented in Switzerland and the Netherlands in 2021. The Xcient is the world's first mass-produced fuel cell electric truck with a range of 400 km and a charging of about 15 minutes. The American brand Hyzon Motors plans 100,000 trucks by 2030 for Europe.
